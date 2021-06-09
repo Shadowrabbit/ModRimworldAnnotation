@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <MentalBreakDef>
+    <defName>WildDecree</defName>
+    <mentalState>Wander_Sad</mentalState>
+    <intensity>Major</intensity>
+    <workerClass>MentalBreakWorker_WildDecree</workerClass>
+  </MentalBreakDef>
+
+  <MentalStateDef ParentName="BaseMentalState">
+    <defName>BerserkMechanoid</defName>
+    <stateClass>MentalState_Berserk</stateClass>
+    <label>aggression judgement scramble</label>
+    <category>Aggro</category>
+    <nameColor>(0.9,0.2,0.5)</nameColor>
+    <minTicksBeforeRecovery>40000</minTicksBeforeRecovery>
+    <maxTicksBeforeRecovery>60000</maxTicksBeforeRecovery>
+    <recoveryMtbDays>0.166</recoveryMtbDays>
+    <baseInspectLine>Aggression judgment scrambled</baseInspectLine>
+    <stateEffecter>Berserk</stateEffecter>
+    <unspawnedCanDo>true</unspawnedCanDo>
+  </MentalStateDef>
+
+</Defs>

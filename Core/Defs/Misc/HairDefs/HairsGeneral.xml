@@ -1,0 +1,546 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- ==================== Rural ==================== -->
+
+  <HairDef>
+    <defName>BriefPonytail</defName>
+    <label>brief ponytail</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Gaston</texPath>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Princess</defName>
+    <label>princess</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Princess</texPath>
+    <hairTags>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Scatman</defName>
+    <label>scatman</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scat</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <!-- ==================== Urban ==================== -->
+
+  <HairDef>
+    <defName>Lackland</defName>
+    <label>lackland</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Lackland</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Revolt</defName>
+    <label>revolt</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Revolt</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Pigtails</defName>
+    <label>pigtails</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Pigtails</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Afro</defName>
+    <label>afro</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Afro</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Bob</defName>
+    <label>bob</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bob</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Burgundy</defName>
+    <label>burgundy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Burgundy</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Troubadour</defName>
+    <label>troubadour</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Troubadour</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>GreasySwoop</defName>
+    <label>greasy swoop</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/GreasySwoop</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Cleopatra</defName>
+    <label>cleopatra</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cleopatra</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+  
+  <HairDef>
+    <defName>Cute</defName>
+    <label>cute</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Cute</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Decent</defName>
+    <label>decent</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Decent</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>FancyBun</defName>
+    <label>fancy bun</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/FancyBun</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <!-- ==================== Urban/Rural ==================== -->
+
+  <HairDef>
+    <defName>Senorita</defName>
+    <label>senorita</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Senorita</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Flowy</defName>
+    <label>flowy</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Flowy</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Long</defName>
+    <label>long</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Long</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+ <HairDef>
+    <defName>Mop</defName>
+    <label>mop</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mop</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Wavy</defName>
+    <label>wavy</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Wavy</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Messy</defName>
+    <label>messy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mess</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Curly</defName>
+    <label>curly</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Curly</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Fringe</defName>
+    <label>fringe</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Fringe</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Frozen</defName>
+    <label>frozen</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Frozen</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Ponytails</defName>
+    <label>ponytails</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Ponytails</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Bowlcut</defName>
+    <label>bowlcut</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bowlcut</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Bravo</defName>
+    <label>bravo</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Bravo</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Recruit</defName>
+    <label>recruit</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Recruit</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Rockstar</defName>
+    <label>rockstar</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Rockstar</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Snazzy</defName>
+    <label>snazzy</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Snazzy</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+
+  <!-- ====================== Punk ====================== -->
+
+  <HairDef>
+    <defName>Firestarter</defName>
+    <label>firestarter</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Firestarter</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Junkie</defName>
+    <label>junkie</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Junkie</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Scrapper</defName>
+    <label>scrapper</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scrapper</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Randy</defName>
+    <label>randy</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Randy</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Rookie</defName>
+    <label>rookie</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Rookie</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Spikes</defName>
+    <label>spikes</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Spikes</texPath>
+    <hairTags>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <!--================ Tribal ==================-->
+
+  <HairDef>
+    <defName>ShaveTopBraid</defName>
+    <label>shave top braid</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/ShaveTopBraid</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>BraidedKnot</defName>
+    <label>braided knot</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Braidbun</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Keeper</defName>
+    <label>keeper</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Keeper</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Primal</defName>
+    <label>primal</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Primal</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Warden</defName>
+    <label>warden</label>
+    <hairGender>FemaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Warden</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Elder</defName>
+    <label>elder</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Elder</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Locks</defName>
+    <label>locks</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Locks</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Savage</defName>
+    <label>savage</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Savage</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Sticky</defName>
+    <label>sticky</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Sticky</texPath>
+    <hairTags>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <!-- =============== Other mix ================== -->
+
+  <HairDef>
+    <defName>Shaved</defName>
+    <label>shaved</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Punk</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ShavedFemale</defName> <!-- This is a bit of a hack to get more female shave-headed soldiers -->
+    <label>shaved</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Shaved</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Tuft</defName>
+    <label>tuft</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Tuft</texPath>
+    <hairTags>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>ScorpionTail</defName>
+    <label>scorpion tail</label>
+    <hairGender>Any</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Scorpiontail</texPath>
+    <hairTags>
+      <li>Punk</li>
+      <li>Tribal</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Topdog</defName>
+    <label>topdog</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Topdog</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Mohawk</defName>
+    <label>mohawk</label>
+    <hairGender>MaleUsually</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Mohawk</texPath>
+    <hairTags>
+      <li>Urban</li>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+</Defs>

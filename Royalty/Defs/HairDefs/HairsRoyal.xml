@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Royal Female -->
+
+  <HairDef>
+    <defName>Artist</defName>
+    <label>artist</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Artist</texPath>
+    <hairTags>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Mary</defName>
+    <label>mary</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Mary</texPath>
+    <hairTags>
+      <li>Soldier</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Anne</defName>
+    <label>anne</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Anne</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Elisabeth</defName>
+    <label>elisabeth</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Elisabeth</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Jane</defName>
+    <label>jane</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Jane</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Lisa</defName>
+    <label>lisa</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Lisa</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Victoria</defName>
+    <label>victoria</label>
+    <hairGender>Female</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Victoria</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  
+  <!-- Royal Male -->
+
+  <HairDef>
+    <defName>Henry</defName>
+    <label>henry</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Henry</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Richard</defName>
+    <label>richard</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Richard</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Urban</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>Stephen</defName>
+    <label>stephen</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/Stephen</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Punk</li>
+    </hairTags>
+  </HairDef>
+
+  <HairDef>
+    <defName>William</defName>
+    <label>william</label>
+    <hairGender>Male</hairGender>
+    <texPath>Things/Pawn/Humanlike/Hairs/Royalty/William</texPath>
+    <hairTags>
+      <li>Royalty</li>
+      <li>Rural</li>
+    </hairTags>
+  </HairDef>
+  
+</Defs>

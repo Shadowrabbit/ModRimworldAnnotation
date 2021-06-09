@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <LetterDef ParentName="NegativeEvent">
+    <defName>Death</defName>
+    <letterClass>DeathLetter</letterClass>
+  </LetterDef>
+
+  <LetterDef ParentName="PositiveEvent">
+    <defName>NewQuest</defName>
+    <letterClass>NewQuestLetter</letterClass>
+  </LetterDef>
+
+  <LetterDef ParentName="ThreatBig">
+    <defName>NewQuest_ThreatBig</defName>
+    <letterClass>NewQuestLetter</letterClass>
+  </LetterDef>
+
+</Defs>

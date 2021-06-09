@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EffecterDef>
+    <defName>ProgressBar</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_ProgressBar</subEffecterClass>
+        <moteDef>Mote_ProgressBar</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+  
+  <EffecterDef>
+    <defName>Research</defName>
+    <children>
+    <li>
+      <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+      <soundDef>Interact_Research</soundDef>
+    </li>
+    <li>
+      <subEffecterClass>SubEffecter_SprayerContinuous</subEffecterClass>
+      <burstCount>2~4</burstCount>
+      <positionRadius>0.5</positionRadius>
+      <scale>1~1</scale>
+      <ticksBetweenMotes>500</ticksBetweenMotes>
+      <positionLerpFactor>1</positionLerpFactor>
+      <moteDef>Mote_AirPuff</moteDef>
+    </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Repair</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_Repair</soundDef>
+        <ticksBeforeSustainerStart>35</ticksBeforeSustainerStart>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <moteDef>Mote_SparkFlash</moteDef>
+        <spawnLocType>BetweenTouchingCells</spawnLocType>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <chancePerTick>0.2</chancePerTick>
+        <scale>2.5~3.5</scale>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <moteDef>Mote_SparkThrown</moteDef>
+        <spawnLocType>BetweenTouchingCells</spawnLocType>
+        <positionLerpFactor>0.49</positionLerpFactor>
+        <chancePerTick>0.2</chancePerTick>
+        <scale>0.24~0.34</scale>
+        <airTime>0.08~0.16</airTime>
+        <rotationRate>-240~240</rotationRate>
+        <speed>7.2~24</speed>
+        <angle>135~225</angle>
+        <positionRadius>0.02</positionRadius>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Mine</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_SoundTriggered</subEffecterClass>
+        <soundDef>PickHit</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerTriggered</subEffecterClass>
+        <moteDef>Mote_SparkFlash</moteDef>
+        <spawnLocType>BetweenTouchingCells</spawnLocType>
+        <positionLerpFactor>0.6</positionLerpFactor>
+        <chancePerTick>0.2</chancePerTick>
+        <scale>2.5~4.5</scale>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Drill</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_Drill</soundDef>
+      </li>
+      <li>
+        <subEffecterClass>SubEffecter_SprayerChance</subEffecterClass>
+        <moteDef>Mote_DustSlow</moteDef>
+        <ticksBetweenMotes>60</ticksBetweenMotes>
+        <scale>1.6~2.0</scale>
+        <rotationRate>-5~5</rotationRate>
+        <angle>30~60</angle>
+        <speed>0.4~0.9</speed>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <SoundDef>
+    <defName>Interact_Drill</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Interact/Work/Drill/Drill_loop</clipPath>
+          </li>
+        </grains>
+        <volumeRange>6~6</volumeRange>
+        <pitchRange>0.93~1.07</pitchRange>
+        <distRange>25~40</distRange>
+        <sustainLoopDurationRange>9999~9999</sustainLoopDurationRange>
+        <sustainAttack>1.1</sustainAttack>
+      </li>
+    </subSounds>
+  </SoundDef>
+  
+  <!--========================== Interact symbols ===========================-->
+  
+  <EffecterDef>
+    <defName>Sow</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_Sow</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Harvest</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_Harvest</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>Clean</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_Clean</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+
+  <EffecterDef>
+    <defName>ClearSnow</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_InteractSymbol</subEffecterClass>
+        <moteDef>Mote_ClearSnow</moteDef>
+      </li>
+    </children>
+  </EffecterDef>
+
+</Defs>

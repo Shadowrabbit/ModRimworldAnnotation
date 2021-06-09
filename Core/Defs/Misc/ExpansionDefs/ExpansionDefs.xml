@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  <ExpansionDef>
+    <defName>Core</defName>
+    <label>Core</label>
+    <description>Core RimWorld content.</description>
+    <linkedMod>Ludeon.RimWorld</linkedMod>
+    <iconPath>UI/HeroArt/RimWorldLogo</iconPath>
+    <isCore>True</isCore>
+  </ExpansionDef>
+
+  <ExpansionDef>
+    <defName>Royalty</defName>
+    <label>Royalty</label>
+    <description>- Empire faction
+- Noble title progression for your colonists
+- Psychic powers for combat and social influence
+    - Nobles gain psychics through ceremony
+    - Tribal psychics commune with anima trees
+    - Steal psychic power through quests
+- Meditate to gain focus
+    - Nobles meditate on the throne
+    - Tribals meditate in nature
+    - Pyromaniacs meditate to fire
+    - Others meditate to the dead, or to blank walls
+- Use noble permits to call Imperial troops, shuttles, and orbital strikes
+- Procedural quests
+    - Host rich nobles, poor refugees, and others
+    - Defend crashed shuttles
+    - Serve as aerial shock troops
+    - Build monuments, defeat enemies, recruit visitors
+- Mechanoid clusters may deploy on your map
+    - Wear them down with artillery
+    - Sneak in for pinpoint strikes
+    - Engage in frontal attacks
+    - Lure enemies or allies into the danger
+- Persona weapons with personality traits
+- New gear
+    - Jump packs for tactical flight
+    - Shield packs for emergency defense
+    - Cataphract armor for heavy combat
+    - Locust armor for long jumps
+    - Grenadier armor with frag support
+    - Phoenix armor for flame warfare
+    - Ultratech melee weapons
+- Techprints of new technology
+- Imperial body implants to augment brains, stomachs, arms, and skin
+- New musical instruments
+- Royal victory end-game quest
+- New music album by Alistair Lindsay</description>
+    <linkedMod>Ludeon.RimWorld.Royalty</linkedMod>
+    <steamUrl>steam://url/StoreAppPage/1149640</steamUrl>
+    <siteUrl>https://rimworldgame.com/</siteUrl>
+    <iconPath>UI/Buttons/ExpansionIcon_Royalty</iconPath>
+    <backgroundPath>UI/HeroArt/MenuBG_Royalty</backgroundPath>
+    <previewImagesFolderPath>UI/HeroArt/Preview_Royalty</previewImagesFolderPath>
+  </ExpansionDef>
+  
+</Defs>
