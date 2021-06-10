@@ -9,7 +9,11 @@ namespace RimWorld
     // Token: 0x020011F3 RID: 4595
     public abstract class IncidentWorker_Raid : IncidentWorker_PawnsArrive
     {
-        // Token: 0x06006497 RID: 25751
+        /// <summary>
+        /// 解决袭击派系
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <returns></returns>
         protected abstract bool TryResolveRaidFaction(IncidentParms parms);
 
         /// <summary>
@@ -80,12 +84,14 @@ namespace RimWorld
                 }
             }
 
+            //袭击策略不存在
             if (parms.raidStrategy == null)
             {
                 Log.Error("parms raidStrategy was null but shouldn't be. Defaulting to ImmediateAttack.", false);
                 parms.raidStrategy = RaidStrategyDefOf.ImmediateAttack;
             }
 
+            //到达模式不存在
             if (!(from x in parms.raidStrategy.arriveModes
                 where x.Worker.CanUseWith(parms)
                 select x).TryRandomElementByWeight((PawnsArrivalModeDef x) => x.Worker.GetSelectionWeight(parms),
@@ -96,20 +102,31 @@ namespace RimWorld
             }
         }
 
-        // Token: 0x0600649F RID: 25759 RVA: 0x00006A05 File Offset: 0x00004C05
+        /// <summary>
+        /// 生成突袭战利品
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="raidLootPoints"></param>
+        /// <param name="pawns"></param>
         protected virtual void GenerateRaidLoot(IncidentParms parms, float raidLootPoints, List<Pawn> pawns)
         {
         }
 
-        // Token: 0x060064A0 RID: 25760 RVA: 0x001F353C File Offset: 0x001F173C
+        /// <summary>
+        /// 尝试执行事件
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <returns></returns>
         protected override bool TryExecuteWorker(IncidentParms parms)
         {
+            //解决袭击点数
             this.ResolveRaidPoints(parms);
+            //尝试解决袭击派系
             if (!this.TryResolveRaidFaction(parms))
             {
                 return false;
             }
-
+            
             PawnGroupKindDef combat = PawnGroupKindDefOf.Combat;
             this.ResolveRaidStrategy(parms, combat);
             this.ResolveRaidArriveMode(parms);

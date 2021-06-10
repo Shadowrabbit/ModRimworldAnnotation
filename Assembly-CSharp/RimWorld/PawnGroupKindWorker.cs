@@ -4,53 +4,81 @@ using Verse;
 
 namespace RimWorld
 {
-	// Token: 0x02000FC1 RID: 4033
-	public abstract class PawnGroupKindWorker
-	{
-		// Token: 0x0600582B RID: 22571
-		public abstract float MinPointsToGenerateAnything(PawnGroupMaker groupMaker);
+    // Token: 0x02000FC1 RID: 4033
+    public abstract class PawnGroupKindWorker
+    {
+        public PawnGroupKindDef def; //角色组定义
+        public static List<List<Pawn>> pawnsBeingGeneratedNow = new List<List<Pawn>>(); //等待生成的角色列表
 
-		// Token: 0x0600582C RID: 22572 RVA: 0x001CF9CC File Offset: 0x001CDBCC
-		public List<Pawn> GeneratePawns(PawnGroupMakerParms parms, PawnGroupMaker groupMaker, bool errorOnZeroResults = true)
-		{
-			List<Pawn> list = new List<Pawn>();
-			PawnGroupKindWorker.pawnsBeingGeneratedNow.Add(list);
-			try
-			{
-				this.GeneratePawns(parms, groupMaker, list, errorOnZeroResults);
-			}
-			catch (Exception arg)
-			{
-				Log.Error("Exception while generating pawn group: " + arg, false);
-				for (int i = 0; i < list.Count; i++)
-				{
-					list[i].Destroy(DestroyMode.Vanish);
-				}
-				list.Clear();
-			}
-			finally
-			{
-				PawnGroupKindWorker.pawnsBeingGeneratedNow.Remove(list);
-			}
-			return list;
-		}
+        /// <summary>
+        /// 生成需要的最小点数
+        /// </summary>
+        /// <param name="groupMaker"></param>
+        /// <returns></returns>
+        public abstract float MinPointsToGenerateAnything(PawnGroupMaker groupMaker);
 
-		// Token: 0x0600582D RID: 22573
-		protected abstract void GeneratePawns(PawnGroupMakerParms parms, PawnGroupMaker groupMaker, List<Pawn> outPawns, bool errorOnZeroResults = true);
+        /// <summary>
+        /// 生成角色列表
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="groupMaker"></param>
+        /// <param name="errorOnZeroResults"></param>
+        /// <returns></returns>
+        public List<Pawn> GeneratePawns(PawnGroupMakerParms parms, PawnGroupMaker groupMaker,
+            bool errorOnZeroResults = true)
+        {
+            List<Pawn> list = new List<Pawn>();
+            pawnsBeingGeneratedNow.Add(list);
+            try
+            {
+                GeneratePawns(parms, groupMaker, list, errorOnZeroResults);
+            }
+            catch (Exception arg)
+            {
+                Log.Error("Exception while generating pawn group: " + arg, false);
+                for (int i = 0; i < list.Count; i++)
+                {
+                    list[i].Destroy(DestroyMode.Vanish);
+                }
 
-		// Token: 0x0600582E RID: 22574 RVA: 0x0000A2A7 File Offset: 0x000084A7
-		public virtual bool CanGenerateFrom(PawnGroupMakerParms parms, PawnGroupMaker groupMaker)
-		{
-			return true;
-		}
+                list.Clear();
+            }
+            finally
+            {
+                pawnsBeingGeneratedNow.Remove(list);
+            }
 
-		// Token: 0x0600582F RID: 22575
-		public abstract IEnumerable<PawnKindDef> GeneratePawnKindsExample(PawnGroupMakerParms parms, PawnGroupMaker groupMaker);
+            return list;
+        }
 
-		// Token: 0x04003A34 RID: 14900
-		public PawnGroupKindDef def;
+        /// <summary>
+        /// 生成角色列表 outPawns是返回值
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="groupMaker"></param>
+        /// <param name="outPawns"></param>
+        /// <param name="errorOnZeroResults"></param>
+        protected abstract void GeneratePawns(PawnGroupMakerParms parms, PawnGroupMaker groupMaker, List<Pawn> outPawns,
+            bool errorOnZeroResults = true);
 
-		// Token: 0x04003A35 RID: 14901
-		public static List<List<Pawn>> pawnsBeingGeneratedNow = new List<List<Pawn>>();
-	}
+        /// <summary>
+        /// 是否可以从参数中生成
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="groupMaker"></param>
+        /// <returns></returns>
+        public virtual bool CanGenerateFrom(PawnGroupMakerParms parms, PawnGroupMaker groupMaker)
+        {
+            return true;
+        }
+
+        /// <summary>
+        /// 生成示例角色种类定义列表
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="groupMaker"></param>
+        /// <returns></returns>
+        public abstract IEnumerable<PawnKindDef> GeneratePawnKindsExample(PawnGroupMakerParms parms,
+            PawnGroupMaker groupMaker);
+    }
 }
