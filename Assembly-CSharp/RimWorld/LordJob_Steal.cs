@@ -28,6 +28,7 @@ namespace RimWorld
 			lordToil_StealCover2.useAvoidGrid = true;
 			stateGraph.AddToil(lordToil_StealCover2);
 			Transition transition = new Transition(lordToil_StealCover, lordToil_StealCover2, false, true);
+			//1200个tick没有受到伤害触发
 			transition.AddTrigger(new Trigger_TicksPassedAndNoRecentHarm(1200));
 			stateGraph.AddTransition(transition, false);
 			return stateGraph;

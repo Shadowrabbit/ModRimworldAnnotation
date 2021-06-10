@@ -20,7 +20,7 @@ namespace RimWorld
         protected override bool FactionCanBeGroupSource(Faction f, Map map, bool desperate = false)
         {
             return base.FactionCanBeGroupSource(f, map, desperate) && f.HostileTo(Faction.OfPlayer) &&
-                   (desperate || (float) GenDate.DaysPassed >= f.def.earliestRaidDays);
+                   (desperate || (float)GenDate.DaysPassed >= f.def.earliestRaidDays);
         }
 
         /// <summary>
@@ -34,8 +34,9 @@ namespace RimWorld
             {
                 return false;
             }
-
+            //袭击时设置一倍速
             Find.TickManager.slower.SignalForceNormalSpeedShort();
+            //更新参与袭击的敌人记录
             Find.StoryWatcher.statsRecord.numRaidsEnemy++;
             return true;
         }
@@ -47,13 +48,13 @@ namespace RimWorld
         /// <returns></returns>
         protected override bool TryResolveRaidFaction(IncidentParms parms)
         {
-            Map map = (Map) parms.target;
+            var map = (Map)parms.target;
             if (parms.faction != null)
             {
                 return true;
             }
 
-            float num = parms.points;
+            var num = parms.points;
             if (num <= 0f)
             {
                 num = 999999f;
@@ -65,7 +66,10 @@ namespace RimWorld
                        (Faction f) => this.FactionCanBeGroupSource(f, map, true), true, true, true, true);
         }
 
-        // Token: 0x06006475 RID: 25717 RVA: 0x00044E0F File Offset: 0x0004300F
+        /// <summary>
+        /// 解决袭击点数
+        /// </summary>
+        /// <param name="parms"></param>
         protected override void ResolveRaidPoints(IncidentParms parms)
         {
             if (parms.points <= 0f)
@@ -90,7 +94,7 @@ namespace RimWorld
                 return;
             }
 
-            Map map = (Map) parms.target;
+            Map map = (Map)parms.target;
             RaidStrategyDef result;
             DefDatabase<RaidStrategyDef>.AllDefs.Where(d =>
             {
@@ -117,20 +121,29 @@ namespace RimWorld
             parms.raidStrategy = RaidStrategyDefOf.ImmediateAttack;
         }
 
-        // Token: 0x06006477 RID: 25719 RVA: 0x00044E3A File Offset: 0x0004303A
+        /// <summary>
+        /// 获取信件标签
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <returns></returns>
         protected override string GetLetterLabel(IncidentParms parms)
         {
             return parms.raidStrategy.letterLabelEnemy + ": " + parms.faction.Name;
         }
 
-        // Token: 0x06006478 RID: 25720 RVA: 0x001F2ECC File Offset: 0x001F10CC
+        /// <summary>
+        /// 获取信件文本
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="pawns"></param>
+        /// <returns></returns>
         protected override string GetLetterText(IncidentParms parms, List<Pawn> pawns)
         {
-            string text = string.Format(parms.raidArrivalMode.textEnemy, parms.faction.def.pawnsPlural,
+            var text = string.Format(parms.raidArrivalMode.textEnemy, parms.faction.def.pawnsPlural,
                 parms.faction.Name.ApplyTag(parms.faction)).CapitalizeFirst();
             text += "\n\n";
             text += parms.raidStrategy.arrivalTextEnemy;
-            Pawn pawn = pawns.Find((Pawn x) => x.Faction.leader == x);
+            var pawn = pawns.Find((Pawn x) => x.Faction.leader == x);
             if (pawn != null)
             {
                 text += "\n\n";
@@ -141,38 +154,58 @@ namespace RimWorld
             return text;
         }
 
-        // Token: 0x06006479 RID: 25721 RVA: 0x00044E5C File Offset: 0x0004305C
+        /// <summary>
+        /// 获取信件定义
+        /// </summary>
+        /// <returns></returns>
         protected override LetterDef GetLetterDef()
         {
             return LetterDefOf.ThreatBig;
         }
 
-        // Token: 0x0600647A RID: 25722 RVA: 0x00044E63 File Offset: 0x00043063
+        /// <summary>
+        /// 到达的角色中有关系户
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <returns></returns>
         protected override string GetRelatedPawnsInfoLetterText(IncidentParms parms)
         {
             return "LetterRelatedPawnsRaidEnemy".Translate(Faction.OfPlayer.def.pawnsPlural,
                 parms.faction.def.pawnsPlural);
         }
 
-        // Token: 0x0600647B RID: 25723 RVA: 0x001F2FB0 File Offset: 0x001F11B0
+        /// <summary>
+        /// 生成突袭战利品
+        /// </summary>
+        /// <param name="parms"></param>
+        /// <param name="raidLootPoints"></param>
+        /// <param name="pawns"></param>
         protected override void GenerateRaidLoot(IncidentParms parms, float raidLootPoints, List<Pawn> pawns)
         {
+            //袭击战利品制作器不存在
             if (parms.faction.def.raidLootMaker == null || !pawns.Any<Pawn>())
             {
                 return;
             }
-
+            //袭击战利品点数
             raidLootPoints *= Find.Storyteller.difficultyValues.EffectiveRaidLootPointsFactor;
-            float num = parms.faction.def.raidLootValueFromPointsCurve.Evaluate(raidLootPoints);
+            //点数调整
+            var num = parms.faction.def.raidLootValueFromPointsCurve.Evaluate(raidLootPoints);
+            //袭击策略存在
             if (parms.raidStrategy != null)
             {
+                //*袭击战利品因数
                 num *= parms.raidStrategy.raidLootValueFactor;
             }
 
-            ThingSetMakerParams parms2 = default(ThingSetMakerParams);
-            parms2.totalMarketValueRange = new FloatRange?(new FloatRange(num, num));
+            var parms2 = default(ThingSetMakerParams);
+            //袭击点数范围
+            parms2.totalMarketValueRange = new FloatRange(num, num);
+            //制作派系
             parms2.makingFaction = parms.faction;
-            List<Thing> loot = parms.faction.def.raidLootMaker.root.Generate(parms2);
+            //生成战利品
+            var loot = parms.faction.def.raidLootMaker.root.Generate(parms2);
+            //分发
             new RaidLootDistributor(parms, pawns, loot).DistributeLoot();
         }
     }

@@ -24,9 +24,14 @@ namespace Verse.AI.Group
 			return false;
 		}
 
-		// Token: 0x0600421A RID: 16922 RVA: 0x00031415 File Offset: 0x0002F615
+		/// <summary>
+		/// 是作战工兵
+		/// </summary>
+		/// <param name="p"></param>
+		/// <returns></returns>
 		private bool IsFightingSapper(Pawn p)
 		{
+			//没有倒地 没有精神失常 能挖墙 
 			return !p.Downed && !p.InMentalState && (SappersUtility.IsGoodSapper(p) || SappersUtility.IsGoodBackupSapper(p));
 		}
 	}

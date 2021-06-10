@@ -18,6 +18,7 @@ namespace RimWorld
 		// Token: 0x06005226 RID: 21030 RVA: 0x00039761 File Offset: 0x00037961
 		public override void TryGenerateThreats(IncidentParms parms)
 		{
+			//生成机械集群
 			parms.mechClusterSketch = MechClusterGenerator.GenerateClusterSketch_NewTemp(parms.points, parms.target as Map, true, false);
 		}
 

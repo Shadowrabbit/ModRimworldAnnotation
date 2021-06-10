@@ -126,25 +126,32 @@ namespace RimWorld
             {
                 return false;
             }
-            
-            PawnGroupKindDef combat = PawnGroupKindDefOf.Combat;
-            this.ResolveRaidStrategy(parms, combat);
-            this.ResolveRaidArriveMode(parms);
+            //角色组定义 战斗
+            var combat = PawnGroupKindDefOf.Combat;
+            //解决袭击策略
+            ResolveRaidStrategy(parms, combat);
+            //解决到达方式
+            ResolveRaidArriveMode(parms);
+            //尝试生成威胁（参数）
             parms.raidStrategy.Worker.TryGenerateThreats(parms);
+            //尝试解决袭击召唤中心
             if (!parms.raidArrivalMode.Worker.TryResolveRaidSpawnCenter(parms))
             {
                 return false;
             }
-
-            float points = parms.points;
-            parms.points = IncidentWorker_Raid.AdjustedRaidPoints(parms.points, parms.raidArrivalMode,
+            //袭击点数
+            var points = parms.points;
+            //调整袭击点数
+            parms.points = AdjustedRaidPoints(parms.points, parms.raidArrivalMode,
                 parms.raidStrategy, parms.faction, combat);
-            List<Pawn> list = parms.raidStrategy.Worker.SpawnThreats(parms);
+            //生成威胁
+            var list = parms.raidStrategy.Worker.SpawnThreats(parms);
+            //生成失败 尝试用默认角色组生成器
             if (list == null)
             {
                 list = PawnGroupMakerUtility
-                    .GeneratePawns(IncidentParmsUtility.GetDefaultPawnGroupMakerParms(combat, parms, false), true)
-                    .ToList<Pawn>();
+                    .GeneratePawns(IncidentParmsUtility.GetDefaultPawnGroupMakerParms(combat, parms))
+                    .ToList();
                 if (list.Count == 0)
                 {
                     Log.Error("Got no pawns spawning raid from parms " + parms, false);
@@ -153,42 +160,57 @@ namespace RimWorld
 
                 parms.raidArrivalMode.Worker.Arrive(list, parms);
             }
-
-            this.GenerateRaidLoot(parms, points, list);
-            TaggedString baseLetterLabel = this.GetLetterLabel(parms);
-            TaggedString baseLetterText = this.GetLetterText(parms, list);
+            //生成突袭战利品
+            GenerateRaidLoot(parms, points, list);
+            TaggedString baseLetterLabel = GetLetterLabel(parms);
+            TaggedString baseLetterText = GetLetterText(parms, list);
             PawnRelationUtility.Notify_PawnsSeenByPlayer_Letter(list, ref baseLetterLabel, ref baseLetterText,
-                this.GetRelatedPawnsInfoLetterText(parms), true, true);
-            List<TargetInfo> list2 = new List<TargetInfo>();
+                GetRelatedPawnsInfoLetterText(parms), true);
+            //目标列表
+            var list2 = new List<TargetInfo>();
+            //分组成员存在
             if (parms.pawnGroups != null)
             {
+                //分组
                 List<List<Pawn>> list3 = IncidentParmsUtility.SplitIntoGroups(list, parms.pawnGroups);
-                List<Pawn> list4 = list3.MaxBy((List<Pawn> x) => x.Count);
+                //选长度最大的组
+                List<Pawn> list4 = list3.MaxBy(delegate(List<Pawn> x)
+                {
+                    return x.Count;
+                });
+                //第一个角色丢进目标列表
                 if (list4.Any<Pawn>())
                 {
                     list2.Add(list4[0]);
                 }
-
+                
                 for (int i = 0; i < list3.Count; i++)
                 {
+                    //当前组不是长度最大的组 并且里面有角色
                     if (list3[i] != list4 && list3[i].Any<Pawn>())
                     {
+                        //组内第一个角色丢进目标列表
                         list2.Add(list3[i][0]);
                     }
                 }
             }
-            else if (list.Any<Pawn>())
+            //存在威胁角色
+            else if (list.Any())
             {
+                //添加到目标列表
                 foreach (Pawn t in list)
                 {
                     list2.Add(t);
                 }
             }
-
-            base.SendStandardLetter(baseLetterLabel, baseLetterText, this.GetLetterDef(), parms, list2,
+            //提示信件
+            SendStandardLetter(baseLetterLabel, baseLetterText, GetLetterDef(), parms, list2,
                 Array.Empty<NamedArgument>());
+            //根据分组生成集群AI 在袭击策略中
             parms.raidStrategy.Worker.MakeLords(parms, list);
+            //教程激活
             LessonAutoActivator.TeachOpportunity(ConceptDefOf.EquippingWeapons, OpportunityType.Critical);
+            //教程 护盾腰带
             if (!PlayerKnowledgeDatabase.IsComplete(ConceptDefOf.ShieldBelts))
             {
                 for (int j = 0; j < list.Count; j++)
@@ -204,7 +226,15 @@ namespace RimWorld
             return true;
         }
 
-        // Token: 0x060064A1 RID: 25761 RVA: 0x001F37F8 File Offset: 0x001F19F8
+        /// <summary>
+        /// 调整袭击点数
+        /// </summary>
+        /// <param name="points"></param>
+        /// <param name="raidArrivalMode"></param>
+        /// <param name="raidStrategy"></param>
+        /// <param name="faction"></param>
+        /// <param name="groupKind"></param>
+        /// <returns></returns>
         public static float AdjustedRaidPoints(float points, PawnsArrivalModeDef raidArrivalMode,
             RaidStrategyDef raidStrategy, Faction faction, PawnGroupKindDef groupKind)
         {
@@ -222,7 +252,9 @@ namespace RimWorld
             return points;
         }
 
-        // Token: 0x060064A2 RID: 25762 RVA: 0x001F3854 File Offset: 0x001F1A54
+        /// <summary>
+        /// 袭击派系采样测试
+        /// </summary>
         public void DoTable_RaidFactionSampled()
         {
             int ticksGame = Find.TickManager.TicksGame;
@@ -252,14 +284,17 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<Faction>(points.ToString("F0"),
-                    (Faction str) => ((float) factionCount[str] / 500f).ToStringPercent()));
+                    (Faction str) => ((float)factionCount[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);
             DebugTables.MakeTablesDialog<Faction>(Find.FactionManager.AllFactions, list.ToArray());
         }
 
-        // Token: 0x060064A3 RID: 25763 RVA: 0x001F39F4 File Offset: 0x001F1BF4
+        /// <summary>
+        /// 袭击策略采样测试
+        /// </summary>
+        /// <param name="fac"></param>
         public void DoTable_RaidStrategySampled(Faction fac)
         {
             int ticksGame = Find.TickManager.TicksGame;
@@ -294,14 +329,17 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<RaidStrategyDef>(points.ToString("F0"),
-                    (RaidStrategyDef str) => ((float) strats[str] / 500f).ToStringPercent()));
+                    (RaidStrategyDef str) => ((float)strats[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);
             DebugTables.MakeTablesDialog<RaidStrategyDef>(DefDatabase<RaidStrategyDef>.AllDefs, list.ToArray());
         }
 
-        // Token: 0x060064A4 RID: 25764 RVA: 0x001F3BC0 File Offset: 0x001F1DC0
+        /// <summary>
+        /// 入场方式采样测试
+        /// </summary>
+        /// <param name="fac"></param>
         public void DoTable_RaidArrivalModeSampled(Faction fac)
         {
             int ticksGame = Find.TickManager.TicksGame;
@@ -337,7 +375,7 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<PawnsArrivalModeDef>(points.ToString("F0"),
-                    (PawnsArrivalModeDef str) => ((float) modeCount[str] / 500f).ToStringPercent()));
+                    (PawnsArrivalModeDef str) => ((float)modeCount[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);

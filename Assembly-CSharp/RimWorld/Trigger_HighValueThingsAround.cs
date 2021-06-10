@@ -16,6 +16,7 @@ namespace RimWorld
 				{
 					return false;
 				}
+				//集群内300秒没有人收到伤害
 				if (Find.TickManager.TicksGame - lord.lastPawnHarmTick > 300)
 				{
 					float num = StealAIUtility.TotalMarketValueAround(lord.ownedPawns);

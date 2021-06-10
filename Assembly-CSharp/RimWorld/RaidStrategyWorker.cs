@@ -14,15 +14,28 @@ namespace RimWorld
 			return this.def.selectionWeightPerPointsCurve.Evaluate(basePoints);
 		}
 
-		// Token: 0x06005869 RID: 22633
+		/// <summary>
+		/// 集群AI的行为
+		/// </summary>
+		/// <param name="parms"></param>
+		/// <param name="map"></param>
+		/// <param name="pawns"></param>
+		/// <param name="raidSeed"></param>
+		/// <returns></returns>
 		protected abstract LordJob MakeLordJob(IncidentParms parms, Map map, List<Pawn> pawns, int raidSeed);
 
-		// Token: 0x0600586A RID: 22634 RVA: 0x001D0028 File Offset: 0x001CE228
+		/// <summary>
+		/// 创建集群AI
+		/// </summary>
+		/// <param name="parms"></param>
+		/// <param name="pawns"></param>
 		public virtual void MakeLords(IncidentParms parms, List<Pawn> pawns)
 		{
 			Map map = (Map)parms.target;
+			//分组
 			List<List<Pawn>> list = IncidentParmsUtility.SplitIntoGroups(pawns, parms.pawnGroups);
 			int @int = Rand.Int;
+			//每一组生成一个集群AI
 			for (int i = 0; i < list.Count; i++)
 			{
 				List<Pawn> list2 = list[i];
@@ -80,7 +93,11 @@ namespace RimWorld
 		{
 		}
 
-		// Token: 0x06005871 RID: 22641 RVA: 0x001D012C File Offset: 0x001CE32C
+		/// <summary>
+		/// 生成威胁
+		/// </summary>
+		/// <param name="parms"></param>
+		/// <returns></returns>
 		public virtual List<Pawn> SpawnThreats(IncidentParms parms)
 		{
 			if (parms.pawnKind != null)
@@ -89,21 +106,22 @@ namespace RimWorld
 				for (int i = 0; i < parms.pawnCount; i++)
 				{
 					PawnKindDef pawnKind = parms.pawnKind;
-					Faction faction = parms.faction;
-					PawnGenerationContext context = PawnGenerationContext.NonPlayer;
-					int tile = -1;
-					bool forceGenerateNewPawn = false;
-					bool newborn = false;
-					bool allowDead = false;
-					bool allowDowned = false;
-					bool canGeneratePawnRelations = true;
-					bool mustBeCapableOfViolence = true;
-					float colonistRelationChanceFactor = 1f;
-					bool forceAddFreeWarmLayerIfNeeded = false;
-					bool allowGay = true;
-					float biocodeWeaponsChance = parms.biocodeWeaponsChance;
-					Pawn pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(pawnKind, faction, context, tile, forceGenerateNewPawn, newborn, allowDead, allowDowned, canGeneratePawnRelations, mustBeCapableOfViolence, colonistRelationChanceFactor, forceAddFreeWarmLayerIfNeeded, allowGay, this.def.pawnsCanBringFood, true, false, false, false, false, biocodeWeaponsChance, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null)
+					var faction = parms.faction;
+					var context = PawnGenerationContext.NonPlayer;
+					var tile = -1;
+					var forceGenerateNewPawn = false; //是否强制生成新角色
+					var newborn = false; //是否新出生
+					var allowDead = false; //是否允许死亡角色
+					var allowDowned = false; //是否允许倒地角色
+					var canGeneratePawnRelations = true; //是否可以生成角色关系
+					var mustBeCapableOfViolence = true; //是否必须具备暴力能力
+					var colonistRelationChanceFactor = 1f; //殖民者关系因数
+					var forceAddFreeWarmLayerIfNeeded = false; //
+					var allowGay = true; //是否允许同性恋
+					var biocodeWeaponsChance = parms.biocodeWeaponsChance; //生物代码武器几率
+					var pawn = PawnGenerator.GeneratePawn(new PawnGenerationRequest(pawnKind, faction, context, tile, forceGenerateNewPawn, newborn, allowDead, allowDowned, canGeneratePawnRelations, mustBeCapableOfViolence, colonistRelationChanceFactor, forceAddFreeWarmLayerIfNeeded, allowGay, this.def.pawnsCanBringFood, true, false, false, false, false, biocodeWeaponsChance, null, 1f, null, null, null, null, null, null, null, null, null, null, null, null)
 					{
+						//生物服装概率
 						BiocodeApparelChance = 1f
 					});
 					if (pawn != null)
@@ -111,7 +129,8 @@ namespace RimWorld
 						list.Add(pawn);
 					}
 				}
-				if (list.Any<Pawn>())
+				//列表存在 设置到达
+				if (list.Any())
 				{
 					parms.raidArrivalMode.Worker.Arrive(list, parms);
 					return list;

@@ -8,13 +8,21 @@ namespace RimWorld
 	// Token: 0x0200143B RID: 5179
 	public class PawnsArrivalModeWorker_EdgeDropGroups : PawnsArrivalModeWorker
 	{
-		// Token: 0x06006FBE RID: 28606 RVA: 0x002236D0 File Offset: 0x002218D0
+		/// <summary>
+		/// 登场
+		/// </summary>
+		/// <param name="pawns"></param>
+		/// <param name="parms"></param>
 		public override void Arrive(List<Pawn> pawns, IncidentParms parms)
 		{
-			Map map = (Map)parms.target;
-			bool canRoofPunch = parms.faction != null && parms.faction.HostileTo(Faction.OfPlayer);
-			List<Pair<List<Pawn>, IntVec3>> list = PawnsArrivalModeWorkerUtility.SplitIntoRandomGroupsNearMapEdge(pawns, map, true);
+			var map = (Map)parms.target;
+			//是否可以从屋顶进入
+			var canRoofPunch = parms.faction != null && parms.faction.HostileTo(Faction.OfPlayer);
+			//分组信息
+			var list = PawnsArrivalModeWorkerUtility.SplitIntoRandomGroupsNearMapEdge(pawns, map, true);
+			//设置分组信息
 			PawnsArrivalModeWorkerUtility.SetPawnGroupsInfo(parms, list);
+			//空投到战场
 			for (int i = 0; i < list.Count; i++)
 			{
 				DropPodUtility.DropThingsNear(list[i].Second, map, list[i].First.Cast<Thing>(), parms.podOpenDelay, false, true, canRoofPunch, true);
