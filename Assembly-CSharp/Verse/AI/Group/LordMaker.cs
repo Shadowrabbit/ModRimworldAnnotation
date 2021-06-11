@@ -7,7 +7,14 @@ namespace Verse.AI.Group
 	// Token: 0x02000ACC RID: 2764
 	public static class LordMaker
 	{
-		// Token: 0x06004167 RID: 16743 RVA: 0x001877E4 File Offset: 0x001859E4
+		/// <summary>
+		/// 创建集群AI 集群AI会存在地图的集群AI管理器中
+		/// </summary>
+		/// <param name="faction"></param>
+		/// <param name="lordJob"></param>
+		/// <param name="map"></param>
+		/// <param name="startingPawns"></param>
+		/// <returns></returns>
 		public static Lord MakeNewLord(Faction faction, LordJob lordJob, Map map, IEnumerable<Pawn> startingPawns = null)
 		{
 			if (map == null)

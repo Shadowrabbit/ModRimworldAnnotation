@@ -62,7 +62,7 @@ namespace Verse
 		// Token: 0x06001218 RID: 4632 RVA: 0x00013191 File Offset: 0x00011391
 		public static bool CanReachImmediate(this Pawn pawn, LocalTargetInfo target, PathEndMode peMode)
 		{
-			return pawn.Spawned && ReachabilityImmediate.CanReachImmediate(pawn.Position, target, pawn.Map, peMode, pawn);
+			return pawn.Spawned && CanReachImmediate(pawn.Position, target, pawn.Map, peMode, pawn);
 		}
 
 		// Token: 0x06001219 RID: 4633 RVA: 0x000131B1 File Offset: 0x000113B1

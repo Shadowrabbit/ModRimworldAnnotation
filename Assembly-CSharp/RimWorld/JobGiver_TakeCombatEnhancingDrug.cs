@@ -24,20 +24,25 @@ namespace RimWorld
 			{
 				return null;
 			}
+			//上次复用战斗力增强药物小于20000tick
 			if (Find.TickManager.TicksGame - pawn.mindState.lastTakeCombatEnhancingDrugTick < 20000)
 			{
 				return null;
 			}
+			//寻找药物
 			Thing thing = pawn.inventory.FindCombatEnhancingDrug();
 			if (thing == null)
 			{
 				return null;
 			}
+			//是否仅当处于危险时服用
 			if (this.onlyIfInDanger)
 			{
 				Lord lord = pawn.GetLord();
+				//角色当前没有集群AI 
 				if (lord == null)
 				{
+					//最近没有收到伤害
 					if (!this.HarmedRecently(pawn))
 					{
 						return null;
@@ -46,12 +51,14 @@ namespace RimWorld
 				else
 				{
 					int num = 0;
+					//集群AI控制的角色数量 并且限制在1-4
 					int num2 = Mathf.Clamp(lord.ownedPawns.Count / 2, 1, 4);
 					for (int i = 0; i < lord.ownedPawns.Count; i++)
 					{
 						if (this.HarmedRecently(lord.ownedPawns[i]))
 						{
 							num++;
+							//集群AI控制的角色 最近受伤的数量高于 1-4 分配工作 服用药物
 							if (num >= num2)
 							{
 								break;

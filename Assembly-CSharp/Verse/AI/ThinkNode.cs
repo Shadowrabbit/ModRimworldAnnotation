@@ -73,7 +73,9 @@ namespace Verse.AI
 		{
 		}
 
-		// Token: 0x0600405F RID: 16479 RVA: 0x00182768 File Offset: 0x00180968
+		/// <summary>
+		/// 对自身和所有字节点调用ResolveSubnodes
+		/// </summary>
 		public void ResolveSubnodesAndRecur()
 		{
 			if (this.uniqueSaveKeyInt != -2)

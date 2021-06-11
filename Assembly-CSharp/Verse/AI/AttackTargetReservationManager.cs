@@ -77,7 +77,7 @@ namespace Verse.AI
 		{
 			for (int i = 0; i < this.reservations.Count; i++)
 			{
-				AttackTargetReservationManager.AttackTargetReservation attackTargetReservation = this.reservations[i];
+				AttackTargetReservation attackTargetReservation = this.reservations[i];
 				if (attackTargetReservation.target == target && attackTargetReservation.claimant == claimant)
 				{
 					return true;

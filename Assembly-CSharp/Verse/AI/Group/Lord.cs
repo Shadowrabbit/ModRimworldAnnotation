@@ -227,26 +227,28 @@ namespace Verse.AI.Group
 		// Token: 0x0600410E RID: 16654 RVA: 0x001866C8 File Offset: 0x001848C8
 		public void SetJob(LordJob lordJob)
 		{
-			if (this.curJob != null)
+			if (curJob != null)
 			{
-				this.curJob.Cleanup();
+				curJob.Cleanup();
 			}
-			this.curJob = lordJob;
-			this.curLordToil = null;
+			curJob = lordJob;
+			curLordToil = null;
 			lordJob.lord = this;
 			Rand.PushState();
 			Rand.Seed = this.loadID * 193;
-			this.graph = lordJob.CreateGraph();
+			graph = lordJob.CreateGraph();
 			Rand.PopState();
-			this.graph.ErrorCheck();
-			if (this.faction != null && !this.faction.IsPlayer && this.faction.def.autoFlee && lordJob.AddFleeToil)
+			graph.ErrorCheck();
+			//添加逃跑状态
+			if (faction != null && !faction.IsPlayer && faction.def.autoFlee && lordJob.AddFleeToil)
 			{
 				LordToil_PanicFlee lordToil_PanicFlee = new LordToil_PanicFlee();
 				lordToil_PanicFlee.useAvoidGrid = true;
 				for (int i = 0; i < this.graph.lordToils.Count; i++)
 				{
-					Transition transition = new Transition(this.graph.lordToils[i], lordToil_PanicFlee, false, true);
+					Transition transition = new Transition(this.graph.lordToils[i], lordToil_PanicFlee);
 					transition.AddPreAction(new TransitionAction_Message("MessageFightersFleeing".Translate(this.faction.def.pawnsPlural.CapitalizeFirst(), this.faction.Name), null, 1f));
+					//倒地比例
 					transition.AddTrigger(new Trigger_FractionPawnsLost(this.faction.def.attackersDownPercentageRangeForAutoFlee.RandomInRangeSeeded(this.loadID)));
 					this.graph.AddTransition(transition, true);
 				}
@@ -351,7 +353,10 @@ namespace Verse.AI.Group
 			this.Map.attackTargetsCache.UpdateTarget(p);
 		}
 
-		// Token: 0x06004113 RID: 16659 RVA: 0x00186AD0 File Offset: 0x00184CD0
+		/// <summary>
+		/// 设置当前的集群AI
+		/// </summary>
+		/// <param name="newLordToil"></param>
 		public void GotoToil(LordToil newLordToil)
 		{
 			LordToil previousToil = this.curLordToil;
@@ -374,6 +379,7 @@ namespace Verse.AI.Group
 					this.graph.transitions[i].SourceToilBecameActive(this.graph.transitions[i], previousToil);
 				}
 			}
+			//设置当前集群AI内角色的职责
 			this.curLordToil.UpdateAllDuties();
 		}
 
@@ -747,7 +753,7 @@ namespace Verse.AI.Group
 		// Token: 0x04002CF8 RID: 11512
 		public Faction faction;
 
-		// Token: 0x04002CF9 RID: 11513
+		//集群AI的拥有者
 		public List<Pawn> ownedPawns = new List<Pawn>();
 
 		// Token: 0x04002CFA RID: 11514

@@ -39,6 +39,7 @@ namespace RimWorld
 			for (int i = 0; i < list.Count; i++)
 			{
 				List<Pawn> list2 = list[i];
+				//生成集群AI 设置目标为list2
 				Lord lord = LordMaker.MakeNewLord(parms.faction, this.MakeLordJob(parms, map, list2, @int), map, list2);
 				lord.inSignalLeave = parms.inSignalEnd;
 				QuestUtility.AddQuestTag(lord, parms.questTag);

@@ -21,7 +21,7 @@ namespace RimWorld
 				Log.Error(pawn + " doing ThinkNode_Duty with no duty.", false);
 				return ThinkResult.NoJob;
 			}
-			return this.subNodes[(int)pawn.mindState.duty.def.index].TryIssueJobPackage(pawn, jobParams);
+			return subNodes[pawn.mindState.duty.def.index].TryIssueJobPackage(pawn, jobParams);
 		}
 
 		// Token: 0x060052AC RID: 21164 RVA: 0x001BF69C File Offset: 0x001BD89C
@@ -29,8 +29,10 @@ namespace RimWorld
 		{
 			foreach (DutyDef dutyDef in DefDatabase<DutyDef>.AllDefs)
 			{
+				//处理每一个职责定义的节点和子节点
 				dutyDef.thinkNode.ResolveSubnodesAndRecur();
-				this.subNodes.Add(dutyDef.thinkNode.DeepCopy(true));
+				//将所有职责中的节点设置为当前节点的子节点
+				this.subNodes.Add(dutyDef.thinkNode.DeepCopy());
 			}
 		}
 	}
