@@ -90,24 +90,32 @@ namespace RimWorld
             {
                 return MeleeAttackJob(enemyTarget);
             }
+            //命中>1%
             bool flag = CoverUtility.CalculateOverallBlockChance(pawn, enemyTarget.Position, pawn.Map) > 0.01f;
+            //角色位置可以站立 并且角色可以保留
             bool flag2 = pawn.Position.Standable(pawn.Map) &&
                          pawn.Map.pawnDestinationReservationManager.CanReserve(pawn.Position, pawn, pawn.Drafted);
+            //动作可以攻击目标
             bool flag3 = verb.CanHitTarget(enemyTarget);
+            //距离目标小于25
             bool flag4 = (pawn.Position - enemyTarget.Position).LengthHorizontalSquared < 25;
+            //等待战斗
             if ((flag && flag2 && flag3) || (flag4 && flag3))
             {
                 return JobMaker.MakeJob(JobDefOf.Wait_Combat, ExpiryInterval_ShooterSucceeded.RandomInRange, true);
             }
             IntVec3 intVec;
-            if (!this.TryFindShootingPosition(pawn, out intVec))
+            //没有合适的射击位置
+            if (!TryFindShootingPosition(pawn, out intVec))
             {
                 return null;
             }
+            //查找的射击位置与当前位置相同
             if (intVec == pawn.Position)
             {
                 return JobMaker.MakeJob(JobDefOf.Wait_Combat, ExpiryInterval_ShooterSucceeded.RandomInRange, true);
             }
+            //前往找到的射击位置
             Job job = JobMaker.MakeJob(JobDefOf.Goto, intVec);
             job.expiryInterval = ExpiryInterval_ShooterSucceeded.RandomInRange;
             job.checkOverrideOnExpire = true;

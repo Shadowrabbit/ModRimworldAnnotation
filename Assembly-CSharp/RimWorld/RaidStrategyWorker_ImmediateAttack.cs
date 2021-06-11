@@ -8,7 +8,14 @@ namespace RimWorld
 	// Token: 0x02000E22 RID: 3618
 	public class RaidStrategyWorker_ImmediateAttack : RaidStrategyWorker
 	{
-		// Token: 0x06005218 RID: 21016 RVA: 0x001BD720 File Offset: 0x001BB920
+		/// <summary>
+		/// 创建集群AI工作
+		/// </summary>
+		/// <param name="parms"></param>
+		/// <param name="map"></param>
+		/// <param name="pawns"></param>
+		/// <param name="raidSeed"></param>
+		/// <returns></returns>
 		protected override LordJob MakeLordJob(IncidentParms parms, Map map, List<Pawn> pawns, int raidSeed)
 		{
 			//事件中心或第一个角色的坐标

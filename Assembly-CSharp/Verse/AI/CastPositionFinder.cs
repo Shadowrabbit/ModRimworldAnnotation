@@ -11,107 +11,107 @@ namespace Verse.AI
 		// Token: 0x060040D0 RID: 16592 RVA: 0x00184984 File Offset: 0x00182B84
 		public static bool TryFindCastPosition(CastPositionRequest newReq, out IntVec3 dest)
 		{
-			CastPositionFinder.req = newReq;
-			CastPositionFinder.casterLoc = CastPositionFinder.req.caster.Position;
-			CastPositionFinder.targetLoc = CastPositionFinder.req.target.Position;
-			CastPositionFinder.verb = CastPositionFinder.req.verb;
-			CastPositionFinder.avoidGrid = newReq.caster.GetAvoidGrid(false);
-			if (CastPositionFinder.verb == null)
+			req = newReq;
+			casterLoc = req.caster.Position;
+			targetLoc = req.target.Position;
+			verb = req.verb;
+			avoidGrid = newReq.caster.GetAvoidGrid(false);
+			if (verb == null)
 			{
-				Log.Error(CastPositionFinder.req.caster + " tried to find casting position without a verb.", false);
+				Log.Error(req.caster + " tried to find casting position without a verb.", false);
 				dest = IntVec3.Invalid;
 				return false;
 			}
-			if (CastPositionFinder.req.maxRegions > 0)
+			if (req.maxRegions > 0)
 			{
-				Region region = CastPositionFinder.casterLoc.GetRegion(CastPositionFinder.req.caster.Map, RegionType.Set_Passable);
+				Region region = casterLoc.GetRegion(req.caster.Map, RegionType.Set_Passable);
 				if (region == null)
 				{
 					Log.Error("TryFindCastPosition requiring region traversal but root region is null.", false);
 					dest = IntVec3.Invalid;
 					return false;
 				}
-				CastPositionFinder.inRadiusMark = Rand.Int;
-				RegionTraverser.MarkRegionsBFS(region, null, newReq.maxRegions, CastPositionFinder.inRadiusMark, RegionType.Set_Passable);
-				if (CastPositionFinder.req.maxRangeFromLocus > 0.01f)
+				inRadiusMark = Rand.Int;
+				RegionTraverser.MarkRegionsBFS(region, null, newReq.maxRegions, inRadiusMark);
+				if (req.maxRangeFromLocus > 0.01f)
 				{
-					Region locusReg = CastPositionFinder.req.locus.GetRegion(CastPositionFinder.req.caster.Map, RegionType.Set_Passable);
+					Region locusReg = req.locus.GetRegion(req.caster.Map);
 					if (locusReg == null)
 					{
-						Log.Error("locus " + CastPositionFinder.req.locus + " has no region", false);
+						Log.Error("locus " + req.locus + " has no region", false);
 						dest = IntVec3.Invalid;
 						return false;
 					}
-					if (locusReg.mark != CastPositionFinder.inRadiusMark)
+					if (locusReg.mark != inRadiusMark)
 					{
-						CastPositionFinder.inRadiusMark = Rand.Int;
+						inRadiusMark = Rand.Int;
 						RegionTraverser.BreadthFirstTraverse(region, null, delegate(Region r)
 						{
-							r.mark = CastPositionFinder.inRadiusMark;
-							CastPositionFinder.req.maxRegions = CastPositionFinder.req.maxRegions + 1;
+							r.mark = inRadiusMark;
+							req.maxRegions = req.maxRegions + 1;
 							return r == locusReg;
-						}, 999999, RegionType.Set_Passable);
+						});
 					}
 				}
 			}
-			CellRect cellRect = CellRect.WholeMap(CastPositionFinder.req.caster.Map);
-			if (CastPositionFinder.req.maxRangeFromCaster > 0.01f)
+			CellRect cellRect = CellRect.WholeMap(req.caster.Map);
+			if (req.maxRangeFromCaster > 0.01f)
 			{
-				int num = Mathf.CeilToInt(CastPositionFinder.req.maxRangeFromCaster);
-				CellRect otherRect = new CellRect(CastPositionFinder.casterLoc.x - num, CastPositionFinder.casterLoc.z - num, num * 2 + 1, num * 2 + 1);
+				int num = Mathf.CeilToInt(req.maxRangeFromCaster);
+				CellRect otherRect = new CellRect(casterLoc.x - num, casterLoc.z - num, num * 2 + 1, num * 2 + 1);
 				cellRect.ClipInsideRect(otherRect);
 			}
-			int num2 = Mathf.CeilToInt(CastPositionFinder.req.maxRangeFromTarget);
-			CellRect otherRect2 = new CellRect(CastPositionFinder.targetLoc.x - num2, CastPositionFinder.targetLoc.z - num2, num2 * 2 + 1, num2 * 2 + 1);
+			int num2 = Mathf.CeilToInt(req.maxRangeFromTarget);
+			CellRect otherRect2 = new CellRect(targetLoc.x - num2, targetLoc.z - num2, num2 * 2 + 1, num2 * 2 + 1);
 			cellRect.ClipInsideRect(otherRect2);
-			if (CastPositionFinder.req.maxRangeFromLocus > 0.01f)
+			if (req.maxRangeFromLocus > 0.01f)
 			{
-				int num3 = Mathf.CeilToInt(CastPositionFinder.req.maxRangeFromLocus);
-				CellRect otherRect3 = new CellRect(CastPositionFinder.targetLoc.x - num3, CastPositionFinder.targetLoc.z - num3, num3 * 2 + 1, num3 * 2 + 1);
+				int num3 = Mathf.CeilToInt(req.maxRangeFromLocus);
+				CellRect otherRect3 = new CellRect(targetLoc.x - num3, targetLoc.z - num3, num3 * 2 + 1, num3 * 2 + 1);
 				cellRect.ClipInsideRect(otherRect3);
 			}
-			CastPositionFinder.bestSpot = IntVec3.Invalid;
-			CastPositionFinder.bestSpotPref = 0.001f;
-			CastPositionFinder.maxRangeFromCasterSquared = CastPositionFinder.req.maxRangeFromCaster * CastPositionFinder.req.maxRangeFromCaster;
-			CastPositionFinder.maxRangeFromTargetSquared = CastPositionFinder.req.maxRangeFromTarget * CastPositionFinder.req.maxRangeFromTarget;
-			CastPositionFinder.maxRangeFromLocusSquared = CastPositionFinder.req.maxRangeFromLocus * CastPositionFinder.req.maxRangeFromLocus;
-			CastPositionFinder.rangeFromTarget = (CastPositionFinder.req.caster.Position - CastPositionFinder.req.target.Position).LengthHorizontal;
-			CastPositionFinder.rangeFromTargetSquared = (float)(CastPositionFinder.req.caster.Position - CastPositionFinder.req.target.Position).LengthHorizontalSquared;
-			CastPositionFinder.optimalRangeSquared = CastPositionFinder.verb.verbProps.range * 0.8f * (CastPositionFinder.verb.verbProps.range * 0.8f);
-			CastPositionFinder.EvaluateCell(CastPositionFinder.req.caster.Position);
-			if ((double)CastPositionFinder.bestSpotPref >= 1.0)
+			bestSpot = IntVec3.Invalid;
+			bestSpotPref = 0.001f;
+			maxRangeFromCasterSquared = req.maxRangeFromCaster * req.maxRangeFromCaster;
+			maxRangeFromTargetSquared = req.maxRangeFromTarget * req.maxRangeFromTarget;
+			maxRangeFromLocusSquared = req.maxRangeFromLocus * req.maxRangeFromLocus;
+			rangeFromTarget = (req.caster.Position - req.target.Position).LengthHorizontal;
+			rangeFromTargetSquared = (req.caster.Position - req.target.Position).LengthHorizontalSquared;
+			optimalRangeSquared = verb.verbProps.range * 0.8f * (verb.verbProps.range * 0.8f);
+			EvaluateCell(req.caster.Position);
+			if (bestSpotPref >= 1.0)
 			{
-				dest = CastPositionFinder.req.caster.Position;
+				dest = req.caster.Position;
 				return true;
 			}
-			float slope = -1f / CellLine.Between(CastPositionFinder.req.target.Position, CastPositionFinder.req.caster.Position).Slope;
-			CellLine cellLine = new CellLine(CastPositionFinder.req.target.Position, slope);
-			bool flag = cellLine.CellIsAbove(CastPositionFinder.req.caster.Position);
+			float slope = -1f / CellLine.Between(req.target.Position, req.caster.Position).Slope;
+			CellLine cellLine = new CellLine(req.target.Position, slope);
+			bool flag = cellLine.CellIsAbove(req.caster.Position);
 			foreach (IntVec3 c in cellRect)
 			{
 				if (cellLine.CellIsAbove(c) == flag && cellRect.Contains(c))
 				{
-					CastPositionFinder.EvaluateCell(c);
+					EvaluateCell(c);
 				}
 			}
-			if (CastPositionFinder.bestSpot.IsValid && CastPositionFinder.bestSpotPref > 0.33f)
+			if (bestSpot.IsValid && bestSpotPref > 0.33f)
 			{
-				dest = CastPositionFinder.bestSpot;
+				dest = bestSpot;
 				return true;
 			}
 			foreach (IntVec3 c2 in cellRect)
 			{
 				if (cellLine.CellIsAbove(c2) != flag && cellRect.Contains(c2))
 				{
-					CastPositionFinder.EvaluateCell(c2);
+					EvaluateCell(c2);
 				}
 			}
-			if (CastPositionFinder.bestSpot.IsValid)
+			if (bestSpot.IsValid)
 			{
-				dest = CastPositionFinder.bestSpot;
+				dest = bestSpot;
 				return true;
 			}
-			dest = CastPositionFinder.casterLoc;
+			dest = casterLoc;
 			return false;
 		}
 

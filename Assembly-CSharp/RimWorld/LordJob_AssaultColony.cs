@@ -152,7 +152,6 @@ namespace RimWorld
                 //允许偷窃
                 if (canSteal)
                 {
-                    
                     var startingToil2 = stateGraph.AttachSubgraph(new LordJob_Steal().CreateGraph()).StartingToil;
                     //过渡 突击 到 偷窃
                     var transition6 = new Transition(lordToil2, startingToil2, false, true);
