@@ -136,10 +136,13 @@ namespace RimWorld
 		// Token: 0x060064FB RID: 25851 RVA: 0x00045277 File Offset: 0x00043477
 		public IEnumerable<FiringIncident> MakeIncidentsForInterval()
 		{
+			//所有事件目标
 			List<IIncidentTarget> targets = this.AllIncidentTargets;
 			int num;
+			
 			for (int i = 0; i < this.storytellerComps.Count; i = num + 1)
 			{
+				//每个组件创建一个事件
 				foreach (FiringIncident firingIncident in this.MakeIncidentsForInterval(this.storytellerComps[i], targets))
 				{
 					yield return firingIncident;
@@ -173,17 +176,18 @@ namespace RimWorld
 				num = i;
 			}
 			yield break;
-			yield break;
 		}
 
 		// Token: 0x060064FC RID: 25852 RVA: 0x00045287 File Offset: 0x00043487
 		public IEnumerable<FiringIncident> MakeIncidentsForInterval(StorytellerComp comp, List<IIncidentTarget> targets)
 		{
+			//需要度过N天
 			if (GenDate.DaysPassedFloat <= comp.props.minDaysPassed)
 			{
 				yield break;
 			}
 			int num;
+			
 			for (int i = 0; i < targets.Count; i = num + 1)
 			{
 				IIncidentTarget incidentTarget = targets[i];
@@ -191,11 +195,13 @@ namespace RimWorld
 				bool flag2 = comp.props.allowedTargetTags.NullOrEmpty<IncidentTargetTagDef>();
 				foreach (IncidentTargetTagDef item in incidentTarget.IncidentTargetTags())
 				{
+					//禁用目标存在 并且当前当前目标在内
 					if (!comp.props.disallowedTargetTags.NullOrEmpty<IncidentTargetTagDef>() && comp.props.disallowedTargetTags.Contains(item))
 					{
 						flag = true;
 						break;
 					}
+					//允许目标标签列表包含当前
 					if (!flag2 && comp.props.allowedTargetTags.Contains(item))
 					{
 						flag2 = true;
@@ -205,6 +211,7 @@ namespace RimWorld
 				{
 					foreach (FiringIncident firingIncident in comp.MakeIntervalIncidents(incidentTarget))
 					{
+						//当前描述AI难度允许大型威胁 或者当前事件不属于大型威胁
 						if (Find.Storyteller.difficultyValues.allowBigThreats || firingIncident.def.category != IncidentCategoryDefOf.ThreatBig)
 						{
 							yield return firingIncident;

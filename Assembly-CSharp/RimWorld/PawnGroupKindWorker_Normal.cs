@@ -17,7 +17,7 @@ namespace RimWorld
         {
             return (from x in groupMaker.options
                 where x.kind.isFighter
-                select x).Min((PawnGenOption g) => g.Cost);
+                select x).Min(g => g.Cost);
         }
 
         /// <summary>

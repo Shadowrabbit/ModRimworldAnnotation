@@ -132,7 +132,7 @@ namespace Verse
 		{
 			get
 			{
-				return this.curTimeSpeed;
+				return this.curTimeSpeed;IncidentWorker_PawnsArrive
 			}
 			set
 			{

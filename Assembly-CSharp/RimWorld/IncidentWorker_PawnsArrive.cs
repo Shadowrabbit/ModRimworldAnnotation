@@ -25,7 +25,7 @@ namespace RimWorld
         }
 
         /// <summary>
-        /// 派系是否能是组资源
+        /// 派系能否成为组资源
         /// </summary>
         /// <param name="f"></param>
         /// <param name="map"></param>
