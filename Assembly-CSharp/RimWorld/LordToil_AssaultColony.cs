@@ -5,7 +5,7 @@ using Verse.AI.Group;
 namespace RimWorld
 {
 	// Token: 0x02000DEB RID: 3563
-	public class LordToil_AssaultColony : LordToil
+	public class   LordToil_AssaultColony : LordToil
 	{
 		// Token: 0x17000C7C RID: 3196
 		// (get) Token: 0x06005131 RID: 20785 RVA: 0x0000A2A7 File Offset: 0x000084A7

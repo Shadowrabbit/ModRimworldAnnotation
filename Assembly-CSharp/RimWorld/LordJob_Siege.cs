@@ -36,11 +36,14 @@ namespace RimWorld
 		{
 			StateGraph stateGraph = new StateGraph();
 			LordToil startingToil = stateGraph.AttachSubgraph(new LordJob_Travel(this.siegeSpot).CreateGraph()).StartingToil;
+			//围攻流程
 			LordToil_Siege lordToil_Siege = new LordToil_Siege(this.siegeSpot, this.blueprintPoints);
 			stateGraph.AddToil(lordToil_Siege);
+			//离开地图流程
 			LordToil_ExitMap lordToil_ExitMap = new LordToil_ExitMap(LocomotionUrgency.Jog, false, true);
 			lordToil_ExitMap.useAvoidGrid = true;
 			stateGraph.AddToil(lordToil_ExitMap);
+			//围攻
 			LordToil startingToil2 = stateGraph.AttachSubgraph(new LordJob_AssaultColony(this.faction, true, true, false, false, true).CreateGraph()).StartingToil;
 			Transition transition = new Transition(startingToil, lordToil_Siege, false, true);
 			transition.AddTrigger(new Trigger_Memo("TravelArrived"));

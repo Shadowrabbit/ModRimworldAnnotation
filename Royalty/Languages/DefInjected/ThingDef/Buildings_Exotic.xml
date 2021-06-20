@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: burnout low-shield -->
+  <BroadshieldProjector.label>护盾投影仪</BroadshieldProjector.label>
+  <!-- EN: A man-portable low-angle shield projector. Bullets can go out, but not in. Its compact power source burns out after a few seconds of use. -->
+  <BroadshieldProjector.description>一个单兵携带式低角护盾投影装置。子弹能够射出，但是无法射入。它会在一段时间后自动烧毁。</BroadshieldProjector.description>
+  <!-- EN: Burnout in -->
+  <BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>烧毁于</BroadshieldProjector.comps.CompDestroyAfterDelay.countdownLabel>
+  
+  <!-- EN: shuttle -->
+  <Shuttle.label>穿梭机</Shuttle.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <Shuttle.description>一个用于穿梭在地表和轨道或者卫星和行星之间的太空时代穿梭机。</Shuttle.description>
+  
+  <!-- EN: crashed shuttle -->
+  <ShuttleCrashed.label>坠毁的穿梭机</ShuttleCrashed.label>
+  <!-- EN: A spacer-tech shuttle designed for transit between surface and orbit, or between moons of a planetary system. -->
+  <ShuttleCrashed.description>一个用于穿梭在地表和轨道或者卫星和行星之间的太空时代穿梭机。</ShuttleCrashed.description>
+  
+</LanguageData>
