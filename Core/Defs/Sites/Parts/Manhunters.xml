@@ -12,11 +12,17 @@
     <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
     <wantsThreatPoints>true</wantsThreatPoints>
     <tags>
+<!--      矿物扫描仪珍贵的矿物威胁-->
       <li>MineralScannerPreciousLumpThreat</li>
+<!--      物品藏匿任务威胁-->
       <li>ItemStashQuestThreat</li>
+<!--      被击落的难民任务威胁-->
       <li>DownedRefugeeQuestThreat</li>
+<!--      Quest 主动威胁防御-->
       <li>QuestActiveThreatDefense</li>
+<!--      探秘主动威胁防御无隐藏-->
       <li>QuestActiveThreatDefenseNoHidden</li>
+<!--      猎人-->
       <li>Manhunters</li>
     </tags>
     <arrivedLetterHediffHyperlinks>

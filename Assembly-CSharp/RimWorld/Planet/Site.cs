@@ -81,8 +81,7 @@ namespace RimWorld.Planet
 			}
 		}
 
-		// Token: 0x17001ADC RID: 6876
-		// (get) Token: 0x0600B5C2 RID: 46530 RVA: 0x00349688 File Offset: 0x00347888
+		//主要地点部分
 		private SitePart MainSitePart
 		{
 			get
