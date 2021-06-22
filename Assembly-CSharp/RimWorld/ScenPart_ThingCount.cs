@@ -67,7 +67,7 @@ namespace RimWorld
 					list2.Add(new FloatMenuOption(localSd.LabelCap, delegate()
 					{
 						this.stuff = localSd;
-					}, MenuOptionPriority.Default, null, null, 0f, null, null));
+					}));
 				}
 				Find.WindowStack.Add(new FloatMenu(list2));
 			}

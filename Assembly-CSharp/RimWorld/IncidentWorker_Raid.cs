@@ -68,6 +68,7 @@ namespace RimWorld
             {
                 return;
             }
+
             //快速军事援助的突袭抵达模式
             if (parms.raidArrivalModeForQuickMilitaryAid)
             {
@@ -126,6 +127,7 @@ namespace RimWorld
             {
                 return false;
             }
+
             //角色组定义 战斗
             var combat = PawnGroupKindDefOf.Combat;
             //解决袭击策略
@@ -139,6 +141,7 @@ namespace RimWorld
             {
                 return false;
             }
+
             //袭击点数
             var points = parms.points;
             //调整袭击点数
@@ -150,8 +153,7 @@ namespace RimWorld
             if (list == null)
             {
                 list = PawnGroupMakerUtility
-                    .GeneratePawns(IncidentParmsUtility.GetDefaultPawnGroupMakerParms(combat, parms))
-                    .ToList();
+                    .GeneratePawns(IncidentParmsUtility.GetDefaultPawnGroupMakerParms(combat, parms)).ToList();
                 if (list.Count == 0)
                 {
                     Log.Error("Got no pawns spawning raid from parms " + parms, false);
@@ -160,6 +162,7 @@ namespace RimWorld
 
                 parms.raidArrivalMode.Worker.Arrive(list, parms);
             }
+
             //生成突袭战利品
             GenerateRaidLoot(parms, points, list);
             TaggedString baseLetterLabel = GetLetterLabel(parms);
@@ -174,16 +177,13 @@ namespace RimWorld
                 //分组
                 List<List<Pawn>> list3 = IncidentParmsUtility.SplitIntoGroups(list, parms.pawnGroups);
                 //选长度最大的组
-                List<Pawn> list4 = list3.MaxBy(delegate(List<Pawn> x)
-                {
-                    return x.Count;
-                });
+                List<Pawn> list4 = list3.MaxBy(delegate(List<Pawn> x) { return x.Count; });
                 //第一个角色丢进目标列表
                 if (list4.Any<Pawn>())
                 {
                     list2.Add(list4[0]);
                 }
-                
+
                 for (int i = 0; i < list3.Count; i++)
                 {
                     //当前组不是长度最大的组 并且里面有角色
@@ -203,6 +203,7 @@ namespace RimWorld
                     list2.Add(t);
                 }
             }
+
             //提示信件
             SendStandardLetter(baseLetterLabel, baseLetterText, GetLetterDef(), parms, list2,
                 Array.Empty<NamedArgument>());
@@ -284,7 +285,7 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<Faction>(points.ToString("F0"),
-                    (Faction str) => ((float)factionCount[str] / 500f).ToStringPercent()));
+                    (Faction str) => ((float) factionCount[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);
@@ -329,7 +330,7 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<RaidStrategyDef>(points.ToString("F0"),
-                    (RaidStrategyDef str) => ((float)strats[str] / 500f).ToStringPercent()));
+                    (RaidStrategyDef str) => ((float) strats[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);
@@ -375,7 +376,7 @@ namespace RimWorld
                 }
 
                 list.Add(new TableDataGetter<PawnsArrivalModeDef>(points.ToString("F0"),
-                    (PawnsArrivalModeDef str) => ((float)modeCount[str] / 500f).ToStringPercent()));
+                    (PawnsArrivalModeDef str) => ((float) modeCount[str] / 500f).ToStringPercent()));
             }
 
             Find.TickManager.DebugSetTicksGame(ticksGame);

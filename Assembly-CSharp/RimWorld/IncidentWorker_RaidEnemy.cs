@@ -61,7 +61,7 @@ namespace RimWorld
             }
 
             return PawnGroupMakerUtility.TryGetRandomFactionForCombatPawnGroup(num, out parms.faction,
-                       (Faction f) => this.FactionCanBeGroupSource(f, map, false), true, true, true, true) ||
+                       (Faction f) => this.FactionCanBeGroupSource(f, map), true, true, true) ||
                    PawnGroupMakerUtility.TryGetRandomFactionForCombatPawnGroup(num, out parms.faction,
                        (Faction f) => this.FactionCanBeGroupSource(f, map, true), true, true, true, true);
         }
@@ -183,7 +183,7 @@ namespace RimWorld
         protected override void GenerateRaidLoot(IncidentParms parms, float raidLootPoints, List<Pawn> pawns)
         {
             //袭击战利品制作器不存在
-            if (parms.faction.def.raidLootMaker == null || !pawns.Any<Pawn>())
+            if (parms.faction.def.raidLootMaker == null || !pawns.Any())
             {
                 return;
             }

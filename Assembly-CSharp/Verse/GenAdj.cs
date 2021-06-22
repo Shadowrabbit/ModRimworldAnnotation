@@ -581,6 +581,7 @@ namespace Verse
 			{
 				return;
 			}
+			//默认方向北 南北不计算size改变
 			if (rot.IsHorizontal)
 			{
 				int x = size.x;
