@@ -1,55 +1,29 @@
-﻿using System;
+﻿// Decompiled with JetBrains decompiler
+// Type: RimWorld.WorldObjectDefOf
+// Assembly: Assembly-CSharp, Version=1.2.7705.25110, Culture=neutral, PublicKeyToken=null
+// MVID: C36F9493-C984-4DDA-A7FB-5C788416098F
+// Assembly location: E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimworldFactionalWar\Source\ModRimworldFactionalWar\Lib\Assembly-CSharp.dll
 
 namespace RimWorld
 {
-	// Token: 0x02001C7C RID: 7292
-	[DefOf]
-	public static class WorldObjectDefOf
-	{
-		// Token: 0x06009F7F RID: 40831 RVA: 0x0006A4DC File Offset: 0x000686DC
-		static WorldObjectDefOf()
-		{
-			DefOfHelper.EnsureInitializedInCtor(typeof(WorldObjectDefOf));
-		}
+    [DefOf]
+    public static class WorldObjectDefOf
+    {
+        public static WorldObjectDef Caravan; //商队
+        public static WorldObjectDef Settlement; //乡镇
+        public static WorldObjectDef AbandonedSettlement; //废弃的定居点
+        public static WorldObjectDef EscapeShip; //逃生飞船
+        public static WorldObjectDef Ambush; //伏击
+        public static WorldObjectDef DestroyedSettlement; //被摧毁的乡镇
+        public static WorldObjectDef AttackedNonPlayerCaravan; //被攻击的非玩家商队
+        public static WorldObjectDef TravelingTransportPods; //旅行运输舱
+        public static WorldObjectDef RoutePlannerWaypoint; //路线规划器航点
+        public static WorldObjectDef Site; //地点
+        public static WorldObjectDef PeaceTalks; //友好交谈
+        [MayRequireRoyalty]
+        public static WorldObjectDef TravelingShuttle; //飞行器
+        public static WorldObjectDef Debug_Arena;
 
-		// Token: 0x04006B96 RID: 27542
-		public static WorldObjectDef Caravan;
-
-		// Token: 0x04006B97 RID: 27543
-		public static WorldObjectDef Settlement;
-
-		// Token: 0x04006B98 RID: 27544
-		public static WorldObjectDef AbandonedSettlement;
-
-		// Token: 0x04006B99 RID: 27545
-		public static WorldObjectDef EscapeShip;
-
-		// Token: 0x04006B9A RID: 27546
-		public static WorldObjectDef Ambush;
-
-		// Token: 0x04006B9B RID: 27547
-		public static WorldObjectDef DestroyedSettlement;
-
-		// Token: 0x04006B9C RID: 27548
-		public static WorldObjectDef AttackedNonPlayerCaravan;
-
-		// Token: 0x04006B9D RID: 27549
-		public static WorldObjectDef TravelingTransportPods;
-
-		// Token: 0x04006B9E RID: 27550
-		public static WorldObjectDef RoutePlannerWaypoint;
-
-		// Token: 0x04006B9F RID: 27551
-		public static WorldObjectDef Site;
-
-		// Token: 0x04006BA0 RID: 27552
-		public static WorldObjectDef PeaceTalks;
-
-		// Token: 0x04006BA1 RID: 27553
-		[MayRequireRoyalty]
-		public static WorldObjectDef TravelingShuttle;
-
-		// Token: 0x04006BA2 RID: 27554
-		public static WorldObjectDef Debug_Arena;
-	}
+        static WorldObjectDefOf() => DefOfHelper.EnsureInitializedInCtor(typeof (WorldObjectDefOf));
+    }
 }
