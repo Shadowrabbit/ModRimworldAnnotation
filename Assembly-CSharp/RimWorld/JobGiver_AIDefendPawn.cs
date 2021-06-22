@@ -32,12 +32,14 @@ namespace RimWorld
 		// Token: 0x06004B05 RID: 19205 RVA: 0x001A3E90 File Offset: 0x001A2090
 		protected override Job TryGiveJob(Pawn pawn)
 		{
+			//被当前角色守护的目标
 			Pawn defendee = this.GetDefendee(pawn);
 			if (defendee == null)
 			{
 				Log.Error(base.GetType() + " has null defendee. pawn=" + pawn.ToStringSafe<Pawn>(), false);
 				return null;
 			}
+			//被守护者正在被搬运中
 			Pawn carriedBy = defendee.CarriedBy;
 			if (carriedBy != null)
 			{
@@ -46,10 +48,12 @@ namespace RimWorld
 					return null;
 				}
 			}
+			//无法接触被守护者
 			else if (!defendee.Spawned || !pawn.CanReach(defendee, PathEndMode.OnCell, Danger.Deadly, false, TraverseMode.ByPawn))
 			{
 				return null;
 			}
+			//寻找目标战斗
 			return base.TryGiveJob(pawn);
 		}
 
