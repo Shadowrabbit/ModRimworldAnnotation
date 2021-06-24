@@ -1,118 +1,96 @@
-﻿using System;
+﻿// Decompiled with JetBrains decompiler
+// Type: RimWorld.GenStep_Outpost
+// Assembly: Assembly-CSharp, Version=1.2.7705.25110, Culture=neutral, PublicKeyToken=null
+// MVID: C36F9493-C984-4DDA-A7FB-5C788416098F
+// Assembly location: E:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ModRimworldFactionalWar\Source\ModRimworldFactionalWar\Lib\Assembly-CSharp.dll
+
+using RimWorld.BaseGen;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using RimWorld.BaseGen;
 using Verse;
 
 namespace RimWorld
 {
-	// Token: 0x020012CB RID: 4811
-	public class GenStep_Outpost : GenStep
-	{
-		// Token: 0x1700100E RID: 4110
-		// (get) Token: 0x0600683A RID: 26682 RVA: 0x00046F75 File Offset: 0x00045175
-		public override int SeedPart
-		{
-			get
-			{
-				return 398638181;
-			}
-		}
+  public class GenStep_Outpost : GenStep
+  {
+    public int size = 16;
+    public FloatRange defaultPawnGroupPointsRange = SymbolResolver_Settlement.DefaultPawnsPoints;
+    private static List<CellRect> possibleRects = new List<CellRect>();
 
-		// Token: 0x0600683B RID: 26683 RVA: 0x002026F4 File Offset: 0x002008F4
-		public override void Generate(Map map, GenStepParams parms)
-		{
-			CellRect rectToDefend;
-			if (!MapGenerator.TryGetVar<CellRect>("RectOfInterest", out rectToDefend))
-			{
-				rectToDefend = CellRect.SingleCell(map.Center);
-			}
-			List<CellRect> list;
-			if (!MapGenerator.TryGetVar<List<CellRect>>("UsedRects", out list))
-			{
-				list = new List<CellRect>();
-				MapGenerator.SetVar<List<CellRect>>("UsedRects", list);
-			}
-			Faction faction;
-			if (map.ParentFaction == null || map.ParentFaction == Faction.OfPlayer)
-			{
-				faction = Find.FactionManager.RandomEnemyFaction(false, false, true, TechLevel.Undefined);
-			}
-			else
-			{
-				faction = map.ParentFaction;
-			}
-			ResolveParams resolveParams = default(ResolveParams);
-			resolveParams.rect = this.GetOutpostRect(rectToDefend, list, map);
-			resolveParams.faction = faction;
-			resolveParams.edgeDefenseWidth = new int?(2);
-			resolveParams.edgeDefenseTurretsCount = new int?(Rand.RangeInclusive(0, 1));
-			resolveParams.edgeDefenseMortarsCount = new int?(0);
-			if (parms.sitePart != null)
-			{
-				resolveParams.settlementPawnGroupPoints = new float?(parms.sitePart.parms.threatPoints);
-				resolveParams.settlementPawnGroupSeed = new int?(OutpostSitePartUtility.GetPawnGroupMakerSeed(parms.sitePart.parms));
-			}
-			else
-			{
-				resolveParams.settlementPawnGroupPoints = new float?(this.defaultPawnGroupPointsRange.RandomInRange);
-			}
-			BaseGen.globalSettings.map = map;
-			BaseGen.globalSettings.minBuildings = 1;
-			BaseGen.globalSettings.minBarracks = 1;
-			BaseGen.symbolStack.Push("settlement", resolveParams, null);
-			if (faction != null && faction == Faction.Empire)
-			{
-				BaseGen.globalSettings.minThroneRooms = 1;
-				BaseGen.globalSettings.minLandingPads = 1;
-			}
-			BaseGen.Generate();
-			if (faction != null && faction == Faction.Empire && BaseGen.globalSettings.landingPadsGenerated == 0)
-			{
-				CellRect item;
-				GenStep_Settlement.GenerateLandingPadNearby(resolveParams.rect, map, faction, out item);
-				list.Add(item);
-			}
-			list.Add(resolveParams.rect);
-		}
+    public override int SeedPart => 398638181;
 
-		// Token: 0x0600683C RID: 26684 RVA: 0x002028A0 File Offset: 0x00200AA0
-		private CellRect GetOutpostRect(CellRect rectToDefend, List<CellRect> usedRects, Map map)
-		{
-			GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.minX - 1 - this.size, rectToDefend.CenterCell.z - this.size / 2, this.size, this.size));
-			GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.maxX + 1, rectToDefend.CenterCell.z - this.size / 2, this.size, this.size));
-			GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - this.size / 2, rectToDefend.minZ - 1 - this.size, this.size, this.size));
-			GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - this.size / 2, rectToDefend.maxZ + 1, this.size, this.size));
-			CellRect mapRect = new CellRect(0, 0, map.Size.x, map.Size.z);
-			GenStep_Outpost.possibleRects.RemoveAll((CellRect x) => !x.FullyContainedWithin(mapRect));
-			if (!GenStep_Outpost.possibleRects.Any<CellRect>())
-			{
-				return rectToDefend;
-			}
-			IEnumerable<CellRect> source = from x in GenStep_Outpost.possibleRects
-			where !usedRects.Any((CellRect y) => x.Overlaps(y))
-			select x;
-			if (!source.Any<CellRect>())
-			{
-				GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.minX - 1 - this.size * 2, rectToDefend.CenterCell.z - this.size / 2, this.size, this.size));
-				GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.maxX + 1 + this.size, rectToDefend.CenterCell.z - this.size / 2, this.size, this.size));
-				GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - this.size / 2, rectToDefend.minZ - 1 - this.size * 2, this.size, this.size));
-				GenStep_Outpost.possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - this.size / 2, rectToDefend.maxZ + 1 + this.size, this.size, this.size));
-			}
-			if (source.Any<CellRect>())
-			{
-				return source.RandomElement<CellRect>();
-			}
-			return GenStep_Outpost.possibleRects.RandomElement<CellRect>();
-		}
+    public override void Generate(Map map, GenStepParams parms)
+    {
+      CellRect var1;
+      //感兴趣的区域不存在
+      if (!MapGenerator.TryGetVar("RectOfInterest", out var1))
+        //从中心取个矩形
+        var1 = CellRect.SingleCell(map.Center);
+      //使用中的区域
+      List<CellRect> var2;
+      if (!MapGenerator.TryGetVar("UsedRects", out var2))
+      {
+        var2 = new List<CellRect>();
+        MapGenerator.SetVar("UsedRects", var2);
+      }
+      //派系
+      Faction faction = map.ParentFaction == null || map.ParentFaction == Faction.OfPlayer ? Find.FactionManager.RandomEnemyFaction() : map.ParentFaction;
+      ResolveParams resolveParams = new ResolveParams();
+      //获取据点所在的矩形
+      resolveParams.rect = GetOutpostRect(var1, var2, map);
+      resolveParams.faction = faction;
+      resolveParams.edgeDefenseWidth = 2;
+      resolveParams.edgeDefenseTurretsCount = Rand.RangeInclusive(0, 1);
+      resolveParams.edgeDefenseMortarsCount = 0;
+      if (parms.sitePart != null)
+      {
+        resolveParams.settlementPawnGroupPoints = parms.sitePart.parms.threatPoints;
+        resolveParams.settlementPawnGroupSeed = OutpostSitePartUtility.GetPawnGroupMakerSeed(parms.sitePart.parms);
+      }
+      else
+        resolveParams.settlementPawnGroupPoints = defaultPawnGroupPointsRange.RandomInRange;
+      RimWorld.BaseGen.BaseGen.globalSettings.map = map;
+      RimWorld.BaseGen.BaseGen.globalSettings.minBuildings = 1;
+      RimWorld.BaseGen.BaseGen.globalSettings.minBarracks = 1;
+      RimWorld.BaseGen.BaseGen.symbolStack.Push("settlement", resolveParams);
+      if (faction != null && faction == Faction.Empire)
+      {
+        RimWorld.BaseGen.BaseGen.globalSettings.minThroneRooms = 1;
+        RimWorld.BaseGen.BaseGen.globalSettings.minLandingPads = 1;
+      }
+      RimWorld.BaseGen.BaseGen.Generate();
+      if (faction != null && faction == Faction.Empire && RimWorld.BaseGen.BaseGen.globalSettings.landingPadsGenerated == 0)
+      {
+        CellRect usedRect;
+        GenStep_Settlement.GenerateLandingPadNearby(resolveParams.rect, map, faction, out usedRect);
+        var2.Add(usedRect);
+      }
+      var2.Add(resolveParams.rect);
+    }
 
-		// Token: 0x04004565 RID: 17765
-		public int size = 16;
-
-		// Token: 0x04004566 RID: 17766
-		public FloatRange defaultPawnGroupPointsRange = SymbolResolver_Settlement.DefaultPawnsPoints;
-
-		// Token: 0x04004567 RID: 17767
-		private static List<CellRect> possibleRects = new List<CellRect>();
-	}
+    private CellRect GetOutpostRect(
+      CellRect rectToDefend,
+      List<CellRect> usedRects,
+      Map map)
+    {
+      possibleRects.Add(new CellRect(rectToDefend.minX - 1 - size, rectToDefend.CenterCell.z - size / 2, size, size));
+      possibleRects.Add(new CellRect(rectToDefend.maxX + 1, rectToDefend.CenterCell.z - size / 2, size, size));
+      possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - size / 2, rectToDefend.minZ - 1 - size, size, size));
+      possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - size / 2, rectToDefend.maxZ + 1, size, size));
+      CellRect mapRect = new CellRect(0, 0, map.Size.x, map.Size.z);
+      possibleRects.RemoveAll(x => !x.FullyContainedWithin(mapRect));
+      if (!possibleRects.Any())
+        return rectToDefend;
+      IEnumerable<CellRect> source = possibleRects.Where(x => !usedRects.Any(y => x.Overlaps(y)));
+      if (!source.Any())
+      {
+        possibleRects.Add(new CellRect(rectToDefend.minX - 1 - size * 2, rectToDefend.CenterCell.z - size / 2, size, size));
+        possibleRects.Add(new CellRect(rectToDefend.maxX + 1 + size, rectToDefend.CenterCell.z - size / 2, size, size));
+        possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - size / 2, rectToDefend.minZ - 1 - size * 2, size, size));
+        possibleRects.Add(new CellRect(rectToDefend.CenterCell.x - size / 2, rectToDefend.maxZ + 1 + size, size, size));
+      }
+      return source.Any() ? source.RandomElement() : possibleRects.RandomElement();
+    }
+  }
 }

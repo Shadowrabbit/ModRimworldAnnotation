@@ -77,7 +77,7 @@ namespace Verse
 			return map.pathGrid.Walkable(c);
 		}
 
-		// Token: 0x06003541 RID: 13633 RVA: 0x001577D0 File Offset: 0x001559D0
+		//可以站立
 		public static bool Standable(this IntVec3 c, Map map)
 		{
 			if (!map.pathGrid.Walkable(c))

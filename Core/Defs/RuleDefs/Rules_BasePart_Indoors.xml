@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
+<!--basepart超过13会分割 分割后的房间走下面-->
   <RuleDef>
     <defName>BasePart</defName>
     <symbol>basePart_indoors</symbol>

@@ -38,7 +38,7 @@ namespace RimWorld.BaseGen
             resolveParams1.singlePawnLord = lord;
             resolveParams1.pawnGroupKindDef = rp.pawnGroupKindDef ?? PawnGroupKindDefOf.Settlement;
             resolveParams1.singlePawnSpawnCellExtraPredicate = rp.singlePawnSpawnCellExtraPredicate ??
-                                                               (Predicate<IntVec3>)(x =>
+                                                               (x =>
                                                                    map.reachability.CanReachMapEdge(x, traverseParms));
             if (resolveParams1.pawnGroupMakerParams == null)
             {
@@ -55,8 +55,9 @@ namespace RimWorld.BaseGen
                 resolveParams1.pawnGroupMakerParams.seed = rp.settlementPawnGroupSeed;
             }
             //生成角色
-            RimWorld.BaseGen.BaseGen.symbolStack.Push("pawnGroup", resolveParams1);
-            RimWorld.BaseGen.BaseGen.symbolStack.Push("outdoorLighting", rp);
+            BaseGen.symbolStack.Push("pawnGroup", resolveParams1);
+            //生成灯
+            BaseGen.symbolStack.Push("outdoorLighting", rp);
             //泡沫灭火器
             if (faction.def.techLevel >= TechLevel.Industrial)
             {

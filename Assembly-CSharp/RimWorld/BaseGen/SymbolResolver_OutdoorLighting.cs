@@ -20,12 +20,15 @@ namespace RimWorld.BaseGen
 			{
 				thingDef = ThingDefOf.TorchLamp;
 			}
+			//寻找供电
 			this.FindNearbyGlowers(rp.rect);
 			for (int i = 0; i < rp.rect.Area / 4; i++)
 			{
 				IntVec3 randomCell = rp.rect.RandomCell;
+				//能站立 没人 没建筑 没物品
 				if (randomCell.Standable(map) && randomCell.GetFirstItem(map) == null && randomCell.GetFirstPawn(map) == null && randomCell.GetFirstBuilding(map) == null)
 				{
+					//当前随机坐标的地区
 					Region region = randomCell.GetRegion(map, RegionType.Set_Passable);
 					if (region != null && region.Room.PsychologicallyOutdoors && region.Room.UsesOutdoorTemperature && !this.AnyGlowerNearby(randomCell) && !BaseGenUtility.AnyDoorAdjacentCardinalTo(randomCell, map))
 					{
@@ -49,21 +52,25 @@ namespace RimWorld.BaseGen
 		private void FindNearbyGlowers(CellRect rect)
 		{
 			Map map = BaseGen.globalSettings.map;
-			SymbolResolver_OutdoorLighting.nearbyGlowers.Clear();
+			nearbyGlowers.Clear();
+			//扩涨
 			rect = rect.ExpandedBy(4);
+			//越界校验
 			rect = rect.ClipInsideMap(map);
 			foreach (IntVec3 intVec in rect)
 			{
-				Region region = intVec.GetRegion(map, RegionType.Set_Passable);
+				Region region = intVec.GetRegion(map);
+				//当前坐标在地区内 并且是户外地区
 				if (region != null && region.Room.PsychologicallyOutdoors)
 				{
 					List<Thing> thingList = intVec.GetThingList(map);
 					for (int i = 0; i < thingList.Count; i++)
 					{
+						//把附近能供电的物体加入列表
 						CompGlower compGlower = thingList[i].TryGetComp<CompGlower>();
 						if (compGlower != null)
 						{
-							SymbolResolver_OutdoorLighting.nearbyGlowers.Add(compGlower);
+							nearbyGlowers.Add(compGlower);
 						}
 					}
 				}
