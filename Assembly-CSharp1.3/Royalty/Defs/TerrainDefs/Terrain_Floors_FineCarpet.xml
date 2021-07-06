@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <TerrainDef Name="CarpetFineBase" ParentName="FloorBase" Abstract="True">
+    <texturePath>Terrain/Surfaces/CarpetFine</texturePath>
+    <researchPrerequisites><li>CarpetMaking</li></researchPrerequisites>
+    <burnedDef>BurnedCarpet</burnedDef>
+    <costList>
+      <Cloth>35</Cloth>
+    </costList>
+    <designatorDropdown>Floor_Carpet_Fine</designatorDropdown>
+    <statBases>
+      <Beauty>4</Beauty>
+      <Flammability>0.32</Flammability>
+      <WorkToBuild>4000</WorkToBuild>
+    </statBases>
+    <tags>
+      <li>FineFloor</li>
+    </tags>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineBurgundy</defName>
+    <label>fine burgundy carpet</label>
+    <renderPrecedence>200</renderPrecedence>
+    <description>Classic burgundy carpet for that classic rich look.</description>
+    <color>(91,41,45)</color>
+    <designationHotKey>Misc8</designationHotKey>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineIndigo</defName>
+    <label>fine indigo carpet</label>
+    <renderPrecedence>199</renderPrecedence>
+    <description>Soft and silky indigo carpet, for that extra sense of pomp.</description>
+    <color>(125,73,125)</color>
+    <designationHotKey>Misc9</designationHotKey>
+  </TerrainDef>
+
+  <TerrainDef ParentName="CarpetFineBase">
+    <defName>CarpetFineWhite</defName>
+    <label>fine white carpet</label>
+    <renderPrecedence>198</renderPrecedence>
+    <description>Sublime white carpet, glimmering with subtle patterns.</description>
+    <color>(0.65,0.65,0.65)</color>
+    <designationHotKey>Misc10</designationHotKey>
+  </TerrainDef>
+
+</Defs>

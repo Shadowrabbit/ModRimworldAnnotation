@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: detection chance -->
+  <Bladelink_DetectionChance.label>检测概率（绑定物品）</Bladelink_DetectionChance.label>
+  <!-- EN: The likelihood of the bladelink implant being detected each time it is used to attack in combat.\n\nSome factions try to enforce laws restricting the use of the bladelink to those holding specific titles. Using the bladelink emits a psychic signature which has a chance of being detected at a distance. If it is used illegally and detected, there will be diplomatic consequences. -->
+  <Bladelink_DetectionChance.description>在战斗中使用绑定武器进行攻击被侦测到的可能性。\n\n某些派系可能会规定拥有特定头衔的个体使用绑定武器。使用这些绑定武器会发出一个心灵信号，并且可能会被远距离侦测到。如果违规使用并且被发现，将会产生外交影响。</Bladelink_DetectionChance.description>
+  
+  <!-- EN: blunt damage -->
+  <BluntDamageMultiplier.label>钝器伤害</BluntDamageMultiplier.label>
+  <!-- EN: A multiplier on damage from blunt-type attacks for weapons made of this material. -->
+  <BluntDamageMultiplier.description>这种材料所制作物品的钝器伤害的乘数。</BluntDamageMultiplier.description>
+  
+  <!-- EN: melee armor penetration -->
+  <MeleeWeapon_AverageArmorPenetration.label>近战护甲穿透</MeleeWeapon_AverageArmorPenetration.label>
+  <!-- EN: Average armor penetration in melee combat. -->
+  <MeleeWeapon_AverageArmorPenetration.description>近战中所有攻击的平均护甲穿透率。</MeleeWeapon_AverageArmorPenetration.description>
+  
+  <!-- EN: melee damage per second -->
+  <MeleeWeapon_AverageDPS.label>近战每秒伤害</MeleeWeapon_AverageDPS.label>
+  <!-- EN: Average damage dealt per second in melee combat, if all attacks hit. -->
+  <MeleeWeapon_AverageDPS.description>格斗作战中，在所有攻击命中的情况下，每秒造成的伤害。</MeleeWeapon_AverageDPS.description>
+  
+  <!-- EN: melee cooldown -->
+  <MeleeWeapon_CooldownMultiplier.label>近战冷却</MeleeWeapon_CooldownMultiplier.label>
+  <!-- EN: A multiplier on attack delay for weapons made of this material. -->
+  <MeleeWeapon_CooldownMultiplier.description>使用此材料制作的物品的攻击延时的乘数。</MeleeWeapon_CooldownMultiplier.description>
+  
+  <!-- EN: melee damage multiplier -->
+  <MeleeWeapon_DamageMultiplier.label>近战伤害乘数</MeleeWeapon_DamageMultiplier.label>
+  <!-- EN: A damage multiplier applied to melee combat. -->
+  <MeleeWeapon_DamageMultiplier.description>应用于格斗作战的伤害乘数。</MeleeWeapon_DamageMultiplier.description>
+  
+  <!-- EN: sharp damage -->
+  <SharpDamageMultiplier.label>利器伤害</SharpDamageMultiplier.label>
+  <!-- EN: A multiplier on damage from sharp-type attacks for weapons made of this material. -->
+  <SharpDamageMultiplier.description>这种材料所制作的物品的利器伤害的乘数，比如切割和戳刺。</SharpDamageMultiplier.description>
+  
+</LanguageData>
