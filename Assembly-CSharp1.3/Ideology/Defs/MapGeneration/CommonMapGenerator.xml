@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <GenStepDef>
+    <defName>ScatterRoadDebris</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterRoadDebris"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>ScatterCaveDebris</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterCaveDebris"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientUtilityBuilding</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientUtilityBuilding"/>
+  </GenStepDef>
+  
+  <GenStepDef>
+    <defName>MechanoidRemains</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterMechanoidRemains"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientTurret</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientTurret"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientMechs</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientMechs"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientLandingPad</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientLandingPad"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>AncientFences</defName>
+    <order>550</order>
+    <genStep Class="GenStep_ScatterAncientFences"/>
+  </GenStepDef>
+
+  <!-- Ancient misc debris -->
+  <GenStepDef Abstract="True" Name="AncientMiscDebris">
+    <order>310</order>
+    <genStep Class="GenStep_ScatterThings">
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <minSpacing>50</minSpacing>
+      <countPer10kCellsRange>0.25~0.5</countPer10kCellsRange>
+      <validators>
+        <li Class="ScattererValidator_Buildable">
+          <radius>5</radius>
+          <affordance>Heavy</affordance>
+        </li>
+      </validators>
+      <filthDef>Filth_MachineBits</filthDef>
+      <filthExpandBy>1</filthExpandBy>
+      <filthChance>0.4</filthChance>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef ParentName="AncientMiscDebris">
+    <defName>AncientPipelineSection</defName>
+    <genStep Class="GenStep_ScatterThings">
+      <thingDef>AncientPipelineSection</thingDef>
+    </genStep>
+  </GenStepDef>
+
+  <GenStepDef>
+    <order>320</order>
+    <defName>AncientJunkClusters</defName>
+    <genStep Class="GenStep_ScatterGroup">
+      <allowInWaterBiome>false</allowInWaterBiome>
+      <minSpacing>50</minSpacing>
+      <countPer10kCellsRange>0.4~1</countPer10kCellsRange>
+      <validators>
+        <li Class="ScattererValidator_Buildable">
+          <radius>5</radius>
+          <affordance>Heavy</affordance>
+        </li>
+      </validators>
+      <groups>
+        <li>
+          <things>
+            <AncientWheel>0.1</AncientWheel>
+            <AncientSmallCrate>0.166</AncientSmallCrate>
+            <AncientLargeCrate>0.166</AncientLargeCrate>
+            <AncientLongCrate>0.166</AncientLongCrate>
+            <AncientCrate>0.166</AncientCrate>
+            <AncientBarrel>0.2</AncientBarrel>
+            <AncientStorageCylinder>0.2</AncientStorageCylinder>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.4</filthChance>
+          <clusterRectRadius>3~5</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientShoppingCart>0.5</AncientShoppingCart>
+            <AncientSmallCrate>0.033</AncientSmallCrate>
+            <AncientLargeCrate>0.033</AncientLargeCrate>
+            <AncientLongCrate>0.033</AncientLongCrate>
+            <AncientCrate>0.033</AncientCrate>
+            <AncientVendingMachine>0.1</AncientVendingMachine>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.4</filthChance>
+          <clusterRectRadius>3~5</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientSmallCrate>0.033</AncientSmallCrate>
+            <AncientLargeCrate>0.033</AncientLargeCrate>
+            <AncientLongCrate>0.033</AncientLongCrate>
+            <AncientCrate>0.033</AncientCrate>
+            <AncientRefrigerator>0.1</AncientRefrigerator>
+            <AncientStove>0.1</AncientStove>
+            <AncientKitchenSink>0.3</AncientKitchenSink>
+            <AncientAirConditioner>0.2</AncientAirConditioner>
+            <AncientPostbox>0.1</AncientPostbox>
+            <AncientLamp>0.25</AncientLamp>
+            <AncientBed>0.25</AncientBed>
+            <AncientLockerBank>0.25</AncientLockerBank>
+          </things>
+          <indoorRuin>true</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.4</filthChance>
+          <clusterRectRadius>3~5</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientRustedCar>0.2</AncientRustedCar>
+            <AncientRustedCarFrame>0.2</AncientRustedCarFrame>
+            <AncientPodCar>0.2</AncientPodCar>
+            <AncientWheel>0.3</AncientWheel>
+            <AncientRustedEngineBlock>0.2</AncientRustedEngineBlock>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>0.5~1</coveredCellsPer10Cells>
+          <filthDef>Filth_OilSmear</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.05</filthChance>
+          <clusterRectRadius>12~16</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientTankTrap>0.3</AncientTankTrap>
+            <AncientWarwalkerClaw>0.3</AncientWarwalkerClaw>
+            <AncientWarwalkerLeg>0.3</AncientWarwalkerLeg>
+            <AncientWarwalkerFoot>0.3</AncientWarwalkerFoot>
+            <AncientLargeRustedEngineBlock>0.3</AncientLargeRustedEngineBlock>
+            <AncientTank>0.2</AncientTank>
+            <AncientWarwalkerTorso>0.2</AncientWarwalkerTorso>
+            <AncientWarspiderRemains>0.2</AncientWarspiderRemains>
+            <AncientWarwalkerShell>0.2</AncientWarwalkerShell>
+            <AncientMiniWarwalkerRemains>0.2</AncientMiniWarwalkerRemains>
+            <AncientRustedJeep>0.2</AncientRustedJeep>
+            <AncientJetEngine>0.2</AncientJetEngine>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>1.25~2</coveredCellsPer10Cells>
+          <filthDef>Filth_OilSmear</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.05</filthChance>
+          <clusterRectRadius>12~16</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientWheel>0.5</AncientWheel>
+            <AncientGiantWheel>1</AncientGiantWheel>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>0.25~0.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.2</filthChance>
+          <clusterRectRadius>12~16</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientOperatingTable>0.3</AncientOperatingTable>
+            <AncientAirConditioner>0.1</AncientAirConditioner>
+            <AncientKitchenSink>0.3</AncientKitchenSink>
+            <AncientRefrigerator>0.3</AncientRefrigerator>
+            <AncientSmallCrate>0.2</AncientSmallCrate>
+          </things>
+          <indoorRuin>true</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.4</filthChance>
+          <clusterRectRadius>3~5</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientStorageCylinder>0.3</AncientStorageCylinder>
+            <AncientBarrel>0.3</AncientBarrel>
+            <AncientGenerator>0.2</AncientGenerator>
+            <AncientSmallCrate>0.1</AncientSmallCrate>
+          </things>
+          <indoorRuin>true</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.3</filthChance>
+          <clusterRectRadius>5~7</clusterRectRadius>
+        </li>
+        <li>
+          <things>
+            <AncientMegaCannonBarrel>0.3</AncientMegaCannonBarrel>
+            <AncientMegaCannonTripod>0.1</AncientMegaCannonTripod>
+            <AncientSmallCrate>0.3</AncientSmallCrate>
+            <AncientSecurityTurret>0.3</AncientSecurityTurret>
+          </things>
+          <indoorRuin>false</indoorRuin>
+          <coveredCellsPer10Cells>1.5~2.5</coveredCellsPer10Cells>
+          <filthDef>Filth_MachineBits</filthDef>
+          <filthExpandBy>1</filthExpandBy>
+          <filthChance>0.4</filthChance>
+          <clusterRectRadius>4~5</clusterRectRadius>
+        </li>
+      </groups>
+    </genStep>
+  </GenStepDef>
+
+</Defs>

@@ -50,5 +50,7 @@
 
   <CommandLeaveBestowingCeremony>Leave bestowing ceremony</CommandLeaveBestowingCeremony>
   <CommandLeaveBestowingCeremonyDesc>Stop participating in the bestowing ceremony.</CommandLeaveBestowingCeremonyDesc>
-  
+  <CommandCancelBestowingCeremony>Cancel bestowing ceremony</CommandCancelBestowingCeremony>
+  <CommandCancelBestowingCeremonyDesc>End the bestowing ceremony immediately. The bestower will leave, but another opportunity to perform the ceremony will arise soon.</CommandCancelBestowingCeremonyDesc>
+  <CommandCancelBestowingCeremonyConfirm>Are you sure you want to cancel bestowing ceremony?</CommandCancelBestowingCeremonyConfirm>
 </LanguageData>

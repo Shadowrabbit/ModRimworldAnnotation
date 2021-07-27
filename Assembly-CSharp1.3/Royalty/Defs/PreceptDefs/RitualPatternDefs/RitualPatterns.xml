@@ -13,8 +13,10 @@
     <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
     <ritualBehavior>AnimaTreeLinking</ritualBehavior>
     <ritualTargetFilter>SelectedThing</ritualTargetFilter>
+    <ritualObligationTargetFilter>AnimaTree</ritualObligationTargetFilter>
     <ritualOutcomeEffect>AnimaTreeLinking</ritualOutcomeEffect>
     <playsIdeoMusic>false</playsIdeoMusic>
+    <alwaysStartAnytime>true</alwaysStartAnytime>
   </RitualPatternDef>
   
 </Defs>

@@ -8,7 +8,7 @@
     </tags>
     <placeRules>
       <include>
-        <li>PlaceMakerCommon</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">PlaceMakerCommon</li>
       </include>
       <rulesStrings>
         <!-- Sophiamunda is the shattered empire's home world. -->

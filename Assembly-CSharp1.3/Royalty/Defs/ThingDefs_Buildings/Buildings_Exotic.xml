@@ -26,6 +26,7 @@
       <Flammability>1</Flammability>
     </statBases>
     <tickerType>Normal</tickerType>
+    <canOverlapZones>true</canOverlapZones>
     <killedLeavings>
       <Plasteel>50</Plasteel>
       <Uranium>50</Uranium>

@@ -34,6 +34,7 @@
       <!-- Added misc -->
       <li TKey="MechClusterDormantTrigger">You can safely walk right past a dormant mech cluster, as long as you don't attack it or trigger a proximity activator.</li>
       <li TKey="SkipPsycastsMultiuse">The psychic skip power works on self, allies, enemies, and even items. The tactical possibilities are endless.</li>
+      <li TKey="JumpPackRescue">You can carry a downed ally while using the jump pack. Aerial rescues save lives.</li>
 
     </tips>
   </TipSetDef>

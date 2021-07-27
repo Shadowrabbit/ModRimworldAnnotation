@@ -2,7 +2,7 @@
 <Defs>
 
   <RitualAttachableOutcomeEffectDef>
-    <defName>RechargePsycfocus</defName>
+    <defName>RechargePsyfocus</defName>
     <label>recharge psyfocus</label>
     <effectDesc>recharge psyfocus of all participants to full.</effectDesc>
     <letterInfoText>The psyfocus of all participants has been fully recharged.</letterInfoText>

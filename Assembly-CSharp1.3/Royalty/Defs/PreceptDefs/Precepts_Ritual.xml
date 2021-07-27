@@ -15,6 +15,7 @@
   <PreceptDef>
     <defName>AnimaTreeLinking</defName>
     <label>anima tree linking</label>
+    <description>One person will link with an anima tree. The linker will meditate in front of the anima tree, forming a psychic link. Others gather in a circle to watch and add psychic strength to the ritual.</description>
     <issue>Ritual</issue>
     <preceptClass>Precept_Ritual</preceptClass>
     <visible>false</visible>
@@ -24,6 +25,9 @@
     <ritualPatternBase>AnimaTreeLinking</ritualPatternBase>
     <iconPath>UI/Icons/Rituals/AnimaTreeLinking</iconPath>
     <usesIdeoVisualEffects>false</usesIdeoVisualEffects>
+    <mergeRitualGizmosFromAllIdeos>true</mergeRitualGizmosFromAllIdeos>
+    <useRepeatPenalty>false</useRepeatPenalty>
+    <showRitualFloatMenuOption>false</showRitualFloatMenuOption>
   </PreceptDef>
   
 </Defs>

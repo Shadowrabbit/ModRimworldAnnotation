@@ -7,6 +7,7 @@
     <pathCost>50</pathCost>
     <blockWind>true</blockWind>
     <passability>Impassable</passability>
+    <canOverlapZones>false</canOverlapZones>
     <fillPercent>1.0</fillPercent>
     <statBases>
       <MaxHitPoints>1500</MaxHitPoints>

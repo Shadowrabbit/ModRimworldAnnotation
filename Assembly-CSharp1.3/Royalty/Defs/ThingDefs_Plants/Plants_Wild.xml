@@ -19,6 +19,7 @@
       <MeditationFocusStrength>0.28</MeditationFocusStrength>
       <Flammability>0</Flammability>
       <MaxHitPoints>400</MaxHitPoints>
+      <MeditationPlantGrowthOffset>0</MeditationPlantGrowthOffset>
     </statBases>
     <ingestible />
     <preventSkyfallersLandingOn>true</preventSkyfallersLandingOn>

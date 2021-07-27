@@ -14,7 +14,9 @@
 
   <MessageBestowerWaiting>Select {BESTOWER_definite} and click 'Start bestowing ceremony' to commence the ceremony.</MessageBestowerWaiting>
   <MessageBestowerUnreachable>Cannot reach bestower!</MessageBestowerUnreachable>
+  <MessageBestowingTargetIsBusy>{0} is busy.</MessageBestowingTargetIsBusy>
   <MessageBestowingSpotUnreachable>The bestower is annoyed with the interference and has decided to leave.</MessageBestowingSpotUnreachable>
+  <MessageBestowingDanger>The bestower is leaving due to life-threatening danger.</MessageBestowingDanger>
   <MessageBestowingInterrupted>The bestowing ceremony has been interrupted.</MessageBestowingInterrupted>
 
   <MessageBestowingCeremonyStarted>{PAWN_definite}'s bestowing ceremony has begun.</MessageBestowingCeremonyStarted>

@@ -127,7 +127,7 @@
   <ResearchProjectDef ParentName="BaseBodyPartEmpire_TierB">
     <defName>FleshShaping</defName>
     <label>flesh shaping</label>
-    <description>Craft bionics which induce the reshaping or natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure.</description>
+    <description>Craft bionics which induce the reshaping of natural flesh, usually for the purposes of aesthetic enhancement or personal pleasure.</description>
     <prerequisites>
       <li>Fabrication</li>
     </prerequisites>

@@ -89,6 +89,13 @@
   <BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>{PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}.</BestowingCeremonyThroneroomRequirementsNotSatisfiedShort>
   <BestowingCeremonyThroneroomRequirementsNotSatisfied>The bestower is offended that {PAWN_definite}'s throneroom does not satisfy the requirements of the title of {TITLE}. The bestowing ceremony has been cancelled.</BestowingCeremonyThroneroomRequirementsNotSatisfied>
   <BestowingCeremonyLabel>bestowing ceremony</BestowingCeremonyLabel>
+  <BestowingOutcomeQualitySpecific>Bestowing ceremony total quality was {0}, determined by these factors</BestowingOutcomeQualitySpecific>
+  
+  <RitualTargetAnimaTreeNoPawnsToLink>No colonists that can link with anima tree right now.</RitualTargetAnimaTreeNoPawnsToLink>
+  <RitualTargetAnimaTreeNoPawnsWithNatureFocus>No colonists with the natural meditation focus type.</RitualTargetAnimaTreeNoPawnsWithNatureFocus>
+  <RitualTargetAnimaTreeNotEnoughAnimaGrass>Need at least {0} anima grass.</RitualTargetAnimaTreeNotEnoughAnimaGrass>
+  <RitualTargetAnimaTreeInfo>An anima tree.</RitualTargetAnimaTreeInfo>
+  <RitualTargetAnimaTreeMustBeCapableOfNature>Must be a colonist with the natural meditation focus type who is below maximum psylink level.</RitualTargetAnimaTreeMustBeCapableOfNature>
 
   <AnimaLinkingExplanationBase>The anima linking ceremony is more powerful with more participants. The more people participate, the less time the ceremony takes, and the more anima grass will grow.\n\nWith {0} additional participants, {1} anima grass will be restored at the end of the ceremony.</AnimaLinkingExplanationBase>
   <ShuttleRequiredItemsNotSatisfied>Not all required cargo is loaded yet!</ShuttleRequiredItemsNotSatisfied>

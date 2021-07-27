@@ -43,7 +43,7 @@
   <AbilityDef ParentName="PsycastBase">
     <defName>Stun</defName>
     <label>stun</label>
-    <description>Momentarily disrupt motor function in target's brain, preventing any movement.</description>
+    <description>Momentarily disrupt motor function in the target's brain, preventing any movement.</description>
     <level>1</level>
     <iconPath>UI/Abilities/Stun</iconPath>
     <writeCombatLog>True</writeCombatLog>
@@ -415,7 +415,7 @@
   <AbilityDef ParentName="PsycastBaseSkip">
     <defName>Smokepop</defName>
     <label>smokepop</label>
-    <description>Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and preventing turrets from locking on entirely.</description>
+    <description>Skip dust particles up from under the ground surface to form a thick cloud. This reduces the accuracy of any shot fired through it, and prevents turrets from locking on entirely.</description>
     <level>4</level>
     <iconPath>UI/Abilities/Smokepop</iconPath>
     <writeCombatLog>True</writeCombatLog>
