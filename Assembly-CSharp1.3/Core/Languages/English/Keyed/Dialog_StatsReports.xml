@@ -225,7 +225,7 @@
   <Stat_Animal_MilkTypeDesc>The type of milk this creature produces.</Stat_Animal_MilkTypeDesc>
   <Stat_Animal_MilkAmount>Milk amount</Stat_Animal_MilkAmount>
   <Stat_Animal_MilkAmountDesc>The amount of milk this creature produces each time it is milked.</Stat_Animal_MilkAmountDesc>
-  <Stat_Animal_MilkGrowthTime>Milking inteval</Stat_Animal_MilkGrowthTime>
+  <Stat_Animal_MilkGrowthTime>Milking interval</Stat_Animal_MilkGrowthTime>
   <Stat_Animal_MilkGrowthTimeDesc>The amount of time this creature needs between milkings.</Stat_Animal_MilkGrowthTimeDesc>
   <Stat_Animal_MilkPerYear>Milk per year</Stat_Animal_MilkPerYear>
   <Stat_Animal_MilkPerYearDesc>The amount of milk produced by this animal over the course of a year.\n\nThis is calculated from milk amount and milking interval.</Stat_Animal_MilkPerYearDesc>
@@ -246,6 +246,10 @@
   <Stat_Animal_WoolValuePerYear>Wool value per year</Stat_Animal_WoolValuePerYear>
   <Stat_Animal_WoolValuePerYearDesc>The market value of one year's worth of wool from this creature.\n\nThis is calculated from wool amount per year and wool market value.</Stat_Animal_WoolValuePerYearDesc>
 
-  <Stat_Studiable_Desc>The amount of study that can be done on this object.</Stat_Studiable_Desc>
+  <Stat_Studiable_Desc>How much of the total possible study you have performed on this object.</Stat_Studiable_Desc>
+
+  <Stat_Source_Label>Source</Stat_Source_Label>
+  <Stat_Source_OfficialExpansionReport>This content came from the official expansion</Stat_Source_OfficialExpansionReport>
+  <Stat_Source_ModReport>This content came from the mod</Stat_Source_ModReport>
   
 </LanguageData>

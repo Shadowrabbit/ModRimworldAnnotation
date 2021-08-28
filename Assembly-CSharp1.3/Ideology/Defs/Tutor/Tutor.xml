@@ -24,17 +24,17 @@
   </ConceptDef>
 
   <InstructionDef>
-    <defName>CreateIdo</defName>
-    <text>This page configures the ideoligion of your colonists. The term ideoligion includes religions, ideologies, and every other belief system that defines a moral structure in the universe.\n\nThe default settings here will work - go ahead and click NEXT!</text>
-    <eventTagInitiate>PageStart-ConfigureIdeo</eventTagInitiate>
+    <defName>ChooseIdeo</defName>
+    <text>This page is for choosing the ideoligion of your colonists. The term ideoligion includes religions, ideologies, and every other belief system that defines a moral structure in the universe.\n\nThe PLAY CLASSIC option here will work - go ahead and click it!</text>
+    <eventTagInitiate>PageStart-ChooseIdeo</eventTagInitiate>
     <actionTagsAllowed>
       <li>GotoPrevPage</li>
-      <li>GotoNextPage</li>
+      <li>ButtonClassicIdeo</li>
     </actionTagsAllowed>
     <highlightTags>
-      <li>NextPage</li>
+      <li>ButtonClassicIdeo</li>
     </highlightTags>
-    <rejectInputMessage>Please click NEXT to continue the tutorial.</rejectInputMessage>
+    <rejectInputMessage>Please click PLAY CLASSIC to continue the tutorial.</rejectInputMessage>
   </InstructionDef>
   
 </Defs>

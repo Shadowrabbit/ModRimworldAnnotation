@@ -178,6 +178,28 @@
       <subNodes>
         <!-- Goto pawn -->
         <li Class="JobGiver_DeliverPawnToCell">
+          <addArrivalTagIfInvalidTarget>true</addArrivalTagIfInvalidTarget>
+          <addArrivalTagIfTargetIsDead>true</addArrivalTagIfTargetIsDead>
+          <exactCell>true</exactCell>
+          <locomotionUrgency>Jog</locomotionUrgency>
+        </li>
+
+        <li Class="JobGiver_Idle">
+          <ticks>60</ticks>
+        </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
+    <defName>DeliverPawnToBedIfAliveThenIdle</defName>
+    <hook>HighPriority</hook>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <!-- Goto pawn -->
+        <li Class="JobGiver_DeliverPawnToBed">
+          <addArrivalTagIfNoBedAvailable>true</addArrivalTagIfNoBedAvailable>
           <addArrivalTagIfTargetIsDead>true</addArrivalTagIfTargetIsDead>
           <exactCell>true</exactCell>
           <locomotionUrgency>Jog</locomotionUrgency>

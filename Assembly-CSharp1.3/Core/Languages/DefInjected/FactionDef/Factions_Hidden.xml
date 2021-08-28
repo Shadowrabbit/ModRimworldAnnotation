@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: neutral ancients -->
-  <Ancients.label>中立古代人</Ancients.label>
+  <Ancients.label>中立的な古代人</Ancients.label>
   <!-- EN: Ancients -->
   <Ancients.fixedName>古代人</Ancients.fixedName>
   <!-- EN: ancient -->
@@ -11,7 +11,7 @@
   <Ancients.pawnsPlural>古代人</Ancients.pawnsPlural>
   
   <!-- EN: hostile ancients -->
-  <AncientsHostile.label>敌对古代人</AncientsHostile.label>
+  <AncientsHostile.label>敵対的な古代人</AncientsHostile.label>
   <!-- EN: Ancients -->
   <AncientsHostile.fixedName>古代人</AncientsHostile.fixedName>
   <!-- EN: ancient -->
@@ -20,20 +20,20 @@
   <AncientsHostile.pawnsPlural>古代人</AncientsHostile.pawnsPlural>
   
   <!-- EN: insects -->
-  <Insect.label>虫巢</Insect.label>
+  <Insect.label>虫</Insect.label>
   <!-- EN: Sorne Geneline -->
-  <Insect.fixedName>杂交虫巢</Insect.fixedName>
+  <Insect.fixedName>虫</Insect.fixedName>
   <!-- EN: insect -->
-  <Insect.pawnSingular>昆虫</Insect.pawnSingular>
+  <Insect.pawnSingular>虫</Insect.pawnSingular>
   <!-- EN: insects -->
-  <Insect.pawnsPlural>昆虫</Insect.pawnsPlural>
+  <Insect.pawnsPlural>虫</Insect.pawnsPlural>
   
   <!-- EN: mechanoid hive -->
-  <Mechanoid.label>机械族巢穴</Mechanoid.label>
-  <Mechanoid.fixedName>机械族巢穴</Mechanoid.fixedName>
+  <Mechanoid.label>メカノイドの巣</Mechanoid.label>
+  <Mechanoid.fixedName>メカノイドの巣</Mechanoid.fixedName>
   <!-- EN: mechanoid -->
-  <Mechanoid.pawnSingular>机械体</Mechanoid.pawnSingular>
+  <Mechanoid.pawnSingular>機械生命体</Mechanoid.pawnSingular>
   <!-- EN: mechanoids -->
-  <Mechanoid.pawnsPlural>机械体</Mechanoid.pawnsPlural>
+  <Mechanoid.pawnsPlural>機械生命体</Mechanoid.pawnsPlural>
   
 </LanguageData>

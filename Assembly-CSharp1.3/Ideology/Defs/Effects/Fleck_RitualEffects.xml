@@ -159,7 +159,7 @@
       <drawSize>(1, 1)</drawSize>
     </graphicData>
     <altitudeLayer>MoteLow</altitudeLayer>
-    <solidTime>45</solidTime>
+    <solidTime>125</solidTime>
     <fadeInTime>0.2</fadeInTime>
     <fadeOutTime>0.9</fadeOutTime>
   </FleckDef>

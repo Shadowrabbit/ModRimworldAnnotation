@@ -224,5 +224,21 @@
       </li>
     </subSounds>
   </SoundDef>
+
+  <SoundDef>
+    <defName>Replant_Complete</defName>  
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Interact/Work/Grow</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>17~17</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
   
 </Defs>

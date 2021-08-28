@@ -131,6 +131,7 @@
     <toStringStyle>PercentZero</toStringStyle>
     <scenarioRandomizable>true</scenarioRandomizable>
     <displayPriorityInCategory>3000</displayPriorityInCategory>
+    <minifiedThingInherits>true</minifiedThingInherits>
   </StatDef>
 
   <StatDef>

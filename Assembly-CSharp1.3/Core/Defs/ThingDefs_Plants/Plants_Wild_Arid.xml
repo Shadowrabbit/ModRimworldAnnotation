@@ -74,9 +74,11 @@
     <defName>Plant_SaguaroCactus</defName>
     <label>saguaro cactus</label>
     <description>A large cactus native to arid Earth environments. Though it is not a tree, it yields a small amount of fibrous material that can be used like wood.</description>
+    <minifiedDef IsNull="True" />
     <statBases>
       <MaxHitPoints>130</MaxHitPoints>
       <Nutrition>2.0</Nutrition>
+      <Mass>100</Mass>
     </statBases>
     <graphicData>
       <texPath>Things/Plant/SaguaroCactus</texPath>

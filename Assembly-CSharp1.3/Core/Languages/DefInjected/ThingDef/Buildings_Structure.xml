@@ -2,23 +2,23 @@
 <LanguageData>
   
   <!-- EN: autodoor -->
-  <Autodoor.label>自动门</Autodoor.label>
+  <Autodoor.label>自動ドア</Autodoor.label>
   <!-- EN: Divides rooms. Powered operation allows people to move through the door without slowing down. -->
-  <Autodoor.description>分隔房间。电力运转，人穿过门不会减速。</Autodoor.description>
+  <Autodoor.description>部屋を隔てる自動扉です.自動で開閉するので通過はスムーズになります.</Autodoor.description>
   
   <!-- EN: column -->
-  <Column.label>支撑柱</Column.label>
+  <Column.label>支柱</Column.label>
   <!-- EN: A column capable of holding a roof. Does not block sight or movement and looks quite nice. -->
-  <Column.description>一个能够支撑屋顶的柱子，不影响视野和移动，看起来还挺漂亮。</Column.description>
+  <Column.description>支柱は屋根を支えられます.視界や動線を遮ることなく見た目も素晴らしいです.</Column.description>
   
   <!-- EN: door -->
-  <Door.label>门</Door.label>
+  <Door.label>ドア</Door.label>
   <!-- EN: Divides rooms. Simple doors must be manually opened, which slows people down. The amount of slowdown depends on what the door is made of. -->
-  <Door.description>分隔房间。只能手动开关，会减慢人的速度。到底有多慢取决于门的材质。</Door.description>
+  <Door.description>部屋を隔てる手動扉です.手で開け閉めしないといけない分だけ移動が遅くなります.移動速度が遅くなる量は,ドアの材質によって決まります.</Door.description>
   
   <!-- EN: wall -->
-  <Wall.label>墙</Wall.label>
+  <Wall.label>壁</Wall.label>
   <!-- EN: An impassable wall. Capable of holding up a roof. -->
-  <Wall.description>一面无法通过的墙。可以支撑起屋顶。</Wall.description>
+  <Wall.description>壁です.屋根を支えます.</Wall.description>
   
 </LanguageData>

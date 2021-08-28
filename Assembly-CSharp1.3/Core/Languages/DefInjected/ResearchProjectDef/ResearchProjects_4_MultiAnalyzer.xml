@@ -2,57 +2,57 @@
 <LanguageData>
   
   <!-- EN: advanced fabrication -->
-  <AdvancedFabrication.label>高级精密装配</AdvancedFabrication.label>
+  <AdvancedFabrication.label>先進組立製造</AdvancedFabrication.label>
   <!-- EN: Fabricate advanced components from standard components and other materials. -->
-  <AdvancedFabrication.description>解锁用零部件和其他材料制作「高级零部件」。</AdvancedFabrication.description>
+  <AdvancedFabrication.description>並コンポーネントや他の素材から,先進コンポーネントを加工できるようになります.</AdvancedFabrication.description>
   
   <!-- EN: bionic replacements -->
-  <Bionics.label>仿生学</Bionics.label>
+  <Bionics.label>バイオニクス</Bionics.label>
   <!-- EN: Build high-tech bionic body parts to replace lost limbs and eyes. Requires a skilled doctor to attach. -->
-  <Bionics.description>解锁制作高科技仿生体部件，用以替代失去的肢体和眼睛。需要熟练的医生进行安装。</Bionics.description>
+  <Bionics.description>失われた手足や眼の代わりとなるハイテク人造器官を作れるようになります.装着には医者のスキルを必要とします.</Bionics.description>
   
   <!-- EN: pulse-charged munitions -->
-  <ChargedShot.label>电荷弹</ChargedShot.label>
+  <ChargedShot.label>チャージライフル</ChargedShot.label>
   <!-- EN: Build weapons which fire pulse-charged munitions for extra damage. Note that these also require advanced components. -->
-  <ChargedShot.description>研究利用脉冲弹药提高伤害。解锁制作「电荷步枪」和「电荷标枪」。请注意，它们都需要高级零部件来制作。</ChargedShot.description>
+  <ChargedShot.description>追加ダメージを与えるパルスチャージされた弾丸を発射する武器を作成できるようになります.注意：これも先進コンポーネントが必要です.</ChargedShot.description>
   
   <!-- EN: cryptosleep casket -->
-  <Cryptosleep.label>低温休眠舱</Cryptosleep.label>
+  <Cryptosleep.label>冬眠カプセル</Cryptosleep.label>
   <!-- EN: Construct cryptosleep caskets, which can put living beings in a state of indefinite suspended animation. -->
-  <Cryptosleep.description>解锁建造「低温休眠舱」，可使其内的生命体进入生理上的暂停状态。</Cryptosleep.description>
+  <Cryptosleep.description>生体活動を仮死状態にさせる,冬眠カプセルを作成できるようになります.</Cryptosleep.description>
   
   <!-- EN: fabrication -->
-  <Fabrication.label>精密装配</Fabrication.label>
+  <Fabrication.label>組立製造</Fabrication.label>
   <!-- EN: Build fabrication benches, capable of high-tech projects ranging from component assembly to power armor construction. -->
-  <Fabrication.description>解锁建造「精密装配台」，能够执行从最基础的「零部件」加工到组装动力装甲的各种高科技项目。</Fabrication.description>
+  <Fabrication.description>コンポーネント組み立てから,パワーアーマー建造までの,ハイテクプロジェクトの遂行能力がある組立製造台を作成できるようになります.</Fabrication.description>
   <!-- EN: You now have the technology to build a fabrication bench - but it also requires some advanced components to get started. You can collect advanced components several ways:\n\n  -All outlander settlements sell advanced components. Send a caravan to buy some.\n  -Some visiting traders sell advanced components. Invite or wait for them.\n  -Some quests are rewarded with advanced components. -->
-  <Fabrication.discoveredLetterText>现在你可以建造精密装配台了，但是还缺乏一些高级零部件，你可以通过以下几种方式得到：\n\n-所有外来者定居点都有高级零部件出售。可以派出远行队去买一些。\n- 来访的贸易商队有时候也会携带高级零部件。邀请或等待他们造访。\n-一些任务会给予高级零部件作为奖励。</Fabrication.discoveredLetterText>
+  <Fabrication.discoveredLetterText>あなたは組立製造機器を作成できるテクノロジーを手に入れました-しかし,始めるには複数の先進コンポーネントも必要です. 複数の方法で先進コンポーネントを集めることができます:\n\n-異国人の集落は先進コンポーネントを売っています.キャラバン隊を買いに行かせます.\n-貿易人の一部は先進コンポーネントを売っています.彼らを招待するか待ちます.\n-クエストの一部では先進コンポーネントが報酬となっています.</Fabrication.discoveredLetterText>
   <!-- EN: About: Getting advanced components -->
-  <Fabrication.discoveredLetterTitle>关于：获取高级零部件</Fabrication.discoveredLetterTitle>
+  <Fabrication.discoveredLetterTitle>先進コンポーネントの入手方法について</Fabrication.discoveredLetterTitle>
   
   <!-- EN: multi-analyzer -->
-  <MultiAnalyzer.label>多元分析仪</MultiAnalyzer.label>
+  <MultiAnalyzer.label>マルチアナライザー</MultiAnalyzer.label>
   <!-- EN: Build multi-analyzers which increase research speed and allow higher-level research projects. -->
-  <MultiAnalyzer.description>解锁建造「多元分析仪」，提高研究速度，以及解锁更高级的研究项目。建造时需要高级零部件，必须建造在高级研究台旁。</MultiAnalyzer.description>
+  <MultiAnalyzer.description>高いレベルの研究プロジェクトを遂行できるようになり,研究速度が上がるマルチアナライザーを作れるようになります.</MultiAnalyzer.description>
   
   <!-- EN: marine armor -->
-  <PoweredArmor.label>海军装甲</PoweredArmor.label>
+  <PoweredArmor.label>マリーンアーマー</PoweredArmor.label>
   <!-- EN: Build marine armor, a general-use powered armor suit used by high-tech shock troops. Note that these also require advanced components. -->
-  <PoweredArmor.description>解锁制作「海军装甲」，一种由高科技突袭部队所使用的泛用型动力装甲。注意，制作时需要高级零部件。</PoweredArmor.description>
+  <PoweredArmor.description>マリーンアーマーを製造できるようになります.ハイテク奇襲部隊によって使われている汎用パワーアーマーです.注意：先進コンポーネントが必要です.</PoweredArmor.description>
   
   <!-- EN: recon armor -->
-  <ReconArmor.label>斥候装甲</ReconArmor.label>
+  <ReconArmor.label>レコンアーマー</ReconArmor.label>
   <!-- EN: Craft recon armor, a light powered armor suit used by scout troops who need protection on the move. Note that these also require advanced components. -->
-  <ReconArmor.description>解锁制作「斥候装甲」，一种轻型装甲，能为侦察部队提供防护。注意，制作时需要高级零部件。</ReconArmor.description>
+  <ReconArmor.description>レコンアーマーを作れるようになります.動きがある中でも防護が必要とされる偵察部隊によって使われている軽量パワーアーマーです.注意：先進コンポーネントが必要です.</ReconArmor.description>
   
   <!-- EN: uranium slug turret -->
-  <SniperTurret.label>自动狙击炮塔</SniperTurret.label>
+  <SniperTurret.label>ウランスラグタレット</SniperTurret.label>
   <!-- EN: Produce the armor-penetrating uranium slug turret. It fires uranium slugs which tear through plasteel like paper, but it's less effective at close range. -->
-  <SniperTurret.description>解锁建造「自动狙击炮塔」。发射大威力和高穿透力的铀弹，能够轻易撕碎像玻璃钢这样的高级防御材料，但近距离的效果较差。</SniperTurret.description>
+  <SniperTurret.description>装甲貫通能力のあるウランスラグタレットを作れるようになります.ウランスラグ弾はプラスチールを紙のごとく切り裂きますが,至近距離では十分な効果を発揮しません.</SniperTurret.description>
   
   <!-- EN: vitals monitor -->
-  <VitalsMonitor.label>生命体征监测仪</VitalsMonitor.label>
+  <VitalsMonitor.label>バイタルモニター</VitalsMonitor.label>
   <!-- EN: Build vitals monitors which improve medical outcomes when placed next to hospital beds. -->
-  <VitalsMonitor.description>解锁建造「生命体征监测仪」，将其放在医疗床旁时能提高医疗质量。</VitalsMonitor.description>
+  <VitalsMonitor.description>病院用ベッドの横に置き,医療効果を改善するバイタルモニターを作成できるようになります.</VitalsMonitor.description>
   
 </LanguageData>

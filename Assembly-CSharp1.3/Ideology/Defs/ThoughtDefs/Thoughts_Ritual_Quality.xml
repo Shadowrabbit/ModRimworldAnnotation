@@ -266,7 +266,7 @@
     <stages>
       <li>
         <label>beautiful skylantern festival</label>
-        <description>I felt at peace as I saw the lanterns drift off.</description>
+        <description>I felt at peace as the lanterns drifted off.</description>
         <baseMoodEffect>6</baseMoodEffect>
       </li>
     </stages>
@@ -438,7 +438,7 @@
     <stages>
       <li>
         <label>terrible duel</label>
-        <description>That duel was horrible. I'm still cringing thinking about the bumbling cowardice I saw.</description>
+        <description>That duel was horrible. I'm still cringing thinking about the bumbling cowardice.</description>
         <baseMoodEffect>-3</baseMoodEffect>
       </li>
     </stages>

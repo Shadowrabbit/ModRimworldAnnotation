@@ -11,7 +11,7 @@
   <SlaveReleaseRelationGainsDesc>The faction goodwill you will gain if you release a slave. This is affected by the slaves's physical and mental health.</SlaveReleaseRelationGainsDesc>
   <SlaveReleasePotentialRelationGains>Relations gain on release</SlaveReleasePotentialRelationGains>
   <SlaveRebellionMTBDays>Slave rebellion interval</SlaveRebellionMTBDays>
-  <SlaveRebellionMTBDaysDescription>The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by mood, health, suppression, proximity to weapons and the presence of colonists on the map.</SlaveRebellionMTBDaysDescription>
+  <SlaveRebellionMTBDaysDescription>The average number of days between slave rebellion attempts. Only time awake is counted. This is affected by suppression, mood, health, proximity to weapons, the number of slaves on the map, and the presence of colonists on the map.</SlaveRebellionMTBDaysDescription>
 
   <!-- Slave tab -->
   <Suppression>Suppression</Suppression>
@@ -29,10 +29,12 @@
   <SuppressionMovingCapacityFactor>Moving capacity</SuppressionMovingCapacityFactor>
   <SuppressionFactor>Suppression</SuppressionFactor>
   <SuppressionMoodFactor>Mood</SuppressionMoodFactor>
+  <SuppressionSlaveCountFactor>Slave count</SuppressionSlaveCountFactor>
   <SuppressionEscapeFactor>Escape route</SuppressionEscapeFactor>
   <SuppressionWeaponProximityFactor>Weapon proximity</SuppressionWeaponProximityFactor>
   <SuppressionFinalInterval>Final interval</SuppressionFinalInterval>
   <SuppressionUnattendedByColonists>Unattended</SuppressionUnattendedByColonists>
+  <SuppressionRebellionAnySlave>At least one of the {0} slaves on this map is expected rebel on average every {1}.</SuppressionRebellionAnySlave>
 
   <WillLevel>Will</WillLevel>
   <WillLevelDesc>How much the prisoner is determined not to submit. When this reaches zero, they can be enslaved.</WillLevelDesc>

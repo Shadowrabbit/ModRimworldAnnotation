@@ -238,6 +238,7 @@
       <WorkToBuild>5000</WorkToBuild>
       <Beauty>3</Beauty>
       <StyleDominance>1</StyleDominance>
+      <Flammability>0.22</Flammability>
     </statBases>
     <tags>
       <li>FineFloor</li>

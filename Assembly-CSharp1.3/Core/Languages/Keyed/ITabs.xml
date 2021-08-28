@@ -3,325 +3,331 @@
 
   <!-- ITab titles -->
   <!-- EN: Bills -->
-  <TabBills>清单</TabBills>
+  <TabBills>加工</TabBills>
   <!-- EN: Growing -->
-  <TabGrowing>种植</TabGrowing>
+  <TabGrowing>栽培</TabGrowing>
   <!-- EN: Bio -->
-  <TabCharacter>角色</TabCharacter>
+  <TabCharacter>略歴</TabCharacter>
   <!-- EN: Training -->
-  <TabTraining>训练</TabTraining>
+  <TabTraining>調教</TabTraining>
   <!-- EN: Prisoner -->
-  <TabPrisoner>囚犯</TabPrisoner>
+  <TabPrisoner>囚人</TabPrisoner>
   <!-- EN: Guest -->
-  <TabGuest>访客</TabGuest>
+  <TabGuest>客人</TabGuest>
   <!-- EN: Gear -->
-  <TabGear>装备</TabGear>
+  <TabGear>装備</TabGear>
   <!-- EN: Needs -->
-  <TabNeeds>需求</TabNeeds>
+  <TabNeeds>欲求</TabNeeds>
   <!-- EN: Storage -->
-  <TabStorage>储存筛选</TabStorage>
+  <TabStorage>保管</TabStorage>
   <!-- EN: Shells -->
-  <TabShells>弹药</TabShells>
+  <TabShells>装弾</TabShells>
   <!-- EN: Health -->
   <TabHealth>健康</TabHealth>
   <!-- EN: Race -->
-  <TabRace>种族</TabRace>
+  <TabRace>種族</TabRace>
   <!-- EN: Basics -->
-  <TabBasics>基础</TabBasics>
+  <TabBasics>基本</TabBasics>
   <!-- EN: Stats -->
-  <TabStats>属性</TabStats>
+  <TabStats>状態</TabStats>
   <!-- EN: Records -->
-  <TabRecords>记录</TabRecords>
+  <TabRecords>記録</TabRecords>
   <!-- EN: Art -->
-  <TabArt>艺术</TabArt>
+  <TabArt>芸術</TabArt>
   <!-- EN: Social -->
   <TabSocial>社交</TabSocial>
   <!-- EN: Log -->
-  <TabLog>日志</TabLog>
+  <TabLog>ログ</TabLog>
   <!-- EN: Caravan -->
-  <TabFormingCaravan>远行队</TabFormingCaravan>
+  <TabFormingCaravan>キャラバン</TabFormingCaravan>
   <!-- EN: Contents -->
-  <TabTransporterContents>内容</TabTransporterContents>
+  <TabTransporterContents>積載物</TabTransporterContents>
   <!-- EN: Contents -->
-  <TabCasketContents>内容</TabCasketContents>
+  <TabCasketContents>収容者</TabCasketContents>
   
   <!-- Bills tab  -->
   <!-- EN: Add bill -->
-  <AddBill>添加清单</AddBill>
+  <AddBill>新しい 加工</AddBill>
   <!-- EN: The recipe {0} requires the skills below. None of your colonists have these skills, so nobody will do this bill. -->
-  <RecipeRequiresSkills>配方{0}有以下技能要求。你没有达到该技能要求的殖民者，因此这份清单将无人完成。</RecipeRequiresSkills>
+  <RecipeRequiresSkills>{0}が必要とするスキルは足りません. 入植者の いずれも そのスキルを 持っていません. 誰も このレシピを 実行 できません.</RecipeRequiresSkills>
   <!-- EN: Min skill -->
-  <MinimumSkill>最低技能要求</MinimumSkill>
+  <MinimumSkill>必要スキル</MinimumSkill>
   <!-- EN: SUSPENDED -->
-  <SuspendedCaps>已暂停</SuspendedCaps>
+  <SuspendedCaps>一時停止</SuspendedCaps>
   <!-- EN: Worker: {1_labelShort} -->
-  <BoundWorkerIs>绑定工作者:{1_labelShort}</BoundWorkerIs>
+  <BoundWorkerIs>担当: {1_labelShort}</BoundWorkerIs>
   <!-- EN: Plant -->
-  <PlantVerb>种植</PlantVerb>
+  <PlantVerb>植物</PlantVerb>
   <!-- EN: Copied bill cannot be pasted here. -->
-  <ClipboardBillNotAvailableHere>复制的清单无法粘贴在此</ClipboardBillNotAvailableHere>
+  <ClipboardBillNotAvailableHere>ここにはペーストできません.</ClipboardBillNotAvailableHere>
   <!-- EN: Move up -->
-  <ReorderBillUpTip>上移</ReorderBillUpTip>
+  <ReorderBillUpTip>上へ</ReorderBillUpTip>
   <!-- EN: Move down -->
-  <ReorderBillDownTip>下移</ReorderBillDownTip>
+  <ReorderBillDownTip>下へ</ReorderBillDownTip>
   <!-- EN: Delete -->
-  <DeleteBillTip>删除</DeleteBillTip>
+  <DeleteBillTip>削除</DeleteBillTip>
   <!-- EN: Copy to the clipboard -->
-  <CopyBillTip>复制进剪切板</CopyBillTip>
+  <CopyBillTip>クリップボードにコピー</CopyBillTip>
   <!-- EN: Suspend -->
-  <SuspendBillTip>暂停</SuspendBillTip>
+  <SuspendBillTip>一時停止</SuspendBillTip>
   <!-- EN: Paste -->
-  <PasteBillTip>粘贴</PasteBillTip>
+  <PasteBillTip>ペースト</PasteBillTip>
   <!-- EN: can't add more -->
-  <PasteBillTip_LimitReached>不能再加了</PasteBillTip_LimitReached>
+  <PasteBillTip_LimitReached>これ以上追加できません</PasteBillTip_LimitReached>
 
   <!-- Guest/prisoner tab -->
   <!-- EN: Resistance remaining -->
-  <RecruitmentResistance>招募抵抗</RecruitmentResistance>
+  <RecruitmentResistance>敵対心がある</RecruitmentResistance>
   <!-- EN: Recruitment difficulty -->
-  <RecruitmentDifficulty>招募难度</RecruitmentDifficulty>
+  <RecruitmentDifficulty>勧誘 難易度</RecruitmentDifficulty>
   <!-- EN: Recruitment chance -->
-  <RecruitmentChance>招募几率</RecruitmentChance>
+  <RecruitmentChance>勧誘 成功率</RecruitmentChance>
   <!-- EN: Recruit difficulty factor: {0}\nMood factor: {1}\nCombined base chance: {2} -->
-  <RecruitmentChanceExplanation>招募难度系数: {0}\n情绪系数: {1}\n综合机率: {2}</RecruitmentChanceExplanation>
+  <RecruitmentChanceExplanation>難易度要因：{0}\n心情要因：{1}\n最終的な基礎成功率：{2}</RecruitmentChanceExplanation>
   <!-- EN: \n- - - - - - - - - -\nLast recruitment attempt\nRecruiter: {3}\nNegotiation ability factor: {4}\nOpinion factor: {5} ({6})\nFinal chance for {3}: {7} -->
-  <RecruitmentChanceWithLastRecruiterExplanationPart>\n- - - - - - - - - -\n上一次招募尝试\n招募者: {3}\n谈判能力系数: {4}\n意见系数: {5} ({6})\n最终几率 {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
+  <RecruitmentChanceWithLastRecruiterExplanationPart>\n----------------\n前回の勧誘試み\n勧誘者：{3}\n交渉能力要因：{4}\n評価要因：{5} ({6})\n最終的な確率 {3}: {7}</RecruitmentChanceWithLastRecruiterExplanationPart>
   <!-- EN: \nResistance reduction: {0} -->
-  <RecruitmentLastRecruiterResistanceReduceExplanationPart>抵抗降低: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
+  <RecruitmentLastRecruiterResistanceReduceExplanationPart>\n抵抗値の減少量: {0}</RecruitmentLastRecruiterResistanceReduceExplanationPart>
   <!-- EN: Relations gain on release -->
-  <PrisonerReleasePotentialRelationGains>关系改善（释放）</PrisonerReleasePotentialRelationGains>
+  <PrisonerReleasePotentialRelationGains>囚人解放時の関係改善値</PrisonerReleasePotentialRelationGains>
   <!-- EN: The faction relations improvement you will get from the prisoner's faction if you release them. This is affected by the prisoner's health and mental condition. -->
-  <PrisonerReleaseRelationGainsDesc>如果释放该囚犯，你将获得该派系关系的改善。 其程度受到囚犯健康和精神状况的影响。</PrisonerReleaseRelationGainsDesc>
+  <PrisonerReleaseRelationGainsDesc>あなたが囚人を解放したときに得られる派閥関係の改善値です.これには囚人の健康状態と精神状態も加味されます.</PrisonerReleaseRelationGainsDesc>
   <!-- EN: Prison break interval -->
-  <PrisonBreakMTBDays>越狱间隔</PrisonBreakMTBDays>
+  <PrisonBreakMTBDays>脱獄試行間隔</PrisonBreakMTBDays>
   <!-- EN: The mean number of days of time awake between prison break attempts. Affected by mood, mobility and time since the last prison break.\n\nThis number ignores time spent sleeping, so the actual average prison break interval will usually be longer. -->
-  <PrisonBreakMTBDaysDescription>两次尝试越狱之间的平均时间天数。自上次越狱以后的心情，活动能力和时间都是其影响的因素。\n\n该数值会忽略睡眠的时间，因此实际平均越狱间隔通常会更长。</PrisonBreakMTBDaysDescription>
+  <PrisonBreakMTBDaysDescription>脱獄を企てる平均間隔時間です.最後に脱獄を試みてからの,心情,流動性,時間の影響を受けます.\n\nこの時間には睡眠時間は含まれません,実際の間隔時間は通常長くなる傾向にあります.</PrisonBreakMTBDaysDescription>
   <!-- EN: Never -->
-  <Never>从不</Never>
+  <Never>脱獄しません</Never>
   <!-- EN: Not while asleep -->
-  <NotWhileAsleep>非清醒</NotWhileAsleep>
+  <NotWhileAsleep>眠っていない時</NotWhileAsleep>
   <!-- EN: Slave price -->
-  <SlavePrice>奴隶价格</SlavePrice>
+  <SlavePrice>奴隷価格</SlavePrice>
   <!-- EN: Gets food -->
-  <GetsFood>食物供应</GetsFood>
+  <GetsFood>食べ物を 与えます</GetsFood>
   <!-- EN: Doctors care -->
-  <DoctorsCare>医生照顾</DoctorsCare>
+  <DoctorsCare>医者に 診せます</DoctorsCare>
   <!-- EN: Gets medicine -->
-  <GetsMedicine>药物供应</GetsMedicine>
+  <GetsMedicine>薬を 与えます</GetsMedicine>
   <!-- EN: Try to recruit -->
-  <ShouldTryToRecruit>尝试招募</ShouldTryToRecruit>
+  <ShouldTryToRecruit>入村を勧誘</ShouldTryToRecruit>
   <!-- EN: Considered guilty (expires in {0}) -->
-  <ConsideredGuilty>被判有罪（{0}后消失）</ConsideredGuilty>
+  <ConsideredGuilty>有罪とする(有効期限: {0})</ConsideredGuilty>
   <!-- EN: Considered guilty -->
-  <ConsideredGuiltyNoTimer>被判有罪</ConsideredGuiltyNoTimer>
+  <ConsideredGuiltyNoTimer>有罪とする</ConsideredGuiltyNoTimer>
 
   <!-- Medical - general -->
   <!-- EN: Move speed -->
-  <MoveSpeed>移动速度</MoveSpeed>
+  <MoveSpeed>移動速度</MoveSpeed>
   <!-- EN: Efficiency -->
-  <Efficiency>效率</Efficiency>
+  <Efficiency>効率</Efficiency>
   <!-- EN: Part efficiency -->
-  <PartEfficiency>部件效率</PartEfficiency>
+  <PartEfficiency>部位 能力</PartEfficiency>
   <!-- EN: Body part efficiency -->
-  <BodyPartEfficiency>身体部件效率</BodyPartEfficiency>
+  <BodyPartEfficiency>部位 能力</BodyPartEfficiency>
   <!-- EN: Gone -->
-  <MissingBodyPart>不存在</MissingBodyPart>
+  <MissingBodyPart>失われた</MissingBodyPart>
   <!-- EN: Destroyed -->
-  <DestroyedBodyPart>被毁</DestroyedBodyPart>
+  <DestroyedBodyPart>破壊された</DestroyedBodyPart>
   <!-- EN: Shattered -->
-  <ShatteredBodyPart>击碎</ShatteredBodyPart>
+  <ShatteredBodyPart>粉砕された</ShatteredBodyPart>
   <!-- EN: Removed -->
-  <RemovedBodyPart>移除</RemovedBodyPart>
+  <RemovedBodyPart>取り外された</RemovedBodyPart>
   <!-- EN: Healthy -->
   <Healthy>健康</Healthy>
   <!-- EN: In pain -->
-  <InPain>感到疼痛</InPain>
+  <InPain>痛み</InPain>
   <!-- EN: Pain -->
-  <PainLevel>疼痛</PainLevel>
+  <PainLevel>痛みの強さ</PainLevel>
   <!-- EN: Injured -->
-  <Injured>受伤</Injured>
+  <Injured>怪我</Injured>
   <!-- EN: Untended injury -->
-  <UntendedInjury>非故意伤害</UntendedInjury>
+  <UntendedInjury>ほったらかしの怪我</UntendedInjury>
   <!-- EN: no health conditions -->
-  <NoHealthConditions>没有健康状况</NoHealthConditions>
+  <NoHealthConditions>目立った怪我無し</NoHealthConditions>
   <!-- EN: Whole body -->
   <WholeBody>全身</WholeBody>
   <!-- EN: Data processing -->
-  <DataProcessing>数据处理</DataProcessing>
+  <DataProcessing>データ処理</DataProcessing>
   <!-- EN: Communication -->
-  <Communication>交流</Communication>
+  <Communication>コミュニケーション</Communication>
   <!-- EN: Affects -->
-  <Affects>影响</Affects>
+  <Affects>影響</Affects>
   <!-- EN: Bleeding -->
-  <BleedingRate>失血速率</BleedingRate>
+  <BleedingRate>出血量</BleedingRate>
   <!-- EN: death in {0} -->
-  <TimeToDeath>{0}后死亡</TimeToDeath>
+  <TimeToDeath>{0}で死亡</TimeToDeath>
   <!-- EN: no immediate danger -->
-  <WontBleedOutSoon>无生命危险</WontBleedOutSoon>
+  <WontBleedOutSoon>出血が止まる</WontBleedOutSoon>
   <!-- EN: Overview -->
-  <HealthOverview>概况</HealthOverview>
+  <HealthOverview>概要</HealthOverview>
   <!-- EN: Operations ({0}) -->
-  <MedicalOperationsShort>手术（{0}）</MedicalOperationsShort>
+  <MedicalOperationsShort>手術中 ({0})</MedicalOperationsShort>
   <!-- EN: Modifications ({0}) -->
-  <MedicalOperationsMechanoidsShort>改装（{0}）</MedicalOperationsMechanoidsShort>
+  <MedicalOperationsMechanoidsShort>改造手術中 ({0})</MedicalOperationsMechanoidsShort>
   <!-- EN: Medical operations -->
-  <MedicalOperations>医疗手术</MedicalOperations>
+  <MedicalOperations>外科手術</MedicalOperations>
   <!-- EN: amputate -->
-  <Amputate>截肢</Amputate>
+  <Amputate>切断手術</Amputate>
   <!-- EN: harvest -->
-  <HarvestOrgan>摘取</HarvestOrgan>
+  <HarvestOrgan>摘出</HarvestOrgan>
   <!-- EN: remove -->
-  <RemoveOrgan>摘除</RemoveOrgan>
+  <RemoveOrgan>摘出</RemoveOrgan>
   <!-- EN: memory -->
-  <MemoryLower>记忆</MemoryLower>
+  <MemoryLower>記憶</MemoryLower>
   <!-- EN: social interactions -->
-  <SocialInteractionsLower>社交互动</SocialInteractionsLower>
+  <SocialInteractionsLower>社会的相互関係</SocialInteractionsLower>
   <!-- EN: Hunger rate -->
-  <HungerRate>饥饿度</HungerRate>
+  <HungerRate>空腹率</HungerRate>
   <!-- EN: Tiredness -->
-  <Tiredness>疲劳度</Tiredness>
+  <Tiredness>疲れ</Tiredness>
   <!-- EN: Pain -->
-  <PainFactor>痛觉系数</PainFactor>
+  <PainFactor>苦痛</PainFactor>
   <!-- EN: Prevents infection -->
-  <PreventsInfection>抗感染</PreventsInfection>
+  <PreventsInfection>感染予防</PreventsInfection>
   <!-- EN: Self-tend -->
-  <SelfTend>自我治疗</SelfTend>
+  <SelfTend>自己治療</SelfTend>
   <!-- EN: {0} with self-tend enabled will automatically tend to themselves on the spot at {1} the normal efficiency. -->
-  <SelfTendTip>{0}开启自我治疗后将会以正常效果的 {1} 当场自动治疗自己。</SelfTendTip>
+  <SelfTendTip>{0}の自己治療を有効にすると,通常の{1}の効率で,自動的にその場において,彼ら自身を治療します.</SelfTendTip>
   
   <!-- Medical - Body and activities condition -->
   <!-- EN: None -->
-  <None>无</None>
+  <None>なし</None>
   <!-- EN: Very poor -->
-  <VeryPoor>极差</VeryPoor>
+  <VeryPoor>非常に悪い</VeryPoor>
   <!-- EN: Poor -->
-  <Poor>较差</Poor>
+  <Poor>悪い</Poor>
   <!-- EN: Weakened -->
-  <Weakened>虚弱</Weakened>
+  <Weakened>弱っている</Weakened>
   <!-- EN: OK -->
-  <GoodCondition>健康</GoodCondition>
+  <GoodCondition>良好</GoodCondition>
   <!-- EN: Enhanced -->
-  <Enhanced>增强</Enhanced>
+  <Enhanced>強化</Enhanced>
   <!-- EN: Seriously impaired -->
-  <SeriouslyImpaired>严重受损</SeriouslyImpaired>
+  <SeriouslyImpaired>深刻な欠損</SeriouslyImpaired>
   <!-- EN: Impaired -->
-  <Impaired>受损</Impaired>
+  <Impaired>障害</Impaired>
   <!-- EN: Slightly impaired -->
-  <SlightlyImpaired>轻微受损</SlightlyImpaired>
+  <SlightlyImpaired>わずかな障害</SlightlyImpaired>
   <!-- EN: None -->
-  <NoPain>无</NoPain>
+  <NoPain>無痛</NoPain>
   <!-- EN: Little -->
-  <LittlePain>轻微</LittlePain>
+  <LittlePain>少しの痛み</LittlePain>
   <!-- EN: Medium -->
-  <MediumPain>中等</MediumPain>
+  <MediumPain>痛い</MediumPain>
   <!-- EN: Severe -->
-  <SeverePain>剧烈</SeverePain>
+  <SeverePain>激しい痛み</SeverePain>
   <!-- EN: Extreme -->
-  <ExtremePain>极度</ExtremePain>
+  <ExtremePain>猛烈な痛み</ExtremePain>
 
   <!-- Training tab -->
   <!-- EN: Trainability -->
-  <Trainability>可训练度</Trainability>
+  <Trainability>調教しやすさ</Trainability>
   <!-- EN: Requires {0} trainability. -->
-  <CannotTrainNotSmartEnough>智力级别要求: {0}。</CannotTrainNotSmartEnough>
+  <CannotTrainNotSmartEnough>調教しやすさ {0}が必要です.</CannotTrainNotSmartEnough>
   <!-- EN: {1_labelShort} is too small to train this. -->
-  <CannotTrainTooSmall>{1_labelShort}体形过小，无法训练。</CannotTrainTooSmall>
+  <CannotTrainTooSmall>この調教をするには {1_labelShort}は あまりにも小さすぎます.</CannotTrainTooSmall>
 
   <!-- EN: Prerequisite needed: {0} -->
-  <TrainingNeedsPrerequisite>先决条件: {0}</TrainingNeedsPrerequisite>
+  <TrainingNeedsPrerequisite>必要: {0}</TrainingNeedsPrerequisite>
   
   <!-- Social tab -->
   <!-- EN: (no relationships) -->
-  <NoRelationships>（无关系）</NoRelationships>
+  <NoRelationships>(無関係)</NoRelationships>
   <!-- EN: Kidnapped -->
-  <Kidnapped>被绑架</Kidnapped>
+  <Kidnapped>誘拐</Kidnapped>
   <!-- EN: Lent to {FACTION_name}, returns in {1} -->
-  <Lent>借给 {FACTION_name}, 返回 {1}</Lent>
+  <Lent>{FACTION_name}に貸した, {1}に返還予定</Lent>
   <!-- EN: Missing -->
-  <Missing>失踪</Missing>
+  <Missing>消息不明</Missing>
   <!-- EN: Slave -->
-  <Slave>奴隶</Slave>
+  <Slave>奴隷</Slave>
   <!-- EN: Faction leader -->
-  <FactionLeader>派系首领</FactionLeader>
+  <FactionLeader>派閥のリーダー</FactionLeader>
   <!-- EN: Opinion of {1_labelShort} -->
-  <OpinionOf>对{1_labelShort}的印象</OpinionOf>
+  <OpinionOf>{1_labelShort}への評価</OpinionOf>
   <!-- EN: {1_labelShort}'s opinion of me -->
-  <SomeonesOpinionOfMe>{1_labelShort}对我的印象</SomeonesOpinionOfMe>
+  <SomeonesOpinionOfMe>{1_labelShort}がする 私への評価</SomeonesOpinionOfMe>
   <!-- EN: I'm dead -->
-  <IAmDead>我死了</IAmDead>
+  <IAmDead>私は死んだ</IAmDead>
   <!-- EN: I'm a psychopath -->
-  <IAmPsychopath>我心理变态</IAmPsychopath>
+  <IAmPsychopath>私はサイコパス</IAmPsychopath>
   
   <!-- Gear tab -->
   <!-- EN: Overall armor -->
-  <OverallArmor>总护甲</OverallArmor>
+  <OverallArmor>総アーマー</OverallArmor>
   <!-- EN: Mass carried: {0} / {1} kg -->
-  <MassCarried>负重: {0} / {1} kg</MassCarried>
+  <MassCarried>積載重量: {0} / {1} kg</MassCarried>
   <!-- EN: Comfortable temperature range -->
-  <ComfyTemperatureRange>适宜温度范围</ComfyTemperatureRange>
+  <ComfyTemperatureRange>快適な温度範囲</ComfyTemperatureRange>
   <!-- EN: Blunt -->
-  <ArmorBlunt>钝器护甲</ArmorBlunt>
+  <ArmorBlunt>打撲系</ArmorBlunt>
   <!-- EN: Sharp -->
-  <ArmorSharp>利器护甲</ArmorSharp>
+  <ArmorSharp>突刺系</ArmorSharp>
   <!-- EN: Heat -->
-  <ArmorHeat>热能护甲</ArmorHeat>
+  <ArmorHeat>熱系</ArmorHeat>
   
   <!-- Log tab -->
   <!-- EN: Show all -->
-  <ShowAll>显示全部</ShowAll>
+  <ShowAll>全表示</ShowAll>
   <!-- EN: Show combat -->
-  <ShowCombat>显示战斗</ShowCombat>
+  <ShowCombat>表示(戦闘)</ShowCombat>
   <!-- EN: Show social -->
-  <ShowSocial>显示社交</ShowSocial>
+  <ShowSocial>表示(社交)</ShowSocial>
   <!-- EN: no recent entries -->
-  <NoRecentEntries>无最近项目</NoRecentEntries>
+  <NoRecentEntries>最近の記録はありません</NoRecentEntries>
   <!-- EN: Copy log to the clipboard. -->
-  <CopyLogTip>将日志复制到剪贴板</CopyLogTip>
+  <CopyLogTip>ログをクリップボードにコピーする</CopyLogTip>
 
   <!-- Forming caravan tab -->
   <!-- EN: Gathering items -->
-  <FormingCaravanStatus_GatheringItems>收集物品</FormingCaravanStatus_GatheringItems>
+  <FormingCaravanStatus_GatheringItems>アイテムを集める</FormingCaravanStatus_GatheringItems>
   <!-- EN: Gathering items (waiting) -->
-  <FormingCaravanStatus_GatheringItems_Pause>收集物品（等待中）</FormingCaravanStatus_GatheringItems_Pause>
+  <FormingCaravanStatus_GatheringItems_Pause>アイテムを集める(待機中)</FormingCaravanStatus_GatheringItems_Pause>
   <!-- EN: Gathering downed people -->
-  <FormingCaravanStatus_GatheringDownedPawns>收集无法行动的人</FormingCaravanStatus_GatheringDownedPawns>
+  <FormingCaravanStatus_GatheringDownedPawns>行動不能の人を集める</FormingCaravanStatus_GatheringDownedPawns>
   <!-- EN: Gathering downed people (waiting) -->
-  <FormingCaravanStatus_GatheringDownedPawns_Pause>收集无法行动的人（等待中）</FormingCaravanStatus_GatheringDownedPawns_Pause>
+  <FormingCaravanStatus_GatheringDownedPawns_Pause>行動不能の人を集める(待機中)</FormingCaravanStatus_GatheringDownedPawns_Pause>
   <!-- EN: Leaving -->
-  <FormingCaravanStatus_Leaving>正在离开</FormingCaravanStatus_Leaving>
+  <FormingCaravanStatus_Leaving>離脱</FormingCaravanStatus_Leaving>
   <!-- EN: Leaving (waiting) -->
-  <FormingCaravanStatus_Leaving_Pause>正在离开（等待中）</FormingCaravanStatus_Leaving_Pause>
+  <FormingCaravanStatus_Leaving_Pause>離脱(待機中)</FormingCaravanStatus_Leaving_Pause>
   <!-- EN: Waiting -->
-  <FormingCaravanStatus_Waiting>等待中</FormingCaravanStatus_Waiting>
+  <FormingCaravanStatus_Waiting>待機中</FormingCaravanStatus_Waiting>
   <!-- EN: Members -->
-  <CaravanMembers>成员</CaravanMembers>
+  <CaravanMembers>メンバー</CaravanMembers>
   <!-- EN: Animals -->
-  <CaravanAnimals>动物</CaravanAnimals>
+  <CaravanAnimals>家畜</CaravanAnimals>
   <!-- EN: To load -->
-  <ItemsToLoad>须装载</ItemsToLoad>
+  <ItemsToLoad>積載する</ItemsToLoad>
   <!-- EN: Loaded -->
-  <LoadedItems>已装载</LoadedItems>
+  <LoadedItems>積載済み</LoadedItems>
   <!-- EN: pack animals -->
-  <PackAnimalsCountLower>驮运动物</PackAnimalsCountLower>
+  <PackAnimalsCountLower>家畜の群れ</PackAnimalsCountLower>
   <!-- EN: mentally broken -->
-  <InMentalStateCountLower>精神崩溃</InMentalStateCountLower>
+  <InMentalStateCountLower>精神崩壊</InMentalStateCountLower>
 
   <!-- Transporter contents -->
   <!-- EN: Remove {{0}}x {0} -->
-  <RemoveSliderText>去掉 {{0}}x {0}</RemoveSliderText>
+  <RemoveSliderText>削除 {{0}}x {0}</RemoveSliderText>
   <!-- EN: Contained items -->
-  <ContainedItems>包含的物品</ContainedItems>
+  <ContainedItems>収納しているアイテム</ContainedItems>
   <!-- EN: Do you really want to remove {0}? -->
-  <ConfirmRemoveItemDialog>你真的想去掉{0}吗？</ConfirmRemoveItemDialog>
+  <ConfirmRemoveItemDialog>{0}を本当に取り除きますか?</ConfirmRemoveItemDialog>
   
   <!-- Quests tab -->
   <!-- EN: Dismiss this quest and move it to the historical tab.\n\nThe quest can be un-dismissed at any time. Its effects and expiry times will proceed as normal. You won't recieve notifications about dismissed quests. -->
-  <DismissQuest>取消此任务并将其移至「历史记录」标签。\n\n可以随时取消任务。其影响和有效期将照常进行。你不会收到有关已取消任务的通知。</DismissQuest>
+  <DismissQuest>このクエストを却下して処理済タブへ移動します.\n\nクエストはいつでも却下を取り消せます.報酬と有効期限は通常通りに進みます.却下したクエストに関する通知は受け取らなくなります.</DismissQuest>
   <!-- EN: Un-dismiss this quest.\n\nThe quest will be returned to the available or active tab, and notifications will be re-enabled. -->
-  <UnDismissQuest>取消关闭此任务。\n\n该任务将返回到「可接受」或「进行中」标签，通知将重新启用。</UnDismissQuest>
+  <UnDismissQuest>このクエストの却下を取り消します.\n\nクエストは保留か受諾タブへ戻り,通知は再び有効となります.</UnDismissQuest>
   <!-- EN: This quest is here because it was dismissed.\n\nYou can un-dismiss it until it expires. -->
-  <QuestDismissed>该任务已被取消。\n\n你可以在该任务到期之前随时撤销取消的操作。</QuestDismissed>
+  <QuestDismissed>このクエストは却下されたので,このタブに移動されました.\n\n有効期限内なら却下を取り消すことができます.</QuestDismissed>
   <!-- EN: Delete this quest and remove it from the quest list forever. -->
-  <DeleteQuest>删除并将此任务永久从任务列表移除。</DeleteQuest>
+  <DeleteQuest>このクエストを削除して,クエストリストから完全に消去します.</DeleteQuest>
+
+  <!-- UNUSED -->
+  <FormingCaravanStatus_GatheringAnimals>家畜を集める</FormingCaravanStatus_GatheringAnimals>
+  <FormingCaravanStatus_GatheringAnimals_Pause>家畜を集める(待機中)</FormingCaravanStatus_GatheringAnimals_Pause>
+  <FormingCaravanStatus_GatheringSlaves>奴隷を集める</FormingCaravanStatus_GatheringSlaves>
+  <FormingCaravanStatus_GatheringSlaves_Pause>奴隷を集める(待機中)</FormingCaravanStatus_GatheringSlaves_Pause>
 
 </LanguageData>

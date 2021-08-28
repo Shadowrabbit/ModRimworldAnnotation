@@ -43,6 +43,16 @@
   </DutyDef>
 
   <DutyDef>
+    <defName>IdleNoInteraction</defName>
+    <socialModeMax>Off</socialModeMax>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_Idle" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
     <defName>Defend</defName>
     <alwaysShowWeapon>true</alwaysShowWeapon>
     <thinkNode Class="ThinkNode_Priority">
@@ -155,7 +165,7 @@
         <li Class="JobGiver_PickUpOpportunisticWeapon" />
       </subNodes>
     </constantThinkNode>
-  </DutyDef>HealthTracker
+  </DutyDef>
 
   <DutyDef>
     <defName>Sapper</defName>
@@ -392,7 +402,8 @@
     <constantThinkNode Class="ThinkNode_Tagger">
       <subNodes>
         <!-- Try to pick up nearby weapons -->
-        <li Class="JobGiver_PickUpOpportunisticWeapon" />
+        <li Class="JobGiver_PickUpOpportunisticWeapon">
+        </li>
       </subNodes>
     </constantThinkNode>
   </DutyDef>
@@ -539,6 +550,19 @@
   </DutyDef>
 
   <DutyDef>
+    <defName>EnterTransporterAndDefendSelf</defName>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_AIDefendSelf">
+          <targetAcquireRadius>35</targetAcquireRadius>
+          <targetKeepRadius>40</targetKeepRadius>
+        </li>
+        <li Class="JobGiver_EnterTransporter" />
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
     <defName>ManClosestTurret</defName>
     <thinkNode Class="ThinkNode_Priority">
       <subNodes>
@@ -612,6 +636,22 @@
         <li Class="JobGiver_AITrashBuildingsDistant">
           <attackAllInert>true</attackAllInert>
         </li>
+      </subNodes>
+    </thinkNode>
+  </DutyDef>
+
+  <DutyDef>
+    <defName>AssaultThing</defName>
+    <alwaysShowWeapon>true</alwaysShowWeapon>
+    <thinkNode Class="ThinkNode_Priority">
+      <subNodes>
+        <li Class="JobGiver_TakeCombatEnhancingDrug" />
+        <li Class="JobGiver_AIFightEnemies">
+          <targetAcquireRadius>20</targetAcquireRadius>
+          <targetKeepRadius>23</targetKeepRadius>
+        </li>
+        <li Class="JobGiver_AITrashDutyFocus" />
+        <li Class="JobGiver_AISapper" />
       </subNodes>
     </thinkNode>
   </DutyDef>

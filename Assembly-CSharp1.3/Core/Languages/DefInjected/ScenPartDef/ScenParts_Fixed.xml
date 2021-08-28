@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: starting people -->
-  <ConfigPage_ConfigureStartingPawns.label>开局人数</ConfigPage_ConfigureStartingPawns.label>
+  <ConfigPage_ConfigureStartingPawns.label>初期登場人数</ConfigPage_ConfigureStartingPawns.label>
   
   <!-- EN: Player faction -->
-  <PlayerFaction.label>玩家派系</PlayerFaction.label>
+  <PlayerFaction.label>プレイヤーの派閥</PlayerFaction.label>
   
   <!-- EN: arrival method -->
-  <PlayerPawnsArriveMethod.label>抵达方式</PlayerPawnsArriveMethod.label>
+  <PlayerPawnsArriveMethod.label>登場方法</PlayerPawnsArriveMethod.label>
   
 </LanguageData>

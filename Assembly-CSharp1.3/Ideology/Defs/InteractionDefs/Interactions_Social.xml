@@ -114,7 +114,7 @@
   <InteractionDef>
     <defName>PreachHealth</defName>
     <label>preached health</label>
-    <symbol>PlaceholderImage</symbol>
+    <symbol>UI/Abilities/PreachHealth</symbol>
     <logRulesInitiator>
       <rulesStrings>
         <li>r_logentry->[INITIATOR_nameDef] strengthened [RECIPIENT_nameDef]'s health by preaching about [preaching_topic].</li>

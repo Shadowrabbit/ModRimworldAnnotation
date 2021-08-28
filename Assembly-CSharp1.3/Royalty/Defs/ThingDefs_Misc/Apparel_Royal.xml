@@ -549,6 +549,7 @@
         <li>RoyalTier3</li>
       </tags>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <ideoDesireDisallowedFactionCategoryTags><li>Tribal</li></ideoDesireDisallowedFactionCategoryTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
     <recipeMaker>

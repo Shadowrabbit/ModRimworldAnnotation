@@ -2,46 +2,46 @@
 <LanguageData>
   
   <!-- EN: son-in-law -->
-  <ChildInLaw.label>女婿</ChildInLaw.label>
+  <ChildInLaw.label>婿</ChildInLaw.label>
   <!-- EN: daughter-in-law -->
-  <ChildInLaw.labelFemale>儿媳</ChildInLaw.labelFemale>
+  <ChildInLaw.labelFemale>嫁</ChildInLaw.labelFemale>
   
   <!-- EN: ex-lover -->
-  <ExLover.label>旧情人</ExLover.label>
-  <ExLover.labelFemale>旧情人</ExLover.labelFemale>
+  <ExLover.label>元恋人</ExLover.label>
+  <ExLover.labelFemale>元恋人</ExLover.labelFemale>
   
   <!-- EN: ex-husband -->
-  <ExSpouse.label>前夫</ExSpouse.label>
+  <ExSpouse.label>元夫</ExSpouse.label>
   <!-- EN: ex-wife -->
-  <ExSpouse.labelFemale>前妻</ExSpouse.labelFemale>
+  <ExSpouse.labelFemale>元妻</ExSpouse.labelFemale>
   
   <!-- EN: fiance -->
-  <Fiance.label>未婚夫</Fiance.label>
+  <Fiance.label>婚約者</Fiance.label>
   <!-- EN: fiancée -->
-  <Fiance.labelFemale>未婚妻</Fiance.labelFemale>
+  <Fiance.labelFemale>婚約者</Fiance.labelFemale>
   
   <!-- EN: lover -->
-  <Lover.label>情人</Lover.label>
-  <Lover.labelFemale>情人</Lover.labelFemale>
+  <Lover.label>恋人</Lover.label>
+  <Lover.labelFemale>恋人</Lover.labelFemale>
   
   <!-- EN: father-in-law -->
-  <ParentInLaw.label>岳父</ParentInLaw.label>
+  <ParentInLaw.label>義父</ParentInLaw.label>
   <!-- EN: mother-in-law -->
-  <ParentInLaw.labelFemale>岳母</ParentInLaw.labelFemale>
+  <ParentInLaw.labelFemale>義母</ParentInLaw.labelFemale>
   
   <!-- EN: husband -->
-  <Spouse.label>丈夫</Spouse.label>
+  <Spouse.label>夫</Spouse.label>
   <!-- EN: wife -->
-  <Spouse.labelFemale>妻子</Spouse.labelFemale>
+  <Spouse.labelFemale>妻</Spouse.labelFemale>
   
   <!-- EN: stepson -->
-  <Stepchild.label>继子</Stepchild.label>
+  <Stepchild.label>継子</Stepchild.label>
   <!-- EN: stepdaughter -->
-  <Stepchild.labelFemale>继女</Stepchild.labelFemale>
+  <Stepchild.labelFemale>継娘</Stepchild.labelFemale>
   
   <!-- EN: stepfather -->
-  <Stepparent.label>继父</Stepparent.label>
+  <Stepparent.label>継父</Stepparent.label>
   <!-- EN: stepmother -->
-  <Stepparent.labelFemale>继母</Stepparent.labelFemale>
+  <Stepparent.labelFemale>継母</Stepparent.labelFemale>
   
 </LanguageData>

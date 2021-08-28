@@ -7,6 +7,7 @@
     <rootMinPoints>350</rootMinPoints>
     <expireDaysRange>10</expireDaysRange>
     <affectedByPopulation>true</affectedByPopulation>
+    <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
     <questNameRules>
       <rulesStrings>
         <li>questName->[questNameInner]</li>

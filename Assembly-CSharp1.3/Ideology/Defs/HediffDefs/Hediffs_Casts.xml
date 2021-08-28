@@ -446,9 +446,9 @@
     <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
-        <statOffsets>
-          <ImmunityGainSpeedFactor>2</ImmunityGainSpeedFactor>
-        </statOffsets>
+        <statFactors>
+          <ImmunityGainSpeed>2</ImmunityGainSpeed>
+        </statFactors>
       </li>
     </stages>
     <comps>

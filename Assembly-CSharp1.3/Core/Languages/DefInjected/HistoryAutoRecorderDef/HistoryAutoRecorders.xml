@@ -2,55 +2,55 @@
 <LanguageData>
   
   <!-- EN: recovery -->
-  <Adaptation.label>恢复</Adaptation.label>
-  <Adaptation.graphLabelY>天</Adaptation.graphLabelY>
+  <Adaptation.label>復興</Adaptation.label>
+  <Adaptation.graphLabelY>日数</Adaptation.graphLabelY>
   <!-- EN: {0} days -->
-  <Adaptation.valueFormat>{0}天</Adaptation.valueFormat>
+  <Adaptation.valueFormat>{0}日数</Adaptation.valueFormat>
   
   <!-- EN: mood -->
-  <ColonistMood.label>殖民者心情</ColonistMood.label>
-  <ColonistMood.graphLabelY>百分比</ColonistMood.graphLabelY>
+  <ColonistMood.label>入植者心情</ColonistMood.label>
+  <ColonistMood.graphLabelY>パーセント</ColonistMood.graphLabelY>
   
   <!-- EN: free colonists -->
-  <FreeColonists.label>殖民者</FreeColonists.label>
-  <FreeColonists.graphLabelY>殖民者</FreeColonists.graphLabelY>
+  <FreeColonists.label>入植者</FreeColonists.label>
+  <FreeColonists.graphLabelY>人数</FreeColonists.graphLabelY>
   
   <!-- EN: pop recovery -->
-  <PopAdaptation.label>人口恢复</PopAdaptation.label>
-  <PopAdaptation.graphLabelY>天</PopAdaptation.graphLabelY>
+  <PopAdaptation.label>復興(人)</PopAdaptation.label>
+  <PopAdaptation.graphLabelY>日数</PopAdaptation.graphLabelY>
   <!-- EN: {0} days -->
-  <PopAdaptation.valueFormat>{0}天</PopAdaptation.valueFormat>
+  <PopAdaptation.valueFormat>{0}日数</PopAdaptation.valueFormat>
   
   <!-- EN: pop intent x10 -->
-  <PopIntent.label>人口意图×10</PopIntent.label>
-  <PopIntent.graphLabelY>天</PopIntent.graphLabelY>
+  <PopIntent.label>pop intent x10 </PopIntent.label>
+  <PopIntent.graphLabelY>日数</PopIntent.graphLabelY>
   <!-- EN: {0} days -->
-  <PopIntent.valueFormat>{0}天</PopIntent.valueFormat>
+  <PopIntent.valueFormat>{0}日数</PopIntent.valueFormat>
   
   <!-- EN: prisoners -->
-  <Prisoners.label>囚犯</Prisoners.label>
-  <Prisoners.graphLabelY>囚犯</Prisoners.graphLabelY>
+  <Prisoners.label>囚人</Prisoners.label>
+  <Prisoners.graphLabelY>人数</Prisoners.graphLabelY>
   
   <!-- EN: fun points /10 -->
-  <ThreatPoints.label>乐趣点数/10</ThreatPoints.label>
-  <ThreatPoints.graphLabelY>点数</ThreatPoints.graphLabelY>
+  <ThreatPoints.label>fun ポイント /10</ThreatPoints.label>
+  <ThreatPoints.graphLabelY>ポイント</ThreatPoints.graphLabelY>
   <!-- EN: {0} points -->
-  <ThreatPoints.valueFormat>{0}点</ThreatPoints.valueFormat>
+  <ThreatPoints.valueFormat>{0}ポイント</ThreatPoints.valueFormat>
   
   <!-- EN: wealth (buildings) -->
-  <Wealth_Buildings.label>财富（建筑）</Wealth_Buildings.label>
-  <Wealth_Buildings.graphLabelY>总计</Wealth_Buildings.graphLabelY>
+  <Wealth_Buildings.label>資産(建物)</Wealth_Buildings.label>
+  <Wealth_Buildings.graphLabelY>総量</Wealth_Buildings.graphLabelY>
   
   <!-- EN: wealth (items) -->
-  <Wealth_Items.label>财富（物品）</Wealth_Items.label>
-  <Wealth_Items.graphLabelY>总计</Wealth_Items.graphLabelY>
+  <Wealth_Items.label>資産(アイテム)</Wealth_Items.label>
+  <Wealth_Items.graphLabelY>総量</Wealth_Items.graphLabelY>
   
   <!-- EN: wealth (creatures) -->
-  <Wealth_Pawns.label>财富（动物）</Wealth_Pawns.label>
-  <Wealth_Pawns.graphLabelY>总计</Wealth_Pawns.graphLabelY>
+  <Wealth_Pawns.label>資産(生物)</Wealth_Pawns.label>
+  <Wealth_Pawns.graphLabelY>総数</Wealth_Pawns.graphLabelY>
   
   <!-- EN: wealth (total) -->
-  <Wealth_Total.label>财富（全部）</Wealth_Total.label>
-  <Wealth_Total.graphLabelY>总计</Wealth_Total.graphLabelY>
+  <Wealth_Total.label>総資産</Wealth_Total.label>
+  <Wealth_Total.graphLabelY>総量</Wealth_Total.graphLabelY>
   
 </LanguageData>

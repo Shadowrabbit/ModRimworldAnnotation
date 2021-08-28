@@ -46,7 +46,7 @@
         <required>true</required>
         <maxCount>1</maxCount>
         <defaultForSelectedColonist>true</defaultForSelectedColonist>
-        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who is below maximum psylink level.</noCandidatesGizmoDesc>
+        <noCandidatesGizmoDesc>Need a colonist with the natural meditation focus type who is below maximum psylink level and not psychically deaf.</noCandidatesGizmoDesc>
       </li>
     </roles>
     <spectatorFilter Class="RitualSpectatorFilter_NatureFocus">

@@ -2,43 +2,43 @@
 <LanguageData>
   
   <!-- EN: architect -->
-  <Architect.label>建筑规划</Architect.label>
+  <Architect.label>アーキテクト</Architect.label>
   <!-- EN: General-use controls for the architect mode menu. -->
-  <Architect.description>用于建筑规划菜单的按键。</Architect.description>
+  <Architect.description>アーキテクトメニューで使用する操作</Architect.description>
   
   <!-- EN: developer tools -->
-  <Development.label>开发者工具</Development.label>
+  <Development.label>開発者モード</Development.label>
   <!-- EN: Controls for developers and modders. Active in development mode only. -->
-  <Development.description>开发者和Mod制作者相关的按键。只在开发者模式中有效。</Development.description>
+  <Development.description>開発者・Mod制作者用の操作</Development.description>
   
   <!-- EN: in-game global -->
-  <Game.label>游戏全局操作</Game.label>
+  <Game.label>ゲーム内操作</Game.label>
   <!-- EN: Colony mode controls that apply in most situations. -->
-  <Game.description>在绝大多数情况下的对殖民地的操作按键。</Game.description>
+  <Game.description>ゲーム内で最も頻繁に行う操作</Game.description>
   
   <!-- EN: camera -->
-  <GameMapCamera.label>镜头</GameMapCamera.label>
+  <GameMapCamera.label>カメラコントロール</GameMapCamera.label>
   <!-- EN: Controls for the camera. -->
-  <GameMapCamera.description>控制镜头的按键。</GameMapCamera.description>
+  <GameMapCamera.description>カメラ操作</GameMapCamera.description>
   
   <!-- EN: main tabs -->
-  <MainTabs.label>主标签</MainTabs.label>
+  <MainTabs.label>メインタブ</MainTabs.label>
   <!-- EN: Controls for the main tabs. -->
-  <MainTabs.description>用于控制主标签开启与关闭。</MainTabs.description>
+  <MainTabs.description>メインタブの操作</MainTabs.description>
   
   <!-- EN: modifiers -->
-  <Modifiers.label>修改器</Modifiers.label>
+  <Modifiers.label>修飾</Modifiers.label>
   <!-- EN: Controls used to modify other actions. -->
-  <Modifiers.description>用于修改其他操作的控件。</Modifiers.description>
+  <Modifiers.description>他の行動を修飾するために使用する操作</Modifiers.description>
   
   <!-- EN: misc -->
-  <SelectionMisc.label>其它操作</SelectionMisc.label>
+  <SelectionMisc.label>その他操作</SelectionMisc.label>
   <!-- EN: Generic controls that are re-used by many items and objects throughout the game. -->
-  <SelectionMisc.description>游戏中很多物品重复使用的通用按键。</SelectionMisc.description>
+  <SelectionMisc.description>アイテムやオブジェクトの再使用等を行う操作</SelectionMisc.description>
   
   <!-- EN: special -->
-  <SelectionSpecial.label>特殊操作</SelectionSpecial.label>
+  <SelectionSpecial.label>特別な操作</SelectionSpecial.label>
   <!-- EN: Special controls reserved for specific functions on specific objects. -->
-  <SelectionSpecial.description>为特殊物品的特殊功能预留的按键。</SelectionSpecial.description>
+  <SelectionSpecial.description>特別なオブジェクトに行える特別な操作</SelectionSpecial.description>
   
 </LanguageData>

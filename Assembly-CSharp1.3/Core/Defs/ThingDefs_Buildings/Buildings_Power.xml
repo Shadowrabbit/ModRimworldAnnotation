@@ -313,9 +313,10 @@
       </damageData>
     </graphicData>
   <uiIconPath>Things/Building/Power/WindTurbine/WindTurbine_MenuIcon</uiIconPath>
-    <altitudeLayer>Building</altitudeLayer>
-  <passability>Impassable</passability>
-    <blockWind>true</blockWind>
+  <altitudeLayer>Building</altitudeLayer>
+  <passability>PassThroughOnly</passability>
+  <canOverlapZones>false</canOverlapZones>
+  <blockWind>true</blockWind>
   <fillPercent>0.5</fillPercent>
   <statBases>
     <MaxHitPoints>150</MaxHitPoints>

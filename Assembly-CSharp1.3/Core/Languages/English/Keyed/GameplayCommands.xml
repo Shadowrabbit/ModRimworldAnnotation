@@ -127,6 +127,8 @@
   <CommandInstallDesc>This item is currently packaged up for storage and transport. Use this command to install this item in a final location.</CommandInstallDesc>
   <CommandReinstall>Reinstall at...</CommandReinstall>
   <CommandReinstallDesc>Designate this item to be uninstalled and reinstalled somewhere else.</CommandReinstallDesc>
+  <CommandReplant>Replant</CommandReplant>
+  <CommandReplantDesc>This tree is currently packaged up for storage and transport. Use this command to replant it in a new location.</CommandReplantDesc>
   
   <!-- Trade beacon -->
   <CommandMakeBeaconStockpileDesc>Create a stockpile around this building exactly matching the shape of the beacon's launch radius.</CommandMakeBeaconStockpileDesc>

@@ -14,7 +14,6 @@
       <li>OriginSpacer</li>
     </allowedPlaceTags>
     <iconPath>UI/Cultures/Astropolitan</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <styleItemTags>
       <li>
         <tag>Urban</tag>
@@ -58,7 +57,6 @@
       <li>OriginTribal</li>
     </allowedPlaceTags>
     <iconPath>World/WorldObjects/Expanding/Village</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <preferredWeaponClasses>
       <noble>Neolithic</noble>
       <despised>Ultratech</despised>
@@ -116,7 +114,6 @@
       <li>OriginSpacer</li>
     </allowedPlaceTags>
     <iconPath>World/WorldObjects/Expanding/Town</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <thingStyleCategories>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <category>Rustic</category>
@@ -160,7 +157,6 @@
       <li>OriginSpacer</li>
     </allowedPlaceTags>
     <iconPath>World/WorldObjects/Expanding/PirateOutpost</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <thingStyleCategories>
       <li MayRequire="Ludeon.RimWorld.Ideology">
         <category>Spikecore</category>

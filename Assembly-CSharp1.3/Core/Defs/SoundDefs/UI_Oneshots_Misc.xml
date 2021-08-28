@@ -1012,20 +1012,4 @@
     </subSounds>
   </SoundDef>
 
-  <SoundDef>
-    <defName>PlaceholderSoundDef</defName>
-    <context>MapOnly</context>
-    <maxSimultaneous>1</maxSimultaneous>
-    <subSounds>
-      <li>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>PlaceholderWav</clipPath>
-          </li>
-        </grains>
-        <volumeRange>40</volumeRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-  
 </Defs>

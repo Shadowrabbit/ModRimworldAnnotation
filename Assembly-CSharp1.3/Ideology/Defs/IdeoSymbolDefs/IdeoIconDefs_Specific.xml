@@ -294,14 +294,6 @@
       <li>HumanPrimacy</li>
     </memes>
   </IdeoIconDef>
-  
-  <IdeoIconDef>
-    <defName>NatureA</defName>
-    <iconPath>UI/Ideoligions/NatureA</iconPath>
-    <memes>
-      <li>NaturePrimacy</li>
-    </memes>
-  </IdeoIconDef>
 
   <IdeoIconDef>
     <defName>NatureB</defName>
@@ -342,6 +334,7 @@
     <memes>
       <li>NaturePrimacy</li>
       <li>Collectivist</li>
+      <li>Structure_Ideological</li>
     </memes>
   </IdeoIconDef>
 
@@ -365,26 +358,6 @@
     <memes>
       <li>AnimalPersonhood</li>
       <li>NaturePrimacy</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
-    <defName>PirateA</defName>
-    <iconPath>UI/Ideoligions/PirateA</iconPath>
-    <memes>
-      <li>Rancher</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
-    <defName>PirateB</defName>
-    <iconPath>UI/Ideoligions/PirateB</iconPath>
-    <cultures>
-      <li>Kriminul</li>
-    </cultures>
-    <memes>
-      <li>Raider</li>
-      <li>Cannibal</li>
     </memes>
   </IdeoIconDef>
 
@@ -422,28 +395,6 @@
   </IdeoIconDef>
 
   <IdeoIconDef>
-    <defName>PoliticalA</defName>
-    <iconPath>UI/Ideoligions/PoliticalA</iconPath>
-    <cultures>
-      <li>Astropolitan</li>
-    </cultures>
-    <memes>
-      <li>Structure_Ideological</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
-    <defName>PoliticalB</defName>
-    <iconPath>UI/Ideoligions/PoliticalB</iconPath>
-    <cultures>
-      <li>Astropolitan</li>
-    </cultures>
-    <memes>
-      <li>Structure_Ideological</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
     <defName>PoliticalC</defName>
     <iconPath>UI/Ideoligions/PoliticalC</iconPath>
     <cultures>
@@ -461,34 +412,6 @@
     <iconPath>UI/Ideoligions/PoliticalD</iconPath>
     <memes>
       <li>Guilty</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
-    <defName>ReligionA</defName>
-    <iconPath>UI/Ideoligions/ReligionA</iconPath>
-    <memes>
-      <li>Structure_TheistEmbodied</li>
-      <li>Structure_TheistAbstract</li>
-      <li>Structure_OriginChristian</li>
-      <li>Structure_OriginIslamic</li>
-      <li>Structure_OriginBuddhist</li>
-      <li>Structure_OriginHindu</li>
-      <li>Structure_Archist</li>
-    </memes>
-  </IdeoIconDef>
-
-  <IdeoIconDef>
-    <defName>ReligionB</defName>
-    <iconPath>UI/Ideoligions/ReligionB</iconPath>
-    <memes>
-      <li>Structure_TheistEmbodied</li>
-      <li>Structure_TheistAbstract</li>
-      <li>Structure_OriginChristian</li>
-      <li>Structure_OriginIslamic</li>
-      <li>Structure_OriginBuddhist</li>
-      <li>Structure_OriginHindu</li>
-      <li>Structure_Archist</li>
     </memes>
   </IdeoIconDef>
 
@@ -546,6 +469,7 @@
     <memes>
       <li>PainIsVirtue</li>
       <li>Cannibal</li>
+      <li>Raider</li>
     </memes>
   </IdeoIconDef>
 

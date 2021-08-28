@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: execution cut -->
-  <ExecutionCut.label>处决</ExecutionCut.label>
+  <ExecutionCut.label>処刑</ExecutionCut.label>
   <!-- EN: {0} has been executed by cutting. -->
-  <ExecutionCut.deathMessage>{0}被处决了。</ExecutionCut.deathMessage>
+  <ExecutionCut.deathMessage>{0}は処刑された</ExecutionCut.deathMessage>
   
   <!-- EN: surgical cut -->
-  <SurgicalCut.label>手术伤</SurgicalCut.label>
+  <SurgicalCut.label>手術死</SurgicalCut.label>
   <!-- EN: {0} has died during surgery. -->
-  <SurgicalCut.deathMessage>{0}在手术中死亡。</SurgicalCut.deathMessage>
+  <SurgicalCut.deathMessage>{0}は手術中に息絶えた</SurgicalCut.deathMessage>
   
 </LanguageData>

@@ -32,6 +32,12 @@
     <texturePath>Designations/Uninstall</texturePath>
     <targetType>Thing</targetType>
   </DesignationDef>
+
+  <DesignationDef>
+    <defName>ExtractTree</defName>
+    <texturePath>Designations/ExtractTree</texturePath>
+    <targetType>Thing</targetType>
+  </DesignationDef>
   
   <DesignationDef>
     <defName>CutPlant</defName>

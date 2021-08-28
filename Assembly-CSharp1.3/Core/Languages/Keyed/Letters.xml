@@ -3,546 +3,546 @@
 
   <!-- Misc -->
   <!-- EN: Jump to location -->
-  <JumpToLocation>转至事件发生地点</JumpToLocation>
+  <JumpToLocation>その場所を見る</JumpToLocation>
   <!-- EN: Postpone -->
-  <PostponeLetter>推迟</PostponeLetter>
+  <PostponeLetter>後回し</PostponeLetter>
   <!-- EN: Reject -->
-  <RejectLetter>拒绝</RejectLetter>
+  <RejectLetter>拒否</RejectLetter>
   <!-- EN: Read more -->
-  <ReadMore>阅读更多</ReadMore>
+  <ReadMore>もっと読む</ReadMore>
 
   <!-- EN: Summer -->
-  <LetterLabelFirstSummerWarning>夏天</LetterLabelFirstSummerWarning>
+  <LetterLabelFirstSummerWarning>夏の便り</LetterLabelFirstSummerWarning>
   <!-- EN: Summer has begun! But winter is coming.\n\nYour food crops won't grow in the winter cold. Be sure to store enough food to survive. You can build a walk-in refrigerator to prevent food from spoiling.\n\nBuy, steal, or make some parkas, or you'll freeze when you step outside. -->
-  <FirstSummerWarning>夏天到了！冬天还会远吗？\n\n寒冷的冬日无法种植作物，可一定要储存足量的食物以挺过寒冬。你可以建一间有制冷机的房间作为冷库以防止食物腐烂。\n\n还要买、偷、缴获或者制作几件风雪大衣，否则冬季出门要挨冻。</FirstSummerWarning>
+  <FirstSummerWarning>夏が来た！でも直ぐに,冬もやってきます.\n\n作物は寒い冬の間は育ちません.食料を保存する準備をしましょう.\n\n冷凍庫となる部屋を造り,食料の腐敗を防ぐのです.\n\nパーカーを買うか,盗むか,作るかしておかないと,外に出たときに凍えてしまいます.</FirstSummerWarning>
 
   <!-- EN: Relations with {0} have broken down completely. They are now hostile to you. -->
-  <LetterRelationsChange_Hostile>我们和{0}的关系已彻底决裂。他们现在与你为敌。</LetterRelationsChange_Hostile>  
+  <LetterRelationsChange_Hostile>{0}との関係が断絶しました.彼らは今や敵です.</LetterRelationsChange_Hostile>
   <!-- EN: They will conduct periodic raids on your colony and caravans, and refuse to trade with you. If you want to improve relations, you can still offer them gifts using caravans or transport pods.\n\nThis happened because goodwill ({0}) has fallen below {1}. In order to restore neutral relations, goodwill must reach {2} again. -->
-  <LetterRelationsChange_HostileGoodwillDescription>他们会定期袭击你的殖民地和远行队，并拒绝和你交易。如果你想改善关系，你仍然可以用远行队或运输舱送礼物。\n\n这是由于友好度（{0}）跌破{1}。为了重回中立关系，友好度必须再次达到{2}。</LetterRelationsChange_HostileGoodwillDescription>  
+  <LetterRelationsChange_HostileGoodwillDescription>彼らは,あなたのコロニーやキャラバン隊を定期的に襲撃するでしょう,さらにトレードを拒否します.あなたに関係改善の意思があるなら,キャラバン隊や輸送ポッドを使って,彼らに贈り物を申し出ることはできます.\n\nこれは友好値({0})が{1}以下のときに起きます.中立の関係に戻す目的なら,友好値を再び{2}に到達させなければなりません.</LetterRelationsChange_HostileGoodwillDescription>
 
   <!-- EN: Relations with {0} have warmed. They now consider you neutral and will no longer attack you. -->
-  <LetterRelationsChange_NeutralFromHostile>我们和{0}的关系已回暖。他们现在会将你视为中立，不再会对你发动攻击。</LetterRelationsChange_NeutralFromHostile>
+  <LetterRelationsChange_NeutralFromHostile>{0}との関係が改善しました.もう彼らは,あなたを攻撃しようともせず,中立とみなしています.</LetterRelationsChange_NeutralFromHostile>
   <!-- EN: This happened because goodwill ({1}) has risen past {2}. If goodwill falls below {3}, {0} will become hostile again. If goodwill rises above {4}, they will become your ally and fight for you. -->
-  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>这是由于友好度（{1}）已涨过{2}。如果友好度跌破{3}，{0} 会再次与你为敌。如果好意超过{4}，他们会成为盟友并为你而战。</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
+  <LetterRelationsChange_NeutralFromHostileGoodwillDescription>これは友好値({1})が{2}を超えれば発生します.もし友好値が{3}を下回れば,{0}は再び敵対します.もし友好値が{4}を上回れば,彼らはあなたと同盟を組み,あなたの為に戦うでしょう.</LetterRelationsChange_NeutralFromHostileGoodwillDescription>
   
   <!-- EN: Relations with {0} have cooled. They now consider you neutral instead of allied. -->
-  <LetterRelationsChange_NeutralFromAlly>我们和{0}的关系已降温。他们现在将你视为中立，而非盟友。</LetterRelationsChange_NeutralFromAlly>
+  <LetterRelationsChange_NeutralFromAlly>{0}との関係が冷え込みました.いまや彼らは,あなたを同盟ではなく中立とみなしています.</LetterRelationsChange_NeutralFromAlly>
   <!-- EN: While they will still interact peacefully with you, they will no longer send fighters to help you when you are under threat.\n\nThis happened because goodwill ({1}) has fallen below {2}. If goodwill falls below {3}, {0} will become hostile. If goodwill rises above {4}, they will become allied once again. -->
-  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>尽管他们还会和你和平互动，他们不再会在你遇到威胁时送来援军。\n\n这是由于友好度（{1}）跌破{2}。如果友好度跌破{3}，{0}将成为敌人。如果友好度涨过{4}，他们会再次成为盟友。</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
+  <LetterRelationsChange_NeutralFromAllyGoodwillDescription>あなたと円満な関係を続けますが,彼らは,貴方が脅威に晒されても援軍を送ってくることはありません.\n\nこれは友好値({1})が{2}を下回れば起きます.もし{3}を下回ると,{0}は敵対するでしょう.もし{4}を上回れば,彼らは再び,あなたと同盟を組むでしょう.</LetterRelationsChange_NeutralFromAllyGoodwillDescription>
   
   <!-- EN: Relations with {0} have become very close. They now consider you an ally. -->
-  <LetterRelationsChange_Ally>我们和{0}的关系已变得十分紧密。他们现在将你视为盟友。</LetterRelationsChange_Ally>
+  <LetterRelationsChange_Ally>{0}との関係はとても緊密となりました.彼らは,あなたと同盟とみなしています.</LetterRelationsChange_Ally>
   <!-- EN: Allies will sometimes arrive to help fight your enemies when you are under attack. You can also call them for help at any time, at a cost of goodwill.\n\nYou've become allies because your goodwill ({0}) has risen past {1}. If goodwill falls below {2}, relations will return to neutral. -->
-  <LetterRelationsChange_AllyGoodwillDescription>盟友有时会在你受到攻击时前来帮助你，与你的敌人交战。你也可以在任何时候呼叫他们前来，但会降低友好度。\n\n你与他们成为盟友是由于友好度（{0}）涨过{1}。如果友好度跌破{2}，关系会回到中立。</LetterRelationsChange_AllyGoodwillDescription>
+  <LetterRelationsChange_AllyGoodwillDescription>同盟を結ぶと,あなたが戦時下にあるときに,あなたの敵と戦う援軍が到着することがあります.あなたは,対価として友好値を費やすことで,いつでも彼らを呼び出すこともできます.\n\n友好値({0})が{1}を超えれば同盟となります.もし{2}を下回ると,関係は中立へと戻ります.</LetterRelationsChange_AllyGoodwillDescription>
 
   <!-- EN: goodwill -->
-  <goodwill>友好度</goodwill>
+  <goodwill>友好</goodwill>
   <!-- EN: Neutral -->
   <Neutral>中立</Neutral>
   <!-- EN: Death -->
   <Death>死亡</Death>
 
   <!-- EN: A {1_label} has short-circuited in the rain and started a fire. -->
-  <ShortCircuitRain>{1_label}在雨中短路了，引发了一场火灾。</ShortCircuitRain>
+  <ShortCircuitRain>{1_label}は 雨で短絡し発火しました.</ShortCircuitRain>
 
   <!-- EN: Area revealed -->
-  <LetterLabelAreaRevealed>发现区域</LetterLabelAreaRevealed>
+  <LetterLabelAreaRevealed>発見</LetterLabelAreaRevealed>
   <!-- EN: A new area has been revealed. -->
-  <AreaRevealed>发现了一片新的区域。</AreaRevealed>
+  <AreaRevealed>新しいゾーンが明らかになりました.</AreaRevealed>
   <!-- EN: A new area has been revealed. It contains ancient, hostile mechanoids. -->
-  <AreaRevealedWithMechanoids>发现了一片新的区域，里面存在有敌意的远古机械体。</AreaRevealedWithMechanoids>
+  <AreaRevealedWithMechanoids>新しいゾーンが明らかになりましたが,敵対する古代のメカノイドがいます.</AreaRevealedWithMechanoids>
 
   <!-- EN: A roof has collapsed because it was too far from any support. -->
-  <RoofCollapsed>一处屋顶因距离支撑过远而坍塌了。</RoofCollapsed>
+  <RoofCollapsed>屋根の支えが遠すぎたため, 自重で崩落しました.</RoofCollapsed>
   <!-- EN: These things were crushed: -->
-  <TheseThingsCrushed>以下物品/人员被砸中了：</TheseThingsCrushed>
+  <TheseThingsCrushed>崩落の被害</TheseThingsCrushed>
   <!-- EN: Nothing was crushed. -->
-  <NothingCrushed>没有物品被砸中。</NothingCrushed>
+  <NothingCrushed>被害は ありませんでした.</NothingCrushed>
   <!-- EN: Roof collapse -->
-  <LetterLabelRoofCollapsed>屋顶塌方</LetterLabelRoofCollapsed>
+  <LetterLabelRoofCollapsed>崩落</LetterLabelRoofCollapsed>
 
   <!-- EN: {0} successfully recruited {1} ({2} chance). -->
-  <RecruitSuccess>{0}成功招募了{1}（成功率{2}）。</RecruitSuccess>
+  <RecruitSuccess>{0}は{1}をコロニーに迎え入れました. (成功率 {2})</RecruitSuccess>
   <!-- EN: {0} failed to recruit {1} ({2} chance). -->
-  <RecruitFail>{0}未能招募{1}（成功率{2}）。</RecruitFail>
+  <RecruitFail>{0}は{1}の説得に失敗しました. (成功率 {2})</RecruitFail>
 
   <!-- EN: {PAWN_nameDef} is {RELATIVE_labelShort}'s {1}. If {PAWN_nameDef} dies, {RELATIVE_labelShort} will suffer from long-lasting grief. However, if you manage to rescue {PAWN_nameDef}, {RELATIVE_labelShort} will be very happy for a long time. -->
-  <RelatedPawnInvolvedInQuest>{PAWN_nameDef}是{RELATIVE_labelShort}的{1}。如果{PAWN_nameDef}死亡，{RELATIVE_labelShort}将长期处于痛苦之中。当然，如果你设法救援{PAWN_nameDef}，{RELATIVE_labelShort}则会开心很长时间。</RelatedPawnInvolvedInQuest>
+  <RelatedPawnInvolvedInQuest>{PAWN_nameDef}は{RELATIVE_labelShort}の{1}です.もし{PAWN_nameDef}が死ねば,{RELATIVE_labelShort}は,長期に渡る悲しみに苦しむでしょう.しかし,もしなんとか{PAWN_nameDef}を救うことができれば,{RELATIVE_labelShort}は,長い間,幸せに包まれるでしょう.</RelatedPawnInvolvedInQuest>
 
   <!-- EN: Birthday -->
-  <LetterLabelBirthday>生日</LetterLabelBirthday>
+  <LetterLabelBirthday>誕生日</LetterLabelBirthday>
   <!-- EN: It's {0}'s chronological birthday today! Biologically, {1} is {3} years old.\n\nChronologically, {1} just turned {2}.\n\nNote that since people don't age while in cryptosleep, chronological birthday is separate from biological birthday. -->
-  <BirthdayChronological>今天是{0}的历法年龄生日！根据生物年龄，{1}只有{3}岁。\n\n根据历法年龄，{1}已经{2}岁了。\n\n由于殖民者在低温休眠舱内休眠时不会变老，所以生物年龄生日与历法年龄生日可能会有一定的区别。</BirthdayChronological>
+  <BirthdayChronological>今日は,{0}の誕生日です!生物学的には{1}は{3}歳になります.\n\n暦上では,{1}は,{2}になりました.\n\n注意：冷凍睡眠中は老化しないので,暦上の年齢は,生物学的年齢とは別になります.</BirthdayChronological>
   <!-- EN: {0_nameFull} has reached the biological age of {1}.\n\nUnfortunately, {0_nameFull} has gained the following diseases due to aging:\n{2} -->
-  <BirthdayBiologicalAgeInjuries>今天是{0_nameFull}的{1}岁生物年龄生日。\n\n然而不幸的是，{0_nameFull}因为年老而患上了如下疾病:\n{2}</BirthdayBiologicalAgeInjuries>
+  <BirthdayBiologicalAgeInjuries>今日は,{0}の生物学的な{1}歳の誕生日です.\n\nですが不幸にも{0_nameFull}は, 老化によって次の病気を患いました:\n{2}</BirthdayBiologicalAgeInjuries>
 
   <!-- EN: Disease -->
-  <LetterLabelNewDisease>疾病</LetterLabelNewDisease>
+  <LetterLabelNewDisease>発症</LetterLabelNewDisease>
   <!-- EN: {PAWN} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewDisease>{PAWN}患上了{1}。\n\n确保你有一位医生和医疗用床，让{PAWN_definite}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewDisease>
+  <NewDisease>{PAWN}は{1}の病に倒れました.\n\n医療用ベッドと医者を確保してください.{PAWN_definite}が適切な治療を受けられているか確認し,できる限り医療用ベッドで過ごすようにしてください.</NewDisease>
   <!-- EN: {PAWN} has gotten sick from {3}. The infection is in {PAWN_possessive} {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_definite} gets proper treatment and spends as much time in bed as possible. -->
-  <NewPartDisease>{PAWN}患上了{3}，感染位于{PAWN_possessive}{1}。\n\n确保你有一位医生和医疗用床，让{PAWN_definite}获得良好的医疗照顾并尽量卧床休息以尽快康复。</NewPartDisease>
+  <NewPartDisease>{PAWN}は{3}の病に倒れました.感染元は{PAWN_possessive}{1}です.医療用ベッドと医者を確保してください.{PAWN_definite}が適切な治療を受けられているか確認し,できる限り医療用ベッドで過ごすようにしてください.</NewPartDisease>
   <!-- EN: {PAWN_labelShort} has developed an illness: {1} -->
-  <NewDiseaseAnimal>{PAWN_labelShort}患上了疾病：{1}</NewDiseaseAnimal>
+  <NewDiseaseAnimal>{PAWN_labelShort}は病気を発症しました: {1}</NewDiseaseAnimal>
   <!-- EN: {PAWN_labelShort} has developed an illness: {3} in {PAWN_possessive} {1} -->
-  <NewPartDiseaseAnimal>{PAWN_labelShort}患上了疾病：{3}，位于{PAWN_possessive}{1}</NewPartDiseaseAnimal>
+  <NewPartDiseaseAnimal>{PAWN_labelShort}は{1}に病気を発症しました: {3}</NewPartDiseaseAnimal>
 
   <!-- EN: {0} was formerly part of your faction. -->
-  <PawnWasFormerlyColonist>{0}曾经是你的派系的一员。</PawnWasFormerlyColonist>
+  <PawnWasFormerlyColonist>かつて{0}は,派閥の一員でした.</PawnWasFormerlyColonist>
   <!-- EN: You previously hosted {0}. -->
-  <PawnWasFormerlyLodger>你先前主办过 {0}。</PawnWasFormerlyLodger>
+  <PawnWasFormerlyLodger>{0}は,あなたの世話になったことがあります.</PawnWasFormerlyLodger>
   <!-- EN: {1_labelShort} has these relationships with your colonists: -->
-  <PawnHasTheseRelationshipsWithColonists>{1_labelShort}与你的殖民者有这些关系：</PawnHasTheseRelationshipsWithColonists>
+  <PawnHasTheseRelationshipsWithColonists>{1_labelShort}は,入植者達と,これらの関係を持っています:</PawnHasTheseRelationshipsWithColonists>
 
   <!-- EN: Ancient danger -->
-  <LetterLabelAncientShrineWarning>远古威胁</LetterLabelAncientShrineWarning>
+  <LetterLabelAncientShrineWarning>太古の脅威</LetterLabelAncientShrineWarning>
   <!-- EN: As {PAWN_nameDef} draws near the ancient wall, a sense of foreboding overcomes {PAWN_objective}. {PAWN_pronoun} isn't sure why, but {PAWN_pronoun} feels that this dusty structure may contain great danger. -->
-  <AncientShrineWarning>当{PAWN_nameDef}靠近这个古老建筑时，{PAWN_objective}浑身上下充满了强烈的不祥之感。{PAWN_pronoun}也不确定为什么，但{PAWN_pronoun}觉得在这座满是灰尘的建筑之中可能隐藏着极大的危险。</AncientShrineWarning>
+  <AncientShrineWarning>{PAWN_nameDef}が太古の壁に近寄った時,悪い予感が{PAWN_objective}襲いました.なぜだか解りませんが,この塵と埃にまみれた廃墟は,大きな危険をはらんでいると{PAWN_pronoun}は感じています.</AncientShrineWarning>
 
   <!-- EN: We have struck {0}! -->
-  <StruckMineable>我们采到了{0}！</StruckMineable>
+  <StruckMineable>{0}の鉱脈に突き当たった!</StruckMineable>
 
   <!-- EN: {0} revenge -->
-  <LetterLabelAnimalManhunterRevenge>{0}被激怒</LetterLabelAnimalManhunterRevenge>
+  <LetterLabelAnimalManhunterRevenge>手負いの{0}</LetterLabelAnimalManhunterRevenge>
   <!-- EN: {1_indefinite} is attacking after being harmed!\n\nIt will hunt any humanoid it can reach. It will calm down when it goes to sleep. -->
-  <AnimalManhunterFromDamage>{1_indefinite}因受到伤害而开始攻击你！\n\n它会攻击任何视野内的人类，直到睡眠时才会恢复冷静。</AnimalManhunterFromDamage>
+  <AnimalManhunterFromDamage>{1_indefinite}は手負いになって襲いかかったきた!\n\nそいつは手が届く範囲の人間を襲おうとします.眠りにつくと落ち着きを取り戻すでしょう.</AnimalManhunterFromDamage>
   <!-- EN: {1_indefinite} is attacking due to a botched taming attempt! -->
-  <AnimalManhunterFromTaming>{1_indefinite}因驯服失败而开始攻击你！</AnimalManhunterFromTaming>
+  <AnimalManhunterFromTaming>手懐けるのに失敗し,{1_indefinite}は襲いかかってきた!</AnimalManhunterFromTaming>
   <!-- EN: Other {1_kindBasePlural} nearby have also become enraged! -->
-  <AnimalManhunterOthers>附近的其他{1_kindBasePlural}也被激怒了！</AnimalManhunterOthers>
+  <AnimalManhunterOthers>そばにいた,他の{1_kindBasePlural}もいっせいに怒り狂いました!</AnimalManhunterOthers>
 
   <!-- EN: {1_labelShort} hit trap -->
-  <LetterFriendlyTrapSprungLabel>{1_labelShort}触发陷阱</LetterFriendlyTrapSprungLabel>
+  <LetterFriendlyTrapSprungLabel>{1_labelShort}は罠にはまった</LetterFriendlyTrapSprungLabel>
   <!-- EN: {1_labelShort} has accidentally sprung a trap and taken damage from it. -->
-  <LetterFriendlyTrapSprung>{1_labelShort}不小心触发了陷阱，并受到了伤害。</LetterFriendlyTrapSprung>
+  <LetterFriendlyTrapSprung>{1_labelShort}は不慮の事故により,罠で怪我をした.</LetterFriendlyTrapSprung>
 
   <!-- EN: {PAWN_labelShort} has developed a health condition:\n\n  {1}\n\nThis was caused by:\n\n  {2} -->
-  <LetterHealthComplications>{PAWN_labelShort}产生了新的症状: {1}\n\n这是由{2}所带来的并发症。</LetterHealthComplications>
+  <LetterHealthComplications>{PAWN_labelShort}は, {2}の合併症で, {1}を患った.</LetterHealthComplications>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHealthComplicationsLabel>{PAWN_labelShort}：{1}</LetterHealthComplicationsLabel>
+  <LetterHealthComplicationsLabel>{PAWN_labelShort}: {1}</LetterHealthComplicationsLabel>
   
   <!-- EN: {PAWN_labelShort} has developed a health condition: {1}. -->
-  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort}产生了新的症状: {1}。</LetterHediffFromRandomHediffGiver>
+  <LetterHediffFromRandomHediffGiver>{PAWN_labelShort}は, {1}の病におかされた.</LetterHediffFromRandomHediffGiver>
   <!-- EN: {PAWN_labelShort}: {1} -->
-  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}：{1}</LetterHediffFromRandomHediffGiverLabel>
+  <LetterHediffFromRandomHediffGiverLabel>{PAWN_labelShort}: {1}</LetterHediffFromRandomHediffGiverLabel>
 
   <!-- EN: {1} died: {0} -->
-  <LetterLeadersDeathLabel>{1}死亡: {0}</LetterLeadersDeathLabel>
+  <LetterLeadersDeathLabel>{1}が死亡: {0}</LetterLeadersDeathLabel>
   <!-- EN: {OLDLEADER_nameFull}, {1} of {0}, has died. -->
-  <LetterLeadersDeath>{0}的{1}，{OLDLEADER_nameFull}已死亡。</LetterLeadersDeath>
+  <LetterLeadersDeath>{0}の{1}である{OLDLEADER_nameFull}が死んだ.</LetterLeadersDeath>
 
   <!-- EN: New {1}: {0} -->
-  <LetterLeaderChangedLabel>新任{1}: {0}</LetterLeaderChangedLabel>
+  <LetterLeaderChangedLabel>新{1}: {0}</LetterLeaderChangedLabel>
   <!-- EN: {OLDLEADER_nameFull} is no longer {1} of {0}. -->
-  <LetterLeaderChanged>{OLDLEADER_nameFull}不再是{0}的{1}了。</LetterLeaderChanged>
+  <LetterLeaderChanged>{OLDLEADER_nameFull}は,もう{0}の{1}ではなくなった.</LetterLeaderChanged>
 
   <!-- EN: The new {0} is {NEWLEADER_nameFull}. -->
-  <LetterNewLeader>新任{0}是{NEWLEADER_nameFull}。</LetterNewLeader>
+  <LetterNewLeader>新しい{0}は{NEWLEADER_nameFull}になった.</LetterNewLeader>
 
   <!-- EN: The final straw was: {0} -->
-  <FinalStraw>压倒骆驼的最后一根稻草: {0}</FinalStraw>
+  <FinalStraw>不幸な出来事: {0}</FinalStraw>
   <!-- EN: This happened because of poor mood. -->
-  <MentalStateReason_Mood>这是因为心情不佳。</MentalStateReason_Mood>
+  <MentalStateReason_Mood>貧しい心情によって発生しました.</MentalStateReason_Mood>
   <!-- EN: This happened because of the trait: {0}. -->
-  <MentalStateReason_Trait>这是因为特性：{0}。</MentalStateReason_Trait>
+  <MentalStateReason_Trait>特性・特徴によって発止しました: {0}</MentalStateReason_Trait>
   <!-- EN: This happened because of: {0}. -->
-  <MentalStateReason_Hediff>这是因为：{0}。</MentalStateReason_Hediff>
+  <MentalStateReason_Hediff>{0}によって発生しました.</MentalStateReason_Hediff>
   <!-- EN: This happened because of {0_definite}'s death. -->
-  <MentalStateReason_BondedHumanDeath>这是因为{0_definite}的死亡。</MentalStateReason_BondedHumanDeath>
+  <MentalStateReason_BondedHumanDeath>{0_definite}の死が引き金になり発生しました.</MentalStateReason_BondedHumanDeath>
   <!-- EN: The last event was -->
-  <LastFactionRelationsEvent>最近一次事件是</LastFactionRelationsEvent>
+  <LastFactionRelationsEvent>きっかけとなった出来事</LastFactionRelationsEvent>
 
   <!-- EN: View related quest -->
-  <ViewRelatedQuest>查看相关任务</ViewRelatedQuest>
+  <ViewRelatedQuest>関連するクエストを参照</ViewRelatedQuest>
   <!-- EN: View quest -->
-  <ViewQuest>查看任务</ViewQuest>
+  <ViewQuest>クエストを参照</ViewQuest>
   <!-- EN: The last events in {PAWN_definite}'s life -->
-  <LastEventsInLife>{PAWN_definite}的人生中最近的事件</LastEventsInLife>
+  <LastEventsInLife>{PAWN_definite}の人生で 最後に起きた出来事</LastEventsInLife>
 
   <!-- EN: Thanks to high mood, [PAWN_nameIndef] has experienced an inspiration! -->
-  <LetterInspirationBeginThanksToHighMoodPart>多亏了良好的心情，[PAWN_nameIndef]获得了一个灵感！</LetterInspirationBeginThanksToHighMoodPart>
+  <LetterInspirationBeginThanksToHighMoodPart>高い心情を保っていたため,[PAWN_nameIndef]は奮い立ちました!</LetterInspirationBeginThanksToHighMoodPart>
 
   <!-- Related pawns -->
   <!-- EN: Relationship -->
-  <LetterLabelNoticedRelatedPawns>家族成员</LetterLabelNoticedRelatedPawns>
+  <LetterLabelNoticedRelatedPawns>血縁関係</LetterLabelNoticedRelatedPawns>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of {1}.\n\nKeep in mind that even though they are related, they will still attack each other because of their bad factions relations.\n\nThese people are: -->
-  <LetterRelatedPawnsRaidEnemy>到达的{1}团体中有人是你的{0}或者囚犯的家族成员。\n\n记住，虽然他们是家族成员，但是他们仍然会攻击你的殖民者，因为他们属于敌对派系。\n\n这些人是：</LetterRelatedPawnsRaidEnemy>
+  <LetterRelatedPawnsRaidEnemy>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,到着した敵対する{1}のグループにいます.\n\nたとえ血が繋がっていても,敵対関係にある以上,依然として襲ってくることには,変わりが無いことに留意してください.\n\n 家族の一員：</LetterRelatedPawnsRaidEnemy>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group of friendly {1}: -->
-  <LetterRelatedPawnsRaidFriendly>到达的友好的{1}团体中有{0}或囚犯的家族成员：</LetterRelatedPawnsRaidFriendly>
+  <LetterRelatedPawnsRaidFriendly>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,到着した友好な{1}のグループにいます:</LetterRelatedPawnsRaidFriendly>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the arriving group: -->
-  <LetterRelatedPawnsNeutralGroup>到达的团体中有{0}或囚犯的家族成员：</LetterRelatedPawnsNeutralGroup>
+  <LetterRelatedPawnsNeutralGroup>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,到着したグループにいます：</LetterRelatedPawnsNeutralGroup>
   <!-- EN: The orbital trader is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradeShip>轨道贸易商出售的奴隶中有{0}或囚犯的家族成员：</LetterRelatedPawnsTradeShip>
+  <LetterRelatedPawnsTradeShip>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,軌道トレーダーによって売られています:</LetterRelatedPawnsTradeShip>
   <!-- EN: The settlement is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithSettlement>定居点出售的奴隶中有{0}或囚犯的家族成员：</LetterRelatedPawnsTradingWithSettlement>
+  <LetterRelatedPawnsTradingWithSettlement>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,拠点で売られています:</LetterRelatedPawnsTradingWithSettlement>
   <!-- EN: The caravan is selling people who have relationships with your {0} or prisoners: -->
-  <LetterRelatedPawnsTradingWithOtherCaravan>远行队出售的奴隶中有{0}或囚犯的家族成员：</LetterRelatedPawnsTradingWithOtherCaravan>
+  <LetterRelatedPawnsTradingWithOtherCaravan>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,他キャラバン隊によって売られています:</LetterRelatedPawnsTradingWithOtherCaravan>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the group: -->
-  <LetterRelatedPawnsGroupGeneric>该团体中有你的{0}或囚犯的家族成员：</LetterRelatedPawnsGroupGeneric>
+  <LetterRelatedPawnsGroupGeneric>あなたのコロニーの{0}か,囚人と,繋がりの有る者がグループにいます:</LetterRelatedPawnsGroupGeneric>
   <!-- EN: There are people who have relationships with your {0} or prisoners in the area where your {0} have landed. -->
-  <LetterRelatedPawnsInMapWherePlayerLanded>该团体中有那些在你的登陆地点的{0}或囚犯的家族成员：</LetterRelatedPawnsInMapWherePlayerLanded>
+  <LetterRelatedPawnsInMapWherePlayerLanded>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,このエリアにいます.</LetterRelatedPawnsInMapWherePlayerLanded>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this settlement: -->
-  <LetterRelatedPawnsSettlement>该定居点有你的{0}或囚犯的家族成员：</LetterRelatedPawnsSettlement>
+  <LetterRelatedPawnsSettlement>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,ここの拠点にいます:</LetterRelatedPawnsSettlement>
   <!-- EN: There are people who have relationships with your {0} or prisoners in this area: -->
-  <LetterRelatedPawnsSite>该区域有你的{0}或囚犯的家族成员：</LetterRelatedPawnsSite>
+  <LetterRelatedPawnsSite>あなたのコロニーの{0}か,囚人と,繋がりの有る者が,このエリアにいます:</LetterRelatedPawnsSite>
 
   <!-- EN: relationship -->
-  <RelationshipAppendedLetterSuffix>家族</RelationshipAppendedLetterSuffix>
+  <RelationshipAppendedLetterSuffix>(血縁関係)</RelationshipAppendedLetterSuffix>
   <!-- EN: {PAWN_nameDef} has a relationship with a colonist. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef}是殖民者的家族成员。{PAWN_pronoun}是{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextColonist>
+  <RelationshipAppendedLetterTextColonist>{PAWN_nameDef} は入植者と血縁関係にあります.{PAWN_pronoun}は {RELATIVE_labelShort}の {1}です.</RelationshipAppendedLetterTextColonist>
   <!-- EN: {PAWN_nameDef} has a relationship with one of your prisoners. {PAWN_pronoun} is {RELATIVE_labelShort}'s {1}. -->
-  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef}是囚犯的家族成员。{PAWN_pronoun}是{RELATIVE_labelShort}的{1}。</RelationshipAppendedLetterTextPrisoner>
+  <RelationshipAppendedLetterTextPrisoner>{PAWN_nameDef} は囚人の一人と血縁関係にあります.{PAWN_pronoun}は {RELATIVE_labelShort}の {1}です.</RelationshipAppendedLetterTextPrisoner>
 
   <!-- Attempt romance / propose interaction -->
   <!-- EN: Affair -->
-  <LetterLabelAffair>外遇</LetterLabelAffair>
+  <LetterLabelAffair>浮気</LetterLabelAffair>
   <!-- EN: {PAWN1_labelShort}, married to {SPOUSE_labelShort}, has begun an affair with {PAWN2_labelShort}. -->
-  <LetterAffair>{PAWN1_labelShort}虽然已经和{SPOUSE_labelShort}结婚，却和{PAWN2_labelShort}勾搭上了。</LetterAffair>
+  <LetterAffair>{PAWN1_labelShort}は {SPOUSE_labelShort}と結婚しているのも関わらず, {PAWN2_labelShort}に うつつを抜かしています.</LetterAffair>
   <!-- EN: New lovers -->
-  <LetterLabelNewLovers>恋情</LetterLabelNewLovers>
+  <LetterLabelNewLovers>新しい恋人達</LetterLabelNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} now want to sleep together. Consider assigning them a double bed. -->
-  <LetterNewLovers>{PAWN1_labelShort}和{PAWN2_labelShort}走到了一起，现在是恋人关系了。可以考虑为他们分配一张双人床。</LetterNewLovers>
+  <LetterNewLovers>{PAWN1_labelShort}と{PAWN2_labelShort}は互いに寄り添って眠りたがっています.二人にダブルベッドはどうでしょう.</LetterNewLovers>
   <!-- EN: {PAWN1_labelShort} and {PAWN2_labelShort} are no longer in a relationship. -->
-  <LetterNoLongerLovers>{PAWN1_labelShort}和{PAWN2_labelShort}不再是恋人关系了。</LetterNoLongerLovers>
+  <LetterNoLongerLovers>{PAWN1_labelShort}と{PAWN2_labelShort}はその関係を断ちました.</LetterNoLongerLovers>
   <!-- EN: {PAWN_labelShort} will change {PAWN_possessive} last name back to {PAWN_possessive} birth name. -->
-  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort}会将{PAWN_possessive}的姓氏改回{PAWN_possessive}的姓氏。</LetterNoLongerLovers_BackToBirthName>
+  <LetterNoLongerLovers_BackToBirthName>{PAWN_labelShort}の名字は旧姓に戻ります.</LetterNoLongerLovers_BackToBirthName>
   <!-- EN: Breakup -->
-  <LetterLabelBreakup>分手</LetterLabelBreakup>
+  <LetterLabelBreakup>振られた</LetterLabelBreakup>
   <!-- EN: Marriage is on! -->
-  <LetterLabelAcceptedProposal>接受求婚！</LetterLabelAcceptedProposal>
+  <LetterLabelAcceptedProposal>喜んで!結婚しよう</LetterLabelAcceptedProposal>
   <!-- EN: Rejected proposal -->
-  <LetterLabelRejectedProposal>拒绝求婚</LetterLabelRejectedProposal>
+  <LetterLabelRejectedProposal>ごめんなさい</LetterLabelRejectedProposal>
   <!-- EN: At some point in the coming days or quadrums, they will have their marriage ceremony and invite all the colonists. Consider placing a marriage spot if you want to control where the ceremony occurs. -->
-  <LetterAcceptedProposal>在未来数天或数季度后，他们将举行婚礼，并邀请所有的殖民者。如果你想指定婚礼地点，请考虑放置一个婚礼举办点。（「建筑规划」-「杂项」中你能找到婚礼举办点。）</LetterAcceptedProposal>
+  <LetterAcceptedProposal>来るべき日がくれば,二人は結婚式を執り行い,全ての入植者を招待します.どこで結婚式を行うかを思い通りにしたければ,結婚を誓う場の検討をします.</LetterAcceptedProposal>
   <!-- EN: {PAWN_label} will change {PAWN_possessive} last name to {1}. -->
-  <LetterAcceptedProposal_NameChange>{PAWN_label}会将{PAWN_possessive}的姓氏改成{1}。</LetterAcceptedProposal_NameChange>
+  <LetterAcceptedProposal_NameChange>{PAWN_label}の名字は{1}に変わります.</LetterAcceptedProposal_NameChange>
   <!-- EN: {INITIATOR_nameFull} is going to be unhappy about this. -->
-  <LetterRejectedProposal>{INITIATOR_nameFull}伤心欲绝。</LetterRejectedProposal>
+  <LetterRejectedProposal>{INITIATOR_nameFull}は,このことで不幸になるでしょう.</LetterRejectedProposal>
 
   <!-- Generalized letter labels -->
   <!-- EN: Hostile: {0} -->
-  <LetterLabelRelationsChange_Hostile>敌人：{0}</LetterLabelRelationsChange_Hostile>
+  <LetterLabelRelationsChange_Hostile>敵対: {0}</LetterLabelRelationsChange_Hostile>
   <!-- EN: Allied: {0} -->
-  <LetterLabelRelationsChange_Ally>盟友：{0}</LetterLabelRelationsChange_Ally>
+  <LetterLabelRelationsChange_Ally>同盟: {0}</LetterLabelRelationsChange_Ally>
   <!-- EN: Enemy now neutral: {0} -->
-  <LetterLabelRelationsChange_NeutralFromHostile>敌人转中立：{0}</LetterLabelRelationsChange_NeutralFromHostile>
+  <LetterLabelRelationsChange_NeutralFromHostile>敵対から中立へ: {0}</LetterLabelRelationsChange_NeutralFromHostile>
   <!-- EN: Ally now neutral: {0} -->
-  <LetterLabelRelationsChange_NeutralFromAlly>盟友转中立：{0}</LetterLabelRelationsChange_NeutralFromAlly>
+  <LetterLabelRelationsChange_NeutralFromAlly>同盟から中立へ: {0}</LetterLabelRelationsChange_NeutralFromAlly>
   <!-- EN: Zzztt... -->
-  <LetterLabelShortCircuit>电缆短路</LetterLabelShortCircuit>
+  <LetterLabelShortCircuit>バチバチ...</LetterLabelShortCircuit>
 
   <!-- Bonded animals -->
   <!-- EN: bonded -->
-  <LetterLabelSuffixBondedAnimalDied>牵绊动物</LetterLabelSuffixBondedAnimalDied>
+  <LetterLabelSuffixBondedAnimalDied>絆で結ばれた</LetterLabelSuffixBondedAnimalDied>
   <!-- EN: {ANIMAL_definite} was bonded to {HUMAN_labelShort}. It will affect {HUMAN_labelShort}'s mood. -->
-  <LetterPartBondedAnimalDied>{ANIMAL_definite}与{HUMAN_labelShort}形成牵绊。这将影响{HUMAN_labelShort}的心情。</LetterPartBondedAnimalDied>
+  <LetterPartBondedAnimalDied>{ANIMAL_definite}は{HUMAN_labelShort}と絆で結ばれました.{HUMAN_labelShort}の"心情"に影響を及ぼすでしょう.</LetterPartBondedAnimalDied>
   <!-- EN: It will affect mood of the following people:\n\n{0} -->
-  <LetterPartBondedAnimalDiedMulti>这将影响以下人的心情：\n\n{0}</LetterPartBondedAnimalDiedMulti>
+  <LetterPartBondedAnimalDiedMulti>次の人々の"心情"に影響を及ぼします:\n\n{0}</LetterPartBondedAnimalDiedMulti>
 
   <!-- Prison break -->
   <!-- EN: Prison break -->
-  <LetterLabelPrisonBreak>越狱</LetterLabelPrisonBreak>
+  <LetterLabelPrisonBreak>脱走</LetterLabelPrisonBreak>
   <!-- EN: Prisoners have staged a breakout! They've somehow defeated the door locks and are making their way out. They may seek weapons, fight, or try to escape. These prisoners are involved:\n\n{0}\n\nPrisoners are more likely to attempt breakout when they are numerous and healthy. -->
-  <LetterPrisonBreak>囚犯们不知如何撬开了门锁，正在越狱！他们可能找寻武器、战斗或者直接逃跑。越狱囚犯:\n\n{0}\n\n当囚犯人数众多或身体健康时更容易试图越狱。</LetterPrisonBreak>
+  <LetterPrisonBreak>囚人たちが脱走しました!どうやったかは分かりませんが,彼らは,ドアのロックを壊して逃げ出しました.彼らは武器を探し,戦ってでも逃げようとします.\n\n指名手配：\n\n{0}\n\n囚人たちを,多数ひとまとめにして,不満を放っておいたり,不健康のままにしておくと,より脱走を試みるようになります.</LetterPrisonBreak>
 
   <!-- Newly addicted -->
   <!-- EN: {0} addiction -->
-  <LetterLabelNewlyAddicted>{0}成瘾</LetterLabelNewlyAddicted>
+  <LetterLabelNewlyAddicted>{0}依存症</LetterLabelNewlyAddicted>
   <!-- EN: {PAWN_labelShort} has developed an addiction to {1}.\n\n{PAWN_pronoun} now has a need for {1}, visible on {PAWN_possessive} Needs tab. {PAWN_pronoun} will automatically consume the drug to fulfil {PAWN_possessive} need. If {PAWN_pronoun} cannot get any {1}, {PAWN_pronoun} will go into withdrawal. -->
-  <LetterNewlyAddicted>{PAWN_labelShort}已经对{1}成瘾了。\n\n{PAWN_pronoun}现在对{1}有着很强的依赖和需求，你可以在{PAWN_possessive}需求面板上查看。{PAWN_pronoun}会自动使用对应成瘾品来满足自己的需求，在{PAWN_pronoun}无法获得任何{1}时就会产生戒断反应。</LetterNewlyAddicted>
+  <LetterNewlyAddicted>{PAWN_labelShort}は,{1}依存症を患いました.\n\n今や{PAWN_pronoun}には{1}に対する欲求があり,それは{PAWN_possessive}「欲求」タブで見て取れます. {PAWN_pronoun}は自身の欲求を満たすために,勝手にドラッグを消費するようになります. もし{PAWN_pronoun}が{1}を手に入れられなければ,{PAWN_pronoun}は離脱症状を起こすことになるでしょう.</LetterNewlyAddicted>
 
   <!-- Drug binge -->
   <!-- EN: {0} binge -->
-  <LetterLabelDrugBinge>{0}滥用者</LetterLabelDrugBinge>
+  <LetterLabelDrugBinge>{0} 浪費</LetterLabelDrugBinge>
   <!-- EN: {2_label} is binging on {1}. -->
-  <LetterDrugBinge>{2_label}无法控制自己的欲望，正在超剂量使用{1}。</LetterDrugBinge>
+  <LetterDrugBinge>{2_label}は,{1}を浪費するようになりました.</LetterDrugBinge>
 
   <!-- Caravan destroyed -->
   <!-- EN: Caravan destroyed -->
-  <LetterLabelAllCaravanColonistsDied>远行队已毁灭</LetterLabelAllCaravanColonistsDied>
+  <LetterLabelAllCaravanColonistsDied>キャラバン隊壊滅</LetterLabelAllCaravanColonistsDied>
   <!-- EN: All members of {0} have died. -->
-  <LetterAllCaravanColonistsDied>{0}的所有成员均已死亡。</LetterAllCaravanColonistsDied>
+  <LetterAllCaravanColonistsDied>{0}の全員が死亡しました.</LetterAllCaravanColonistsDied>
 
   <!-- Caravan entered map -->
   <!-- EN: Caravan arrived at {0_label} -->
-  <LetterLabelCaravanEnteredMap>远行队抵达{0_label}</LetterLabelCaravanEnteredMap>
+  <LetterLabelCaravanEnteredMap>{0_label}に到着</LetterLabelCaravanEnteredMap>
   <!-- EN: {0} has arrived at {1_definite}. -->
-  <LetterCaravanEnteredMap>{0}抵达{1_definite}。</LetterCaravanEnteredMap>
+  <LetterCaravanEnteredMap>{0}は,{1_definite}に到着しました.</LetterCaravanEnteredMap>
 
   <!-- Caravan entered enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelCaravanEnteredEnemyBase>开始进攻</LetterLabelCaravanEnteredEnemyBase>
+  <LetterLabelCaravanEnteredEnemyBase>戦闘開始</LetterLabelCaravanEnteredEnemyBase>
   <!-- EN: {0} has arrived at {1} and is ready to begin the attack. -->
-  <LetterCaravanEnteredEnemyBase>{0}已经抵达{1}并已准备好开始进攻。</LetterCaravanEnteredEnemyBase>
+  <LetterCaravanEnteredEnemyBase>{0}は{1}に到着し,攻撃準備を整えました.</LetterCaravanEnteredEnemyBase>
 
   <!-- Transport pods landed in enemy base -->
   <!-- EN: Attack begun -->
-  <LetterLabelTransportPodsLandedInEnemyBase>攻击开始</LetterLabelTransportPodsLandedInEnemyBase>
+  <LetterLabelTransportPodsLandedInEnemyBase>戦闘開始</LetterLabelTransportPodsLandedInEnemyBase>
   <!-- EN: Your transport pods have arrived at {0}. -->
-  <LetterTransportPodsLandedInEnemyBase>你的运输舱已抵达{0}。</LetterTransportPodsLandedInEnemyBase>
+  <LetterTransportPodsLandedInEnemyBase>あなたの輸送ポッドが{0}に着きました.</LetterTransportPodsLandedInEnemyBase>
   <!-- EN: The shuttle has arrived at {0}. -->
-  <LetterShuttleLandedInEnemyBase>穿梭机已抵达{0}。</LetterShuttleLandedInEnemyBase>
+  <LetterShuttleLandedInEnemyBase>シャトルが{0}に着きました.</LetterShuttleLandedInEnemyBase>
 
   <!-- Faction base defeated -->
   <!-- EN: Base destroyed -->
-  <LetterLabelFactionBaseDefeated>基地已摧毁</LetterLabelFactionBaseDefeated>
+  <LetterLabelFactionBaseDefeated>拠点破壊</LetterLabelFactionBaseDefeated>
   <!-- EN: The enemy settlement {0} has been destroyed.\n\nIn {1}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterFactionBaseDefeated>敌人的定居点{0}已经被摧毁。\n\n殖民者重组远行队之前你有{1}来收集物资，你也可以在世界地图中选择已摧毁的基地来收集物资。</LetterFactionBaseDefeated>
+  <LetterFactionBaseDefeated>敵の入植地"{0}"を破壊しました.\n\n{1}で,奴らはキャラバン隊を攻撃します.キャラバン隊の再編成と定住をしない限り,奴らはキャラバン隊を攻撃するために軍勢を送り始めます.</LetterFactionBaseDefeated>
   <!-- EN: Since this was their last settlement, {0} has been defeated. -->
-  <LetterFactionBaseDefeated_FactionDestroyed>这是{0}的最后一个基地，这意味着这个派系已不复存在。</LetterFactionBaseDefeated_FactionDestroyed>
+  <LetterFactionBaseDefeated_FactionDestroyed>この場所が奴らの最後の入植地だったため,{0}は敗北しました.</LetterFactionBaseDefeated_FactionDestroyed>
 
   <!-- Quest completed -->
   <!-- EN: Quest completed -->
-  <LetterLabelDefeatAllEnemiesQuestCompleted>完成请求</LetterLabelDefeatAllEnemiesQuestCompleted>
+  <LetterLabelDefeatAllEnemiesQuestCompleted>クエスト完了</LetterLabelDefeatAllEnemiesQuestCompleted>
   <!-- EN: You have defeated the enemy outpost!\n\nThe payment from {0} has arrived, and faction relations have improved by {1}. -->
-  <LetterDefeatAllEnemiesQuestCompleted>你摧毁了敌人的哨所！\n\n来自{0}的付款已经到达，并且派系关系提升了{1}。</LetterDefeatAllEnemiesQuestCompleted>
+  <LetterDefeatAllEnemiesQuestCompleted>あなたは前哨基地の敵を倒しました!\n\n{0}からの報酬が到着し,{1}による,派閥関係が良くなりました.</LetterDefeatAllEnemiesQuestCompleted>
 
   <!-- Long-range mineral scanner -->
   <!-- EN: Distant resource scanned -->
-  <LetterLabelFoundPreciousLump>扫描到稀有矿物</LetterLabelFoundPreciousLump>
+  <LetterLabelFoundPreciousLump>稀少鉱物を探知</LetterLabelFoundPreciousLump>
   <!-- EN: Using your long-range mineral scanner, {WORKER_labelShort} has found a lump of {0} some distance away.\n\nUnfortunately, it won't last - others will mine it first in {1} days if we don't.\n\n{2}. -->
-  <LetterFoundPreciousLump>通过使用远距离矿物扫描仪，{WORKER_labelShort}发现了附近的一块 {0}。\n\n很遗憾，它不会持续很久——如果我们不尽快开采，其他势力将会在{1}后开采并带走这些资源。\n\n{2}。</LetterFoundPreciousLump>
+  <LetterFoundPreciousLump>長距離鉱物スキャナーを使用して,{WORKER_labelShort}は,すぐ近くに{0}鉱床を発見した.\n\n残念ながら,そう長くは持たない - 他の住人が{1}日以内に先に採掘するだろう・・\n\n{2}</LetterFoundPreciousLump>
 
   <!-- Ground penetrating scanner -->
   <!-- EN: Scanned underground -->
-  <LetterLabelDeepScannerFoundLump>地矿扫描</LetterLabelDeepScannerFoundLump>
+  <LetterLabelDeepScannerFoundLump>地質を走査した</LetterLabelDeepScannerFoundLump>
   <!-- EN: {FINDER_nameDef} has found a lump of buried {0} using the ground-penetrating scanner! -->
-  <LetterDeepScannerFoundLump>{FINDER_nameDef}使用穿透地面的扫描仪发现了一块被掩埋的{0}！</LetterDeepScannerFoundLump>
+  <LetterDeepScannerFoundLump>{FINDER_nameDef}は地殻深部スキャナーを使用して,{0}鉱床を発見した!</LetterDeepScannerFoundLump>
 
   <!-- Ambush -->
   <!-- EN: Ambush -->
-  <LetterLabelAmbushInExistingMap>伏击</LetterLabelAmbushInExistingMap>
+  <LetterLabelAmbushInExistingMap>待ち伏せ</LetterLabelAmbushInExistingMap>
   <!-- EN: Your {0} have been ambushed! -->
-  <LetterAmbushInExistingMap>你的{0}被伏击了！</LetterAmbushInExistingMap>
+  <LetterAmbushInExistingMap>{0}は待ち伏せされた!</LetterAmbushInExistingMap>
 
   <!-- Peace talks -->
   <!-- EN: Peace talks disaster -->
-  <LetterLabelPeaceTalks_Disaster>灾难性的和平谈判</LetterLabelPeaceTalks_Disaster>
+  <LetterLabelPeaceTalks_Disaster>和平交渉 決裂</LetterLabelPeaceTalks_Disaster>
   <!-- EN: The talks were a disaster. The delegates barely got past their initial greetings before the discussion broke down into insults and recriminations.\n\nAfter your caravan departed early, {0} from {1} caught up with it and attacked!\n\nRelations with {1}: {2}. -->
-  <LetterPeaceTalks_Disaster>这场谈判是场灾难。这场讨论在代表们几乎还没经过最初的问候时就破裂成了互相侮辱和指责。\n\n你的远行队提前离开后，来自{1}的{0}便追了上来并发动了攻击！\n\n与{1}间的关系: {2}。</LetterPeaceTalks_Disaster>
+  <LetterPeaceTalks_Disaster>交渉は決裂しました. 代表団は,話し合いが侮辱と非難で決裂する前に,かろうじて最初の挨拶だけをやり過ごしました.\n\nキャラバン隊が早々と出発した後,{1}からの{0}が追って来て,攻撃してきました!\n\n{1}との関係: {2}</LetterPeaceTalks_Disaster>
   <!-- EN: Peace talks backfire -->
-  <LetterLabelPeaceTalks_Backfire>事与愿违的和平谈判</LetterLabelPeaceTalks_Backfire>
+  <LetterLabelPeaceTalks_Backfire>和平交渉 逆効果</LetterLabelPeaceTalks_Backfire>
   <!-- EN: The talks have backfired. Despite trading some pleasantries, the delegates made no progress on substantive issues, and multiple statements were interpreted as insults.\n\nRelations with {0}: {1}. -->
-  <LetterPeaceTalks_Backfire>这场谈判的最终结果事与愿违。尽管进行了一些寒暄，但代表们在实质性问题上毫无进展，而且许多言论被认为是侮辱。\n\n与{0}间的关系: {1}。</LetterPeaceTalks_Backfire>
+  <LetterPeaceTalks_Backfire>交渉は裏目に出ました. いくつかの嘲笑と引き換えたにも関わらず,代表団は本質的な問題に対して進展を得られず,複数の声明が侮辱として解釈されました.\n\n{0}との関係: {1}</LetterPeaceTalks_Backfire>
   <!-- EN: Peace talks flounder -->
-  <LetterLabelPeaceTalks_TalksFlounder>困难重重的和平谈判</LetterLabelPeaceTalks_TalksFlounder>
+  <LetterLabelPeaceTalks_TalksFlounder>和平交渉 難航</LetterLabelPeaceTalks_TalksFlounder>
   <!-- EN: The talks floundered. Delegates managed to communicate clearly and with basic respect, but were not able to make progress on any genuine issues.\n\nRelations with {0} remain unchanged. -->
-  <LetterPeaceTalks_TalksFlounder>谈判过程中困难重重。代表们设法传达清晰的意图和基本的尊重，但未能在真正问题上取得进展。\n\n与{0}间的关系保持不变。</LetterPeaceTalks_TalksFlounder>
+  <LetterPeaceTalks_TalksFlounder>交渉は難航しています. 代表団はかろうじてしっかりとした基本的な敬意を払い,意思を伝えることはできましたが,主となる問題について進展を得ることはできませんでした.\n\n{0}との関係: 変化無し</LetterPeaceTalks_TalksFlounder>
   <!-- EN: Peace talks success -->
-  <LetterLabelPeaceTalks_Success>成功的和平谈判</LetterLabelPeaceTalks_Success>
+  <LetterLabelPeaceTalks_Success>和平交渉 成功</LetterLabelPeaceTalks_Success>
   <!-- EN: The talks were a success. The delegates reached new mutual understanding on several substantial issues.\n\nRelations with {0} have improved by {1}. -->
-  <LetterPeaceTalks_Success>谈判成功。代表们在一系列重大问题上达成理解。\n\n与{0}间的关系提升了{1}。</LetterPeaceTalks_Success>
+  <LetterPeaceTalks_Success>交渉は成功しました. 代表団は,いくつかの本質的な問題に対して,新しい相互理解に達しました.\n\n{0}との関係が {1} 改善しました.</LetterPeaceTalks_Success>
   <!-- EN: Peace talks triumph -->
-  <LetterLabelPeaceTalks_Triumph>巨大成功的和平谈判</LetterLabelPeaceTalks_Triumph>
+  <LetterLabelPeaceTalks_Triumph>和平交渉 大成功</LetterLabelPeaceTalks_Triumph>
   <!-- EN: The talks were a great triumph! Delegates connected quickly on a personal level and came to truly see each others' perspective on the most difficult issues of the day.\n\nRelations with {0} have improved by {1}.\n\nAs your caravan departed, {0} offered you a gift:\n\n{2} -->
-  <LetterPeaceTalks_Triumph>谈判取得了伟大的胜利！代表们在个人层面上迅速取得联系，并在当天就在最困难问题上真正看出了彼此的观点。\n\n与{0}间的关系提升了{1}。\n\n在你的远行队离开时，{0}赠予了你一个礼物: {2}。</LetterPeaceTalks_Triumph>
+  <LetterPeaceTalks_Triumph>交渉は大成功に終わりました! 代表団はすぐに個人レベルで仲良くなり,この日最も困難であった問題に対して,互いの見解を真に理解し合いました.\n\n{0}との関係は {1} 改善しました.\n\nキャラバン隊が出発するとき,{0}は贈り物を申し出ました:\n\n{2}</LetterPeaceTalks_Triumph>
   <!-- EN: {PAWN_labelShort}, your negotiator, has gained {1} social experience. -->
-  <PeaceTalksSocialXPGain>你的谈判者，{PAWN_labelShort}，获得了{1}社交经验值。</PeaceTalksSocialXPGain>
+  <PeaceTalksSocialXPGain>交渉人となった{PAWN_labelShort}は,社交の経験値を{1}入手しました.</PeaceTalksSocialXPGain>
 
   <!-- Run wild mental break -->
   <!-- EN: {0} is fed up with civilization.\n\n{PAWN_pronoun} realized that wild creatures are always free. So, {PAWN_pronoun} has decided to leave your faction and live with the animals.\n\nYou can attempt to tame or arrest {PAWN_objective} to get {PAWN_objective} back. -->
-  <LetterRunWildMentalBreak>{0}已经厌倦了文明。\n\n{0_pronoun}发现动物永远自由。因此，{PAWN_pronoun} 已决定离开派系并与野生动物为伴。\n\n你可以尝试驯服{0_objective}，以使{0_objective}回来。</LetterRunWildMentalBreak>
+  <LetterRunWildMentalBreak>{0}は文明にうんざりしています.\n\n{PAWN_pronoun}は,野生動物達は常に自由だということに気がつきました.{PAWN_pronoun}は,あなたの派閥を離れて,動物達と共に生きていくことに決めました.\n\nあなたは,{PAWN_objective}手懐けて連れ戻す試みができます.</LetterRunWildMentalBreak>
 
   <!-- Catatonic mental break -->
   <!-- EN: {0} has suffered a total mental breakdown and entered a catatonic state. {PAWN_pronoun} will recover in several days. -->
-  <LetterCatatonicMentalBreak>{0}的精神已彻底崩溃并陷入紧张症状态。{PAWN_pronoun}会在数天后恢复。</LetterCatatonicMentalBreak>
+  <LetterCatatonicMentalBreak>{0}は\n完全に精神崩壊を起こし,カタトニーとなりました.{PAWN_pronoun}は数日で正常な状態に回復するでしょう.</LetterCatatonicMentalBreak>
 
   <!-- EN: Persona Core Offer -->
-  <LetterLabelAICoreOffer>AI核心机会</LetterLabelAICoreOffer>
+  <LetterLabelAICoreOffer>AIコア 提示</LetterLabelAICoreOffer>
   <!-- EN: {PAWN_definite} of {1} contacts you with an offer of information: the location of a persona core, which you'll need in order to build a spaceship. They inform you that this item is quite rare and usually its owners have it under heavy guard.\n\nCall them with your comms console if you're interested. -->
-  <LetterAICoreOffer>{1}的{PAWN_definite}联系你，并表示可以提供情报：建造飞船所必须的伪人格核心的所在地。他们告诉你，这种道具极为稀有，其拥有者通常会守以重兵。\n\n如果你有兴趣，用通讯台联系他们。</LetterAICoreOffer>
+  <LetterAICoreOffer>{1}の{PAWN_definite}が,次の提供情報を携えて,あなたに接触してきました:あなたが宇宙船を建造するのに必要なAI人格コアの座標.このアイテムは本当に貴重であり,このアイテム所持者は大抵,厳重な保護の元に置いてることを,彼らは伝えてきた.\n\nもし興味があるなら,通信機で彼らを呼び出してください.</LetterAICoreOffer>
 
   <!-- Crafting letters -->
   <!-- EN: Legendary Work -->
-  <LetterCraftedLegendaryLabel>传奇作品</LetterCraftedLegendaryLabel>
+  <LetterCraftedLegendaryLabel>伝説的な仕事</LetterCraftedLegendaryLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessage>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}。\n\n这件价值连城的作品的诞生将很快为全世界所知晓。</LetterCraftedLegendaryMessage>
+  <LetterCraftedLegendaryMessage>{WORKER_labelShort}は, {CRAFTED_labelShort}を 作り上げました.\n\nこの高価なアーティファクトに関するニュースは世界中へと拡散されました.</LetterCraftedLegendaryMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0}\n\nNews of this valuable artifact will spread across the world. -->
-  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}。\n\n{0}\n\n这件价值连城的作品的诞生将很快为全世界所知晓。</LetterCraftedLegendaryMessageArt>
+  <LetterCraftedLegendaryMessageArt>{WORKER_labelShort}は, {CRAFTED_labelShort}を 創り上げました.\n\n{0}\n\nこの高価な芸術品に関するニュースは世界中へと拡散されました.</LetterCraftedLegendaryMessageArt>
 
   <!-- EN: Masterwork -->
-  <LetterCraftedMasterworkLabel>杰作</LetterCraftedMasterworkLabel>
+  <LetterCraftedMasterworkLabel>傑作</LetterCraftedMasterworkLabel>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}. -->
-  <LetterCraftedMasterworkMessage>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}。</LetterCraftedMasterworkMessage>
+  <LetterCraftedMasterworkMessage>{WORKER_labelShort}は, {CRAFTED_labelShort}を 作り上げました.</LetterCraftedMasterworkMessage>
   <!-- EN: {WORKER_labelShort} has created a {CRAFTED_labelShort}.\n\n{0} -->
-  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort}制作出了一个{CRAFTED_labelShort}.\n\n{0}</LetterCraftedMasterworkMessageArt>
+  <LetterCraftedMasterworkMessageArt>{WORKER_labelShort}は, {CRAFTED_labelShort}を 創り上げました.\n\n{0}</LetterCraftedMasterworkMessageArt>
 
   <!-- Pawns lost because map closed -->
   <!-- EN: Caravan lost -->
-  <LetterLabelPawnsLostBecauseMapClosed_Caravan>远行队失踪</LetterLabelPawnsLostBecauseMapClosed_Caravan>
+  <LetterLabelPawnsLostBecauseMapClosed_Caravan>キャラバン隊全滅</LetterLabelPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Your caravan has been lost. The following people and animals have been lost with it -->
-  <LetterPawnsLostBecauseMapClosed_Caravan>你的远行队失踪了。下列人员和动物一同失踪</LetterPawnsLostBecauseMapClosed_Caravan>
+  <LetterPawnsLostBecauseMapClosed_Caravan>キャラバン隊は全滅し,次の人々もろとも家畜も一緒に失いました</LetterPawnsLostBecauseMapClosed_Caravan>
   <!-- EN: Inhabitants abandoned -->
-  <LetterLabelPawnsLostBecauseMapClosed_Home>已放弃居住地</LetterLabelPawnsLostBecauseMapClosed_Home>
+  <LetterLabelPawnsLostBecauseMapClosed_Home>住民の放棄</LetterLabelPawnsLostBecauseMapClosed_Home>
   <!-- EN: The following people and animals have been abandoned -->
-  <LetterPawnsLostBecauseMapClosed_Home>下列人员和动物已被放弃</LetterPawnsLostBecauseMapClosed_Home>
+  <LetterPawnsLostBecauseMapClosed_Home>次の人々と家畜は放棄されました</LetterPawnsLostBecauseMapClosed_Home>
 
   <!-- Hibernate complete -->
   <!-- EN: Reactor ready -->
-  <LetterLabelHibernateComplete>反应炉就绪</LetterLabelHibernateComplete>
+  <LetterLabelHibernateComplete>反応炉 準備完了</LetterLabelHibernateComplete>
   <!-- EN: (*Name)Charlon Whitestone(/Name) has finished the reactor's hibernation recovery sequence. The reactor is now ready to power a liftoff. -->
-  <LetterHibernateComplete>(*Name)沙隆·白石(/Name)已完成了反应炉的休眠恢复流程。反应炉现在可以供能以让飞船起飞。</LetterHibernateComplete>
+  <LetterHibernateComplete>(*Name)Charlon Whitestone(/Name)は,反応炉の再起動シーケンスを完了させました.いま,反応炉は打ち上げに必要なパワーの準備ができています.</LetterHibernateComplete>
   <!-- EN: The reactor's power up sequence is complete. It is now ready to power a liftoff. -->
-  <LetterHibernateCompleteStandalone>反应炉充能流程已就绪。反应炉现在可以供能以让飞船起飞。</LetterHibernateCompleteStandalone>
+  <LetterHibernateCompleteStandalone>反応炉の再起動シーケンスは完了しました.打ち上げ準備は完了です.</LetterHibernateCompleteStandalone>
 
   <!-- Visitors gave gift -->
   <!-- EN: Gift from {0} -->
-  <LetterLabelVisitorsGaveGift>来自{0}的礼物</LetterLabelVisitorsGaveGift>
+  <LetterLabelVisitorsGaveGift>{0}からの貢ぎ物</LetterLabelVisitorsGaveGift>
   <!-- EN: {0} from {PAWN_factionName} have left a gift:\n\n{1} -->
-  <LetterVisitorsGaveGift>{PAWN_factionName}的{0}留下了一件礼物：\n\n{1}</LetterVisitorsGaveGift>
+  <LetterVisitorsGaveGift>{PAWN_factionName}の{0}から貢ぎ物が届きました:\n\n{1}</LetterVisitorsGaveGift>
 
   <!-- Faction base proximity -->
   <!-- EN: Faction base proximity -->
-  <LetterLabelFactionBaseProximity>派系基地过近</LetterLabelFactionBaseProximity>
+  <LetterLabelFactionBaseProximity>近接した派閥拠点</LetterLabelFactionBaseProximity>
   <!-- EN: Because you are so close to other factions, they feel you're encroaching on their territory.\n\nFor the last quadrum, faction relations have been reduced by: -->
-  <LetterFactionBaseProximity>由于你过于靠近其他派系，他们觉得你在侵犯他们的领地。\n\n在上一象中，派系关系降低了：</LetterFactionBaseProximity>
+  <LetterFactionBaseProximity>あなたは他の派閥にとても近づきすぎたので,彼らは,彼らの領土に,あなたが割り込んできたと感じています.\n\n派閥関係が悪くなります:</LetterFactionBaseProximity>
 
   <!-- Caravans battlefield victory -->
   <!-- EN: Caravan battle won -->
-  <LetterLabelCaravansBattlefieldVictory>远行队战斗获胜</LetterLabelCaravansBattlefieldVictory>
+  <LetterLabelCaravansBattlefieldVictory>キャラバン隊勝利</LetterLabelCaravansBattlefieldVictory>
   <!-- EN: Your caravan has won the battle.\n\nYou can reform the caravan now in the World screen by selecting the battlefield and choosing the "Reform caravan" option.\n\nThere's no need to collect items manually, the reform caravan tool can do it instantly.\n\nIn {0}, your caravan will be attacked by enemies. They will begin sending forces to attack the caravan, unless it reforms and leaves. -->
-  <LetterCaravansBattlefieldVictory>你的远行队赢得了战斗。\n\n你可以现在就在世界视图选择战场并点击“重组远行队”来重新组建远征队。\n\n这样可以直接收集物品而不需要手动操作。\n\n在{0}内，你的远征队将会被敌人攻击。他们会派出部队来攻击你的远征队，直到你离开这里。</LetterCaravansBattlefieldVictory>
+  <LetterCaravansBattlefieldVictory>あなたのキャラバン隊は戦闘に勝利しました.\n\nあなたはワールドマップから,拠点の選択と,"キャラバン隊の再編成"を選ぶことができます.\n\nアイテム収集を手動で行う必要はありません,キャラバン隊再編成コマンドで簡単にできます.\n\n{0}後に,キャラバン隊は敵対者に襲撃されます.キャラバン隊を再編成して立ち去らない限り,敵対者はキャラバン隊を攻撃するために,襲撃部隊を送り始めるでしょう.</LetterCaravansBattlefieldVictory>
 
   <!-- Rescue quest -->
   <!-- EN: Rescuee joins -->
-  <LetterLabelRescueQuestFinished>获救者加入</LetterLabelRescueQuestFinished>
+  <LetterLabelRescueQuestFinished>レスキュー＆参加</LetterLabelRescueQuestFinished>
   <!-- EN: You have rescued {PAWN_nameDef} and {PAWN_pronoun} has joined your group.\n\nYou can take {PAWN_objective} with you by reforming the caravan in the World screen by selecting this area and choosing the "Reform caravan" option. -->
-  <LetterRescueQuestFinished>你解救了{PAWN_nameDef}，且{PAWN_pronoun}加入了你的团体。\n\n你可以通过在世界视图中选择此区域并点击“重组远行队”来让{PAWN_objective}加入你的远行队。</LetterRescueQuestFinished>
+  <LetterRescueQuestFinished>{PAWN_nameDef}を助けて,{PAWN_pronoun}はグループに加わりました.\n\nあなたはワールドマップから,"キャラバン隊の再編成"を選ぶことで,キャラバン隊の再編成を行い,{PAWN_objective}連れて行くことができます.</LetterRescueQuestFinished>
 
   <!-- Predator hunting colonist -->
   <!-- EN: {PREDATOR_labelShort} hunting {PREY_definite} -->
-  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}猎取{PREY_definite}</LetterLabelPredatorHuntingColonist>
+  <LetterLabelPredatorHuntingColonist>{PREDATOR_labelShort}は{PREY_definite}を狩っている</LetterLabelPredatorHuntingColonist>
   <!-- EN: {PREDATOR} is hunting {PREY_definite} for food! -->
-  <LetterPredatorHuntingColonist>{PREDATOR}正在捕食{PREY_definite}！</LetterPredatorHuntingColonist>
+  <LetterPredatorHuntingColonist>{PREDATOR}はエサとして{PREY_definite}を狩っている!</LetterPredatorHuntingColonist>
 
   <!-- Disease -->
   <!-- EN: {0} blocked {1} on: {2}. -->
-  <LetterDisease_Blocked>{0}抵抗了{1}：{2}。</LetterDisease_Blocked>
+  <LetterDisease_Blocked>以下の人物は{0}によって{1}を防ぎました:\n{2}</LetterDisease_Blocked>
   <!-- EN: Disease: {0} -->
-  <LetterLabelTraitDisease>疾病: {0}</LetterLabelTraitDisease>
+  <LetterLabelTraitDisease>疫病 ({0})</LetterLabelTraitDisease>
   <!-- EN: {PAWN_label} has gotten sick from {1}.\n\nEnsure you have a medical bed and a doctor. Make sure that {PAWN_pronoun} gets proper treatment and spends as much time in bed as possible. -->
-  <LetterTraitDisease>{PAWN_label}患上了{1}。\n\n确保有医疗用床和医生。确保{PAWN_pronoun}得到适当的治疗并尽可能卧床休息。 </LetterTraitDisease>
+  <LetterTraitDisease>{PAWN_label}は{1}の病に倒れました.\n\n医療用ベッドとドクターを確保してください. {PAWN_pronoun}が適切な治療を受けられているか確認し,できる限り医療用ベッドで過ごすようにしてください.</LetterTraitDisease>
 
   <!-- Surgery -->
   <!-- EN: Surgery failed on {PATIENT_labelShort} -->
-  <LetterLabelSurgeryFailed>{PATIENT_labelShort}的手术失败了。</LetterLabelSurgeryFailed>
+  <LetterLabelSurgeryFailed>{PATIENT_labelShort}の手術は失敗しました</LetterLabelSurgeryFailed>
   <!-- EN: {SURGEON_labelShort} has failed in a minor way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，发生了小失误。({RECIPE_label})</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
+  <MessageMedicalOperationFailureMinor>{SURGEON_labelShort}は,{PATIENT_labelShort}の手術中にわずかなミスを犯しました({RECIPE_label}).</MessageMedicalOperationFailureMinor> <!-- NewTemp rename to LetterTextOperationFailureMinor globally-->
   <!-- EN: {SURGEON_labelShort} has failed catastrophically while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，发生了灾难性的医疗事故。({RECIPE_label})</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
+  <MessageMedicalOperationFailureCatastrophic>{SURGEON_labelShort}は,{PATIENT_LabelShort}の手術中に致命的なミスを犯しました({RECIPE_label}).</MessageMedicalOperationFailureCatastrophic> <!-- NewTemp rename to LetterTextOperationFailureCatastrophic globally-->
   <!-- EN: {SURGEON_labelShort} has failed in a ridiculous way while operating on {PATIENT_labelShort} ({RECIPE_label}). -->
-  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}给{PATIENT_labelShort}手术时，犯了难以置信的愚蠢错误。({RECIPE_label})</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
+  <MessageMedicalOperationFailureRidiculous>{SURGEON_labelShort}は,{PATIENT_labelShort}の手術中にとんでもない失敗をしました({RECIPE_label}).</MessageMedicalOperationFailureRidiculous> <!-- NewTemp rename to LetterTextOperationFailureRidiculous globally-->
   <!-- EN: {SURGEON_labelShort} has committed a fatal error while operating on {PATIENT_labelShort} because of the special challenges of: {2}. -->
-  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}给{PATIENT_labelShort}手术时犯了了致命的错误，由于特殊的挑战: {2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
+  <MessageMedicalOperationFailureFatal>{SURGEON_labelShort}は,{PATIENT_labelShort}の手術中に重大なミスを犯しました. なぜなら特殊な挑戦を行ったからです: {2}</MessageMedicalOperationFailureFatal> <!-- NewTemp rename to LetterTextOperationFailureFatal globally-->
 
   <!-- Quests -->
   <!-- EN: A new quest has become available. It is called '{0}'. -->
-  <LetterQuestBecameAvailable>一个新任务现在可以进行，它被称为'{0}'。</LetterQuestBecameAvailable>
+  <LetterQuestBecameAvailable>新しいクエスト'{0}'が受諾可能になりました.</LetterQuestBecameAvailable>
   <!-- EN: If you don't accept the quest within {0}, it will expire. -->
-  <LetterQuestRequiresAcceptance>如果你不在{0}内接受任务，它将过期。</LetterQuestRequiresAcceptance>
+  <LetterQuestRequiresAcceptance>このクエストは, {0}以内に受諾しないと, 期限切れになります.</LetterQuestRequiresAcceptance>
   <!-- EN: A new quest has become active. It is called '{0}'. -->
-  <LetterQuestBecameActive>一个新任务现在已激活，它被称为'{0}'。</LetterQuestBecameActive>
+  <LetterQuestBecameActive>新しいクエスト'{0}'が発生しました.</LetterQuestBecameActive>
   <!-- EN: Quest active: {0} -->
-  <LetterQuestAutomaticallyAcceptedTitle>任务有效：{0}</LetterQuestAutomaticallyAcceptedTitle>
+  <LetterQuestAutomaticallyAcceptedTitle>クエスト発生: {0}</LetterQuestAutomaticallyAcceptedTitle>
   <!-- EN: It will expire in {0}. -->
-  <LetterQuestActiveNowTime>它将在{0}后到期。</LetterQuestActiveNowTime>
+  <LetterQuestActiveNowTime>有効期限 {0}.</LetterQuestActiveNowTime>
 
   <!-- Quest drop pods arrived -->
   <!-- EN: Pods arrived -->
-  <LetterLabelQuestDropPodsArrived>空投舱到达</LetterLabelQuestDropPodsArrived>
+  <LetterLabelQuestDropPodsArrived>ポッド到着</LetterLabelQuestDropPodsArrived>
   <!-- EN: Transport pods with the following contents have arrived:\n\n{0} -->
-  <LetterQuestDropPodsArrived>装载有以下内容的空投舱已到达:\n\n{0}</LetterQuestDropPodsArrived>
+  <LetterQuestDropPodsArrived>次の積荷を積んだ輸送ポッドが到着しました:\n\n{0}</LetterQuestDropPodsArrived>
 
   <!-- Refugee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRefugeeJoins>{PAWN_nameDef}加入</LetterLabelRefugeeJoins>
+  <LetterLabelRefugeeJoins>{PAWN_nameDef}が仲間に</LetterLabelRefugeeJoins>
   <!-- EN: A {PAWN_title} named {PAWN_nameDef} has arrived and is joining the colony. -->
-  <LetterRefugeeJoins>一个名为{PAWN_nameDef}的{PAWN_title}已经到达并将加入殖民地。</LetterRefugeeJoins>
+  <LetterRefugeeJoins>{PAWN_nameDef}と名乗る{PAWN_title}が到着しコロニーに加わりました.</LetterRefugeeJoins>
   
   <!-- Rescuee joins -->
   <!-- EN: {PAWN_nameDef} joins -->
-  <LetterLabelRescueeJoins>{PAWN_nameDef}加入</LetterLabelRescueeJoins>
+  <LetterLabelRescueeJoins>{PAWN_nameDef}が参加</LetterLabelRescueeJoins>
   <!-- EN: {PAWN_nameDef} is thankful that you rescued {PAWN_objective}. {PAWN_pronoun} has decided that {PAWN_pronoun} would rather stay than leave, and is joining your colony. -->
-  <LetterRescueeJoins>{PAWN_nameDef}感谢你救出了{PAWN_objective}。{PAWN_pronoun}决定留在这里，{PAWN_pronoun}将加入你的殖民地。</LetterRescueeJoins>
+  <LetterRescueeJoins>{PAWN_nameDef}は,あなたが助けてくれたことにとても感謝しています.{PAWN_pronoun}は,ここを離れるよりみんなと一緒に居たほうが良いと判断し,コロニーに参加しました.</LetterRescueeJoins>
 
   <!-- Pawns arrive and join -->
   <!-- EN: People join -->
-  <LetterLabelPawnsArriveAndJoin>人员加入</LetterLabelPawnsArriveAndJoin>
+  <LetterLabelPawnsArriveAndJoin>参入者</LetterLabelPawnsArriveAndJoin>
   <!-- EN: The following people have arrived and joined the colony:\n\n{0} -->
-  <LetterPawnsArriveAndJoin>以下人员到达并加入了殖民地:\n\n{0}</LetterPawnsArriveAndJoin>
+  <LetterPawnsArriveAndJoin>これらの人達が到着しコロニーに加わります:\n\n{0}</LetterPawnsArriveAndJoin>
 
   <!-- Pawns arrive -->
   <!-- EN: People arrived -->
-  <LetterLabelPawnsArrive>人员到达</LetterLabelPawnsArrive>
+  <LetterLabelPawnsArrive>到着</LetterLabelPawnsArrive>
   <!-- EN: The following people have arrived:\n\n{0} -->
-  <LetterPawnsArrive>以下人员已到达:\n\n{0}</LetterPawnsArrive>
+  <LetterPawnsArrive>これらの人達が到着しました:\n\n{0}</LetterPawnsArrive>
 
   <!-- Pawn leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnLeaving>{0}离开</LetterLabelPawnLeaving>
+  <LetterLabelPawnLeaving>{0}は去っていきます</LetterLabelPawnLeaving>
   <!-- EN: {0} is leaving. -->
-  <LetterPawnLeaving>{0}已离开。</LetterPawnLeaving>
+  <LetterPawnLeaving>{0}は去っていきます</LetterPawnLeaving>
 
   <!-- Pawns leaving -->
   <!-- EN: {0} leaving -->
-  <LetterLabelPawnsLeaving>{0}离开</LetterLabelPawnsLeaving>
+  <LetterLabelPawnsLeaving>{0}は去っていきます</LetterLabelPawnsLeaving>
   <!-- EN: {0} are leaving. -->
-  <LetterPawnsLeaving>{0}已离开。</LetterPawnsLeaving>
+  <LetterPawnsLeaving>{0}は去っていきます</LetterPawnsLeaving>
   
   <!-- Colonist kidnapped -->
   <!-- EN: {PAWN_nameDef} kidnapped -->
-  <LetterLabelPawnsKidnapped>{PAWN_nameDef}被绑架</LetterLabelPawnsKidnapped>
+  <LetterLabelPawnsKidnapped>{PAWN_nameDef}が誘拐された</LetterLabelPawnsKidnapped>
   <!-- EN: {PAWN_nameDef} has been kidnapped by {FACTION_name}!
 \nHowever, {PAWN_pronoun} is not lost forever. An opportunity to rescue {PAWN_objective} may present itself in the coming days or years. -->
-  <LetterPawnsKidnapped>{PAWN_nameDef}被{FACTION_name}绑架了！\n\n但是，{PAWN_pronoun}并不会就此消失。拯救{PAWN_objective}的机会可能会在未来几天或几年内出现。</LetterPawnsKidnapped>
+  <LetterPawnsKidnapped>{FACTION_name}によって{PAWN_nameDef}は連れ去られました!\nでも{PAWN_pronoun}を諦めることはありません. {PAWN_objective}を救出する機会は,きっと訪れるはずです.</LetterPawnsKidnapped>
   
   <!-- Techprints -->
   <!-- EN: Techprint applied: {PROJECT_label} -->
-  <LetterTechprintAppliedLabel>科研蓝图应用: {PROJECT_label}</LetterTechprintAppliedLabel>
+  <LetterTechprintAppliedLabel>テックプリントが適用された: {PROJECT_label}</LetterTechprintAppliedLabel>
   <!-- EN: A techprint has been applied to the research project: {PROJECT_label}. -->
-  <LetterTechprintAppliedPartIntro>一个科研蓝图技术已经应用到研究项目: {PROJECT_label}。</LetterTechprintAppliedPartIntro>
+  <LetterTechprintAppliedPartIntro>研究プロジェクトにテックプリントが適用されました: {PROJECT_label}</LetterTechprintAppliedPartIntro>
   <!-- EN: You've completed the project's techprint requirements! Your researchers can now begin researching how to actually use the technology at your research benches. -->
-  <LetterTechprintAppliedPartJustUnlocked>你已经完成了科研蓝图要求的项目!你的研究人员现在可以开始研究如何在实际中应用这项技术。</LetterTechprintAppliedPartJustUnlocked>
+  <LetterTechprintAppliedPartJustUnlocked>研究に必要なテックプリントを全て適用させませた!研究者は研究卓で,この技術を実際に使う方法の研究を開始することができます.</LetterTechprintAppliedPartJustUnlocked>
   <!-- EN: This project's techprint requirements are not yet satisfied. {0} techprints have been applied so far. The project requires {1} in total. -->
-  <LetterTechprintAppliedPartNotUnlockedYet>该项目的科研蓝图技术要求尚未得到满足。到目前为止，已经应用了{0}科研蓝图技术。该项目总计需要{1}。</LetterTechprintAppliedPartNotUnlockedYet>
+  <LetterTechprintAppliedPartNotUnlockedYet>この研究に必要なテックプリントがまだ足りていません.{0}枚のテックプリントが既に適用されています.研究をするためには,合計{1}枚が必要になります.</LetterTechprintAppliedPartNotUnlockedYet>
   <!-- EN: This project's techprint requirements were already satisfied. The extra techprint advanced your research efforts on {PROJECT_label}. Half the remaining research work, {0} points, has been completed. -->
-  <LetterTechprintAppliedPartAlreadyUnlocked>该项目的科研蓝图技术要求已得到满足。额外的科研蓝图技术进一步推动了你在{PROJECT_label}上的研究工作。剩余的一半研究工作，{0}点，已经完成。</LetterTechprintAppliedPartAlreadyUnlocked>
+  <LetterTechprintAppliedPartAlreadyUnlocked>この研究に必要とするテックプリントは,既に満たされています.追加されたテックプリントは,{PROJECT_label}の研究ポイントを増やしました.残りの研究作業の半分である,{0}ポイント分の研究が終了しました.</LetterTechprintAppliedPartAlreadyUnlocked>
   <!-- EN: This project is already fully researched, so the techprint didn't advance your knowledge at all. -->
-  <LetterTechprintAppliedPartAlreadyResearched>该项目已经过全面研究，因此科研蓝图技术已无法提高你的知识。</LetterTechprintAppliedPartAlreadyResearched>
+  <LetterTechprintAppliedPartAlreadyResearched>このプロジェクトは既に全て研究し終えているため,テックプリントは何の知識も進展させられませんでした.</LetterTechprintAppliedPartAlreadyResearched>
   <!-- EN: By applying the techprint, {PAWN_labelShort} gained {0} experience in the {1} skill. -->
-  <LetterTechprintAppliedPartExpAwarded>通过应用科研蓝图技术，{PAWN_labelShort}获得了{1}技能的{0}经验。</LetterTechprintAppliedPartExpAwarded>
+  <LetterTechprintAppliedPartExpAwarded>テックプリントを適用することで,{PAWN_labelShort}は{1}スキルに{0}相当の経験値を得ました.</LetterTechprintAppliedPartExpAwarded>
   
   <!-- Quest Completed -->
   <!-- EN: Quest completed -->
-  <LetterQuestCompletedLabel>任务完成</LetterQuestCompletedLabel>
+  <LetterQuestCompletedLabel>クエスト完了</LetterQuestCompletedLabel>
   <!-- EN: Quest failed -->
-  <LetterQuestFailedLabel>任务失败</LetterQuestFailedLabel>
+  <LetterQuestFailedLabel>クエスト失敗</LetterQuestFailedLabel>
   <!-- EN: Quest concluded -->
-  <LetterQuestConcludedLabel>任务结束</LetterQuestConcludedLabel>
+  <LetterQuestConcludedLabel>クエスト完結</LetterQuestConcludedLabel>
   <!-- EN: You have successfully completed the quest '{0}'! -->
-  <LetterQuestCompletedSuccess>你已成功完成任务'{0}'！</LetterQuestCompletedSuccess>
+  <LetterQuestCompletedSuccess>'{0}'クエストを成功させた!</LetterQuestCompletedSuccess>
   <!-- EN: You have failed the quest '{0}'. -->
-  <LetterQuestCompletedFail>你未完成任务'{0}'。</LetterQuestCompletedFail>
+  <LetterQuestCompletedFail>'{0}'クエストを失敗させた.</LetterQuestCompletedFail>
   <!-- EN: You have concluded the quest '{0}'. -->
-  <LetterQuestCompletedConcluded>你已完成任务'{0}'。</LetterQuestCompletedConcluded>
+  <LetterQuestCompletedConcluded>あなたはクエスト'{0}'を完結させました.</LetterQuestCompletedConcluded>
 
   <!-- Bladelink -->
   <!-- EN: Persona bond: {PAWN_labelShort} -->
-  <LetterBladelinkWeaponBondedLabel>武器绑定: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
+  <LetterBladelinkWeaponBondedLabel>ペルソナとの絆: {PAWN_labelShort}</LetterBladelinkWeaponBondedLabel>
   <!-- EN: {PAWN_labelShort} has established a bond with the persona of {WEAPON_labelShort}.
 \nFrom now on, {WEAPON_labelShort} will refuse to be wielded by anyone except {PAWN_labelShort}. -->
-  <LetterBladelinkWeaponBonded> {PAWN_labelShort} 与 {WEAPON_labelShort} 建立起了特殊的联系。\n\n从现在开始，{WEAPON_labelShort} 将拒绝除了 {PAWN_labelShort} 以外的任何使用者。</LetterBladelinkWeaponBonded>
+  <LetterBladelinkWeaponBonded>{PAWN_labelShort}は {WEAPON_labelShort}の人格と親密な絆を確立しました.\nこの瞬間から,{WEAPON_labelShort}は{PAWN_labelShort}以外に扱われることを拒絶するでしょう.</LetterBladelinkWeaponBonded>
   
   <!-- Mech cluster -->
   <!-- EN: Mechanoids arrived -->
-  <LetterLabelMechClusterArrived>机械族出现</LetterLabelMechClusterArrived>
+  <LetterLabelMechClusterArrived>メカノイド到着</LetterLabelMechClusterArrived>
   <!-- EN: Mechanoids have arrived. -->
-  <LetterMechClusterArrived>机械族集群出现了。</LetterMechClusterArrived>
+  <LetterMechClusterArrived>メカノイドが到着しました.</LetterMechClusterArrived>
 
   <!-- EN: Caravan detected -->
-  <LetterLabelSiteCountdownStarted>远征队被发现</LetterLabelSiteCountdownStarted>
+  <LetterLabelSiteCountdownStarted>キャラバンが発見された</LetterLabelSiteCountdownStarted>
   <!-- EN: Your caravan has been detected. In {0}, reinforcing {1} from {2} will begin arriving in the area.\n\nReform your caravan and begin moving to avoid the {1}. A timer counting down to their arrival is now visible. -->
-  <LetterTextSiteCountdownStarted>你的远征队被发现了。在{0}，来自{2}的{1}将会到达这片区域。\n请重组你的远征队并开始移动避开{1}。现在对方抵达的倒计时已经可以看见。</LetterTextSiteCountdownStarted>
+  <LetterTextSiteCountdownStarted>キャラバンが発見されました. {0}後に, 強化した{1}が{2}からエリアに到着し始めます.\n\nキャラバンを再編成し,{1}を避けるために移動してください.彼らの到着までをカウントダウンするタイマーが表示されます.</LetterTextSiteCountdownStarted>
 
 </LanguageData>

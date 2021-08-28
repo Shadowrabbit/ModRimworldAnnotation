@@ -38,7 +38,7 @@
   <RoyalTitleDef ParentName="BaseEmpireTitle">
     <defName>Acolyte</defName>
     <label>acolyte</label>
-    <description>The title of acolyte is the first title of noble duty, an encompasses a wide range of practical positions. Some acolytes are purely students, learning to lead troops, manage societies, or use psycasts in specialized schools. Others come from wealthy families and might own city buildings or farm complexes.\n\nDuring wartime, an acolyte might lead a platoon of troops, captain a small frigate, or serve their lord as an advisor.\n\nTheir low rank within the nobility makes them paradoxically less useful as diplomats than yeomen. Sending a low-ranked acolyte to a negotiation can itself be seen as an insult, whereas a non-noble yeoman negotiator is seen only as the mouthpiece of his lord.</description>
+    <description>The title of acolyte is the first title of noble duty, and encompasses a wide range of practical positions. Some acolytes are purely students, learning to lead troops, manage societies, or use psycasts in specialized schools. Others come from wealthy families and might own city buildings or farm complexes.\n\nDuring wartime, an acolyte might lead a platoon of troops, captain a small frigate, or serve their lord as an advisor.\n\nTheir low rank within the nobility makes them paradoxically less useful as diplomats than yeomen. Sending a low-ranked acolyte to a negotiation can itself be seen as an insult, whereas a non-noble yeoman negotiator is seen only as the mouthpiece of his lord.</description>
     <seniority>200</seniority>
     <favorCost>6</favorCost>
     <minExpectation>Moderate</minExpectation>
@@ -95,13 +95,19 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -225,8 +231,11 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
       <li Class="RoomRequirement_ThingCount">
@@ -240,9 +249,12 @@
           <li>Piano</li>
         </things>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -380,8 +392,11 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
       <li Class="RoomRequirement_ThingCount">
@@ -395,9 +410,12 @@
           <li>Piano</li>
         </things>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -549,8 +567,11 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
       <li Class="RoomRequirement_ThingCount">
@@ -567,9 +588,12 @@
           <li>Piano</li>
         </things>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -740,8 +764,11 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
       <li Class="RoomRequirement_ThingCount">
@@ -755,9 +782,12 @@
       <li Class="RoomRequirement_Thing">
         <thingDef>Piano</thingDef>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>
@@ -907,8 +937,11 @@
           <li>FineFloor</li>
         </tags>
       </li>
-      <li Class="RoomRequirement_ThingCount">
-        <thingDef>Brazier</thingDef>
+      <li Class="RoomRequirement_ThingAnyOfCount">
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
         <count>2</count>
       </li>
       <li Class="RoomRequirement_ThingCount">
@@ -918,9 +951,12 @@
       <li Class="RoomRequirement_Thing">
         <thingDef>Piano</thingDef>
       </li>
-      <li Class="RoomRequirement_AllThingsAreGlowing">
+      <li Class="RoomRequirement_AllThingsAnyOfAreGlowing">
         <labelKey>RoomRequirementAllBraziersMustBeLit</labelKey>
-        <thingDef>Brazier</thingDef>
+        <things>
+          <li>Brazier</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+        </things>
       </li>
       <li Class="RoomRequirement_ForbiddenBuildings">
         <labelKey>RoomRequirementNoProductionFacilities</labelKey>

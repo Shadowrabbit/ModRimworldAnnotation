@@ -138,8 +138,8 @@
           <li>AnimalUncommon</li>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>2~4</kindCountRange>
-        <countRange>1~5</countRange>
+        <kindCountRange>3~4</kindCountRange>
+        <countRange>2~4</countRange>
         <createMatingPair>
           <li>AnimalFarm</li>
         </createMatingPair>

@@ -18,6 +18,7 @@
   <StatsReports_HasRelic>Holding relic</StatsReports_HasRelic>
 
   <StatsReport_BlindPsychicSensitivityOffset>Blind bonus</StatsReport_BlindPsychicSensitivityOffset>
+  <StatsReport_SightPsychicSensitivityOffset>Sight bonus</StatsReport_SightPsychicSensitivityOffset>
 
   <Stat_Thing_StyleDominanceCategory>Dominating style</Stat_Thing_StyleDominanceCategory>
   <Stat_Thing_StyleDominanceCategoryDesc>The style presented by this object. This style may be associated with some ideoligions. Different people respond differently to certain styles, according to their ideoligious beliefs.</Stat_Thing_StyleDominanceCategoryDesc>

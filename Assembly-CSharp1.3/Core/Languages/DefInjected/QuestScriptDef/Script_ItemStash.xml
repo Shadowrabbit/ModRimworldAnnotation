@@ -6,8 +6,10 @@
     <li>questDescription(asker_factionLeader==True)->[asker_nameDef], [asker_faction_leaderTitle] of [asker_faction_name], has informed us of a collection of valuable items worth [itemStashContentsValue] not far from us. The collection consists of:\n\n[itemStashContents]\n\n[asker_label] says that [allSitePartsDescriptionsExceptFirst]</li>
   -->
   <OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
-    <li>questDescription(askerIsNull==true)->我们截获了一组信息， 关于一批价值[itemStashContentsValue]的物资被匿藏在[map_definite]附近。 物资包括：\n\n[itemStashContents]\n\n看起来[allSitePartsDescriptionsExceptFirst]</li>
-    <li>questDescription(asker_factionLeader==True)->[asker_faction_name] 的 [asker_faction_leaderTitle]， [asker_nameDef]， 告知我们一批价值[itemStashContentsValue]的贵重物品被留在距离我们不远处等待接收。 这批物品包含:\n\n[itemStashContents]\n\n[asker_label]透露：[allSitePartsDescriptionsExceptFirst]</li>
+    <!-- No asker -->
+    <li>questDescription(askerIsNull==true)->[map_definite]からそう遠くない場所にある,[itemStashContentsValue]相当の価値を持つ貴重な収集物についてのメッセージを傍受しました.この収集物の内容は以下の通りです:\n\n[itemStashContents]\n\n得られた情報よると,[allSitePartsDescriptionsExceptFirst]</li>
+    <!-- Faction leader asker -->
+    <li>questDescription(asker_factionLeader==True)->[asker_faction_name]の[asker_faction_leaderTitle]である[asker_nameDef]は,私達の所からそう遠くない場所にある,[itemStashContentsValue]相当の価値を持つ貴重な収集物についての情報を与えてくれました.この収集物の内容は以下の通りです:\n\n[itemStashContents]\n\n[asker_label]の話によると,[allSitePartsDescriptionsExceptFirst]</li>
   </OpportunitySite_ItemStash.questDescriptionRules.rulesStrings>
   <!-- EN:
     <li>questName(priority=1)->[asker_nameDef]'s [stash] of [treasure]</li>
@@ -23,21 +25,21 @@
     <li>treasure->Supplies</li>
   -->
   <OpportunitySite_ItemStash.questNameRules.rulesStrings>
-    <li>questName(priority=1)->[asker_nameDef]的[stash][treasure]</li>
+    <li>questName(priority=1)->[asker_nameDef]の[stash][treasure]</li>
     <li>questName->[stash][treasure]</li>
-    <li>stash->隐密</li>
-    <li>stash->匿藏</li>
-    <li>stash->收藏</li>
-    <li>stash->贮藏</li>
-    <li>treasure->财宝</li>
-    <li>treasure->贵重品</li>
-    <li>treasure->财富</li>
-    <li>treasure->好东西</li>
-    <li>treasure->补给</li>
+    <li>stash->隠された</li>
+    <li>stash->埋蔵された</li>
+    <li>stash->収集された</li>
+    <li>stash->小屋にある</li>
+    <li>treasure->秘宝</li>
+    <li>treasure->貴重品</li>
+    <li>treasure->財産</li>
+    <li>treasure->良い品</li>
+    <li>treasure->物資</li>
   </OpportunitySite_ItemStash.questNameRules.rulesStrings>
   <!-- EN: Quest expired: [resolvedQuestName] -->
-  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>任务已失效：[resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>クエスト期限切れ: [resolvedQuestName]</OpportunitySite_ItemStash.LetterLabelQuestExpired.slateRef>
   <!-- EN: Intercepted communications indicate the item stash has been claimed by others. The quest [resolvedQuestName] has expired. -->
-  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>根据截获的信息表明， 匿藏的物品已经被人捷足先登。 任务[resolvedQuestName]已失效。</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
+  <OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>傍受した通信によると,埋蔵物は他の者たちによって回収されてしまったようです.クエスト'[resolvedQuestName]'は期限が切れました.</OpportunitySite_ItemStash.LetterTextQuestExpired.slateRef>
   
 </LanguageData>

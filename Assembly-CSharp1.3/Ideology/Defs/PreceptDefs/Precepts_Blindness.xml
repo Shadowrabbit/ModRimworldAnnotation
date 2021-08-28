@@ -47,6 +47,11 @@
         <eventDef>GotBlinded</eventDef>
         <thought>BlindingCeremony_Self_Respected</thought>
       </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>GotBlinded</eventDef>
+        <eventLabel>blinded someone</eventLabel>
+        <points>1</points>
+      </li>
     </comps>
   </PreceptDef>
 
@@ -89,6 +94,11 @@
         <eventDef>GotBlinded</eventDef>
         <thought>BlindingCeremony_Self_Elevated</thought>
       </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>GotBlinded</eventDef>
+        <eventLabel>blinded someone</eventLabel>
+        <points>1</points>
+      </li>
     </comps>
   </PreceptDef>
 
@@ -130,6 +140,11 @@
       <li Class="PreceptComp_SelfTookMemoryThought">
         <eventDef>GotBlinded</eventDef>
         <thought>BlindingCeremony_Self_Sublime</thought>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>GotBlinded</eventDef>
+        <eventLabel>bslinded someone</eventLabel>
+        <points>1</points>
       </li>
     </comps>
   </PreceptDef>

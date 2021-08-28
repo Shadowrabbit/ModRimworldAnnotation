@@ -442,6 +442,12 @@
       <li>
         <li>SlabBed_Preferred</li>
       </li>
+      <li>
+        <li>RoughLiving_Welcomed</li>
+      </li>
+      <li>
+        <li>Temperature_Tough</li>
+      </li>
     </requireOne>
     <generalRules>
       <rulesStrings>
@@ -1368,6 +1374,9 @@
       <li>
         <li>SmallSpaces_Acceptable</li>
       </li>
+      <li>
+        <li>MiningYield_High</li>
+      </li>
     </requireOne>
     <generalRules>
       <rulesStrings>
@@ -1455,6 +1464,15 @@
     <requireOne>
       <li>
         <li>Trees_Desired</li>
+      </li>
+      <li>
+        <li>RoughLiving_Welcomed</li>
+      </li>
+      <li>
+        <li>Temperature_Tough</li>
+      </li>
+      <li>
+        <li>GauranlenConnection_Strong</li>
       </li>
     </requireOne>
     <generalRules>

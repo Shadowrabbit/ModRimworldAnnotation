@@ -2,67 +2,67 @@
 <LanguageData>
   
   <!-- EN: rest effectiveness -->
-  <BedRestEffectiveness.label>休息效率</BedRestEffectiveness.label>
+  <BedRestEffectiveness.label>眠りの質</BedRestEffectiveness.label>
   <!-- EN: How fast people sleeping on this gain rest. -->
-  <BedRestEffectiveness.description>在这上面休息的人恢复精力速度的系数。</BedRestEffectiveness.description>
+  <BedRestEffectiveness.description>ここで寝ることで得られる,時間あたりに得られる睡眠量です.</BedRestEffectiveness.description>
   
   <!-- EN: door opening speed -->
-  <DoorOpenSpeed.label>开门速度</DoorOpenSpeed.label>
+  <DoorOpenSpeed.label>ドア開閉速度</DoorOpenSpeed.label>
   <!-- EN: The speed at which the door opens when unpowered.\n\nSlow doors will slow down everyone who uses them. -->
-  <DoorOpenSpeed.description>门打开的速度。\n\n打开速度缓慢的门会减慢所有使用者。</DoorOpenSpeed.description>
+  <DoorOpenSpeed.description>ドアの開閉速度です.重いドアは,それを使う人全ての動きを遅くさせます.</DoorOpenSpeed.description>
   
   <!-- EN: immunity gain speed factor -->
-  <ImmunityGainSpeedFactor.label>免疫性获取速度系数</ImmunityGainSpeedFactor.label>
+  <ImmunityGainSpeedFactor.label>免疫獲得速度係数</ImmunityGainSpeedFactor.label>
   <!-- EN: Immunity gain speed is multiplied by this value. -->
-  <ImmunityGainSpeedFactor.description>免疫性获取速度会乘以此项的值。</ImmunityGainSpeedFactor.description>
+  <ImmunityGainSpeedFactor.description>免疫を獲得する速度に掛ける倍率です.</ImmunityGainSpeedFactor.description>
   
   <!-- EN: recreation power -->
-  <JoyGainFactor.label>娱乐效力</JoyGainFactor.label>
+  <JoyGainFactor.label>娯楽係数</JoyGainFactor.label>
   <!-- EN: How effectively this item entertains people and fulfills the need for recreation. -->
-  <JoyGainFactor.description>该项目有效招待人们并满足娱乐需求的能力。</JoyGainFactor.description>
+  <JoyGainFactor.description>人々への楽しみとしての有効さと,娯楽への欲求に満足させるかです.</JoyGainFactor.description>
   
   <!-- EN: medical tend quality offset -->
-  <MedicalTendQualityOffset.label>医疗治疗质量偏移量</MedicalTendQualityOffset.label>
+  <MedicalTendQualityOffset.label>治療品質増減量</MedicalTendQualityOffset.label>
   <!-- EN: Medical tend quality is offset by this value. -->
-  <MedicalTendQualityOffset.description>医疗治疗质量根据此项的值偏移。</MedicalTendQualityOffset.description>
+  <MedicalTendQualityOffset.description>この値の分だけ,治療品質が増加,減少します.</MedicalTendQualityOffset.description>
   
   <!-- EN: research speed factor -->
-  <ResearchSpeedFactor.label>研究速度系数</ResearchSpeedFactor.label>
+  <ResearchSpeedFactor.label>研究速度係数</ResearchSpeedFactor.label>
   <!-- EN: The speed at which people do research is multiplied by this value. -->
-  <ResearchSpeedFactor.description>进行研究时的速度会乘以此项的值。</ResearchSpeedFactor.description>
+  <ResearchSpeedFactor.description>研究速度への倍率です.</ResearchSpeedFactor.description>
   <!-- EN: Room cleanliness -->
-  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>房间清洁度</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
+  <ResearchSpeedFactor.parts.Room_cleanliness.customLabel>部屋の清潔度</ResearchSpeedFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: surgery success chance factor -->
-  <SurgerySuccessChanceFactor.label>手术成功率系数</SurgerySuccessChanceFactor.label>
+  <SurgerySuccessChanceFactor.label>外科手術成功率</SurgerySuccessChanceFactor.label>
   <!-- EN: A multiplier to the chance that a surgery will succeed when performed here.\n\nSurgery success chances are also affected by many other factors, including the surgeon's ability and medicine used. -->
-  <SurgerySuccessChanceFactor.description>当在这里执行手术时的成功率的乘数。\n\n手术成功率还受到外科医生和所用医药的影响。</SurgerySuccessChanceFactor.description>
+  <SurgerySuccessChanceFactor.description>この部屋で手術を行ったときの手術成功率への掛け率です.\n\n手術成功率は,医師の能力や使用する薬品など,その他多くの要因の影響も受けます.</SurgerySuccessChanceFactor.description>
   <!-- EN: Room cleanliness -->
-  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>房间清洁度</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
+  <SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>部屋の清潔度</SurgerySuccessChanceFactor.parts.Room_cleanliness.customLabel>
   
   <!-- EN: trap melee damage -->
-  <TrapMeleeDamage.label>陷阱近战伤害</TrapMeleeDamage.label>
+  <TrapMeleeDamage.label>罠のダメージ量</TrapMeleeDamage.label>
   <!-- EN: How much damage this trap does on average.\n\nThe actual damage in any instance will vary randomly. -->
-  <TrapMeleeDamage.description>触发陷阱所造成的伤害平均值。\n\n实际伤害可能有些不同。</TrapMeleeDamage.description>
+  <TrapMeleeDamage.description>この罠が与える平均的なダメージ量です.実際のダメージは非常に不規則になります.</TrapMeleeDamage.description>
   
   <!-- EN: trap spring chance -->
-  <TrapSpringChance.label>陷阱触发几率</TrapSpringChance.label>
+  <TrapSpringChance.label>発動率</TrapSpringChance.label>
   <!-- EN: The likelihood that the trap will spring when an unaware creature passes over it. -->
-  <TrapSpringChance.description>当生物通过这个陷阱时触发生效的的可能性。</TrapSpringChance.description>
+  <TrapSpringChance.description>罠に気がつかない生き物が通過したときに,罠が発動する確率です.</TrapSpringChance.description>
   
   <!-- EN: work efficiency factor -->
-  <WorkTableEfficiencyFactor.label>工作效率系数</WorkTableEfficiencyFactor.label>
+  <WorkTableEfficiencyFactor.label>作業効率要因</WorkTableEfficiencyFactor.label>
   <!-- EN: Work efficiency is multiplied by this value. -->
-  <WorkTableEfficiencyFactor.description>工作效率会乘以此项的值。</WorkTableEfficiencyFactor.description>
+  <WorkTableEfficiencyFactor.description>作業効率に掛ける倍率です.</WorkTableEfficiencyFactor.description>
   
   <!-- EN: work speed factor -->
-  <WorkTableWorkSpeedFactor.label>工作速度系数</WorkTableWorkSpeedFactor.label>
+  <WorkTableWorkSpeedFactor.label>工作台速度係数</WorkTableWorkSpeedFactor.label>
   <!-- EN: Work speed is multiplied by this value. -->
-  <WorkTableWorkSpeedFactor.description>工作速度会乘以此项的值。</WorkTableWorkSpeedFactor.description>
+  <WorkTableWorkSpeedFactor.description>工作速度に掛ける倍率です.</WorkTableWorkSpeedFactor.description>
   
   <!-- EN: work to build -->
-  <WorkToBuild.label>工作量（建造）</WorkToBuild.label>
+  <WorkToBuild.label>製作工数</WorkToBuild.label>
   <!-- EN: The base amount of work it takes to build a structure, once all materials are gathered. -->
-  <WorkToBuild.description>所有材料和工具齐全后建造这个建筑所需要的工作量。</WorkToBuild.description>
+  <WorkToBuild.description>作成に必要な,素材やツールが用意されたのちに,構造物を製作するのにかかる時間です.</WorkToBuild.description>
   
 </LanguageData>

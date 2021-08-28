@@ -2,18 +2,18 @@
 <LanguageData>
   
   <!-- EN: infinite chemreactor -->
-  <InfiniteChemreactor.label>无限化学反应器</InfiniteChemreactor.label>
+  <InfiniteChemreactor.label>無限化学反応炉</InfiniteChemreactor.label>
   <!-- EN: Slowly generates chemfuel by a complex series of chemical reactions, using atoms extracted from the air. -->
-  <InfiniteChemreactor.description>使用从空气中提取的原子，通过一系列复杂的化学反应缓慢地生成化学燃料。</InfiniteChemreactor.description>
+  <InfiniteChemreactor.description>大気から核分裂を利用し,複合的な化学反応の連鎖によって,ゆっくりと液化燃料を生成します.</InfiniteChemreactor.description>
   
   <!-- EN: psychic emanator -->
-  <PsychicEmanator.label>心灵放射器</PsychicEmanator.label>
+  <PsychicEmanator.label>サイコスード波動器</PsychicEmanator.label>
   <!-- EN: An ancient device that projects a soothing psychic field around itself. This improves the mood of anyone nearby. Works through walls. -->
-  <PsychicEmanator.description>一种向四周投射抚慰性心灵立场的远古设备。提高附近任何人的心情。能透过墙壁产生作用。</PsychicEmanator.description>
+  <PsychicEmanator.description>その周囲に落ち着かせるサイキックフィールドを照射する古代の装置です.近くにいるひとの気分を改善します.壁も通りぬけます.</PsychicEmanator.description>
   
   <!-- EN: vanometric power cell -->
-  <VanometricPowerCell.label>虚空电池</VanometricPowerCell.label>
+  <VanometricPowerCell.label>ワノメトリック発電器</VanometricPowerCell.label>
   <!-- EN: Generates free energy, forever, without using fuel. This technology is developed by archotechs, and is beyond even most glitterworld societies. While nobody knows exactly how it works, scholars believe it somehow extracts energy directly from fluctuations in the quantum foam. -->
-  <VanometricPowerCell.description>不需要燃料，生成永久免费的能源。这种技术由远古科技AI开发，甚至超越了绝大多数闪耀世界。虽然没人确切地知道它是如何工作的，但学者们相信它是以某种方式从量子泡沫的波动中直接提取能量的。</VanometricPowerCell.description>
+  <VanometricPowerCell.description>燃料を消費することなく,半永久的にエネルギーを生み出します.このテクノロジーはアルコテックのAI達によって開発され,ほとんどのグリッターワールド社会さえも超越しています.その動作原理を正確に知る者はいませんが,学者たちはそれが何らかの方法で量子泡のゆらぎから直接エネルギーを取り出しているのではないかと考えています.</VanometricPowerCell.description>
   
 </LanguageData>

@@ -2,24 +2,24 @@
 <LanguageData>
   
   <!-- EN: butcher creature -->
-  <ButcherCorpseFlesh.label>屠宰尸体</ButcherCorpseFlesh.label>
+  <ButcherCorpseFlesh.label>食肉加工する</ButcherCorpseFlesh.label>
   <!-- EN: Butcher a creature to obtain its meat, leather, and other body products. -->
-  <ButcherCorpseFlesh.description>屠宰尸体以获取可用的肉。</ButcherCorpseFlesh.description>
+  <ButcherCorpseFlesh.description>食肉加工は,生き物から,肉,皮,臓器を得ます.</ButcherCorpseFlesh.description>
   <!-- EN: Butchering. -->
-  <ButcherCorpseFlesh.jobString>正在屠宰。</ButcherCorpseFlesh.jobString>
+  <ButcherCorpseFlesh.jobString>食肉に加工中</ButcherCorpseFlesh.jobString>
   
   <!-- EN: shred mechanoid -->
-  <ButcherCorpseMechanoid.label>拆解机械体</ButcherCorpseMechanoid.label>
+  <ButcherCorpseMechanoid.label>メカノイドを寸断する</ButcherCorpseMechanoid.label>
   <!-- EN: Shred a dead mechanoid to try to salvage usable material. -->
-  <ButcherCorpseMechanoid.description>拆解停机的机械体来尝试获取一些有用的资源。</ButcherCorpseMechanoid.description>
+  <ButcherCorpseMechanoid.description>機能停止したメカノイドを寸断し,使用可能な素材を回収します.</ButcherCorpseMechanoid.description>
   <!-- EN: Shredding mechanoid. -->
-  <ButcherCorpseMechanoid.jobString>正在拆解机械体。</ButcherCorpseMechanoid.jobString>
+  <ButcherCorpseMechanoid.jobString>メカノイドを寸断中</ButcherCorpseMechanoid.jobString>
   
   <!-- EN: smash mechanoid -->
-  <SmashCorpseMechanoid.label>粉碎机械体</SmashCorpseMechanoid.label>
+  <SmashCorpseMechanoid.label>メカノイドを粉砕する</SmashCorpseMechanoid.label>
   <!-- EN: Smash a dead mechanoid with simple hand tools to salvage usable material. -->
-  <SmashCorpseMechanoid.description>用简单的手工工具砸碎一个机械体，尝试回收一些有用的材料。</SmashCorpseMechanoid.description>
+  <SmashCorpseMechanoid.description>簡単な手工具でメカノイドの死骸を粉砕し,使用可能な素材を回収します.</SmashCorpseMechanoid.description>
   <!-- EN: Smashing mechanoid. -->
-  <SmashCorpseMechanoid.jobString>正在粉碎机械体。</SmashCorpseMechanoid.jobString>
+  <SmashCorpseMechanoid.jobString>メカノイドを粉砕中</SmashCorpseMechanoid.jobString>
   
 </LanguageData>

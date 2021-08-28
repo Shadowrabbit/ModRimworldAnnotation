@@ -2,67 +2,69 @@
 <LanguageData>
   
   <!-- EN: civil outlander union -->
-  <OutlanderCivil.label>文明的外来者联盟</OutlanderCivil.label>
+  <OutlanderCivil.label>アウトランダー連合体(文明的)</OutlanderCivil.label>
   <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group holds civil behavior in high regard. -->
-  <OutlanderCivil.description>这些人可能已经在这里生活了数十年甚至上百年，之前所掌握的大部分科技成果基本都已经失传了。他们现在通常使用简单的机械工具，并使用高级的火药武器自卫。\n\n他们比较关心诸如贸易、信任以及生存等更为实际的事情。\n\n这个团体高度重视文明的行为。</OutlanderCivil.description>
+  <OutlanderCivil.description>この人々は数十年,もしくは一世紀近くもここで暮らし,彼らが持ち込んだ殆どのテクノロジーは失なわれました.彼らはたいてい,単純な機械を使って作業し,進歩した炸薬性の武器を使って防衛します.\n\n彼らは実用的な貿易・信頼関係・生きることに関心があります.\n\nこの独特なグループは,高い尊厳をもち礼儀正しい振る舞いをすると考えられます.</OutlanderCivil.description>
   <!-- EN: prime councilor -->
-  <OutlanderCivil.leaderTitle>首席议员</OutlanderCivil.leaderTitle>
+  <OutlanderCivil.leaderTitle>主席評議員</OutlanderCivil.leaderTitle>
   <!-- EN: outlander -->
-  <OutlanderCivil.pawnSingular>外来者</OutlanderCivil.pawnSingular>
+  <OutlanderCivil.pawnSingular>異国人</OutlanderCivil.pawnSingular>
   <!-- EN: outlanders -->
-  <OutlanderCivil.pawnsPlural>外来者</OutlanderCivil.pawnsPlural>
+  <OutlanderCivil.pawnsPlural>異国人達</OutlanderCivil.pawnsPlural>
   
   <!-- EN: rough outlander union -->
-  <OutlanderRough.label>粗野的外来者联盟</OutlanderRough.label>
+  <OutlanderRough.label>アウトランダー連合体(粗野)</OutlanderRough.label>
   <!-- EN: These people have lived here for decades or centuries, and have lost most of the technology that brought them to this world. They usually work with simple machinery and defend themselves with advanced gunpowder weapons.\n\nThey are concerned with the practical matters of trade, trust, and survival.\n\nThis particular group has a streak of barbarity in them. -->
-  <OutlanderRough.description>这些人可能已经在这里生活了数十年甚至上百年，之前所掌握的大部分科技成果基本都已经失传了。他们现在通常使用简单的机械工具，并使用高级的火药武器自卫。\n\n他们比较关心诸如贸易、信任以及生存等更为实际的事情。\n\n这个团体有野蛮暴力倾向。</OutlanderRough.description>
+  <OutlanderRough.description>この人々は数十年,もしくは一世紀近くもここで暮らし,彼らが持ち込んだ殆どのテクノロジーは失なわれました.彼らはたいてい,単純な機械を使って作業し,進歩した炸薬性の武器を使って防衛します.\n\n彼らは実用的な貿易・信頼関係・生きることに関心があります.\n\nこの独特なグループは,野蛮な一面を持っています.</OutlanderRough.description>
   <!-- EN: prime councilor -->
-  <OutlanderRough.leaderTitle>首席议员</OutlanderRough.leaderTitle>
+  <OutlanderRough.leaderTitle>主席評議員</OutlanderRough.leaderTitle>
   <!-- EN: outlander -->
-  <OutlanderRough.pawnSingular>外来者</OutlanderRough.pawnSingular>
+  <OutlanderRough.pawnSingular>異国人</OutlanderRough.pawnSingular>
   <!-- EN: outlanders -->
-  <OutlanderRough.pawnsPlural>外来者</OutlanderRough.pawnsPlural>
+  <OutlanderRough.pawnsPlural>異国人達</OutlanderRough.pawnsPlural>
   
   <!-- EN: pirate band -->
-  <Pirate.label>海盗团</Pirate.label>
+  <Pirate.label>宙賊</Pirate.label>
   <!-- EN: A loose confederation of pirate gangs who've agreed to mostly fight outsiders instead of fighting each other.\n\nPirates don't sow, they don't build, and they rarely trade. Driven by a blood-and-honor culture that values personal strength and ruthlessness, they enrich themselves by raiding and robbing their more productive neighbors.\n\nTheir technology level depends mostly on who they've managed to steal from recently. Mostly they carry gunpowder weapons, though some prefer to stab victims at close range. -->
-  <Pirate.description>一个强盗组织。\n\n海盗们不播种，不建设，也很少会做贸易。他们基本靠掠夺与抢劫区域内的其他活跃组织使自己变为富有。\n\n他们的科技水平取决于最近成功地偷了谁。他们在大部分时间下使用火器，还有一些可能更喜欢近身用刀捅人。</Pirate.description>
+  <Pirate.description>ゆるい同盟で結ばれたギャングは,お互いに戦い合うことはせずに,主に部外者と戦うことに同意しています.\n\n宙賊は種を蒔かず,建物を造らず,まれにしか貿易しません.彼らは,個人の強さ,冷酷さに価値をおく,血と名誉の文化に駆り立てられ,より生産的な隣人を襲撃し,強盗を働くことで自分たちを裕福にします.\n\n彼らのテクノロジーレベルは,たいていの場合,彼らが直近に誰から略奪したか？によります.主に銃を持ちますが,至近距離から犠牲者を叩きのめすことを好んでします.</Pirate.description>
   <!-- EN: boss -->
-  <Pirate.leaderTitle>头目</Pirate.leaderTitle>
+  <Pirate.leaderTitle>お頭</Pirate.leaderTitle>
   <!-- EN: pirate -->
-  <Pirate.pawnSingular>海盗</Pirate.pawnSingular>
+  <Pirate.pawnSingular>宙賊</Pirate.pawnSingular>
   <!-- EN: pirates -->
-  <Pirate.pawnsPlural>海盗</Pirate.pawnsPlural>
+  <Pirate.pawnsPlural>宙賊ども</Pirate.pawnsPlural>
   
   <!-- EN: gentle tribe -->
-  <TribeCivil.label>温和的部落</TribeCivil.label>
+  <TribeCivil.label>蛮族(穏健派)</TribeCivil.label>
   <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe pursues a gentle way of life where they can. They are quite open to trade and alliances, even with strange peoples. -->
-  <TribeCivil.description>这些人在这里已经存在了很长时间。也许他们的祖先于千年以前坠毁在这里，也许他们是某场毁灭文明的大灾难中的幸存者。不管怎样，这些部落原住民大部分是土生土长的游牧民族，他们使用着原始的工具和武器。\n\n尽管在技术方面明显落后，但因为拥有人数、勇气，以及低科技战争的技巧，这些部落将会成为危险的敌人或是宝贵的朋友。\n\n这个部落尽力追求温和的生活方式，待人友善。他们非常乐意交易和组成同盟，即使对方是陌生人。</TribeCivil.description>
+  <TribeCivil.description>この人々は遙か昔からここに居ました.おそらく彼らの祖先達は数千年もの昔に,ここへ墜落してきたのでしょう.そしてたぶんテクノロジーや文明が破壊された幾多の天変地異を乗り越えてきたのです.いずれにしても原始的な道具と武器を使う,この地に住む蛮族の大部分は遊牧民です.\n\n明らかにテクノロジー的には劣っているにもかかわらず,原始的な武器のスキル,多数,頑健さが故に,蛮族は危険な敵にも,大切な友人にもなり得ます.\n\n特にこの部族は,穏やかな生活様式を追い求めています.彼らは,見知らぬ者であっても,貿易や同盟には完全に門戸を開いています.</TribeCivil.description>
   <!-- EN: chief -->
-  <TribeCivil.leaderTitle>酋长</TribeCivil.leaderTitle>
+  <TribeCivil.leaderTitle>族長</TribeCivil.leaderTitle>
   <!-- EN: tribesman -->
-  <TribeCivil.pawnSingular>部众</TribeCivil.pawnSingular>
+  <TribeCivil.pawnSingular>蛮族</TribeCivil.pawnSingular>
   <!-- EN: tribespeople -->
-  <TribeCivil.pawnsPlural>部众</TribeCivil.pawnsPlural>
+  <TribeCivil.pawnsPlural>蛮族ら</TribeCivil.pawnsPlural>
   
   <!-- EN: fierce tribe -->
-  <TribeRough.label>彪悍的部落</TribeRough.label>
+  <TribeRough.label>獰猛な蛮族</TribeRough.label>
   <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies and valuable friends because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe values warlike dominance; it may be difficult to turn them into an ally. -->
-  <TribeRough.description>这些人在这里已经存在了很长时间。也许他们的祖先于千年以前坠毁在这里，也许他们是某场毁灭文明的大灾难中的幸存者。不管怎样，这些部落原住民大部分是土生土长的游牧民族，他们使用着原始的工具和武器。\n\n尽管在技术方面明显落后，但因为拥有人数、勇气，以及低科技战争的技巧，这些部落将会成为危险的敌人或是宝贵的朋友。\n\n这个部落崇尚战争，和他们成为盟友不是一件容易的事情。</TribeRough.description>
+  <TribeRough.description>この人々は遙か昔からここに居ました.おそらく彼らの祖先達は数千年もの昔に,ここへ墜落してきたのでしょう.そしてたぶんテクノロジーや文明が破壊された幾多の天変地異を乗り越えてきたのです.いずれにしても原始的な道具と武器を使う,この地に住む蛮族の大部分は遊牧民です.\n\n明らかにテクノロジー的には劣っているにもかかわらず,原始的な武器のスキル,多数,頑健さが故に,蛮族は危険な敵にも,大切な友人にもなり得ます.\n\n特にこの部族は,戦いによる支配に価値を置いています; 彼らを味方につけるのは,難しいものと思われます.</TribeRough.description>
   <!-- EN: chief -->
-  <TribeRough.leaderTitle>酋长</TribeRough.leaderTitle>
+  <TribeRough.leaderTitle>族長</TribeRough.leaderTitle>
   <!-- EN: tribesman -->
-  <TribeRough.pawnSingular>部众</TribeRough.pawnSingular>
+  <TribeRough.pawnSingular>蛮族</TribeRough.pawnSingular>
   <!-- EN: tribespeople -->
-  <TribeRough.pawnsPlural>部众</TribeRough.pawnsPlural>
+  <TribeRough.pawnsPlural>蛮族ら</TribeRough.pawnsPlural>
   
   <!-- EN: savage tribe -->
-  <TribeSavage.label>野蛮人</TribeSavage.label>
+  <TribeSavage.label>未開の蛮族</TribeSavage.label>
   <!-- EN: These people have been here a very long time. Maybe their ancestors crashed here a thousand years ago. Maybe they survived some cataclysm that destroyed a technological civilization here. In any case, the tribals are mostly nomadic people who live off the land using primitive tools and weapons.\n\nDespite their apparent technological weakness, the tribals can be dangerous enemies because of their skill with low-tech warfare, their numbers, and their hardiness.\n\nThis particular tribe is driven by a blood-and-honor culture; you will not be able to ally with them! -->
-  <TribeSavage.description>这些人在这里已经存在了很长时间。也许他们的祖先于千年以前坠毁在这里，也许他们是某场毁灭文明的大灾难中的幸存者。不管怎样，这些部落原住民大部分是土生土长的游牧民族，他们使用着原始的工具和武器。\n\n尽管在技术方面明显落后，但因为拥有人数、勇气，以及低科技战争的技巧，这些部落将会成为危险的敌人。\n\n这个部落充斥着血与荣耀的文化，和他们永远都不会成为朋友。</TribeSavage.description>
+  <TribeSavage.description>この人々は遙か昔からここに居ました.おそらく彼らの祖先達は数千年もの昔に,ここへ墜落してきたのでしょう.そしてたぶんテクノロジーや文明が破壊された幾多の天変地異を乗り越えてきたのです.いずれにしても原始的な道具と武器を使う,この地に住む蛮族の大部分は遊牧民です.\n\n明らかにテクノロジー的には劣っているにもかかわらず,原始的な武器のスキル,多数,頑健さが故に,蛮族は危険な敵にも,大切な友人にもなり得ます.\n\n特にこの部族は,血統と名誉を重んじる文化をもっています; 彼らと同盟を結ぶことは不可能です!</TribeSavage.description>
+  <!-- EN: chief -->
+  <TribeSavage.leaderTitle>族長</TribeSavage.leaderTitle>
   <!-- EN: tribesman -->
-  <TribeSavage.pawnSingular>部众</TribeSavage.pawnSingular>
+  <TribeSavage.pawnSingular>蛮族</TribeSavage.pawnSingular>
   <!-- EN: tribespeople -->
-  <TribeSavage.pawnsPlural>部众</TribeSavage.pawnsPlural>
+  <TribeSavage.pawnsPlural>蛮族ら</TribeSavage.pawnsPlural>
   
 </LanguageData>

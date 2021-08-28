@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: talking. -->
-  <GiveSpeech.reportString>发言中。</GiveSpeech.reportString>
+  <GiveSpeech.reportString>話している</GiveSpeech.reportString>
   
   <!-- EN: marrying TargetA. -->
-  <MarryAdjacentPawn.reportString>与TargetA结婚。</MarryAdjacentPawn.reportString>
+  <MarryAdjacentPawn.reportString>TargetAと結婚式を挙げている</MarryAdjacentPawn.reportString>
   
   <!-- EN: spectating. -->
-  <SpectateCeremony.reportString>参加婚礼。</SpectateCeremony.reportString>
+  <SpectateCeremony.reportString>参列中</SpectateCeremony.reportString>
   
   <!-- EN: relaxing socially. -->
-  <StandAndBeSociallyActive.reportString>社交放松。</StandAndBeSociallyActive.reportString>
+  <StandAndBeSociallyActive.reportString>くつろいでいる</StandAndBeSociallyActive.reportString>
   
 </LanguageData>

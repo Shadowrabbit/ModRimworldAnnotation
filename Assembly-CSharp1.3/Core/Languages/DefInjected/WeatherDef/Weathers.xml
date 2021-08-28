@@ -2,43 +2,43 @@
 <LanguageData>
   
   <!-- EN: clear -->
-  <Clear.label>晴</Clear.label>
+  <Clear.label>快晴</Clear.label>
   <!-- EN: A clear day. No penalties or modifiers. -->
-  <Clear.description>天气晴朗，没有任何惩罚或者加成。</Clear.description>
+  <Clear.description>良く晴れた日,天候による悪影響はありません.</Clear.description>
   
   <!-- EN: dry thunderstorm -->
-  <DryThunderstorm.label>旱天雷</DryThunderstorm.label>
+  <DryThunderstorm.label>雷</DryThunderstorm.label>
   <!-- EN: Dry thunderstorms are dangerous because the lightning can start fires and there is no rain to put them out. -->
-  <DryThunderstorm.description>旱天雷很危险，因为闪电会引发火灾，同时又没有扑灭火焰的雨水。</DryThunderstorm.description>
+  <DryThunderstorm.description>ドライサンダーストームとも呼ばれるこの天候は,雨が降らないため,落雷による火事が自然鎮火しない危険な天候です.</DryThunderstorm.description>
   
   <!-- EN: fog -->
-  <Fog.label>雾</Fog.label>
+  <Fog.label>霧</Fog.label>
   <!-- EN: Fog reduces the accuracy of ranged weapons. -->
-  <Fog.description>雾会降低远程武器的命中率。</Fog.description>
+  <Fog.description>霧で射撃精度が落ちます.</Fog.description>
   
   <!-- EN: foggy rain -->
-  <FoggyRain.label>雾雨</FoggyRain.label>
+  <FoggyRain.label>霧雨</FoggyRain.label>
   <!-- EN: Reduces accuracy and movement speed. -->
-  <FoggyRain.description>大雾和大雨会降低远程武器的命中率和移动速度。</FoggyRain.description>
+  <FoggyRain.description>霧雨で射撃精度が落ちます. 人の歩みが遅くなります.</FoggyRain.description>
   
   <!-- EN: rain -->
   <Rain.label>雨</Rain.label>
   <!-- EN: Rain reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <Rain.description>雨会降低远程武器的命中率，扑灭火焰，同时还会降低移动速度。</Rain.description>
+  <Rain.description>雨で射撃精度が落ちます. 火災が消えます. 人々の歩みが遅くなります.</Rain.description>
   
   <!-- EN: rainy thunderstorm -->
-  <RainyThunderstorm.label>暴风雨</RainyThunderstorm.label>
+  <RainyThunderstorm.label>暴風雨</RainyThunderstorm.label>
   <!-- EN: The lightning will start fires, but the rain will put it out. The rain also reduces movement speed and shooting accuracy. -->
-  <RainyThunderstorm.description>闪电会引发火灾，但是雨水会把火扑灭。同时大雨会降低移动速度和远程武器的命中率。</RainyThunderstorm.description>
+  <RainyThunderstorm.description>落雷による火事は雨で鎮火します. 雨で射撃精度が落ちます.人の歩みが遅くなります.</RainyThunderstorm.description>
   
   <!-- EN: gentle snow -->
   <SnowGentle.label>小雪</SnowGentle.label>
   <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <SnowGentle.description>小雪会降低远程武器的命中率，扑灭火焰，同时还会降低移动速度。</SnowGentle.description>
+  <SnowGentle.description>小雪で射撃精度が落ちます. 火災が消えます. 人々の歩みが遅くなります.</SnowGentle.description>
   
   <!-- EN: hard snow -->
   <SnowHard.label>大雪</SnowHard.label>
   <!-- EN: Snow reduces the accuracy of ranged weapons, extinguishes fire, and slows people down. -->
-  <SnowHard.description>大雪会降低远程武器的命中率，扑灭火焰，同时还会降低移动速度。</SnowHard.description>
+  <SnowHard.description>大雪で射撃精度が落ちます. 火災が消えます. 人々の歩みが遅くなります.</SnowHard.description>
   
 </LanguageData>

@@ -160,6 +160,7 @@
       <color>(131, 34, 34, 180)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
@@ -180,6 +181,7 @@
       <color>(132, 138, 114, 180)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>80</cleaningWorkToReduceThickness>
@@ -199,6 +201,7 @@
       <texPath>Things/Filth/MachineBits</texPath>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>45~50</disappearsInDays>
       <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
       <cleaningSound>Interact_CleanFilth_Fluid</cleaningSound>
@@ -217,6 +220,7 @@
       <color>(200, 200, 140, 50)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
@@ -257,6 +261,7 @@
       <color>(179, 185, 73, 180)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
@@ -278,6 +283,7 @@
 	  <drawSize>2</drawSize>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>5~10</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>100</cleaningWorkToReduceThickness>
@@ -304,6 +310,7 @@
       <texPath>Things/Filth/LiquidFuel</texPath>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
@@ -324,6 +331,7 @@
       <texPath>Things/Filth/CorpseBile</texPath>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>35~40</disappearsInDays>
       <rainWashes>true</rainWashes>
       <cleaningWorkToReduceThickness>80</cleaningWorkToReduceThickness>
@@ -345,6 +353,7 @@
       <drawSize>3</drawSize>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>10~15</disappearsInDays>
       <cleaningWorkToReduceThickness>70</cleaningWorkToReduceThickness>
       <canFilthAttach>true</canFilthAttach>
@@ -384,6 +393,7 @@
       <color>(115, 84, 32, 220)</color>
     </graphicData>
     <filth>
+      <ignoreFilthMultiplierStat>true</ignoreFilthMultiplierStat>
       <disappearsInDays>30~40</disappearsInDays>
       <cleaningWorkToReduceThickness>35</cleaningWorkToReduceThickness>
       <cleaningSound>Interact_CleanFilth_Dirt</cleaningSound>

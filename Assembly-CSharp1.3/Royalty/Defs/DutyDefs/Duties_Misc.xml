@@ -2,22 +2,6 @@
 <Defs>
   
   <DutyDef>
-    <defName>AssaultThing</defName>
-    <alwaysShowWeapon>true</alwaysShowWeapon>
-    <thinkNode Class="ThinkNode_Priority">
-      <subNodes>
-        <li Class="JobGiver_TakeCombatEnhancingDrug" />
-        <li Class="JobGiver_AIFightEnemies">
-          <targetAcquireRadius>20</targetAcquireRadius>
-          <targetKeepRadius>23</targetKeepRadius>
-        </li>
-        <li Class="JobGiver_AITrashDutyFocus" /> 
-        <li Class="JobGiver_AISapper" />
-      </subNodes>
-    </thinkNode>
-  </DutyDef>
-
-  <DutyDef>
     <defName>WanderClose</defName>
     <thinkNode Class="ThinkNode_Priority">
       <subNodes>

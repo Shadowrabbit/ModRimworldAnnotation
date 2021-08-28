@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: go-juice -->
-  <GoJuice.label>活力水</GoJuice.label>
+  <GoJuice.label>ゴージュース</GoJuice.label>
   <!-- EN: A synthetic performance-enhancing drug developed for space marines during the early days of interplanetary warfare. Go-juice blocks pain, increases movement speed, and improves the user's melee and shooting abilities. For psycasters, the drug also instantly increases psyfocus without meditation.\n\nThe military chemists who created it were never able to remove its addictiveness. Some saw this as a downside; others saw it as a benefit. -->
-  <GoJuice.description>一种合成的作战用药剂，研制用于在早期的行星间战斗中提供给太空陆战队员服用。活力水能够屏蔽服用者的痛觉同时能够提升近战和射击技能。对于心灵能力者而言，这种药物能够在服用时无需冥想直接提升精神力。\n\n但是发明它的军事化学家们却无法消除它的成瘾性。有些人认为这是缺陷，而另一些人却觉得这是个优点。</GoJuice.description>
+  <GoJuice.description>この身体能力を増強する合成ドラッグは,惑星間戦争の黎明期に航宙海兵隊のために開発されました.ゴージュースは痛みを抑え,移動速度を増し,使用者の近接戦闘および射撃能力を向上させます.超能力者にとって,このドラッグは,瞑想なしで即座にサイフォーカスを上昇させる薬にもなります.\n\nこれを作った軍の化学者は,この薬の依存性をついに取り除くことができませんでした.これを欠点だと見なす者もいますが,中には長所として捉える者もいます.</GoJuice.description>
   <!-- EN: Inject {0} -->
-  <GoJuice.ingestible.ingestCommandString>喝{0}</GoJuice.ingestible.ingestCommandString>
+  <GoJuice.ingestible.ingestCommandString>{0}を飲む</GoJuice.ingestible.ingestCommandString>
   <!-- EN: Injecting {0}. -->
-  <GoJuice.ingestible.ingestReportString>正在喝{0}。</GoJuice.ingestible.ingestReportString>
+  <GoJuice.ingestible.ingestReportString>{0}を飲んでいる</GoJuice.ingestible.ingestReportString>
   
 </LanguageData>

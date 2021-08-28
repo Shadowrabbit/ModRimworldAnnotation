@@ -77,7 +77,7 @@
       </li>
     </stages>
     <nullifyingPrecepts>
-      <li MayRequire="Ideology">Pain_Idealized</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Pain_Idealized</li>
     </nullifyingPrecepts>
   </ThoughtDef>
 

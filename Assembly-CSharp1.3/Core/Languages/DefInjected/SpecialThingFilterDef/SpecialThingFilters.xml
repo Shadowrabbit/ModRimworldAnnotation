@@ -2,74 +2,74 @@
 <LanguageData>
   
   <!-- EN: allow biocoded apparel -->
-  <AllowBiocodedApparel.label>允许生物识别衣物</AllowBiocodedApparel.label>
+  <AllowBiocodedApparel.label>バイオコード化した衣服を許可</AllowBiocodedApparel.label>
   
   <!-- EN: allow biocoded weapons -->
-  <AllowBiocodedWeapons.label>允许生物识别武器</AllowBiocodedWeapons.label>
+  <AllowBiocodedWeapons.label>バイオコード化した武器を許可</AllowBiocodedWeapons.label>
   
   <!-- EN: allow burnable -->
-  <AllowBurnableApparel.label>允许可烧毁物品</AllowBurnableApparel.label>
+  <AllowBurnableApparel.label>焼却できる服を許可</AllowBurnableApparel.label>
   
   <!-- EN: allow burnable -->
-  <AllowBurnableWeapons.label>允许可烧毁物品</AllowBurnableWeapons.label>
+  <AllowBurnableWeapons.label>焼却できる武器を許可</AllowBurnableWeapons.label>
   
   <!-- EN: allow colonist corpses -->
-  <AllowCorpsesColonist.label>允许尸体（殖民者）</AllowCorpsesColonist.label>
+  <AllowCorpsesColonist.label>入植者の遺体を許可</AllowCorpsesColonist.label>
   <!-- EN: Allow the dead bodies of colonists. -->
-  <AllowCorpsesColonist.description>允许死亡的殖民者的尸体。</AllowCorpsesColonist.description>
+  <AllowCorpsesColonist.description>入植者の遺体を許可します.</AllowCorpsesColonist.description>
   
   <!-- EN: allow stranger corpses -->
-  <AllowCorpsesStranger.label>允许尸体（陌生人）</AllowCorpsesStranger.label>
+  <AllowCorpsesStranger.label>不審者の死体を許可</AllowCorpsesStranger.label>
   <!-- EN: Allow the dead bodies of strangers and enemies. -->
-  <AllowCorpsesStranger.description>允许死亡的陌生人和敌人的尸体。</AllowCorpsesStranger.description>
+  <AllowCorpsesStranger.description>敵や不審者の死体を許可します.</AllowCorpsesStranger.description>
   
   <!-- EN: allow tainted apparel -->
-  <AllowDeadmansApparel.label>允许死者的衣物</AllowDeadmansApparel.label>
+  <AllowDeadmansApparel.label>穢れた衣服を許可</AllowDeadmansApparel.label>
   <!-- EN: Allow clothing that was once worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowDeadmansApparel.description>允许死者穿过的衣服。大多数人会对被尸体污染的衣服感到不安，商人也不会收购这些东西。</AllowDeadmansApparel.description>
+  <AllowDeadmansApparel.description>死体に一度でも着用させたことが有る衣服を許可します.大抵の人間は死体が着ていた服を見ると不安になり,トレーダーも引き取りません.</AllowDeadmansApparel.description>
   
   <!-- EN: allow fresh -->
-  <AllowFresh.label>允许新鲜物品</AllowFresh.label>
+  <AllowFresh.label>新鮮を許可</AllowFresh.label>
   <!-- EN: Allow organic things which haven't started to rot yet. -->
-  <AllowFresh.description>允许尚未腐烂的有机物。</AllowFresh.description>
+  <AllowFresh.description>腐敗していない,新鮮な有機物を許可します.</AllowFresh.description>
   
   <!-- EN: allow non-biocoded apparel -->
-  <AllowNonBiocodedApparel.label>允许非生物识别衣物</AllowNonBiocodedApparel.label>
+  <AllowNonBiocodedApparel.label>非バイオコード化の衣服を許可</AllowNonBiocodedApparel.label>
   
   <!-- EN: allow non-biocoded weapons -->
-  <AllowNonBiocodedWeapons.label>允许非生物识别武器</AllowNonBiocodedWeapons.label>
+  <AllowNonBiocodedWeapons.label>非バイオコード化の武器を許可</AllowNonBiocodedWeapons.label>
   
   <!-- EN: allow non-burnable -->
-  <AllowNonBurnableApparel.label>允许不可烧毁物品</AllowNonBurnableApparel.label>
+  <AllowNonBurnableApparel.label>焼却できない服を許可</AllowNonBurnableApparel.label>
   
   <!-- EN: allow non-burnable -->
-  <AllowNonBurnableWeapons.label>允许不可烧毁物品</AllowNonBurnableWeapons.label>
+  <AllowNonBurnableWeapons.label>焼却できない武器を許可</AllowNonBurnableWeapons.label>
   
   <!-- EN: allow clean apparel -->
-  <AllowNonDeadmansApparel.label>允许非死者的衣物</AllowNonDeadmansApparel.label>
+  <AllowNonDeadmansApparel.label>穢れのない衣服を許可</AllowNonDeadmansApparel.label>
   <!-- EN: Allow clothing that was never worn by a corpse. Most humans find corpse-tainted clothing to be disturbing, and traders will not accept it. -->
-  <AllowNonDeadmansApparel.description>允许从未被死者穿过的衣服。大多数人会对被尸体污染的衣服感到不安，商人也不会收购这些东西。</AllowNonDeadmansApparel.description>
+  <AllowNonDeadmansApparel.description>死体に一度も着用させたことの無い衣服を許可します.大抵の人間は死体が着ていた服を見ると不安になり,トレーダーも引き取りません.</AllowNonDeadmansApparel.description>
   
   <!-- EN: allow non-smeltable -->
-  <AllowNonSmeltableApparel.label>允许不可熔炼物品</AllowNonSmeltableApparel.label>
+  <AllowNonSmeltableApparel.label>溶解できない服を許可</AllowNonSmeltableApparel.label>
   
   <!-- EN: allow non-smeltable -->
-  <AllowNonSmeltableWeapons.label>允许不可熔炼物品</AllowNonSmeltableWeapons.label>
+  <AllowNonSmeltableWeapons.label>溶解できない武器を許可</AllowNonSmeltableWeapons.label>
   
   <!-- EN: allow plant food -->
-  <AllowPlantFood.label>允许植物食物</AllowPlantFood.label>
+  <AllowPlantFood.label>飼料を許可</AllowPlantFood.label>
   <!-- EN: Allow foods that are of quality equivalent to unharvested plants, like hay. -->
-  <AllowPlantFood.description>允许与未收割的植物一样的食物，像干草。</AllowPlantFood.description>
+  <AllowPlantFood.description>干し草のような,食物同然な価値を持つ植物を許可します.</AllowPlantFood.description>
   
   <!-- EN: allow rotten -->
-  <AllowRotten.label>允许腐烂物品</AllowRotten.label>
+  <AllowRotten.label>腐敗を許可 </AllowRotten.label>
   <!-- EN: Allow organic things which have started to rot. -->
-  <AllowRotten.description>允许已经开始腐烂的有机物。</AllowRotten.description>
+  <AllowRotten.description>腐敗した有機物を許可します.</AllowRotten.description>
   
   <!-- EN: allow smeltable -->
-  <AllowSmeltable.label>允许可熔炼物品</AllowSmeltable.label>
+  <AllowSmeltable.label>溶解できる武器を許可</AllowSmeltable.label>
   
   <!-- EN: allow smeltable -->
-  <AllowSmeltableApparel.label>允许可熔炼物品</AllowSmeltableApparel.label>
+  <AllowSmeltableApparel.label>溶解できる服を許可</AllowSmeltableApparel.label>
   
 </LanguageData>

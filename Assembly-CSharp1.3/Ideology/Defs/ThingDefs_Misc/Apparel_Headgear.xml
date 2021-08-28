@@ -162,6 +162,7 @@
         <li>Worker</li>
       </defaultOutfitTags>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>
+      <ideoDesireDisallowedFactionCategoryTags><li>Tribal</li></ideoDesireDisallowedFactionCategoryTags>
     </apparel>
     <colorGenerator Class="ColorGenerator_StandardApparel" />
   </ThingDef>

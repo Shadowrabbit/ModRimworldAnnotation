@@ -232,6 +232,11 @@
         <description>Someone enslaved a prisoner</description>
         <onlyForNonSlaves>true</onlyForNonSlaves>
       </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>EnslavedPrisonerNotPreviouslyEnslaved</eventDef>
+        <eventLabel>enslaved a prisoner</eventLabel>
+        <points>1</points>
+      </li>
     </comps>
     <approvesOfSlavery>true</approvesOfSlavery>
   </PreceptDef>

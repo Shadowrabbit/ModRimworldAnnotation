@@ -145,7 +145,7 @@
   <ResearchProjectDef>
     <defName>ShieldBelt</defName>
     <label>shields</label>
-    <description>Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundry.</description>
+    <description>Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundary.</description>
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <prerequisites>

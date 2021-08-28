@@ -102,12 +102,11 @@
         <maxWildness>0.70</maxWildness>
         <tradeTagsSell>
           <li>AnimalFarm</li>
-          <li>AnimalPet</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalExotic</li>
         </tradeTagsBuy>
-        <kindCountRange>1~1</kindCountRange>
+        <kindCountRange>1</kindCountRange>
         <countRange>3~4</countRange>
         <createMatingPair>
           <li>AnimalFarm</li>
@@ -377,6 +376,7 @@
           <li>AnimalUncommon</li>
           <li>AnimalFighter</li>
           <li>AnimalFarm</li>
+          <li>AnimalPet</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalExotic</li>

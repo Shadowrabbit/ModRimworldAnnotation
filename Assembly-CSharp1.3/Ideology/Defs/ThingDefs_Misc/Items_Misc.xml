@@ -6,15 +6,15 @@
     <label>skull</label>
     <description>A human skull.</description>
     <graphicData>
-      <texPath>Things/Item/Skull/Skull</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Item/Skull</texPath>
+      <graphicClass>Graphic_StackCount</graphicClass>
       <drawSize>(0.75, 0.75)</drawSize>
-      <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <stackLimit>1</stackLimit>
+    <stackLimit>25</stackLimit>
     <tradeNeverStack>true</tradeNeverStack>
     <useHitPoints>true</useHitPoints>
+    <rotatable>false</rotatable>
     <thingCategories>
       <li>Items</li>
     </thingCategories>
@@ -24,9 +24,9 @@
       <MarketValue>5</MarketValue>
       <DeteriorationRate>1</DeteriorationRate>
     </statBases>
-    <drawGUIOverlay>false</drawGUIOverlay>
     <comps>
       <li Class="CompProperties_Forbiddable"/>
+      <li Class="CompProperties_HasSources"/>
     </comps>
   </ThingDef>
 

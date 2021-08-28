@@ -2,68 +2,68 @@
 <LanguageData>
   
   <!-- EN: deep drilling -->
-  <DeepDrilling.label>深钻井</DeepDrilling.label>
+  <DeepDrilling.label>深部ドリルマシン</DeepDrilling.label>
   <!-- EN: Build deep drills for extracting resources from underground. You'll need a ground-penetrating scanner to find the resources. -->
-  <DeepDrilling.description>解锁建造「深钻井」，开采深埋在地表之下的资源。需要先用地质扫描仪进行勘探。</DeepDrilling.description>
+  <DeepDrilling.description>地殻深部から資源を抽出するための深部ドリルマシンを作成できるようになります.資源を見つけるための地殻深部スキャナーが必要です.</DeepDrilling.description>
   
   <!-- EN: flatscreen television -->
-  <FlatscreenTelevision.label>平板电视</FlatscreenTelevision.label>
+  <FlatscreenTelevision.label>平面スクリーンテレビ</FlatscreenTelevision.label>
   <!-- EN: Produce high-resolution flatscreen televisions for greater enjoyment. -->
-  <FlatscreenTelevision.description>解锁建造高分辨率的「平板电视」，享受更多乐趣。</FlatscreenTelevision.description>
+  <FlatscreenTelevision.description>大きな娯楽を得られる,高解像度でスクリーンが平面なテレビを作れるようになります.</FlatscreenTelevision.description>
   
   <!-- EN: ground-penetrating scanner -->
-  <GroundPenetratingScanner.label>地质扫描仪</GroundPenetratingScanner.label>
+  <GroundPenetratingScanner.label>地殻深部スキャナー</GroundPenetratingScanner.label>
   <!-- EN: Build ground-penetrating scanners that can detect drillable resources under the surface. Requires an advanced component to construct. -->
-  <GroundPenetratingScanner.description>解锁建造「地质扫描仪」，勘探可用深钻井开采的地底资源。建造时需要高级零部件。</GroundPenetratingScanner.description>
+  <GroundPenetratingScanner.description>地表より深部にある掘削可能な資源を探知できる,地殻深部スキャナーを作成できるようになります.製造には先進コンポーネントが必要です.</GroundPenetratingScanner.description>
   
   <!-- EN: autocannon turret -->
-  <HeavyTurrets.label>自动加农炮塔</HeavyTurrets.label>
+  <HeavyTurrets.label>オートキャノンタレット</HeavyTurrets.label>
   <!-- EN: Produce the heavy autocannon turret. -->
-  <HeavyTurrets.description>解锁建造「自动加农炮塔」，一种重型远程自动炮塔。</HeavyTurrets.description>
+  <HeavyTurrets.description>長射程,重火器のオートキャノンタレットを作れるようになります.</HeavyTurrets.description>
   
   <!-- EN: hospital bed -->
-  <HospitalBed.label>医疗床</HospitalBed.label>
+  <HospitalBed.label>病院用ベッド</HospitalBed.label>
   <!-- EN: Construct hospital beds which improve medical outcomes. -->
-  <HospitalBed.description>解锁建造「医疗床」，提高医疗工作的质量和成功率。</HospitalBed.description>
+  <HospitalBed.description>医療効果を改善する病院用ベッドを製造できるようになります.</HospitalBed.description>
   
   <!-- EN: long-range mineral scanner -->
-  <LongRangeMineralScanner.label>远距离矿物扫描仪</LongRangeMineralScanner.label>
+  <LongRangeMineralScanner.label>長距離鉱物探査スキャナー</LongRangeMineralScanner.label>
   <!-- EN: Construct long-range mineral scanners your researchers can use to detect precious minerals across the planet. Can be tuned to find a specific mineral. Requires advanced components to construct. -->
-  <LongRangeMineralScanner.description>解锁建造「远距离矿物扫描仪」，可自动探测附近区域（非扫描仪所在区域）的稀有矿物，比如黄金或翡翠，建造时需要高级零部件。\n\n半径30格地图内，发现矿物块的频率为平均每30天一次。\n\n在同一区域内或临近区域建造多于一个扫描仪对效率影响不大。</LongRangeMineralScanner.description>
+  <LongRangeMineralScanner.description>惑星上にまたがって存在する希少鉱物を探知するための長距離鉱物探査スキャナーを作れるようになります.特定の鉱物に反応するよう調整できます.製造には先進コンポーネントが必要です.</LongRangeMineralScanner.description>
   
   <!-- EN: medicine production -->
-  <MedicineProduction.label>医药生产</MedicineProduction.label>
+  <MedicineProduction.label>製薬</MedicineProduction.label>
   <!-- EN: Produce standard industrial-tech medicine by combining herbal medicine, neutroamine, and cloth. -->
-  <MedicineProduction.description>解锁将草药、中性胺和布制作成「医药」的技术。</MedicineProduction.description>
+  <MedicineProduction.description>野草,ニュートロアミン,生地を組み合わせた,通常の工業テクノロジーを使った医薬品を製造できるようになります.</MedicineProduction.description>
   
   <!-- EN: microelectronics -->
-  <MicroelectronicsBasics.label>微电子基础</MicroelectronicsBasics.label>
+  <MicroelectronicsBasics.label>マイクロエレクトロニクス 基礎</MicroelectronicsBasics.label>
   <!-- EN: Work with complex microelectronics. This unlocks the hi-tech research bench and comms console. -->
-  <MicroelectronicsBasics.description>用精密复杂的电子进行工作的基础。解锁建造「高级研究台」、「通讯台」。</MicroelectronicsBasics.description>
+  <MicroelectronicsBasics.description>微細で複雑な電子工学の基礎です.これによって,ハイテクリサーチベンチ,通信機器をアンロックします.</MicroelectronicsBasics.description>
   
   <!-- EN: moisture pump -->
-  <MoisturePump.label>排水泵</MoisturePump.label>
+  <MoisturePump.label>土壌改良ポンプ</MoisturePump.label>
   <!-- EN: Construct moisture pumps, which very slowly normalize the moisture in the ground around them. They can turn wet ground dry and convert soft sand into normal sand. -->
-  <MoisturePump.description>解锁建造「排水泵」，非常缓慢地使附近土壤中的水份正常化。它能让潮湿土地变干，并且将软沙变成普通沙地。</MoisturePump.description>
+  <MoisturePump.description>ポンプの周りから非常にゆっくりと水分量を正常化する土壌改良ポンプを製造できるようになります.これは湿った地面を乾燥させたり,柔砂を砂に変換します.</MoisturePump.description>
   
   <!-- EN: multibarrel weapons -->
-  <MultibarrelWeapons.label>多管武器</MultibarrelWeapons.label>
+  <MultibarrelWeapons.label>ガトリング砲</MultibarrelWeapons.label>
   <!-- EN: Assemble miniguns. -->
-  <MultibarrelWeapons.description>解锁制作「速射机枪」。</MultibarrelWeapons.description>
+  <MultibarrelWeapons.description>ガトリング砲を作成できるようになります.</MultibarrelWeapons.description>
   
   <!-- EN: precision rifling -->
-  <PrecisionRifling.label>精准步枪</PrecisionRifling.label>
+  <PrecisionRifling.label>精密なライフリング</PrecisionRifling.label>
   <!-- EN: Craft precisely-machined guns like assault rifles and sniper rifles. -->
-  <PrecisionRifling.description>解锁制作需要精密加工的武器，如突击步枪和狙击步枪。</PrecisionRifling.description>
+  <PrecisionRifling.description>軍用ライフル,スナイパーライフルが作れます.</PrecisionRifling.description>
   
   <!-- EN: shields -->
-  <ShieldBelt.label>护盾</ShieldBelt.label>
+  <ShieldBelt.label>シールド</ShieldBelt.label>
   <!-- EN: Build wearable shield gear. Shields use momentum-repulsion technology to prevent projectiles from traversing the field boundry. -->
-  <ShieldBelt.description>解锁制作可穿戴式护盾。利用动能排斥力场技术，可阻挡炮弹穿过边界。</ShieldBelt.description>
+  <ShieldBelt.description>着用できるシールド装備を製造できるようになります.シールドには運動量反発テクノロジーが使用されており,銃弾等の投射物がフィールドの境界線を通過することを防ぎます.</ShieldBelt.description>
   
   <!-- EN: transport pod -->
-  <TransportPod.label>运输舱</TransportPod.label>
+  <TransportPod.label>輸送ポッド</TransportPod.label>
   <!-- EN: Construct launchable transport pods that you can use to send people and supplies long distances across the planet's surface. Can be used for raiding, travel, sending gifts, and more. -->
-  <TransportPod.description>解锁建造可发射的「运输舱」，可以远距离发射你的人和物资越过行星表面。可用于空降突袭、旅行，送礼物等等。</TransportPod.description>
+  <TransportPod.description>惑星上の長距離間で,人や物資を送ることができる輸送ポッドを製造できるようになります.それは襲撃や旅行,貢ぎ物などにも使用可能です.</TransportPod.description>
   
 </LanguageData>

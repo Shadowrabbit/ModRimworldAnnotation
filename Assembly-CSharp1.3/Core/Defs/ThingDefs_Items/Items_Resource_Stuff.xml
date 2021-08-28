@@ -43,6 +43,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
+      <appearance>Metal</appearance>
       <color>(180,173,150)</color>
       <commonality>0.05</commonality>
       <constructEffect>ConstructMetal</constructEffect>
@@ -59,6 +60,7 @@
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>1000</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
@@ -100,6 +102,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
+      <appearance>Metal</appearance>
       <commonality>0.02</commonality>
       <color>(255,235,122)</color>
       <constructEffect>ConstructMetal</constructEffect>
@@ -119,6 +122,7 @@
       </statFactors>
     </stuffProps>
     <terrainAffordanceNeeded>Medium</terrainAffordanceNeeded>
+    <allowedArchonexusCount>100</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
@@ -157,6 +161,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
+      <appearance>Metal</appearance>
       <commonality>1.00</commonality>
       <constructEffect>ConstructMetal</constructEffect>
       <color>(105,105,105)</color>
@@ -208,6 +213,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
+      <appearance>Metal</appearance>
       <commonality>0.05</commonality>
       <constructEffect>ConstructMetal</constructEffect>
       <color>(160,178,181)</color>
@@ -340,6 +346,7 @@
       <categories>
         <li>Metallic</li>
       </categories>
+      <appearance>Metal</appearance>
       <commonality>0.05</commonality>
       <color>(100,100,100)</color>
       <constructEffect>ConstructMetal</constructEffect>
@@ -484,6 +491,7 @@
         </li>
       </options>
     </colorGeneratorInTraderStock>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
@@ -524,6 +532,7 @@
     <thingCategories>
       <li>Textiles</li>
     </thingCategories>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
@@ -569,6 +578,7 @@
         <compClass>CompColorable</compClass>
       </li>
     </comps>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="ResourceBase">
@@ -613,6 +623,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <!--=====================================================================-->
@@ -652,6 +663,7 @@
       <texPath>Things/Item/Resource/Wool</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <!-- Sheep wool - most basic -->

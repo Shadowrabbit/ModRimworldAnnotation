@@ -63,6 +63,7 @@
         <apparelStat>PsychicSensitivityOffset</apparelStat>
         <includeWeapon>true</includeWeapon>
       </li>
+      <li Class="StatPart_SightPsychicSenstivityOffset" />
       <li Class="StatPart_BlindPsychicSensitivityOffset" MayRequire="Ludeon.RimWorld.Ideology" />
     </parts>
   </StatDef>

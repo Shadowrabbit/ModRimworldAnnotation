@@ -2,8 +2,8 @@
 <LanguageData>
   
   <!-- EN: ambush -->
-  <Ambush.label>伏击</Ambush.label>
+  <Ambush.label>待ち伏せ</Ambush.label>
   <!-- EN: An ongoing ambush battle. -->
-  <Ambush.description>一场正在进行中的伏击战。</Ambush.description>
+  <Ambush.description>待ち伏せによる戦闘が継続中です.</Ambush.description>
   
 </LanguageData>

@@ -4,7 +4,7 @@
   <SitePartDef>
     <defName>AncientComplex</defName>
     <label>ancient complex</label>
-    <description>An ancient complex containg treasure.</description>
+    <description>An ancient complex containing treasure.</description>
     <workerClass>SitePartWorker_AncientComplex</workerClass>
     <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
     <expandingIconTexture>World/WorldObjects/Expanding/Sites/AncientComplex</expandingIconTexture>

@@ -515,6 +515,7 @@
     <impact>Medium</impact>
     <displayOrderInIssue>10</displayOrderInIssue>
     <displayOrderInImpact>100</displayOrderInImpact>
+    <likesHumanLeatherApparel>true</likesHumanLeatherApparel>
     <exclusionTags>
       <li>MeatEatingBadCannibalGood</li>
     </exclusionTags>
@@ -606,6 +607,7 @@
     <impact>High</impact>
     <displayOrderInIssue>0</displayOrderInIssue>
     <displayOrderInImpact>100</displayOrderInImpact>
+    <likesHumanLeatherApparel>true</likesHumanLeatherApparel>
     <requiredMemes>
       <li>Cannibal</li>
     </requiredMemes>
@@ -735,6 +737,7 @@
     <description>Man-flesh is morality. To eat a meal without it is unthinkable.</description>
     <impact>High</impact>
     <displayOrderInImpact>1000</displayOrderInImpact>
+    <likesHumanLeatherApparel>true</likesHumanLeatherApparel>
     <requiredMemes>
       <li>Cannibal</li>
     </requiredMemes>

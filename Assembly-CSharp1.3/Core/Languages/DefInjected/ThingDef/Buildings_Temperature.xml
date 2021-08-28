@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: campfire -->
-  <Campfire.label>篝火</Campfire.label>
+  <Campfire.label>焚き火</Campfire.label>
   <!-- EN: Cooks meals and produces heat, and burns out after a few days. As with all heat sources, it must be placed indoors so it has a closed space to heat. Refuelable. -->
-  <Campfire.description>烹饪食物并产生热量。数天后烧尽。和其他热源一样，必须放置在室内封闭空间才能取暖。可以补充燃料。</Campfire.description>
+  <Campfire.description>食事の調理や暖房に使うもので,数日後には燃え尽きます.他の熱源と同様,暖められるのは密閉空間だけなので,屋内に設置する必要があります.燃料の補充ができます.</Campfire.description>
   
   <!-- EN: cooler -->
-  <Cooler.label>制冷机</Cooler.label>
+  <Cooler.label>クーラー</Cooler.label>
   <!-- EN: An air-cooling machine that fits into a wall. Cool air comes out one side, while hot exhaust comes out the other. Can be used to cool down rooms during summer, or to create a walk-in freezer. -->
-  <Cooler.description>一个能够作为墙体安装的电器设备，可将冷空气吹入房间内，同时外机部分产生大量热量。可以在夏季为房间降温，或者用其建造一个冷库。</Cooler.description>
+  <Cooler.description>電気の力で冷気を部屋に送り込みますが,逆に室外機は多くの熱を発生します.夏の期間,部屋を冷却するのに使用したり,又は,冷凍倉庫として利用できます.</Cooler.description>
   
   <!-- EN: heater -->
-  <Heater.label>加热器</Heater.label>
+  <Heater.label>電気ストーブ</Heater.label>
   <!-- EN: A device that converts electricity into heat. It can automatically turn itself on or off to reach a specific target temperature. -->
-  <Heater.description>一个将电能转换成热能的电器设备。它会自动根据当前室内温度开关以达到设定的目标温度。</Heater.description>
+  <Heater.description>電気を熱に変換する装置です.設定温度に従って,自動的にスイッチが点いたり消えたりします.</Heater.description>
   
   <!-- EN: passive cooler -->
-  <PassiveCooler.label>蒸发制冷器</PassiveCooler.label>
+  <PassiveCooler.label>気化熱クーラー</PassiveCooler.label>
   <!-- EN: A traditional unpowered cooler that works by water evaporation. Must be regularly replenished with wood. Not efficient enough to refrigerate food. -->
-  <PassiveCooler.description>一个传统的制冷器，不需要通电即可运行。通过水蒸发来降温，数天后水分耗尽。</PassiveCooler.description>
+  <PassiveCooler.description>伝統的な電気を使わない冷却器で,水の蒸発を利用します.定期的に木材を補充する必要があります.食品を冷蔵するのに十分なほどの効果はありません.</PassiveCooler.description>
   
   <!-- EN: vent -->
-  <Vent.label>通风孔</Vent.label>
+  <Vent.label>換気口</Vent.label>
   <!-- EN: A vent for equalizing the temperature between two rooms without allowing people to walk between them. -->
-  <Vent.description>一个通风孔，在平衡两个房间的温度同时保持墙体无法通过。</Vent.description>
+  <Vent.description>換気口は,人の往来を禁止した状態のままでも2つの部屋の温度を均一にします.</Vent.description>
   
 </LanguageData>

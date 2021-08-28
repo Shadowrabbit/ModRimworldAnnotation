@@ -7,8 +7,18 @@
   </HistoryEventDef>
 
   <HistoryEventDef>
+    <defName>MinifiedTreeDied</defName>
+    <label>tree died</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
     <defName>Mined</defName>
     <label>mined</label>
+  </HistoryEventDef>
+
+  <HistoryEventDef>
+    <defName>DestroyedMineable</defName>
+    <label>destroyed natural wall</label>
   </HistoryEventDef>
 
   <HistoryEventDef>

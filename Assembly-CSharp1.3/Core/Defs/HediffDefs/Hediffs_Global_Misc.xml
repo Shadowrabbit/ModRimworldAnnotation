@@ -561,18 +561,15 @@
     <isBad>false</isBad>
     <initialSeverity>0.001</initialSeverity>
     <comps>
-      <li Class="HediffCompProperties_Discoverable">
-        <sendLetterWhenDiscovered>true</sendLetterWhenDiscovered>
-        <discoverLetterLabel>{0} pregnant</discoverLetterLabel>
-        <discoverLetterText>{0} is pregnant!</discoverLetterText>
-        <letterType>PositiveEvent</letterType>
+      <li Class="HediffCompProperties_MessageAfterTicks">
+        <ticks>600</ticks>
+        <message>{0} is pregnant!</message>
         <messageType>PositiveEvent</messageType>
       </li>
     </comps>
     <stages>
       <li>
         <label>early-stage</label>
-        <becomeVisible>false</becomeVisible>
         <vomitMtbDays>2.5</vomitMtbDays>
       </li>
       <li>

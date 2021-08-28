@@ -165,7 +165,7 @@
         <li>UpperHead</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/TribalHeaddress/TribalHeaddress</wornGraphicPath>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
       <layers>
         <li>Overhead</li>
       </layers>
@@ -274,8 +274,8 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/WarMask/WarMask</wornGraphicPath>
       <hatRenderedFrontOfFace>true</hatRenderedFrontOfFace>
-      <canBeDesiredForIdeo>false</canBeDesiredForIdeo>
-      <layers>
+      <ideoDesireAllowedFactionCategoryTags><li>Tribal</li></ideoDesireAllowedFactionCategoryTags>
+      <layers> 
         <li>Overhead</li>
       </layers>
       <defaultOutfitTags>
@@ -555,7 +555,7 @@
   <ThingDef ParentName="ApparelArmorHelmetPowerBase">
     <defName>Apparel_PowerArmorHelmet</defName>
     <label>marine helmet</label>
-    <description>A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
+    <description>A marine armor helmet, with a built-in status computer and layered plasteel-weave plates.\n\nArmor like this is often used by rapid-incursion space marines.</description>
     <apparel>
       <tags>
         <li>SpacerMilitary</li>

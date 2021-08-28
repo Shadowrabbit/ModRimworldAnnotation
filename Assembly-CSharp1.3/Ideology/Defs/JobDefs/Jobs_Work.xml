@@ -66,6 +66,12 @@
   </JobDef>
 
   <JobDef>
+    <defName>CreateAndEnterHealingPod</defName>
+    <driverClass>JobDriver_CreateAndEnterHealingPod</driverClass>
+    <reportString>creating healing pod.</reportString>
+  </JobDef>
+
+  <JobDef>
     <defName>ReturnToGauranlenTree</defName>
     <driverClass>JobDriver_ReturnToGauranlenTree</driverClass>
     <reportString>returning to TargetA.</reportString>

@@ -7,6 +7,7 @@
     <rootMinPoints>350</rootMinPoints>
     <canGiveRoyalFavor>true</canGiveRoyalFavor>
     <expireDaysRange>4~8</expireDaysRange>
+    <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">Raided_BanditCamp</successHistoryEvent>
     <questNameRules>
       <rulesStrings>
         <li>questName->The [bandit] [camp]</li>

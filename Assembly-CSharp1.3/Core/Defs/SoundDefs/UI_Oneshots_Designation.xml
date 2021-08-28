@@ -345,4 +345,21 @@
     </subSounds>
   </SoundDef>
 
+  <SoundDef>
+    <defName>Designate_ExtractTree</defName>    
+    <maxSimultaneous>1</maxSimultaneous>  
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>      
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Interact/Work/Grow</clipFolderPath>
+          </li>
+        </grains>      
+        <volumeRange>14</volumeRange>      
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+
 </Defs>

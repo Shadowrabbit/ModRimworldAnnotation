@@ -9,7 +9,17 @@
       <li>
         <label>{RELICNAME} at ritual</label>
         <description>{RELICNAME} was present during our ritual.</description>
+        <baseMoodEffect>2</baseMoodEffect>
+      </li>
+      <li>
+        <label>two relics at ritual</label>
+        <description>Two relics were present during our ritual.</description>
         <baseMoodEffect>3</baseMoodEffect>
+      </li>
+      <li>
+        <label>three relics at ritual</label>
+        <description>Three relics were present during our ritual.</description>
+        <baseMoodEffect>4</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

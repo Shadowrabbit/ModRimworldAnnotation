@@ -2,20 +2,17 @@
 <LanguageData>
   
   <!-- EN: centipede -->
-  <Mech_Centipede.label>机械蜈蚣</Mech_Centipede.label>
-  <Mech_Centipede.labelPlural>机械蜈蚣</Mech_Centipede.labelPlural>
+  <Mech_Centipede.label>機械化ムカデ</Mech_Centipede.label>
   
   <!-- EN: lancer -->
-  <Mech_Lancer.label>机械静螳</Mech_Lancer.label>
-  <Mech_Lancer.labelPlural>机械静螳</Mech_Lancer.labelPlural>
+  <Mech_Lancer.label>機械化ランス</Mech_Lancer.label>
   
   <!-- EN: pikeman -->
-  <Mech_Pikeman.label>机械蝎蝽</Mech_Pikeman.label>
+  <Mech_Pikeman.label>機械化パイク</Mech_Pikeman.label>
   <!-- EN: pikemen -->
-  <Mech_Pikeman.labelPlural>机械蝎蝽</Mech_Pikeman.labelPlural>
+  <Mech_Pikeman.labelPlural>機械化パイク</Mech_Pikeman.labelPlural>
   
   <!-- EN: scyther -->
-  <Mech_Scyther.label>机械飞螳</Mech_Scyther.label>
-  <Mech_Scyther.labelPlural>机械飞螳</Mech_Scyther.labelPlural>
+  <Mech_Scyther.label>機械化カマキリ</Mech_Scyther.label>
   
 </LanguageData>

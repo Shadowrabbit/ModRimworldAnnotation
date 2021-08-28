@@ -2,54 +2,54 @@
 <LanguageData>
   
   <!-- EN: building snowman. -->
-  <BuildSnowman.reportString>堆雪人。</BuildSnowman.reportString>
+  <BuildSnowman.reportString>雪ダルマを作っている</BuildSnowman.reportString>
   
   <!-- EN: going for a walk. -->
-  <GoForWalk.reportString>散步。</GoForWalk.reportString>
+  <GoForWalk.reportString>散歩をしている</GoForWalk.reportString>
   
   <!-- EN: meditating. -->
-  <Meditate.reportString>冥想。</Meditate.reportString>
+  <Meditate.reportString>瞑想している</Meditate.reportString>
   
   <!-- EN: playing billiards. -->
-  <Play_Billiards.reportString>打台球。</Play_Billiards.reportString>
+  <Play_Billiards.reportString>ビリヤードをして遊んでいる</Play_Billiards.reportString>
   
   <!-- EN: playing chess. -->
-  <Play_Chess.reportString>下棋。</Play_Chess.reportString>
+  <Play_Chess.reportString>チェスをして遊んでいる</Play_Chess.reportString>
   
   <!-- EN: playing the game of Ur. -->
-  <Play_GameOfUr.reportString>玩皇家博弈棋。</Play_GameOfUr.reportString>
+  <Play_GameOfUr.reportString>ウルをして遊んでいる</Play_GameOfUr.reportString>
   
   <!-- EN: playing hoopstone. -->
-  <Play_Hoopstone.reportString>玩投石圈。</Play_Hoopstone.reportString>
+  <Play_Hoopstone.reportString>フープストーンをして遊んでいる</Play_Hoopstone.reportString>
   
   <!-- EN: playing horseshoes. -->
-  <Play_Horseshoes.reportString>玩马蹄钉。</Play_Horseshoes.reportString>
+  <Play_Horseshoes.reportString>輪投げをして遊んでいる</Play_Horseshoes.reportString>
   
   <!-- EN: playing poker. -->
-  <Play_Poker.reportString>打扑克。</Play_Poker.reportString>
+  <Play_Poker.reportString>ポーカーをして遊んでいる</Play_Poker.reportString>
   
   <!-- EN: praying. -->
-  <Pray.reportString>祈祷。</Pray.reportString>
+  <Pray.reportString>祈っている</Pray.reportString>
   
   <!-- EN: skygazing. -->
-  <Skygaze.reportString>凝视天空。</Skygaze.reportString>
+  <Skygaze.reportString>空を眺めている</Skygaze.reportString>
   
   <!-- EN: relaxing socially. -->
-  <SocialRelax.reportString>社交放松。</SocialRelax.reportString>
+  <SocialRelax.reportString>くつろいでいる</SocialRelax.reportString>
   
   <!-- EN: using telescope. -->
-  <UseTelescope.reportString>用望远镜。</UseTelescope.reportString>
+  <UseTelescope.reportString>望遠鏡で観察している</UseTelescope.reportString>
   
   <!-- EN: viewing art. -->
-  <ViewArt.reportString>观赏艺术。</ViewArt.reportString>
+  <ViewArt.reportString>アートを鑑賞している</ViewArt.reportString>
   
   <!-- EN: visiting grave. -->
-  <VisitGrave.reportString>扫墓。</VisitGrave.reportString>
+  <VisitGrave.reportString>墓を訪れている</VisitGrave.reportString>
   
   <!-- EN: cheering up patient TargetA. -->
-  <VisitSickPawn.reportString>看望病人TargetA。</VisitSickPawn.reportString>
+  <VisitSickPawn.reportString>TargetAを励ましている</VisitSickPawn.reportString>
   
   <!-- EN: watching television. -->
-  <WatchTelevision.reportString>看电视。</WatchTelevision.reportString>
+  <WatchTelevision.reportString>テレビを見ている</WatchTelevision.reportString>
   
 </LanguageData>

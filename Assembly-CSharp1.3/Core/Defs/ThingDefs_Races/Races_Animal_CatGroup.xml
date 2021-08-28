@@ -184,7 +184,7 @@
     <defName>YorkshireTerrier</defName>
     <label>yorkshire terrier</label>
     <devNote>cat-1</devNote>
-    <description>A small, even-tempered dog. Originally bred to hunt rats, it later became a show and companionship animal. Some consider it useless, but the mood boost it gives by nuzzling can outweight the cost of feeding it.</description>
+    <description>A small, even-tempered dog. Originally bred to hunt rats, it later became a show and companionship animal. Some consider it useless, but the mood boost it gives by nuzzling can outweigh the cost of feeding it.</description>
     <statBases>
       <MoveSpeed>3.1</MoveSpeed>
       <MarketValue>100</MarketValue>

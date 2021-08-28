@@ -8,7 +8,7 @@
       <li>
         <grains>
           <li Class="AudioGrain_Clip">
-            <clipPath>PlaceholderWav</clipPath>
+            <clipPath>Buildings/SecurityCrate/Open</clipPath>
           </li>
         </grains>
         <distRange>25~50</distRange>

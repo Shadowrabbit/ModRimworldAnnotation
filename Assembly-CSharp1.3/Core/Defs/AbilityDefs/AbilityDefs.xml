@@ -33,6 +33,11 @@
       <verbClass>Verb_CastAbility</verbClass>
       <range>-1</range>
     </verbProperties>
+    <comps>
+      <li Class="CompProperties_AbilityRequiresCapacity">
+        <capacity>Talking</capacity>
+      </li>
+    </comps>
   </AbilityDef>
 
 </Defs>

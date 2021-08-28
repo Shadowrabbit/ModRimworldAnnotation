@@ -20,10 +20,7 @@
       </points>
     </selectionWeightPerPointsCurve>
     <arriveModes>
-      <li>EdgeDrop</li>
       <li>EdgeWalkIn</li>
-      <li>CenterDrop</li>
-      <li>RandomDrop</li>
     </arriveModes>
     <letterLabelEnemy>Raid</letterLabelEnemy>
     <letterLabelFriendly>Friendlies</letterLabelFriendly>

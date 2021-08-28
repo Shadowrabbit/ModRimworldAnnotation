@@ -246,6 +246,7 @@
     <defName>AncientFuelNode</defName>
     <label>ancient unstable fuel node</label>
     <description>An ancient, unstable fuel node once used to charge machines with fuel. It has become unstable over the years due to lack of maintenance.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientFuelNode</texPath>
       <graphicClass>Graphic_Random</graphicClass>

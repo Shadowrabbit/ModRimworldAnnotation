@@ -10,9 +10,9 @@
       <size>(1,1)</size>
       <fillPercent>0.5</fillPercent>
       <altitudeLayer>Building</altitudeLayer>
-      <rotatable>false</rotatable>
       <passability>PassThroughOnly</passability>
       <pathCost>50</pathCost>
+      <rotatable>false</rotatable>
       <statBases>
         <MaxHitPoints>150</MaxHitPoints>
         <WorkToBuild>30</WorkToBuild>
@@ -26,6 +26,7 @@
       <description>An ancient, rusted shopping cart. How exactly it got here is a mystery, but the story is long and probably quite sad.</description>
       <graphicData>
         <texPath>Things/Building/Ruins/ShoppingCart</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
         <shadowData>
           <volume>(0.9, 0.35, 0.45)</volume>
         </shadowData>
@@ -115,6 +116,102 @@
         <WorkToBuild>40</WorkToBuild>
       </statBases>
     </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientOven</defName>
+      <label>ancient oven</label>
+      <description>An ancient oven. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientOven</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientATM</defName>
+      <label>ancient ATM</label>
+      <description>An ancient ATM. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientATM</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientWashingMachine</defName>
+      <label>ancient washing machine</label>
+      <description>An ancient device used for washing textiles. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientWashingMachine</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientHydrant</defName>
+      <label>ancient hydrant</label>
+      <description>An ancient hydrant. Heavily rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientHydrant</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientMicrowave</defName>
+      <label>ancient microwave</label>
+      <description>An ancient device for heating food. Smashed and rusted, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientMicrowave</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
+  
+    <ThingDef ParentName="AncientSmallWalkableBuildingBase">
+      <defName>AncientToilet</defName>
+      <label>ancient toilet</label>
+      <description>An ancient toilet. Smashed long ago, it is completely useless now.\n\nHow it got here is hard to say.</description>
+      <graphicData>
+        <texPath>Things/Building/Ruins/AncientToilet</texPath>
+        <shadowData>
+          <volume>(0.99, 0.35, 0.99)</volume>
+        </shadowData>
+      </graphicData>
+      <statBases>
+        <MaxHitPoints>200</MaxHitPoints>
+        <WorkToBuild>40</WorkToBuild>
+      </statBases>
+    </ThingDef>
     
     <ThingDef ParentName="AncientSmallWalkableBuildingBase">
       <defName>AncientRefrigerator</defName>
@@ -185,6 +282,7 @@
       <label>ancient wheel</label>
       <description>An ancient wheel from some kind of vehicle. The rubber has deteriorated away and the metal is twisted and rusted.</description>
       <graphicData>
+        <graphicClass>Graphic_Random</graphicClass>
         <texPath>Things/Building/Ruins/Wheel</texPath>
         <shadowData>
           <volume>(0.55, 0.35, 0.55)</volume>
@@ -202,6 +300,7 @@
       <description>A giant wheel which came off some large vehicle many ages ago. The rubber has disintegrated away and the metal is twisted and rusted.</description>
       <graphicData>
         <texPath>Things/Building/Ruins/GiantWheel</texPath>
+        <graphicClass>Graphic_Random</graphicClass>
         <shadowData>
           <volume>(1.35, 0.35, 1.35)</volume>
         </shadowData>
@@ -233,8 +332,8 @@
     <label>ancient car</label>
     <description>An ancient, broken car. Everything that isn't rusted away was looted long ago.</description>
     <graphicData>
-      <texPath>Things/Building/Ruins/RustedCar</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Things/Building/Ruins/RustedCars</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
       <drawSize>(2,4)</drawSize>
       <shadowData>
         <volume>(1.8, 0.7, 3.8)</volume>
@@ -315,6 +414,29 @@
       <ChunkSlagSteel>4</ChunkSlagSteel>
     </killedLeavings>
   </ThingDef>
+
+  <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+    <defName>AncientRustedDropship</defName>
+    <label>ancient dropship</label>
+    <description>The remains of an ancient dropship. The valuable parts were looted long ago and the rest has deteriorated to uselessness.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientRustedDropship</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(6,5)</drawSize>
+      <shadowData>
+        <volume>(5.0, 0.55, 4.0)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(6,5)</size>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>4000</MaxHitPoints>
+    </statBases>
+    <killedLeavings>
+      <ChunkSlagSteel>4</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
   
   <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
     <defName>AncientWarwalkerClaw</defName>
@@ -364,6 +486,7 @@
     <defName>AncientMiniWarwalkerRemains</defName>
     <label>ancient warsprinter remains</label>
     <description>The shattered remains of an ancient sub-scale warsprinter. Whatever parts weren't ruined when it was destroyed were looted long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientWarsprinterRemains</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -374,7 +497,6 @@
     </graphicData>
     <size>(5,3)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>1800</MaxHitPoints>
     </statBases>
@@ -387,6 +509,7 @@
     <defName>AncientWarspiderRemains</defName>
     <label>ancient warspider remains</label>
     <description>The ruined remains of an ancient mid-scale warspider. It has been picked over many times, and there is nothing valuable left to loot.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientWarspiderRemains</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -397,7 +520,6 @@
     </graphicData>
     <size>(5,5)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>4000</MaxHitPoints>
     </statBases>
@@ -410,6 +532,7 @@
     <defName>AncientPipelineSection</defName>
     <label>ancient pipeline section</label>
     <description>A section from an ancient pipeline. It once carried some valuable fluid over long distances. Now it's been looted and deteriorated to uselessness.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/PipelineSection</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -420,7 +543,6 @@
     </graphicData>
     <size>(2,1)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>400</MaxHitPoints>
     </statBases>
@@ -433,6 +555,7 @@
     <defName>AncientWarwalkerFoot</defName>
     <label>ancient warwalker foot</label>
     <description>A massive foot from an ancient warwalker. It seems to have been torn free from its owner by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientWarwalkerFoot</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -443,7 +566,6 @@
     </graphicData>
     <size>(2,2)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>600</MaxHitPoints>
     </statBases>
@@ -456,6 +578,7 @@
     <defName>AncientTank</defName>
     <label>ancient ruined tank</label>
     <description>The remains of an ancient tank which was destroyed by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/RuinedTank</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -466,7 +589,29 @@
     </graphicData>
     <size>(5,3)</size>
     <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <killedLeavings>
+      <ChunkSlagSteel>6</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+
+  <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+    <defName>AncientAPC</defName>
+    <label>ancient ruined APC</label>
+    <description>The remains of an ancient armoured troop carrier which was destroyed by some kind of heavy weapon. All the useful components were looted or deteriorated long ago.</description>
     <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/RuinedAPC</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(5,3)</drawSize>
+      <shadowData>
+        <volume>(4.5, 0.55, 2.4)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(5,3)</size>
+    <fillPercent>0.5</fillPercent>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
     </statBases>
@@ -479,6 +624,7 @@
     <defName>AncientWarwalkerShell</defName>
     <label>ancient warwalker shell</label>
     <description>Most of the armored shell of a warwalker. It appears to have been torn off by some colossal weapon system. All the valuable parts were looted, and the rest is badly deteriorated.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientWarwalkerShell</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -489,7 +635,6 @@
     </graphicData>
     <size>(5,3)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
     </statBases>
@@ -502,6 +647,7 @@
     <defName>AncientJetEngine</defName>
     <label>ancient jet engine</label>
     <description>An ancient jet engine, probably detached from a large airplane. Its delicate internals are rusted to uselessness, and the valuable parts were looted long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/JetEngine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -512,7 +658,29 @@
     </graphicData>
     <size>(3,2)</size>
     <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>2000</MaxHitPoints>
+    </statBases>
+    <killedLeavings>
+      <ChunkSlagSteel>6</ChunkSlagSteel>
+    </killedLeavings>
+  </ThingDef>
+
+  <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+    <defName>AncientDropshipEngine</defName>
+    <label>ancient dropship engine</label>
+    <description>An ancient dropship engine. It probably came off a military troop carrier. Its delicate internals are rusted to uselessness, and the valuable parts were looted long ago.</description>
     <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientDropshipEngine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(3,2)</drawSize>
+      <shadowData>
+        <volume>(2.5, 0.55, 1.5)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(3,2)</size>
+    <fillPercent>0.5</fillPercent>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
     </statBases>
@@ -525,6 +693,7 @@
     <defName>AncientPodCar</defName>
     <label>ancient pod car</label>
     <description>An ancient pod car once capable of automated flight. Its valuable parts were looted long ago, and the rest is badly deteriorated.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/PodCar</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -535,13 +704,57 @@
     </graphicData>
     <size>(3,2)</size>
     <fillPercent>0.5</fillPercent>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>600</MaxHitPoints>
     </statBases>
     <killedLeavings>
       <ChunkSlagSteel>6</ChunkSlagSteel>
     </killedLeavings>
+  </ThingDef>
+
+  <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+    <defName>AncientTankTrap</defName>
+    <label>ancient tank trap</label>
+    <description>An defensive fortification for stopping vehicles. It's been deteriorating for many years.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientTankTrap</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(2,2)</drawSize>
+      <shadowData>
+        <volume>(0.6, 0.65, 0.6)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(2,2)</size>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="NonDeconstructibleAncientBuildingBase">
+    <defName>AncientLargeRustedEngineBlock</defName>
+    <label>ancient macro-engine block</label>
+    <description>An large, ancient engine block from some giant vehicle or power source. It's rusted through, and all the useful components are gone. No repair could salvage this.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/LargeEngineBlock</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(2,1)</drawSize>
+      <shadowData>
+        <volume>(1.65, 0.35, 0.7)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(2,1)</size>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToBuild>60</WorkToBuild>
+    </statBases>
+    <pathCost>50</pathCost>
   </ThingDef>
 
   <!-- Misc -->
@@ -590,6 +803,7 @@
     <defName>AncientRazorWire</defName>
     <label>ancient razor wire</label>
     <description>A piece of ancient razor wire. It has been deteriorating for many years and no longer poses any danger.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientRazorWire</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -608,9 +822,32 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
+    <defName>AncientPipes</defName>
+    <label>ancient pipes</label>
+    <description>A bunch of rusted old pipes. It is hard to say how these ended up here.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientPipes</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <size>(1, 1)</size>
+    <fillPercent>0.5</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
     <defName>AncientMegaCannonTripod</defName>
     <label>ancient mega-cannon platform</label>
     <description>A mounting platform that once held some sort of cannon. It has been broken for many years and every useful component was looted long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientMegacannonTripod</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -648,32 +885,29 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>AncientTankTrap</defName>
-    <label>ancient tank trap</label>
-    <description>An defensive fortification for stopping vehicles. It's been deteriorating for many years.</description>
+    <defName>AncientContainer</defName>
+    <label>ancient container</label> <!-- text_ todo -->
+    <description>A large container from some ancient freight carrying vehicle. It has long since been looted and deteriorted into uselessness.</description> <!-- text_ todo -->
     <graphicData>
-      <texPath>Things/Building/Ruins/AncientTankTrap</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <shadowData>
-        <volume>(0.6, 0.65, 0.6)</volume>
-      </shadowData>
+      <texPath>Things/Building/Ruins/AncientContainer</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,5)</drawSize>
     </graphicData>
-    <size>(2,2)</size>
-    <fillPercent>0.5</fillPercent>
+    <size>(3,5)</size>
+    <fillPercent>1</fillPercent>
     <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>500</MaxHitPoints>
       <WorkToBuild>200</WorkToBuild>
     </statBases>
-    <passability>PassThroughOnly</passability>
-    <pathCost>50</pathCost>
+    <passability>Impassable</passability>
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
     <defName>AncientMechanoidShell</defName>
     <label>ancient mechanoid shell</label>
     <description>A shell from a smashed mechanoid. It has been deteriorating for many years and the useful components have disintegrated.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/DestroyedMechanoidShell</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -691,9 +925,30 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
+    <defName>AncientCentipedeShell</defName>
+    <label>ancient centipede shell</label>
+    <description>A shell from a smashed centipede. It has been deteriorating for many years and all the useful components have disintegrated.</description>
+    <graphicData>
+      <texPath>Things/Building/Ruins/DestroyedCentipedeShell/DestroyedCentipedeShell</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(1,2)</drawSize>
+    </graphicData>
+    <size>(1,2)</size>
+    <fillPercent>0.25</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <WorkToBuild>200</WorkToBuild>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
     <defName>AncientMechDropBeacon</defName>
     <label>ancient mech drop beacon</label>
     <description>The broken shell of a mech drop beacon. Its useful components are missing and the shell has deteriorated after many years.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/DestroyedMechDropBeacon</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -718,6 +973,7 @@
     <defName>AncientSecurityTurret</defName>
     <label>ancient security turret</label>
     <description>An ancient, broken security turret. The valuable parts have all been looted or smashed.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientSecurityTurret</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -741,6 +997,7 @@
     <defName>AncientRustedEngineBlock</defName>
     <label>ancient engine block</label>
     <description>An ancient engine block that is rusted through. No repair could salvage this.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/RustedEngineBlock</texPath>
       <graphicClass>Graphic_Random</graphicClass>
@@ -761,34 +1018,10 @@
   </ThingDef>
 
   <ThingDef ParentName="BuildingBase">
-    <defName>AncientLargeRustedEngineBlock</defName>
-    <label>ancient macro-engine block</label>
-    <description>An large, ancient engine block from some giant vehicle or power source. It's rusted through, and all the useful components are gone. No repair could salvage this.</description>
-    <graphicData>
-      <texPath>Things/Building/Ruins/LargeEngineBlock</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,1)</drawSize>
-      <shadowData>
-        <volume>(1.65, 0.35, 0.7)</volume>
-      </shadowData>
-    </graphicData>
-    <size>(2,1)</size>
-    <fillPercent>0.5</fillPercent>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <statBases>
-      <MaxHitPoints>600</MaxHitPoints>
-      <WorkToBuild>60</WorkToBuild>
-    </statBases>
-    <passability>Impassable</passability>
-    <canOverlapZones>false</canOverlapZones>
-    <pathCost>50</pathCost>
-  </ThingDef>
-
-  <ThingDef ParentName="BuildingBase">
     <defName>AncientShipBeacon</defName>
     <label>ancient nav beacon</label>
     <description>An ancient, broken ship navigation beacon. Every useful component was looted long ago.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientBustedShipBeacon</texPath>
       <graphicClass>Graphic_Single</graphicClass>

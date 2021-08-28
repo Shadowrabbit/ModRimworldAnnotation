@@ -3,7 +3,7 @@
 
   <InstructionDef>
     <defName>CreateWorldParams</defName>
-    <text>This page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE!</text>
+    <text>Welcome to RimWorld!\n\nThis page configures how your world should be generated.\n\nThe default settings here are good - go ahead and click GENERATE!</text>
     <eventTagInitiate>PageStart-CreateWorldParams</eventTagInitiate>
     <actionTagsAllowed>
       <li>GotoPrevPage</li>
@@ -612,7 +612,7 @@
 
   <InstructionDef>
     <defName>DownRaider</defName>
-    <text>I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically.</text>
+    <text>I've now sent a raider to attack your colony!\n\n1. Pause the game by hitting {Key:TogglePause}!\n2. Read the red letter in the bottom-right of the screen.\n3. DRAFT your colonists by selecting them and hitting the DRAFT command.\n4. Right-click to send them to positions inside the sandbag square, touching the sandbags.\n5. Unpause.\n\nColonists must be touching cover to benefit from it. Once you're in cover, wait for the attacker to approach. Your colonists will shoot automatically.</text>
     <eventTagInitiate>InstructionDeactivated-FinishSandbags</eventTagInitiate>
     <instructionClass>Instruction_DownRaider</instructionClass>
     <actionTagsAllowed>

@@ -38,6 +38,7 @@
     <blockLight>true</blockLight>
     <mineable>true</mineable>
     <fertility>0</fertility>
+    <canOverlapZones>false</canOverlapZones>
     <statBases>
       <Flammability>0</Flammability>
     </statBases>

@@ -29,4 +29,11 @@
     <label>headgear</label>
     <drawOrder>400</drawOrder>
   </ApparelLayerDef>
+
+  <ApparelLayerDef>
+    <defName>EyeCover</defName>
+    <label>eyes</label>
+    <drawOrder>500</drawOrder>
+  </ApparelLayerDef>
+  
 </Defs>

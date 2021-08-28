@@ -2,31 +2,31 @@
 <LanguageData>
   
   <!-- EN: denture -->
-  <Denture.label>义齿</Denture.label>
+  <Denture.label>入れ歯</Denture.label>
   <!-- EN: An installed denture. -->
-  <Denture.description>一排已安装的义齿</Denture.description>
+  <Denture.description>移植された入れ歯</Denture.description>
   <!-- EN: a denture -->
-  <Denture.labelNoun>义齿</Denture.labelNoun>
+  <Denture.labelNoun>入れ歯</Denture.labelNoun>
   
   <!-- EN: peg leg -->
-  <PegLeg.label>木腿</PegLeg.label>
+  <PegLeg.label>木製義足(杖)</PegLeg.label>
   <!-- EN: An installed peg leg. -->
-  <PegLeg.description>一条已安装的木腿</PegLeg.description>
+  <PegLeg.description>移植された木製義足(杖)</PegLeg.description>
   <!-- EN: a peg leg -->
-  <PegLeg.labelNoun>木腿</PegLeg.labelNoun>
+  <PegLeg.labelNoun>木製義足(杖)</PegLeg.labelNoun>
   
   <!-- EN: wooden foot -->
-  <WoodenFoot.label>木足</WoodenFoot.label>
+  <WoodenFoot.label>木製義足(足形)</WoodenFoot.label>
   <!-- EN: An installed wooden foot. -->
-  <WoodenFoot.description>一只已安装的木足</WoodenFoot.description>
+  <WoodenFoot.description>移植された木製義足(足型)</WoodenFoot.description>
   <!-- EN: a wooden foot -->
-  <WoodenFoot.labelNoun>木足</WoodenFoot.labelNoun>
+  <WoodenFoot.labelNoun>木製義足(足形)</WoodenFoot.labelNoun>
   
   <!-- EN: wooden hand -->
-  <WoodenHand.label>木手</WoodenHand.label>
+  <WoodenHand.label>木製義手</WoodenHand.label>
   <!-- EN: An installed wooden hand. -->
-  <WoodenHand.description>一只已安装的木手</WoodenHand.description>
+  <WoodenHand.description>移植された木製義手</WoodenHand.description>
   <!-- EN: a wooden hand -->
-  <WoodenHand.labelNoun>木手</WoodenHand.labelNoun>
+  <WoodenHand.labelNoun>木製義手</WoodenHand.labelNoun>
   
 </LanguageData>

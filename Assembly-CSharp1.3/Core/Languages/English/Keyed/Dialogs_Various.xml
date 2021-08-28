@@ -166,6 +166,12 @@
   <Damage>Damage</Damage>
   <ArmorPenetration>Armor penetration</ArmorPenetration>
   <ArmorPenetrationExplanation>Armor penetration is the amount of armor this weapon will ignore each time it hits the target.\n\nIf armor penetration is greater than the target's armor, it is as though the target is unarmored. Otherwise, the armor penetration is subtracted from the target's armor.</ArmorPenetrationExplanation>
+  <BuildingDamageFactor>Building damage factor</BuildingDamageFactor>
+  <BuildingDamageFactorExplanation>Damage to all buildings is multiplied by this value.</BuildingDamageFactorExplanation>
+  <BuildingDamageFactorImpassable>Building damage factor (impassable)</BuildingDamageFactorImpassable>
+  <BuildingDamageFactorImpassableExplanation>Damage to all impassable buildings is multiplied by this value.</BuildingDamageFactorImpassableExplanation>
+  <BuildingDamageFactorPassable>Building damage factor (passable)</BuildingDamageFactorPassable>
+  <BuildingDamageFactorPassableExplanation>Damage to all passable buildings is multiplied by this value.</BuildingDamageFactorPassableExplanation>
   <Accuracy>Accuracy</Accuracy>
   <BurstShotCount>Burst shot count</BurstShotCount>
   <WarmupTime>Warmup</WarmupTime>
@@ -359,6 +365,7 @@
   <DaysWorthOfFoodTooltip>The approximate number of days before at least one person or animal will be out of food. Different species have different diets, so one may run out of food before others. This value is calculated more accurately after the route is chosen.\n\nAffected by:\n  - Current pawn inventory\n  - Carried food type and amount\n  - Caravan members and their diets\n  - Foraging rate\n  - Whether animals can graze\n  - Time until food rots\n  - Hot weather rots food faster</DaysWorthOfFoodTooltip>
   <DaysWorthOfFoodTooltip_OnlyFirstWaypoint>(only the first waypoint is taken into account)</DaysWorthOfFoodTooltip_OnlyFirstWaypoint>
   <DaysWorthOfFoodWarningDialog>Your caravan only has {0} days worth of food and will become hungry quickly.</DaysWorthOfFoodWarningDialog>
+  <DaysWorthOfFoodDietWarningDialog>Some peoples' diets don't allow most of the food in your caravan. If they're forced to eat it due to hunger, they will become unhappy.</DaysWorthOfFoodDietWarningDialog>
   <DaysWorthOfFoodWarningDialog_NoFood>Your caravan has no food and will become hungry very quickly.</DaysWorthOfFoodWarningDialog_NoFood>
   <ForagedFoodPerDayTip>The average amount of food per day your people will forage. This value will change as you travel across biomes with different forage yield rates.</ForagedFoodPerDayTip>
   <ForagedFoodPerDay>Forage per day</ForagedFoodPerDay>
@@ -595,16 +602,30 @@
   <AutoSlaugtherHeaderColMax>Max</AutoSlaugtherHeaderColMax>
   <AutoSlaugtherHeaderColTotal>Total</AutoSlaugtherHeaderColTotal>
   <AutoSlaugtherHeaderColOther>Other</AutoSlaugtherHeaderColOther> <!-- this is the count of the "cannot-auto-slaughter" animals -->
-  <AutoSlaugtherTip>If you have more than the max number of animals, colonists will slaughter the oldest animals until you are under the limit.</AutoSlaugtherTip>
+  <AutoSlaugtherTip>Colonists first slaughter non-pregnant animals in order from oldest to youngest, then pregnant animals from most recent to least recent pregnancy.</AutoSlaugtherTip>
+  <AnimalMaleAdult>Male adult</AnimalMaleAdult>
+  <AnimalMaleYoung>Male young</AnimalMaleYoung>
+  <AnimalFemaleAdult>Female adult</AnimalFemaleAdult>
+  <AnimalFemaleYoung>Female young</AnimalFemaleYoung>
+  <AnimalPregnant>Pregnant</AnimalPregnant>
+  <AnimalBonded>Bonded</AnimalBonded>
+  <AllowSlaughter>Slaughter</AllowSlaughter>
 
   <AutoSlaugtherHeaderTooltipLabel>The animal to be automatically slaughtered.</AutoSlaugtherHeaderTooltipLabel>
-  <AutoSlaugtherHeaderTooltipCurrentTotal>The current number of animals in the colony, both male and female.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipCurrentTotal>
-  <AutoSlaugtherHeaderTooltipMaxTotal>The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipMaxTotal>
-  <AutoSlaugtherHeaderTooltipCurrentMales>The current number of males in the colony.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipCurrentMales>
-  <AutoSlaugtherHeaderTooltipMaxMales>The maximum number of males in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipMaxMales>
-  <AutoSlaugtherHeaderTooltipCurrentFemales>The current number of females in the colony.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipCurrentFemales>
-  <AutoSlaugtherHeaderTooltipMaxFemales>Desired maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.\n\nPregnant and immature animals are ignored.</AutoSlaugtherHeaderTooltipMaxFemales>
-  <AutoSlaugtherHeaderTooltipOther>The current number of pregnant or immature animals in the colony.\n\nThese animals are ignored.</AutoSlaugtherHeaderTooltipOther>
+  <AutoSlaugtherHeaderTooltipCurrentTotal>The current number of animals in the colony, both male and female.</AutoSlaugtherHeaderTooltipCurrentTotal>
+  <AutoSlaugtherHeaderTooltipMaxTotal>The maximum number of animals in the colony, both male and female.\n\nHandlers will automatically slaughter any extras.</AutoSlaugtherHeaderTooltipMaxTotal>
+  <AutoSlaugtherHeaderTooltipCurrentMales>The current number of males of breeding age in the colony.</AutoSlaugtherHeaderTooltipCurrentMales>
+  <AutoSlaughterHeaderTooltipCurrentMalesYoung>The current number of baby and juvenile males in the colony.</AutoSlaughterHeaderTooltipCurrentMalesYoung>
+  <AutoSlaugtherHeaderTooltipMaxMales>The maximum number of males of breeding age in the colony.\n\nHandlers will automatically slaughter any extras.</AutoSlaugtherHeaderTooltipMaxMales>
+  <AutoSlaughterHeaderTooltipMaxMalesYoung>The maximum number of baby and juvenile males in the colony.\n\nHandlers will automatically slaughter any extras.</AutoSlaughterHeaderTooltipMaxMalesYoung>
+  <AutoSlaugtherHeaderTooltipCurrentFemales>The current number of females of breeding age in the colony.</AutoSlaugtherHeaderTooltipCurrentFemales>
+  <AutoSlaugtherHeaderTooltipCurrentFemalesYoung>The current number of baby and juvenile females in the colony.</AutoSlaugtherHeaderTooltipCurrentFemalesYoung>
+  <AutoSlaugtherHeaderTooltipMaxFemales>The maximum number of females in the colony.\n\nHandlers will automatically slaughter any extras.</AutoSlaugtherHeaderTooltipMaxFemales>
+  <AutoSlaughterHeaderTooltipMaxFemalesYoung>The maximum number of baby and juvenile females in the colony.\n\nHandlers will automatically slaughter any extras.</AutoSlaughterHeaderTooltipMaxFemalesYoung>
+  <AutoSlaughterHeaderTooltipCurrentPregnant>The current number of pregnant animals in the colony.</AutoSlaughterHeaderTooltipCurrentPregnant>
+  <AutoSlaughterHeaderTooltipAllowSlaughterPregnant>Allow pregnant animals to be slaughtered along with other females of the same species.</AutoSlaughterHeaderTooltipAllowSlaughterPregnant>
+  <AutoSlaughterHeaderTooltipCurrentBonded>The current number of bonded animals in the colony.</AutoSlaughterHeaderTooltipCurrentBonded>
+  <AutoSlaughterHeaderTooltipAllowSlaughterBonded>Allow bonded animals to be slaughtered.</AutoSlaughterHeaderTooltipAllowSlaughterBonded>
 
   <AutoSlaughterTooltipSetLimit>Click to set an animal count limit.</AutoSlaughterTooltipSetLimit>
 

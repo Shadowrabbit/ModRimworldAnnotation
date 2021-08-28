@@ -2,27 +2,27 @@
 <LanguageData>
   
   <!-- EN: chemical consumption -->
-  <Chemical.label>化学品</Chemical.label>
+  <Chemical.label>薬物消費</Chemical.label>
   
   <!-- EN: cerebral play -->
-  <Gaming_Cerebral.label>益智游戏</Gaming_Cerebral.label>
+  <Gaming_Cerebral.label>ゲーム(頭脳)</Gaming_Cerebral.label>
   
   <!-- EN: dexterity play -->
-  <Gaming_Dexterity.label>灵巧游戏</Gaming_Dexterity.label>
+  <Gaming_Dexterity.label>ゲーム(器用さ)</Gaming_Dexterity.label>
   
   <!-- EN: food consumption -->
-  <Gluttonous.label>暴食</Gluttonous.label>
+  <Gluttonous.label>どか食い</Gluttonous.label>
   
   <!-- EN: solitary relaxation -->
-  <Meditative.label>冥想</Meditative.label>
+  <Meditative.label>静かなひととき</Meditative.label>
   
   <!-- EN: social interaction -->
-  <Social.label>社交</Social.label>
+  <Social.label>人付き合い</Social.label>
   
   <!-- EN: telescope study -->
-  <Telescope.label>天文研究</Telescope.label>
+  <Telescope.label>天体観測</Telescope.label>
   
   <!-- EN: television watching -->
-  <Television.label>看电视</Television.label>
+  <Television.label>テレビ鑑賞</Television.label>
   
 </LanguageData>

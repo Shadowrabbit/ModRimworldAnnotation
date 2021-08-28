@@ -2,42 +2,42 @@
 <LanguageData>
   
   <!-- EN: adult -->
-  <AnimalAdult.label>成年</AnimalAdult.label>
+  <AnimalAdult.label>成獣</AnimalAdult.label>
   
   <!-- EN: baby -->
-  <AnimalBaby.label>幼崽</AnimalBaby.label>
+  <AnimalBaby.label>幼児</AnimalBaby.label>
   
   <!-- EN: baby -->
-  <AnimalBabyTiny.label>幼崽</AnimalBabyTiny.label>
+  <AnimalBabyTiny.label>幼児</AnimalBabyTiny.label>
   
   <!-- EN: juvenile -->
-  <AnimalJuvenile.label>幼年</AnimalJuvenile.label>
+  <AnimalJuvenile.label>幼獣</AnimalJuvenile.label>
   
   <!-- EN: adult -->
   <EusocialInsectAdult.label>成虫</EusocialInsectAdult.label>
   
   <!-- EN: immature -->
-  <EusocialInsectJuvenile.label>成长体</EusocialInsectJuvenile.label>
+  <EusocialInsectJuvenile.label>幼虫</EusocialInsectJuvenile.label>
   
   <!-- EN: larva -->
-  <EusocialInsectLarva.label>幼虫</EusocialInsectLarva.label>
+  <EusocialInsectLarva.label>幼生</EusocialInsectLarva.label>
   
   <!-- EN: adult -->
-  <HumanlikeAdult.label>成人</HumanlikeAdult.label>
+  <HumanlikeAdult.label>大人</HumanlikeAdult.label>
   
   <!-- EN: baby -->
-  <HumanlikeBaby.label>婴儿</HumanlikeBaby.label>
+  <HumanlikeBaby.label>乳児</HumanlikeBaby.label>
   
   <!-- EN: child -->
-  <HumanlikeChild.label>孩童</HumanlikeChild.label>
+  <HumanlikeChild.label>少年</HumanlikeChild.label>
   
   <!-- EN: teenager -->
-  <HumanlikeTeenager.label>少年</HumanlikeTeenager.label>
+  <HumanlikeTeenager.label>青年</HumanlikeTeenager.label>
   <!-- EN: teenage -->
-  <HumanlikeTeenager.adjective>少年</HumanlikeTeenager.adjective>
+  <HumanlikeTeenager.adjective>青年</HumanlikeTeenager.adjective>
   
   <!-- EN: toddler -->
-  <HumanlikeToddler.label>幼儿</HumanlikeToddler.label>
+  <HumanlikeToddler.label>幼児</HumanlikeToddler.label>
   
   <!-- EN: fully-formed -->
   <MechanoidFullyFormed.label>完全体</MechanoidFullyFormed.label>

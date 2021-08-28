@@ -2,44 +2,44 @@
 <LanguageData>
   
   <!-- EN: stony soil -->
-  <Gravel.label>沙砾</Gravel.label>
+  <Gravel.label>砂利</Gravel.label>
   <!-- EN: gravel -->
-  <Gravel.tools.gravel.label>沙砾</Gravel.tools.gravel.label>
+  <Gravel.tools.gravel.label>砂利</Gravel.tools.gravel.label>
   
   <!-- EN: Ice -->
-  <Ice.label>冰面</Ice.label>
+  <Ice.label>氷面</Ice.label>
   
   <!-- EN: marshy soil -->
-  <MarshyTerrain.label>湿软的土地</MarshyTerrain.label>
+  <MarshyTerrain.label>湿地</MarshyTerrain.label>
   <!-- EN: mud -->
-  <MarshyTerrain.tools.mud.label>泥浆</MarshyTerrain.tools.mud.label>
+  <MarshyTerrain.tools.mud.label>泥</MarshyTerrain.tools.mud.label>
   
   <!-- EN: lichen-covered soil -->
-  <MossyTerrain.label>苔藓地面</MossyTerrain.label>
+  <MossyTerrain.label>苔むした土</MossyTerrain.label>
   
   <!-- EN: mud -->
-  <Mud.label>泥地</Mud.label>
+  <Mud.label>泥</Mud.label>
   <!-- EN: mud -->
-  <Mud.tools.mud.label>泥浆</Mud.tools.mud.label>
+  <Mud.tools.mud.label>泥</Mud.tools.mud.label>
   
   <!-- EN: sand -->
-  <Sand.label>沙地</Sand.label>
+  <Sand.label>砂地</Sand.label>
   <!-- EN: sand -->
-  <Sand.tools.sand.label>沙子</Sand.tools.sand.label>
+  <Sand.tools.sand.label>砂</Sand.tools.sand.label>
   
   <!-- EN: soft sand -->
-  <SoftSand.label>细沙地</SoftSand.label>
+  <SoftSand.label>柔砂</SoftSand.label>
   <!-- EN: sand -->
-  <SoftSand.tools.sand.label>沙子</SoftSand.tools.sand.label>
+  <SoftSand.tools.sand.label>砂</SoftSand.tools.sand.label>
   
   <!-- EN: soil -->
-  <Soil.label>土地</Soil.label>
+  <Soil.label>土</Soil.label>
   <!-- EN: dirt -->
-  <Soil.tools.dirt.label>尘土</Soil.tools.dirt.label>
+  <Soil.tools.dirt.label>土</Soil.tools.dirt.label>
   
   <!-- EN: rich soil -->
-  <SoilRich.label>肥沃的土地</SoilRich.label>
+  <SoilRich.label>肥えた土</SoilRich.label>
   <!-- EN: dirt -->
-  <SoilRich.tools.dirt.label>尘土</SoilRich.tools.dirt.label>
+  <SoilRich.tools.dirt.label>土</SoilRich.tools.dirt.label>
   
 </LanguageData>

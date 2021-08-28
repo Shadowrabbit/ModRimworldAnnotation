@@ -227,6 +227,7 @@
             <li>AllowCorpsesColonist</li>
           </specialFiltersToDisallow>
           <specialFiltersToAllow>
+            <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
             <li>AllowCorpsesStranger</li>
           </specialFiltersToAllow>
         </filter>
@@ -713,7 +714,7 @@
       <li>BuildingsMisc</li>
     </thingCategories>
     <uiIconPath>Things/Building/Misc/Skullspike/Skullspike</uiIconPath>
-    <passability>Impassable</passability>
+    <passability>PassThroughOnly</passability>
     <blockWind>true</blockWind>
     <fillPercent>0.5</fillPercent>
     <canOverlapZones>false</canOverlapZones>
@@ -768,7 +769,37 @@
     <comps>
       <li Class="CompProperties_DryadCocoon">
         <compClass>CompDryadCocoon</compClass>
-        <daysToComplete>6</daysToComplete>
+        <daysToComplete>5</daysToComplete>
+        <drawContents>true</drawContents>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef>
+    <defName>DryadHealingPod</defName>
+    <label>dryad healing pod</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Building</category>
+    <description>A sphere of fibrous plant matter. A dryad inside is slowly healing its wounds.</description>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <altitudeLayer>Building</altitudeLayer>
+    <tickerType>Normal</tickerType>
+    <graphicData>
+      <texPath>Things/Building/Misc/DryadSphere/DryadSphereBack</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.3, 1.3)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>150</MaxHitPoints>
+      <Flammability>1.25</Flammability>
+    </statBases>
+    <fillPercent>0.5</fillPercent>
+    <selectable>true</selectable>
+    <comps>
+      <li Class="CompProperties_DryadCocoon">
+        <compClass>CompDryadHealingPod</compClass>
+        <daysToComplete>3</daysToComplete>
+        <drawContents>true</drawContents>
       </li>
     </comps>
   </ThingDef>

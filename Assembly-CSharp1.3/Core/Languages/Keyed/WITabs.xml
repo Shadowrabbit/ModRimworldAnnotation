@@ -5,70 +5,70 @@
   <!-- EN: Terrain -->
   <TabTerrain>地形</TabTerrain>
   <!-- EN: Planet -->
-  <TabPlanet>星球</TabPlanet>
+  <TabPlanet>惑星</TabPlanet>
   <!-- EN: Social -->
   <TabCaravanSocial>社交</TabCaravanSocial>
   <!-- EN: Health -->
   <TabCaravanHealth>健康</TabCaravanHealth>
   <!-- EN: Needs -->
-  <TabCaravanNeeds>需求</TabCaravanNeeds>
+  <TabCaravanNeeds>欲求</TabCaravanNeeds>
   <!-- EN: Gear -->
-  <TabCaravanGear>装备</TabCaravanGear>
+  <TabCaravanGear>装備</TabCaravanGear>
   <!-- EN: Items -->
-  <TabCaravanItems>物品</TabCaravanItems>
+  <TabCaravanItems>所持品</TabCaravanItems>
   
   <!-- Misc -->
   <!-- EN: Abandon {{0}}x {0} -->
-  <AbandonSliderText>丢弃 {{0}}x{0}</AbandonSliderText>
+  <AbandonSliderText>{{0}}x {0} を投棄する</AbandonSliderText>
   <!-- EN: Do you really want to abandon {0}?\n\nAbandoned items vanish and can never be recovered. -->
-  <ConfirmAbandonItemDialog>你确定要丢弃{0}吗？\n\n丢弃的物品将会消失并且无法找回。</ConfirmAbandonItemDialog>
+  <ConfirmAbandonItemDialog>本当に {0}を投棄しますか？\n\n投棄された所持品は消滅し回収できません.</ConfirmAbandonItemDialog>
   <!-- EN: Abandon -->
-  <AbandonTip>丢弃</AbandonTip>
+  <AbandonTip>投棄する</AbandonTip>
   <!-- EN: Banish -->
-  <BanishTip>放逐</BanishTip>
+  <BanishTip>追放する</BanishTip>
   <!-- EN: Abandon specific count -->
-  <AbandonSpecificCountTip>丢弃指定的数量</AbandonSpecificCountTip>
+  <AbandonSpecificCountTip>投棄する (数量を指定)</AbandonSpecificCountTip>
   <!-- EN: Abandon (all) -->
-  <AbandonAllTip>丢弃（全部）</AbandonAllTip>
+  <AbandonAllTip>投棄する (全て)</AbandonAllTip>
   <!-- EN: Abandoned items vanish and can never be recovered. -->
-  <AbandonItemTipExtraText>丢弃的物品将会消失并且无法找回。</AbandonItemTipExtraText>
+  <AbandonItemTipExtraText>投棄された所持品は消滅し,二度と取り戻すことはできません.</AbandonItemTipExtraText>
   <!-- EN: {1_labelShort} will most likely die. -->
-  <BanishTipWillDie>{1_labelShort}极有可能会死亡。</BanishTipWillDie>
+  <BanishTipWillDie>{1_labelShort}は,まず間違いなく死ぬでしょう.</BanishTipWillDie>
   
   <!-- Caravan inspect -->
   <!-- EN: Colonists -->
-  <CaravanColonists>殖民者</CaravanColonists>
+  <CaravanColonists>入植者</CaravanColonists>
   <!-- EN: Prisoners and animals -->
-  <CaravanPrisonersAndAnimals>囚犯和动物</CaravanPrisonersAndAnimals>
+  <CaravanPrisonersAndAnimals>囚人と動物</CaravanPrisonersAndAnimals>
   <!-- EN: Inventory -->
-  <CaravanItems>货物</CaravanItems>
+  <CaravanItems>所持品</CaravanItems>
   <!-- EN: Click to open a tab with more details. -->
-  <OpenSpecificTabButtonTip>点击以打开更多详情的标签页。</OpenSpecificTabButtonTip>
+  <OpenSpecificTabButtonTip>クリックすると詳細タブを表示します.</OpenSpecificTabButtonTip>
   <!-- EN: Prisoners -->
-  <CaravanPrisoners>囚犯</CaravanPrisoners>
+  <CaravanPrisoners>囚人</CaravanPrisoners>
   <!-- EN: Equippable items -->
-  <CaravanWeaponsAndApparel>可装备品</CaravanWeaponsAndApparel>
+  <CaravanWeaponsAndApparel>所持品</CaravanWeaponsAndApparel>
   <!-- EN: None capable -->
-  <NoneCapable>无人胜任</NoneCapable>
+  <NoneCapable>能力なし</NoneCapable>
   <!-- EN: Caravan not moving -->
-  <GainingJoyBecauseCaravanNotMoving>远行队未在移动</GainingJoyBecauseCaravanNotMoving>
+  <GainingJoyBecauseCaravanNotMoving>休息中のため</GainingJoyBecauseCaravanNotMoving>
   
   <!-- Caravan gear -->
   <!-- EN: Drag to rearrange. -->
-  <DragToRearrange>拖动以重新排列。</DragToRearrange>
+  <DragToRearrange>再配置するにはドラッグ</DragToRearrange>
 
   <!-- Caravan items -->
   <!-- EN: Assign drug policies -->
-  <AssignDrugPolicies>指定用药方针</AssignDrugPolicies>
+  <AssignDrugPolicies>ドラッグ適用方針の変更</AssignDrugPolicies>
 
   <!-- Caravan health -->
   <!-- EN: Whether this person or animal should be carried by other caravan members when sick.\n\nCarried caravan members can rest even if the caravan is moving, but they slow it down. -->
-  <BeCarriedIfSickTip>当这个人或动物生病时，是否由其他远行队成员携带\n\n被携带的远行队成员可以在远行队移动中休息，但会影响远行队的移动速度。</BeCarriedIfSickTip>
+  <BeCarriedIfSickTip>この人物(もしくは動物)が病気のときに,キャラバン隊の他の仲間たちに運搬させます.\n\n運搬されている者は移動中も休息できますが,隊の移動速度は遅くなります.</BeCarriedIfSickTip>
   
   <!-- Planet -->
   <!-- EN: Seed -->
-  <PlanetSeed>种子</PlanetSeed>
+  <PlanetSeed>シード値</PlanetSeed>
   <!-- EN: Coverage -->
-  <PlanetCoverageShort>覆盖范围</PlanetCoverageShort>
+  <PlanetCoverageShort>範囲</PlanetCoverageShort>
 
 </LanguageData>

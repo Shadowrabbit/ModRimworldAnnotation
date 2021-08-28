@@ -35,6 +35,7 @@
       </statFactors>
       <canSuggestUseDefaultStuff>true</canSuggestUseDefaultStuff>
     </stuffProps>
+    <allowedArchonexusCount>80</allowedArchonexusCount>
   </ThingDef>
 
   <!--========== Basic leathers ============-->
@@ -176,7 +177,7 @@
     <label>guinea pig fur</label>
     <description>Sheets of guinea pig fur. It is delicate, but luxurious.</description>
     <graphicData>
-      <color>(178,170,158)</color>
+      <color>(179,125,55)</color>
     </graphicData>
     <statBases>
       <MarketValue>5</MarketValue>

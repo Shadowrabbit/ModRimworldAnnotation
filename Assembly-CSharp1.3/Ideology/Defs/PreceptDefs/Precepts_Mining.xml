@@ -44,6 +44,10 @@
         <description>Mining</description>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>DestroyedMineable</eventDef>
+        <thought>MineableDestroyed_Prohibited</thought>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>Mined</eventDef>
         <thought>Mined_Know_Prohibited</thought>
       </li>
@@ -82,6 +86,10 @@
         <description>Someone mined a block</description>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>DestroyedMineable</eventDef>
+        <thought>MineableDestroyed_Horrible</thought>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>Mined</eventDef>
         <thought>Mined_Know_Horrible</thought>
       </li>
@@ -118,6 +126,10 @@
         <eventDef>Mined</eventDef>
         <thought>Mined_Disapproved</thought>
         <description>Someone mined a block</description>
+      </li>
+      <li Class="PreceptComp_KnowsMemoryThought">
+        <eventDef>DestroyedMineable</eventDef>
+        <thought>MineableDestroyed_Disapproved</thought>
       </li>
       <li Class="PreceptComp_KnowsMemoryThought">
         <eventDef>Mined</eventDef>
@@ -180,6 +192,19 @@
   </ThoughtDef>
 
   <ThoughtDef>
+    <defName>MineableDestroyed_Prohibited</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>destroyed natural wall</label>
+        <description>I destroyed a natural wall. What a terrible offense against nature.</description>
+        <baseMoodEffect>-40</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
     <defName>Mined_Horrible</defName>
     <durationDays>2</durationDays>
     <stackLimit>1</stackLimit>
@@ -222,6 +247,19 @@
   </ThoughtDef>
 
   <ThoughtDef>
+    <defName>MineableDestroyed_Horrible</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>destroyed natural wall</label>
+        <description>I destroyed a natural wall. It was a horrible violation of nature.</description>
+        <baseMoodEffect>-20</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
     <defName>Mined_Disapproved</defName>
     <durationDays>2</durationDays>
     <stackLimit>1</stackLimit>
@@ -259,6 +297,19 @@
         <label>mined</label>
         <description>Someone mined a hole in the pure earth. It's wrong to scar the world this way.</description>
         <baseMoodEffect>-1</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>MineableDestroyed_Disapproved</defName>
+    <durationDays>2</durationDays>
+    <stackLimit>1</stackLimit>
+    <stages>
+      <li>
+        <label>destroyed natural wall</label>
+        <description>I destroyed a natural wall. It's wrong to scar the world this way.</description>
+        <baseMoodEffect>-3</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

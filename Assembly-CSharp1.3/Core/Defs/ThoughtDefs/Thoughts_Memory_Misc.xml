@@ -5,6 +5,9 @@
     <defName>AteWithoutTable</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>ate without table</label>
@@ -59,6 +62,9 @@
     <defName>SleptOutside</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>slept outside</label>
@@ -72,6 +78,9 @@
     <defName>SleptOnGround</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>slept on ground</label>
@@ -85,6 +94,9 @@
     <defName>SleptInCold</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Temperature_Tough</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>slept in the cold</label>
@@ -98,6 +110,9 @@
     <defName>SleptInHeat</defName>
     <durationDays>1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Temperature_Tough</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>slept in the heat</label>
@@ -161,7 +176,7 @@
     </requiredTraits>
     <stages>
       <li>
-        <label>Bloodlust organ harvested</label>
+        <label>bloodlust organ harvested</label>
         <description>Extracting the flesh from their bodies is so bloody and satisfying.</description>
         <baseMoodEffect>4</baseMoodEffect>
       </li>
@@ -279,6 +294,9 @@
     <defName>SoakingWet</defName>
     <durationDays>0.1</durationDays>
     <stackLimit>1</stackLimit>
+    <nullifyingPrecepts>
+      <li MayRequire="Ludeon.RimWorld.Ideology">RoughLiving_Welcomed</li>
+    </nullifyingPrecepts>
     <stages>
       <li>
         <label>soaking wet</label>
@@ -608,6 +626,23 @@
       <li>
         <label>prisoner banished to death</label>
         <description>We banished a prisoner in such a way that there's almost no way they'll survive.</description>
+        <baseMoodEffect>-4</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>ColonyPrisonerEscaped</defName>
+    <durationDays>6</durationDays>
+    <stackLimit>5</stackLimit>
+    <showBubble>true</showBubble>
+    <nullifyingTraits>
+      <li>Psychopath</li>
+    </nullifyingTraits>
+    <stages>
+      <li>
+        <label>Colonist prisoner escaped</label>
+        <description>Can't we keep control of our own people? I feel like anything could happen to me here.</description>
         <baseMoodEffect>-4</baseMoodEffect>
       </li>
     </stages>

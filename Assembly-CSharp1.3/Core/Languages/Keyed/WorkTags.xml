@@ -2,42 +2,42 @@
 <LanguageData>
 
   <!-- EN: none -->
-  <WorkTagNone>（无）</WorkTagNone>
+  <WorkTagNone>特になし</WorkTagNone>
   <!-- EN: intellectual -->
-  <WorkTagIntellectual>脑力工作</WorkTagIntellectual>
+  <WorkTagIntellectual>研究</WorkTagIntellectual>
   <!-- EN: dumb labor -->
-  <WorkTagManualDumb>简易工作</WorkTagManualDumb>
+  <WorkTagManualDumb>雑用</WorkTagManualDumb>
   <!-- EN: skilled labor -->
-  <WorkTagManualSkilled>专业工作</WorkTagManualSkilled>
+  <WorkTagManualSkilled>高度な作業</WorkTagManualSkilled>
   <!-- EN: violent -->
-  <WorkTagViolent>暴力行为</WorkTagViolent>
+  <WorkTagViolent>戦闘</WorkTagViolent>
   <!-- EN: caring -->
-  <WorkTagCaring>医护工作</WorkTagCaring>
+  <WorkTagCaring>看護</WorkTagCaring>
   <!-- EN: social -->
-  <WorkTagSocial>社交工作</WorkTagSocial>
+  <WorkTagSocial>人付き合い</WorkTagSocial>
   <!-- EN: animals -->
-  <WorkTagAnimals>驯养动物</WorkTagAnimals>
+  <WorkTagAnimals>動物の世話</WorkTagAnimals>
   <!-- EN: artistic -->
-  <WorkTagArtistic>艺术创作</WorkTagArtistic>
+  <WorkTagArtistic>アート</WorkTagArtistic>
   <!-- EN: crafting -->
-  <WorkTagCrafting>制作物品</WorkTagCrafting>
+  <WorkTagCrafting>工芸</WorkTagCrafting>
   <!-- EN: cooking -->
-  <WorkTagCooking>烹饪</WorkTagCooking>
+  <WorkTagCooking>料理</WorkTagCooking>
   <!-- EN: firefighting -->
-  <WorkTagFirefighting>灭火</WorkTagFirefighting>
+  <WorkTagFirefighting>消火</WorkTagFirefighting>
   <!-- EN: cleaning -->
-  <WorkTagCleaning>清洁</WorkTagCleaning>
+  <WorkTagCleaning>清掃</WorkTagCleaning>
   <!-- EN: hauling -->
-  <WorkTagHauling>搬运</WorkTagHauling>
+  <WorkTagHauling>運搬</WorkTagHauling>
   <!-- EN: plant work -->
-  <WorkTagPlantWork>植物工作</WorkTagPlantWork>
+  <WorkTagPlantWork>農業</WorkTagPlantWork>
   <!-- EN: mining -->
-  <WorkTagMining>采矿</WorkTagMining>
+  <WorkTagMining>採掘</WorkTagMining>
   <!-- EN: hunting -->
-  <WorkTagHunting>狩猎</WorkTagHunting>
+  <WorkTagHunting>狩猟</WorkTagHunting>
   <!-- EN: commoner work -->
-  <WorkTagCommoner>常见工作</WorkTagCommoner>
+  <WorkTagCommoner>一般作業</WorkTagCommoner>
   <!-- EN: all work -->
-  <WorkTagAllWork>所有工作</WorkTagAllWork>
+  <WorkTagAllWork>全ての作業</WorkTagAllWork>
 
 </LanguageData>

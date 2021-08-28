@@ -2,194 +2,194 @@
 <LanguageData>
   
   <!-- EN: assault rifle bullet -->
-  <Bullet_AssaultRifle.label>突击步枪子弹</Bullet_AssaultRifle.label>
+  <Bullet_AssaultRifle.label>軍用ライフル装弾</Bullet_AssaultRifle.label>
   
   <!-- EN: autopistol bullet -->
-  <Bullet_Autopistol.label>自动手枪子弹</Bullet_Autopistol.label>
+  <Bullet_Autopistol.label>自動式銃弾</Bullet_Autopistol.label>
   
   <!-- EN: bolt-action rifle bullet -->
-  <Bullet_BoltActionRifle.label>栓动步枪子弹</Bullet_BoltActionRifle.label>
+  <Bullet_BoltActionRifle.label>ライフル弾</Bullet_BoltActionRifle.label>
   
   <!-- EN: EMP launcher shell -->
-  <Bullet_EMPLauncher.label>EMP弹</Bullet_EMPLauncher.label>
+  <Bullet_EMPLauncher.label>EMP筒</Bullet_EMPLauncher.label>
   
   <!-- EN: heavy SMG bullet -->
-  <Bullet_HeavySMG.label>重型冲锋枪子弹</Bullet_HeavySMG.label>
+  <Bullet_HeavySMG.label>サブマシンガン装弾</Bullet_HeavySMG.label>
   
   <!-- EN: incendiary bolt -->
-  <Bullet_IncendiaryLauncher.label>燃烧弹</Bullet_IncendiaryLauncher.label>
+  <Bullet_IncendiaryLauncher.label>火炎筒</Bullet_IncendiaryLauncher.label>
   
   <!-- EN: LMG bullet -->
-  <Bullet_LMG.label>轻机枪子弹</Bullet_LMG.label>
+  <Bullet_LMG.label>機関銃装弾</Bullet_LMG.label>
   
   <!-- EN: machine pistol bullet -->
-  <Bullet_MachinePistol.label>冲锋手枪子弹</Bullet_MachinePistol.label>
+  <Bullet_MachinePistol.label>マシンピストル装弾</Bullet_MachinePistol.label>
   
   <!-- EN: minigun bullet -->
-  <Bullet_Minigun.label>速射机枪子弹</Bullet_Minigun.label>
+  <Bullet_Minigun.label>ガトリング装弾</Bullet_Minigun.label>
   
   <!-- EN: revolver bullet -->
-  <Bullet_Revolver.label>左轮手枪子弹</Bullet_Revolver.label>
+  <Bullet_Revolver.label>リボルバー弾</Bullet_Revolver.label>
   
   <!-- EN: shotgun blast -->
-  <Bullet_Shotgun.label>霰弹枪子弹</Bullet_Shotgun.label>
+  <Bullet_Shotgun.label>散弾</Bullet_Shotgun.label>
   
   <!-- EN: smoke launcher shell -->
-  <Bullet_SmokeLauncher.label>烟雾弹</Bullet_SmokeLauncher.label>
+  <Bullet_SmokeLauncher.label>煙幕筒</Bullet_SmokeLauncher.label>
   
   <!-- EN: sniper rifle bullet -->
-  <Bullet_SniperRifle.label>狙击步枪子弹</Bullet_SniperRifle.label>
+  <Bullet_SniperRifle.label>狙撃銃用装弾</Bullet_SniperRifle.label>
   
   <!-- EN: assault rifle -->
-  <Gun_AssaultRifle.label>突击步枪</Gun_AssaultRifle.label>
+  <Gun_AssaultRifle.label>軍用ライフル</Gun_AssaultRifle.label>
   <!-- EN: A general-purpose gas-operated assault rifle for field or urban combat. It has good range, decent power, and good accuracy. -->
-  <Gun_AssaultRifle.description>古老的制式军用武器，用于野外或城市作战。拥有良好的射程、火力和精度。</Gun_AssaultRifle.description>
+  <Gun_AssaultRifle.description>野戦,市街戦用のガスオペレーションアサルトライフルです.射程が長く,そこそこの火力と,正確さが優れています.</Gun_AssaultRifle.description>
   <!-- EN: stock -->
-  <Gun_AssaultRifle.tools.stock.label>枪托</Gun_AssaultRifle.tools.stock.label>
+  <Gun_AssaultRifle.tools.stock.label>ストック</Gun_AssaultRifle.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_AssaultRifle.tools.barrel.label>枪管</Gun_AssaultRifle.tools.barrel.label>
+  <Gun_AssaultRifle.tools.barrel.label>銃身</Gun_AssaultRifle.tools.barrel.label>
   <!-- EN: assault rifle -->
-  <Gun_AssaultRifle.verbs.Verb_Shoot.label>突击步枪</Gun_AssaultRifle.verbs.Verb_Shoot.label>
+  <Gun_AssaultRifle.verbs.Verb_Shoot.label>軍用ライフル</Gun_AssaultRifle.verbs.Verb_Shoot.label>
   
   <!-- EN: autopistol -->
-  <Gun_Autopistol.label>自动手枪</Gun_Autopistol.label>
+  <Gun_Autopistol.label>自動式拳銃</Gun_Autopistol.label>
   <!-- EN: An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. -->
-  <Gun_Autopistol.description>古老构造的自动手枪。缺乏火力和射程，但开火迅速。</Gun_Autopistol.description>
+  <Gun_Autopistol.description>古式自動式拳銃,威力も弱く,小射程,素早く抜けます.</Gun_Autopistol.description>
   <!-- EN: grip -->
-  <Gun_Autopistol.tools.grip.label>握把</Gun_Autopistol.tools.grip.label>
+  <Gun_Autopistol.tools.grip.label>グリップ</Gun_Autopistol.tools.grip.label>
   <!-- EN: barrel -->
-  <Gun_Autopistol.tools.barrel.label>枪管</Gun_Autopistol.tools.barrel.label>
+  <Gun_Autopistol.tools.barrel.label>銃身</Gun_Autopistol.tools.barrel.label>
   <!-- EN: autopistol -->
-  <Gun_Autopistol.verbs.Verb_Shoot.label>自动手枪</Gun_Autopistol.verbs.Verb_Shoot.label>
+  <Gun_Autopistol.verbs.Verb_Shoot.label>自動式拳銃</Gun_Autopistol.verbs.Verb_Shoot.label>
   
   <!-- EN: bolt-action rifle -->
-  <Gun_BoltActionRifle.label>栓动步枪</Gun_BoltActionRifle.label>
+  <Gun_BoltActionRifle.label>ライフル</Gun_BoltActionRifle.label>
   <!-- EN: An ancient pattern bolt-action rifle. With its long range, and low fire rate, it is unlikely to drive animals to revenge, which makes it a favorite weapon for hunting. -->
-  <Gun_BoltActionRifle.description>古老的栓动式步枪。拥有良好的射程但射速低。</Gun_BoltActionRifle.description>
+  <Gun_BoltActionRifle.description>旧来のボルトアクションライフル,射程,威力に優れるが,発射頻度は低いです.</Gun_BoltActionRifle.description>
   <!-- EN: stock -->
-  <Gun_BoltActionRifle.tools.stock.label>枪托</Gun_BoltActionRifle.tools.stock.label>
+  <Gun_BoltActionRifle.tools.stock.label>ストック</Gun_BoltActionRifle.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_BoltActionRifle.tools.barrel.label>枪管</Gun_BoltActionRifle.tools.barrel.label>
+  <Gun_BoltActionRifle.tools.barrel.label>銃身</Gun_BoltActionRifle.tools.barrel.label>
   <!-- EN: bolt-action rifle -->
-  <Gun_BoltActionRifle.verbs.Verb_Shoot.label>栓动步枪</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
+  <Gun_BoltActionRifle.verbs.Verb_Shoot.label>ライフル</Gun_BoltActionRifle.verbs.Verb_Shoot.label>
   
   <!-- EN: chain shotgun -->
-  <Gun_ChainShotgun.label>链式霰弹枪</Gun_ChainShotgun.label>
+  <Gun_ChainShotgun.label>自動式ショットガン</Gun_ChainShotgun.label>
   <!-- EN: A magazine-fed fully automatic shotgun. It is even shorter-ranged than a typical shotgun, but is extraordinarily dangerous due to burst fire. -->
-  <Gun_ChainShotgun.description>古老的弹匣供弹全自动霰弹枪。射程短，精度低，但由于火力强大而极具威胁性。</Gun_ChainShotgun.description>
+  <Gun_ChainShotgun.description>マガジン給弾式の全自動ショットガン.短射程距離,非常に低い命中精度ですが,並外れて危険です.</Gun_ChainShotgun.description>
   <!-- EN: stock -->
-  <Gun_ChainShotgun.tools.stock.label>枪托</Gun_ChainShotgun.tools.stock.label>
+  <Gun_ChainShotgun.tools.stock.label>ストック</Gun_ChainShotgun.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_ChainShotgun.tools.barrel.label>枪管</Gun_ChainShotgun.tools.barrel.label>
+  <Gun_ChainShotgun.tools.barrel.label>銃身</Gun_ChainShotgun.tools.barrel.label>
   <!-- EN: chain shotgun -->
-  <Gun_ChainShotgun.verbs.Verb_Shoot.label>链式霰弹枪</Gun_ChainShotgun.verbs.Verb_Shoot.label>
+  <Gun_ChainShotgun.verbs.Verb_Shoot.label>自動式ショットガン</Gun_ChainShotgun.verbs.Verb_Shoot.label>
   
   <!-- EN: EMP launcher -->
-  <Gun_EmpLauncher.label>EMP发射器</Gun_EmpLauncher.label>
+  <Gun_EmpLauncher.label>EMPランチャー</Gun_EmpLauncher.label>
   <!-- EN: A wide-barreled EMP shell launcher. The shell will upon impact release a burst of electromagnetic energy, stunning mechanical targets (mechanoids, turrets, mortars) and depleting shields in the area of effect. -->
-  <Gun_EmpLauncher.description>一种宽口径EMP炮弹发射器。炮弹在撞击时会释放出一股电磁能量、瘫痪机械目标（机械体、炮塔、迫击炮）以及耗尽范围内护盾的能量。</Gun_EmpLauncher.description>
+  <Gun_EmpLauncher.description>大口径のEMPランチャーです.砲弾は着弾すると電磁波エネルギーを放出し,機械化ターゲット(メカノイド,タレット,迫撃砲)を一時停止させ,着弾範囲内のシールドを消耗させます.</Gun_EmpLauncher.description>
   <!-- EN: stock -->
-  <Gun_EmpLauncher.tools.stock.label>枪托</Gun_EmpLauncher.tools.stock.label>
+  <Gun_EmpLauncher.tools.stock.label>ストック</Gun_EmpLauncher.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_EmpLauncher.tools.barrel.label>枪管</Gun_EmpLauncher.tools.barrel.label>
+  <Gun_EmpLauncher.tools.barrel.label>銃身</Gun_EmpLauncher.tools.barrel.label>
   <!-- EN: EMP launcher -->
-  <Gun_EmpLauncher.verbs.Verb_Shoot.label>EMP发射器</Gun_EmpLauncher.verbs.Verb_Shoot.label>
+  <Gun_EmpLauncher.verbs.Verb_Shoot.label>EMPランチャー</Gun_EmpLauncher.verbs.Verb_Shoot.label>
   
   <!-- EN: heavy SMG -->
-  <Gun_HeavySMG.label>重型冲锋枪</Gun_HeavySMG.label>
+  <Gun_HeavySMG.label>サブマシンガン</Gun_HeavySMG.label>
   <!-- EN: A compact, wide-caliber slug-thrower. It's got a very short range, but it packs a punch and handles quite well. -->
-  <Gun_HeavySMG.description>古老的通用口径的紧凑型枪械。射程短，但着弹点集中、操控性好。</Gun_HeavySMG.description>
+  <Gun_HeavySMG.description>コンパクトな割に装弾数が多い,極めて短射程だが,持ち運びやすさと制圧しやすさに優れています.</Gun_HeavySMG.description>
   <!-- EN: grip -->
-  <Gun_HeavySMG.tools.grip.label>握把</Gun_HeavySMG.tools.grip.label>
+  <Gun_HeavySMG.tools.grip.label>グリップ</Gun_HeavySMG.tools.grip.label>
   <!-- EN: barrel -->
-  <Gun_HeavySMG.tools.barrel.label>枪管</Gun_HeavySMG.tools.barrel.label>
+  <Gun_HeavySMG.tools.barrel.label>銃身</Gun_HeavySMG.tools.barrel.label>
   <!-- EN: heavy SMG -->
-  <Gun_HeavySMG.verbs.Verb_Shoot.label>重型冲锋枪</Gun_HeavySMG.verbs.Verb_Shoot.label>
+  <Gun_HeavySMG.verbs.Verb_Shoot.label>サブマシンガン</Gun_HeavySMG.verbs.Verb_Shoot.label>
   
   <!-- EN: incendiary launcher -->
-  <Gun_IncendiaryLauncher.label>燃烧弹发射器</Gun_IncendiaryLauncher.label>
+  <Gun_IncendiaryLauncher.label>火炎筒投射機</Gun_IncendiaryLauncher.label>
   <!-- EN: A wide-barreled incendiary bolt launcher. The bolts create small incendiary explosions on impact, starting fires. -->
-  <Gun_IncendiaryLauncher.description>古老的大口径燃烧弹发射器。能够点燃目标区域，可以用来放火。</Gun_IncendiaryLauncher.description>
+  <Gun_IncendiaryLauncher.description>火炎筒投射機</Gun_IncendiaryLauncher.description>
   <!-- EN: stock -->
-  <Gun_IncendiaryLauncher.tools.stock.label>枪托</Gun_IncendiaryLauncher.tools.stock.label>
+  <Gun_IncendiaryLauncher.tools.stock.label>ストック</Gun_IncendiaryLauncher.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_IncendiaryLauncher.tools.barrel.label>枪管</Gun_IncendiaryLauncher.tools.barrel.label>
+  <Gun_IncendiaryLauncher.tools.barrel.label>銃身</Gun_IncendiaryLauncher.tools.barrel.label>
   <!-- EN: incendiary launcher -->
-  <Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>燃烧弹发射器</Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>
+  <Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>火炎筒投射機</Gun_IncendiaryLauncher.verbs.Verb_Shoot.label>
   
   <!-- EN: LMG -->
-  <Gun_LMG.label>轻机枪</Gun_LMG.label>
+  <Gun_LMG.label>軽機関銃</Gun_LMG.label>
   <!-- EN: A gas-operated light machine gun. While it is somewhat unwieldy and inaccurate, its long bursts of fire are effective against groups of enemies. -->
-  <Gun_LMG.description>古老的轻机枪。较强的压制火力弥补了其他方面的不足。</Gun_LMG.description>
+  <Gun_LMG.description>ガスオペレーションの軽マシンガンです.いくぶん扱いにくくで精度も悪いのですが,長い連射時間が,敵のグループにたいしては効果的です.</Gun_LMG.description>
   <!-- EN: stock -->
-  <Gun_LMG.tools.stock.label>枪托</Gun_LMG.tools.stock.label>
+  <Gun_LMG.tools.stock.label>ストック</Gun_LMG.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_LMG.tools.barrel.label>枪管</Gun_LMG.tools.barrel.label>
+  <Gun_LMG.tools.barrel.label>銃身</Gun_LMG.tools.barrel.label>
   <!-- EN: LMG -->
-  <Gun_LMG.verbs.Verb_Shoot.label>轻机枪</Gun_LMG.verbs.Verb_Shoot.label>
+  <Gun_LMG.verbs.Verb_Shoot.label>軽機関銃</Gun_LMG.verbs.Verb_Shoot.label>
   
   <!-- EN: machine pistol -->
-  <Gun_MachinePistol.label>冲锋手枪</Gun_MachinePistol.label>
+  <Gun_MachinePistol.label>マシンピストル</Gun_MachinePistol.label>
   <!-- EN: A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness. -->
-  <Gun_MachinePistol.description>古老的微型冲锋枪。射程短，威力低，但射速很高。瞄准和开火都非常迅速敏捷。</Gun_MachinePistol.description>
+  <Gun_MachinePistol.description>小型サブマシンガン,短射程,威力は弱いが,高い発射頻度と取り回しに優れています.</Gun_MachinePistol.description>
   <!-- EN: grip -->
-  <Gun_MachinePistol.tools.grip.label>握把</Gun_MachinePistol.tools.grip.label>
+  <Gun_MachinePistol.tools.grip.label>グリップ</Gun_MachinePistol.tools.grip.label>
   <!-- EN: barrel -->
-  <Gun_MachinePistol.tools.barrel.label>枪管</Gun_MachinePistol.tools.barrel.label>
+  <Gun_MachinePistol.tools.barrel.label>銃身</Gun_MachinePistol.tools.barrel.label>
   <!-- EN: machine pistol -->
-  <Gun_MachinePistol.verbs.Verb_Shoot.label>冲锋手枪</Gun_MachinePistol.verbs.Verb_Shoot.label>
+  <Gun_MachinePistol.verbs.Verb_Shoot.label>マシンピストル</Gun_MachinePistol.verbs.Verb_Shoot.label>
   
   <!-- EN: minigun -->
-  <Gun_Minigun.label>速射机枪</Gun_Minigun.label>
+  <Gun_Minigun.label>ガトリング銃</Gun_Minigun.label>
   <!-- EN: A multi-barrel machine gun. It's unwieldy, but once it starts firing it fires very fast. Where most self-loading guns are powered by the energy from the gunpowder, the minigun uses an electric motor to rapidly cycle cartridges through the weapon. -->
-  <Gun_Minigun.description>古老的多管机枪，拥有极高的射速。虽然笨重但火力强大。在大多数自动武器使用火药提供动力的情况下，这种武器使用一种电动机使子弹能够快速替换。</Gun_Minigun.description>
+  <Gun_Minigun.description>速射能力が高い,マルチバレルのマシンガンです.</Gun_Minigun.description>
   <!-- EN: barrels -->
-  <Gun_Minigun.tools.barrels.label>枪管</Gun_Minigun.tools.barrels.label>
+  <Gun_Minigun.tools.barrels.label>barrels</Gun_Minigun.tools.barrels.label>
   <!-- EN: minigun -->
-  <Gun_Minigun.verbs.Verb_Shoot.label>速射机枪</Gun_Minigun.verbs.Verb_Shoot.label>
+  <Gun_Minigun.verbs.Verb_Shoot.label>ガトリング銃</Gun_Minigun.verbs.Verb_Shoot.label>
   
   <!-- EN: pump shotgun -->
-  <Gun_PumpShotgun.label>泵动霰弹枪</Gun_PumpShotgun.label>
+  <Gun_PumpShotgun.label>ポンプ式散弾銃</Gun_PumpShotgun.label>
   <!-- EN: An ancient design of shotgun that emits a tight-packed spray of pellets. Deadly, but short range. -->
-  <Gun_PumpShotgun.description>古老的霰弹枪，拥有致命的火力，但射程较短。</Gun_PumpShotgun.description>
+  <Gun_PumpShotgun.description>旧式な設計,威力は高いが射程は短いです.</Gun_PumpShotgun.description>
   <!-- EN: stock -->
-  <Gun_PumpShotgun.tools.stock.label>枪托</Gun_PumpShotgun.tools.stock.label>
+  <Gun_PumpShotgun.tools.stock.label>ストック</Gun_PumpShotgun.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_PumpShotgun.tools.barrel.label>枪管</Gun_PumpShotgun.tools.barrel.label>
+  <Gun_PumpShotgun.tools.barrel.label>銃身</Gun_PumpShotgun.tools.barrel.label>
   <!-- EN: pump shotgun -->
-  <Gun_PumpShotgun.verbs.Verb_Shoot.label>泵动霰弹枪</Gun_PumpShotgun.verbs.Verb_Shoot.label>
+  <Gun_PumpShotgun.verbs.Verb_Shoot.label>ポンプ式散弾銃</Gun_PumpShotgun.verbs.Verb_Shoot.label>
   
   <!-- EN: revolver -->
-  <Gun_Revolver.label>左轮手枪</Gun_Revolver.label>
+  <Gun_Revolver.label>リボルバー</Gun_Revolver.label>
   <!-- EN: An ancient pattern double-action revolver. It's not very powerful, but has a decent range for a pistol and is quick on the draw. -->
-  <Gun_Revolver.description>古老构造的复动式左轮手枪。威力和射程一般，但射击迅速。</Gun_Revolver.description>
+  <Gun_Revolver.description>古式ダブルアクション拳銃,威力も弱く,中射程,素早く抜けます.</Gun_Revolver.description>
   <!-- EN: grip -->
-  <Gun_Revolver.tools.grip.label>握把</Gun_Revolver.tools.grip.label>
+  <Gun_Revolver.tools.grip.label>グリップ</Gun_Revolver.tools.grip.label>
   <!-- EN: barrel -->
-  <Gun_Revolver.tools.barrel.label>枪管</Gun_Revolver.tools.barrel.label>
+  <Gun_Revolver.tools.barrel.label>銃身</Gun_Revolver.tools.barrel.label>
   <!-- EN: revolver -->
-  <Gun_Revolver.verbs.Verb_Shoot.label>左轮手枪</Gun_Revolver.verbs.Verb_Shoot.label>
+  <Gun_Revolver.verbs.Verb_Shoot.label>リボルバー</Gun_Revolver.verbs.Verb_Shoot.label>
   
   <!-- EN: smoke launcher -->
-  <Gun_SmokeLauncher.label>烟雾弹发射器</Gun_SmokeLauncher.label>
+  <Gun_SmokeLauncher.label>煙幕筒投射機</Gun_SmokeLauncher.label>
   <!-- EN: A wide-barreled smoke shell launcher. The shell will upon impact release a cloud of smoke, obscuring incoming shots and preventing turrets from locking on. -->
-  <Gun_SmokeLauncher.description>一种大口径烟雾弹发射器。炮弹在撞击时会释放出一团烟雾，遮蔽瞄准的视线，也能够防止炮塔锁定。</Gun_SmokeLauncher.description>
+  <Gun_SmokeLauncher.description>大口径の煙幕筒投射機です.砲弾は着弾すると煙幕を展張し,銃弾から身を隠したり,タレットのロックオンを防いだりします.</Gun_SmokeLauncher.description>
   <!-- EN: stock -->
-  <Gun_SmokeLauncher.tools.stock.label>枪托</Gun_SmokeLauncher.tools.stock.label>
+  <Gun_SmokeLauncher.tools.stock.label>ストック</Gun_SmokeLauncher.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_SmokeLauncher.tools.barrel.label>枪管</Gun_SmokeLauncher.tools.barrel.label>
+  <Gun_SmokeLauncher.tools.barrel.label>銃身</Gun_SmokeLauncher.tools.barrel.label>
   <!-- EN: smoke launcher -->
-  <Gun_SmokeLauncher.verbs.Verb_Shoot.label>烟雾弹发射器</Gun_SmokeLauncher.verbs.Verb_Shoot.label>
+  <Gun_SmokeLauncher.verbs.Verb_Shoot.label>煙幕筒投射機</Gun_SmokeLauncher.verbs.Verb_Shoot.label>
   
   <!-- EN: sniper rifle -->
-  <Gun_SniperRifle.label>狙击步枪</Gun_SniperRifle.label>
+  <Gun_SniperRifle.label>狙撃銃</Gun_SniperRifle.label>
   <!-- EN: An ancient design of precision sniper rifle. Bolt action. It has an exceptionally long range, great accuracy and good power. Because it's so unwieldy, other weapons outclass it at close range. -->
-  <Gun_SniperRifle.description>样式古老的军用狙击步枪。栓动式。拥有极高的射程，很高的精度和良好的威力。但由于十分笨重，近距离的性能远不及其他武器。</Gun_SniperRifle.description>
+  <Gun_SniperRifle.description>軍用の狙撃銃,ボルトアクション,長射程,優れた命中率と威力を持っています.</Gun_SniperRifle.description>
   <!-- EN: stock -->
-  <Gun_SniperRifle.tools.stock.label>枪托</Gun_SniperRifle.tools.stock.label>
+  <Gun_SniperRifle.tools.stock.label>ストック</Gun_SniperRifle.tools.stock.label>
   <!-- EN: barrel -->
-  <Gun_SniperRifle.tools.barrel.label>枪管</Gun_SniperRifle.tools.barrel.label>
+  <Gun_SniperRifle.tools.barrel.label>銃身</Gun_SniperRifle.tools.barrel.label>
   <!-- EN: sniper rifle -->
-  <Gun_SniperRifle.verbs.Verb_Shoot.label>狙击步枪</Gun_SniperRifle.verbs.Verb_Shoot.label>
+  <Gun_SniperRifle.verbs.Verb_Shoot.label>狙撃銃</Gun_SniperRifle.verbs.Verb_Shoot.label>
   
 </LanguageData>

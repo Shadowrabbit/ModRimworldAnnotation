@@ -9,6 +9,7 @@
   <CantStartRitualNoConvertee>There is nobody to convert to {0}. You need a colonist, prisoner, or slave of a different ideoligion.</CantStartRitualNoConvertee>
   <CantStartRitualSelectedPawnCannotBeRole>{PAWN_nameDef} cannot be {ROLE}.</CantStartRitualSelectedPawnCannotBeRole>
   <CantStartRitualSelectedPawnMustBeMember>{PAWN_nameDef} must be a {IDEO_memberName}.</CantStartRitualSelectedPawnMustBeMember>
+  <CantStartRitualSelectedPawnPsychicallyDeaf>{PAWN_nameDef} is psychically deaf.</CantStartRitualSelectedPawnPsychicallyDeaf>
   <CantStartNotEnoughSpaceDuel>Not enough space. There must be a clear circle of radius {MINRADIUS}.</CantStartNotEnoughSpaceDuel>
   <CantStartFuneralForSlave>{0_labelShort} is a slave. Slaves don't get funerals.</CantStartFuneralForSlave>
   <NoSlaveBed>Need a slave bed that is reachable, not reserved, and in safe temperature.</NoSlaveBed>
@@ -29,8 +30,12 @@
   <MaxMultiRolesCount>can't have more than {0} specialists.</MaxMultiRolesCount>
   <MaxPreceptCount>max {0}</MaxPreceptCount>
   <SetTargetGender>Set gender</SetTargetGender>
-  <FactionOrIdeoIncompatible>incompatible</FactionOrIdeoIncompatible>
+  <RoleApparelRequirementIncompatibleFaction>must be {0} faction</RoleApparelRequirementIncompatibleFaction>
+  <RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>tribal</RoleApparelRequirementIncompatibleFaction_Allowed_Tribal>
+  <RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>non-tribal</RoleApparelRequirementIncompatibleFaction_Disallowed_Tribal>
+  <RoleApparelRequirementIncompatibleAnyMemeRequired>requires any of these memes</RoleApparelRequirementIncompatibleAnyMemeRequired>
   <BodyPartAlreadyCovered>cannot be worn with assigned apparel</BodyPartAlreadyCovered>
+  <AlreadyAssigned>already assigned</AlreadyAssigned>
   <NoteRoleApparelRequirementEffects>People are pleased when their apparel requirements are fulfilled, and unhappy when they are violated.</NoteRoleApparelRequirementEffects>
   <NeuralSuperchargeNotReady>supercharge not ready</NeuralSuperchargeNotReady>
   <NeuralSuperchargeAlreadyGetting>already getting</NeuralSuperchargeAlreadyGetting>
@@ -65,8 +70,13 @@
 
   <EnterBiosculpterPod>Enter biosculpter pod</EnterBiosculpterPod>
   <BiosculpterBiotunedToAnother>Biotuned to someone else.</BiosculpterBiotunedToAnother>
+  <UnderMinBiosculpterAgeReversalAge>Must be {0} years old for age reversal.</UnderMinBiosculpterAgeReversalAge>
   <CarryToBiosculpterPod>Carry {PAWN_label} to biosculpter pod ({CYCLE})</CarryToBiosculpterPod>
   <CannotCarryToBiosculpterPod>Cannot carry to biosculpter pod</CannotCarryToBiosculpterPod>
   <NoBiosculpterPod>No available biosculpter pod.</NoBiosculpterPod>
+  <BiosculpterNoCycleActive>No cycle active</BiosculpterNoCycleActive>
+  <BiosculpterLoadingNutrition>Nutrition being loaded</BiosculpterLoadingNutrition>
+  <BiosculpterOccupied>Occupied</BiosculpterOccupied>
+  <CannotEnter>Cannot enter</CannotEnter>
 
 </LanguageData>

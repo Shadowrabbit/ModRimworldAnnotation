@@ -147,7 +147,7 @@ namespace RimWorld.Planet
 
 		// Token: 0x170017C9 RID: 6089
 		// (get) Token: 0x06009086 RID: 36998 RVA: 0x0033D7EE File Offset: 0x0033B9EE
-		public IEnumerable<InspectTabBase> CurTabs
+		public IEnumerable<InspectTabBase> WorldInspectPaneCurTabs
 		{
 			get
 			{

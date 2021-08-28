@@ -2,244 +2,244 @@
 <LanguageData>
 
   <!-- EN: Mad {ANIMAL_labelShort} -->
-  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort}发狂</LetterLabelAnimalInsanitySingle>
+  <LetterLabelAnimalInsanitySingle>{ANIMAL_labelShort} 暴走</LetterLabelAnimalInsanitySingle>
   <!-- EN: A local {ANIMAL_label} has gone mad. It will attack everyone it sees. -->
-  <AnimalInsanitySingle>本地区的一只{ANIMAL_label}发狂了。它会攻击任何视野内的人类。</AnimalInsanitySingle>
+  <AnimalInsanitySingle>この地域の{ANIMAL_label}が暴れ出しました. 目にはいる人を攻撃します.</AnimalInsanitySingle>
   <!-- EN: Mad {0} -->
-  <LetterLabelAnimalInsanityMultiple>大批{0}发狂</LetterLabelAnimalInsanityMultiple>
+  <LetterLabelAnimalInsanityMultiple>{0} 暴走群!!</LetterLabelAnimalInsanityMultiple>
   <!-- EN: Some sort of psychic wave has swept over the landscape. Your colonists are okay, but...\n\nIt seems many of the {0} in the area have been driven insane. -->
-  <AnimalInsanityMultiple>某种心灵波扫过了整个地区。你的殖民者们没出什么问题，但是……\n\n看来地区内的许多{0}都因此发狂了。</AnimalInsanityMultiple>
+  <AnimalInsanityMultiple>サイコウェーブの一種がこの辺りに吹き荒れました. 入植者は大丈夫です. しかし...\n\n多くの{0}が正気を失い暴れだしたようです.</AnimalInsanityMultiple>
 
   <!-- EN: Blight: {PLANTDEF_labelPlural} -->
-  <LetterLabelCropBlight>枯萎病：{PLANTDEF_labelPlural}</LetterLabelCropBlight>
+  <LetterLabelCropBlight>枯病: {PLANTDEF_labelPlural}</LetterLabelCropBlight>
   <!-- EN: Blight has been discovered on the {PLANTDEF_labelPlural}!
 \nYou should cut or burn the affected plants before the blight spreads. -->
-  <LetterCropBlight>一位殖民者注意到你的{PLANTDEF_labelPlural}发生了枯萎病！\n你应该在枯萎病扩散之前割除或烧掉枯萎的植物。</LetterCropBlight>
+  <LetterCropBlight>{PLANTDEF_labelPlural}が枯病に冒されています!\nあなたは,枯病が蔓延する前に伐採するか燃やすかしなければなりません.</LetterCropBlight>
 
   <!-- EN: Miracle -->
-  <LetterLabelMiracleHeal>医疗奇迹</LetterLabelMiracleHeal>
+  <LetterLabelMiracleHeal>奇跡</LetterLabelMiracleHeal>
   <!-- EN: {0} has experienced a miraculous recovery! -->
-  <MiracleHeal>{0}奇迹般的恢复健康了！</MiracleHeal>
+  <MiracleHeal>{0}は信じられない回復力で傷を癒やしました！</MiracleHeal>
 
   <!-- Enemy raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</EnemyRaidLeaderPresent>
+  <EnemyRaidLeaderPresent>{LEADER_factionPawnsPlural}のうちの1人,{LEADER_labelShort}は,この派閥のリーダーです.</EnemyRaidLeaderPresent>
 
   <!-- Friendly raids -->
   <!-- EN: One of the {LEADER_factionPawnsPlural} - {LEADER_labelShort}, is the leader of the faction. -->
-  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural}的其中一员——{LEADER_labelShort}，是该派系首领。</FriendlyRaidLeaderPresent>
+  <FriendlyRaidLeaderPresent>{LEADER_factionPawnsPlural}のうちの1人,{LEADER_labelShort}は,この派閥のリーダーです.</FriendlyRaidLeaderPresent>
 
   <!-- EN: Transport pod crash -->
-  <LetterLabelRefugeePodCrash>逃生舱坠毁</LetterLabelRefugeePodCrash>
+  <LetterLabelRefugeePodCrash>輸送ポッド事故</LetterLabelRefugeePodCrash>
   <!-- EN: {PAWN_titleIndef} named {PAWN_nameDef} is crashing in a transport pod nearby. If {PAWN_pronoun} survives the impact, {PAWN_pronoun} will be badly wounded. -->
-  <RefugeePodCrash>逃生舱在附近坠毁了，里面载有名叫{PAWN_nameDef}的{PAWN_titleIndef}。\n\n即使在撞击后活了下来，{PAWN_pronoun}也会受重伤。</RefugeePodCrash>
+  <RefugeePodCrash>{PAWN_nameDef}という{PAWN_titleIndef}が乗った輸送ポッドが近くに墜落してきます. もし{PAWN_pronoun}が衝撃から生き残ったとしても, {PAWN_pronoun}は重傷を負っているでしょう.</RefugeePodCrash>
   <!-- EN: {PAWN_nameDef} is not affiliated with any faction. You can rescue {PAWN_objective} and hope {PAWN_pronoun} joins freely, or capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Factionless>{PAWN_pronoun}不属于任何派系。你可以救援{PAWN_objective}并希望{PAWN_pronoun}自由加入，或是俘虏{PAWN_objective}来招募或奴役。</RefugeePodCrash_Factionless>
+  <RefugeePodCrash_Factionless>{PAWN_nameDef}は,どこの派閥にも属していません. あなたは{PAWN_objective}助けて,{PAWN_pronoun}が自ら仲間になることを期待しても良いですし,勧誘か奴隷目的で{PAWN_objective}捕らえることもできます.</RefugeePodCrash_Factionless>
   <!-- EN: {PAWN_nameDef} is from your enemy {PAWN_factionName}. You can capture {PAWN_objective} for recruitment or slavery purposes. -->
-  <RefugeePodCrash_Hostile>{PAWN_nameDef}来自于敌对派系{PAWN_factionName}，你可以俘虏{PAWN_objective}来招募或奴役。</RefugeePodCrash_Hostile>
+  <RefugeePodCrash_Hostile>{PAWN_nameDef}は,あなたの敵派閥である{PAWN_factionName}から来ました. あなたは勧誘か奴隷目的で {PAWN_objective}捕らえることができます.</RefugeePodCrash_Hostile>
   <!-- EN: {PAWN_nameDef} is from {PAWN_factionName}. If you rescue {PAWN_objective}, {PAWN_pronoun} may join freely. Otherwise, {PAWN_pronoun} will return home and spread goodwill between your factions.\n\nYou can also capture {PAWN_objective} for recruitment or slavery purposes, but this will anger {PAWN_possessive} faction. -->
-  <RefugeePodCrash_NonHostile>{PAWN_nameDef}来自于{PAWN_factionName}。如果你救援{PAWN_objective}，{PAWN_pronoun}可能会加入，也可能回到派系并改善双方的关系。\n\n你也可以俘虏{PAWN_objective}来招募或奴役，但这会激怒{PAWN_possessive}派系。</RefugeePodCrash_NonHostile>
+  <RefugeePodCrash_NonHostile>{PAWN_nameDef}は,{PAWN_factionName}から来ました. あなたが{PAWN_objective}助けると, {PAWN_pronoun}は自ら仲間になるかもしれません. そうでなくても,{PAWN_pronoun}は自分の本拠地に戻って, あなたがしてくれた善意を広めるでしょう.\n\nあなたは勧誘か奴隷目的で {PAWN_objective}捕らえることもできますが, {PAWN_possessive}派閥を怒らせるでしょう.</RefugeePodCrash_NonHostile>
 
   <!-- EN: Cargo pods -->
-  <LetterLabelCargoPodCrash>货舱坠毁</LetterLabelCargoPodCrash>
+  <LetterLabelCargoPodCrash>漂着物</LetterLabelCargoPodCrash>
   <!-- EN: You have detected a cluster of cargo pods crashing nearby.\n\nPerhaps you'll find something useful in the wreckage. -->
-  <CargoPodCrash>你侦测到了一组货舱在附近坠毁了。\n\n你或许能在残骸中找到不少有用的东西。</CargoPodCrash>
+  <CargoPodCrash>輸送ポッドがこの近くに墜落するのを見かけました.\n\nその付近を探せば,役に立つものが見つかるでしょう.</CargoPodCrash>
 
   <!-- EN: an electrical conduit -->
-  <AnElectricalConduit>电缆短路</AnElectricalConduit>
+  <AnElectricalConduit>電気ケーブル</AnElectricalConduit>
   <!-- EN: A fault in {0} has caused a short circuit. -->
-  <ShortCircuit>{0}的故障引起了短路。</ShortCircuit>
+  <ShortCircuit>{0}が故障し,ショートしました.</ShortCircuit>
   <!-- EN: A fault in {0} has caused a short circuit which started a fire. -->
-  <ShortCircuitStartedFire>{0}的故障引起了短路并引发了火灾。</ShortCircuitStartedFire>
+  <ShortCircuitStartedFire>{0}が故障し,ショートした結果,火災が発生しました.</ShortCircuitStartedFire>
   <!-- EN: All {0} Wd of energy in the connected batteries has been discharged in an electrical explosion. -->
-  <ShortCircuitDischargedEnergy>所连接的所有电池内储存的{0}Wd电力全部在电气爆炸中释放出来。</ShortCircuitDischargedEnergy>
+  <ShortCircuitDischargedEnergy>電気的爆発で,バッテリーと繋がっていた {0}Wdのエネルギーが放電しました.</ShortCircuitDischargedEnergy>
   <!-- EN: This large amount of power has created an explosion of considerable size. -->
-  <ShortCircuitWasLarge>储存的大量电能造成了一场规模可观的爆炸。</ShortCircuitWasLarge>
+  <ShortCircuitWasLarge>とても多くの電気が放電された結果,かなり大きな爆発が起きました.</ShortCircuitWasLarge>
   <!-- EN: That really is a huge explosion. Wow. -->
-  <ShortCircuitWasHuge>这爆炸的规模可超级大啊，哇！</ShortCircuitWasHuge>
+  <ShortCircuitWasHuge>うわぁ！ それはまさに大爆発です.</ShortCircuitWasHuge>
 
   <!-- EN: A trade ship is passing nearby.\n\nThey are known as {0}. They are a {1}.\n\n{2} -->
-  <TraderArrival>一艘商船正巧经过。\n\n他们被称作{0}，是{1}。\n\n{2}</TraderArrival>
+  <TraderArrival>商船が近くを通っています.\n\n彼らは,{0}という名で知られ,\n{1}を生業としています.\n\n{2}</TraderArrival>
   <!-- EN: They're affiliated with {FACTION_name}. -->
-  <TraderArrivalFromFaction>他们隶属于{FACTION_name}。</TraderArrivalFromFaction>
+  <TraderArrivalFromFaction>彼らは{FACTION_name}と提携しています.</TraderArrivalFromFaction>
   <!-- EN: They are not affiliated with any faction. -->
-  <TraderArrivalNoFaction>他们不属于任何派系。</TraderArrivalNoFaction>
+  <TraderArrivalNoFaction>彼らは,誰とも提携していません.</TraderArrivalNoFaction>
 
   <!-- EN: A {PAWN_title} from {1} is passing by. {PAWN_pronoun} is named {PAWN_nameFull}. -->
-  <SingleTravelerPassing>一位来自{1}的{0}正巧路过。{PAWN_pronoun}的名字叫{PAWN_nameFull}。</SingleTravelerPassing>
+  <SingleTravelerPassing>{1}の{PAWN_title}が村の近くにいます.{PAWN_pronoun}は {PAWN_nameFull}と 名乗っています.</SingleTravelerPassing>
   <!-- EN: A group of travelers from {0} are passing by. -->
-  <GroupTravelersPassing>一群来自{0}的旅行者正巧路过。</GroupTravelersPassing>
+  <GroupTravelersPassing>{0}の旅行者グループが村の近くにいます.</GroupTravelersPassing>
 
   <!-- EN: Visitor -->
-  <LetterLabelSingleVisitorArrives>访客</LetterLabelSingleVisitorArrives>
+  <LetterLabelSingleVisitorArrives>訪問者</LetterLabelSingleVisitorArrives>
   <!-- EN: {PAWN_titleIndef} from {1} is visiting the colony.\n\n{PAWN_pronoun} is named {PAWN_nameFull}.{3}{4} -->
-  <SingleVisitorArrives>一位来自{1}的{PAWN_titleIndef}来拜访殖民地。\n\n{PAWN_pronoun}的名字叫{PAWN_nameFull}。{3}{4}</SingleVisitorArrives>
+  <SingleVisitorArrives>{1}の{PAWN_titleIndef}が村を訪問しています.\n\n{PAWN_pronoun}は {PAWN_nameFull}と 名乗っています.{3}{4}</SingleVisitorArrives>
   <!-- EN: {PAWN_pronoun} seems to have a few items to trade. -->
-  <SingleVisitorArrivesTraderInfo>\n\n{PAWN_pronoun}似乎有些物品可供交易。</SingleVisitorArrivesTraderInfo>
+  <SingleVisitorArrivesTraderInfo>{PAWN_pronoun}は,持っているアイテムをいくつかトレードしたがっています.</SingleVisitorArrivesTraderInfo>
   <!-- EN: {PAWN_pronoun} is the leader of the faction. -->
-  <SingleVisitorArrivesLeaderInfo>\n\n{PAWN_pronoun}是该派系首领。</SingleVisitorArrivesLeaderInfo>
+  <SingleVisitorArrivesLeaderInfo>{PAWN_pronoun}は,派閥のリーダーです.</SingleVisitorArrivesLeaderInfo>
   <!-- EN: Visitors -->
-  <LetterLabelGroupVisitorsArrive>访客</LetterLabelGroupVisitorsArrive>
+  <LetterLabelGroupVisitorsArrive>訪問者達</LetterLabelGroupVisitorsArrive>
   <!-- EN: A group from {0} are visiting the colony.{1}{2} -->
-  <GroupVisitorsArrive>一群来自{0}的人来拜访殖民地。{1}{2}</GroupVisitorsArrive>
+  <GroupVisitorsArrive>{0}の旅行者グループが村を訪問しています.{1}{2}</GroupVisitorsArrive>
   <!-- EN: They seem to have a few items to trade. -->
-  <GroupVisitorsArriveTraderInfo>\n\n他们似乎有些物品可供交易。</GroupVisitorsArriveTraderInfo>
+  <GroupVisitorsArriveTraderInfo>彼らは,持っているアイテムをいくつかトレードしたがっています.</GroupVisitorsArriveTraderInfo>
   <!-- EN: One of the visitors - {1_labelShort}, is the leader of the faction. -->
-  <GroupVisitorsArriveLeaderInfo>\n\n访客中的{1_labelShort}是该派系首领。</GroupVisitorsArriveLeaderInfo>
+  <GroupVisitorsArriveLeaderInfo>旅行者グループのひとり,{1_labelShort}は,派閥のリーダーです.</GroupVisitorsArriveLeaderInfo>
   <!-- EN: Visitors from {0} are leaving. -->
-  <VisitorsLeaving>来自{0}的访客准备离开了。</VisitorsLeaving>
+  <VisitorsLeaving>訪問中の{0}は去りました.</VisitorsLeaving>
 
   <!-- EN: Manhunter pack -->
-  <LetterLabelManhunterPackArrived>猎杀人类</LetterLabelManhunterPackArrived>
+  <LetterLabelManhunterPackArrived>ヒト狩り集団</LetterLabelManhunterPackArrived>
   <!-- EN: A pack of man-hunting {0} have entered the area! Driven insane by the disease known as scaria, they will roam the region, hunting for humanoid flesh.\n\nThey won't attack doors unless they see someone go through the door. Hide inside and you'll be safe. They also won't attack powered-off turrets, so turn your turrets off to save them.\n\nThe {0} will leave the area in one or two days. You can hide and wait them out, or fight them. -->
-  <ManhunterPackArrived>一群猎杀人类的{0}已经进入该地区。他们被狂暴症逼疯了，将四处游荡猎杀人类。\n\n它们不会从门进来，所以如果你呆在室内并关好门应该是安全的。他们也不会攻击关闭的炮塔，所以如果你想避免炮台被拆可以停止对炮塔供电。\n\n{0}将会在几天后离开。你可以躲起来等它们离开，或者与它们战斗。</ManhunterPackArrived>
+  <ManhunterPackArrived>ヒト狩り{0}の集団が,やって来ました!やつらは,この地域をうろうろし,獲物のヒトを狩ります.\n\nやつらは,誰かがドアを通るところを見るまでは,ドアを攻撃することは無いでしょう.内側に潜んでいれば安全でしょう.また電源の入っていないタレットを攻撃することもないので,残しておきたければ電源を落としましょう.\n\n{0}は,1~2日も経てば居なくなるでしょう.あなたは物陰に身を潜めて立ち去るのを待つことも,戦いを選ぶこともできます.</ManhunterPackArrived>
   
   <!-- Crashed ship part-->
   <!-- EN: The {SOURCE_label} has emitted a psychic pulse that has driven nearby animals mad. -->
-  <MessageAnimalInsanityPulse>{SOURCE_label} 发出了一种精神脉冲，它让附近的动物都发狂了。</MessageAnimalInsanityPulse>
+  <MessageAnimalInsanityPulse>{SOURCE_label}は,近くの動物達を狂気に誘うサイキックパルスを照射しました.</MessageAnimalInsanityPulse>
   <!-- EN: The crashed ship part has emitted a focused psychic pulse that has driven colonist {0} insane. -->
-  <LetterShipPartDroveColonistInsane>坠毁的飞船零件发射了一束心灵脉冲，它让殖民者{0}发疯了。</LetterShipPartDroveColonistInsane>
+  <LetterShipPartDroveColonistInsane>古代の宇宙船はサイキックパルスを使い,入植者{0}に狂気を照射しました.</LetterShipPartDroveColonistInsane>
   <!-- EN: Awoke {0} days ago -->
-  <AwokeDaysAgo>苏醒于{0}天前</AwokeDaysAgo>
+  <AwokeDaysAgo>活動してから {0}日 経過</AwokeDaysAgo>
   <!-- EN: Activated {0} days ago -->
-  <ActivatedDaysAgo>激活于{0}天前</ActivatedDaysAgo>
+  <ActivatedDaysAgo>活性化してから {0}日 経過</ActivatedDaysAgo>
   <!-- EN: Opened {0} days ago -->
-  <OpenedDaysAgo>打开{0}天前</OpenedDaysAgo>
+  <OpenedDaysAgo>開封してから {0}日 経過</OpenedDaysAgo>
   <!-- EN: Psychic drone level: {0} -->
-  <PsychicDroneLevel>心灵低语强度: {0}</PsychicDroneLevel>
+  <PsychicDroneLevel>サイコドローンのレベル: {0}</PsychicDroneLevel>
   <!-- EN: Drone intensifies -->
-  <LetterLabelPsychicDroneLevelIncreased>心灵低语加剧</LetterLabelPsychicDroneLevelIncreased>
+  <LetterLabelPsychicDroneLevelIncreased>サイコドローン強化</LetterLabelPsychicDroneLevelIncreased>
   <!-- EN: The crashed ship part is now emanating a more powerful kind of psychic drone. Every {0} humanlike in the area now feels more disturbed, terrified, and paranoid. -->
-  <LetterPsychicDroneLevelIncreased>坠毁的飞船零件发出的心灵低语强度增强了。该地区的所有{0}人类的思维都受到更严重的干扰，开始变得更恐慌、更偏执。</LetterPsychicDroneLevelIncreased>
+  <LetterPsychicDroneLevelIncreased>古代の宇宙船は,さらに強力なサイコドローンを射出しました.このエリアの{0}性は,不安と,恐怖と,偏執衝動にさらされます.</LetterPsychicDroneLevelIncreased>
   
   <!-- Agent revealed -->
   <!-- EN: Agent -->
-  <LetterLabelAgentRevealed>间谍</LetterLabelAgentRevealed>
+  <LetterLabelAgentRevealed>代理人</LetterLabelAgentRevealed>
   <!-- EN: {0} has been revealed as an agent of your enemy {1}.\n\nThey are attempting to escape now. -->
-  <LetterAgentRevealed>{0}被发现是你的敌人{1}所派来的一名间谍。\n\n他们现在正试图逃跑。</LetterAgentRevealed>
+  <LetterAgentRevealed>{0}は,あなたの敵である{1}の代理であると名乗りました.\n\n彼らは逃げようとしています.</LetterAgentRevealed>
 
   <!-- Beavers -->
   <!-- EN: Beavers! -->
-  <LetterLabelBeaversArrived>阿尔法海狸！</LetterLabelBeaversArrived>
+  <LetterLabelBeaversArrived>ビーバー達</LetterLabelBeaversArrived>
   <!-- EN: A group of hungry alphabeavers has just arrived.\n\nTry to eliminate them before they decimate every last source of wood in the region. -->
-  <BeaversArrived>一群饥饿的阿尔法海狸出现。\n\n在这种基因改造动物啃倒本地区最后一棵树之前消灭他们。</BeaversArrived>
+  <BeaversArrived>今,腹を空かせたアルファビーバーの一団が現れました.\n\n一本残らず木が食い尽くされる前に,駆除することを試しましょう.</BeaversArrived>
   
   <!-- Self-tame -->
   <!-- EN: {1_kind} self-tamed -->
-  <LetterLabelAnimalSelfTame>{1_kind}自行驯服</LetterLabelAnimalSelfTame>
+  <LetterLabelAnimalSelfTame>{1_kind}が人なつっこく寄ってきた</LetterLabelAnimalSelfTame>
   <!-- EN: {0} has become tame. -->
-  <LetterAnimalSelfTame>{0}自行驯服了。</LetterAnimalSelfTame>
+  <LetterAnimalSelfTame>{0}がなついてきました.</LetterAnimalSelfTame>
   <!-- EN: {0} has become tame. It is now designated {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndNameNumerical>{0}自行驯服了。现在已被指定为{ANIMAL_nameFull}。</LetterAnimalSelfTameAndNameNumerical>
+  <LetterAnimalSelfTameAndNameNumerical>{0}が人なつっこく寄ってきました. この生物に,{ANIMAL_nameFull}と言う名前を 割り当てました.</LetterAnimalSelfTameAndNameNumerical>
   <!-- EN: {0} has become tame. Colonists have decided to name it {ANIMAL_nameFull}. -->
-  <LetterAnimalSelfTameAndName>{0}自行驯服了。殖民者决定将它命名为{ANIMAL_nameFull}。</LetterAnimalSelfTameAndName>
+  <LetterAnimalSelfTameAndName>{0}が人なつっこく寄ってきました. 入植者達は{ANIMAL_nameFull}と名付けました.</LetterAnimalSelfTameAndName>
 
   <!-- Farm animals wander in -->
   <!-- EN: {0} join -->
-  <LetterLabelFarmAnimalsWanderIn>{0}加入</LetterLabelFarmAnimalsWanderIn>
+  <LetterLabelFarmAnimalsWanderIn>{0}が加わりました</LetterLabelFarmAnimalsWanderIn>
   <!-- EN: A group of {0}, abandoned or lost, have wandered into the area.\n\nThey seem accustomed to human contact and are joining the colony. -->
-  <LetterFarmAnimalsWanderIn>一群被遗弃或迷路的{0}游荡到本地区。\n\n它们似乎习惯与人类相处，并且加入了殖民地。</LetterFarmAnimalsWanderIn>
+  <LetterFarmAnimalsWanderIn>放棄されたか,迷子になった {0}のグループが, 迷い込んできました.\n\nコロニーに加わった彼らは,ヒトとの交流に慣れているように見えます.</LetterFarmAnimalsWanderIn>
   
   <!-- Thrumbo passes -->
   <!-- EN: Rare thrumbos -->
-  <LetterLabelThrumboPasses>罕见的敲击兽</LetterLabelThrumboPasses>
+  <LetterLabelThrumboPasses>希少なスランボ</LetterLabelThrumboPasses>
   <!-- EN: A small herd of thrumbos have wandered into the area.\n\nPeaceful by nature, these rare creatures are extremely dangerous when confronted. Some traders are willing to pay a lot of money for their precious leather and horn.\n\nThrumbos will leave the area in a few days. -->
-  <LetterThrumboPasses>一小群敲击兽来到了本地区。\n\n这种罕见的野兽天性温顺，但一旦被激怒时就会变得非常危险。有些贸易商愿意出大价钱收购它们珍贵的皮革和角。\n\n敲击兽将会在几天后离开。</LetterThrumboPasses>
+  <LetterThrumboPasses>スランボの小さな群れが,このエリアに入り込んできました.\n\n基本的には大人しいですが,この希少な生き物と対決するときは非常に危険です.幾人かの貿易商は,これらの貴重な毛皮と角に多額の報酬を払うでしょう.\n\nスランボ達は数日で,ここから出て行くでしょう.</LetterThrumboPasses>
   
   <!-- Trader caravan -->
   <!-- EN: {1} from {0} -->
-  <LetterLabelTraderCaravanArrival>来自{0}的{1}</LetterLabelTraderCaravanArrival>
+  <LetterLabelTraderCaravanArrival>{0}からの{1}</LetterLabelTraderCaravanArrival>
   <!-- EN: A caravan from {0} is approaching. They are a {1}. -->
-  <LetterTraderCaravanArrival>一队来自{0}的远行队正在接近，他们是{1}。</LetterTraderCaravanArrival>
+  <LetterTraderCaravanArrival>{0}から来たトレーダーキャラバンが接触してきました.彼らは{1}です.</LetterTraderCaravanArrival>
   <!-- EN: They will hang around the colony for some time before leaving. You can attack them - but this will anger their faction! -->
-  <LetterCaravanArrivalCommonWarning>他们将在殖民地逗留几天，然后离开。你可以攻击他们，但这会激怒他们的派系！</LetterCaravanArrivalCommonWarning>
+  <LetterCaravanArrivalCommonWarning>彼らは,ここを離れるまでの間,コロニーの周りをウロウロします.あなたは彼らを攻撃できますが,彼らの派閥を怒らせるでしょう!</LetterCaravanArrivalCommonWarning>
     
   <!-- Ransom demand -->
   <!-- EN: Ransom demand at {0} -->
-  <RansomDemandTitle>向{0}索要赎金</RansomDemandTitle>
+  <RansomDemandTitle>{0}からの身代金要求</RansomDemandTitle>
   <!-- EN: {1} contacts you on radio. They are holding former colonist {PAWN_labelShort} for ransom.\n\nThey're willing to release {PAWN_objective} back to you in exchange for {2} silver. -->
-  <RansomDemand>{1}发来通讯信号。他们绑架了殖民者 {PAWN_labelShort} 并索要赎金。\n\n从他们手里赎回{PAWN_objective}需要{2}白银。</RansomDemand>
+  <RansomDemand>{1}が通信で,あなたに呼びかけています.彼らは,入植者である{0}を人質にしています.\n\n彼らは,身代金{2}シルバーと交換に,{PAWN_objective}解放する用意があると言ってきています.</RansomDemand>
   <!-- EN: Accept -->
-  <RansomDemand_Accept>同意</RansomDemand_Accept>
+  <RansomDemand_Accept>身代金を払う</RansomDemand_Accept>
   <!-- EN: Reject -->
-  <RansomDemand_Reject>拒绝</RansomDemand_Reject>
+  <RansomDemand_Reject>拒絶する</RansomDemand_Reject>
   
   <!-- Journey-related -->
   <!-- EN: Ship found -->
-  <EscapeShipFoundLabel>发现飞船</EscapeShipFoundLabel>
+  <EscapeShipFoundLabel>宇宙船発見</EscapeShipFoundLabel>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <EscapeShipFound>你已经抵达(*Name)沙隆·白石(/Name)所发给你的坐标并且发现了隐藏的太空船。\n\n这艘飞船的反应堆仍处于深度休眠模式，所以还无法飞行。你可以通过操作电脑核心启动它。\n\n(*Name)沙隆·白石(/Name)警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</EscapeShipFound>
+  <EscapeShipFound>(*Name)Charlon Whitestone(/Name)が送ってきた座標に到着し,秘匿された宇宙船を発見しました.\n\n宇宙船の反応炉は深い休止状態にあるので,まだ飛ぶことができません.コンピュータコアを使って操作すれば起動させることができます.\n\n(*Name)Charlon Whitestone(/Name)は警告しています.再起動シーケンスはおよそ15日程かかり,発生するエネルギー波紋は,かなり遠くからでも探知されてしまうでしょう.このエネルギー波紋の一種は,恒星間航行能力があることを示し,命知らずのギャング達や,最悪なメカノイドの群れを惹きつけるでしょう.\n\nあなたは,今まで見たこともないような熾烈な戦闘に巻き込まれることが予想されます.まずは最初に守りを確認しましょう.</EscapeShipFound>
   <!-- EN: You've reached the coordinates sent by (*Name)Charlon Whitestone(/Name) and discovered the hidden starship.\n\nThe ship's reactor is still in deep hibernation mode, so it can't fly yet. You can start it up by interacting with the computer core.\n\n(*Name)Charlon Whitestone(/Name) warns you that the startup process will take about 15 days. -->
-  <EscapeShipFoundPeaceful>你已经抵达(*Name)沙隆·白石(/Name)所发给你的坐标并且发现了隐藏的太空船。\n\n这艘飞船的反应堆仍处于深度休眠模式，所以还无法飞行。你可以通过操作电脑核心启动它。\n\n(*Name)沙隆·白石(/Name)警告称启动进程将会耗费大约15天。</EscapeShipFoundPeaceful>
+  <EscapeShipFoundPeaceful>あなたは(*Name)Charlon Whitestone(/Name)が送ってきた座標に到着し,秘匿された宇宙船を発見しました.\n\n宇宙船の反応炉は深い休止状態にあるので,まだ飛ぶことはできません.コンピュータコアにアクセスして起動させることができます.\n\n(*Name)Charlon Whitestone(/Name)はあなたに起動シーケンスは約15日かかると警告してきました.</EscapeShipFoundPeaceful>
   <!-- EN: Ship destroyed -->
-  <EscapeShipLostLabel>飞船摧毁</EscapeShipLostLabel>
+  <EscapeShipLostLabel>宇宙船破壊</EscapeShipLostLabel>
   <!-- EN: (*Name)Charlon Whitestone(/Name) sends you a message.\n\nHe sees that you've lost control of the landed ship. To stop it falling into the wrong hands, he's been forced to trigger the ship's self-destruct mechanism. The ship is now a crater.\n\nYou'll need to find another way off this planet. -->
-  <EscapeShipLost>(*Name)沙隆·白石(/Name)给你发了条消息。\n\n他发现你失去了对已降落飞船的控制。为了防止落入坏人之手，他被迫触发了飞船的自毁装置。这艘船已经成为一颗定时炸弹。\n\n你需要另寻他路离开这颗星球。</EscapeShipLost>
+  <EscapeShipLost>(*Name)Charlon Whitestone(/Name)がメッセージを送ってきました.\n彼は,あなたが着陸船で姿勢制御を失ったことを知っています.船が悪人の手に落ちるのを防ぐために,彼は,宇宙船の自爆装置の引き金を引き,その結果,船は今やクレーターとなりました.\nこの惑星から出る,別の手段を見つける必要があります.</EscapeShipLost>
 
   <!-- Caravan meeting -->
   <!-- EN: Caravan meeting by {0} -->
-  <CaravanMeetingTitle>远行队相遇（{0}）</CaravanMeetingTitle>
+  <CaravanMeetingTitle>{0}はキャラバン隊と出会った</CaravanMeetingTitle>
   <!-- EN: {0} has met peacefully with a caravan from {1}. The other caravan is composed of:\n\n{2} -->
-  <CaravanMeeting>{0}和来自{1}的远行队和平地相遇了。另一个远行队构成: \n\n{2}</CaravanMeeting>
+  <CaravanMeeting>{0}は,{1}から来たキャラバン隊と平和的に出会いました. もう一方のキャラバン隊は次から編成されています:\n\n{2}</CaravanMeeting>
   <!-- EN: Trade -->
-  <CaravanMeeting_Trade>交易</CaravanMeeting_Trade>
+  <CaravanMeeting_Trade>売買</CaravanMeeting_Trade>
   <!-- EN: Attack -->
-  <CaravanMeeting_Attack>攻击</CaravanMeeting_Attack>
+  <CaravanMeeting_Attack>攻撃</CaravanMeeting_Attack>
   <!-- EN: Move on -->
-  <CaravanMeeting_MoveOn>继续前进</CaravanMeeting_MoveOn>
+  <CaravanMeeting_MoveOn>移動</CaravanMeeting_MoveOn>
   <!-- EN: no caravan members capable of trading -->
-  <CaravanMeeting_TradeIncapable>没有远行队成员具备交易能力</CaravanMeeting_TradeIncapable>
+  <CaravanMeeting_TradeIncapable>商取引できるメンバーがいない</CaravanMeeting_TradeIncapable>
   <!-- EN: need a trader with the title of {0} from {1_name} -->
-  <CaravanMeeting_NoPermit>需要{1_name}的一名{0}来进行交易。</CaravanMeeting_NoPermit>
+  <CaravanMeeting_NoPermit>{1_name}出身の{0}の称号を持ったトレーダーが必要です.</CaravanMeeting_NoPermit>
   
   <!-- Caravan request -->
   <!-- EN: Caravan request -->
-  <LetterLabelCaravanRequest>远行队请求</LetterLabelCaravanRequest>
+  <LetterLabelCaravanRequest>キャラバン隊派遣要請</LetterLabelCaravanRequest>
   <!-- EN: A nearby settlement, {0}, contacts you with a special trade request. They would like to purchase:\n\n  {1} (worth {2})\n\nIn return, they offer:\n\n  {3} (worth {4})\n\nThis request expires after: {5}\n\nIf you want to make the trade, send a caravan with the requested supplies. The estimated travel time is {6}. You can review this offer by selecting {0} on the world map. -->
-  <LetterCaravanRequest>附近的一个定居点，{0}，联系上你并提出一个特殊的交易需求。他们想要采购：\n\n  {1} (价值 {2})\n\n作为回报，他们会提供:\n\n  {3} (价值 {4})\n\n请求期限:{5}\n\n如果你想完成这项交易，派遣携带这些物资的远行队。预估旅途用时为{6}。你可以在世界地图中选择{0}查看此请求。</LetterCaravanRequest>
+  <LetterCaravanRequest>入植地の近くにある,{0}が特別な取引を持ちかけてきました. 彼らは,以下の物を欲しがっています:\n\n  {1} (価値 {2})\n\n見返りとして提示:\n\n  {3} (価値 {4})\n\n有効期限: {5}\n\n取引に興味があれば,要求された品物を持たせたキャラバン隊を送りましょう. おおよその旅程時間は{6}です. この取引は,ワールドマップで{0}を選択すると再表示できます.</LetterCaravanRequest>
   <!-- EN: Requesting: {0} ({2}) ({1} left) -->
-  <CaravanRequestInfo>需求: {0} ({2}) (剩余 {1})</CaravanRequestInfo>
+  <CaravanRequestInfo>要求: {0}({3}),報酬: {1}({4}) (残り{2})</CaravanRequestInfo>
   <!-- EN: normal quality or better -->
-  <NormalQualityOrBetter>品质需要为一般及以上。</NormalQualityOrBetter>
+  <NormalQualityOrBetter>普通以上の品質</NormalQualityOrBetter>
   <!-- EN: not tainted -->
-  <NotTainted>未被污染</NotTainted>
+  <NotTainted>汚れなし</NotTainted>
 
   <!-- Caravan demand -->
   <!-- EN: Caravan demand by {0} -->
-  <CaravanDemandTitle>远行队被{0}打劫</CaravanDemandTitle>
+  <CaravanDemandTitle>{0}からのゆすり,たかり</CaravanDemandTitle>
   <!-- EN: {0} has been ambushed by a group of {2} {4} from {1}. They will attack unless you give them:\n\n{3} -->
-  <CaravanDemand>{0}被来自{1}的{2}个{4}打劫了。他们会攻击你，除非你给他们:\n\n{3}</CaravanDemand>
+  <CaravanDemand>{0}は,{1}から来た{2}人の{4}の集団に待ち伏せされました.次の品を渡さないと攻撃されます:\n\n{3}</CaravanDemand>
   <!-- EN: Give and pass -->
-  <CaravanDemand_Give>交出并通行</CaravanDemand_Give>
+  <CaravanDemand_Give>渡して通る</CaravanDemand_Give>
   <!-- EN: Refuse and fight -->
-  <CaravanDemand_Fight>拒绝并战斗</CaravanDemand_Fight>
+  <CaravanDemand_Fight>断固拒否,戦う</CaravanDemand_Fight>
 
   <!-- Site no longer hostile -->
   <!-- EN: Quest no longer available -->
-  <LetterLabelSiteNoLongerHostile>任务不再可用</LetterLabelSiteNoLongerHostile>
+  <LetterLabelSiteNoLongerHostile>もうクエストは存在しません</LetterLabelSiteNoLongerHostile>
   <!-- EN: Quests no longer available -->
-  <LetterLabelSiteNoLongerHostileMulti>任务不再可用</LetterLabelSiteNoLongerHostileMulti>
+  <LetterLabelSiteNoLongerHostileMulti>もうクエストは存在しません</LetterLabelSiteNoLongerHostileMulti>
   <!-- EN: Because you are no longer hostile with {0}, the {1} site is no longer available. -->
-  <LetterSiteNoLongerHostile>因为你和{0}不再敌对，地点{1}将不再可用</LetterSiteNoLongerHostile>
+  <LetterSiteNoLongerHostile>もう{0}とは敵対していないので,{1}は存在しません.</LetterSiteNoLongerHostile>
   <!-- EN: Because you are no longer hostile with {0}, the following sites are no longer available -->
-  <LetterSiteNoLongerHostileMulti>因为你和{0}不再敌对，以下地点将不再可用</LetterSiteNoLongerHostileMulti>
+  <LetterSiteNoLongerHostileMulti>もう{0}とは敵対していないので,下記の物は存在しません.</LetterSiteNoLongerHostileMulti>
 
   <!-- Quest asker faction hostile -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerFactionHostile>任务失败</LetterLabelQuestAskerFactionHostile>
+  <LetterLabelQuestAskerFactionHostile>クエスト 失敗</LetterLabelQuestAskerFactionHostile>
   <!-- EN: The quest is now incompletable because {FACTION_name} is hostile. -->
-  <LetterQuestAskerFactionHostile>由于和 {FACTION_name} 已经处于敌对状态，因此该任务无法完成。</LetterQuestAskerFactionHostile>
+  <LetterQuestAskerFactionHostile>{FACTION_name}と敵対しているためクエストを完了できません.</LetterQuestAskerFactionHostile>
 
   <!-- Quest asker captured -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerCaptured>任务失败</LetterLabelQuestAskerCaptured>
+  <LetterLabelQuestAskerCaptured>クエスト 失敗</LetterLabelQuestAskerCaptured>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has been captured. -->
-  <LetterQuestAskerCaptured>因为 {SUBJECT_definite} 已被捕获，该任务已无法继续进行。</LetterQuestAskerCaptured>
+  <LetterQuestAskerCaptured>{SUBJECT_definite}が囚われているためクエストを完了できません.</LetterQuestAskerCaptured>
 
   <!-- Quest asker died -->
   <!-- EN: Quest failed -->
-  <LetterLabelQuestAskerDied>任务失败</LetterLabelQuestAskerDied>
+  <LetterLabelQuestAskerDied>クエスト 失敗</LetterLabelQuestAskerDied>
   <!-- EN: The quest is now incompletable because {SUBJECT_definite} has died. -->
-  <LetterQuestAskerDied>任务对象 {SUBJECT_definite} 已经死亡，导致该任务无法继续完成。</LetterQuestAskerDied>
+  <LetterQuestAskerDied>{SUBJECT_definite}が死んでいるためクエストを完了できません.</LetterQuestAskerDied>
 
 </LanguageData>

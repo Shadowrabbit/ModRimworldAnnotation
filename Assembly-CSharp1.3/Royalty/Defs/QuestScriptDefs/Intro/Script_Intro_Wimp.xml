@@ -274,8 +274,8 @@
           </node>
         </li>
 
-        <!-- Give honor to accepter -->
-        <li Class="QuestNode_GiveRoyalFavor">
+        <!-- Give honor to accepter (and development points if applicable) -->
+        <li Class="QuestNode_GiveRoyalFavorAndDevelopmentPoints">
           <inSignal>pickupShipThing.SentSatisfied</inSignal>
           <giveToAccepter>true</giveToAccepter>
           <factionOf>$asker</factionOf>

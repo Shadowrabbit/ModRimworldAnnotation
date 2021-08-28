@@ -350,7 +350,7 @@
   <ThingDef ParentName="BodyPartProstheticBase">
     <defName>PowerClaw</defName>
     <label>power claw</label>
-    <description>A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainlyness slows down movement slightly.</description>
+    <description>A combat-oriented hand replacement consisting of a mechanical hand with a hooked claw on each finger. It cuts deep, and it is strong enough to crush a skull like a hand crushes an egg. The claws can be retracted, making it as useful as a natural hand for non-combat tasks, however its overall ungainliness slows down movement slightly.</description>
     <descriptionHyperlinks><RecipeDef>InstallPowerClaw</RecipeDef></descriptionHyperlinks>
     <thingSetMakerTags>
       <li>RewardStandardMidFreq</li>

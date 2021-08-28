@@ -11,7 +11,6 @@
     <blockRandomInteraction>true</blockRandomInteraction>
     <blockNormalThoughts>true</blockNormalThoughts>
     <recoverFromSleep>false</recoverFromSleep>
-    <recoverFromDowned>false</recoverFromDowned>
     <recoverFromCollapsingExhausted>false</recoverFromCollapsingExhausted>
     <blockInteractionInitiationExcept>
     </blockInteractionInitiationExcept>

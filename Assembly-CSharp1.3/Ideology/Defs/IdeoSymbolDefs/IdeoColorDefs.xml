@@ -3,7 +3,7 @@
 
   <ColorDef>
     <defName>LightGrey</defName>
-    <color>(255, 255, 255)</color>
+    <color>(245, 245, 245)</color>
     <memes>
       <li>Transhumanist</li>
     </memes>
@@ -204,6 +204,62 @@
   <ColorDef>
     <defName>DarkPink</defName>
     <color>(148, 67, 115)</color>
+  </ColorDef>
+
+
+  <!-- Hair colors -->
+
+  <ColorDef>
+    <defName>PitchBlack</defName>
+    <color>(0.1, 0.1, 0.1)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>DarkBlack</defName>
+    <color>(0.2, 0.2, 0.2)</color>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>MidBlack</defName>
+    <color>(0.31, 0.28, 0.26)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>DarkReddish</defName>
+    <color>(0.25, 0.2, 0.15)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>DarkSaturatedReddish</defName>
+    <color>(0.3, 0.2, 0.1)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>DarkBrown</defName>
+    <color>(90, 58, 32)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>ReddishBrown</defName>
+    <color>(132, 83, 47)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>SandyBlonde</defName>
+    <color>(193, 146, 85)</color>
+    <hairOnly>true</hairOnly>
+  </ColorDef>
+
+  <ColorDef>
+    <defName>Blonde</defName>
+    <color>(237, 202, 156)</color>
+    <hairOnly>true</hairOnly>
   </ColorDef>
 
 </Defs>

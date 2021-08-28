@@ -9,6 +9,7 @@
     <expireDaysRange>4~8</expireDaysRange>
     <defaultChallengeRating>1</defaultChallengeRating>
     <canGiveRoyalFavor>true</canGiveRoyalFavor>
+    <successHistoryEvent MayRequire="Ludeon.RimWorld.Ideology">HospitalitySuccess_Animals</successHistoryEvent>
     <questDescriptionAndNameRules>
       <rulesStrings>
         <li>lodgersLabel->[lodgersPawnKind_label]</li>

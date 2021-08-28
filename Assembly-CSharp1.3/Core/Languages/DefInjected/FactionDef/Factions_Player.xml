@@ -2,21 +2,21 @@
 <LanguageData>
   
   <!-- EN: New Arrivals -->
-  <PlayerColony.label>新移民</PlayerColony.label>
+  <PlayerColony.label>入植者(新参者)</PlayerColony.label>
   <!-- EN: A colony of recently-arrived off-worlders. -->
-  <PlayerColony.description>最近来到边缘世界的一群殖民者。</PlayerColony.description>
+  <PlayerColony.description>直近に到着したコロニーの人達です.</PlayerColony.description>
   <!-- EN: colonist -->
-  <PlayerColony.pawnSingular>殖民者</PlayerColony.pawnSingular>
+  <PlayerColony.pawnSingular>入植者</PlayerColony.pawnSingular>
   <!-- EN: colonists -->
-  <PlayerColony.pawnsPlural>殖民者</PlayerColony.pawnsPlural>
+  <PlayerColony.pawnsPlural>入植者達</PlayerColony.pawnsPlural>
   
   <!-- EN: New Tribe -->
-  <PlayerTribe.label>新部落</PlayerTribe.label>
+  <PlayerTribe.label>部族民(新参者)</PlayerTribe.label>
   <!-- EN: A small tribe. -->
-  <PlayerTribe.description>一个小部落。</PlayerTribe.description>
+  <PlayerTribe.description>小さな部族です.</PlayerTribe.description>
   <!-- EN: tribesman -->
-  <PlayerTribe.pawnSingular>部众</PlayerTribe.pawnSingular>
+  <PlayerTribe.pawnSingular>部族民</PlayerTribe.pawnSingular>
   <!-- EN: tribespeople -->
-  <PlayerTribe.pawnsPlural>部众</PlayerTribe.pawnsPlural>
+  <PlayerTribe.pawnsPlural>部族民ら</PlayerTribe.pawnsPlural>
   
 </LanguageData>

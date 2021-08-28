@@ -45,6 +45,8 @@
   <MessageAnimalsGoPsychoHunted>Warning: {ANIMAL_kindBasePlural} have a {1} base chance to attack when harmed. Chance depends on range and hunter stealth stat.</MessageAnimalsGoPsychoHunted>
   <MessageAnimalManhuntsOnTameFailed>Warning: {ANIMAL_kindBasePlural} may attack upon failed taming attempts ({1} chance).</MessageAnimalManhuntsOnTameFailed>
   <MessageInsectTameDesignated>Only those with the insect sympathy trait can tame {INSECT_indefinite}.</MessageInsectTameDesignated>
+
+  <MessageInsectsHostileOnTaming>Warning: The {PAWN_labelShort} is hostile and will attack while your colonist tries to tame it.</MessageInsectsHostileOnTaming>
   
   <LetterLabelMessageRecruitSuccess>New recruit</LetterLabelMessageRecruitSuccess>
   <MessageRecruitSuccess>{RECRUITER_nameFull} successfully recruited {RECRUITEE_nameFull}.</MessageRecruitSuccess>
@@ -91,6 +93,7 @@
 
   <MessageMedicalOperationWillAngerFaction>This operation will anger {0}.</MessageMedicalOperationWillAngerFaction>
 
+  <MessageAnimalIsPregnant>{PAWN_nameDef} is pregnant!</MessageAnimalIsPregnant>
   <MessageMiscarriedStarvation>{0} has miscarried due to starvation.</MessageMiscarriedStarvation>
   <MessageMiscarriedPoorHealth>{0} has miscarried due to poor health.</MessageMiscarriedPoorHealth>
   <MessageGaveBirth>{0} has given birth.</MessageGaveBirth>
@@ -106,8 +109,6 @@
   <MessageAttackedByPredator>{PREY_labelShort} is being attacked by {PREDATOR}!</MessageAttackedByPredator>
 
   <MessageRoamerLeaving>{PAWN_labelShort} has started to roam away! {PAWN_pronoun} will leave the map unless an animal handler ropes {PAWN_objective} back to a pen.</MessageRoamerLeaving>
-
-  <MessageAutoCutInUnenclosedPen>Cannot auto-cut plants when pen is not enclosed - build fences.</MessageAutoCutInUnenclosedPen>
 
   <MessageHiveReproduced>A bug hive has reproduced itself.</MessageHiveReproduced>
   
@@ -369,6 +370,8 @@
   <MessageNoResearchBenchForTechprint>Cannot apply: No reachable, un-reserved research bench available.</MessageNoResearchBenchForTechprint>
 
   <NoValidDestinationFound>No valid destination found for {0}</NoValidDestinationFound>
+
+  <MessageMinifiedTreeDied>An extracted tree just died.</MessageMinifiedTreeDied>
   
   <!-- Research -->
   <MessageResearchMenuWithoutBench>Warning: Research will not begin until you build a research bench.</MessageResearchMenuWithoutBench>
@@ -406,6 +409,9 @@
   <MessageRitualRoleMustRequireScarification>{0_labelShort} does not require further scarification.</MessageRitualRoleMustRequireScarification>
   <MessageRitualRoleMustBePrisonerOrSlave>{0} must be a prisoner or slave.</MessageRitualRoleMustBePrisonerOrSlave>
   <MessageRitualRoleMustBeCapableOfFighting>{0_labelShort} must be capable of fighting.</MessageRitualRoleMustBeCapableOfFighting>
+  <MessageRitualRoleCannotReplaceRequiredPawn>this role cannot be played by someone else.</MessageRitualRoleCannotReplaceRequiredPawn>
+  <MessageRitualRolePawnRecentlyTornConnection>{0_labelShort} cannot connect to a Gauranlen tree because {0_possessive} connection was recently torn.</MessageRitualRolePawnRecentlyTornConnection>
+  <MessageRitualRolePawnHasSameIdeo>{0_labelShort} has the same ideoligion as the converter.</MessageRitualRolePawnHasSameIdeo>
   <MessageRitualRoleMustBeCapableOfWardening>{0_labelShort} must be capable of wardening.</MessageRitualRoleMustBeCapableOfWardening>
   <MessageRitualRoleMustBeCapableOfGeneric>{0} must be capable of {1}.</MessageRitualRoleMustBeCapableOfGeneric>
   <MessageRitualRoleMustNotBePrisonerToSpectate>prisoners cannot {0}.</MessageRitualRoleMustNotBePrisonerToSpectate>
@@ -416,6 +422,8 @@
   <MessageRitualPawnMentalState>{0_labelShort} is in a mental state.</MessageRitualPawnMentalState>
   <MessageRitualPawnIsAlreadyBelievingIdeo>{0_labelShort} is already {1}.</MessageRitualPawnIsAlreadyBelievingIdeo>
   <MessageRitualCannotAssignAnyRoleFromSpectating>{0_labelShort} cannot take any other role than spectator.</MessageRitualCannotAssignAnyRoleFromSpectating>
+  <MessageRitualRoleMustNotBeImprisonedWildMan>{0} cannot be an imprisoned wild man/woman.</MessageRitualRoleMustNotBeImprisonedWildMan>
+  <MessageRitualRoleMustNotBeImprisoned>{0} must be free.</MessageRitualRoleMustNotBeImprisoned>
 
   <MessagePlayerMustSelectTile>You must select a site to continue.</MessagePlayerMustSelectTile>
 
@@ -424,6 +432,6 @@
   <BlockedBy>blocked by {0_label}.</BlockedBy>
   <AdjacentSowBlocker>Cannot be planted next to {0_label}.</AdjacentSowBlocker>
   <TooCloseToOtherPlant>Too close to {0_label}.</TooCloseToOtherPlant>
-  <TooCloseToOtherSeedPlantCell>Too close to {0_label}'s planting location.</TooCloseToOtherSeedPlantCell>
+  <TooCloseToOtherSeedPlantCell>Too close to {0}'s planting location.</TooCloseToOtherSeedPlantCell>
   
 </LanguageData>

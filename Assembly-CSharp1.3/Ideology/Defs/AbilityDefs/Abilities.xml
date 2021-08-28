@@ -228,7 +228,7 @@
     <showPsycastEffects>False</showPsycastEffects>
     <emittedFleck>PreachHealth</emittedFleck>
     <emissionInterval>60</emissionInterval>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/PreachHealth</warmupMoteSocialSymbol>
     <displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
     <disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
     <uiOrder>4</uiOrder>
@@ -390,7 +390,7 @@
     <label>marksman command</label>
     <description>Call out shots and boost the shooting skills of everyone nearby. The effect remains attached to the caster for 24 hours.</description>
     <iconPath>UI/Abilities/MarksmanCommand</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/MarksmanCommand</warmupMoteSocialSymbol>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -407,7 +407,7 @@
     <label>berserk trance</label>
     <description>The caster fills himself with anger over ideological grievances. This strengthens the body past normal limits, but also means losing control and attacking every enemy nearby in an unstoppable rage. The berserk state will last for 3 hours.</description>
     <iconPath>UI/Abilities/BerserkTrance</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/BerserkTrance</warmupMoteSocialSymbol>
     <statBases>
       <Ability_Duration>126</Ability_Duration>
     </statBases>
@@ -432,7 +432,7 @@
     <label>research command</label>
     <description>Provide suggestions and mental support, boosting the research speed of everyone nearby. The effect remains attached to the caster for 24 hours.</description>
     <iconPath>UI/Abilities/ResearchCommand</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/ResearchCommand</warmupMoteSocialSymbol>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -449,7 +449,7 @@
     <label>farming command</label>
     <description>Offer guidance on farming techniques, boosting the farming abilities for everyone nearby. The effect remains attached to the caster for 24 hours.</description>
     <iconPath>UI/Abilities/FarmingCommand</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/FarmingCommand</warmupMoteSocialSymbol>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -466,7 +466,7 @@
     <label>production command</label>
     <description>Offer guidance on construction techniques, boosting construction and crafting abilities for everyone nearby. The effect remains attached to the caster for 24 hours.</description>
     <iconPath>UI/Abilities/ProductionCommand</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/ProductionCommand</warmupMoteSocialSymbol>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -483,7 +483,7 @@
     <label>mining command</label>
     <description>Offer guidance on mining techniques, boosting the mining speed for everyone nearby. The effect remains attached to the caster for 24 hours.</description>
     <iconPath>UI/Abilities/MiningCommand</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/MiningCommand</warmupMoteSocialSymbol>
     <comps>
       <li Class="CompProperties_AbilityGiveHediff">
         <compClass>CompAbilityEffect_GiveHediff</compClass>
@@ -501,7 +501,7 @@
     <description>Use unique methods of connecting with animals to calm a maddened beast.</description>
     <groupDef>MultiRole</groupDef>
     <iconPath>UI/Abilities/AnimalCalm</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/AnimalCalm</warmupMoteSocialSymbol>
     <hotKey>Misc12</hotKey>
     <jobDef>CastAbilityOnThingMelee</jobDef>
     <overrideGroupCooldown>True</overrideGroupCooldown>
@@ -536,7 +536,7 @@
     <description>Offer moral support that energizes the body, boosting someone's immunity gain for one day.</description>
     <groupDef>MultiRole</groupDef>
     <iconPath>UI/Abilities/ImmunityDrive</iconPath>
-    <warmupMoteSocialSymbol>PlaceholderImage</warmupMoteSocialSymbol>
+    <warmupMoteSocialSymbol>UI/Abilities/ImmunityDrive</warmupMoteSocialSymbol>
     <hotKey>Misc12</hotKey>
     <jobDef>CastAbilityOnThingMelee</jobDef>
     <stunTargetWhileCasting>True</stunTargetWhileCasting>

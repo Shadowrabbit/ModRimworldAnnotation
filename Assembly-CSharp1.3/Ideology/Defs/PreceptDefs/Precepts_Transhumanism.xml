@@ -80,7 +80,7 @@
     <thoughtClass>Thought_Situational</thoughtClass>
     <workerClass>ThoughtWorker_NeedNeuralSupercharge</workerClass>
     <validWhileDespawned>true</validWhileDespawned>
-    <minExpectationForNegativeThought>Moderate</minExpectationForNegativeThought>
+    <minExpectation>Moderate</minExpectation>
     <stages>
       <li>
         <label>want neural supercharge</label>
@@ -125,7 +125,7 @@
     <defName>AgeReversalDemanded</defName>
     <thoughtClass>Thought_Situational</thoughtClass>
     <workerClass>ThoughtWorker_AgeReversalDemanded</workerClass>
-    <minExpectationForNegativeThought>High</minExpectationForNegativeThought>
+    <minExpectation>High</minExpectation>
     <validWhileDespawned>true</validWhileDespawned>
     <stages>
       <li>

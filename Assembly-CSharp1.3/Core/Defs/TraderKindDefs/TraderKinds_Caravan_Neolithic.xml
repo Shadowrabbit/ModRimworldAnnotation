@@ -80,7 +80,6 @@
         <maxWildness>0.70</maxWildness>
         <tradeTagsSell>
           <li>AnimalFarm</li>
-          <li>AnimalPet</li>
         </tradeTagsSell>
         <tradeTagsBuy>
           <li>AnimalExotic</li>
@@ -339,8 +338,6 @@
       <!-- Animals -->
       <li Class="StockGenerator_Animals">
         <tradeTagsSell>
-          <li>AnimalUncommon</li>
-          <li>AnimalFighter</li>
           <li>AnimalFarm</li>
         </tradeTagsSell>
         <tradeTagsBuy>

@@ -88,7 +88,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>Plant_Chokevine</defName>
     <label>chokevine</label>
-    <description>Tangled masses of cord-like, spiky vines which coil in great masses along the ground. Chokevine greatky slows down anyone who moves over it. Multiple tribes have independently generated stories of chokevine strangling children to death in the night, as a way to scare kids into coming home before dark.</description>
+    <description>Tangled masses of cord-like, spiky vines which coil in great masses along the ground. Chokevine greatly slows down anyone who moves over it. Multiple tribes have independently generated stories of chokevine strangling children to death in the night, as a way to scare kids into coming home before dark.</description>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Nutrition>0.25</Nutrition>

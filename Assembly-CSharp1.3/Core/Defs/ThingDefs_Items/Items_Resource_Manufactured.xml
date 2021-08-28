@@ -44,6 +44,7 @@
         <rotDestroys>true</rotDestroys>
       </li>
     </comps>
+    <allowedArchonexusCount>20</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="MedicineBase">
@@ -82,6 +83,7 @@
         <Intellectual>4</Intellectual>
       </skillRequirements>
     </recipeMaker>
+    <allowedArchonexusCount>10</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="MedicineBase">
@@ -106,6 +108,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <allowedArchonexusCount>5</allowedArchonexusCount>
   </ThingDef>
 
 

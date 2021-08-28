@@ -2,53 +2,53 @@
 <LanguageData>
   
   <!-- EN: billiards table -->
-  <BilliardsTable.label>台球桌</BilliardsTable.label>
+  <BilliardsTable.label>ビリヤード台</BilliardsTable.label>
   <!-- EN: A soft-topped bounded table for playing a variety of billiards-type games. It trains shooting ability. -->
-  <BilliardsTable.description>是一种用球杆在台上击球、依靠计算得分确定比赛胜负的室内娱乐体育项目。它能提高射击能力。</BilliardsTable.description>
+  <BilliardsTable.description>表面を柔らかな布で覆い,周囲を枠で囲った台です.様々な種類のビリヤードゲームを楽しめます.射撃スキルが鍛えられます.</BilliardsTable.description>
   
   <!-- EN: chess table -->
-  <ChessTable.label>象棋桌</ChessTable.label>
+  <ChessTable.label>チェス盤</ChessTable.label>
   <!-- EN: The ancient game of kings. Fun for a few hours here and there, even playing alone. It trains intellectual skills. -->
-  <ChessTable.description>古老的国王游戏。可以有意思地打发几个小时的时间，甚至独自玩耍。需要配备椅子。可以提高智力水平。</ChessTable.description>
+  <ChessTable.description>古のゲームの王様です.随所で数時間は楽しめます.もちろん一人でも遊べます.知力スキルが鍛えられます.</ChessTable.description>
   
   <!-- EN: flatscreen television -->
-  <FlatscreenTelevision.label>平板电视</FlatscreenTelevision.label>
+  <FlatscreenTelevision.label>フラットスクリーンテレビ</FlatscreenTelevision.label>
   <!-- EN: A high-tech flat-screen television with crystal-clear image and rich color. Picks up transmissions from ancient satellites and ubiquitous data cards. -->
-  <FlatscreenTelevision.description>一种画面晶莹剔透、色彩丰富的高科技平板电视屏幕。从仍在工作的古代卫星获得数据。</FlatscreenTelevision.description>
+  <FlatscreenTelevision.description>鮮明な画像と豊かな色彩を備えたハイテク薄型テレビです.古代の通信衛星やユビキタスデータカードからの映像信号を拾います.</FlatscreenTelevision.description>
   
   <!-- EN: Game-of-Ur board -->
-  <GameOfUrBoard.label>皇家博弈棋</GameOfUrBoard.label>
+  <GameOfUrBoard.label>ウル王朝のゲーム</GameOfUrBoard.label>
   <!-- EN: Dating from 2500BC, this exciting yet infuriating board game can be played by one or two people. It trains intellectual skills. -->
-  <GameOfUrBoard.description>从公元前2500年出现至今，这款让人又爱又恨的棋盘游戏可一人或两人游戏。同时还能提升智识技能。</GameOfUrBoard.description>
+  <GameOfUrBoard.description>紀元前2500年から続く,この刺激的でクソむかつくボードゲームは,1人か2人で遊ぶことができます.知力スキルが鍛えられます.</GameOfUrBoard.description>
   
   <!-- EN: hoopstone ring -->
-  <HoopstoneRing.label>投石圈</HoopstoneRing.label>
+  <HoopstoneRing.label>フープストーンの輪</HoopstoneRing.label>
   <!-- EN: A simple ancient game played with stones and a large ring in the ground. Players try to toss stones through the ring from a distance. It's relaxing, and trains shooting skills. -->
-  <HoopstoneRing.description>一些石头和地上放个圈就可以玩的古老游戏。玩家需要在远处将石头投入圈内。放松精神，还能训练射击技能。</HoopstoneRing.description>
+  <HoopstoneRing.description>古くからある単純な遊びです.地面に置いた大きな輪と,幾つかの石を使います.競技者は離れた所から,輪の内側に入るように石を投げます.気持ちがほぐれ,射撃スキルも鍛えられます.</HoopstoneRing.description>
   
   <!-- EN: horseshoes pin -->
-  <HorseshoesPin.label>马蹄钉</HorseshoesPin.label>
+  <HorseshoesPin.label>輪投げのピン</HorseshoesPin.label>
   <!-- EN: A simple ancient game played with a horseshoes and a large pin in the ground. Players toss horseshoes to try to get them to land on the pin. It's relaxing, and trains shooting skills. -->
-  <HorseshoesPin.description>一种用马蹄铁和钉在地上的大钉的、简单的古老游戏。玩家在一定距离外，将马蹄铁尽量投掷得靠近或套住钉子。很轻松，还能训练射击技能。</HorseshoesPin.description>
+  <HorseshoesPin.description>古くからある単純な遊びです.蹄鉄と地面に刺した杭を使います.競技者は杭に上手く嵌まるように蹄鉄を投げます.気持ちがほぐれ,射撃スキルも鍛えられます.</HorseshoesPin.description>
   
   <!-- EN: megascreen television -->
-  <MegascreenTelevision.label>巨屏电视</MegascreenTelevision.label>
+  <MegascreenTelevision.label>メガスクリーンテレビ</MegascreenTelevision.label>
   <!-- EN: A huge, high-tech television. Gigantic, hyper-vibrant images almost leap out of the screen. Very entertaining. Picks up transmissions from ancient satellites and ubiquitous data cards. -->
-  <MegascreenTelevision.description>一个巨大的高科技电视。巨大、超逼真的图像几乎从屏幕上跳出来。提供非常好的娱乐。从仍在工作的古代卫星获得数据。</MegascreenTelevision.description>
+  <MegascreenTelevision.description>超大型の高性能テレビです.巨大で活気に満ちた映像は,ほとんど画面から飛び出るほどです.とても楽しませてくれます.古代の通信衛星やユビキタスデータカードからの映像信号を拾います.</MegascreenTelevision.description>
   
   <!-- EN: poker table -->
-  <PokerTable.label>扑克桌</PokerTable.label>
+  <PokerTable.label>ポーカーテーブル</PokerTable.label>
   <!-- EN: A table designed for playing gambling card games like poker. A great way to test your strategic skills and a bit of luck. -->
-  <PokerTable.description>专门用来玩赌博卡牌游戏——通常是扑克的桌子。是测试你的战略技能和一点点运气的非常好的方式。</PokerTable.description>
+  <PokerTable.description>ギャンブルカードゲーム,もっぱらポーカーを楽しむためにデザインされた机です.貴方の戦略眼と,ちょっとした運を試すには良い方法です.</PokerTable.description>
   
   <!-- EN: telescope -->
-  <Telescope.label>望远镜</Telescope.label>
+  <Telescope.label>望遠鏡</Telescope.label>
   <!-- EN: A telescope for doing amateur astronomy. It's a relaxing hobby for a certain kind of person. Can only be used outdoors. -->
-  <Telescope.description>一个业余的天文望远镜。某一类人作为兴趣爱好和放松心情之用。</Telescope.description>
+  <Telescope.description>アマチュア天文家向けの望遠鏡です.ある種の人々にとっては寛げる趣味です.屋外でのみ使用できます.</Telescope.description>
   
   <!-- EN: tube television -->
-  <TubeTelevision.label>显像管电视</TubeTelevision.label>
+  <TubeTelevision.label>ブラウン管テレビ</TubeTelevision.label>
   <!-- EN: A cathode ray tube display for showing moving pictures with sound. Even on the rimworlds, there is often an old transmitter running something at least marginally interesting. -->
-  <TubeTelevision.description>用阴极射线管显示器显示运动图像和声音。即使在边缘世界，也经常有个老旧发射塔发送一些有趣的玩意。</TubeTelevision.description>
+  <TubeTelevision.description>音声付きの動画を映し出す陰極線管ディスプレイです.ここ辺境世界でも,少しくらいは興味を持てるような放送をしている旧式の施設があるものです.</TubeTelevision.description>
   
 </LanguageData>

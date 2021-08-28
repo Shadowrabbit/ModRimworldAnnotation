@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: penoxycyline -->
-  <Penoxycyline.label>佩诺西林</Penoxycyline.label>
+  <Penoxycyline.label>ペノキシリン</Penoxycyline.label>
   <!-- EN: A drug for preventing infections before they take hold. Blocks malaria, sleeping sickness, plague. Must be taken every five days to remain effective.\n\nThis drug only prevents new infections. It does not cure existing infections - even those that are not yet discovered. -->
-  <Penoxycyline.description>预防传染病的药物。阻断疟疾、昏睡病以及瘟疫的感染。五天一服。注意：这种药物对治疗已经感染的疾病没有任何作用——只能用于预防。</Penoxycyline.description>
+  <Penoxycyline.description>色々な伝染病の感染を防ぐドラッグです.マラリア,眠り病,ペストを予防します.効果を維持するには,5日毎の服用が必要です.\n\nこのドラッグは新たに感染することだけを防ぎます.潜伏期間のものを含め,既に感染している病気を治癒するものではありません.</Penoxycyline.description>
   <!-- EN: Take {0} -->
-  <Penoxycyline.ingestible.ingestCommandString>服用{0}</Penoxycyline.ingestible.ingestCommandString>
+  <Penoxycyline.ingestible.ingestCommandString>{0}を飲む</Penoxycyline.ingestible.ingestCommandString>
   <!-- EN: Taking {0}. -->
-  <Penoxycyline.ingestible.ingestReportString>正在服用{0}。</Penoxycyline.ingestible.ingestReportString>
+  <Penoxycyline.ingestible.ingestReportString>{0}を飲んでいる</Penoxycyline.ingestible.ingestReportString>
   
 </LanguageData>

@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: bombardment -->
-  <Bombardment.label>轰炸</Bombardment.label>
+  <Bombardment.label>起動爆撃</Bombardment.label>
   
   <!-- EN: Mote -->
-  <Mote_Bombardment_PreImpact.label>轰炸前导</Mote_Bombardment_PreImpact.label>
+  <Mote_Bombardment_PreImpact.label>塵</Mote_Bombardment_PreImpact.label>
   
   <!-- EN: power beam -->
-  <PowerBeam.label>能量束</PowerBeam.label>
+  <PowerBeam.label>パワービーム</PowerBeam.label>
   
 </LanguageData>

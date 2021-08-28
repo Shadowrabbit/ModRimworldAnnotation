@@ -126,6 +126,12 @@
         <li Class="QuestNode_SpawnWorldObjects">
           <worldObjects>$site</worldObjects>
         </li>
+        <li Class="QuestNode_Signal">
+          <inSignal>site.AllEnemiesDefeated</inSignal>
+          <node Class="QuestNode_Notify_PlayerRaidedSomeone">
+            <getRaidersFromMapParent>$site</getRaidersFromMapParent>
+          </node>
+        </li>
 
         <!-- Site expires -->
         <li Class="QuestNode_WorldObjectTimeout">
@@ -146,9 +152,9 @@
           </node>
         </li>
 
-        <!-- Site visited -->
-        <li Class="QuestNode_Signal">
-          <inSignal>site.MapGenerated</inSignal>
+        <li Class="QuestNode_SignalActivable">
+          <inSignal>site.MapRemoved</inSignal>
+          <inSignalEnable>site.MapGenerated</inSignalEnable>
           <node Class="QuestNode_End">
             <outcome>Success</outcome>
           </node>

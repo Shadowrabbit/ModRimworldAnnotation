@@ -80,8 +80,8 @@
   <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>Committing changes</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
-  <ContentSource_OfficialModsFolder>official content</ContentSource_OfficialModsFolder>
-  <ContentSource_ModsFolder>local folder</ContentSource_ModsFolder>
+  <ContentSource_OfficialModsFolder>Official content</ContentSource_OfficialModsFolder>
+  <ContentSource_ModsFolder>Local folder</ContentSource_ModsFolder>
   <ContentSource_SteamWorkshop>Steam Workshop</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->

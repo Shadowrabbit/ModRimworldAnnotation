@@ -950,7 +950,7 @@
   <ThingDef ParentName="ApparelArmorPowerBase">
     <defName>Apparel_PowerArmor</defName>
     <label>marine armor</label>
-    <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nArmor like this is often used by imperial janissaries and rapid-incursion space marines.</description>
+    <description>A suit of powered armor. Layered plasteel-weave plates are very effective at stopping attacks, with few vulnerable joint sections. Neuro-memetic assistors allow a human to wear the armor and still move easily.\n\nArmor like this is often used by rapid-incursion space marines.</description>
     <apparel>
       <tags>
         <li>SpacerMilitary</li>

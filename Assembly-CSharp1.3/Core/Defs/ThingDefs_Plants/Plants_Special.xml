@@ -9,6 +9,7 @@
     <thingClass>DeadPlant</thingClass>
     <altitudeLayer>Building</altitudeLayer>
     <useHitPoints>True</useHitPoints>
+    <minifiedDef IsNull="True" />
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>0</Flammability>

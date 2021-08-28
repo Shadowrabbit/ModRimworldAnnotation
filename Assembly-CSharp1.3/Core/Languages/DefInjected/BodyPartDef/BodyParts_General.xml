@@ -2,28 +2,28 @@
 <LanguageData>
   
   <!-- EN: brain -->
-  <Brain.label>大脑</Brain.label>
+  <Brain.label>脳</Brain.label>
   
   <!-- EN: ear -->
-  <Ear.label>耳朵</Ear.label>
+  <Ear.label>耳</Ear.label>
   
   <!-- EN: eye -->
-  <Eye.label>眼睛</Eye.label>
+  <Eye.label>眼</Eye.label>
   
   <!-- EN: foot -->
   <Foot.label>足</Foot.label>
   
   <!-- EN: head -->
-  <Head.label>头</Head.label>
+  <Head.label>頭</Head.label>
   
   <!-- EN: jaw -->
-  <Jaw.label>下颌</Jaw.label>
+  <Jaw.label>顎</Jaw.label>
   
   <!-- EN: leg -->
-  <Leg.label>腿</Leg.label>
+  <Leg.label>脚</Leg.label>
   
   <!-- EN: neck -->
-  <Neck.label>颈部</Neck.label>
+  <Neck.label>首</Neck.label>
   
   <!-- EN: nose -->
   <Nose.label>鼻</Nose.label>
@@ -32,7 +32,7 @@
   <Ribcage.label>肋骨</Ribcage.label>
   
   <!-- EN: skull -->
-  <Skull.label>颅骨</Skull.label>
+  <Skull.label>頭蓋骨</Skull.label>
   
   <!-- EN: spine -->
   <Spine.label>脊椎</Spine.label>

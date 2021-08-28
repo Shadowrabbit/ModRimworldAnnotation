@@ -2,7 +2,7 @@
 <Defs>
 
   <ThingDef ParentName="CavePlantBase">
-    <defName>Nutrifungus</defName>
+    <defName>Plant_Nutrifungus</defName>
     <label>nutrifungus</label>
     <description>A meaty bioengineered mushroom grown for its nutritious value. It can grow on fungal gravel, but only in darkness - exposing it to any kind of light, including darklights, will kill it.</description>
     <statBases>
@@ -49,10 +49,12 @@
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <altitudeLayer>Item</altitudeLayer>
+    <minifiedDef IsNull="True" />
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Beauty>15</Beauty>
       <Nutrition>0.25</Nutrition>
+      <Mass>15</Mass>
     </statBases>
     <blockWind>false</blockWind>
     <pathCost>0</pathCost>
@@ -63,6 +65,7 @@
       </sowTags>
       <harvestTag>Wood</harvestTag>
       <harvestYield>2</harvestYield>
+      <autoHarvestable>false</autoHarvestable>
       <burnedThingDef IsNull="True" />
       <sowWork>750</sowWork>
       <growMinGlow>0.3</growMinGlow>
@@ -85,6 +88,7 @@
       <texPath>Things/Plant/Fibercorn</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
+    <minifiedDef IsNull="True" />
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
     </statBases>
@@ -123,6 +127,7 @@
         <offset>(0,0,-0.3)</offset>
       </shadowData>
     </graphicData>
+    <minifiedDef IsNull="True" />
     <plant>
       <topWindExposure>0</topWindExposure>
       <fertilityMin>0.01</fertilityMin>
@@ -133,7 +138,6 @@
       <growMinGlow>0</growMinGlow>
       <growOptimalGlow>0</growOptimalGlow>
       <cavePlant>true</cavePlant>
-      <cavePlantWeight>0</cavePlantWeight>
       <wildOrder>1</wildOrder>
       <sowResearchPrerequisites Inherit="False" />
       <treeLoversCareIfChopped>false</treeLoversCareIfChopped>
@@ -157,6 +161,7 @@
       <ThingDef>Plant_PodGauranlen</ThingDef>
       <ThingDef>GauranlenSeed</ThingDef>
     </descriptionHyperlinks>
+    <minifiedDef IsNull="True" />
     <statBases>
       <Beauty>6</Beauty>
       <Flammability>1</Flammability>
@@ -192,11 +197,19 @@
         <minGrowthForSpawn>0.6</minGrowthForSpawn>
         <initialGrowthRange>0.2~0.8</initialGrowthRange>
         <canSpawnOverPlayerSownPlants>false</canSpawnOverPlayerSownPlants>
+        <plantsToNotOverwrite>
+          <li>Plant_PodGauranlen</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Plant_GrassAnima</li>
+          <li MayRequire="Ludeon.RimWorld.Royalty">Plant_TreeAnima</li>
+        </plantsToNotOverwrite>
+      </li>
+      <li Class="CompProperties_SelfhealHitpoints">
+        <ticksPerHeal>2000</ticksPerHeal> <!-- 30 hp per day, must be a multiple of 2000, since plants have Long ticker -->
       </li>
       <li Class="CompProperties_TreeConnection">
         <pawnKind>Dryad_Basic</pawnKind>
         <spawnDays>8</spawnDays>
-        <initialConnectionStrength>0.35</initialConnectionStrength>
+        <initialConnectionStrengthRange>0.25~0.45</initialConnectionStrengthRange>
         <connectionStrengthLossPerDryadDeath>0.1</connectionStrengthLossPerDryadDeath>
         <connectionStrengthGainPerHourPruningBase>0.01</connectionStrengthGainPerHourPruningBase>
         <spawningPodOffset>(-0.15, 0, -0.55)</spawningPodOffset>
@@ -238,6 +251,10 @@
       <spectateDistance>4</spectateDistance>
       <allowedSpectateSides>All</allowedSpectateSides>
     </ritualFocus>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <placeWorkers>
+      <li>PlaceWorker_ConnectionStrengthOffsetBuildingsNear</li>
+    </placeWorkers>
   </ThingDef>
 
   <ThingDef ParentName="PlantBaseNonEdible">
@@ -296,6 +313,7 @@
       <harvestAfterGrowth>0</harvestAfterGrowth>
       <harvestedThingDef>GauranlenSeed</harvestedThingDef>
       <harvestFailable>false</harvestFailable>
+      <harvestYieldAffectedByDifficulty>false</harvestYieldAffectedByDifficulty>
       <visualSizeRange>0.6~1.1</visualSizeRange>
       <topWindExposure>0.1</topWindExposure>
       <wildClusterWeight>0</wildClusterWeight>
@@ -317,6 +335,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Mass>0.3</Mass>
       <Beauty>0</Beauty>
+      <MarketValue>70</MarketValue>
     </statBases>
     <graphicData>
       <texPath>Things/Item/GauranlenSeed</texPath>
@@ -380,6 +399,7 @@
       <MaxHitPoints>50</MaxHitPoints>
       <Mass>0.3</Mass>
       <Beauty>0</Beauty>
+      <DeteriorationRate>1</DeteriorationRate>
     </statBases>
     <graphicData>
       <texPath>Things/Item/Dye</texPath>

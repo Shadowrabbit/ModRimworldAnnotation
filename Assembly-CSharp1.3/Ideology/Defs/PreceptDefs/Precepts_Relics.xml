@@ -7,7 +7,6 @@
     <defName>IdeoRelic</defName>
     <label>relic</label>
     <allowMultiplePrecepts>true</allowMultiplePrecepts>
-    <iconPath>PlaceholderImage</iconPath>
   </IssueDef>
 
   <!-- HistoryEvents -->
@@ -61,6 +60,7 @@
     <workerClass>PreceptWorker_Relic</workerClass>
     <nameMaker>NamerIdeoRelic</nameMaker>
     <impact>Medium</impact>
+    <classicExtra>true</classicExtra>
     <preceptInstanceCountCurve>
       <points>
         <li>(0.5, 2)</li>

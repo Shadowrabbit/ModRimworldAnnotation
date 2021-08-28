@@ -2,38 +2,38 @@
 <LanguageData>
   
   <!-- EN: alcohol withdrawal -->
-  <AlcoholWithdrawal.stages.alcohol_withdrawal.label>酒精戒断</AlcoholWithdrawal.stages.alcohol_withdrawal.label>
+  <AlcoholWithdrawal.stages.alcohol_withdrawal.label>アルコール離脱症状</AlcoholWithdrawal.stages.alcohol_withdrawal.label>
   <!-- EN: Feeling shaky. Everything pisses me off. I keep thinking of drinking. -->
-  <AlcoholWithdrawal.stages.alcohol_withdrawal.description>感觉天旋地转，所有事情都糟透了，我还想再喝一口。</AlcoholWithdrawal.stages.alcohol_withdrawal.description>
+  <AlcoholWithdrawal.stages.alcohol_withdrawal.description>なにか揺れている感じがする.何もかもにイライラする.飲みつづけるか.</AlcoholWithdrawal.stages.alcohol_withdrawal.description>
   
   <!-- EN: mild hangover -->
-  <Hungover.stages.mild_hangover.label>宿醉（轻微）</Hungover.stages.mild_hangover.label>
+  <Hungover.stages.mild_hangover.label>二日酔い(軽い)</Hungover.stages.mild_hangover.label>
   <!-- EN: The headache is almost gone. -->
-  <Hungover.stages.mild_hangover.description>头痛几乎消失了。</Hungover.stages.mild_hangover.description>
+  <Hungover.stages.mild_hangover.description>頭痛はほとんど無くなった.</Hungover.stages.mild_hangover.description>
   <!-- EN: serious hangover -->
-  <Hungover.stages.serious_hangover.label>宿醉（强烈）</Hungover.stages.serious_hangover.label>
+  <Hungover.stages.serious_hangover.label>二日酔い(強い)</Hungover.stages.serious_hangover.label>
   <!-- EN: My head hurts from all that liquor. -->
-  <Hungover.stages.serious_hangover.description>喝下去的那些酒让我头痛。</Hungover.stages.serious_hangover.description>
+  <Hungover.stages.serious_hangover.description>この頭痛は,みんなあの酒のせいだ.</Hungover.stages.serious_hangover.description>
   <!-- EN: pounding hangover -->
-  <Hungover.stages.pounding_hangover.label>宿醉（头痛欲裂）</Hungover.stages.pounding_hangover.label>
+  <Hungover.stages.pounding_hangover.label>二日酔い(酷い)</Hungover.stages.pounding_hangover.label>
   <!-- EN: It feels like a gaggle of geese are pecking at my skull. -->
-  <Hungover.stages.pounding_hangover.description>这感觉就像一群鹅在啄我的头。</Hungover.stages.pounding_hangover.description>
+  <Hungover.stages.pounding_hangover.description>まるでガチョウが集団で頭をつついているようだ.</Hungover.stages.pounding_hangover.description>
   
   <!-- EN: alcohol warmth -->
-  <Inebriated.stages.alcohol_warmth.label>醉酒（暖和）</Inebriated.stages.alcohol_warmth.label>
+  <Inebriated.stages.alcohol_warmth.label>お酒でポカポカ</Inebriated.stages.alcohol_warmth.label>
   <!-- EN: I just feel a bit more relaxed after that drink. That's good. -->
-  <Inebriated.stages.alcohol_warmth.description>喝了点酒后我感觉轻松了一点。这感觉不错。</Inebriated.stages.alcohol_warmth.description>
+  <Inebriated.stages.alcohol_warmth.description>飲んだあとは,少しだけ心がほぐれる気がするよ.いい気分だ.</Inebriated.stages.alcohol_warmth.description>
   <!-- EN: quite inebriated -->
-  <Inebriated.stages.quite_inebriated.label>醉酒（微醺）</Inebriated.stages.quite_inebriated.label>
+  <Inebriated.stages.quite_inebriated.label>酔った(千鳥足)</Inebriated.stages.quite_inebriated.label>
   <!-- EN: I'm a bit wobbly! And this is quite enjoyable. -->
-  <Inebriated.stages.quite_inebriated.description>我有点摇晃！这是相当愉快的。</Inebriated.stages.quite_inebriated.description>
+  <Inebriated.stages.quite_inebriated.description>少しフラフラするな！これは本当に楽しいぞ.</Inebriated.stages.quite_inebriated.description>
   <!-- EN: drunk -->
-  <Inebriated.stages.drunk.label>醉酒（飘飘然）</Inebriated.stages.drunk.label>
+  <Inebriated.stages.drunk.label>酔った(酩酊)</Inebriated.stages.drunk.label>
   <!-- EN: I feel so uninhibited and unafraid! This is a great time! -->
-  <Inebriated.stages.drunk.description>我感觉如此的不羁和无所畏惧！这真是段美好的时光！</Inebriated.stages.drunk.description>
+  <Inebriated.stages.drunk.description>なんでもできるし,怖い物なんかないぞ！なんて楽しいんだ！</Inebriated.stages.drunk.description>
   <!-- EN: hammered -->
-  <Inebriated.stages.hammered.label>醉酒（断片）</Inebriated.stages.hammered.label>
+  <Inebriated.stages.hammered.label>酔った(泥酔)</Inebriated.stages.hammered.label>
   <!-- EN: Wooo! What's going on? -->
-  <Inebriated.stages.hammered.description>哇哦！这是啥？</Inebriated.stages.hammered.description>
+  <Inebriated.stages.hammered.description>うおおぉー！調子はどうだい？</Inebriated.stages.hammered.description>
   
 </LanguageData>

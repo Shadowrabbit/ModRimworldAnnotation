@@ -133,6 +133,7 @@
         <filter>
           <categories>
             <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
           </categories>
         </filter>
         <count>0.75</count>
@@ -141,7 +142,6 @@
     <fixedIngredientFilter>
       <disallowedCategories>
         <li>MeatRaw</li>
-        <li>AnimalProductRaw</li>
       </disallowedCategories>
     </fixedIngredientFilter>
     <products>
@@ -153,7 +153,7 @@
     <defName>CookMealFine_Meat</defName>
     <label>cook carnivore fine meal</label>
     <description>Cook a somewhat complex meal from meat ingredients.</description>
-    <jobString>Cooking carnivore fine meal</jobString>
+    <jobString>Cooking carnivore fine meal.</jobString>
     <ingredients>
       <li>
         <filter>
@@ -254,6 +254,7 @@
         <filter>
           <categories>
             <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
           </categories>
         </filter>
         <count>3.0</count>
@@ -262,7 +263,6 @@
     <fixedIngredientFilter>
       <disallowedCategories>
         <li>MeatRaw</li>
-        <li>AnimalProductRaw</li>
       </disallowedCategories>
     </fixedIngredientFilter>
     <products>
@@ -348,6 +348,7 @@
         <filter>
           <categories>
             <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
           </categories>
         </filter>
         <count>2.5</count>
@@ -356,7 +357,6 @@
     <fixedIngredientFilter>
       <disallowedCategories>
         <li>MeatRaw</li>
-        <li>AnimalProductRaw</li>
       </disallowedCategories>
     </fixedIngredientFilter>
     <products>
@@ -415,6 +415,7 @@
         <filter>
           <categories>
             <li>PlantFoodRaw</li>
+            <li>AnimalProductRaw</li>
           </categories>
         </filter>
         <count>10.0</count>
@@ -423,7 +424,6 @@
     <fixedIngredientFilter>
       <disallowedCategories>
         <li>MeatRaw</li>
-        <li>AnimalProductRaw</li>
       </disallowedCategories>
     </fixedIngredientFilter>
     <products>

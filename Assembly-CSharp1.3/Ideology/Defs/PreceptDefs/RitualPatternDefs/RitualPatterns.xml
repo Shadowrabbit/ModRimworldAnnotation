@@ -31,7 +31,6 @@
 
   <RitualPatternDef>
     <defName>TreeConnection</defName>
-    <nameMaker>NamerTreeConnection</nameMaker>
     <iconPathOverride>UI/Icons/Rituals/TreeConnection</iconPathOverride>
     <alwaysStartAnytime>true</alwaysStartAnytime>
     <ritualObligationTargetFilter>GauranlenTree</ritualObligationTargetFilter>
@@ -100,6 +99,7 @@
     <ritualObligationTargetFilter>AnyIdeoBuildingOrRitualSpot</ritualObligationTargetFilter>
     <ritualTargetFilter>IdeoBuildingOrRitualSpot</ritualTargetFilter>
     <alwaysStartAnytime>true</alwaysStartAnytime>
+    <ritualOnlyForIdeoMembers>false</ritualOnlyForIdeoMembers>
   </RitualPatternDef>
 
   <RitualPatternDef ParentName="SpeechPatternBase" Name="Trial">

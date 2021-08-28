@@ -78,7 +78,7 @@
     <seekerFallPerHour>0.04</seekerFallPerHour>
     <listPriority>200</listPriority>
     <nullifyingPrecepts>
-      <li MayRequire="Ideology">Comfort_Ignored</li>
+      <li MayRequire="Ludeon.RimWorld.Ideology">Comfort_Ignored</li>
     </nullifyingPrecepts>
   </NeedDef>
 

@@ -71,10 +71,13 @@
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0.8</Flammability>
       <Nutrition>2.0</Nutrition>
+      <Mass>150</Mass>
     </statBases>
     <altitudeLayer>Building</altitudeLayer>
     <selectable>true</selectable>
     <fillPercent>0.25</fillPercent>
+    <minifiedDef>MinifiedTree</minifiedDef>
+    <rotatable>false</rotatable>
     <graphicData>
       <shadowData>
         <volume>(0.2, 0.35, 0.13)</volume>

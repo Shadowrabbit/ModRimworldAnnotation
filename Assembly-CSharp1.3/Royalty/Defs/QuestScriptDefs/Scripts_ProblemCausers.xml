@@ -25,7 +25,31 @@
           <name>siteDistRange</name>
           <value>1~10</value>
         </li>
-        
+
+        <li Class="QuestNode_FactionExists">
+          <faction>Mechanoid</faction>
+          <node Class="QuestNode_Set">
+            <name>selectionWeightMechanoid</name>
+            <value>1</value>
+          </node>
+          <elseNode Class="QuestNode_Set">
+            <name>selectionWeightMechanoid</name>
+            <value>0</value>
+          </elseNode>
+        </li>
+
+        <li Class="QuestNode_FactionExists">
+          <faction>Pirate</faction>
+          <node Class="QuestNode_Set">
+            <name>selectionWeightPirate</name>
+            <value>1</value>
+          </node>
+          <elseNode Class="QuestNode_Set">
+            <name>selectionWeightPirate</name>
+            <value>0</value>
+          </elseNode>
+        </li>
+
         <li Class="QuestNode_GetMap" />
         <li Class="QuestNode_RandomNode">
           <nodes>
@@ -47,6 +71,7 @@
                   </value>
                 </li>
               </nodes>
+              <selectionWeight>$selectionWeightPirate</selectionWeight>
             </li>
             <li Class="QuestNode_Sequence">
               <nodes>
@@ -66,6 +91,7 @@
                   </value>
                 </li>
               </nodes>
+              <selectionWeight>$selectionWeightMechanoid</selectionWeight>
             </li>
           </nodes>
         </li>

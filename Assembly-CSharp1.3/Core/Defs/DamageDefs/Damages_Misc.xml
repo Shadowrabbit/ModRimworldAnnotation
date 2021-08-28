@@ -52,7 +52,8 @@
     <defaultDamage>50</defaultDamage>
     <defaultStoppingPower>0.5</defaultStoppingPower>
     <defaultArmorPenetration>0.10</defaultArmorPenetration>
-    <buildingDamageFactor>4</buildingDamageFactor>
+    <buildingDamageFactorImpassable>4</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>2</buildingDamageFactorPassable>
     <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
@@ -98,7 +99,8 @@
     <minDamageToFragment>15</minDamageToFragment>
     <defaultDamage>5</defaultDamage>
     <defaultArmorPenetration>0</defaultArmorPenetration>
-    <buildingDamageFactor>15</buildingDamageFactor>
+    <buildingDamageFactorImpassable>15</buildingDamageFactorImpassable>
+    <buildingDamageFactorPassable>7.5</buildingDamageFactorPassable>
     <plantDamageFactor>4</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionCellFleck>BlastDry</explosionCellFleck>

@@ -3,253 +3,253 @@
 
   <!-- Glow -->
   <!-- EN: Dark -->
-  <Dark>黑暗</Dark>
+  <Dark>暗い</Dark>
   <!-- EN: Lit -->
-  <Lit>光亮</Lit>
+  <Lit>光がある</Lit>
   <!-- EN: Brightly lit -->
-  <LitBrightly>非常光亮</LitBrightly>
+  <LitBrightly>明るい</LitBrightly>
 
   <!-- Price types -->
   <!-- EN: very cheap -->
-  <PriceTypeVeryCheap>非常便宜</PriceTypeVeryCheap>
+  <PriceTypeVeryCheap>とても安い</PriceTypeVeryCheap>
   <!-- EN: cheap -->
-  <PriceTypeCheap>便宜</PriceTypeCheap>
+  <PriceTypeCheap>廉価</PriceTypeCheap>
   <!-- EN: normal -->
-  <PriceTypeNormal>一般</PriceTypeNormal>
+  <PriceTypeNormal>標準価格</PriceTypeNormal>
   <!-- EN: expensive -->
-  <PriceTypeExpensive>昂贵</PriceTypeExpensive>
+  <PriceTypeExpensive>高価</PriceTypeExpensive>
   <!-- EN: exorbitant -->
-  <PriceTypeExorbitant>非常昂贵</PriceTypeExorbitant>
+  <PriceTypeExorbitant>法外に高価</PriceTypeExorbitant>
 
   <!-- Storage priority labels -->
   <!-- EN: unstored -->
-  <StoragePriorityUnstored>不储存</StoragePriorityUnstored>
+  <StoragePriorityUnstored>不要</StoragePriorityUnstored>
   <!-- EN: low -->
-  <StoragePriorityLow>较低</StoragePriorityLow>
+  <StoragePriorityLow>低</StoragePriorityLow>
   <!-- EN: normal -->
-  <StoragePriorityNormal>普通</StoragePriorityNormal>
+  <StoragePriorityNormal>標準</StoragePriorityNormal>
   <!-- EN: preferred -->
-  <StoragePriorityPreferred>优先</StoragePriorityPreferred>
+  <StoragePriorityPreferred>優先</StoragePriorityPreferred>
   <!-- EN: important -->
   <StoragePriorityImportant>重要</StoragePriorityImportant>
   <!-- EN: critical -->
-  <StoragePriorityCritical>关键</StoragePriorityCritical>
+  <StoragePriorityCritical>最重要</StoragePriorityCritical>
 
   <!-- Food type flags -->
   <!-- EN: vegetables -->
-  <FoodTypeFlags_VegetableOrFruit>蔬果</FoodTypeFlags_VegetableOrFruit>
+  <FoodTypeFlags_VegetableOrFruit>野菜・果物</FoodTypeFlags_VegetableOrFruit>
   <!-- EN: raw meat -->
   <FoodTypeFlags_Meat>生肉</FoodTypeFlags_Meat>
   <!-- EN: corpses -->
-  <FoodTypeFlags_Corpse>尸体</FoodTypeFlags_Corpse>
+  <FoodTypeFlags_Corpse>屍肉</FoodTypeFlags_Corpse>
   <!-- EN: seeds -->
-  <FoodTypeFlags_Seed>谷物</FoodTypeFlags_Seed>
+  <FoodTypeFlags_Seed>種子</FoodTypeFlags_Seed>
   <!-- EN: animal products -->
-  <FoodTypeFlags_AnimalProduct>畜产品</FoodTypeFlags_AnimalProduct>
+  <FoodTypeFlags_AnimalProduct>畜産物</FoodTypeFlags_AnimalProduct>
   <!-- EN: live plants -->
-  <FoodTypeFlags_Plant>植物</FoodTypeFlags_Plant>
+  <FoodTypeFlags_Plant>草・牧草</FoodTypeFlags_Plant>
   <!-- EN: live trees -->
-  <FoodTypeFlags_Tree>树木</FoodTypeFlags_Tree>
+  <FoodTypeFlags_Tree>樹皮・樹木</FoodTypeFlags_Tree>
   <!-- EN: meals -->
-  <FoodTypeFlags_Meal>烹饪食品</FoodTypeFlags_Meal>
+  <FoodTypeFlags_Meal>食事</FoodTypeFlags_Meal>
   <!-- EN: processed foods -->
   <FoodTypeFlags_Processed>加工食品</FoodTypeFlags_Processed>
   <!-- EN: liquor -->
-  <FoodTypeFlags_Liquor>酒类</FoodTypeFlags_Liquor>
+  <FoodTypeFlags_Liquor>アルコール飲料</FoodTypeFlags_Liquor>
   <!-- EN: kibble -->
-  <FoodTypeFlags_Kibble>动物饲料</FoodTypeFlags_Kibble>
+  <FoodTypeFlags_Kibble>ペットフード</FoodTypeFlags_Kibble>
 
   <!-- Quality category -->
   <!-- EN: awful -->
-  <QualityCategory_Awful>极差</QualityCategory_Awful>
+  <QualityCategory_Awful>壊れかけ</QualityCategory_Awful>
   <!-- EN: poor -->
-  <QualityCategory_Poor>较差</QualityCategory_Poor>
+  <QualityCategory_Poor>低品質</QualityCategory_Poor>
   <!-- EN: normal -->
-  <QualityCategory_Normal>一般</QualityCategory_Normal>
+  <QualityCategory_Normal>標準品</QualityCategory_Normal>
   <!-- EN: good -->
-  <QualityCategory_Good>良好</QualityCategory_Good>
+  <QualityCategory_Good>良品</QualityCategory_Good>
   <!-- EN: excellent -->
-  <QualityCategory_Excellent>极佳</QualityCategory_Excellent>
+  <QualityCategory_Excellent>秀品</QualityCategory_Excellent>
   <!-- EN: masterwork -->
-  <QualityCategory_Masterwork>大师级</QualityCategory_Masterwork>
+  <QualityCategory_Masterwork>名品</QualityCategory_Masterwork>
   <!-- EN: legendary -->
-  <QualityCategory_Legendary>传奇级</QualityCategory_Legendary>
+  <QualityCategory_Legendary>幻の一品</QualityCategory_Legendary>
   <!-- EN: awfl -->
-  <QualityCategoryShort_Awful>极差</QualityCategoryShort_Awful>
+  <QualityCategoryShort_Awful>半壊</QualityCategoryShort_Awful>
   <!-- EN: poor -->
-  <QualityCategoryShort_Poor>较差</QualityCategoryShort_Poor>
+  <QualityCategoryShort_Poor>劣</QualityCategoryShort_Poor>
   <!-- EN: norm -->
-  <QualityCategoryShort_Normal>一般</QualityCategoryShort_Normal>
+  <QualityCategoryShort_Normal>並</QualityCategoryShort_Normal>
   <!-- EN: good -->
-  <QualityCategoryShort_Good>良好</QualityCategoryShort_Good>
+  <QualityCategoryShort_Good>良</QualityCategoryShort_Good>
   <!-- EN: exc -->
-  <QualityCategoryShort_Excellent>极佳</QualityCategoryShort_Excellent>
+  <QualityCategoryShort_Excellent>秀</QualityCategoryShort_Excellent>
   <!-- EN: mast -->
-  <QualityCategoryShort_Masterwork>大师</QualityCategoryShort_Masterwork>
+  <QualityCategoryShort_Masterwork>名</QualityCategoryShort_Masterwork>
   <!-- EN: legd -->
-  <QualityCategoryShort_Legendary>传奇</QualityCategoryShort_Legendary>
+  <QualityCategoryShort_Legendary>幻</QualityCategoryShort_Legendary>
   
   <!-- Hunger -->
   <!-- EN: Starving -->
-  <HungerLevel_Starving>极度饥饿</HungerLevel_Starving>
+  <HungerLevel_Starving>餓死寸前</HungerLevel_Starving>
   <!-- EN: Urgently hungry -->
-  <HungerLevel_UrgentlyHungry>非常饥饿</HungerLevel_UrgentlyHungry>
+  <HungerLevel_UrgentlyHungry>飢餓</HungerLevel_UrgentlyHungry>
   <!-- EN: Hungry -->
-  <HungerLevel_Hungry>饥饿</HungerLevel_Hungry>
+  <HungerLevel_Hungry>空腹</HungerLevel_Hungry>
   <!-- EN: Fed -->
-  <HungerLevel_Fed>饱</HungerLevel_Fed>
+  <HungerLevel_Fed>摂食した</HungerLevel_Fed>
 
   <!-- -Fatigue -->
   <!-- EN: Exhausted -->
-  <HungerLevel_Exhausted>极度疲劳</HungerLevel_Exhausted>
+  <HungerLevel_Exhausted>疲労困憊</HungerLevel_Exhausted>
   <!-- EN: Very tired -->
-  <HungerLevel_VeryTired>非常疲劳</HungerLevel_VeryTired>
+  <HungerLevel_VeryTired>とても疲れた</HungerLevel_VeryTired>
   <!-- EN: Tired -->
-  <HungerLevel_Tired>疲劳</HungerLevel_Tired>
+  <HungerLevel_Tired>疲れた</HungerLevel_Tired>
   <!-- EN: Rested -->
-  <HungerLevel_Rested>精力充沛</HungerLevel_Rested>
+  <HungerLevel_Rested>休息した</HungerLevel_Rested>
 
   <!-- Hilliness -->
   <!-- EN: flat -->
-  <Hilliness_Flat>平原</Hilliness_Flat>
+  <Hilliness_Flat>平地</Hilliness_Flat>
   <!-- EN: small hills -->
-  <Hilliness_SmallHills>小丘陵</Hilliness_SmallHills>
+  <Hilliness_SmallHills>小さな丘陵</Hilliness_SmallHills>
   <!-- EN: large hills -->
-  <Hilliness_LargeHills>大丘陵</Hilliness_LargeHills>
+  <Hilliness_LargeHills>大きな丘陵</Hilliness_LargeHills>
   <!-- EN: mountainous -->
-  <Hilliness_Mountainous>山地</Hilliness_Mountainous>
+  <Hilliness_Mountainous>山岳</Hilliness_Mountainous>
   <!-- EN: impassable -->
-  <Hilliness_Impassable>无法逾越</Hilliness_Impassable>
+  <Hilliness_Impassable>通行不能</Hilliness_Impassable>
   
   <!-- Steam workshop interaction -->
   <!-- EN: Creating -->
-  <WorkshopInteractStage_CreatingItem>创建</WorkshopInteractStage_CreatingItem>
+  <WorkshopInteractStage_CreatingItem>作成中</WorkshopInteractStage_CreatingItem>
   <!-- EN: Submitting -->
-  <WorkshopInteractStage_SubmittingItem>提交</WorkshopInteractStage_SubmittingItem>
+  <WorkshopInteractStage_SubmittingItem>提出中</WorkshopInteractStage_SubmittingItem>
   <!-- EN: Invalid -->
-  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>无效</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
+  <EItemUpdateStatus_k_EItemUpdateStatusInvalid>無効</EItemUpdateStatus_k_EItemUpdateStatusInvalid>
   <!-- EN: Preparing config data -->
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>准备配置数据</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>コンフィグデータの準備</EItemUpdateStatus_k_EItemUpdateStatusPreparingConfig>
   <!-- EN: Preparing content files -->
-  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>准备内容文件</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>コンテンツファイルの準備</EItemUpdateStatus_k_EItemUpdateStatusPreparingContent>
   <!-- EN: Uploading content -->
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>上传内容文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>コンテンツのアップロード</EItemUpdateStatus_k_EItemUpdateStatusUploadingContent>
   <!-- EN: Uploading preview file -->
-  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>上传预览文件</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
+  <EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>プレビューのアップロード</EItemUpdateStatus_k_EItemUpdateStatusUploadingPreviewFile>
   <!-- EN: Committing changes -->
-  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>提交变更</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
+  <EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>修正履歴</EItemUpdateStatus_k_EItemUpdateStatusCommittingChanges>
 
   <!-- Mod sources -->
   <!-- EN: official content -->
-  <ContentSource_OfficialModsFolder>官方内容</ContentSource_OfficialModsFolder>
+  <ContentSource_OfficialModsFolder>公式コンテンツ</ContentSource_OfficialModsFolder>
   <!-- EN: local folder -->
-  <ContentSource_ModsFolder>本地文件</ContentSource_ModsFolder>
+  <ContentSource_ModsFolder>ローカルフォルダー</ContentSource_ModsFolder>
   <!-- EN: Steam Workshop -->
-  <ContentSource_SteamWorkshop>Steam 创意工坊</ContentSource_SteamWorkshop>
+  <ContentSource_SteamWorkshop>Steamワークショップ</ContentSource_SteamWorkshop>
   
   <!-- Medical care category -->
   <!-- EN: No medical care -->
-  <MedicalCareCategory_NoCare>无医生照顾</MedicalCareCategory_NoCare>
+  <MedicalCareCategory_NoCare>治療放棄</MedicalCareCategory_NoCare>
   <!-- EN: Doctor care, but no medicine -->
-  <MedicalCareCategory_NoMeds>有医生照顾，无药物</MedicalCareCategory_NoMeds>
+  <MedicalCareCategory_NoMeds>治療する(薬品は不使用)</MedicalCareCategory_NoMeds>
   <!-- EN: Herbal medicine or worse -->
-  <MedicalCareCategory_HerbalOrWorse>提供草药等级及以下的药物</MedicalCareCategory_HerbalOrWorse>
+  <MedicalCareCategory_HerbalOrWorse>治療する(薬草まで使用)</MedicalCareCategory_HerbalOrWorse>
   <!-- EN: Industrial-tech medicine or worse -->
-  <MedicalCareCategory_NormalOrWorse>提供普通药物等级或以下的药物</MedicalCareCategory_NormalOrWorse>
+  <MedicalCareCategory_NormalOrWorse>治療する(医薬品まで使用)</MedicalCareCategory_NormalOrWorse>
   <!-- EN: Best quality medicine -->
-  <MedicalCareCategory_Best>提供最高等级的医疗照顾</MedicalCareCategory_Best>
+  <MedicalCareCategory_Best>治療する(最先端医薬品まで使用)</MedicalCareCategory_Best>
 
   <!-- Hostility response mode -->
   <!-- EN: Ignore -->
-  <HostilityResponseMode_Ignore>无视</HostilityResponseMode_Ignore>
+  <HostilityResponseMode_Ignore>無視</HostilityResponseMode_Ignore>
   <!-- EN: Attack -->
-  <HostilityResponseMode_Attack>反击</HostilityResponseMode_Attack>
+  <HostilityResponseMode_Attack>攻撃</HostilityResponseMode_Attack>
   <!-- EN: Flee -->
-  <HostilityResponseMode_Flee>逃跑</HostilityResponseMode_Flee>
+  <HostilityResponseMode_Flee>逃避</HostilityResponseMode_Flee>
   
   <!-- HediffGrowthMode -->
   <!-- EN: growing -->
-  <HediffGrowthMode_Growing>加重</HediffGrowthMode_Growing>
+  <HediffGrowthMode_Growing>増大</HediffGrowthMode_Growing>
   <!-- EN: stable -->
-  <HediffGrowthMode_Stable>稳定</HediffGrowthMode_Stable>
+  <HediffGrowthMode_Stable>安定</HediffGrowthMode_Stable>
   <!-- EN: remission -->
-  <HediffGrowthMode_Remission>缓解</HediffGrowthMode_Remission>
+  <HediffGrowthMode_Remission>沈静</HediffGrowthMode_Remission>
 
   <!-- TechLevel -->
   <!-- EN: animal -->
-  <TechLevel_Animal>茹毛饮血</TechLevel_Animal>
+  <TechLevel_Animal>けもの</TechLevel_Animal>
   <!-- EN: neolithic -->
-  <TechLevel_Neolithic>石器时代</TechLevel_Neolithic>
+  <TechLevel_Neolithic>新石器時代</TechLevel_Neolithic>
   <!-- EN: medieval -->
-  <TechLevel_Medieval>中世纪</TechLevel_Medieval>
+  <TechLevel_Medieval>中世</TechLevel_Medieval>
   <!-- EN: industrial -->
-  <TechLevel_Industrial>工业时代</TechLevel_Industrial>
+  <TechLevel_Industrial>産業革命</TechLevel_Industrial>
   <!-- EN: spacer -->
-  <TechLevel_Spacer>太空时代</TechLevel_Spacer>
+  <TechLevel_Spacer>宇宙世紀</TechLevel_Spacer>
   <!-- EN: ultra -->
-  <TechLevel_Ultra>极致时代</TechLevel_Ultra>
+  <TechLevel_Ultra>最先端の技術力</TechLevel_Ultra>
   <!-- EN: archotech -->
-  <TechLevel_Archotech>远古科技</TechLevel_Archotech>
+  <TechLevel_Archotech>アルコテック</TechLevel_Archotech>
 
   <!-- Player pawns arrive method -->
   <!-- EN: Standing -->
-  <PlayerPawnsArriveMethod_Standing>固定</PlayerPawnsArriveMethod_Standing>
+  <PlayerPawnsArriveMethod_Standing>惑星上</PlayerPawnsArriveMethod_Standing>
   <!-- EN: Drop pods -->
-  <PlayerPawnsArriveMethod_DropPods>空投舱</PlayerPawnsArriveMethod_DropPods>
+  <PlayerPawnsArriveMethod_DropPods>脱出ポッド</PlayerPawnsArriveMethod_DropPods>
 
   <!-- Pawn generation context -->
   <!-- EN: all characters -->
-  <PawnGenerationContext_All>所有角色</PawnGenerationContext_All>
+  <PawnGenerationContext_All>全キャラクター</PawnGenerationContext_All>
   <!-- EN: player starting characters -->
-  <PawnGenerationContext_PlayerStarter>玩家初始角色</PawnGenerationContext_PlayerStarter>
+  <PawnGenerationContext_PlayerStarter>プレイヤー初期キャラクター</PawnGenerationContext_PlayerStarter>
   <!-- EN: non-player characters -->
-  <PawnGenerationContext_NonPlayer>NPC</PawnGenerationContext_NonPlayer>
+  <PawnGenerationContext_NonPlayer>非プレイヤーキャラクター</PawnGenerationContext_NonPlayer>
   
   <!-- Animal name display mode -->
   <!-- EN: Show animal names -->
-  <ShowAnimalNames>显示动物名称</ShowAnimalNames>
+  <ShowAnimalNames>動物名表示</ShowAnimalNames>
   <!-- EN: Tame (named only) -->
-  <AnimalNameDisplayMode_TameNamed>已驯服（已命名）</AnimalNameDisplayMode_TameNamed>
+  <AnimalNameDisplayMode_TameNamed>家畜(命名済のみ)</AnimalNameDisplayMode_TameNamed>
   <!-- EN: Tame (all) -->
-  <AnimalNameDisplayMode_TameAll>已驯服（所有）</AnimalNameDisplayMode_TameAll>
+  <AnimalNameDisplayMode_TameAll>家畜(全部)</AnimalNameDisplayMode_TameAll>
   
   <!-- Temperature -->
   <!-- EN: Celsius -->
-  <Celsius>摄氏</Celsius>
+  <Celsius>摂氏</Celsius>
   <!-- EN: Fahrenheit -->
-  <Fahrenheit>华氏</Fahrenheit>
+  <Fahrenheit>華氏</Fahrenheit>
   <!-- EN: Kelvin -->
-  <Kelvin>开尔文</Kelvin>
+  <Kelvin>絶対温度</Kelvin>
   
   <!-- Direction8Way -->
   <!-- EN: N -->
   <Direction8Way_North_Short>北</Direction8Way_North_Short>
   <!-- EN: NE -->
-  <Direction8Way_NorthEast_Short>东北</Direction8Way_NorthEast_Short>
+  <Direction8Way_NorthEast_Short>北東</Direction8Way_NorthEast_Short>
   <!-- EN: E -->
-  <Direction8Way_East_Short>东</Direction8Way_East_Short>
+  <Direction8Way_East_Short>東</Direction8Way_East_Short>
   <!-- EN: SE -->
-  <Direction8Way_SouthEast_Short>东南</Direction8Way_SouthEast_Short>
+  <Direction8Way_SouthEast_Short>南東</Direction8Way_SouthEast_Short>
   <!-- EN: S -->
   <Direction8Way_South_Short>南</Direction8Way_South_Short>
   <!-- EN: SW -->
-  <Direction8Way_SouthWest_Short>西南</Direction8Way_SouthWest_Short>
+  <Direction8Way_SouthWest_Short>南西</Direction8Way_SouthWest_Short>
   <!-- EN: W -->
   <Direction8Way_West_Short>西</Direction8Way_West_Short>
   <!-- EN: NW -->
-  <Direction8Way_NorthWest_Short>西北</Direction8Way_NorthWest_Short>
+  <Direction8Way_NorthWest_Short>北西</Direction8Way_NorthWest_Short>
   
   <!-- Diet category -->
   <!-- EN: Never eats -->
-  <DietCategory_NeverEats>不进食</DietCategory_NeverEats>
+  <DietCategory_NeverEats>無し</DietCategory_NeverEats>
   <!-- EN: Herbivorous -->
   <DietCategory_Herbivorous>草食</DietCategory_Herbivorous>
   <!-- EN: Dendrovorous -->
-  <DietCategory_Dendrovorous>树食</DietCategory_Dendrovorous>
+  <DietCategory_Dendrovorous>樹木食</DietCategory_Dendrovorous>
   <!-- EN: Ovivorous -->
   <DietCategory_Ovivorous>卵食</DietCategory_Ovivorous>
   <!-- EN: Omnivorous -->
-  <DietCategory_Omnivorous>杂食</DietCategory_Omnivorous>
+  <DietCategory_Omnivorous>雑食</DietCategory_Omnivorous>
   <!-- EN: Carnivorous -->
   <DietCategory_Carnivorous>肉食</DietCategory_Carnivorous>
   <!-- EN: - -->
@@ -257,27 +257,27 @@
   <!-- EN: H -->
   <DietCategory_Herbivorous_Short>草</DietCategory_Herbivorous_Short>
   <!-- EN: D -->
-  <DietCategory_Dendrovorous_Short>树</DietCategory_Dendrovorous_Short>
+  <DietCategory_Dendrovorous_Short>樹</DietCategory_Dendrovorous_Short>
   <!-- EN: Ov -->
   <DietCategory_Ovivorous_Short>卵</DietCategory_Ovivorous_Short>
   <!-- EN: O -->
-  <DietCategory_Omnivorous_Short>杂</DietCategory_Omnivorous_Short>
+  <DietCategory_Omnivorous_Short>雑</DietCategory_Omnivorous_Short>
   <!-- EN: C -->
   <DietCategory_Carnivorous_Short>肉</DietCategory_Carnivorous_Short>
 
   <!-- Food poison cause -->
   <!-- EN: incompetent cook -->
-  <FoodPoisonCause_IncompetentCook>不称职的厨师</FoodPoisonCause_IncompetentCook>
+  <FoodPoisonCause_IncompetentCook>下手なコック</FoodPoisonCause_IncompetentCook>
   <!-- EN: dirty cooking area -->
-  <FoodPoisonCause_FilthyKitchen>烹饪环境差</FoodPoisonCause_FilthyKitchen>
+  <FoodPoisonCause_FilthyKitchen>不潔な調理場</FoodPoisonCause_FilthyKitchen>
   <!-- EN: rotten food -->
-  <FoodPoisonCause_Rotten>腐烂的食物</FoodPoisonCause_Rotten>
+  <FoodPoisonCause_Rotten>腐敗した食材</FoodPoisonCause_Rotten>
   <!-- EN: dangerous food type -->
-  <FoodPoisonCause_DangerousFoodType>危险的食物类型</FoodPoisonCause_DangerousFoodType>
+  <FoodPoisonCause_DangerousFoodType>毒を持った食物</FoodPoisonCause_DangerousFoodType>
 
   <!-- Psychic drone level -->
   <!-- EN: none -->
-  <PsychicDroneLevel_None>无</PsychicDroneLevel_None>
+  <PsychicDroneLevel_None>無し</PsychicDroneLevel_None>
   <!-- EN: medium -->
   <PsychicDroneLevel_GoodMedium>中</PsychicDroneLevel_GoodMedium>
   <!-- EN: low -->
@@ -287,31 +287,31 @@
   <!-- EN: high -->
   <PsychicDroneLevel_BadHigh>高</PsychicDroneLevel_BadHigh>
   <!-- EN: extreme -->
-  <PsychicDroneLevel_BadExtreme>极高</PsychicDroneLevel_BadExtreme>
+  <PsychicDroneLevel_BadExtreme>極度</PsychicDroneLevel_BadExtreme>
   
   <!-- Automatic pause mode -->
   <!-- EN: Never -->
-  <AutomaticPauseMode_Never>从不</AutomaticPauseMode_Never>
+  <AutomaticPauseMode_Never>使用しない</AutomaticPauseMode_Never>
   <!-- EN: Major threats -->
-  <AutomaticPauseMode_MajorThreat>大型威胁</AutomaticPauseMode_MajorThreat>
+  <AutomaticPauseMode_MajorThreat>重大な脅威</AutomaticPauseMode_MajorThreat>
   <!-- EN: Any threat -->
-  <AutomaticPauseMode_AnyThreat>任何威胁</AutomaticPauseMode_AnyThreat>
+  <AutomaticPauseMode_AnyThreat>あらゆる脅威</AutomaticPauseMode_AnyThreat>
   <!-- EN: Any letter -->
-  <AutomaticPauseMode_AnyLetter>任何事件</AutomaticPauseMode_AnyLetter>
+  <AutomaticPauseMode_AnyLetter>あらゆる通知</AutomaticPauseMode_AnyLetter>
 
   <!-- Pain category -->
   <!-- EN: itchy -->
-  <PainCategory_LowPain>发痒</PainCategory_LowPain>
+  <PainCategory_LowPain>痒い</PainCategory_LowPain>
   <!-- EN: aching -->
-  <PainCategory_MediumPain>酸痛</PainCategory_MediumPain>
+  <PainCategory_MediumPain>痛い</PainCategory_MediumPain>
   <!-- EN: painful -->
-  <PainCategory_HighPain>痛苦</PainCategory_HighPain>
+  <PainCategory_HighPain>苦痛</PainCategory_HighPain>
   
   <!-- ExtraFactionType -->
   <!-- EN: home faction -->
-  <ExtraFactionType_HomeFaction>驻地派系</ExtraFactionType_HomeFaction>
+  <ExtraFactionType_HomeFaction>所属派閥</ExtraFactionType_HomeFaction>
   <!-- EN: remote host faction -->
-  <ExtraFactionType_HostFaction>终端派系</ExtraFactionType_HostFaction>
+  <ExtraFactionType_HostFaction>所有派閥</ExtraFactionType_HostFaction>
   <!-- EN: group -->
-  <ExtraFactionType_MiniFaction>集团</ExtraFactionType_MiniFaction>
+  <ExtraFactionType_MiniFaction>グループ</ExtraFactionType_MiniFaction>
 </LanguageData>

@@ -9,7 +9,7 @@
     <requiresFaction>true</requiresFaction>
     <approachOrderString>Attack {0}</approachOrderString>
     <approachingReportString>Attacking {0}</approachingReportString>
-    <arrivedLetter>There is a neutal camp in this area.</arrivedLetter>
+    <arrivedLetter>There is a neutral camp in this area.</arrivedLetter>
     <arrivedLetterDef>NeutralEvent</arrivedLetterDef>
     <wantsThreatPoints>true</wantsThreatPoints>
     <minThreatPoints>350</minThreatPoints>

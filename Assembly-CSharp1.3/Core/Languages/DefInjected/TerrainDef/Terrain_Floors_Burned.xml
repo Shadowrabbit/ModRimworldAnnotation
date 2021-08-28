@@ -2,13 +2,13 @@
 <LanguageData>
   
   <!-- EN: burned carpet -->
-  <BurnedCarpet.label>被烧毁的地毯</BurnedCarpet.label>
+  <BurnedCarpet.label>絨毯の燃えかす</BurnedCarpet.label>
   <!-- EN: Burned-out carpet. -->
-  <BurnedCarpet.description>被烧毁的地毯。</BurnedCarpet.description>
+  <BurnedCarpet.description>燃え尽きた絨毯</BurnedCarpet.description>
   
   <!-- EN: burned wood floor -->
-  <BurnedWoodPlankFloor.label>被烧毁的木地板</BurnedWoodPlankFloor.label>
+  <BurnedWoodPlankFloor.label>床の燃えかす</BurnedWoodPlankFloor.label>
   <!-- EN: Burned-out wood plank flooring. -->
-  <BurnedWoodPlankFloor.description>被烧毁的木板地面。</BurnedWoodPlankFloor.description>
+  <BurnedWoodPlankFloor.description>燃え尽きたフローリング床</BurnedWoodPlankFloor.description>
   
 </LanguageData>

@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: lump of precious resources -->
-  <PreciousLump.label>珍贵资源</PreciousLump.label>
+  <PreciousLump.label>希少鉱物の岩塊</PreciousLump.label>
   <!-- EN: A mineable lump of precious resources. -->
-  <PreciousLump.description>一处可挖掘的珍贵资源。</PreciousLump.description>
+  <PreciousLump.description>希少鉱物の岩塊です.</PreciousLump.description>
   <!-- EN: Hostile activity detected. -->
-  <PreciousLump.mainPartAllThreatsLabel>检测到活跃的敌人。</PreciousLump.mainPartAllThreatsLabel>
+  <PreciousLump.mainPartAllThreatsLabel>敵対的な何かが検出されました.</PreciousLump.mainPartAllThreatsLabel>
   
 </LanguageData>

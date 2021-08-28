@@ -292,6 +292,9 @@
               </subNodes>
             </li>
 
+            <!-- Dye hair -->
+            <li MayRequire="Ludeon.RimWorld.Ideology" Class="JobGiver_DyeHair" />
+
             <!-- Take for inventory stock -->
             <li Class="ThinkNode_Tagger">
               <tagToGive>TakeForInventoryStock</tagToGive>

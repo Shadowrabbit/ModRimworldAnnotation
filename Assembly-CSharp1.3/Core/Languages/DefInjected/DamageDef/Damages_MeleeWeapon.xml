@@ -2,48 +2,48 @@
 <LanguageData>
   
   <!-- EN: bite -->
-  <Bite.label>咬伤</Bite.label>
+  <Bite.label>噛む</Bite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <Bite.deathMessage>{0}被咬死了。</Bite.deathMessage>
+  <Bite.deathMessage>{0}は噛まれて死んだ</Bite.deathMessage>
   
   <!-- EN: blunt -->
-  <Blunt.label>钝伤</Blunt.label>
+  <Blunt.label>殴る</Blunt.label>
   <!-- EN: {0} has been beaten to death. -->
-  <Blunt.deathMessage>{0}被锤死了。</Blunt.deathMessage>
+  <Blunt.deathMessage>{0}は鈍器で殴られて死んだ</Blunt.deathMessage>
   
   <!-- EN: crush -->
-  <Crush.label>压伤</Crush.label>
+  <Crush.label>潰す</Crush.label>
   <!-- EN: {0} has been crushed to death. -->
-  <Crush.deathMessage>{0}被压死了。</Crush.deathMessage>
+  <Crush.deathMessage>{0}は押し潰されて死んだ</Crush.deathMessage>
   
   <!-- EN: cut -->
-  <Cut.label>割伤</Cut.label>
+  <Cut.label>斬る</Cut.label>
   <!-- EN: {0} has been cut to death. -->
-  <Cut.deathMessage>{0}死于割伤。</Cut.deathMessage>
+  <Cut.deathMessage>{0}は斬られて死んだ</Cut.deathMessage>
   
   <!-- EN: blunt -->
-  <Poke.label>钝伤</Poke.label>
+  <Poke.label>突く</Poke.label>
   <!-- EN: {0} has been beaten to death. -->
-  <Poke.deathMessage>{0}被锤死了。</Poke.deathMessage>
+  <Poke.deathMessage>{0}は突かれて死んだ</Poke.deathMessage>
   
   <!-- EN: scratch -->
-  <Scratch.label>抓伤</Scratch.label>
+  <Scratch.label>裂く</Scratch.label>
   <!-- EN: {0} has been torn to death. -->
-  <Scratch.deathMessage>{0}被抓死了。</Scratch.deathMessage>
+  <Scratch.deathMessage>{0}は爪で引き裂かれて死んだ</Scratch.deathMessage>
   
   <!-- EN: toxic scratch -->
-  <ScratchToxic.label>毒击</ScratchToxic.label>
+  <ScratchToxic.label>裂く(毒)</ScratchToxic.label>
   <!-- EN: {0} has been torn to death. -->
-  <ScratchToxic.deathMessage>{0}死于毒击。</ScratchToxic.deathMessage>
+  <ScratchToxic.deathMessage>{0}は引き裂かれて死んだ</ScratchToxic.deathMessage>
   
   <!-- EN: stab -->
-  <Stab.label>刺伤</Stab.label>
+  <Stab.label>刺す</Stab.label>
   <!-- EN: {0} has been stabbed to death. -->
-  <Stab.deathMessage>{0}被刺死了。</Stab.deathMessage>
+  <Stab.deathMessage>{0}は刺されて死んだ</Stab.deathMessage>
   
   <!-- EN: toxic bite -->
-  <ToxicBite.label>毒咬伤</ToxicBite.label>
+  <ToxicBite.label>噛む</ToxicBite.label>
   <!-- EN: {0} has been bitten to death. -->
-  <ToxicBite.deathMessage>{0}死于有毒咬伤。</ToxicBite.deathMessage>
+  <ToxicBite.deathMessage>{0}は噛まれて死んだ</ToxicBite.deathMessage>
   
 </LanguageData>

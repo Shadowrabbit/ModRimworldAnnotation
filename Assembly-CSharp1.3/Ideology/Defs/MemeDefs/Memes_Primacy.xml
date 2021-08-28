@@ -184,12 +184,6 @@
         <weightFactor>0.2</weightFactor>
       </li>
     </styleItemTags>
-    <requiredRituals>
-      <li>
-        <precept>ScarificationCeremony</precept>
-        <pattern>ScarificationCeremony</pattern>
-      </li>
-    </requiredRituals>
   </MemeDef>
 
 </Defs>

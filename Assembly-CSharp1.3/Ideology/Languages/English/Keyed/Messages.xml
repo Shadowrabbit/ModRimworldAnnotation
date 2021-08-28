@@ -4,6 +4,8 @@
   <MessageMustChooseIdeo>Create or select an ideoligion for your faction.</MessageMustChooseIdeo>
   <MessageIdeoNameCantBeEmpty>The ideoligion name can't be empty.</MessageIdeoNameCantBeEmpty>
   <MessageIdeoIncompatiblePrecepts>{PRECEPT1} and {PRECEPT2} are incompatible.</MessageIdeoIncompatiblePrecepts>
+  <MessageIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} apparel desire overlaps with {ROLE} apparel requirement.</MessageIdeoWarnRoleApparelOverlapsDesiredApparel>
+  <DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>{DESIREDAPPAREL} overlaps with {ROLE} apparel requirement ({ROLEAPPAREL}). This will make it impossible for {ROLE}s to wear the required and desired apparel together.</DescriptionIdeoWarnRoleApparelOverlapsDesiredApparel>
   <MessageRitualMissingTarget>{PRECEPT} needs one of these buildings</MessageRitualMissingTarget>
   <MessageBuildingMissingRitual>{PRECEPT} needs an associated ritual.</MessageBuildingMissingRitual>
   <MessagePawnUnwillingToDoDueToIdeo>{0_labelShort} refuses to do this because of {0_possessive} ideoligion.</MessagePawnUnwillingToDoDueToIdeo>
@@ -51,6 +53,7 @@
   <CannotRemoveMemeRequired>Cannot remove {MEME}</CannotRemoveMemeRequired>
   <CannotRemoveMemeRequiredPlayer>Cannot remove {MEME}: Required by player faction.</CannotRemoveMemeRequiredPlayer>
   <RequiredByFaction>Required by {FACTION_name}.</RequiredByFaction>
+  <OverlappingRoleApparel>Roles cannot have overlapping apparel requirements.</OverlappingRoleApparel>
   
   <SelfDestructCountdown>{0_label} will self-destruct in {1}.</SelfDestructCountdown>
 
@@ -78,5 +81,9 @@
   <MessageSleepingThreatDelayActivated>{0_pawnsPlural} will wake up in {1}.</MessageSleepingThreatDelayActivated>
   <MessageInfestationDelayActivated>Infestation arriving.</MessageInfestationDelayActivated>
   <MessageFuelNodeDelayActivated>{0} was disturbed and might explode soon!</MessageFuelNodeDelayActivated><!-- this message fires when a fuel node has been disturbed and there is a random delay before it starts to explode. -->
+
+  <!-- Fluid ideo messages -->
+  <MessageDevelopmentPointsEarned>Development points changed from {0} to {1} ({2}).</MessageDevelopmentPointsEarned>
+  <MessageFluidIdeoOneChangeAllowed>Only one change to structures, memes and styles is allowed.</MessageFluidIdeoOneChangeAllowed>
 
 </LanguageData>

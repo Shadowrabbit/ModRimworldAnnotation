@@ -84,6 +84,9 @@
               <li>Campfire</li>
               <li>TorchLamp</li>
               <li MayRequire="Ludeon.RimWorld.Royalty">Brazier</li>
+              <li MayRequire="Ludeon.RimWorld.Royalty,Ludeon.RimWorld.Ideology">DarklightBrazier</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">Darktorch</li>
+              <li MayRequire="Ludeon.RimWorld.Ideology">DarktorchFungus</li>
             </defs>
             <offsetPerBuilding>0.02</offsetPerBuilding>
             <radius>9.9</radius>

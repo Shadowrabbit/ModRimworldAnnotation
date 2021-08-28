@@ -26,6 +26,7 @@
     <impact>Low</impact>
     <displayOrderInIssue>10</displayOrderInIssue>
     <defaultSelectionWeight>1</defaultSelectionWeight>
+    <classic>true</classic>
     <comps>
       <li Class="PreceptComp_SelfTookMemoryThought">
         <eventDef>AteNutrientPaste</eventDef>

@@ -6,7 +6,7 @@
   <ThingDef ParentName="PlantBase">
     <defName>Plant_Rice</defName>
     <label>rice plant</label>
-    <description>A short, fast-growing crop that yields small edible grains. Its great nutritional ouput and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
+    <description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
     <statBases>
       <MaxHitPoints>85</MaxHitPoints>
       <Nutrition>0.175</Nutrition>
@@ -404,6 +404,7 @@
       <Beauty>2</Beauty>
       <Nutrition>1.5</Nutrition>
     </statBases>
+    <minifiedDef IsNull="True" />
     <ingestible />
     <plant>
       <dieIfLeafless>true</dieIfLeafless>
@@ -421,6 +422,7 @@
       <immatureGraphicPath>Things/Plant/TreeCocoa_Immature</immatureGraphicPath>
       <harvestWork>400</harvestWork>
       <harvestTag>Standard</harvestTag>
+      <forceIsTree>true</forceIsTree>
       <harvestYield>20</harvestYield>
       <harvestedThingDef>Chocolate</harvestedThingDef>
       <harvestFailable>true</harvestFailable>

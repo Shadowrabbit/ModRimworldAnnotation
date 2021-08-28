@@ -8,6 +8,7 @@
     <rootMinPoints>300</rootMinPoints>
     <defaultChallengeRating>3</defaultChallengeRating>
     <epic>true</epic>
+    <successHistoryEvent>RelicHuntSuccess</successHistoryEvent>
     <questNameRules>
       <rulesStrings>
 
@@ -36,6 +37,7 @@
       
         <!-- description -->
         <li>questDescription->You've learned that a relic of [ideo_name] is nearby.\n\nThe [relic_name] is an ancient object venerated by all [ideo_memberNamePlural]. If you could collect it, you could build a great reliquary to make [ideo_memberNamePlural] happy, attract wealthy pilgrims, and bring more people to [ideo_name].</li>
+        <li>questDescriptionPartBeforeDiscovery->First, you need to find the [relic_name]. Watch for opportunities to gather information about it.</li>
 
       </rulesStrings>
     </questDescriptionRules>

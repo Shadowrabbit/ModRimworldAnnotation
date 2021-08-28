@@ -2,30 +2,30 @@
 <LanguageData>
   
   <!-- EN: bridgeable -->
-  <Bridgeable.label>可架桥</Bridgeable.label>
+  <Bridgeable.label>橋梁可</Bridgeable.label>
   
   <!-- EN: diggable -->
-  <Diggable.label>可挖掘</Diggable.label>
+  <Diggable.label>掘削可</Diggable.label>
   
   <!-- EN: growable -->
-  <GrowSoil.label>可生长</GrowSoil.label>
+  <GrowSoil.label>栽培可</GrowSoil.label>
   
   <!-- EN: heavy -->
-  <Heavy.label>重型</Heavy.label>
+  <Heavy.label>大型</Heavy.label>
   
   <!-- EN: light -->
-  <Light.label>轻型</Light.label>
+  <Light.label>小型</Light.label>
   
   <!-- EN: medium -->
   <Medium.label>中型</Medium.label>
   
   <!-- EN: moving water -->
-  <MovingFluid.label>流动水源</MovingFluid.label>
+  <MovingFluid.label>流水</MovingFluid.label>
   
   <!-- EN: shallow water -->
-  <ShallowWater.label>浅水</ShallowWater.label>
+  <ShallowWater.label>浅瀬</ShallowWater.label>
   
   <!-- EN: smoothable -->
-  <SmoothableStone.label>可打磨</SmoothableStone.label>
+  <SmoothableStone.label>平滑可</SmoothableStone.label>
   
 </LanguageData>

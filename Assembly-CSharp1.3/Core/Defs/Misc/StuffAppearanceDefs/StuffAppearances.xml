@@ -13,4 +13,8 @@
     <defName>Bricks</defName>
   </StuffAppearanceDef>
 
+  <StuffAppearanceDef>
+    <defName>Metal</defName>
+  </StuffAppearanceDef>
+
 </Defs>

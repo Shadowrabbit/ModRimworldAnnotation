@@ -40,6 +40,10 @@
     <letterLabel>Gauranlen pod sprout</letterLabel>
     <letterText>A Gauranlen pod has sprouted nearby!\n\nHarvest it to collect a Gauranlen seed. This special seed can be used to plant the majestic Gauranlen tree.\n\nYour colonists can connect with Gauranlen trees and make them spawn resources and helpful dryads to work or fight for you.</letterText>
     <letterDef>PositiveEvent</letterDef>
+    <disallowedBiomes>
+      <li>SeaIce</li>
+      <li>IceSheet</li>
+    </disallowedBiomes>
   </IncidentDef>
 
   <IncidentDef>

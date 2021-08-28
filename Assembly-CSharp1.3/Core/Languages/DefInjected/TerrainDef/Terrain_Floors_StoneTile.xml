@@ -2,53 +2,53 @@
 <LanguageData>
   
   <!-- EN: granite flagstone -->
-  <FlagstoneGranite.label>花岗岩石板</FlagstoneGranite.label>
+  <FlagstoneGranite.label>花崗岩の敷石</FlagstoneGranite.label>
   <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
-  <FlagstoneGranite.description>粗糙切割的岩石地砖。不太好看，但非常适合铺设道路和室外的走道。拆除石板无法回收资源。</FlagstoneGranite.description>
+  <FlagstoneGranite.description>荒削りな石のタイルです.美しくはありませんが,道や散歩道にピッタリです.敷石を解体しても何も残りません.</FlagstoneGranite.description>
   
   <!-- EN: limestone flagstone -->
-  <FlagstoneLimestone.label>石灰岩石板</FlagstoneLimestone.label>
+  <FlagstoneLimestone.label>石灰岩の敷石</FlagstoneLimestone.label>
   <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
-  <FlagstoneLimestone.description>粗糙切割的岩石地砖。不太好看，但非常适合铺设道路和室外的走道。拆除石板无法回收资源。</FlagstoneLimestone.description>
+  <FlagstoneLimestone.description>荒削りな石のタイルです.美しくはありませんが,道や散歩道にピッタリです.敷石を解体しても何も残りません.</FlagstoneLimestone.description>
   
   <!-- EN: marble flagstone -->
-  <FlagstoneMarble.label>大理石石板</FlagstoneMarble.label>
+  <FlagstoneMarble.label>大理石の敷石</FlagstoneMarble.label>
   <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
-  <FlagstoneMarble.description>粗糙切割的岩石地砖。不太好看，但非常适合铺设道路和室外的走道。拆除石板无法回收资源。</FlagstoneMarble.description>
+  <FlagstoneMarble.description>荒削りな石のタイルです.美しくはありませんが,道や散歩道にピッタリです.敷石を解体しても何も残りません.</FlagstoneMarble.description>
   
   <!-- EN: sandstone flagstone -->
-  <FlagstoneSandstone.label>砂岩石板</FlagstoneSandstone.label>
+  <FlagstoneSandstone.label>砂岩の敷石</FlagstoneSandstone.label>
   <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
-  <FlagstoneSandstone.description>粗糙切割的岩石地砖。不太好看，但非常适合铺设道路和室外的走道。拆除石板无法回收资源。</FlagstoneSandstone.description>
+  <FlagstoneSandstone.description>荒削りな石のタイルです.美しくはありませんが,道や散歩道にピッタリです.敷石を解体しても何も残りません.</FlagstoneSandstone.description>
   
   <!-- EN: slate flagstone -->
-  <FlagstoneSlate.label>板岩石板</FlagstoneSlate.label>
+  <FlagstoneSlate.label>粘板岩の敷石</FlagstoneSlate.label>
   <!-- EN: Roughly-cut stone tiles. These are not beautiful, but they make good surfaces for roads and outdoor walkways. Deconstructing flagstone yields no resources. -->
-  <FlagstoneSlate.description>粗糙切割的岩石地砖。不太好看，但非常适合铺设道路和室外的走道。拆除石板无法回收资源。</FlagstoneSlate.description>
+  <FlagstoneSlate.description>荒削りな石のタイルです.美しくはありませんが,道や散歩道にピッタリです.敷石を解体しても何も残りません.</FlagstoneSlate.description>
   
   <!-- EN: granite tile -->
-  <TileGranite.label>花岗岩地砖</TileGranite.label>
+  <TileGranite.label>花崗岩タイル</TileGranite.label>
   <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
-  <TileGranite.description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</TileGranite.description>
+  <TileGranite.description>城郭の風合いを出すために,注意深く切り出し敷き詰められたタイルです.見た目は良いですが,敷くのに時間がかかります.</TileGranite.description>
   
   <!-- EN: limestone tile -->
-  <TileLimestone.label>石灰岩地砖</TileLimestone.label>
+  <TileLimestone.label>石灰岩タイル</TileLimestone.label>
   <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
-  <TileLimestone.description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</TileLimestone.description>
+  <TileLimestone.description>城郭の風合いを出すために,注意深く切り出し敷き詰められたタイルです.見た目は良いですが,敷くのに時間がかかります.</TileLimestone.description>
   
   <!-- EN: marble tile -->
-  <TileMarble.label>大理石地砖</TileMarble.label>
+  <TileMarble.label>大理石タイル</TileMarble.label>
   <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
-  <TileMarble.description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</TileMarble.description>
+  <TileMarble.description>城郭の風合いを出すために,注意深く切り出し敷き詰められたタイルです.見た目は良いですが,敷くのに時間がかかります.</TileMarble.description>
   
   <!-- EN: sandstone tile -->
-  <TileSandstone.label>砂岩地砖</TileSandstone.label>
+  <TileSandstone.label>砂岩タイル</TileSandstone.label>
   <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
-  <TileSandstone.description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</TileSandstone.description>
+  <TileSandstone.description>城郭の風合いを出すために,注意深く切り出し敷き詰められたタイルです.見た目は良いですが,敷くのに時間がかかります.</TileSandstone.description>
   
   <!-- EN: slate tile -->
-  <TileSlate.label>板岩地砖</TileSlate.label>
+  <TileSlate.label>粘板岩タイル</TileSlate.label>
   <!-- EN: Carefully-cut and fit stone tiles for a castle feeling. They are pretty to look at, but they take a long time to lay. -->
-  <TileSlate.description>坚固的石质地砖给人以城堡一样的感觉。看起来很漂亮，就是铺设速度较慢。</TileSlate.description>
+  <TileSlate.description>城郭の風合いを出すために,注意深く切り出し敷き詰められたタイルです.見た目は良いですが,敷くのに時間がかかります.</TileSlate.description>
   
 </LanguageData>

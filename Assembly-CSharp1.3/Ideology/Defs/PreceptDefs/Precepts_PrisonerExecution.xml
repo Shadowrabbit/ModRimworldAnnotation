@@ -220,6 +220,11 @@
         <eventDef>ExecutedPrisonerGuilty</eventDef>
         <thought>ExecutedPrisonerGuilty_Know_Respected_Mood</thought>
       </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>ExecutedPrisonerGuilty</eventDef>
+        <eventLabel>executed someone</eventLabel>
+        <points>1</points>
+      </li>
     </comps>
   </PreceptDef>
 
@@ -275,6 +280,14 @@
         <thought>NoRecentExecution</thought>
         <description>No execution for {MINDAYSLASTEXECUTION} days</description>
       </li>
+
+      <!-- development points -->
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>ExecutedPrisoner</eventDef>
+        <eventLabel>executed someone</eventLabel>
+        <points>1</points>
+      </li>
+
     </comps>
   </PreceptDef>
 

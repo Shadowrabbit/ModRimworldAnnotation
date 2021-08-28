@@ -2,27 +2,24 @@
 <LanguageData>
   
   <!-- EN: slave -->
-  <Slave.label>奴隶</Slave.label>
-  <Slave.labelPlural>奴隶</Slave.labelPlural>
+  <Slave.label>奴隷</Slave.label>
   
   <!-- EN: stranger in black -->
-  <StrangerInBlack.label>黑衣人</StrangerInBlack.label>
+  <StrangerInBlack.label>黒衣の不審者</StrangerInBlack.label>
   <!-- EN: woman in black -->
-  <StrangerInBlack.labelFemale>黑衣人</StrangerInBlack.labelFemale>
+  <StrangerInBlack.labelFemale>黒衣の女</StrangerInBlack.labelFemale>
   <!-- EN: man in black -->
-  <StrangerInBlack.labelMale>黑衣人</StrangerInBlack.labelMale>
+  <StrangerInBlack.labelMale>黒衣の男</StrangerInBlack.labelMale>
   <!-- EN: strangers in black -->
-  <StrangerInBlack.labelPlural>黑衣人</StrangerInBlack.labelPlural>
+  <StrangerInBlack.labelPlural>黒衣の不審者達</StrangerInBlack.labelPlural>
   
   <!-- EN: wild man -->
-  <WildMan.label>野人</WildMan.label>
+  <WildMan.label>野蛮人</WildMan.label>
   <!-- EN: wild woman -->
-  <WildMan.labelFemale>女野人</WildMan.labelFemale>
+  <WildMan.labelFemale>野蛮人の女性</WildMan.labelFemale>
   <!-- EN: wild women -->
-  <WildMan.labelFemalePlural>女野人</WildMan.labelFemalePlural>
-  <WildMan.labelMale>男野人</WildMan.labelMale>
-  <WildMan.labelMalePlural>男野人</WildMan.labelMalePlural>
+  <WildMan.labelFemalePlural>野蛮人の女性</WildMan.labelFemalePlural>
   <!-- EN: wild men -->
-  <WildMan.labelPlural>野人</WildMan.labelPlural>
+  <WildMan.labelPlural>野蛮人の男性</WildMan.labelPlural>
   
 </LanguageData>

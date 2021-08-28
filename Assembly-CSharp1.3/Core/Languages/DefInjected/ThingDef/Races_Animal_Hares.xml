@@ -2,17 +2,17 @@
 <LanguageData>
   
   <!-- EN: hare -->
-  <Hare.label>野兔</Hare.label>
+  <Hare.label>ノウサギ</Hare.label>
   <!-- EN: This small, solitary herbivore can swiftly hop away from danger. -->
-  <Hare.description>这种小型的独居食草动物在遇到威胁时会迅速跳离。</Hare.description>
+  <Hare.description>この小さくて孤独な草食動物は,脅威から素早く跳ね逃げることができます.</Hare.description>
   <!-- EN: head -->
-  <Hare.tools.head.label>头</Hare.tools.head.label>
+  <Hare.tools.head.label>頭部</Hare.tools.head.label>
   
   <!-- EN: snowhare -->
-  <Snowhare.label>雪兔</Snowhare.label>
+  <Snowhare.label>ユキウサギ</Snowhare.label>
   <!-- EN: This hardy animal survives the brutal winters of its homelands by burrowing through snow to find edible plants. -->
-  <Snowhare.description>这种耐寒动物在雪地下钻洞、寻找食物以及在最糟糕的几个月中冬眠，以此在北方残酷的冬天生存下来。</Snowhare.description>
+  <Snowhare.description>この寒さに強い動物は,雪を掘って食べられる植物を見つけることで,故郷の厳しい冬を生き延びています.</Snowhare.description>
   <!-- EN: head -->
-  <Snowhare.tools.head.label>头</Snowhare.tools.head.label>
+  <Snowhare.tools.head.label>頭部</Snowhare.tools.head.label>
   
 </LanguageData>

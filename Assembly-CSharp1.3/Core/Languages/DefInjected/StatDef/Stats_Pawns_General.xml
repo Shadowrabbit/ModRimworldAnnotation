@@ -2,90 +2,90 @@
 <LanguageData>
   
   <!-- EN: carrying capacity -->
-  <CarryingCapacity.label>携带能力</CarryingCapacity.label>
+  <CarryingCapacity.label>輸送能力</CarryingCapacity.label>
   <!-- EN: The amount of stuff this creature can carry in its hands, mouth, or other manipulators.\n\nThis is separate from the ability to carry cargo on long cross-world trips. -->
-  <CarryingCapacity.description>这个角色用手、嘴或其他机械装置携带的物品的数量。\n\n这与远行中的驮运能力是分开的。</CarryingCapacity.description>
+  <CarryingCapacity.description>この生物が,手や口,その他の器官を使って運べる物量です.\n\nこれはワールドマップを縦断するときの運搬能力とは別です.</CarryingCapacity.description>
   
   <!-- EN: Maximum comfortable temperature -->
-  <ComfyTemperatureMax.label>最高舒适温度</ComfyTemperatureMax.label>
+  <ComfyTemperatureMax.label>快適と感じる最高気温 </ComfyTemperatureMax.label>
   <!-- EN: Above this temperature, characters will be unhappy.\n\nSignificantly above this temperature, they will develop heatstroke and eventually die. -->
-  <ComfyTemperatureMax.description>高于这个温度，角色会不开心。\n\n大幅高于这个温度时，角色可能会中暑甚至死亡。</ComfyTemperatureMax.description>
+  <ComfyTemperatureMax.description>この温度を上回るとキャラクターは不満を感じるでしょう.\n\n大きく上回ると,熱中症,そして死に至ります.</ComfyTemperatureMax.description>
   
   <!-- EN: Minimum comfortable temperature -->
-  <ComfyTemperatureMin.label>最低舒适温度</ComfyTemperatureMin.label>
+  <ComfyTemperatureMin.label>快適と感じる最低気温</ComfyTemperatureMin.label>
   <!-- EN: Below this temperature, characters will be unhappy.\n\nSignificantly below this temperature, they will develop hypothermia and frostbite and eventually die. -->
-  <ComfyTemperatureMin.description>低于这个温度，角色会不开心。\n\n大幅低于这个温度时，角色会得低温症、冻伤甚至死亡。</ComfyTemperatureMin.description>
+  <ComfyTemperatureMin.description>この温度を下回るとキャラクターは不満を感じるでしょう.\n\n大きく下回ると,低体温,凍傷,そして死に至ります.</ComfyTemperatureMin.description>
   
   <!-- EN: eating speed -->
-  <EatingSpeed.label>进食速度</EatingSpeed.label>
+  <EatingSpeed.label>食事の早さ</EatingSpeed.label>
   <!-- EN: A multiplier on eating speed. -->
-  <EatingSpeed.description>此人进食速度的乘数。</EatingSpeed.description>
+  <EatingSpeed.description>食事の早さに掛ける倍率です.</EatingSpeed.description>
   
   <!-- EN: foraged food amount -->
-  <ForagedNutritionPerDay.label>远行采集量</ForagedNutritionPerDay.label>
+  <ForagedNutritionPerDay.label>食料調達量</ForagedNutritionPerDay.label>
   <!-- EN: The amount of nutrition this person will automatically forage per day while traveling by caravan. -->
-  <ForagedNutritionPerDay.description>该生物在远行中每天自动采集获得的营养值。</ForagedNutritionPerDay.description>
+  <ForagedNutritionPerDay.description>この人が,キャラバン隊として旅行中に,一日に自動的に調達する食料の量です.</ForagedNutritionPerDay.description>
   
   <!-- EN: global learning factor -->
-  <GlobalLearningFactor.label>全局学习系数</GlobalLearningFactor.label>
+  <GlobalLearningFactor.label>身につけやすさ</GlobalLearningFactor.label>
   <!-- EN: A multiplier on the learning rate for all skills. -->
-  <GlobalLearningFactor.description>影响所有技能学习效率的全局学习系数。</GlobalLearningFactor.description>
+  <GlobalLearningFactor.description>全てのスキルにおいての身につけやすさを表します.</GlobalLearningFactor.description>
   
   <!-- EN: hunger rate multiplier -->
-  <HungerRateMultiplier.label>饥饿率乘数</HungerRateMultiplier.label>
+  <HungerRateMultiplier.label>飢えやすさ</HungerRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature becomes hungry. -->
-  <HungerRateMultiplier.description>影响一个生物饮食值下降速度的乘数。</HungerRateMultiplier.description>
+  <HungerRateMultiplier.description>この生物が,どのくらい早く空腹になるかの掛け率です.</HungerRateMultiplier.description>
   
   <!-- EN: immunity gain speed -->
-  <ImmunityGainSpeed.label>免疫性获得速度</ImmunityGainSpeed.label>
+  <ImmunityGainSpeed.label>免疫を得る速度</ImmunityGainSpeed.label>
   <!-- EN: The speed at which this character gains immunity to diseases.\n\nIf this is too slow, the character will die from a disease before developing immunity. -->
-  <ImmunityGainSpeed.description>这个角色对疾病产生免疫的速度。\n\n如果速度太慢，角色会在产生免疫之前死于疾病。</ImmunityGainSpeed.description>
+  <ImmunityGainSpeed.description>病気に対しての免疫を得るために掛かる時間です.\n\nもしこの時間が遅ければ,この人物は免疫を得る前に病原菌に侵されて死ぬでしょう.</ImmunityGainSpeed.description>
   
   <!-- EN: leather amount -->
-  <LeatherAmount.label>可获皮革量</LeatherAmount.label>
+  <LeatherAmount.label>生皮の量</LeatherAmount.label>
   <!-- EN: The amount of leather yielded when butchering this creature. -->
-  <LeatherAmount.description>屠宰这种生物可获得皮革的数量。</LeatherAmount.description>
+  <LeatherAmount.description>この生物を屠殺して捌いたときに得られる皮の量です.</LeatherAmount.description>
   
   <!-- EN: meat amount -->
-  <MeatAmount.label>可获肉量</MeatAmount.label>
+  <MeatAmount.label>生肉の量</MeatAmount.label>
   <!-- EN: The amount of meat yielded when butchering this creature. -->
-  <MeatAmount.description>屠宰这种生物可获得肉的数量。</MeatAmount.description>
+  <MeatAmount.description>この生物を屠殺して捌いたときに得られる肉の量です.</MeatAmount.description>
   
   <!-- EN: mental break threshold -->
-  <MentalBreakThreshold.label>崩溃临界值</MentalBreakThreshold.label>
+  <MentalBreakThreshold.label>精神的弱さ</MentalBreakThreshold.label>
   <!-- EN: As long as someone's mood is below this level, they are in danger of having a mental break.\n\nThe severity of the mental break will depend on how far below the threshold they are. -->
-  <MentalBreakThreshold.description>当此人的心情低于这个值时，会有精神崩溃的风险。\n\n精神崩溃的严重程度取决于低于临界值的程度。</MentalBreakThreshold.description>
+  <MentalBreakThreshold.description>"心情"が,この値より少ないと精神崩壊する危険性があります.\n\n精神崩壊時の症状の大きさは,どのくらい閾値よりも少ないかで決まります.</MentalBreakThreshold.description>
   
   <!-- EN: minimum handling skill -->
-  <MinimumHandlingSkill.label>最低驯兽技能</MinimumHandlingSkill.label>
+  <MinimumHandlingSkill.label>生き物スキル必要量</MinimumHandlingSkill.label>
   <!-- EN: This creature cannot be tamed, trained, or commanded by anyone with less than this skill in animals. -->
-  <MinimumHandlingSkill.description>如果驯兽技能低于这种动物所需的驯兽技能，将不能驯服、训练或命令这种动物。</MinimumHandlingSkill.description>
+  <MinimumHandlingSkill.description>この必要量より生き物スキルが低い人は,この生物を手懐けたり,調教したり,命令することができません.</MinimumHandlingSkill.description>
   
   <!-- EN: move speed -->
-  <MoveSpeed.label>移动速度</MoveSpeed.label>
+  <MoveSpeed.label>移動速度</MoveSpeed.label>
   <!-- EN: Speed of movement in cells per second. -->
-  <MoveSpeed.description>每秒可通过的单元格数。斜向移动和水平垂直移动用时相同。</MoveSpeed.description>
+  <MoveSpeed.description>1秒間に移動できるセル数です.</MoveSpeed.description>
   <!-- EN: {0} c/s -->
-  <MoveSpeed.formatString>{0} 格 / 秒</MoveSpeed.formatString>
+  <MoveSpeed.formatString>{0} セル/秒</MoveSpeed.formatString>
   
   <!-- EN: pain shock threshold -->
-  <PainShockThreshold.label>疼痛休克阈值</PainShockThreshold.label>
+  <PainShockThreshold.label>痛みへの限界値</PainShockThreshold.label>
   <!-- EN: The pain level at which this creature is downed from pain. -->
-  <PainShockThreshold.description>此生物因疼痛倒地的点数。</PainShockThreshold.description>
+  <PainShockThreshold.description>痛みによって失神する値です.</PainShockThreshold.description>
   
   <!-- EN: psychic sensitivity -->
-  <PsychicSensitivity.label>心灵敏感度</PsychicSensitivity.label>
+  <PsychicSensitivity.label>精神感応性</PsychicSensitivity.label>
   <!-- EN: More sensitive people suffer more from negative psychic effects, and benefit more from positive ones. Higher psychic sensitivity also increases neural heat limit. -->
-  <PsychicSensitivity.description>敏感度越高的个体会受到更多正面或负面的心理影响。高心灵敏感度也会增加心灵熵阈值的上限。</PsychicSensitivity.description>
+  <PsychicSensitivity.description>精神現象がこの人に与える影響度への倍率です.より敏感な人は,マイナスの精神影響はより苦しみますし,プラスの精神影響はより恩恵を受けます.高い精神感応性はニューラルヒートの限界も増加させます.</PsychicSensitivity.description>
   
   <!-- EN: rest rate multiplier -->
-  <RestRateMultiplier.label>休息效率</RestRateMultiplier.label>
+  <RestRateMultiplier.label>休息しやすさ</RestRateMultiplier.label>
   <!-- EN: A multiplier on how quickly a creature rests while sleeping. -->
-  <RestRateMultiplier.description>一个生物恢复精力的速度系数。</RestRateMultiplier.description>
+  <RestRateMultiplier.description>どのくらい寝ている間に速く休息を得られるかの掛け率です.</RestRateMultiplier.description>
   
   <!-- EN: toxic sensitivity -->
-  <ToxicSensitivity.label>毒物敏感度</ToxicSensitivity.label>
+  <ToxicSensitivity.label>毒に対する感受性</ToxicSensitivity.label>
   <!-- EN: Multiplier on the impact of toxic buildup on this creature. -->
-  <ToxicSensitivity.description>有毒尘埃对此人造成影响的乘数。</ToxicSensitivity.description>
+  <ToxicSensitivity.description>有毒なものの影響を受けやすい倍率を表します.</ToxicSensitivity.description>
   
 </LanguageData>

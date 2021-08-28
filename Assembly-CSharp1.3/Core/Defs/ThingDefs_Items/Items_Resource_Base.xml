@@ -20,6 +20,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
     <rotatable>false</rotatable>
     <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
   </ThingDef>
   
 </Defs>

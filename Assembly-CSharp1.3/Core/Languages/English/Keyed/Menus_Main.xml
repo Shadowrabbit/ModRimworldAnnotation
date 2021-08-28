@@ -244,6 +244,10 @@
   <Difficulty_FixedWealthTimeFactor_Label>Years until maximum threat</Difficulty_FixedWealthTimeFactor_Label>
   <Difficulty_FixedWealthTimeFactor_Info>The number of game years until the wealth-independent mode reaches its maximum threat level.\n\nNote that the storyteller will still scale threats according to colonist count and a variety of other factors.</Difficulty_FixedWealthTimeFactor_Info>
 
+  <DifficultyIdeologySection>Ideology</DifficultyIdeologySection>
+  <Difficulty_LowPopConversionBoost_Label>Low pop conversion boost</Difficulty_LowPopConversionBoost_Label>
+  <Difficulty_LowPopConversionBoost_Info>With a single colonist of the player's starting ideoligion, conversion chance to his ideoligion is multiplied by this amount. Conversion attempts against them have their impact divided by that amount.\n\nWith two colonists of the player's starting ideoligion, the effect is halved.\n\nWith three or more colonists of the player's starting ideoligion, this has no effect.</Difficulty_LowPopConversionBoost_Info>
+
   <!-- Site select -->
   <SelectStartingSite>Select starting site</SelectStartingSite>
   <SelectRandomSite>Select random site</SelectRandomSite>

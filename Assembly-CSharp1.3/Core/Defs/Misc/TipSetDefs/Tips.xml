@@ -43,7 +43,7 @@
       <li TKey="CaravanSmallerLessVisible">Smaller caravans get attacked less often because they're less visible.</li>
       <li TKey="CaravanStockpileNearPackingSpot">Before forming a caravan, collect the items you want to send in a stockpile near your caravan packing spot. This will make packing much faster.</li>
       <li TKey="CaravanUntrainedAnimals">If you have untrained animals in your caravan, you can split them into a separate caravan before attacking an enemy, to keep them out of the fight.</li>
-      <li>Don't forget to pack medicine on your caravans.</li>
+      <li TKey="CaravanDontForgetMedicine">Don't forget to pack medicine on your caravans.</li>
 
       <!-- Game style -->
       <li TKey="StoryGenerator">RimWorld is a story generator, not a skill test. A ruined colony is a dramatic tragedy, not a failure.</li>
@@ -81,9 +81,9 @@
       <li TKey="GeysersHeatRooms">Geysers heat up rooms if enclosed. This can be dangerous, or useful.</li>
       <li TKey="ExtinguishFireArtillery">Explosions extinguish fires in their blast radius. This makes artillery shells useful for stopping fires when there is no other choice.</li>
       <li TKey="BestStoriesFromDarkestSituations">Even serious setbacks don't mean the game has to end. Try playing out a lost battle - often the best stories come from the darkest situations.</li>
-      <li>Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives.</li>
-      <li>When taming animals, make sure you have enough food of the correct type to feed them.</li>
-      <li>Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders.</li>
+      <li TKey="KeepWeaponsAwayFromPrisoners">Keep weapon stockpiles away from your prisons. Prison breaks are much more dangerous with guns and explosives.</li>
+      <li TKey="MakeSureYouHaveFoodForTamedAnimals">When taming animals, make sure you have enough food of the correct type to feed them.</li>
+      <li TKey="DroppingChunksWillForceDoorsOpen">Dropping a stone or slag chunk in a doorway will force it open, leaving you vulnerable to hostile wildlife and raiders.</li>
 
       <!-- Added misc -->
       <li TKey="CleanLabs">Clean labs with sterile tile give research speed bonuses.</li>

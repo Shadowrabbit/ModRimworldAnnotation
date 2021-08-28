@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <LanguageData>
 
-  <ChooseIdeoligion>Choose your faction's ideoligion</ChooseIdeoligion>
+  <CustomizeIdeoligion>Customize ideoligion</CustomizeIdeoligion>
+  <ChooseYourIdeoligion>Choose your ideoligion</ChooseYourIdeoligion>
+  <Random>Random</Random>
+  <RandomStructureTip>A random structure will be used for your ideoligion.</RandomStructureTip>
+  <RandomStyleTip>A random style will be used for your ideoligion.</RandomStyleTip>
+  <Customize>Customize</Customize>
+  <PlayClassic>Play classic</PlayClassic>
+  <CreateFluid>Create fluid...</CreateFluid>
+  <LoadSaved>Load saved</LoadSaved>
+  <Structure>Structure</Structure>
+  <ChooseYourIdeoligionDesc>What should your starting colonists believe? These beliefs affect gameplay and visuals. You’ll be able to recruit others to your beliefs, or take on their beliefs.</ChooseYourIdeoligionDesc>
   <CreateCustom>Create custom</CreateCustom>
   <CreateNew>Create new</CreateNew>
+  <LoadExisting>Load existing</LoadExisting>
   <CreateCustomIdeoligion>Create custom ideoligion</CreateCustomIdeoligion>
+  <LoadExistingIdeoligion>Load saved ideoligion</LoadExistingIdeoligion>
   <SelectAnIdeo>Select an ideoligion for your faction on the left, or</SelectAnIdeo>
   <Ideo>ideoligion</Ideo> 
   <RandomizeAll>Randomize all</RandomizeAll>
@@ -38,14 +50,27 @@
   <ChanceToHavePrecept>Chance to have precept</ChanceToHavePrecept>
   <FavoriteColorTooltip>{PAWN_labelShort}'s favorite color. Having more than {PERCENTAGE} of {PAWN_possessive} apparel in this color, or the color of {PAWN_possessive} ideoligion, will make {PAWN_objective} slightly happier.\n\nYou can alter apparel colors at the styling station using tinctoria dye.</FavoriteColorTooltip>
   <SetIdeoColor>Set ideo color</SetIdeoColor>
-  <SetFavoriteColor>Set favorite color</SetFavoriteColor>
+  <SetFavoriteColor>Set to favorite color</SetFavoriteColor>
   <ConfigureIdeoligion>Configure your faction's ideoligion</ConfigureIdeoligion>
   <NotEnoughDye>Not enough dye.</NotEnoughDye>
+  <ApparelLockedCannotRecolor>{PAWN_nameDef} is unwilling to recolor {PAWN_possessive} {APPAREL_labelShort}.</ApparelLockedCannotRecolor>
   <NotEnoughDyeWillRecolorApparel>The colonist will recolor the apparel when dye becomes available.</NotEnoughDyeWillRecolorApparel>
   <NotEnoughDyeWillRecolorHair>The colonist will recolor their hair when dye becomes available.</NotEnoughDyeWillRecolorHair>
   <IdeoCertaintyTooltip>{PAWN_labelShort}'s certainty in {IDEO} is at {PERCENTAGE}</IdeoCertaintyTooltip>
   <DisabledByPrecept>Disabled by precept {0}</DisabledByPrecept>
   <Everyone>Everyone</Everyone>
+  <Narrative>Narrative</Narrative>
+  <NarrativeLower>narrative</NarrativeLower>
+  <PreceptName>Precept name</PreceptName>
+  <PreceptNameLower>precept name</PreceptNameLower>
+  <Changing>Changing {0}</Changing>
+  <StructuresLower>structures</StructuresLower>
+  <MemesLower>memes</MemesLower>
+  <Reward_DevelopmentPointsLabel>Development points</Reward_DevelopmentPointsLabel>
+  <Reward_DevelopmentPoints>Your development points for {0} will increase by {1}.\n\nYou currently have {2} development points. Once you have {3} development points you can reform the ideoligion.\n\nEarn additional development points by completing other quests and rituals.</Reward_DevelopmentPoints>
+  <CurrentDevelopmentPoints>Current points</CurrentDevelopmentPoints>
+  <ReformDevelopmentPoints>Points needed to reform</ReformDevelopmentPoints>
+  <QuestLower>quest</QuestLower>
 
   <RitualTargetGraveInfo>A grave containing {PAWN_labelShort}'s corpse.</RitualTargetGraveInfo>
   <RitualTargetEmptyGraveInfo>An empty grave to mourn {PAWN_labelShort}'s passing.</RitualTargetEmptyGraveInfo>
@@ -65,6 +90,7 @@
   <RitualTargetCampfireSkylanternsInfo>A lit campfire or ritual spot. Spot must be unroofed with at least 25 unroofed cells in the area.</RitualTargetCampfireSkylanternsInfo>
   <RitualTargetUnconnectedGaruanlenTreeInfo>An unconnected Gauranlen tree.</RitualTargetUnconnectedGaruanlenTreeInfo>
   <RitualTargetConnectedGauranlenTree>Already connected to {PAWN_nameDef}</RitualTargetConnectedGauranlenTree>
+  <RitualTargetConnectionTornGauranlenTree>{TREE_definite} has had its connection torn recently. It can connect again in {1}.</RitualTargetConnectionTornGauranlenTree>
   <RitualTargeWoodInfo>You need {0} wood for each participant ({2} total). You have {1} wood.</RitualTargeWoodInfo>
   <Accuse>Accuse</Accuse>
   <RitualScarificationWarnNonScarificationIdeo>{PAWN_labelShort} does not believe in ideoligious scarification and will not like being scarified.</RitualScarificationWarnNonScarificationIdeo>
@@ -78,6 +104,9 @@
   <RitualOutcomeExtraDesc_ConsumableInspiration>Thanks to a satisfying {RITUAL}, {PAWN_labelShort} gained {INSPIRATION}!</RitualOutcomeExtraDesc_ConsumableInspiration>
   <RitualOutcomeExtraDesc_SkylanternWanderers>Your skylanterns have attracted some friendly travelers. They will visit and leave a gift.</RitualOutcomeExtraDesc_SkylanternWanderers>
   <RitualOutcomeExtraDesc_Execution>All participating slaves were shaken by the sight of death. Their suppression has been raised to its maximum level.</RitualOutcomeExtraDesc_Execution>
+  
+  <RitualOutcomeExtraDesc_DevelopmentPointsAwarded>Due to the quality of the ritual, your development points have increased by {2} (from {0} to {1}).</RitualOutcomeExtraDesc_DevelopmentPointsAwarded>
+  <RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>Due to the poor quality of the ritual, no development points were gained.</RitualOutcomeExtraDesc_NoDevelopmentPointsAwarded>
 
   <RitualAttachedReward>Additional reward</RitualAttachedReward>
   <RitualAttachedRewardChoose>Choose</RitualAttachedRewardChoose>
@@ -110,6 +139,8 @@
   <RitualParticipatingRoles>Participating roles</RitualParticipatingRoles>
   <RitualOutcomeCompTip_RitualTargetDefsPart1>For best quality, start the {0} at {1}.</RitualOutcomeCompTip_RitualTargetDefsPart1>
   <RitualOutcomeCompTip_RitualTargetDefsPart2>Currently, the {0} is being started at {1_labelShortIndef}.</RitualOutcomeCompTip_RitualTargetDefsPart2>
+  <RitualDevelopmentPoints>Development points</RitualDevelopmentPoints>
+  <RitualDevelopmentPointsTip>Completing this ritual gives {0}-{1} development points depending on quality.</RitualDevelopmentPointsTip>
 
   <ForSlaveUse>For slave use</ForSlaveUse>
   <Slave>Slave</Slave>
@@ -135,6 +166,7 @@
   <RoleBelieverCountDesc>This role becomes active when your faction has {1} {0}. It becomes inactive when your faction has only {3} {2}.</RoleBelieverCountDesc>
   <RoleExpectationOffset>Raised by {0} levels.</RoleExpectationOffset>
   <RoleRaisedExpectation>The {0} has higher expectations.</RoleRaisedExpectation>
+  <RoleRaisedExpectationGracePeriod>The {0} will have higher expectations in {1}.</RoleRaisedExpectationGracePeriod>
   <IdeoLeaderDifferentIdeoThoughtLabel>Led by {0}</IdeoLeaderDifferentIdeoThoughtLabel>
   <AbilityDisabled_IncapableOfWorkTag>{PAWN_nameDef} will not do {1} work.</AbilityDisabled_IncapableOfWorkTag>
   <AbilityDisabledNoAltarOrRitualsSpot>No reachable altar or ritual spot.</AbilityDisabledNoAltarOrRitualsSpot>
@@ -178,7 +210,6 @@
   <WorshippedTerminalRaidIncoming>Villagers are returning from nearby to protect the venerated terminal!</WorshippedTerminalRaidIncoming>
 
   <!-- Relic hunt -->
-  <RelicHuntFindRelicSite>First, you need to find the {0}. Watch for opportunities to gather information about it.</RelicHuntFindRelicSite>
   <RelicHuntFoundRelicSite>The relic is housed in an ancient structure protected by a multi-unit security system.\n\nYou can defeat the security forces one unit at a time, or grab the relic and try to flee before they get you.</RelicHuntFoundRelicSite>
   <RelicHuntFoundRelicSitePeaceful>The relic rests in an ancient structure nearby.</RelicHuntFoundRelicSitePeaceful>
 
@@ -236,6 +267,7 @@
   <ConnectionStrengthAffectedBy>Connection strength affected by</ConnectionStrengthAffectedBy>
   <CurrentlyAffectedBy>Currently affected by</CurrentlyAffectedBy>
   <NotEnoughConnectionStrengthForSingleDryad>{0} connection strength needed to support a dryad.</NotEnoughConnectionStrengthForSingleDryad>
+  <CannotAssignAllowedAreaToDryad>Cannot assign allowed area</CannotAssignAllowedAreaToDryad>
 
   <!-- Shooting report -->
   <TargetNightOutdoors>Target outdoors and night-time</TargetNightOutdoors>
@@ -254,8 +286,8 @@
   <RoleEffectGiveThoughtOnTended>Give thought</RoleEffectGiveThoughtOnTended>
 
   <AssignColonists>Assign colonists to your ideoligion</AssignColonists>
-  <DeleteNewIdeoligion>Delete new ideoligion</DeleteNewIdeoligion>
-  <MakeIdeoligionPrimary>Make this your primary ideologion</MakeIdeoligionPrimary>
+  <RemoveNewIdeoligion>Remove new ideoligion</RemoveNewIdeoligion>
+  <MakeIdeoligionPrimary>Make this your primary ideoligion</MakeIdeoligionPrimary>
 
   <!-- Archonexus -->
   <GameOverArchotechInvokedIntro>You've invoked the archonexus core. The world fills with a blinding light and time seems to slow...\n\n</GameOverArchotechInvokedIntro>
@@ -285,12 +317,16 @@
   <BiosculpterBiotunedTo>Biotuned to</BiosculpterBiotunedTo>
   <BiosculpterInteruptCycle>Interrupt cycle</BiosculpterInteruptCycle>
   <BiosculpterInteruptCycleDesc>Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness.</BiosculpterInteruptCycleDesc>
+  <BiosculpterUnderageAgeReversalMessage>Warning: Age reversal cycle cannot be run while biosculpter is tuned to {PAWN_labelShort} because {PAWN_labelShort} is under {ADULTAGE} years old.</BiosculpterUnderageAgeReversalMessage>
   <BiosculpterLoadingStartedMessage>Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle.</BiosculpterLoadingStartedMessage>
   <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} was ejected from a biosculpter pod due to lack of power.</BiosculpterNoPowerEjectedMessage>
   <BiosculpterHealCompletedMessage>{PAWN_labelShort} completed healing cycle.</BiosculpterHealCompletedMessage>
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured.</BiosculpterHealCompletedWithCureMessage>
+  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completed healing cycle, and {PAWN_possessive} {HEDIFF_label} was cured.</BiosculpterHealCompletedWithCureMessage>
   <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days.</BiosculpterAgeReversalCompletedMessage>
   <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completed pleasure cycle.</BiosculpterPleasureCompletedMessage>
   <BiosculpterCleanlinessSpeedFactor>Cleanliness speed factor</BiosculpterCleanlinessSpeedFactor>
+  <HealingCycleWillHeal>These conditions will be healed</HealingCycleWillHeal>
+  <HealingCycleOneWillHeal>One of these conditions will be healed</HealingCycleOneWillHeal>
+  <MissingRequiredResearch>Missing required research</MissingRequiredResearch>
 
 </LanguageData>

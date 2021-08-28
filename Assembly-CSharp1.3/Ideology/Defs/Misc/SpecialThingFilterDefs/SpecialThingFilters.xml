@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SpecialThingFilterDef>
+    <defName>AllowCorpsesSlave</defName>
+    <label>allow slave corpses</label>
+    <description>Allow the dead bodies of slaves.</description>
+    <parentCategory>CorpsesHumanlike</parentCategory>
+    <allowedByDefault>false</allowedByDefault>
+    <saveKey>allowCorpsesSlave</saveKey>
+    <workerClass>SpecialThingFilterWorker_CorpsesSlave</workerClass>
+  </SpecialThingFilterDef>
+
+</Defs>

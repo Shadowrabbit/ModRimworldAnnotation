@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: attended party -->
-  <AttendedParty.label>参加派对</AttendedParty.label>
+  <AttendedParty.label>attended party</AttendedParty.label>
   <!-- EN:
     <li>tale_noun->[ATTENDER_nameDef] attending [ORGANIZER_nameDef]'s party</li>
     <li>tale_noun->[ATTENDER_nameDef] relaxing with [ORGANIZER_nameDef] at a party</li>
@@ -21,25 +21,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s play nearby.</li>
   -->
   <AttendedParty.rulePack.rulesStrings>
-    <li>tale_noun->[ATTENDER_nameDef]出席[ORGANIZER_nameDef]的派对</li>
-    <li>tale_noun->[ATTENDER_nameDef]在[ORGANIZER_nameDef]举办的派对中放松</li>
-    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]交谈，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]举办的派对上，[ATTENDER_nameFull]正在拿取饮料，[circumstance_group]</li>
-    <li>image->[ATTENDER_nameFull]在和[ORGANIZER_nameFull]聊天，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]欢迎[ATTENDER_nameFull]加入派对，[circumstance_group]</li>
-    <li>image->[ORGANIZER_nameFull]正在向朋友介绍[ATTENDER_nameFull]，[circumstance_group]</li>
-    <li>circumstance_phrase->带着爽朗的笑容</li>
-    <li>circumstance_phrase->面带笑容</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的微笑</li>
-    <li>circumstance_phrase->同时发出一阵大笑</li>
-    <li>circumstance_phrase->现场气氛非常[AdjectiveFriendly]</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]参与了交谈。</li>
-    <li>desc_sentence->现场被[Color]和[Color]装点。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近玩耍。</li>
+    <li>tale_noun->[ATTENDER_nameDef]が[ORGANIZER_nameDef]のパーティに参加する</li>
+    <li>tale_noun->[ATTENDER_nameDef]が[ORGANIZER_nameDef]主催のパーティでくつろぐ</li>
+    <li>image-> [ATTENDER_nameFull]が [circumstance_group], [ORGANIZER_nameFull]と 会話する</li>
+    <li>image-> [ATTENDER_nameFull]が [circumstance_group], [ORGANIZER_nameFull]から 飲み物を受け取る</li>
+    <li>image-> [ATTENDER_nameFull]が [circumstance_group], [ORGANIZER_nameFull]と おしゃべりする</li>
+    <li>image-> [ORGANIZER_nameFull]が [circumstance_group], [ATTENDER_nameFull]を 歓迎する</li>
+    <li>image-> [ORGANIZER_nameFull]が [circumstance_group], [ATTENDER_nameFull]に 友人を紹介する</li>
+    <li>circumstance_phrase->喜色満面に</li>
+    <li>circumstance_phrase->笑いながら</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]笑顔で</li>
+    <li>circumstance_phrase->勢いよく笑いながら</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]様子で</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達も会話に巻き込まれている.</li>
+    <li>desc_sentence->会場は[Color]や[Color]で彩られている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]も近くで遊んでいる.</li>
   </AttendedParty.rulePack.rulesStrings>
   
   <!-- EN: built snowman -->
-  <BuiltSnowman.label>堆雪人</BuiltSnowman.label>
+  <BuiltSnowman.label>built snowman</BuiltSnowman.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] building a snowman</li>
     <li>tale_noun->[PAWN_nameDef] playing in the snow</li>
@@ -57,24 +57,24 @@
     <li>desc_sentence->A snow-covered [TerrainFeature] can be seen far away.</li>
   -->
   <BuiltSnowman.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]堆雪人</li>
-    <li>tale_noun->[PAWN_nameDef]在雪地里玩耍</li>
-    <li>image->[PAWN_nameFull]做了一个雪球，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在地上滚出一个巨大的雪球，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]用[Vegetable]让雪人有了粗糙的人脸外观，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]躺在雪地里，[circumstance_group]</li>
-    <li>circumstance_phrase->头上带着[Quantity_adjphrase]风雪帽</li>
-    <li>circumstance_phrase->灰暗的天空下着小雪</li>
-    <li>circumstance_phrase->而[PAWN_possessive]的朋友们建造了一座堡垒</li>
-    <li>circumstance_phrase->而[PAWN_possessive]朋友们建造了一个雪人家族</li>
-    <li>desc_sentence->背景中[Color]的极光闪烁。</li>
-    <li>desc_sentence->远处[Community]被白雪覆盖。</li>
-    <li>desc_sentence->种植着[Vegetable]的田地被雪掩埋，几乎看不到了。</li>
-    <li>desc_sentence->被冰雪覆盖的[TerrainFeature]出现在远方。</li>
+    <li>tale_noun->[PAWN_nameDef]が雪だるまを作る</li>
+    <li>tale_noun->[PAWN_nameDef]が雪と戯れる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],雪玉を握って作る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],大きな雪玉を地面で転がす</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],人の顔のように[Vegetable]を配置する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],雪だるまを置く</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]枚のパーカーを着こみながら</li>
+    <li>circumstance_phrase->吹雪で視界がよくない中</li>
+    <li>circumstance_phrase->[PAWN_possesive]仲間が砦を作っている最中に</li>
+    <li>circumstance_phrase->[PAWN_possesive]仲間が雪だるまファミリーを作っている中</li>
+    <li>desc_sentence->[Color]色のオーロラが空に輝いている.</li>
+    <li>desc_sentence->遠くの[Community]が雪に覆われている.</li>
+    <li>desc_sentence->雪をかぶった[Vegetable]畑が,かろうじて見える.</li>
+    <li>desc_sentence->雪をかぶった[TerrainFeature]が遠くに見える.</li>
   </BuiltSnowman.rulePack.rulesStrings>
   
   <!-- EN: buried corpse -->
-  <BuriedCorpse.label>埋葬尸体</BuriedCorpse.label>
+  <BuriedCorpse.label>buried corpse</BuriedCorpse.label>
   <!-- EN:
     <li>tale_noun->[DIGGER_nameDef] burying [CORPSE_nameDef]</li>
     <li>tale_noun->[DIGGER_nameDef] laying [CORPSE_nameDef] to rest</li>
@@ -97,29 +97,29 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <BuriedCorpse.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]埋葬[CORPSE_nameDef]</li>
-    <li>tale_noun->[PAWN_nameDef]使[CORPSE_nameDef]得到安息</li>
-    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]倚靠在[CORPSE_nameFull]的坟墓前[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的墓碑上雕刻文字，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[CORPSE_nameFull]的棺木上进行艺术创作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将[CORPSE_nameFull]的尸体放入坟墓，[circumstance_group]</li>
-    <li>circumstance_phrase->面带[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->陷入沉思</li>
-    <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
-    <li>circumstance_phrase->向墓碑静静私语</li>
-    <li>desc_sentence->背景中[Color]的极光闪烁。</li>
-    <li>desc_sentence->远处的[Community]被白雪覆盖。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveFriendly]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveFriendly]的神情。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveAngsty]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
+    <li>tale_noun->[DIGGER_nameDef]が[CORPSE_nameDef]を埋葬する</li>
+    <li>tale_noun->[DIGGER_nameDef]が[CORPSE_nameDef]を安らかな眠りへと送る</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓の前に立つ</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓の前に座る</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓にもたれかかる</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓標を読む</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓碑に描かれた芸術作品を眺める</li>
+    <li>image-> [DIGGER_nameFull]が [circumstance_group], [CORPSE_nameFull]の 遺体を安置する</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]表情を浮かべ</li>
+    <li>circumstance_phrase->思いに耽けながら</li>
+    <li>circumstance_phrase->遠くの[TerrainFeature]をじっと見つめながら</li>
+    <li>circumstance_phrase->静かに追悼の言葉を述べながら</li>
+    <li>desc_sentence->[Color]色のオーロラが空に輝いている.</li>
+    <li>desc_sentence->遥か遠くの[Community]が雪に覆われている.</li>
+    <li>desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が,その光景を空から見守っている.</li>
+    <li>desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が,[DIGGER_nameDef]の前に立っている.</li>
+    <li>desc_sentence->[CORPSE_nameDef]の霊が[AdjectiveAngsty]表情で上から見ている.</li>
+    <li>desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊が,[DIGGER_nameDef]の前に立っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がその近くで安らかに休んでいる.</li>
   </BuriedCorpse.rulePack.rulesStrings>
   
   <!-- EN: completed long construction project -->
-  <CompletedLongConstructionProject.label>完成长时间的建造项目</CompletedLongConstructionProject.label>
+  <CompletedLongConstructionProject.label>completed long construction project</CompletedLongConstructionProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] finishing construction on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] building a [OBJECT_label] [circumstance_group]</li>
@@ -138,25 +138,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongConstructionProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的建造</li>
-    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上，[circumstance_group]</li>
-    <li>circumstance_phrase->[PAWN_possessive]眼中闪烁着光芒</li>
-    <li>circumstance_phrase->同时在擦拭[PAWN_possessive]额头的汗水</li>
-    <li>circumstance_phrase->建造者浑身都是污渍</li>
-    <li>circumstance_phrase->面带得意的微笑</li>
-    <li>circumstance_phrase->[PAWN_possessive]脸上带着满意的神情</li>
-    <li>desc_sentence->[OBJECT_label]矗立在[PAWN_nameDef]面前。</li>
-    <li>desc_sentence->[OBJECT_label]泛着柔和的[Color]光。</li>
-    <li>desc_sentence->[OBJECT_label]巧夺天工</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]对[OBJECT_label]赞叹不已。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]投来敬畏的目光。</li>
+    <li>tale_noun->[PAWN_nameDef]が[OBJECT_label]の仕上げを終える</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],複雑な[OBJECT_label]の内装を組み立てる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]の表面を磨く</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]の表面の細部を作りこむ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]に自身の名を彫り込む</li>
+    <li>circumstance_phrase->目を輝かせながら</li>
+    <li>circumstance_phrase->額の汗を拭きながら</li>
+    <li>circumstance_phrase->埃まみれになりながら</li>
+    <li>circumstance_phrase->誇らしげに微笑みながら</li>
+    <li>circumstance_phrase->満足げな笑みを浮かべながら</li>
+    <li>desc_sentence->[PAWN_nameDef]の眼前に[OBJECT_label]のタワーが現れている.</li>
+    <li>desc_sentence->[OBJECT_label]は滑らかな[Color]色に輝いている.</li>
+    <li>desc_sentence->[OBJECT_label]の細部は複雑な見た目だ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が[OBJECT_label]を見て驚いている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が畏怖の念を込めながらそれをジッと見ている.</li>
   </CompletedLongConstructionProject.rulePack.rulesStrings>
   
   <!-- EN: completed long crafting project -->
-  <CompletedLongCraftingProject.label>完成长时间的制作项目</CompletedLongCraftingProject.label>
+  <CompletedLongCraftingProject.label>completed long crafting project</CompletedLongCraftingProject.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] completing work on a [OBJECT_label]</li>
     <li>image->[PAWN_nameFull] working on a [OBJECT_label] [circumstance_group]</li>
@@ -175,25 +175,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s gaze in awe.</li>
   -->
   <CompletedLongCraftingProject.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]完成了[OBJECT_label]的制作</li>
-    <li>image->[PAWN_nameFull]正在装配[OBJECT_label]内部一个复杂的装置，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]的表面抛光，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在为[OBJECT_label]添加表面细节，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]把自己的名字刻在[OBJECT_label]上，[circumstance_group]</li>
-    <li>circumstance_phrase->[PAWN_possessive]眼中闪烁着光芒</li>
-    <li>circumstance_phrase->同时在擦拭头上的汗水</li>
-    <li>circumstance_phrase->制作者浑身都是污渍</li>
-    <li>circumstance_phrase->面带得意的微笑</li>
-    <li>circumstance_phrase->[PAWN_possessive]脸上带着满意的神情</li>
-    <li>desc_sentence->[OBJECT_label]泛着柔和的[Color]光。</li>
-    <li>desc_sentence->[OBJECT_label]精雕细琢。</li>
-    <li>desc_sentence->[PAWN_nameDef]看上去毫不费力地举起[OBJECT_label]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]对作品赞叹不已。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]投来敬畏的目光。</li>
+    <li>tale_noun->[PAWN_nameDef]が[OBJECT_label]の製造を終える</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],複雑な[OBJECT_label]の内部を組み立てる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]の表面を磨く</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]の表面の細部を作りこむ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[OBJECT_label]に自身の名を彫り込む</li>
+    <li>circumstance_phrase->目を輝かせながら</li>
+    <li>circumstance_phrase->額の汗を拭きながら</li>
+    <li>circumstance_phrase->埃まみれになりながら</li>
+    <li>circumstance_phrase->誇らしげに微笑みながら</li>
+    <li>circumstance_phrase->満足げな笑みを浮かべながら</li>
+    <li>desc_sentence->[OBJECT_label]は滑らかな[Color]色に輝いている.</li>
+    <li>desc_sentence->[OBJECT_label]の細部は複雑な見た目だ.</li>
+    <li>desc_sentence->[PAWN_nameDef]は,一見したところ軽々と[OBJECT_label]を持ち上げているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がこの装置を見て驚いていようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が畏怖の念を込めながらそれをジッと見ている.</li>
   </CompletedLongCraftingProject.rulePack.rulesStrings>
   
   <!-- EN: entered cryptosleep -->
-  <EnteredCryptosleep.label>进入休眠状态</EnteredCryptosleep.label>
+  <EnteredCryptosleep.label>entered cryptosleep</EnteredCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] entering cryptosleep</li>
     <li>image->[PAWN_nameFull] lying down inside a cryptosleep casket [circumstance_group]</li>
@@ -212,25 +212,25 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <EnteredCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]进入休眠状态</li>
-    <li>image->[PAWN_nameFull]躺在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将自己封闭在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]透过休眠仓的内壁观看这个即将要离开的世界，[circumstance_group]</li>
-    <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->陷入沉思</li>
-    <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
-    <li>circumstance_phrase->悄悄地自言自语</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Enemy]正在靠近这个地区。</li>
-    <li>desc_sentence->[PAWN_nameDef]目光坚定。</li>
-    <li>desc_sentence->[PAWN_nameDef]明显受了伤。</li>
-    <li>desc_sentence->背景中[Color]的极光在闪烁。</li>
-    <li>desc_sentence->[Quantity_adjphrase]装载着生物的休眠仓排列在四周。</li>
+    <li>tale_noun->[PAWN_nameDef]が冷凍睡眠装置に入る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],冷凍睡眠装置の中に横たわる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],空の冷凍睡眠装置を開ける</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],冷凍睡眠装置の内部が密閉される</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],冷凍睡眠装置の窓越しに,彼らが離れていくのを認識する</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]表情を浮かべ</li>
+    <li>circumstance_phrase->思いに耽けながら</li>
+    <li>circumstance_phrase->遠くの[TerrainFeature]をじっと見つめながら</li>
+    <li>circumstance_phrase->静かな会話を交わしながら</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がその近くで安らかに休んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Enemy]達が迫ってきている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は自分の決意を伝達しているようだ.</li>
+    <li>desc_sentence->[PAWN_nameDef]は目に見える傷を負っている.</li>
+    <li>desc_sentence->[Color]色のオーロラが空に輝いている.</li>
+    <li>desc_sentence->作動した[Quantity_adjphrase]台の冷凍睡眠装置が辺りを囲んでいる.</li>
   </EnteredCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: gained master skill -->
-  <GainedMasterSkillWithoutPassion.label>技能精通</GainedMasterSkillWithoutPassion.label>
+  <GainedMasterSkillWithoutPassion.label>gained master skill</GainedMasterSkillWithoutPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -250,26 +250,26 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]成为[SKILL_label]领域的大师</li>
-    <li>image->[PAWN_nameFull]正在练习[SKILL_label]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在阅读一本关于[SKILL_label]的书籍，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在接受[SKILL_label]相关的训练，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]忘我地工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]完成了一个项目，[circumstance_group]</li>
-    <li>circumstance_phrase->满身大汗</li>
-    <li>circumstance_phrase->显得非常疲惫</li>
-    <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->带着厌倦的神情</li>
-    <li>desc_sentence->现场堆放着[Quantity_adjphrase]失败作品。</li>
-    <li>desc_sentence->现场堆放着[Quantity_adjphrase]书籍。</li>
-    <li>desc_sentence->[PAWN_possessive]技能发挥的作用立竿见影。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]露出惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]露出惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase]上古大师显灵并注视着这一切。</li>
+    <li>tale_noun->[PAWN_nameDef]が[SKILL_label]の技術を極める</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の練習をする</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の大きな本を読む</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の訓練を受ける</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],無我夢中に作業をする</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase]作業を終える</li>
+    <li>circumstance_phrase->汗にまみれながら</li>
+    <li>circumstance_phrase->見るからに疲労しつつ</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]表情をしつつ</li>
+    <li>circumstance_phrase->うんざりした表情をしつつ</li>
+    <li>desc_sentence->失敗した[Quantity_adjphrase]個の試作品がこの場を取り囲んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]の本がこの場を取り囲んでいる.</li>
+    <li>desc_sentence->[PAWN_possesive]スキルが作業の役に立っているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がそれを見て驚いているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がそれを見て驚いているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の古の熟練者達の魂が,空の上からそれを見ている.</li>
   </GainedMasterSkillWithoutPassion.rulePack.rulesStrings>
   
   <!-- EN: gained master skill with passion -->
-  <GainedMasterSkillWithPassion.label>热衷的技能精通</GainedMasterSkillWithPassion.label>
+  <GainedMasterSkillWithPassion.label>gained master skill with passion</GainedMasterSkillWithPassion.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] becoming a master at [SKILL_label] tasks</li>
     <li>image->[PAWN_nameFull] practicing [SKILL_label] skills [circumstance_group]</li>
@@ -291,28 +291,28 @@
     <li>desc_sentence->[Quantity_adjphrase] ethereal spirits of ancient masters watch from above.</li>
   -->
   <GainedMasterSkillWithPassion.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]成为[SKILL_label]领域的大师</li>
-    <li>image->[PAWN_nameFull]正在开心地练习[SKILL_label]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正饶有兴致地阅读一本关于[SKILL_label]的书籍，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在高兴地接受[SKILL_label]相关的训练，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]狂热地工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]完成了一个项目，[circumstance_group]</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的神情</li>
-    <li>circumstance_phrase->带着喜悦的神情</li>
-    <li>circumstance_phrase->显得非常[AdjectiveFriendly]</li>
-    <li>circumstance_phrase->兴高采烈地呼喊</li>
-    <li>circumstance_phrase->满身大汗</li>
-    <li>circumstance_phrase->显得非常疲惫</li>
-    <li>desc_sentence->现场堆放着[Quantity_adjphrase]失败作品。</li>
-    <li>desc_sentence->现场堆放着[Quantity_adjphrase]书籍。</li>
-    <li>desc_sentence->[PAWN_possessive]技能发挥的作用立竿见影。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]露出惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]露出惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase]上古大师显灵并注视着这一切。</li>
+    <li>tale_noun->[PAWN_nameDef]が[SKILL_label]の技術を極める</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の練習をする</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の大きな本を読む</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],[SKILL_label]の訓練を受ける</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase],無我夢中に作業をする</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_phrase]作業を終える</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]表情をしつつ</li>
+    <li>circumstance_phrase->楽しげな表情をしつつ</li>
+    <li>circumstance_phrase->[VerbFriendly]表情をしつつ</li>
+    <li>circumstance_phrase->熱狂的な叫びをあげつつ</li>
+    <li>circumstance_phrase->汗にまみれながら</li>
+    <li>circumstance_phrase->見るからに疲労しつつ</li>
+    <li>desc_sentence->失敗した[Quantity_adjphrase]個の試作品がこの場を取り囲んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]冊の本がこの場を取り囲んでいる.</li>
+    <li>desc_sentence->[PAWN_possesive]スキルが作業の役に立っているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がそれを見て驚いているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がそれを見て驚いているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の古の熟練者達の魂が,空の上からそれを見ている.</li>
   </GainedMasterSkillWithPassion.rulePack.rulesStrings>
   
   <!-- EN: increased menagerie -->
-  <IncreasedMenagerie.label>驯服动物</IncreasedMenagerie.label>
+  <IncreasedMenagerie.label>increased menagerie</IncreasedMenagerie.label>
   <!-- EN:
     <li>tale_noun(p=3)->[HUMAN_nameDef] recruiting yet another animal to [HUMAN_possessive] growing [AnimalGroup]</li>
     <li>tale_noun->[HUMAN_nameDef] being followed around by a [AnimalGroup]</li>
@@ -331,27 +331,25 @@
     <li>desc_sentence->A line of uncountable [Animal]s waits to be tamed by [HUMAN_nameDef].</li>
   -->
   <IncreasedMenagerie.rulePack.rulesStrings>
-    <li>tale_noun->[HUMAN_nameDef]为[AnimalGroup]增加了新成员</li>
-    <li>tale_noun->[HUMAN_nameDef]为[AnimalGroup]增加了新成员</li>
-    <li>tale_noun->[HUMAN_nameDef]为[AnimalGroup]增加了新成员</li>
-    <li>tale_noun->[HUMAN_nameDef]的身边被[AnimalGroup]围绕</li>
-    <li>tale_noun->[HUMAN_nameDef]驯服[ANIMAL_nameDef]</li>
-    <li>image->[HUMAN_nameFull]尝试驯服[ANIMAL_nameFull]，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]为[ANIMAL_nameFull]准备了一些食物，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]在难以驾驭的[ANIMAL_nameFull]身边低声耳语，[circumstance_group]</li>
-    <li>image->[HUMAN_nameFull]正在安抚一只野生[ANIMAL_nameFull]，[circumstance_group]</li>
-    <li>circumstance_phrase->同时小心翼翼</li>
-    <li>circumstance_phrase->并面带微笑</li>
-    <li>circumstance_phrase->疲惫但十分快乐</li>
-    <li>circumstance_phrase->背景中出现了[AnimalGroup]</li>
-    <li>desc_sentence->[HUMAN_nameDef]被数不清的[Animal]包围。</li>
-    <li>desc_sentence->[ANIMAL_nameDef]正在向[AnimalGroup]走去并加入它们。</li>
-    <li>desc_sentence->现场到处都是[Animal]和[Animal]。</li>
-    <li>desc_sentence->一排数不清的[Animal]等待被[HUMAN_nameDef]驯服。</li>
+    <li>tale_noun(p=3)->[HUMAN_nameDef]が増え続ける家畜の[AnimalGroup]に,さらに新しい動物を加えようとする</li>
+    <li>tale_noun->[HUMAN_nameDef]が[AnimalGroup]に追い回される</li>
+    <li>tale_noun->[ANIMAL_nameDef]に対する[HUMAN_nameDef]の手懐けの</li>
+    <li>image-> [HUMAN_nameFull]が [circumstance_phrase][ANIMAL_nameFull]を手懐ける</li>
+    <li>image-> [HUMAN_nameFull]が [circumstance_phrase][ANIMAL_nameFull]を一口分の食べ物で釣ろうとする</li>
+    <li>image-> [HUMAN_nameFull]が [circumstance_phrase]臆病な[ANIMAL_nameFull]に囁くように声をかける</li>
+    <li>image-> [HUMAN_nameFull]が [circumstance_phrase]野生の[ANIMAL_nameFull]をなだめる</li>
+    <li>circumstance_phrase->たくさんの注意と配慮をもって,</li>
+    <li>circumstance_phrase->笑顔で</li>
+    <li>circumstance_phrase->ヘトヘトになりつつも満足しながら,</li>
+    <li>circumstance_phrase->背景にいる[AnimalGroup]と共に,</li>
+    <li>desc_sentence->[HUMAN_nameDef]は数えきれない[Animal]に囲まれている.</li>
+    <li>desc_sentence->[ANIMAL_nameDef]は[AnimalGroup]の一員になろうとしているようだ.</li>
+    <li>desc_sentence->この場面は,[Animal]と[Animal]でいっぱいだ.</li>
+    <li>desc_sentence->数えきれない[Animal]の列が,[HUMAN_nameDef]によって手懐けられるのを待っている.</li>
   </IncreasedMenagerie.rulePack.rulesStrings>
   
   <!-- EN: meditated -->
-  <Meditated.label>沉思</Meditated.label>
+  <Meditated.label>meditated</Meditated.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] meditating</li>
     <li>image->[PAWN_nameFull] sitting under a [TreeType] tree, [circumstance_group]</li>
@@ -369,24 +367,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Meditated.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]沉思</li>
-    <li>image->[PAWN_nameFull]坐在一棵[TreeType]下，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]静静地坐着，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]凝视远方，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛，[circumstance_group]</li>
-    <li>circumstance_phrase->透出平和的感觉</li>
-    <li>circumstance_phrase->带着宁静的微笑</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的微笑</li>
-    <li>circumstance_phrase->神情温柔</li>
-    <li>circumstance_phrase->被[Color]的光辉环抱</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]注视着[PAWN_pronoun]。</li>
-    <li>desc_sentence->[PAWN_pronoun]的四周围坐着[Quantity_adjphrase][Animal]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]安静地休息。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Enemy]对眼前的一幕肃然起敬。</li>
+    <li>tale_noun->[PAWN_nameDef]が瞑想する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[TreeType]の樹の根元に腰を下ろす</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],静かに腰を下ろす</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],遠くを眺める</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],両目を閉じる</li>
+    <li>circumstance_phrase->心の平静を四方に発しながら</li>
+    <li>circumstance_phrase->安らかな笑みと共に</li>
+    <li>circumstance_phrase->[VerbFriendly]表情で</li>
+    <li>circumstance_phrase->柔らかく輝きながら</li>
+    <li>circumstance_phrase->[Color]色のオーラに包まれながら</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達は[PAWN_pronoun]に驚いている.</li>
+    <li>desc_sentence->[PAWN_pronoun]は[Quantity_adjphrase]匹の[Animal]に囲まれている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が安らかに休んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Enemy]達はこれを見て畏敬の念を起こしているようだ.</li>
   </Meditated.rulePack.rulesStrings>
   
   <!-- EN: mined valuable -->
-  <MinedValuable.label>开采矿脉</MinedValuable.label>
+  <MinedValuable.label>mined valuable</MinedValuable.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] mining a rich vein of [MATERIAL_label]</li>
     <li>image->[PAWN_nameFull] working a [MATERIAL_label] wall with mining tools, [circumstance_group]</li>
@@ -407,27 +405,27 @@
     <li>desc_sentence->[PAWN_nameDef] is sweaty and dirty from work.</li>
   -->
   <MinedValuable.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]开采储量丰富的[MATERIAL_label]矿脉</li>
-    <li>image->[PAWN_nameFull]使用开采工具在蕴藏着[MATERIAL_label]的岩壁前工作，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]占据了一大片[MATERIAL_label]矿，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]靠在由[MATERIAL_label]组成的墙上，,[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在指挥挖掘队开采一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在仔细勘察一条储量丰富的[MATERIAL_label]矿脉，[circumstance_group]</li>
-    <li>circumstance_phrase->任凭汗水流淌</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的表情</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的表情</li>
-    <li>circumstance_phrase->面带得意的微笑</li>
-    <li>circumstance_phrase->[PAWN_possessive]看上去心满意足</li>
-    <li>desc_sentence->[Quantity_adjphrase][ally]提供了帮助。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在那里徘徊漫步。</li>
-    <li>desc_sentence->背景中出现的社区是[Community]。</li>
-    <li>desc_sentence->[Quantity_adjphrase]矿脉在可视距离内。</li>
-    <li>desc_sentence->不远处能看到[TerrainFeature]。</li>
-    <li>desc_sentence->工作让[PAWN_nameDef]变得浑身汗臭而且脏兮兮的。</li>
+    <li>tale_noun->[PAWN_nameDef]が[MATERIAL_label]の豊富な鉱脈を掘る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],掘削ツールを使い[MATERIAL_label]岩肌で作業する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[MATERIAL_label]の鉱石を持ち上げる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[MATERIAL_label]岩肌の前で休憩する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],豊富な[MATERIAL_label]鉱脈を前にし,掘削チームの調整をする</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],注意深く豊富な[MATERIAL_label]鉱脈を探査する</li>
+    <li>circumstance_phrase->汗だくになりながら</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]表情を浮かべながら</li>
+    <li>circumstance_phrase->誇らしげに微笑みながら</li>
+    <li>circumstance_phrase->満足げな笑みを浮かべながら</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[ally]達も協力している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]は辺りをうろついている.</li>
+    <li>desc_sentence->背景には[Community]がある.</li>
+    <li>desc_sentence->[Quantity_adjphrase]の,さらなる鉱脈も遠くに見える.</li>
+    <li>desc_sentence->遠くには[TerrainFeature]が見える.</li>
+    <li>desc_sentence->[PAWN_nameDef]は汗にまみれて働いている.</li>
   </MinedValuable.rulePack.rulesStrings>
   
   <!-- EN: played game -->
-  <PlayedGame.label>玩游戏</PlayedGame.label>
+  <PlayedGame.label>played game</PlayedGame.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] relaxing at a [OBJECT_label]</li>
     <li>tale_noun->[PAWN_nameDef] playing games at a [OBJECT_label]</li>
@@ -455,34 +453,34 @@
     <li>desc_sentence->[Quantity_adjphrase] [PersonJob]s are slumped in defeat.</li>
   -->
   <PlayedGame.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]利用[OBJECT_label]进行放松</li>
-    <li>tale_noun->[PAWN_nameDef]用[OBJECT_label]玩游戏</li>
-    <li>tale_noun->[PAWN_nameDef]用[OBJECT_label]打发时间</li>
-    <li>image->[PAWN_nameFull]坐在椅子上等待，[circumstance_group]</li>
-    <li>image->对于用[OBJECT_label]进行游戏，[PAWN_nameFull]胸有成竹，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]坐在[OBJECT_label]旁边，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在[OBJECT_label]游戏中获胜，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]输掉了[OBJECT_label]游戏，[circumstance_group]</li>
-    <li>circumstance_phrase->看上去全神贯注</li>
-    <li>circumstance_phrase->[PAWN_possessive]身心得到了放松</li>
-    <li>circumstance_phrase->正在计划[PAWN_possessive]下一步行动</li>
-    <li>circumstance_phrase->轻轻地按摩[PAWN_possessive]手腕</li>
-    <li>circumstance_phrase->十分[angstyverb]，面带[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->十分[angstyverb]</li>
-    <li>desc_sentence->背景中[Color]的极光闪烁。</li>
-    <li>desc_sentence->远处的[Community]依稀可见。</li>
-    <li>desc_sentence->远处的[TerrainFeature]依稀可见。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]也在玩游戏。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近玩耍。</li>
-    <li>desc_sentence->[PAWN_nameDef]闪着[Color]的光环。</li>
-    <li>desc_sentence->[PAWN_nameDef]的表情十分夸张。</li>
-    <li>desc_sentence->[PAWN_nameDef]矗立在场景里。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]则惨败。</li>
+    <li>tale_noun->[PAWN_nameDef][OBJECT_label]でくつろぐ</li>
+    <li>tale_noun->[PAWN_nameDef][OBJECT_label]を使って遊ぶ</li>
+    <li>tale_noun->[PAWN_nameDef][OBJECT_label]で楽しむ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],椅子に座って待つ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[OBJECT_label]の上でバランスをとる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[OBJECT_label]の前に座る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[OBJECT_label]で勝利する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[OBJECT_label]で負ける</li>
+    <li>circumstance_phrase->元気いっぱいに</li>
+    <li>circumstance_phrase->身体をゆったりとリラックスさせながら</li>
+    <li>circumstance_phrase->次の手を練りながら</li>
+    <li>circumstance_phrase->穏やかに手首を揉みながら</li>
+    <li>circumstance_phrase->[angstyverb],[AdjectiveAngsty]表情で</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]様子を浮かべつつ</li>
+    <li>circumstance_phrase->[angstyverb]</li>
+    <li>desc_sentence->空では[Color]色のオーロラが輝いている.</li>
+    <li>desc_sentence->遥か遠くには[Community]が見える.</li>
+    <li>desc_sentence->遥か遠くには[TerrainFeature]が見える.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達は[PAWN_nameDef]と同様にプレイがうまいようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]は近くで遊んでいる.</li>
+    <li>desc_sentence->[PAWN_nameDef]は,[Color]色のオーラに包まれている.</li>
+    <li>desc_sentence->[PAWN_nameDef]の特徴が誇張されている.</li>
+    <li>desc_sentence->この場面では,[PAWN_nameDef]は群を抜いているようだ.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達は負けこんでスランプに落ちているようだ.</li>
   </PlayedGame.rulePack.rulesStrings>
   
   <!-- EN: prayed -->
-  <Prayed.label>祈祷</Prayed.label>
+  <Prayed.label>prayed</Prayed.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] praying</li>
     <li>tale_noun->[PAWN_nameDef] praying to a higher power</li>
@@ -501,25 +499,25 @@
     <li>desc_sentence->[Quantity_adjphrase] [Enemy]s are awestruck by the scene.</li>
   -->
   <Prayed.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]祈祷</li>
-    <li>tale_noun->[PAWN_nameDef]祈求变得更强</li>
-    <li>image->[PAWN_nameFull]凝视远方，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]闭上了[PAWN_possessive]眼睛，[[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]紧握着[PAWN_possessive]手，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]望着天空，[circumstance_group]</li>
-    <li>circumstance_phrase->透出平和的感觉</li>
-    <li>circumstance_phrase->轻声私语</li>
-    <li>circumstance_phrase->带着满怀希望的神情</li>
-    <li>circumstance_phrase->神情温柔</li>
-    <li>circumstance_phrase->被[Color]的光辉环抱</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]注视着[PAWN_pronoun]。</li>
-    <li>desc_sentence->[PAWN_pronoun]的四周围坐着[Quantity_adjphrase][Animal]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]安静地休息。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Enemy]对眼前的一幕肃然起敬。</li>
+    <li>tale_noun->[PAWN_nameDef]が祈る</li>
+    <li>tale_noun->[PAWN_nameDef]が高い次元に向けて祈る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],遠くをジッと見る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],両目を閉じる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],両手を握りしめる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],空の彼方を覗き込む</li>
+    <li>circumstance_phrase->心の平静を四方に発しながら</li>
+    <li>circumstance_phrase->優しくつぶやきながら</li>
+    <li>circumstance_phrase->希望に満ちた表情を浮かべ</li>
+    <li>circumstance_phrase->心静かに成長させながら</li>
+    <li>circumstance_phrase->[Color]色のオーラに包まれながら</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達は[PAWN_pronoun]に驚いている.</li>
+    <li>desc_sentence->[PAWN_pronoun]は,[Quantity_adjphrase]匹の[Animal]に囲まれている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が安らかに休んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Enemy]達はこれを見て畏敬の念を起こしているようだ.</li>
   </Prayed.rulePack.rulesStrings>
   
   <!-- EN: put into cryptosleep -->
-  <PutIntoCryptosleep.label>放入休眠仓</PutIntoCryptosleep.label>
+  <PutIntoCryptosleep.label>put into cryptosleep</PutIntoCryptosleep.label>
   <!-- EN:
     <li>tale_noun->[CARRIER_nameDef] putting [SLEEPER_nameDef] into cryptosleep</li>
     <li>image->[CARRIER_nameFull] placing [SLEEPER_nameDef] inside a cryptosleep casket [circumstance_group]</li>
@@ -538,25 +536,25 @@
     <li>desc_sentence->[Quantity_adjphrase] filled cryptosleep caskets surround the scene.</li>
   -->
   <PutIntoCryptosleep.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]将[SLEEPER_nameDef]放入休眠仓</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]放入休眠仓，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]打开一个空的休眠仓用来盛放[SLEEPER_nameDef]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]将[SLEEPER_nameDef]封闭在休眠仓里，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]转身走开，[SLEEPER_nameDef]则透过空投舱内壁向外看，[circumstance_group]</li>
-    <li>circumstance_phrase->带着[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->带着[AdjectiveFriendly]的神情</li>
-    <li>circumstance_phrase->带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->陷入沉思</li>
-    <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
-    <li>circumstance_phrase->两者之间的矛盾显而易见</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Enemy]正在靠近这个地区。</li>
-    <li>desc_sentence->[PAWN_nameDef]目光坚定。</li>
-    <li>desc_sentence->天空灰蒙蒙的。</li>
+    <li>tale_noun->[CARRIER_nameDef]が[SLEEPER_nameDef]を冷凍睡眠装置に入れる</li>
+    <li>image-> [SLEEPER_nameFull]が [circumstance_group], [SLEEPER_nameFull]を 冷凍睡眠装置の中に横たえる</li>
+    <li>image-> [SLEEPER_nameFull]が [circumstance_group], [SLEEPER_nameFull]を 支えながら,空の冷凍睡眠装置を開ける</li>
+    <li>image-> [SLEEPER_nameFull]が [circumstance_group], [SLEEPER_nameFull]が入っている 冷凍睡眠装置の内部を密閉する</li>
+    <li>image-> [SLEEPER_nameFull]が [circumstance_group], [SLEEPER_nameFull]が入っている 冷凍睡眠装置の内壁を調べると同時に,そこを立ち去る</li>
+    <li>circumstance_phrase(p=3)->[AdjectiveAny]表情を浮かべ</li>
+    <li>circumstance_phrase->思いに耽けながら</li>
+    <li>circumstance_phrase->遠くの[TerrainFeature]をじっと見つめながら</li>
+    <li>circumstance_phrase->緊張しつつ</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がその近くで安らかに休んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Enemy]達が迫ってきている.</li>
+    <li>desc_sentence->[CARRIER_nameDef]は自分の決意を伝達しているようだ.</li>
+    <li>desc_sentence->[SLEEPER_nameDef]は目に見える傷を負っている.</li>
+    <li>desc_sentence->[SLEEPER_nameDef]は疲れ切っているようだ.</li>
+    <li>desc_sentence->作動した[Quantity_adjphrase]台の冷凍睡眠装置が辺りを囲んでいる.</li>
   </PutIntoCryptosleep.rulePack.rulesStrings>
   
   <!-- EN: stripped -->
-  <Stripped.label>扒光衣服</Stripped.label>
+  <Stripped.label>stripped</Stripped.label>
   <!-- EN:
     <li>tale_noun->[TAKER_nameDef] stripping [STRIPPED_nameDef]</li>
     <li>image->[TAKER_nameFull] disrobing [STRIPPED_nameFull] in public [circumstance_group]</li>
@@ -575,25 +573,25 @@
     <li>desc_sentence->[STRIPPED_nameDef] wears only a [AdjectiveAngsty] expression.</li>
   -->
   <Stripped.rulePack.rulesStrings>
-    <li>tale_noun->[TAKER_nameDef]扒光[STRIPPED_nameDef]</li>
-    <li>image->[TAKER_nameFull]在大庭广众之下扒光了[STRIPPED_nameFull]的衣服，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]脱掉了[STRIPPED_nameFull]的衣服，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]抱着一堆[Apparel]站在浑身赤裸的[STRIPPED_nameFull]身旁，[circumstance_group]</li>
-    <li>image->[TAKER_nameFull]耐心地等待[STRIPPED_nameFull]脱掉[STRIPPED_possessive]衣服，[circumstance_group]</li>
-    <li>circumstance_phrase->带着明确的目的</li>
-    <li>circumstance_phrase->没有一丝羞愧</li>
-    <li>circumstance_phrase->其他人在一旁围观</li>
-    <li>circumstance_phrase->没有明显的理由</li>
-    <li>circumstance_phrase->不明真相的动物在一旁围观</li>
-    <li>desc_sentence->[STRIPPED_nameDef]显然对这一切感到很生气。</li>
-    <li>desc_sentence->[STRIPPED_nameDef]浑身都是不明原因的水汽。</li>
-    <li>desc_sentence->[STRIPPED_nameDef]无缘无故地喘着粗气。</li>
-    <li>desc_sentence->[STRIPPED_nameDef]轻轻抚弄着一丛灌木。</li>
-    <li>desc_sentence->[STRIPPED_nameDef]只露出[AdjectiveAngsty]的神情。</li>
+    <li>tale_noun->[TAKER_nameDef]が[STRIPPED_nameDef]の衣服を剥ぐ</li>
+    <li>image-> [TAKER_nameFull]が[circumstance_group],外で [STRIPPED_nameFull]の 衣服を剥ぐ</li>
+    <li>image-> [TAKER_nameFull]が[circumstance_group], [STRIPPED_nameFull]の 衣服を剥ぐ</li>
+    <li>image-> [TAKER_nameFull]が[circumstance_group], [STRIPPED_nameFull]の 横に立ち,裸にさせて腕の中いっぱいに[Apparel]を持つ</li>
+    <li>image-> [TAKER_nameFull]が[circumstance_group],辛抱強く [STRIPPED_nameFull]が 服を脱ぐのを待つ</li>
+    <li>circumstance_phrase->目的意識をもちつつ</li>
+    <li>circumstance_phrase->恥じらいもなく</li>
+    <li>circumstance_phrase->他人が見ている中で</li>
+    <li>circumstance_phrase->明白な理由も無いのに</li>
+    <li>circumstance_phrase->動物たちに見られ戸惑いながらも</li>
+    <li>desc_sentence->[STRIPPED_nameDef]は見るからに性的に興奮している.</li>
+    <li>desc_sentence->[STRIPPED_nameDef]は妙な湯気に覆われている.</li>
+    <li>desc_sentence->[STRIPPED_nameDef]は訳もないのに,荒い息遣いをしている.</li>
+    <li>desc_sentence->[STRIPPED_nameDef]は低木を撫でまわしている.</li>
+    <li>desc_sentence->[STRIPPED_nameDef]は[AdjectiveAngsty]表情だけを浮かべている.</li>
   </Stripped.rulePack.rulesStrings>
   
   <!-- EN: visited grave -->
-  <VisitedGrave.label>拜访墓地</VisitedGrave.label>
+  <VisitedGrave.label>visited grave</VisitedGrave.label>
   <!-- EN:
     <li>tale_noun->[VISITOR_nameDef] visiting the grave of [CORPSE_nameDef]</li>
     <li>tale_noun->[VISITOR_nameDef] visiting [CORPSE_nameDef]'s grave</li>
@@ -615,24 +613,24 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s rest near the scene.</li>
   -->
   <VisitedGrave.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]拜访[CORPSE_nameDef]的墓地</li>
-    <li>tale_noun->[PAWN_nameDef]祭奠[CORPSE_nameDef]</li>
-    <li>image->[PAWN_nameFull]站在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]蹲坐在[CORPSE_nameFull]的坟墓前，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]倚靠在[CORPSE_nameFull]的坟墓旁边，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]阅读[CORPSE_nameFull]的墓碑上刻着的文字，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]观看[CORPSE_nameFull]的棺木上的艺术作品，[circumstance_group]</li>
-    <li>circumstance_phrase->面带[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->陷入沉思</li>
-    <li>circumstance_phrase->凝视着远方的[TerrainFeature]</li>
-    <li>circumstance_phrase->向墓碑静静私语</li>
-    <li>desc_sentence->背景中[Color]的极光闪烁。</li>
-    <li>desc_sentence->远处[Community]被白雪覆盖。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveFriendly]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveFriendly]的神情。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂带着[AdjectiveAngsty]的神情俯瞰着四周。</li>
-    <li>desc_sentence->[CORPSE_nameDef]的灵魂站在[PAWN_nameDef]身边，面带[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近休息。</li>
+    <li>tale_noun->[VISITOR_nameDef]が[CORPSE_nameDef]の墓参りをする</li>
+    <li>tale_noun->[VISITOR_nameDef]が[CORPSE_nameDef]の墓所を訪れる</li>
+    <li>image-> [VISITOR_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓の前に立つ</li>
+    <li>image-> [VISITOR_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓の前に座る</li>
+    <li>image-> [VISITOR_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓にもたれかかる</li>
+    <li>image-> [VISITOR_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓標を読む</li>
+    <li>image-> [VISITOR_nameFull]が [circumstance_group], [CORPSE_nameFull]の 墓碑に描かれた芸術作品を眺める</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]表情を浮かべ</li>
+    <li>circumstance_phrase->思いに耽けながら</li>
+    <li>circumstance_phrase->遠くの[TerrainFeature]をじっと見つめながら</li>
+    <li>circumstance_phrase->静かに追悼の言葉を述べながら</li>
+    <li>desc_sentence->[Color]色のオーロラが空に輝いている.</li>
+    <li>desc_sentence->遠くの[Community]が雪に覆われている.</li>
+    <li>desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が,その光景を空から見守っている.</li>
+    <li>desc_sentence->[AdjectiveFriendly]表情を浮かべた[CORPSE_nameDef]の霊が,[VISITOR_nameDef]の前に立っている.</li>
+    <li>desc_sentence->[CORPSE_nameDef]の霊が[AdjectiveAngsty]表情で上から見ている.</li>
+    <li>desc_sentence->[AdjectiveAngsty]表情を浮かべた[CORPSE_nameDef]の霊が,[VISITOR_nameDef]の前に立っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がその近くで安らかに休んでいる.</li>
   </VisitedGrave.rulePack.rulesStrings>
   
 </LanguageData>

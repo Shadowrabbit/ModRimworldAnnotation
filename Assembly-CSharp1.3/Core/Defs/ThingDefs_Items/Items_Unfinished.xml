@@ -218,7 +218,7 @@
 
   <!-- ======================= Minified things ========================= -->
 
-  <ThingDef>
+  <ThingDef Name="MinifiedThing">
     <defName>MinifiedThing</defName>
     <label>minified thing</label>
     <thingClass>MinifiedThing</thingClass>
@@ -240,6 +240,12 @@
     <alwaysHaulable>true</alwaysHaulable>
     <rotatable>false</rotatable>
     <pathCost>14</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="MinifiedThing">
+    <defName>MinifiedTree</defName>
+    <label>minified tree</label>
+    <thingClass>MinifiedTree</thingClass>
   </ThingDef>
 
 </Defs>

@@ -26,6 +26,7 @@
         </partsToAffect>
         <allowOnLodgers>false</allowOnLodgers>
         <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+        <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
         <allowOnBeggars>false</allowOnBeggars>
         <minPlayerPopulation>2</minPlayerPopulation>
         <ageFractionMtbDaysCurve>
@@ -158,6 +159,7 @@
         </partsToAffect>
         <allowOnLodgers>false</allowOnLodgers>
         <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+        <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
         <allowOnBeggars>false</allowOnBeggars>
         <ageFractionChanceCurve>
           <points>

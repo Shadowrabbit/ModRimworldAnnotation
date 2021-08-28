@@ -2,7 +2,7 @@
 <LanguageData>
   
   <!-- EN: aurora -->
-  <Aurora.label>极光</Aurora.label>
+  <Aurora.label>aurora</Aurora.label>
   <!-- EN:
     <li>tale_noun->the time an aurora appeared over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the time polar lights shone over [PAWN_nameDef]'s [Community]</li>
@@ -24,28 +24,28 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Aurora.rulePack.rulesStrings>
-    <li>tale_noun->极光出现在[PAWN_nameDef]所在的[Community]</li>
-    <li>tale_noun->极光在[PAWN_nameDef]所在的[Community]上空出现</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]被极光照亮</li>
-    <li>image->将天空照亮的[Color]和[Color]的光[circumstance_phrase]</li>
-    <li>image->组成美妙图案的[Color]光[circumstance_phrase]</li>
-    <li>image->网状的[Color]光[circumstance_phrase]</li>
-    <li>image->[Color]向下的弧线带着[Color]高光，[circumstance_phrase]</li>
-    <li>image->舞动的[Color]光[circumstance_group]</li>
-    <li>circumstance_phrase->覆盖了一片[TerrainFeature]</li>
-    <li>circumstance_phrase->照亮了一片[TerrainFeature]</li>
-    <li>circumstance_phrase->飘浮在[Community]上空</li>
-    <li>circumstance_phrase->将[TerrainFeature]和[TerrainFeature]连成一片</li>
-    <li>desc_sentence->天空之下，[PAWN_nameDef]在玩[Game]，面带[AdjectiveFriendly]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]望着这一切，[PAWN_possessive]的脸上带着惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]仰望天空。</li>
-    <li>desc_sentence->[PAWN_nameDef]坐在[TerrainFeature]附近，注视着天空。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]平静地徘徊。</li>
-    <li>desc_sentence->附近没有[Enemy]。</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]の夜空にオーロラが現れたときの</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]の夜空に極光が出現したときの</li>
+    <li>tale_noun->オーロラの光で彩飾される[PAWN_nameDef]の[Community]の</li>
+    <li>image->[Color]や[Color]の光で彩られた空が[circumstance_phrase]</li>
+    <li>image->[Color]色の光の線で描かれた美しい模様が,[circumstance_phrase]</li>
+    <li>image->[Color]色の光で描かれた蜘蛛の巣模様が,[circumstance_phrase]</li>
+    <li>image->[Color]色のハイライトを持つ,いくつもの鋭い弧を描いた[Color]色が,[circumstance_phrase]</li>
+    <li>image->[Color]色の光の躍る夜空が[circumstance_phrase]</li>
+    <li>circumstance_phrase->[TerrainFeature]を覆う</li>
+    <li>circumstance_phrase->[TerrainFeature]を照らす</li>
+    <li>circumstance_phrase->[Community]の上に浮かび上がる</li>
+    <li>circumstance_phrase->[TerrainFeature]と[TerrainFeature]を橋渡す</li>
+    <li>desc_sentence->その下では,[PAWN_nameDef]が[AdjectiveFriendly]な表情で[Game]を楽しんでいる.</li>
+    <li>desc_sentence->畏敬の念の表情を浮かべた[PAWN_nameDef]が見守っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が下からそれを見上げている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[TerrainFeature]の近くで空を眺めている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が穏やかにうろついている.</li>
+    <li>desc_sentence->その場所には[Enemy]はいないように見える.</li>
   </Aurora.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed -->
-  <CaravanAmbushedByHumanlike.label>远行队被伏击</CaravanAmbushedByHumanlike.label>
+  <CaravanAmbushedByHumanlike.label>caravan ambushed</CaravanAmbushedByHumanlike.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -68,29 +68,29 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByHumanlike.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的远行队被伏击</li>
-    <li>image->[PAWN_nameFull]畏缩着，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]为了掩护队友快速移动，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]移动射击，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]发起进攻，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]大声呼喊，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在奔跑，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]和敌人扭打在一起，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在自卫，[circumstance_group]</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->同时挥舞着[PAWN_possessive]武器</li>
-    <li>circumstance_phrase->同时汗流浃背</li>
-    <li>desc_sentence->[Quantity_adjphrase]远处的人影从[TerrainFeature]后面接近。</li>
-    <li>desc_sentence->远处可以看到[Quantity_adjphrase][Enemy]。</li>
-    <li>desc_sentence->[PAWN_nameDef]几乎被[Enemy]包围。</li>
-    <li>desc_sentence->[PAWN_nameDef]要面对的是一名[Enemy]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]惊慌失措，纷纷逃离危险地带。</li>
-    <li>desc_sentence->一位[PersonJob]在远处监视着一切。</li>
+    <li>tale_noun->[PAWN_nameDef]キャラバン隊がアンブッシュに遭う</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]縮こまる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]仲間を守るべく移動する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]攻撃するために移動する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]攻撃する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]大声で叫ぶ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]走る</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]敵と対抗する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]自分たちを守る</li>
+    <li>circumstance_phrase->[AdjectiveBadass]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[AdjectiveBadass]表情を浮かべつつ</li>
+    <li>circumstance_phrase->武器を振り回しながら</li>
+    <li>circumstance_phrase->激しい活動で汗をかきつつ</li>
+    <li>desc_sentence->[TerrainFeature]の影から[Quantity_adjphrase]体のかすかな人影が近寄ってきているようだ.</li>
+    <li>desc_sentence->遠くに[Quantity_adjphrase]体の[Enemy]達が描写されている.</li>
+    <li>desc_sentence->[Enemy]らによって[PAWN_nameDef]は実質的に囲まれている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[Enemy]と対峙している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が争いを恐れて逃げている.</li>
+    <li>desc_sentence->遠くでは[PersonJob]が見張っている.</li>
   </CaravanAmbushedByHumanlike.rulePack.rulesStrings>
   
   <!-- EN: caravan ambushed by manhunter -->
-  <CaravanAmbushedByManhunter.label>远行队遭遇动物猎杀人类</CaravanAmbushedByManhunter.label>
+  <CaravanAmbushedByManhunter.label>caravan ambushed by manhunter</CaravanAmbushedByManhunter.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being ambushed</li>
     <li>image->[PAWN_nameFull] cowering [circumstance_group]</li>
@@ -111,27 +111,27 @@
     <li>desc_sentence->In the distance, a [PersonJob] observes.</li>
   -->
   <CaravanAmbushedByManhunter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的远行队被伏击</li>
-    <li>image->[PAWN_nameFull]畏缩着，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]为了掩护队友快速移动，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]移动射击，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]发起进攻，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]大声呼喊，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]正在奔跑，[circumstance_group]</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->同时挥舞着[PAWN_possessive]武器</li>
-    <li>circumstance_phrase->同时汗流浃背</li>
-    <li>circumstance_phrase->身上都是[Gore]</li>
-    <li>desc_sentence->[Quantity_adjphrase]远处的动物从[TerrainFeature]后面接近。</li>
-    <li>desc_sentence->遍地都是[Gore]。</li>
-    <li>desc_sentence->地上铺满了被踩碎的[Gore]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]惊慌失措，纷纷逃离危险地带。</li>
-    <li>desc_sentence->一位[PersonJob]在远处监视着一切。</li>
+    <li>tale_noun->[PAWN_nameDef]キャラバン隊が人狩りのアンブッシュに遭う</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]縮こまる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]仲間を守るべく移動する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]攻撃するために移動する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]攻撃する</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]大声で叫ぶ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]走る</li>
+    <li>circumstance_phrase->[AdjectiveBadass]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[AdjectiveBadass]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[PAWN_possessive]武器を振り回してるなか</li>
+    <li>circumstance_phrase->激しい活動で汗をかきつつ</li>
+    <li>circumstance_phrase->[Gore]にまみれながら</li>
+    <li>desc_sentence->[TerrainFeature]の影から[Quantity_adjphrase]匹の動物が近寄ってきているようだ.</li>
+    <li>desc_sentence->[Gore]が地面を覆い尽くしている.</li>
+    <li>desc_sentence->大量の[Gore]によって地面が踏みにじられている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が争いを恐れて逃げている.</li>
+    <li>desc_sentence->遠くでは[PersonJob]が見張っている.</li>
   </CaravanAmbushedByManhunter.rulePack.rulesStrings>
   
   <!-- EN: caravan demand -->
-  <CaravanDemand.label>远行队被勒索</CaravanDemand.label>
+  <CaravanDemand.label>caravan demand</CaravanDemand.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan receiving a demand</li>
     <li>tale_noun->[PAWN_nameDef]'s caravan being threatened</li>
@@ -157,32 +157,32 @@
     <li>action->taunting [PAWN_nameDef]</li>
   -->
   <CaravanDemand.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的远行队被勒索</li>
-    <li>tale_noun->[PAWN_nameDef]的远行队受到威胁</li>
-    <li>image->[PAWN_nameFull]畏缩着，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]高声喊话，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在思考，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]怒目而视，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]被[PersonJob]勒索，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]挥舞着[Weapon]，[circumstance_group]</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveBadass]的神情</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveAngsty]的神情</li>
-    <li>circumstance_phrase->其他人在一旁围观</li>
-    <li>circumstance_phrase->同时受到[Enemy]的威胁</li>
-    <li>desc_sentence->[PAWN_nameDef]几乎被[Enemy]包围。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Enemy]就在附近，[action]。</li>
-    <li>desc_sentence->太阳落在[TerrainFeature]背后。</li>
-    <li>desc_sentence->太阳从[TerrainFeature]背后升起。</li>
-    <li>desc_sentence->一位[PersonJob]在远处监视着一切。</li>
-    <li>action->准备好他们的武器</li>
-    <li>action->警戒四周</li>
-    <li>action->监控人质</li>
-    <li>action->等待决定</li>
-    <li>action->嘲讽[PAWN_nameDef]</li>
+    <li>tale_noun->[PAWN_nameDef]キャラバン隊が不当な要求に応じる</li>
+    <li>tale_noun->[PAWN_nameDef]キャラバン隊が脅迫される</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]縮こまる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]大声で叫ぶ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]考え込む</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group]睨む</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]らによって脅迫される</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group][Weapon]を振り回す</li>
+    <li>circumstance_phrase->[AdjectiveBadass]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[AdjectiveAngsty]表情を浮かべつつ</li>
+    <li>circumstance_phrase->他の者も立ち会っている中</li>
+    <li>circumstance_phrase->[Enemy]達に脅迫されつつ</li>
+    <li>desc_sentence->[Enemy]達によって[PAWN_nameDef]は実質的に囲まれている.</li>
+    <li>desc_sentence->すぐそばにいる[Quantity_adjphrase]体の[Enemy]達は[action].</li>
+    <li>desc_sentence->太陽が[TerrainFeature]に沈んでいる.</li>
+    <li>desc_sentence->太陽が[TerrainFeature]から昇っている.</li>
+    <li>desc_sentence->遠くでは[PersonJob]が見張っている.</li>
+    <li>action->武器などを研いでいる</li>
+    <li>action->危険に気を配っている</li>
+    <li>action->人質を守っている</li>
+    <li>action->判断を待っている</li>
+    <li>action->[PAWN_nameDef]をなじっている</li>
   </CaravanDemand.rulePack.rulesStrings>
   
   <!-- EN: caravan meeting -->
-  <CaravanMeeting.label>远行队相遇</CaravanMeeting.label>
+  <CaravanMeeting.label>caravan meeting</CaravanMeeting.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s caravan being met by others</li>
     <li>image->[PAWN_nameFull] greeting a [PersonJob] [circumstance_group]</li>
@@ -209,33 +209,33 @@
     <li>event->talking hesitantly</li>
   -->
   <CaravanMeeting.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]的远行队遇到了其他人</li>
-    <li>image->[PAWN_nameFull]在问候一位[PersonJob]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在检查一位[PersonJob]，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在向一位[PersonJob]喊话，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]向一位[PersonJob]走去，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在轻声交谈，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]在高声大喊，[circumstance_group]</li>
-    <li>image->[PAWN_nameFull]和[PersonJob]一起玩[Game]，[circumstance_group]</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveFriendly]的神情</li>
-    <li>circumstance_phrase->脸上带着[AdjectiveFriendly]的神情</li>
-    <li>circumstance_phrase->看上去十分[friendlyverb]</li>
-    <li>circumstance_phrase->其他人在一旁围观</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]正在[event]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]正在[event]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]围在附近。</li>
-    <li>desc_sentence->太阳落在[TerrainFeature]背后。</li>
-    <li>desc_sentence->太阳从[TerrainFeature]背后升起。</li>
-    <li>desc_sentence->一位[PersonJob]在远处观察。</li>
-    <li>event->举办派对</li>
-    <li>event->聚餐</li>
-    <li>event->讨论最近的事件</li>
-    <li>event->叙旧</li>
-    <li>event->犹豫不决</li>
+    <li>tale_noun->[PAWN_nameDef]キャラバン隊が別のキャラバン隊と会う</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]と挨拶を交わす</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]の素性を調べる</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]に声をかける</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]に向かって歩き出す</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],落ち着いて話す</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],大声で叫ぶ</li>
+    <li>image-> [PAWN_nameFull]が [circumstance_group],[PersonJob]と[Game]を楽しむ</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[AdjectiveFriendly]表情を浮かべつつ</li>
+    <li>circumstance_phrase->[VerbFriendly]さなか</li>
+    <li>circumstance_phrase->他の者も立ち会っている中</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が[event].</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が[event].</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がこの集団を取り囲んでいる.</li>
+    <li>desc_sentence->太陽が[TerrainFeature]に沈んでいる.</li>
+    <li>desc_sentence->太陽が[TerrainFeature]から昇っている.</li>
+    <li>desc_sentence->遠くでは[PersonJob]が見張っている.</li>
+    <li>event->パーティを催している</li>
+    <li>event->共有の食料を食べている</li>
+    <li>event->最近の出来事を討論している</li>
+    <li>event->古くからの旧交を温めている</li>
+    <li>event->ためらいがちに話している</li>
   </CaravanMeeting.rulePack.rulesStrings>
   
   <!-- EN: eclipse -->
-  <Eclipse.label>日蚀</Eclipse.label>
+  <Eclipse.label>eclipse</Eclipse.label>
   <!-- EN:
     <li>tale_noun->an eclipse over [PAWN_nameDef]'s [Community]</li>
     <li>image->an unnaturally dark sky, [circumstance_phrase]</li>
@@ -254,25 +254,25 @@
     <li>desc_sentence->There is no [Enemy] in sight.</li>
   -->
   <Eclipse.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]上空出现日蚀</li>
-    <li>image->一片不自然的黑暗的天空，[circumstance_phrase]</li>
-    <li>image->一片朦胧的天空，[circumstance_phrase]</li>
-    <li>image->月亮遮住了太阳，只露出周围的光环，[circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase][Animal]在黑暗中不安地来回走动，[circumstance_phrase]</li>
-    <li>circumstance_phrase->周围十分寂静</li>
-    <li>circumstance_phrase->黄昏的颜色覆盖在附近的一片[TerrainFeature]上</li>
-    <li>circumstance_phrase->黄昏的颜色覆盖了附近的[Quantity_adjphrase][TerrainFeature]</li>
-    <li>circumstance_phrase->可以看见星星</li>
-    <li>desc_sentence->天空之下，[PAWN_nameDef]在玩[Game]，面带[AdjectiveFriendly]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]望着这一切，[PAWN_possessive]的脸上带着惊讶的表情。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]仰望天空。</li>
-    <li>desc_sentence->[PAWN_nameDef]坐在[TerrainFeature]附近，注视着天空。</li>
-    <li>desc_sentence->[Community]的观众安详地望着天空。</li>
-    <li>desc_sentence->附近没有[Enemy]。</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]で観測された日食の</li>
+    <li>image->[circumstance_phrase]異常に真っ暗な空の</li>
+    <li>image->[circumstance_phrase]薄暗い空の</li>
+    <li>image->[circumstance_phrase]光の環によって縁どられた月の</li>
+    <li>image->[circumstance_phrase]暗闇の中を右往左往する[Quantity_adjphrase]匹の[Animal]の</li>
+    <li>circumstance_phrase->静かに静止した空気と</li>
+    <li>circumstance_phrase->[TerrainFeature]の周囲を包む薄明りと,</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]の[TerrainFeature]の周囲を包む薄明りと,</li>
+    <li>circumstance_phrase->空に浮かぶ星と</li>
+    <li>desc_sentence->その下では,[PAWN_nameDef]が[AdjectiveFriendly]な表情で[Game]を楽しんでいる.</li>
+    <li>desc_sentence->[PAWN_nameDef]が畏敬の念の表情を浮かべて見守っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が下からそれを見上げている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[TerrainFeature]の近くで空を眺めている.</li>
+    <li>desc_sentence->[Community]の見物人たちは穏やかに空を見ている.</li>
+    <li>desc_sentence->その場所には[Enemy]はいないように見える.</li>
   </Eclipse.rulePack.rulesStrings>
   
   <!-- EN: journey offer -->
-  <EndGame_ShipEscape.label>旅行邀请</EndGame_ShipEscape.label>
+  <EndGame_ShipEscape.label>journey offer</EndGame_ShipEscape.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef] receiving a message from an old friend</li>
     <li>tale_noun->an opportunity arriving for [PAWN_nameDef]'s [Community]</li>
@@ -303,37 +303,37 @@
     <li>desc_sentence->A spaceship is visible in the far distance.</li>
   -->
   <EndGame_ShipEscape.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]接收到来自老朋友的信息</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]得到一次机会</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]打开一封由[delivery_method]送来的信件</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]使用由[delivery_method]送来的数据水晶</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]将[delivery_method]送来的卷轴展开</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]接收到来自[transmission_source]的信号传输</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]接收到[transmission_source]发来的讯息</li>
-    <li>image->[circumstance_group]，[PAWN_nameDef]收到一条由[transmission_source]发出的消息</li>
-    <li>delivery_method->一只[Animal]</li>
-    <li>delivery_method->一位[PersonJob]</li>
-    <li>delivery_method->[Quantity_adjphrase][Animal]</li>
-    <li>transmission_source->一个很少使用的频率</li>
-    <li>transmission_source->一个古老的发射器</li>
-    <li>transmission_source->一个低功率信号</li>
-    <li>transmission_source->一个远程信号</li>
-    <li>transmission_source->一个神秘的信号</li>
-    <li>circumstance_phrase->独自站在一片[TerrainFeature]附近的时候</li>
-    <li>circumstance_phrase->正在探索一片[TerrainFeature]时</li>
-    <li>circumstance_phrase->正在照料庄稼的时候</li>
-    <li>circumstance_phrase->一只[Animal]从身边经过的时候</li>
-    <li>circumstance_phrase->玩[Game]的时候</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]在附近徘徊，浑然不知。</li>
-    <li>desc_sentence->随着[pawn_pronoun]阅读信息，[pawn_pronoun]开始变得很[friendlyverb]。</li>
-    <li>desc_sentence->一位[PersonJob]的灵魂从云中注视着四周。</li>
-    <li>desc_sentence->[PAWN_nameDef]坐在一片[TerrainFeature]附近。</li>
-    <li>desc_sentence->远处的[Community]依稀可见。</li>
-    <li>desc_sentence->远处的宇宙飞船依稀可见。</li>
+    <li>tale_noun->[PAWN_nameDef]が旧友から一通のメッセージを受け取る</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]にチャンスが到来する</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[delivery_method]によって運ばれてきた手紙を開ける</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[delivery_method]によって運ばれてきたデータクリスタルを使う</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[delivery_method]によって運ばれてきた巻物を紐解く</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[transmission_source]送られた電送文を受信する</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[transmission_source]送られたメッセージを受け取る</li>
+    <li>image-> [PAWN_nameFull][circumstance_group],[transmission_source]送られた通信メッセージを受け取る</li>
+    <li>delivery_method->[Animal]</li>
+    <li>delivery_method->[PersonJob]</li>
+    <li>delivery_method->[Quantity_adjphrase]匹の[Animal]</li>
+    <li>transmission_source->滅多に使われないチャンネルで</li>
+    <li>transmission_source->古代の送信機から</li>
+    <li>transmission_source->低出力な信号によって</li>
+    <li>transmission_source->長距離信号によって</li>
+    <li>transmission_source->不可解な信号によって</li>
+    <li>circumstance_phrase->が [TerrainFeature]のそばに独りで立っているとき</li>
+    <li>circumstance_phrase->が [TerrainFeature]を探索している中</li>
+    <li>circumstance_phrase->が 農作業をしているとき</li>
+    <li>circumstance_phrase->の 近くを[Animal]がうろうろしているとき</li>
+    <li>circumstance_phrase->が [Game]をしているとき</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がいつの間にか,そばをうろついているようだ.</li>
+    <li>desc_sentence->[PAWN_pronoun]はそれを読み終え,[VerbFriendly]表情を浮かべている.</li>
+    <li>desc_sentence->奇怪な[PersonJob]が雲から見張っている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[TerrainFeature]のそばに腰を下ろしている.</li>
+    <li>desc_sentence->[Community]がはるか遠くに見える.</li>
+    <li>desc_sentence->宇宙船がはるか遠くに見える.</li>
   </EndGame_ShipEscape.rulePack.rulesStrings>
   
   <!-- EN: flashstorm -->
-  <Flashstorm.label>闪电风暴</Flashstorm.label>
+  <Flashstorm.label>flashstorm</Flashstorm.label>
   <!-- EN:
     <li>tale_noun->a flashstorm that threatened [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by a deadly flashstorm</li>
@@ -357,30 +357,30 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Flashstorm.rulePack.rulesStrings>
-    <li>tale_noun->闪电风暴威胁[PAWN_nameDef]所在的[Community]</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]受到恶劣天气侵袭</li>
-    <li>image->[Quantity_adjphrase]闪电强袭，[circumstance_phrase]</li>
-    <li>image->[behavior]火墙[circumstance_phrase]</li>
-    <li>image->[behavior][Color]火墙[circumstance_phrase]</li>
-    <li>image->[behavior]由烟灰组成的云雾[circumstance_phrase]</li>
-    <li>image->[behavior]火浪[circumstance_phrase]</li>
-    <li>behavior->一片</li>
-    <li>behavior->一片加强的</li>
-    <li>behavior->一片附近的</li>
-    <li>circumstance_phrase->向[Community]袭来</li>
-    <li>circumstance_phrase->在令人生畏的云层下面</li>
-    <li>circumstance_phrase->几乎将一片[TerrainFeature]包围</li>
-    <li>circumstance_phrase->几乎将[Quantity_adjphrase][TerrainFeature]包围</li>
-    <li>desc_sentence->[PAWN_nameDef]十分震惊地望着这一幕。</li>
-    <li>desc_sentence->[PAWN_nameDef]望着这一切，[PAWN_possessive]的脸上充满恐惧。</li>
-    <li>desc_sentence->[PAWN_nameDef]协调人手抵御灾害。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]匆忙准备。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>desc_sentence->所有动物都逃离了该地区。</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]を脅かした嵐の</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]が危険な雷雨に脅かされる</li>
+    <li>image->[Quantity_adjphrase]本の落雷が[circumstance_phrase]</li>
+    <li>image->[behavior]炎の壁が[circumstance_phrase]</li>
+    <li>image->[behavior][Color]色の炎の壁が,[circumstance_phrase]</li>
+    <li>image->[behavior]灰と煙の雲が,[circumstance_phrase]</li>
+    <li>image->[behavior]炎の波が[circumstance_phrase]</li>
+    <li>behavior->一つの</li>
+    <li>behavior->前進する</li>
+    <li>behavior->迫り来る</li>
+    <li>circumstance_phrase->[Community]に近づく</li>
+    <li>circumstance_phrase->威圧的な雲の下に存在する</li>
+    <li>circumstance_phrase->[TerrainFeature]をほぼ包み込む</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]の[TerrainFeature]をほぼ包み込む</li>
+    <li>desc_sentence->[PAWN_nameDef]は恐怖の念を隠さずに見守っている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は畏敬の念の表情を浮かべて見守っている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は防衛対策を調整している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が大急ぎで災害のための準備をしている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
+    <li>desc_sentence->すべての野生生物がこの場所から離れたようだ.</li>
   </Flashstorm.rulePack.rulesStrings>
   
   <!-- EN: infestation -->
-  <Infestation.label>虫灾</Infestation.label>
+  <Infestation.label>infestation</Infestation.label>
   <!-- EN:
     <li>tale_noun->[PAWN_nameDef]'s [Community] being infested by giant insects</li>
     <li>image->a swarm of beetles [circumstance_phrase]</li>
@@ -404,30 +404,30 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Infestation.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]被虫害侵袭</li>
-    <li>image->一群巨型甲虫[circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase]巨型蜘蛛[circumstance_phrase]</li>
-    <li>image->压倒性数量的[Color]虫潮[circumstance_phrase]</li>
-    <li>image->黑压压的一片[circumstance_phrase]</li>
-    <li>circumstance_phrase->正在穿越一片[TerrainFeature]</li>
-    <li>circumstance_phrase->将[Community]团团围住</li>
-    <li>circumstance_phrase->正在攻击[Quantity_adjphrase][PersonJob]</li>
-    <li>circumstance_phrase->从地下钻出来bursting out of the ground</li>
-    <li>circumstance_phrase->在屠杀[Quantity_adjphrase][Animal]</li>
-    <li>desc_sentence->[PAWN_nameDef]在组织反击。</li>
-    <li>desc_sentence->[PAWN_nameDef]使用[Weapon]进行防御。</li>
-    <li>desc_sentence->[PAWN_nameDef]受伤倒地。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[PAWN_possessive][Weapon]还击。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveBadass]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->地上到处都是[Gore]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]逃离该地区。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>desc_sentence->所有的动物生活都离开了这个地区。</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]が昆虫に蔓延される</li>
+    <li>image->[circumstance_phrase]鞘翅目の群れの</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]匹のメガスパイダーの</li>
+    <li>image->[circumstance_phrase],[Color]色の昆虫の圧倒的な群れの</li>
+    <li>image->[circumstance_phrase],黒い点々が集まった濃密な霧状のなにかの</li>
+    <li>circumstance_phrase->[TerrainFeature]を越え進んでくる</li>
+    <li>circumstance_phrase->[Community]を完全に取り囲む</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]人の[PersonJob]らを攻撃する</li>
+    <li>circumstance_phrase->地面から湧き出る</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]匹の[Animal]を屠る</li>
+    <li>desc_sentence->[PAWN_nameDef]は抵抗部隊を編成している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[Weapon]を振るっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は傷を負って地面に倒れている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[Weapon]で報復している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveBadass]表情を浮かべている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情を浮かべている.</li>
+    <li>desc_sentence->地面が[Gore]まみれになっている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がここから逃げ出している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
+    <li>desc_sentence->すべての野生生物がこの場所から離れたようだ.</li>
   </Infestation.rulePack.rulesStrings>
   
   <!-- EN: manhunter pack -->
-  <ManhunterPack.label>大群动物猎杀人类</ManhunterPack.label>
+  <ManhunterPack.label>manhunter pack</ManhunterPack.label>
   <!-- EN:
     <li>tale_noun->manhunting beasts menacing [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being attacked by mad animals</li>
@@ -456,35 +456,35 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s flee the area.</li>
   -->
   <ManhunterPack.rulePack.rulesStrings>
-    <li>tale_noun->猎杀人类的动物袭击[PAWN_nameDef]的[Community]</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]被动物攻击</li>
-    <li>image->一群[Animal][circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase][Animal][circumstance_phrase]</li>
-    <li>image->一[huge][Animal][circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase]黑影[circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase]兽影[circumstance_phrase]</li>
-    <li>circumstance_phrase->正在穿越一片[TerrainFeature]</li>
-    <li>circumstance_phrase->将[Community]团团围住</li>
-    <li>circumstance_phrase->正在攻击[Quantity_adjphrase][PersonJob]</li>
-    <li>circumstance_phrase->在屠杀[Quantity_adjphrase][Animal]</li>
-    <li>circumstance_phrase->被[hate_emotion]缠身</li>
-    <li>circumstance_phrase->浑身都是[Gore]</li>
-    <li>hate_emotion->仇恨</li>
-    <li>hate_emotion->愤怒</li>
-    <li>hate_emotion->狂暴</li>
-    <li>desc_sentence->[PAWN_nameDef]在组织反击。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[Weapon]进行防御。</li>
-    <li>desc_sentence->[PAWN_nameDef]受伤倒地。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[PAWN_possessive][Weapon]还击。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveBadass]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->地上到处都是[Gore]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]逃离该地区。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
+    <li>tale_noun->人狩りの獣が[PAWN_nameDef]の[Community]を脅かす</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]が狂った野生動物に襲われる</li>
+    <li>image->[circumstance_phrase][Animal]の群れの</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]匹の[Animal]の</li>
+    <li>image->[circumstance_phrase][huge][Animal]の</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]体の正体がはっきりしない影の</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]体の正体がはっきりしない四足動物の</li>
+    <li>circumstance_phrase->[TerrainFeature]を越え進んでくる</li>
+    <li>circumstance_phrase->[Community]を完全に取り囲む</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]人の[PersonJob]達を攻撃する</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]匹の[Animal]を屠る</li>
+    <li>circumstance_phrase->[hate_emotion]を持った</li>
+    <li>circumstance_phrase->[Gore]にまみれた</li>
+    <li>hate_emotion->憎悪</li>
+    <li>hate_emotion->怒り</li>
+    <li>hate_emotion->憤怒</li>
+    <li>desc_sentence->[PAWN_nameDef]は抵抗部隊を編成している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[Weapon]を振るっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は傷を負って地面に倒れている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[Weapon]で報復している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveBadass]表情を浮かべている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情を浮かべている.</li>
+    <li>desc_sentence->地面が[Gore]まみれになっている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がここから逃げ出している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
   </ManhunterPack.rulePack.rulesStrings>
   
   <!-- EN: meteorite impact -->
-  <MeteoriteImpact.label>陨石撞击</MeteoriteImpact.label>
+  <MeteoriteImpact.label>meteorite impact</MeteoriteImpact.label>
   <!-- EN:
     <li>tale_noun->a meteorite falling near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->a meteorite impacting near [PAWN_nameDef]'s [Community]</li>
@@ -511,33 +511,33 @@
     <li>desc_sentence->The surroundings are muted and dull.</li>
   -->
   <MeteoriteImpact.rulePack.rulesStrings>
-    <li>tale_noun->一块陨石坠落在[PAWN_nameDef]所在的[Community]附近</li>
-    <li>tale_noun->一块陨石砸在距离[PAWN_nameDef]所在的[Community]不远的地方</li>
-    <li>image->一块[AdjectiveLarge]的岩石尾部拖着[Color]的火焰，[airborne_circumstance]</li>
-    <li>image->一个明亮的光点[airborne_circumstance]</li>
-    <li>image->一个[AdjectiveLarge]的[Color]火球[airborne_circumstance]</li>
-    <li>airborne_circumstance->燃烧着划过天空</li>
-    <li>airborne_circumstance->落到地上，到处都是灰烬</li>
-    <li>airborne_circumstance->在飞行中，岩石和碎片不断脱落</li>
-    <li>image->一块[AdjectiveLarge]的石头[ground_circumstance]</li>
-    <li>image->一块[AdjectiveLarge]的[Color]烧焦的石头[ground_circumstance]</li>
-    <li>image->一块[Color]的石柱[ground_circumstance]</li>
-    <li>ground_circumstance->被烟灰笼罩着</li>
-    <li>ground_circumstance->热得冒烟</li>
-    <li>ground_circumstance->被熔化的碎片包围</li>
-    <li>ground_circumstance->部分嵌入地下</li>
-    <li>ground_circumstance->躺在裂开的陨石坑里</li>
-    <li>desc_sentence->[PAWN_nameDef]好奇地围观。</li>
-    <li>desc_sentence->[PAWN_nameDef]兴奋地围观。</li>
-    <li>desc_sentence->[PAWN_nameDef]十分震惊地望着这一幕。</li>
-    <li>desc_sentence->[Quantity_adjphrase]远处的人影从附近的[TerrainFeature]接近。</li>
-    <li>desc_sentence->[Quantity_adjphrase]远处的人影准备了工具和设备。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]不安地来回走动。</li>
-    <li>desc_sentence->四周寂静而沉闷。</li>
+    <li>tale_noun->隕石が[PAWN_nameDef]の[Community]の傍に落下する</li>
+    <li>tale_noun->隕石が[PAWN_nameDef]の[Community]の傍に衝突する</li>
+    <li>image->[airborne_circumstance],[AdjectiveLarge]岩石が[Color]色の炎の尾を引く</li>
+    <li>image->[airborne_circumstance],明るい輝きが観測される</li>
+    <li>image->[airborne_circumstance],[AdjectiveLarge]火の玉が落ちる</li>
+    <li>airborne_circumstance->赤々と光る物が空を横切り</li>
+    <li>airborne_circumstance->灰の雲の中を地面に向けて落下しつつ</li>
+    <li>airborne_circumstance->目減りした岩石やデブリが飛び散るなか</li>
+    <li>image->[ground_circumstance][AdjectiveLarge]一枚岩の</li>
+    <li>image->[ground_circumstance]焼け焦げた[Color]色の[AdjectiveLarge]岩石の</li>
+    <li>image->[ground_circumstance][Color]色の柱状岩の</li>
+    <li>ground_circumstance->灰と煙に包まれた</li>
+    <li>ground_circumstance->熱による煙の中の</li>
+    <li>ground_circumstance->溶けたデブリに包まれた</li>
+    <li>ground_circumstance->一部分が地面にめりこんだ</li>
+    <li>ground_circumstance->クレータの中に横たわる</li>
+    <li>desc_sentence->[PAWN_nameDef]は驚いた様子でそれを見ている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は興奮しながらそれを見ている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は衝撃をうけつつそれを見ている.</li>
+    <li>desc_sentence->近くの[TerrainFeature]から[Quantity_adjphrase]人の人影が近づいてくる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の人影が道具と装備の準備をしている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]は右往左往している.</li>
+    <li>desc_sentence->周囲の空気は静かに澱んでいるようだ.</li>
   </MeteoriteImpact.rulePack.rulesStrings>
   
   <!-- EN: raid -->
-  <Raid.label>袭击</Raid.label>
+  <Raid.label>raid</Raid.label>
   <!-- EN:
     <li>tale_noun->an raid on [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an assault on [PAWN_nameDef]'s [Community]</li>
@@ -570,39 +570,39 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <Raid.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]被袭击</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]遭遇袭击</li>
-    <li>tale_noun->[Enemy]进攻[PAWN_nameDef]所在的[Community]</li>
-    <li>image->[Quantity_adjphrase][Enemy][circumstance_phrase]</li>
-    <li>image->一支军队[circumstance_phrase]</li>
-    <li>image->压倒性的力量[circumstance_phrase]</li>
-    <li>image->侵略者[circumstance_phrase]</li>
-    <li>image->高举着[Color]旗帜的势力[circumstance_phrase]</li>
-    <li>image->大批[Enemy][circumstance_phrase]</li>
-    <li>circumstance_phrase->正在穿越一片[TerrainFeature]</li>
-    <li>circumstance_phrase->将[Community]团团围住</li>
-    <li>circumstance_phrase->正在攻击[Quantity_adjphrase][PersonJob]</li>
-    <li>circumstance_phrase->发出胜利的咆哮</li>
-    <li>circumstance_phrase->挥舞着[Weapon]</li>
-    <li>circumstance_phrase->浑身都是[Gore]</li>
-    <li>desc_sentence->[PAWN_nameDef]一边组织抵抗，一边[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[Weapon]进行防御，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]受伤倒地。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[PAWN_possessive][Weapon]还击，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]挺身而出，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveBadass]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->地上到处都是[Gore]。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]逃离该地区。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>defender_circumstance->高喊胜利</li>
-    <li>defender_circumstance->闪着[Color]的光</li>
-    <li>defender_circumstance->挑衅性地高举拳头</li>
-    <li>defender_circumstance->显示[PAWN_possessive]肌肉</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]での襲撃の</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]での戦闘の</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]が[Enemy]に攻撃される</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]体の[Enemy]達の</li>
+    <li>image->[circumstance_phrase]軍隊の</li>
+    <li>image->[circumstance_phrase]圧倒的な軍勢の</li>
+    <li>image->[circumstance_phrase]侵略軍の</li>
+    <li>image->[circumstance_phrase]様式化された[Color]色の旗の</li>
+    <li>image->[circumstance_phrase]巨大な[Enemy]の</li>
+    <li>circumstance_phrase->[TerrainFeature]を越え進んでくる</li>
+    <li>circumstance_phrase->[Community]を完全に取り囲む</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]人の[PersonJob]達を攻撃する</li>
+    <li>circumstance_phrase->勝利の歓声をあげる</li>
+    <li>circumstance_phrase->[Weapon]を振り回す</li>
+    <li>circumstance_phrase->[Gore]にまみれた</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],抵抗部隊を編成している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],[Weapon]を振るっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は傷を負って地面に横たわっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],[Weapon]で報復している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],仁王立ちしている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveBadass]表情を浮かべている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情を浮かべている.</li>
+    <li>desc_sentence->地面が[Gore]まみれになっている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がこの場所から逃げ出している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がこの場所から逃げ出している.</li>
+    <li>defender_circumstance->勝ち誇ったような叫び声をあげながら</li>
+    <li>defender_circumstance->[Color]色に顔を紅潮させながら</li>
+    <li>defender_circumstance->反抗的な態度で拳を突き上げながら</li>
+    <li>defender_circumstance->筋肉をたぎらせながら</li>
   </Raid.rulePack.rulesStrings>
   
   <!-- EN: ship part crash -->
-  <ShipPartCrash.label>飞船部件坠落</ShipPartCrash.label>
+  <ShipPartCrash.label>ship part crash</ShipPartCrash.label>
   <!-- EN:
     <li>tale_noun->an ancient ship part crashing near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->an ancient ship part landing near [PAWN_nameDef]'s [Community]</li>
@@ -636,40 +636,40 @@
     <li>defender_circumstance->flexing [PAWN_possessive] muscles</li>
   -->
   <ShipPartCrash.rulePack.rulesStrings>
-    <li>tale_noun->一个远古飞船部件紧急着陆在[PAWN_nameDef]所在的[Community]附近</li>
-    <li>tale_noun->一个远古飞船部件在[PAWN_nameDef]所在的[Community]附近着陆</li>
-    <li>tale_noun->一个危险的飞船部件降落在[PAWN_nameDef]所在的[Community]附近</li>
-    <li>image->大群[Mechanoid][circumstance_phrase]</li>
-    <li>image->一个由[Mechanoid]组成的军队[circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase][Mechanoid][circumstance_phrase]</li>
-    <li>image->一[huge][Mechanoid][circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase][Mechanoid]的黑影[circumstance_phrase]</li>
-    <li>image->[Quantity_adjphrase]带有[Color]传感器的[Mechanoid][circumstance_phrase]</li>
-    <li>circumstance_phrase->正在穿越一片[TerrainFeature]</li>
-    <li>circumstance_phrase->将[Community]团团围住</li>
-    <li>circumstance_phrase->正在攻击[Quantity_adjphrase][PersonJob]</li>
-    <li>circumstance_phrase->正在屠杀[Quantity_adjphrase][Animal]</li>
-    <li>circumstance_phrase->身上沾满了[Gore]</li>
-    <li>circumstance_phrase->被打爆，火花四溅</li>
-    <li>desc_sentence->[PAWN_nameDef]一边组织抵抗，一边[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[Weapon]进行防御，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]受伤倒地。</li>
-    <li>desc_sentence->[PAWN_nameDef]用[PAWN_possessive][Weapon]还击，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]挺身而出，同时[defender_circumstance]。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveBadass]的神情。</li>
-    <li>desc_sentence->[PAWN_nameDef]带着[AdjectiveAngsty]的神情。</li>
-    <li>desc_sentence->地上到处都是[Gore]。</li>
-    <li>desc_sentence->报废的金属随处可见。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]逃离该地区。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>defender_circumstance->高喊胜利</li>
-    <li>defender_circumstance->闪着[Color]的光</li>
-    <li>defender_circumstance->挑衅性地高举拳头</li>
-    <li>defender_circumstance->显示[PAWN_possessive]肌肉</li>
+    <li>tale_noun->古代の船の一部が[PAWN_nameDef]の[Community]の傍に墜落する</li>
+    <li>tale_noun->古代の船の一部が[PAWN_nameDef]の[Community]の傍に着陸する</li>
+    <li>tale_noun->損壊した船の一部が[PAWN_nameDef]の[Community]の傍に着陸する</li>
+    <li>image->[circumstance_phrase][mechanoid]の群れの</li>
+    <li>image->[circumstance_phrase][mechanoid]の軍隊の</li>
+    <li>image->[circumstance_phrase][Quantity_adjphrase]体の[mechanoid]達の</li>
+    <li>image->[circumstance_phrase][huge][mechanoid]の</li>
+    <li>image->[circumstance_phrase],[Quantity_adjphrase]体の[mechanoid]のシルエットの</li>
+    <li>image->[circumstance_phrase],[Quantity_adjphrase]個の[Color]色に光る[mechanoid]のセンサーの</li>
+    <li>circumstance_phrase->[TerrainFeature]を越え進んでくる</li>
+    <li>circumstance_phrase->[Community]を完全に取り囲む</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]人の[PersonJob]達を攻撃する</li>
+    <li>circumstance_phrase->[Quantity_adjphrase]匹の[Animal]を屠る</li>
+    <li>circumstance_phrase->[Gore]にまみれた</li>
+    <li>circumstance_phrase->凹んで火花が散っている</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],抵抗部隊を編成している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],[Weapon]を振るっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は傷を負って地面に倒れている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],[Weapon]で報復している.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[defender_circumstance],仁王立ちしている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveBadass]表情を浮かべている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情を浮かべている.</li>
+    <li>desc_sentence->地面が[Gore]まみれになっている.</li>
+    <li>desc_sentence->地面が金属のスクラップで覆われる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達がここから逃げ出している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
+    <li>defender_circumstance->勝ち誇ったような叫び声をあげながら</li>
+    <li>defender_circumstance->[Color]色に顔を紅潮させながら</li>
+    <li>defender_circumstance->反抗的な態度で拳を突き上げながら</li>
+    <li>defender_circumstance->筋肉をたぎらせながら</li>
   </ShipPartCrash.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
-  <Tornado.label>龙卷风</Tornado.label>
+  <Tornado.label>tornado</Tornado.label>
   <!-- EN:
     <li>tale_noun->a tornado that touched down near [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->[PAWN_nameDef]'s [Community] being menaced by tornado</li>
@@ -693,26 +693,26 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <Tornado.rulePack.rulesStrings>
-    <li>tale_noun->龙卷风在[PAWN_nameDef]所在的[Community]附近登陆</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]受到恶劣天气侵袭</li>
-    <li>image->[behavior]锥形气旋[circumstance_phrase]</li>
-    <li>image->[behavior]龙卷风[circumstance_phrase]</li>
-    <li>image->[behavior]飓风[circumstance_phrase]</li>
-    <li>image->[behavior][Color]云柱[circumstance_phrase]</li>
-    <li>behavior->加强的</li>
-    <li>behavior->附近的</li>
-    <li>behavior->快速移动的</li>
-    <li>behavior->高速旋转的</li>
-    <li>circumstance_phrase->卷起碎片</li>
-    <li>circumstance_phrase->穿过一片[TerrainFeature]</li>
-    <li>circumstance_phrase->席卷了整片[TerrainFeature]</li>
-    <li>circumstance_phrase->笼罩了整片[TerrainFeature]</li>
-    <li>desc_sentence->[PAWN_nameDef]十分震惊地望着这一幕。</li>
-    <li>desc_sentence->[PAWN_nameDef]望着这一切，[PAWN_possessive]的脸上充满恐惧。</li>
-    <li>desc_sentence->[PAWN_nameDef]正在协调人手抵御灾害。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]匆忙准备。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>desc_sentence->所有动物都逃离了该地区。</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]付近に上陸した竜巻の</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]が竜巻に脅かされる</li>
+    <li>image->[circumstance_phrase][behavior]二重螺旋状の大気の</li>
+    <li>image->[circumstance_phrase][behavior]竜巻の</li>
+    <li>image->[circumstance_phrase][behavior]ハリケーンの</li>
+    <li>image->[circumstance_phrase][behavior][Color]色の雲の</li>
+    <li>behavior->進んでくる</li>
+    <li>behavior->近寄ってくる</li>
+    <li>behavior->急速に接近してくる</li>
+    <li>behavior->渦を巻く</li>
+    <li>circumstance_phrase->巻き込んだ破片を運びつつ</li>
+    <li>circumstance_phrase->[TerrainFeature]を通過して</li>
+    <li>circumstance_phrase->[TerrainFeature]を覆い隠しながら</li>
+    <li>circumstance_phrase->[TerrainFeature]を包み込みながら</li>
+    <li>desc_sentence->[PAWN_nameDef]は恐怖の念を隠さずに見守っている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は畏敬の表情を顔に浮かべて見守っている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は防衛対策を調整している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が大急ぎで災害のための準備している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
+    <li>desc_sentence->すべての野生生物がこの場所から離れたようだ.</li>
   </Tornado.rulePack.rulesStrings>
   
   <!-- EN: tornado -->
@@ -742,32 +742,32 @@
     <li>desc_sentence->All animal life has left the area.</li>
   -->
   <TornadoFromItem.rulePack.rulesStrings>
-    <li>tale_noun->龙卷风在[PAWN_nameDef]所在的[Community]附近登陆</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]受到恶劣天气侵袭</li>
-    <li>image->[behavior]锥形气旋[circumstance_phrase]</li>
-    <li>image->[behavior]龙卷风[circumstance_phrase]</li>
-    <li>image->[behavior]飓风[circumstance_phrase]</li>
-    <li>image->[behavior][Color]云柱[circumstance_phrase]</li>
-    <li>behavior->加强的</li>
-    <li>behavior->附近的</li>
-    <li>behavior->快速移动的</li>
-    <li>behavior->高速旋转的</li>
-    <li>circumstance_phrase->卷起碎片</li>
-    <li>circumstance_phrase->穿过一片[TerrainFeature]</li>
-    <li>circumstance_phrase->席卷了整片[TerrainFeature]</li>
-    <li>circumstance_phrase->笼罩了整片[TerrainFeature]</li>
-    <li>desc_sentence->[COLONIST_nameDef]十分震惊地望着这一幕。</li>
-    <li>desc_sentence(p=0.5)->[COLONIST_nameDef]望着这一切，[COLONIST_possessive]的脸上充满恐惧。</li>
-    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef]望着这一切，[ATTACKER_possessive]的脸上充满恐惧。</li>
-    <li>desc_sentence->[COLONIST_nameDef]正在协调人手抵御灾害。</li>
-    <li>desc_sentence->[ATTACKER_nameDef]发出狂笑。</li>
-    <li>desc_sentence->[Quantity_adjphrase][PersonJob]匆忙准备。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]逃离该地区。</li>
-    <li>desc_sentence->所有动物都逃离了该地区。</li>
+    <li>tale_noun->[COLONIST_nameDef]の[Community]に上陸した竜巻の</li>
+    <li>tale_noun->[COLONIST_nameDef]の[Community]が竜巻によって脅かされる</li>
+    <li>image->[circumstance_phrase][behavior]二重螺旋状の大気の</li>
+    <li>image->[circumstance_phrase][behavior]竜巻の</li>
+    <li>image->[circumstance_phrase][behavior]ハリケーンの</li>
+    <li>image->[circumstance_phrase][behavior][Color]色の雲の</li>
+    <li>behavior->進んでくる</li>
+    <li>behavior->近寄ってくる</li>
+    <li>behavior->急速に接近してくる</li>
+    <li>behavior->渦を巻く</li>
+    <li>circumstance_phrase->巻き込んだ破片を運びつつ</li>
+    <li>circumstance_phrase->[TerrainFeature]を通過して</li>
+    <li>circumstance_phrase->[TerrainFeature]を覆い隠しながら</li>
+    <li>circumstance_phrase->[TerrainFeature]を包み込みながら</li>
+    <li>desc_sentence->[COLONIST_nameDef]は恐怖の念を隠さずに見守っている.</li>
+    <li>desc_sentence(p=0.5)->[COLONIST_nameDef]は畏怖の表情を顔に浮かべて見守っている.</li>
+    <li>desc_sentence(p=0.5)->[ATTACKER_nameDef]は畏怖の表情を顔に浮かべて見守っている.</li>
+    <li>desc_sentence->[COLONIST_nameDef]は防衛対策を調整している.</li>
+    <li>desc_sentence->[ATTACKER_nameDef]はほくそ笑んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]人の[PersonJob]達が大急ぎで災害のための準備している.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]がここから逃げ出している.</li>
+    <li>desc_sentence->すべての野生生物がこの場所から離れたようだ.</li>
   </TornadoFromItem.rulePack.rulesStrings>
   
   <!-- EN: toxic fallout -->
-  <ToxicFallout.label>有毒尘埃</ToxicFallout.label>
+  <ToxicFallout.label>toxic fallout</ToxicFallout.label>
   <!-- EN:
     <li>tale_noun->fallout settling over [PAWN_nameDef]'s [Community]</li>
     <li>tale_noun->the atmosphere near [PAWN_nameDef]'s [Community] becoming toxic</li>
@@ -789,28 +789,28 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <ToxicFallout.rulePack.rulesStrings>
-    <li>tale_noun->有毒尘埃笼罩在[PAWN_nameDef]所在的[Community]</li>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]附近空气变得有毒</li>
-    <li>image->不祥的天空[circumstance_group]</li>
-    <li>image->空气越来越浑浊，似乎[circumstance_group]</li>
-    <li>image->大地泛着柔和的光，[circumstance_group]</li>
-    <li>image->田地里的植物枯萎死去，[circumstance_group]</li>
-    <li>image->[Quantity_adjphrase]坟墓[circumstance_group]</li>
-    <li>circumstance_phrase->看不到任何生命迹象</li>
-    <li>circumstance_phrase->周围被散发着微光的尘埃笼罩</li>
-    <li>circumstance_phrase->组成一个图案，预示着死亡</li>
-    <li>circumstance_phrase->等待着毒雾消散</li>
-    <li>desc_sentence->[PAWN_nameDef]躺在地上，[PAWN_possessive]身体扭曲成不寻常的角度。</li>
-    <li>desc_sentence->[PAWN_nameDef]躲在[TerrainFeature]附近，以[AdjectiveAngsty]的神情凝视这一切。</li>
-    <li>desc_sentence->[PAWN_nameDef]十分震惊地望着这一幕。</li>
-    <li>desc_sentence->[PAWN_nameDef]安静地休息，[PAWN_possessive]的脸上出了不少汗。</li>
-    <li>desc_sentence->[Quantity_adjphrase]死掉的[Animal]倒在地上。</li>
-    <li>desc_sentence->[Quantity_adjphrase]濒死的[Animal]倒在地上。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]不安地来回走动。</li>
+    <li>tale_noun->死の灰が[PAWN_nameDef]の[Community]に降る</li>
+    <li>tale_noun->[PAWN_nameDef]の[Community]の周囲の大気が毒性化する</li>
+    <li>image->不気味な空と,[circumstance_group]</li>
+    <li>image->空気が濁り始め,[circumstance_group]</li>
+    <li>image->地面が徐々に光を放ち始め,[circumstance_group]</li>
+    <li>image->枯れた植物だらけの地面と,[circumstance_group]</li>
+    <li>image->[Quantity_adjphrase]個の墓と,[circumstance_group]</li>
+    <li>circumstance_phrase->見渡す限りの生き物がいなくなる</li>
+    <li>circumstance_phrase->ぼんやりと輝く埃に覆われる</li>
+    <li>circumstance_phrase->骨を暗示させる模様がならぶ</li>
+    <li>circumstance_phrase->毒性化が止まるのを待つ</li>
+    <li>desc_sentence->[PAWN_nameDef]の身体は,あり得ない角度に捻じれて地面に横たわっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情でその様子をじっと見つめながら,近くの[TerrainFeature]の影に隠れている.</li>
+    <li>desc_sentence->[PAWN_nameDef]はショックを受けているようだ.</li>
+    <li>desc_sentence->[PAWN_nameDef]は顔に汗をかきながらも,落ち着いて休んでいる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Animal]の屍骸が地面に横たわる.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Animal]の屍骸が散らばっている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]は右往左往している.</li>
   </ToxicFallout.rulePack.rulesStrings>
   
   <!-- EN: volcanic winter -->
-  <VolcanicWinter.label>火山冬天</VolcanicWinter.label>
+  <VolcanicWinter.label>volcanic winter</VolcanicWinter.label>
   <!-- EN:
     <li>tale_noun->volcanic winter beginning at [PAWN_nameDef]'s [Community]</li>
     <li>image->a dark and cold sky, [circumstance_group]</li>
@@ -830,22 +830,22 @@
     <li>desc_sentence->[Quantity_adjphrase] [Animal]s mill around uncertainly.</li>
   -->
   <VolcanicWinter.rulePack.rulesStrings>
-    <li>tale_noun->[PAWN_nameDef]所在的[Community]进入火山冬天</li>
-    <li>image->天空黑暗而寒冷，[circumstance_group]</li>
-    <li>image->空气中充满了灰尘，周围[circumstance_group]</li>
-    <li>image->贫瘠的[TerrainFeature]被冰霜覆盖，[circumstance_group]</li>
-    <li>image->[Quantity_adjphrase]田地里被灰尘覆盖的植物[circumstance_group]</li>
-    <li>circumstance_phrase->看不到任何生命迹象</li>
-    <li>circumstance_phrase->只能被少量透过的光线勉强照亮</li>
-    <li>circumstance_phrase->被冰冷的蓝光完全照亮</li>
-    <li>desc_sentence->[PAWN_nameDef]靠近火堆。</li>
-    <li>desc_sentence->为了保暖，[PAWN_nameDef]穿上了[Quantity_adjphrase][apparel]。</li>
-    <li>desc_sentence->[PAWN_nameDef]坐在附近，显然被折磨得精疲力尽。</li>
-    <li>desc_sentence->[PAWN_nameDef]躲在[TerrainFeature]附近，以[AdjectiveAngsty]的神情凝视这一切。</li>
-    <li>desc_sentence->[Quantity_adjphrase]挨饿的[Animal]散落在四周。</li>
-    <li>desc_sentence->[Quantity_adjphrase]发抖的[Animal]散落在四周。</li>
-    <li>desc_sentence->[Quantity_adjphrase]濒死的[Animal]倒在地上。</li>
-    <li>desc_sentence->[Quantity_adjphrase][Animal]不安地来回走动。</li>
+    <li>tale_noun->火山の冬が[PAWN_nameDef]の[Community]で始まる</li>
+    <li>image->暗く寒い空と,[circumstance_group]</li>
+    <li>image->灰で満たされた大気と,[circumstance_group]</li>
+    <li>image->雪で覆われた不毛の[TerrainFeature]と,[circumstance_group]</li>
+    <li>image->植物が全て灰で覆われた[Quantity_adjphrase]の大地と,[circumstance_group]</li>
+    <li>circumstance_phrase->見渡す限りの生き物がいなくなる</li>
+    <li>circumstance_phrase->灰の隙間から漏れる弱々しい光によってかろうじて辺りが照らされる</li>
+    <li>circumstance_phrase->凍てつく青い光で辺りが照らされる</li>
+    <li>desc_sentence->[PAWN_nameDef]達は火の傍に集まっている.</li>
+    <li>desc_sentence->[PAWN_nameDef]は暖を取るために[Quantity_adjphrase]枚の[apparel]を着ている.</li>
+    <li>desc_sentence->厳しい試練に疲れ果た[PAWN_nameDef]が傍にへたり込んでいる.</li>
+    <li>desc_sentence->[PAWN_nameDef]は[AdjectiveAngsty]表情でその様子をじっと見つめながら,近くの[TerrainFeature]の影に隠れている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の飢えた[Animal]が,この作品の周囲を囲っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の震えた[Animal]が,この作品の周囲を囲っている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]体の[Animal]の屍骸が地面に散らばっている.</li>
+    <li>desc_sentence->[Quantity_adjphrase]匹の[Animal]が困惑しながらあてどなく歩き回っている.</li>
   </VolcanicWinter.rulePack.rulesStrings>
   
 </LanguageData>

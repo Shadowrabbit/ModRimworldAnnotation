@@ -19,6 +19,8 @@
       <li MayRequire="Ludeon.Rimworld.Ideology">AncientMechs</li>
       <li MayRequire="Ludeon.Rimworld.Ideology">AncientLandingPad</li>
       <li MayRequire="Ludeon.Rimworld.Ideology">AncientFences</li>
+      <li MayRequire="Ludeon.Rimworld.Ideology">AncientPipelineSection</li>
+      <li MayRequire="Ludeon.Rimworld.Ideology">AncientJunkClusters</li>
       <li>FindPlayerStartSpot</li>
       <li>ScenParts</li>
       <li>Plants</li>

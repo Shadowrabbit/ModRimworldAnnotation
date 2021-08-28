@@ -35,6 +35,7 @@
       </thingDefs>
       <specialFiltersToAllow>
         <li>AllowCorpsesColonist</li>
+        <li MayRequire="Ludeon.RimWorld.Ideology">AllowCorpsesSlave</li>
         <li>AllowCorpsesStranger</li>
       </specialFiltersToAllow>
     </defaultIngredientFilter>

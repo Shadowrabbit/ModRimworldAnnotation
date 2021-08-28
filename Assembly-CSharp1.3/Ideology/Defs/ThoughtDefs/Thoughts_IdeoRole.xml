@@ -9,7 +9,7 @@
       <li>
         <label>Lost {ROLE_label} role</label>
         <description>I lost my role as {ROLE_labelDef}.</description>
-        <baseMoodEffect>-5</baseMoodEffect>
+        <baseMoodEffect>-15</baseMoodEffect>
       </li>
     </stages>
   </ThoughtDef>

@@ -26,8 +26,11 @@
     <texturePath>Terrain/Surfaces/StrawMatting</texturePath>
     <edgeType>Hard</edgeType>
     <renderPrecedence>240</renderPrecedence>
+    <burnedDef>BurnedStrawMatting</burnedDef>
+    <pathCost>1</pathCost>
     <statBases>
       <Beauty>-1</Beauty>
+      <Cleanliness>-0.1</Cleanliness>
       <WorkToBuild>120</WorkToBuild>
       <FilthMultiplier>0.05</FilthMultiplier>
       <Flammability>1.5</Flammability>

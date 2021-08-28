@@ -336,6 +336,7 @@
         <countsAsParticipant>False</countsAsParticipant>
         <addToLord>false</addToLord>
         <ignoreBleeding>true</ignoreBleeding>
+        <allowNonAggroMentalState>true</allowNonAggroMentalState>
       </li>
     </roles>
     <stages>
@@ -1117,21 +1118,11 @@
           </li>
           <li>
             <roleId>escorte1</roleId>
-            <dutyDef>DeliverPawnToCellIfAliveThenIdle</dutyDef>
-            <customPositions>
-              <li Class="RitualPosition_ClaimedBed">
-                <ofPawn>duelist1</ofPawn>
-              </li>
-            </customPositions>
+            <dutyDef>DeliverPawnToBedIfAliveThenIdle</dutyDef>
           </li>
           <li>
             <roleId>escorte2</roleId>
-            <dutyDef>DeliverPawnToCellIfAliveThenIdle</dutyDef>
-            <customPositions>
-              <li Class="RitualPosition_ClaimedBed">
-                <ofPawn>duelist2</ofPawn>
-              </li>
-            </customPositions>
+            <dutyDef>DeliverPawnToBedIfAliveThenIdle</dutyDef>
           </li>
           <li>
             <roleId>duelist1</roleId>
@@ -1196,6 +1187,48 @@
       </li>
     </roles>
     <stages>
+      <!-- Target is taken -->
+      <li Class="RitualStage_InteractWithRole">
+        <targets>
+          <li>
+            <pawnId>doer</pawnId>
+            <targetId>target</targetId>
+          </li>
+        </targets>
+        <defaultDuty>Spectate</defaultDuty>
+        <essential>True</essential>
+        <failTriggers>
+          <li Class="StageFailTrigger_TargetPawnUnreachable">
+            <takerId>doer</takerId>
+            <takeeId>target</takeeId>
+            <desc>Target is not reachable.</desc>
+          </li>
+        </failTriggers>
+        <endTriggers>
+          <li Class="StageEndTrigger_RolesArrived">
+            <roleIds>
+              <li>doer</li>
+            </roleIds>
+            <clearTag>true</clearTag>
+          </li>
+        </endTriggers>
+        <roleBehaviors>
+          <li>
+            <roleId>doer</roleId>
+            <dutyDef>DeliverPawnToCell</dutyDef>
+            <customPositions>
+              <li Class="RitualPosition_OnInteractionCell">
+                <offset>(-1,0,0)</offset>
+                <facing>South</facing>
+              </li>
+            </customPositions>
+          </li>
+          <li>
+            <roleId>target</roleId>
+            <dutyDef>Idle</dutyDef>
+          </li>
+        </roleBehaviors>
+      </li>
       <li>
         <defaultDuty>Spectate</defaultDuty>
         <essential>True</essential>
@@ -1203,8 +1236,8 @@
           <li Class="StageEndTrigger_RolesArrived">
             <roleIds>
               <li>doer</li>
-              <li>target</li>
             </roleIds>
+            <clearTag>true</clearTag>
           </li>
         </endTriggers>
         <roleBehaviors>
@@ -1222,12 +1255,7 @@
           </li>
           <li>
             <roleId>target</roleId>
-            <dutyDef>ArriveToCell</dutyDef>
-            <customPositions>
-              <li Class="RitualPosition_OnInteractionCell">
-                <offset>(-1,0,0)</offset>
-              </li>
-            </customPositions>
+            <dutyDef>Idle</dutyDef>
           </li>
         </roleBehaviors>
       </li>
@@ -1285,6 +1313,10 @@
             <percentage>0.3</percentage>
           </li>
         </endTriggers>
+        <postAction Class="RitualStageAction_ClearTag">
+          <roleId>doer</roleId>
+          <tag>Arrived</tag>
+        </postAction>
         <roleBehaviors>
           <li>
             <roleId>doer</roleId>
@@ -1302,6 +1334,29 @@
           <li>
             <roleId>target</roleId>
             <dutyDef>Idle</dutyDef>
+          </li>
+        </roleBehaviors>
+      </li>
+      <!-- Target is brought to bed -->
+      <li Class="RitualStage_InteractWithRole">
+        <targets>
+          <li>
+            <pawnId>doer</pawnId>
+            <targetId>target</targetId>
+          </li>
+        </targets>
+        <defaultDuty>Spectate</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_RolesArrived">
+            <roleIds>
+              <li>doer</li>
+            </roleIds>
+          </li>
+        </endTriggers>
+        <roleBehaviors>
+          <li>
+            <roleId>doer</roleId>
+            <dutyDef>DeliverPawnToBedIfAliveThenIdle</dutyDef>
           </li>
         </roleBehaviors>
       </li>
@@ -1334,6 +1389,48 @@
       </li>
     </roles>
     <stages>
+      <!-- Target is taken -->
+      <li Class="RitualStage_InteractWithRole">
+        <targets>
+          <li>
+            <pawnId>doer</pawnId>
+            <targetId>target</targetId>
+          </li>
+        </targets>
+        <defaultDuty>Spectate</defaultDuty>
+        <essential>True</essential>
+        <failTriggers>
+          <li Class="StageFailTrigger_TargetPawnUnreachable">
+            <takerId>doer</takerId>
+            <takeeId>target</takeeId>
+            <desc>Target is not reachable.</desc>
+          </li>
+        </failTriggers>
+        <endTriggers>
+          <li Class="StageEndTrigger_RolesArrived">
+            <roleIds>
+              <li>doer</li>
+            </roleIds>
+            <clearTag>true</clearTag>
+          </li>
+        </endTriggers>
+        <roleBehaviors>
+          <li>
+            <roleId>doer</roleId>
+            <dutyDef>DeliverPawnToCell</dutyDef>
+            <customPositions>
+              <li Class="RitualPosition_OnInteractionCell">
+                <offset>(-1,0,0)</offset>
+                <facing>South</facing>
+              </li>
+            </customPositions>
+          </li>
+          <li>
+            <roleId>target</roleId>
+            <dutyDef>Idle</dutyDef>
+          </li>
+        </roleBehaviors>
+      </li>
       <li>
         <defaultDuty>Spectate</defaultDuty>
         <essential>True</essential>
@@ -1341,8 +1438,8 @@
           <li Class="StageEndTrigger_RolesArrived">
             <roleIds>
               <li>doer</li>
-              <li>target</li>
             </roleIds>
+            <clearTag>true</clearTag>
           </li>
         </endTriggers>
         <roleBehaviors>
@@ -1360,13 +1457,7 @@
           </li>
           <li>
             <roleId>target</roleId>
-            <dutyDef>ArriveToCell</dutyDef>
-            <customPositions>
-              <li Class="RitualPosition_OnInteractionCell">
-                <offset>(-1,0,0)</offset>
-                <facing>South</facing>
-              </li>
-            </customPositions>
+            <dutyDef>Idle</dutyDef>
           </li>
         </roleBehaviors>
       </li>
@@ -1436,6 +1527,10 @@
             <percentage>0.3</percentage>
           </li>
         </endTriggers>
+        <postAction Class="RitualStageAction_ClearTag">
+          <roleId>doer</roleId>
+          <tag>Arrived</tag>
+        </postAction>
         <roleBehaviors>
           <li>
             <roleId>doer</roleId>
@@ -1459,6 +1554,29 @@
                 <facing>South</facing>
               </li>
             </customPositions>
+          </li>
+        </roleBehaviors>
+      </li>
+      <!-- Target is brought to bed -->
+      <li Class="RitualStage_InteractWithRole">
+        <targets>
+          <li>
+            <pawnId>doer</pawnId>
+            <targetId>target</targetId>
+          </li>
+        </targets>
+        <defaultDuty>Spectate</defaultDuty>
+        <endTriggers>
+          <li Class="StageEndTrigger_RolesArrived">
+            <roleIds>
+              <li>doer</li>
+            </roleIds>
+          </li>
+        </endTriggers>
+        <roleBehaviors>
+          <li>
+            <roleId>doer</roleId>
+            <dutyDef>DeliverPawnToBedIfAliveThenIdle</dutyDef>
           </li>
         </roleBehaviors>
       </li>

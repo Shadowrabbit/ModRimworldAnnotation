@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: turrets -->
-  <Turrets.label>炮塔</Turrets.label>
+  <Turrets.label>タレット</Turrets.label>
   <!-- EN: A group of turrets. -->
-  <Turrets.description>一些炮塔。</Turrets.description>
+  <Turrets.description>タレット群</Turrets.description>
   <!-- EN: There are enemy turrets in this area. -->
-  <Turrets.arrivedLetter>这个地区有敌对的炮塔。</Turrets.arrivedLetter>
+  <Turrets.arrivedLetter>敵のタレットがこのエリアにあります.</Turrets.arrivedLetter>
   
 </LanguageData>

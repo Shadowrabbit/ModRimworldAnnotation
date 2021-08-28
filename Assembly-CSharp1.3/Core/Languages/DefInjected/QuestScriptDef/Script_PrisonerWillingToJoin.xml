@@ -9,10 +9,10 @@
     <li>underArmedGuard-></li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
-    <li>questDescription->一名被 [siteFaction_name] 关押的囚犯设法偷到了一个无线电并呼叫了你！ \n\n[prisoner_nameDef] 在 [underArmedGuard] 的看守下被关押在 [map_definite] 附近的营地。 在解救[prisoner_objective]后， [prisoner_pronoun]将会加入你的殖民地。 [prisoner_pronoun]是一名[prisoner_age]岁的[prisoner_title]。 [prisoner_pronoun]透露 [allSitePartsDescriptionsExceptFirst] [formerColonistInfo] [prisonerFullRelationInfo]\n\n如果错失这次机会，你以后都不会再看到[prisoner_nameDef]了。</li>
+    <li>questDescription->[siteFaction_name]に捕らえられていた囚人が,なんとか無線機を手に入れ,助けを求めています!\n\n[prisoner_nameDef]は,[map_definite]の近くにある[underArmedGuard]キャンプに捕らえられています.[prisoner_objective]助けだすと,[prisoner_pronoun]は仲間になるでしょう.[prisoner_pronoun]は[prisoner_age]歳の[prisoner_title]です.[prisoner_pronoun]の話によると,[allSitePartsDescriptionsExceptFirst][formerColonistInfo][prisonerFullRelationInfo]\n\nもしこの機会を逃すと,再び[prisoner_nameDef]の声を聞くことは無いでしょう.</li>
     <li>formerColonistInfo(priority=1)->\n\n[prisoner_formerlyColonistInfo]</li>
     <li>formerColonistInfo-></li>
-    <li>underArmedGuard(allowViolentQuests==true,priority=1)->全副武装</li>
+    <li>underArmedGuard(allowViolentQuests==true,priority=1)->武装が整った</li>
     <li>underArmedGuard-></li>
   </OpportunitySite_PrisonerWillingToJoin.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -24,12 +24,12 @@
     <li>questName->Breaking [prisoner_nameDef] Out</li>
   -->
   <OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
-    <li>questName->[prisoner_nameDef]的救赎</li>
-    <li>questName->[prisoner_nameDef]的拯救</li>
-    <li>questName->[prisoner_nameDef]的援救</li>
-    <li>questName->解救[prisoner_nameDef]</li>
-    <li>questName->挽救[prisoner_nameDef]</li>
-    <li>questName->拯救[prisoner_nameDef]</li>
+    <li>questName->[prisoner_nameDef]の救済</li>
+    <li>questName->[prisoner_nameDef]を救出</li>
+    <li>questName->[prisoner_nameDef]の脱獄</li>
+    <li>questName->[prisoner_nameDef]を奪還せよ</li>
+    <li>questName->[prisoner_nameDef]を救え</li>
+    <li>questName->[prisoner_nameDef]の脱出</li>
   </OpportunitySite_PrisonerWillingToJoin.questNameRules.rulesStrings>
   
 </LanguageData>

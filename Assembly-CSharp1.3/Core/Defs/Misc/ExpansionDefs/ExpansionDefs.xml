@@ -13,46 +13,26 @@
   <ExpansionDef>
     <defName>Royalty</defName>
     <label>Royalty</label>
-    <description>- Empire faction
-- Noble title progression for your colonists
-- Psychic powers for combat and social influence
-    - Nobles gain psychics through ceremony
-    - Tribal psychics commune with anima trees
-    - Steal psychic power through quests
-- Meditate to gain focus
-    - Nobles meditate on the throne
-    - Tribals meditate in nature
-    - Pyromaniacs meditate to fire
-    - Others meditate to the dead, or to blank walls
-- Use noble permits to call Imperial troops, shuttles, and orbital strikes
-- Procedural quests
-    - Host rich nobles, poor refugees, and others
-    - Defend crashed shuttles
-    - Serve as aerial shock troops
-    - Build monuments, defeat enemies, recruit visitors
-- Mechanoid clusters may deploy on your map
-    - Wear them down with artillery
-    - Sneak in for pinpoint strikes
-    - Engage in frontal attacks
-    - Lure enemies or allies into the danger
-- Persona weapons with personality traits
-- New gear
-    - Jump packs for tactical flight
-    - Shield packs for emergency defense
-    - Cataphract armor for heavy combat
-    - Locust armor for long jumps
-    - Grenadier armor with frag support
-    - Phoenix armor for flame warfare
-    - Ultratech melee weapons
-- Techprints of new technology
-- Imperial body implants to augment brains, stomachs, arms, and skin
-- New musical instruments
-- Royal victory end-game quest
-- New music album by Alistair Lindsay</description>
+    <description>Fight or ally with the new Shattered Empire faction.
+
+Gain psychic powers through noble right, tribal nature communion, or artifact theft. Strengthen them through meditation, and use them to win battles and socially influence people. Strengthen your psychic power by meditating in grand thronerooms, in nature, before flames, the dead or blank walls.
+
+Complete quests to earn honor and titles, or riches and gear. Host rich nobles, poor refugees, animals, prisoners, and more. Defend crashed shuttles, serve as aerial shock troops, build monuments, defeat enemies, and recruit visitors.
+
+Use the special privileges of nobility to call Imperial troops, shuttles, and orbital strikes.
+
+New mechanoid clusters may deploy on your map. Wear them down with artillery, do sneaky sabotage, or lure enemies into the danger.
+
+Wield persona weapons with unique traits. Use jump packs for tactical flight and shield packs for emergency defense. Wear cataphract armor, locust armor, grenadier armor, and phoenix armor, each with different tools. Install new body implants to augment brains, stomachs, arms, and skin.
+
+Enjoy a new album of music by Alistair Lindsay.
+
+Host and protect the Stellarch and his guards complete the new royal endgame quest.</description>
     <linkedMod>Ludeon.RimWorld.Royalty</linkedMod>
     <steamUrl>steam://url/StoreAppPage/1149640</steamUrl>
     <siteUrl>https://rimworldgame.com/</siteUrl>
     <iconPath>UI/HeroArt/ExpansionIcon_Royalty</iconPath>
+    <notOwnedIconPath>UI/HeroArt/NotOwned_Royalty</notOwnedIconPath>
     <backgroundPath>UI/HeroArt/MenuBG_Royalty</backgroundPath>
     <previewImagesFolderPath>UI/HeroArt/Preview_Royalty</previewImagesFolderPath>
   </ExpansionDef>
@@ -60,11 +40,30 @@
   <ExpansionDef>
     <defName>Ideology</defName>
     <label>Ideology</label>
-    <description>-Characters and factions believe in different religions, ideologies, cults, and philosophies.</description>
+    <description>Create your own belief system with fine control over behaviors, preferences, rituals, symbols, and more. Play as pirate nudist cannibals, blind undergrounder mole people, charitable ranching cowboys, machine-obsessed transhumanists, and more.
+
+Assign social roles like leader, moral guide, and specialist to your colonists.
+
+Hold unforgettable rituals: Dance parties, cannibal feasts, burn and smoke circles, skylantern festivals, sacrifices, gladiator duels, blindings, scarifications, funerals, and more.
+
+Connect with Gauranlen trees and command the dryads that live inside them.
+
+Hunt for ancient relics. Explore long-forgotten ruins, hack downed spacedrones, and infiltrate tribal villages. Attract wealthy pilgrims by presenting your relics in reliquaries. Plunder ancient complexes for treasure. Raid temporary encampments. Help beggars in need, or betray them.
+
+Enslave prisoners to perform work or fight for you.
+
+Place many new buildings linked to belief systems, and see the many visual styles of different beliefs.
+
+Use new apparel, tattoos, and hairstyles desired by believers.
+
+Seek transcendence through a machine god in the new archonexus endgame.</description>
     <linkedMod>Ludeon.RimWorld.Ideology</linkedMod>
+    <steamUrl>https://store.steampowered.com/app/1392840</steamUrl>
     <siteUrl>https://rimworldgame.com/</siteUrl>
     <iconPath>UI/HeroArt/ExpansionIcon_Ideology</iconPath>
+    <notOwnedIconPath>UI/HeroArt/NotOwned_Ideology</notOwnedIconPath>
     <backgroundPath>UI/HeroArt/MenuBG_Ideology</backgroundPath>
+    <previewImagesFolderPath>UI/HeroArt/Preview_Ideology</previewImagesFolderPath>
   </ExpansionDef>
 
 </Defs>

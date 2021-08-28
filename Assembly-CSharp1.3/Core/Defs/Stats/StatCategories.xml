@@ -46,7 +46,12 @@
     <label>animal productivity</label>
     <displayOrder>13</displayOrder>
   </StatCategoryDef>
-  
+
+  <StatCategoryDef>
+    <defName>Source</defName>
+    <label>content source</label>
+    <displayOrder>999</displayOrder>
+  </StatCategoryDef>
   
   <!--================ Non-pawn ================-->
 

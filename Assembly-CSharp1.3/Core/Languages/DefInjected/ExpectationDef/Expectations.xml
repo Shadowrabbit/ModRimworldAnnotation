@@ -2,27 +2,27 @@
 <LanguageData>
   
   <!-- EN: extremely low -->
-  <ExtremelyLow.label>极低</ExtremelyLow.label>
+  <ExtremelyLow.label>極めて非常に低い</ExtremelyLow.label>
   
   <!-- EN: high -->
-  <High.label>高</High.label>
+  <High.label>高い</High.label>
   
   <!-- EN: low -->
-  <Low.label>低</Low.label>
+  <Low.label>低い</Low.label>
   
   <!-- EN: moderate -->
-  <Moderate.label>一般</Moderate.label>
+  <Moderate.label>適度</Moderate.label>
   
   <!-- EN: noble -->
-  <Noble.label>较高</Noble.label>
+  <Noble.label>気高い</Noble.label>
   
   <!-- EN: royal -->
-  <Royal.label>很高</Royal.label>
+  <Royal.label>ロイヤル</Royal.label>
   
   <!-- EN: sky high -->
-  <SkyHigh.label>极高</SkyHigh.label>
+  <SkyHigh.label>とても高い</SkyHigh.label>
   
   <!-- EN: very low -->
-  <VeryLow.label>很低</VeryLow.label>
+  <VeryLow.label>とても低い</VeryLow.label>
   
 </LanguageData>

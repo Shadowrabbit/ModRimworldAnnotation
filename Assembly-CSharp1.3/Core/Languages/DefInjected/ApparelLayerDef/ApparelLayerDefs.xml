@@ -2,18 +2,18 @@
 <LanguageData>
   
   <!-- EN: utility -->
-  <Belt.label>配件</Belt.label>
+  <Belt.label>ユーティリティ</Belt.label>
   
   <!-- EN: middle -->
-  <Middle.label>夹层</Middle.label>
+  <Middle.label>着物</Middle.label>
   
   <!-- EN: skin -->
-  <OnSkin.label>贴身</OnSkin.label>
+  <OnSkin.label>下着</OnSkin.label>
   
   <!-- EN: headgear -->
-  <Overhead.label>头饰</Overhead.label>
+  <Overhead.label>帽子</Overhead.label>
   
   <!-- EN: outer -->
-  <Shell.label>外套</Shell.label>
+  <Shell.label>上着</Shell.label>
   
 </LanguageData>

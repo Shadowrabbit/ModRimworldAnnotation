@@ -153,7 +153,7 @@
     <defName>MeatEating_NonMeat_Horrible</defName>
     <issue>MeatEating</issue>
     <label>seriously required</label>
-    <description>Every meal must have meat.</description>
+    <description>Every meal must have meat. Eggs, milk, and processed food are okay as well.</description>
     <impact>High</impact>
     <displayOrderInIssue>40</displayOrderInIssue>
     <displayOrderInImpact>1000</displayOrderInImpact>
@@ -185,7 +185,7 @@
     <defName>MeatEating_NonMeat_Abhorrent</defName>
     <issue>MeatEating</issue>
     <label>strictly required</label>
-    <description>If a meal doesn't have meat, the person who eats it must be morally deficient.</description>
+    <description>If a meal doesn't have meat, the person who eats it must be morally deficient. Eggs, milk, and processed foods are fine.</description>
     <impact>High</impact>
     <displayOrderInIssue>50</displayOrderInIssue>
     <displayOrderInImpact>1000</displayOrderInImpact>
@@ -242,7 +242,7 @@
     <stages>
       <li>
         <label>ate meat</label>
-        <baseOpinionOffset>-50</baseOpinionOffset>
+        <baseOpinionOffset>-30</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>
@@ -274,7 +274,7 @@
     <stages>
       <li>
         <label>ate meat</label>
-        <baseOpinionOffset>-24</baseOpinionOffset>
+        <baseOpinionOffset>-15</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>
@@ -306,7 +306,7 @@
     <stages>
       <li>
         <label>ate meat</label>
-        <baseOpinionOffset>-8</baseOpinionOffset>
+        <baseOpinionOffset>-5</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>

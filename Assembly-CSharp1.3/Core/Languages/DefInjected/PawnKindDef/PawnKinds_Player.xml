@@ -2,11 +2,9 @@
 <LanguageData>
   
   <!-- EN: colonist -->
-  <Colonist.label>殖民者</Colonist.label>
-  <Colonist.labelPlural>殖民者</Colonist.labelPlural>
+  <Colonist.label>入植者</Colonist.label>
   
   <!-- EN: member -->
-  <Tribesperson.label>部众</Tribesperson.label>
-  <Tribesperson.labelPlural>部众</Tribesperson.labelPlural>
+  <Tribesperson.label>部族民</Tribesperson.label>
   
 </LanguageData>

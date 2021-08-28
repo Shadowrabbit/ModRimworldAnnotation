@@ -2,166 +2,180 @@
 <LanguageData>
   
   <!-- EN: chitchat -->
-  <Chitchat.label>闲聊</Chitchat.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout][TalkTopicLight]。</Chitchat.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]同[RECIPIENT_nameDef][talkedabout][TalkTopicLight]。</Chitchat.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef]. -->
-  <Chitchat.logRulesInitiator.rulesStrings.2>r_logentry(p=0.8)->[INITIATOR_nameDef]就[TalkTopicLight]的话题与[RECIPIENT_nameDef][commentedabout]。</Chitchat.logRulesInitiator.rulesStrings.2>
-  <!-- EN: talkedabout(p=4)->chatted about -->
-  <Chitchat.logRulesInitiator.rulesStrings.3>talkedabout(p=4)->闲聊</Chitchat.logRulesInitiator.rulesStrings.3>
-  <!-- EN: talkedabout->shared a word about -->
-  <Chitchat.logRulesInitiator.rulesStrings.4>talkedabout->分享了话题关于</Chitchat.logRulesInitiator.rulesStrings.4>
-  <!-- EN: talkedabout->spoke about -->
-  <Chitchat.logRulesInitiator.rulesStrings.5>talkedabout->谈到</Chitchat.logRulesInitiator.rulesStrings.5>
-  <!-- EN: talkedabout->gabbed about -->
-  <Chitchat.logRulesInitiator.rulesStrings.6>talkedabout->喋喋不休讨论</Chitchat.logRulesInitiator.rulesStrings.6>
-  <!-- EN: talkedabout->talked about -->
-  <Chitchat.logRulesInitiator.rulesStrings.7>talkedabout->谈论</Chitchat.logRulesInitiator.rulesStrings.7>
-  <!-- EN: talkedabout->joked about -->
-  <Chitchat.logRulesInitiator.rulesStrings.8>talkedabout->开玩笑地说到</Chitchat.logRulesInitiator.rulesStrings.8>
-  <!-- EN: talkedabout->quipped about -->
-  <Chitchat.logRulesInitiator.rulesStrings.9>talkedabout->打趣地聊到</Chitchat.logRulesInitiator.rulesStrings.9>
-  <!-- EN: commentedabout->said something about -->
-  <Chitchat.logRulesInitiator.rulesStrings.10>commentedabout->聊了很多</Chitchat.logRulesInitiator.rulesStrings.10>
-  <!-- EN: commentedabout->said a word about -->
-  <Chitchat.logRulesInitiator.rulesStrings.11>commentedabout->说了几句</Chitchat.logRulesInitiator.rulesStrings.11>
-  <!-- EN: commentedabout->made a comment about -->
-  <Chitchat.logRulesInitiator.rulesStrings.12>commentedabout->进行了点评</Chitchat.logRulesInitiator.rulesStrings.12>
-  <!-- EN: commentedabout->commented about -->
-  <Chitchat.logRulesInitiator.rulesStrings.13>commentedabout->讨论</Chitchat.logRulesInitiator.rulesStrings.13>
-  <!-- EN: commentedabout->told a joke about -->
-  <Chitchat.logRulesInitiator.rulesStrings.14>commentedabout->开了个玩笑</Chitchat.logRulesInitiator.rulesStrings.14>
+  <Chitchat.label>世間話</Chitchat.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [TalkTopicLight].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [TalkTopicLight] with [RECIPIENT_nameDef].</li>
+    <li>r_logentry(p=0.8)->[INITIATOR_nameDef] [commentedabout] [TalkTopicLight] to [RECIPIENT_nameDef].</li>
+    <li>talkedabout(p=4)->chatted about</li>
+    <li>talkedabout->shared a word about</li>
+    <li>talkedabout->spoke about</li>
+    <li>talkedabout->gabbed about</li>
+    <li>talkedabout->talked about</li>
+    <li>talkedabout->joked about</li>
+    <li>talkedabout->quipped about</li>
+    <li>commentedabout->said something about</li>
+    <li>commentedabout->said a word about</li>
+    <li>commentedabout->made a comment about</li>
+    <li>commentedabout->commented about</li>
+    <li>commentedabout->told a joke about</li>
+  -->
+  <Chitchat.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]と[RECIPIENT_nameDef]は[TalkTopicLight]について[talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef]は[TalkTopicLight]について[RECIPIENT_nameDef]と[talkedabout].</li>
+    <li>talkedabout(p=4)->おしゃべりした</li>
+    <li>talkedabout->井戸端会議をした</li>
+    <li>talkedabout->会話した</li>
+    <li>talkedabout->ムダ話をした</li>
+    <li>talkedabout->話し合った</li>
+    <li>talkedabout->冗談を言いあった</li>
+    <li>talkedabout->皮肉を言いあった</li>
+  </Chitchat.logRulesInitiator.rulesStrings>
   
   <!-- EN: deep talk -->
-  <DeepTalk.label>深入交流</DeepTalk.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject]. -->
-  <DeepTalk.logRulesInitiator.rulesStrings.0>r_logentry->在[subject]的问题上，[INITIATOR_nameDef]和[RECIPIENT_nameDef][talkedabout]。</DeepTalk.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef]. -->
-  <DeepTalk.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]同[RECIPIENT_nameDef]就[subject]的话题[talkedabout]。</DeepTalk.logRulesInitiator.rulesStrings.1>
-  <!-- EN: talkedabout->communicated thoughts about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.2>talkedabout->交流思想</DeepTalk.logRulesInitiator.rulesStrings.2>
-  <!-- EN: talkedabout->exchanged thoughts about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.3>talkedabout->交换想法</DeepTalk.logRulesInitiator.rulesStrings.3>
-  <!-- EN: talkedabout->exchanged ideas about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.4>talkedabout->交换意见</DeepTalk.logRulesInitiator.rulesStrings.4>
-  <!-- EN: talkedabout->shared views on -->
-  <DeepTalk.logRulesInitiator.rulesStrings.5>talkedabout->分享观点</DeepTalk.logRulesInitiator.rulesStrings.5>
-  <!-- EN: talkedabout->shared beliefs on -->
-  <DeepTalk.logRulesInitiator.rulesStrings.6>talkedabout->分享理念</DeepTalk.logRulesInitiator.rulesStrings.6>
-  <!-- EN: talkedabout->discussed the topic of -->
-  <DeepTalk.logRulesInitiator.rulesStrings.7>talkedabout->展开探讨</DeepTalk.logRulesInitiator.rulesStrings.7>
-  <!-- EN: talkedabout->had a heartfelt conversation about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.8>talkedabout->倾心交流</DeepTalk.logRulesInitiator.rulesStrings.8>
-  <!-- EN: talkedabout->talked quietly about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.9>talkedabout->窃窃私语</DeepTalk.logRulesInitiator.rulesStrings.9>
-  <!-- EN: talkedabout->talked deeply about -->
-  <DeepTalk.logRulesInitiator.rulesStrings.10>talkedabout->深入讨论</DeepTalk.logRulesInitiator.rulesStrings.10>
-  <!-- EN: talkedabout->connected on the topic of -->
-  <DeepTalk.logRulesInitiator.rulesStrings.11>talkedabout->进行沟通</DeepTalk.logRulesInitiator.rulesStrings.11>
-  <!-- EN: subject->[TalkTopicHeavy] -->
-  <DeepTalk.logRulesInitiator.rulesStrings.12>subject->[TalkTopicHeavy]</DeepTalk.logRulesInitiator.rulesStrings.12>
+  <DeepTalk.label>込み入った話</DeepTalk.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] and [RECIPIENT_nameDef] [talkedabout] [subject].</li>
+    <li>r_logentry->[INITIATOR_nameDef] [talkedabout] [subject] with [RECIPIENT_nameDef].</li>
+    <li>talkedabout->communicated thoughts about</li>
+    <li>talkedabout->exchanged thoughts about</li>
+    <li>talkedabout->exchanged ideas about</li>
+    <li>talkedabout->shared views on</li>
+    <li>talkedabout->shared beliefs on</li>
+    <li>talkedabout->discussed the topic of</li>
+    <li>talkedabout->had a heartfelt conversation about</li>
+    <li>talkedabout->talked quietly about</li>
+    <li>talkedabout->talked deeply about</li>
+    <li>talkedabout->connected on the topic of</li>
+    <li>subject->[TalkTopicHeavy]</li>
+  -->
+  <DeepTalk.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]と[RECIPIENT_nameDef]は[subject]について[talkedabout].</li>
+    <li>r_logentry->[INITIATOR_nameDef]は[subject]について[RECIPIENT_nameDef]と[talkedabout].</li>
+    <li>talkedabout->思うことを伝えた</li>
+    <li>talkedabout->意見の交換をした</li>
+    <li>talkedabout->アイデアの交換をした</li>
+    <li>talkedabout->見解を共有した</li>
+    <li>talkedabout->信念を共有した</li>
+    <li>talkedabout->話題を討論した</li>
+    <li>talkedabout->心の奥底からの会話の機会を持った</li>
+    <li>talkedabout->穏やかに話しあった</li>
+    <li>talkedabout->深く突っ込んで話し合った</li>
+    <li>talkedabout->話題をお互いに理解し合った</li>
+    <li>subject->[TalkTopicHeavy]</li>
+  </DeepTalk.logRulesInitiator.rulesStrings>
   
   <!-- EN: insult -->
   <Insult.label>侮辱</Insult.label>
-  <!-- EN: r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic]. -->
-  <Insult.logRulesInitiator.rulesStrings.0>r_logentry(p=3)->[INITIATOR_nameDef][insulted][target]的[PersonalCharacteristic]。</Insult.logRulesInitiator.rulesStrings.0>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison]. -->
-  <Insult.logRulesInitiator.rulesStrings.1>r_logentry->[INITIATOR_nameDef]将[target]比作[insultcomparison]。</Insult.logRulesInitiator.rulesStrings.1>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison]. -->
-  <Insult.logRulesInitiator.rulesStrings.2>r_logentry->[INITIATOR_nameDef]把[target]叫作[insultcomparison]。</Insult.logRulesInitiator.rulesStrings.2>
-  <!-- EN: target(p=4)->[RECIPIENT_nameDef] -->
-  <Insult.logRulesInitiator.rulesStrings.3>target(p=4)->[RECIPIENT_nameDef]</Insult.logRulesInitiator.rulesStrings.3>
-  <!-- EN: target->[RECIPIENT_nameDef]'s [PersonFamily] -->
-  <Insult.logRulesInitiator.rulesStrings.4>target->[RECIPIENT_nameDef]的[PersonFamily]</Insult.logRulesInitiator.rulesStrings.4>
-  <!-- EN: insulted(p=3)->insulted -->
-  <Insult.logRulesInitiator.rulesStrings.5>insulted(p=3)->侮辱</Insult.logRulesInitiator.rulesStrings.5>
-  <!-- EN: insulted->openly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.6>insulted->公开侮辱</Insult.logRulesInitiator.rulesStrings.6>
-  <!-- EN: insulted->loudly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.7>insulted->大声侮辱</Insult.logRulesInitiator.rulesStrings.7>
-  <!-- EN: insulted->flagrantly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.8>insulted->公然侮辱</Insult.logRulesInitiator.rulesStrings.8>
-  <!-- EN: insulted->directly insulted -->
-  <Insult.logRulesInitiator.rulesStrings.9>insulted->当面侮辱</Insult.logRulesInitiator.rulesStrings.9>
-  <!-- EN: insulted->viciously insulted -->
-  <Insult.logRulesInitiator.rulesStrings.10>insulted->恶意侮辱</Insult.logRulesInitiator.rulesStrings.10>
-  <!-- EN: insulted->flagrantly disrespected -->
-  <Insult.logRulesInitiator.rulesStrings.11>insulted->公然不尊重</Insult.logRulesInitiator.rulesStrings.11>
-  <!-- EN: insulted->slandered -->
-  <Insult.logRulesInitiator.rulesStrings.12>insulted->诽谤</Insult.logRulesInitiator.rulesStrings.12>
-  <!-- EN: insulted->hurled invective about -->
-  <Insult.logRulesInitiator.rulesStrings.13>insulted->谩骂</Insult.logRulesInitiator.rulesStrings.13>
-  <!-- EN: insulted->derided -->
-  <Insult.logRulesInitiator.rulesStrings.14>insulted->嘲笑</Insult.logRulesInitiator.rulesStrings.14>
-  <!-- EN: insultcomparison(p=2)->[Animal] -->
-  <Insult.logRulesInitiator.rulesStrings.15>insultcomparison(p=2)->[Animal]</Insult.logRulesInitiator.rulesStrings.15>
-  <!-- EN: insultcomparison->[Enemy] -->
-  <Insult.logRulesInitiator.rulesStrings.16>insultcomparison->[Enemy]</Insult.logRulesInitiator.rulesStrings.16>
+  <!-- EN:
+    <li>r_logentry(p=3)->[INITIATOR_nameDef] [insulted] [target]'s [PersonalCharacteristic].</li>
+    <li>r_logentry->[INITIATOR_nameDef] compared [target] to a [insultcomparison].</li>
+    <li>r_logentry->[INITIATOR_nameDef] called [target] a [insultcomparison].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>insulted(p=3)->insulted</li>
+    <li>insulted->openly insulted</li>
+    <li>insulted->loudly insulted</li>
+    <li>insulted->flagrantly insulted</li>
+    <li>insulted->directly insulted</li>
+    <li>insulted->viciously insulted</li>
+    <li>insulted->flagrantly disrespected</li>
+    <li>insulted->slandered</li>
+    <li>insulted->hurled invective about</li>
+    <li>insulted->derided</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  -->
+  <Insult.logRulesInitiator.rulesStrings>
+    <li>r_logentry(p=3)->[INITIATOR_nameDef]は[target]の[PersonalCharacteristic][insulted].</li>
+    <li>r_logentry->[INITIATOR_nameDef]は[target]と[insultcomparison]を比べた.</li>
+    <li>r_logentry->[INITIATOR_nameDef]は[target]を[insultcomparison]と呼んだ.</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]の[Family]</li>
+    <li>insulted(p=3)->を侮辱した</li>
+    <li>insulted->を公然と侮辱した</li>
+    <li>insulted->を声高々に侮辱した</li>
+    <li>insulted->を目に余るほどに侮辱した</li>
+    <li>insulted->を直接的に侮辱した</li>
+    <li>insulted->を悪意を持って侮辱した</li>
+    <li>insulted->を甚だしく軽蔑した</li>
+    <li>insulted->を誹謗中傷した</li>
+    <li>insulted->について暴言を浴びせた</li>
+    <li>insulted->を馬鹿にした</li>
+    <li>insultcomparison(p=2)->[Animal]</li>
+    <li>insultcomparison->[Enemy]</li>
+  </Insult.logRulesInitiator.rulesStrings>
   
   <!-- EN: kind words -->
-  <KindWords.label>美言</KindWords.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic]. -->
-  <KindWords.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef][complimented][RECIPIENT_nameDef]的[PersonalCharacteristic]。</KindWords.logRulesInitiator.rulesStrings.0>
-  <!-- EN: complimented(p=3)->complimented -->
-  <KindWords.logRulesInitiator.rulesStrings.1>complimented(p=3)->称赞</KindWords.logRulesInitiator.rulesStrings.1>
-  <!-- EN: complimented->praised -->
-  <KindWords.logRulesInitiator.rulesStrings.2>complimented->赞美</KindWords.logRulesInitiator.rulesStrings.2>
-  <!-- EN: complimented->commended -->
-  <KindWords.logRulesInitiator.rulesStrings.3>complimented->恭维</KindWords.logRulesInitiator.rulesStrings.3>
-  <!-- EN: complimented->lauded -->
-  <KindWords.logRulesInitiator.rulesStrings.4>complimented->赞颂</KindWords.logRulesInitiator.rulesStrings.4>
-  <!-- EN: complimented->applauded -->
-  <KindWords.logRulesInitiator.rulesStrings.5>complimented->赞同</KindWords.logRulesInitiator.rulesStrings.5>
-  <!-- EN: complimented->celebrated -->
-  <KindWords.logRulesInitiator.rulesStrings.6>complimented->尊敬</KindWords.logRulesInitiator.rulesStrings.6>
-  <!-- EN: complimented->saluted -->
-  <KindWords.logRulesInitiator.rulesStrings.7>complimented->致敬</KindWords.logRulesInitiator.rulesStrings.7>
-  <!-- EN: complimented->spoke kindly of -->
-  <KindWords.logRulesInitiator.rulesStrings.8>complimented->亲切地谈论</KindWords.logRulesInitiator.rulesStrings.8>
-  <!-- EN: complimented->expressed good things about -->
-  <KindWords.logRulesInitiator.rulesStrings.9>complimented->表示赞许</KindWords.logRulesInitiator.rulesStrings.9>
-  <!-- EN: complimented->offered kinds words about -->
-  <KindWords.logRulesInitiator.rulesStrings.10>complimented->奉承</KindWords.logRulesInitiator.rulesStrings.10>
-  <!-- EN: complimented->verbally appreciated -->
-  <KindWords.logRulesInitiator.rulesStrings.11>complimented->口头赞同</KindWords.logRulesInitiator.rulesStrings.11>
-  <!-- EN: complimented->expressed appreciation for -->
-  <KindWords.logRulesInitiator.rulesStrings.12>complimented->表示赞赏</KindWords.logRulesInitiator.rulesStrings.12>
-  <!-- EN: complimented->said good things about -->
-  <KindWords.logRulesInitiator.rulesStrings.13>complimented->赞许</KindWords.logRulesInitiator.rulesStrings.13>
+  <KindWords.label>優しい言葉</KindWords.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [complimented] [RECIPIENT_nameDef]'s [PersonalCharacteristic].</li>
+    <li>complimented(p=3)->complimented</li>
+    <li>complimented->praised</li>
+    <li>complimented->commended</li>
+    <li>complimented->lauded</li>
+    <li>complimented->applauded</li>
+    <li>complimented->celebrated</li>
+    <li>complimented->saluted</li>
+    <li>complimented->spoke kindly of</li>
+    <li>complimented->expressed good things about</li>
+    <li>complimented->offered kinds words about</li>
+    <li>complimented->verbally appreciated</li>
+    <li>complimented->expressed appreciation for</li>
+    <li>complimented->said good things about</li>
+  -->
+  <KindWords.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]は[RECIPIENT_nameDef]の[PersonalCharacteristic][complimented].</li>
+    <li>complimented(p=3)->のお世辞を述べた</li>
+    <li>complimented->を讃えた</li>
+    <li>complimented->を褒めた</li>
+    <li>complimented->を称賛した</li>
+    <li>complimented->を賞賛した</li>
+    <li>complimented->を祝った</li>
+    <li>complimented->に敬意を表した</li>
+    <li>complimented->の思いやりを話した</li>
+    <li>complimented->について良い感情を表した</li>
+    <li>complimented->について優しい言葉を言った</li>
+    <li>complimented->を言葉で賞賛した</li>
+    <li>complimented->に感謝を示した</li>
+    <li>complimented->について良いことを言った</li>
+  </KindWords.logRulesInitiator.rulesStrings>
   
   <!-- EN: slight -->
-  <Slight.label>怠慢</Slight.label>
-  <!-- EN: r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic]. -->
-  <Slight.logRulesInitiator.rulesStrings.0>r_logentry->[INITIATOR_nameDef][madefunof][target]的[PersonalCharacteristic]。</Slight.logRulesInitiator.rulesStrings.0>
-  <!-- EN: target(p=4)->[RECIPIENT_nameDef] -->
-  <Slight.logRulesInitiator.rulesStrings.1>target(p=4)->[RECIPIENT_nameDef]</Slight.logRulesInitiator.rulesStrings.1>
-  <!-- EN: target->[RECIPIENT_nameDef]'s [PersonFamily] -->
-  <Slight.logRulesInitiator.rulesStrings.2>target->[RECIPIENT_nameDef]的[PersonFamily]</Slight.logRulesInitiator.rulesStrings.2>
-  <!-- EN: madefunof->made fun of -->
-  <Slight.logRulesInitiator.rulesStrings.3>madefunof->取笑</Slight.logRulesInitiator.rulesStrings.3>
-  <!-- EN: madefunof->disrespected -->
-  <Slight.logRulesInitiator.rulesStrings.4>madefunof->不尊重</Slight.logRulesInitiator.rulesStrings.4>
-  <!-- EN: madefunof->subtly scorned -->
-  <Slight.logRulesInitiator.rulesStrings.5>madefunof->委婉地蔑视</Slight.logRulesInitiator.rulesStrings.5>
-  <!-- EN: madefunof->subtly shamed -->
-  <Slight.logRulesInitiator.rulesStrings.6>madefunof->巧妙地羞辱</Slight.logRulesInitiator.rulesStrings.6>
-  <!-- EN: madefunof->spoke badly of -->
-  <Slight.logRulesInitiator.rulesStrings.7>madefunof->嘲弄</Slight.logRulesInitiator.rulesStrings.7>
-  <!-- EN: madefunof->spoke negatively of -->
-  <Slight.logRulesInitiator.rulesStrings.8>madefunof->不看好</Slight.logRulesInitiator.rulesStrings.8>
-  <!-- EN: madefunof->laughed at -->
-  <Slight.logRulesInitiator.rulesStrings.9>madefunof->嘲笑</Slight.logRulesInitiator.rulesStrings.9>
-  <!-- EN: madefunof->sniggered at -->
-  <Slight.logRulesInitiator.rulesStrings.10>madefunof->窃笑</Slight.logRulesInitiator.rulesStrings.10>
-  <!-- EN: madefunof->implied negative things about -->
-  <Slight.logRulesInitiator.rulesStrings.11>madefunof->委婉地否定</Slight.logRulesInitiator.rulesStrings.11>
-  <!-- EN: madefunof->belittled -->
-  <Slight.logRulesInitiator.rulesStrings.12>madefunof->小看</Slight.logRulesInitiator.rulesStrings.12>
-  <!-- EN: madefunof->made a contemptuous remark about -->
-  <Slight.logRulesInitiator.rulesStrings.13>madefunof->毫不在意</Slight.logRulesInitiator.rulesStrings.13>
-  <!-- EN: madefunof->offered a backhanded compliment about -->
-  <Slight.logRulesInitiator.rulesStrings.14>madefunof->明褒暗贬地恭维</Slight.logRulesInitiator.rulesStrings.14>
+  <Slight.label>冷たくあしらわれた</Slight.label>
+  <!-- EN:
+    <li>r_logentry->[INITIATOR_nameDef] [madefunof] [target]'s [PersonalCharacteristic].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]'s [PersonFamily]</li>
+    <li>madefunof->made fun of</li>
+    <li>madefunof->disrespected</li>
+    <li>madefunof->subtly scorned</li>
+    <li>madefunof->subtly shamed</li>
+    <li>madefunof->spoke badly of</li>
+    <li>madefunof->spoke negatively of</li>
+    <li>madefunof->laughed at</li>
+    <li>madefunof->sniggered at</li>
+    <li>madefunof->implied negative things about</li>
+    <li>madefunof->belittled</li>
+    <li>madefunof->made a contemptuous remark about</li>
+    <li>madefunof->offered a backhanded compliment about</li>
+  -->
+  <Slight.logRulesInitiator.rulesStrings>
+    <li>r_logentry->[INITIATOR_nameDef]は[target]の[PersonalCharacteristic][madefunof].</li>
+    <li>target(p=4)->[RECIPIENT_nameDef]</li>
+    <li>target->[RECIPIENT_nameDef]の[Family]</li>
+    <li>madefunof->をバカにした</li>
+    <li>madefunof->を見下した</li>
+    <li>madefunof->を微妙に嘲笑した</li>
+    <li>madefunof->に巧妙に恥をかかせた</li>
+    <li>madefunof->を悪く言った</li>
+    <li>madefunof->を否定的に言った</li>
+    <li>madefunof->をあざ笑った</li>
+    <li>madefunof->をクスクス笑った</li>
+    <li>madefunof->を否定的にほのめかした</li>
+    <li>madefunof->をけなした</li>
+    <li>madefunof->を人を馬鹿にするように言った</li>
+    <li>madefunof->のお世辞を皮肉めいて言った</li>
+  </Slight.logRulesInitiator.rulesStrings>
   
 </LanguageData>

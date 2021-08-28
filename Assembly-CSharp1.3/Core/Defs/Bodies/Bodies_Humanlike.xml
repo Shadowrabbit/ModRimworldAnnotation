@@ -129,6 +129,7 @@
                   <depth>Inside</depth>
                   <groups>
                     <li>UpperHead</li>
+                    <li>Eyes</li>
                     <li>FullHead</li>
                   </groups>
                   <parts>
@@ -137,6 +138,7 @@
                       <coverage>0.8</coverage>
                       <groups>
                         <li>UpperHead</li>
+                        <li>Eyes</li>
                         <li>FullHead</li>
                       </groups>
                     </li>
@@ -194,6 +196,16 @@
                     <li>Teeth</li>
                     <li>FullHead</li>
                   </groups>
+                  <parts>
+                    <li>
+                      <def>Tongue</def>
+                      <coverage>0</coverage>
+                      <depth>Inside</depth>
+                      <groups>
+                        <li>FullHead</li>
+                      </groups>
+                    </li>
+                  </parts>
                 </li>
               </parts>
             </li>

@@ -16,6 +16,7 @@
     <headerIcon>UI/Designators/ReleaseToTheWild</headerIcon>
     <workerClass>PawnColumnWorker_ReleaseAnimalToWild</workerClass>
     <sortable>true</sortable>
+    <paintable>true</paintable>
   </PawnColumnDef>
 
   <PawnColumnDef>

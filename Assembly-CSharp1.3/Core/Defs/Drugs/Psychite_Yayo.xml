@@ -80,6 +80,7 @@
         <largeOverdoseChance>0.01</largeOverdoseChance>
       </li>
     </comps>
+    <allowedArchonexusCount>200</allowedArchonexusCount>
   </ThingDef>
 
   <HediffDef>

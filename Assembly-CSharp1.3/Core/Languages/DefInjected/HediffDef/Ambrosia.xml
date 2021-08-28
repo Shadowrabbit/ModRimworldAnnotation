@@ -2,26 +2,29 @@
 <LanguageData>
   
   <!-- EN: ambrosia addiction -->
-  <AmbrosiaAddiction.label>仙馐果成瘾</AmbrosiaAddiction.label>
+  <AmbrosiaAddiction.label>アンブロージア依存症</AmbrosiaAddiction.label>
   <!-- EN: A chemical addiction to ambrosia. Long-term presence of ambrosia has caused neurological adaptations at the cellular level, so the brain can no longer function properly without the drug.\n\nWithout regular doses of ambrosia, withdrawal symptoms will begin. However, extended abstinence will force the brain to adapt back to its normal state, resolving the addiction. -->
-  <AmbrosiaAddiction.description>长期过量的食用仙馐果已经造成了神经系统的适应。\n\n如果没有定期食用合适数量的仙馐果，戒断反应就会开始。长时间的戒断会迫使大脑适应并恢复到正常状态，从而戒除仙馐果成瘾。</AmbrosiaAddiction.description>
+  <AmbrosiaAddiction.description>アンブロージアによる薬物中毒.長期間アンブロージアを摂っていると細胞レベルで神経学的に適応してしまい,薬物なしでは脳は適切に機能できなくなります.\n\nアンブロージアを定期的に摂らないと離脱症状が始まります.しかし長期間,アンブロージアを断つことで,脳を正常に機能させ依存症を解決できます.</AmbrosiaAddiction.description>
   <!-- EN: withdrawal -->
-  <AmbrosiaAddiction.stages.withdrawal.label>戒断</AmbrosiaAddiction.stages.withdrawal.label>
+  <AmbrosiaAddiction.stages.withdrawal.label>離脱症状</AmbrosiaAddiction.stages.withdrawal.label>
   
   <!-- EN: ambrosia warmth -->
-  <AmbrosiaHigh.label>仙馐果暖身</AmbrosiaHigh.label>
+  <AmbrosiaHigh.label>アンブロージアによる高揚状態</AmbrosiaHigh.label>
   <!-- EN: Ambrosia chemicals in the bloodstream. It lifts the mood. -->
-  <AmbrosiaHigh.description>流淌在血液里的仙馐果化合物能让人感到心情愉悦。</AmbrosiaHigh.description>
+  <AmbrosiaHigh.description>血中のアンプロージア成分が浸透しています.心情が良い方へ持ち上げられています.</AmbrosiaHigh.description>
   
   <!-- EN: ambrosia tolerance -->
-  <AmbrosiaTolerance.label>仙馐果耐受</AmbrosiaTolerance.label>
+  <AmbrosiaTolerance.label>アンブロージア耐性</AmbrosiaTolerance.label>
   <!-- EN: A built-up tolerance to ambrosia. The more severe this tolerance is, the more ambrosia it takes to get the same effect. -->
-  <AmbrosiaTolerance.description>对仙馐果的长期耐受性。耐受性越严重，想达到和之前同样的效果所需要的仙馐果也就越多。</AmbrosiaTolerance.description>
+  <AmbrosiaTolerance.description>アンブロージアに対する強さです.この耐性が大きいほど,同じ効果を及ぼすのに,より多くのアンブロージアが必要です.</AmbrosiaTolerance.description>
   <!-- EN: small -->
-  <AmbrosiaTolerance.stages.small.label>弱</AmbrosiaTolerance.stages.small.label>
+  <AmbrosiaTolerance.stages.small.label>小</AmbrosiaTolerance.stages.small.label>
   <!-- EN: large -->
-  <AmbrosiaTolerance.stages.large.label>强</AmbrosiaTolerance.stages.large.label>
+  <AmbrosiaTolerance.stages.large.label>大</AmbrosiaTolerance.stages.large.label>
   <!-- EN: massive -->
-  <AmbrosiaTolerance.stages.massive.label>严重</AmbrosiaTolerance.stages.massive.label>
+  <AmbrosiaTolerance.stages.massive.label>極大</AmbrosiaTolerance.stages.massive.label>
+  
+  <!-- UNUSED -->
+  <AmbrosiaTolerance.stages.small-1.label>小</AmbrosiaTolerance.stages.small-1.label>
   
 </LanguageData>

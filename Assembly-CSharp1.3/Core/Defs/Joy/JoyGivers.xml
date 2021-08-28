@@ -32,6 +32,7 @@
     <requiredCapacities>
       <li>Sight</li>
     </requiredCapacities>
+    <requiresEnjoyOutdoors>true</requiresEnjoyOutdoors>
   </JoyGiverDef>
 
   <JoyGiverDef>
@@ -71,6 +72,7 @@
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
+    <requiresEnjoyOutdoors>true</requiresEnjoyOutdoors>
   </JoyGiverDef>
 
   <!-- social -->
@@ -242,6 +244,7 @@
     <baseChance>2.5</baseChance>
     <thingDefs>
       <li>Chocolate</li>
+      <li>InsectJelly</li>
     </thingDefs>
     <joyKind>Gluttonous</joyKind>
     <requiredCapacities>

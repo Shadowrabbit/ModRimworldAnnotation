@@ -42,6 +42,7 @@
       <li>ExoticMisc</li>
     </tradeTags>
     <thingSetMakerTags><li>RewardStandardHighFreq</li></thingSetMakerTags>
+    <allowedArchonexusCount>50</allowedArchonexusCount>
   </ThingDef>
 
   <HediffDef>

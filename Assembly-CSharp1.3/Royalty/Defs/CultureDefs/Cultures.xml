@@ -20,7 +20,6 @@
       <li>OriginTechnoFeudal</li>
     </allowedPlaceTags>
     <iconPath>World/WorldObjects/Expanding/Empire</iconPath>
-    <iconColor>(0.8, 0.8, 0.8)</iconColor>
     <styleItemTags>
       <li>
         <tag>Urban</tag>

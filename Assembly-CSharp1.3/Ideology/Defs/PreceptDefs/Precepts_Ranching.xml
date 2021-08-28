@@ -9,6 +9,11 @@
     <iconPath>UI/Issues/Ranching</iconPath>
   </IssueDef>
 
+  <HistoryEventDef>
+    <defName>HospitalitySuccess_Animals</defName>
+    <label>animal hospitality success</label>
+  </HistoryEventDef>
+
   <!-- Precepts -->
 
   <PreceptDef>
@@ -40,6 +45,10 @@
       <li Class="PreceptComp_SituationalThought">
         <thought>NoRecentAnimalSlaughter</thought>
         <description>No slaughter for {ANIMALSLAUGHTERREQUIREDINTERVAL} days</description>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>HospitalitySuccess_Animals</eventDef>
+        <points>2</points>
       </li>
     </comps>
     <statFactors>
@@ -98,7 +107,7 @@
   <ThoughtDef>
     <defName>Ranching_SowedPlant</defName>
     <durationDays>2</durationDays>
-    <minExpectationForNegativeThought>Low</minExpectationForNegativeThought>
+    <minExpectation>Low</minExpectation>
     <stages>
       <li>
         <label>sowed human food plant</label>
@@ -112,7 +121,7 @@
     <defName>NoRecentAnimalSlaughter</defName>
     <thoughtClass>Thought_Situational</thoughtClass>
     <workerClass>ThoughtWorker_Precept_NoRecentSlaughter</workerClass>
-    <minExpectationForNegativeThought>Moderate</minExpectationForNegativeThought>
+    <minExpectation>Moderate</minExpectation>
     <stages>
       <li>
         <label>no recent slaughter</label>

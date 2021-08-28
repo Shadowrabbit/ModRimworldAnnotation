@@ -465,6 +465,21 @@
     <reportString>delivering TargetA.</reportString>
     <casualInterruptible>false</casualInterruptible>
   </JobDef>
+
+  <JobDef>
+    <defName>DeliverToBed</defName>
+    <driverClass>JobDriver_TakeToBed</driverClass>
+    <reportString>delivering TargetA.</reportString>
+    <casualInterruptible>false</casualInterruptible>
+  </JobDef>
+
+  <JobDef>
+    <defName>TakeCountToInventory</defName>
+    <driverClass>JobDriver_TakeCountToInventory</driverClass>
+    <reportString>taking TargetA to inventory.</reportString>
+    <suspendable>false</suspendable>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
   
   <!--============ Fire ============-->
 

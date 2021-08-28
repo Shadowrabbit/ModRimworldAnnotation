@@ -3,795 +3,795 @@
 
   <!-- Various -->
   <!-- EN: hit points -->
-  <HitPointsBasic>耐久度</HitPointsBasic>
+  <HitPointsBasic>ヒットポイント</HitPointsBasic>
   <!-- EN: Work left -->
-  <WorkLeft>剩余工作量</WorkLeft>
+  <WorkLeft>残り工数</WorkLeft>
   <!-- EN: Contents -->
-  <Contents>内容</Contents>
+  <Contents>運んだ資材</Contents>
   <!-- EN: Contained resources -->
-  <ContainedResources>包含资源</ContainedResources>
+  <ContainedResources>作成に必要なリソース</ContainedResources>
   <!-- EN: For prisoner use -->
-  <ForPrisonerUse>限囚犯使用</ForPrisonerUse>
+  <ForPrisonerUse>囚人が使用</ForPrisonerUse>
   <!-- EN: In prison cell: For prisoner use -->
-  <InPrisonCell>在牢房中：限囚犯使用</InPrisonCell>
+  <InPrisonCell>In prison cell:囚人用</InPrisonCell>
   <!-- EN: For colonist use -->
-  <ForColonistUse>限殖民者使用</ForColonistUse>
+  <ForColonistUse>入植者が使用</ForColonistUse>
   <!-- EN: Medical -->
-  <MedicalBed>病床</MedicalBed>
+  <MedicalBed>医療用</MedicalBed>
   <!-- EN: Owner -->
-  <Owner>所属人</Owner>
+  <Owner>所有者</Owner>
   <!-- EN: Owners -->
-  <Owners>所属人</Owners>
+  <Owners>所有者</Owners>
   <!-- EN: Assigned colonist -->
-  <AssignedColonist>指定殖民者</AssignedColonist>
+  <AssignedColonist>担当者</AssignedColonist>
   <!-- EN: Died on the {0} -->
-  <DiedOn>死于{0}</DiedOn>
+  <DiedOn>{0}に死亡</DiedOn>
   <!-- EN: Nobody -->
-  <Nobody>无</Nobody>
+  <Nobody>無し</Nobody>
   <!-- EN: Unowned -->
-  <Unowned>无所属</Unowned>
+  <Unowned>空き</Unowned>
   <!-- EN: Dead for {0} -->
-  <DeadTime>已死亡{0}</DeadTime>
+  <DeadTime>死後 {0}</DeadTime>
   <!-- EN: walk speed {0} -->
-  <WalkSpeed>行走速度{0}</WalkSpeed>
+  <WalkSpeed>移動速度 {0}</WalkSpeed>
   <!-- EN: fert. -->
   <FertShort>肥沃度</FertShort>
   <!-- EN: dying -->
-  <DyingLower>奄奄一息</DyingLower>
+  <DyingLower>瀕死</DyingLower>
   <!-- EN: Filth on feet: -->
-  <FilthOnFeet>脚部沾染: </FilthOnFeet>
+  <FilthOnFeet>足跡：</FilthOnFeet>
   <!-- EN: not enough stored -->
-  <NotEnoughStoredLower>储量不足</NotEnoughStoredLower>
+  <NotEnoughStoredLower>十分な たくわえが ありません</NotEnoughStoredLower>
   <!-- EN: nothing -->
-  <NothingLower>无</NothingLower>
+  <NothingLower>なし</NothingLower>
   <!-- EN: Nothing -->
-  <Nothing>无</Nothing>
+  <Nothing>なし</Nothing>
   <!-- EN: Adapted -->
-  <Adapted>已适应</Adapted>
+  <Adapted>順応した</Adapted>
   <!-- EN: fresh -->
-  <FreshMissingBodyPart>新鲜</FreshMissingBodyPart>
+  <FreshMissingBodyPart>生々しい</FreshMissingBodyPart>
   <!-- EN: developed immunity -->
-  <DevelopedImmunityLower>产生免疫</DevelopedImmunityLower>
+  <DevelopedImmunityLower>免疫がついた</DevelopedImmunityLower>
   <!-- EN: Needs tending now -->
-  <NeedsTendingNow>当前需要治疗</NeedsTendingNow>
+  <NeedsTendingNow>すぐに看病が必要</NeedsTendingNow>
   <!-- EN: Can tend now -->
-  <CanTendNow>现在可治疗</CanTendNow>
+  <CanTendNow>直ぐに看ることができる</CanTendNow>
   <!-- EN: Tending expires in {0} -->
-  <TreatmentExpiresIn>治疗将消失于{0}</TreatmentExpiresIn>
+  <TreatmentExpiresIn>治療効果切れまで{0}</TreatmentExpiresIn>
   <!-- EN: Can be tended in {0} -->
-  <NextTendIn>{0}后将可治疗</NextTendIn>
+  <NextTendIn>{0} 後に看る</NextTendIn>
   <!-- EN: Tend quality -->
-  <TendQuality>治疗质量</TendQuality>
+  <TendQuality>看病品質</TendQuality>
   <!-- EN: no {0} -->
-  <MissingMedicalBillIngredient>缺少{0}</MissingMedicalBillIngredient>
+  <MissingMedicalBillIngredient>{0} がいない</MissingMedicalBillIngredient>
   <!-- EN: Immunity -->
-  <Immunity>免疫性</Immunity>
+  <Immunity>免疫</Immunity>
   <!-- EN: {0} days to recover -->
-  <DaysToRecover>{0}天可恢复</DaysToRecover>
+  <DaysToRecover>回復に{0}日</DaysToRecover>
   <!-- EN: Ineffective -->
-  <Ineffective>无效</Ineffective>
+  <Ineffective>無効果</Ineffective>
   <!-- EN: illegal -->
-  <Illegal>非法</Illegal>
+  <Illegal>違法</Illegal>
   <!-- EN: detection chance -->
-  <DetectionChance>检测概率</DetectionChance>
+  <DetectionChance>被探知率</DetectionChance>
   <!-- EN: Race -->
-  <Race>种族</Race>
+  <Race>種</Race>
   <!-- EN: Description -->
-  <Description>描述</Description>
+  <Description>概要</Description>
   <!-- EN: Equipment -->
-  <Equipment>装备</Equipment>
+  <Equipment>装備</Equipment>
   <!-- EN: Apparel -->
-  <Apparel>衣着</Apparel>
+  <Apparel>衣服</Apparel>
   <!-- EN: Inventory -->
-  <Inventory>货物</Inventory>
+  <Inventory>アイテム一覧</Inventory>
   <!-- EN: Information -->
-  <ThingInfo>信息</ThingInfo>
+  <ThingInfo>情報</ThingInfo>
   <!-- EN: Drop -->
-  <DropThing>丢下</DropThing>
+  <DropThing>はずす</DropThing>
   <!-- EN: Temporary faction members will not drop their items. -->
-  <DropThingLodger>临时派系成员不会丢掉他们身上的物品。</DropThingLodger>
+  <DropThingLodger>一時的な派閥メンバーはこれらのアイテムをドロップしません.</DropThingLodger>
   <!-- EN: This person refuses to drop this. -->
-  <DropThingLocked>此人拒绝丢掉。</DropThingLocked>
+  <DropThingLocked>この人はこれを手放しません.</DropThingLocked>
   <!-- EN: Rename -->
-  <Rename>重命名</Rename>
+  <Rename>命名</Rename>
   <!-- EN: Rename animal -->
-  <RenameAnimal>重命名动物</RenameAnimal>
+  <RenameAnimal>動物の名前を変更</RenameAnimal>
   <!-- EN: Rename colonist -->
-  <RenameColonist>修改角色昵称</RenameColonist>
+  <RenameColonist>ニックネームを変更</RenameColonist>
   <!-- EN: Renounce title -->
-  <RenounceTitle>放弃头衔</RenounceTitle>
+  <RenounceTitle>称号を放棄</RenounceTitle>
   <!-- EN: {0} of {1} -->
-  <TitleOfFaction>{1} 的 {0}</TitleOfFaction>
+  <TitleOfFaction>{1}の{0}</TitleOfFaction>
   <!-- EN: This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS} -->
-  <RenounceTitleDescription>这个操作会让{PAWN_nameDef}失去{PAWN_possessive}{TITLE}头衔。放弃这个头衔不会让你得到任何补偿！\n\n这会造成以下效果：\n\n{EFFECTS}</RenounceTitleDescription>
+  <RenounceTitleDescription>これは{PAWN_nameDef}の称号 {TITLE}を失わせます.あなたは称号を放棄させても,なにも損害補償を受けません.\n\n次の影響があります:\n\n{EFFECTS}</RenounceTitleDescription>
   <!-- EN: {PAWN_possessive} will lose these permissions -->
-  <RenounceTitleWillLoosePermits>{PAWN_possessive}将会失去这些权限</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_possessive}は同意を失うでしょう.</RenounceTitleWillLoosePermits>
   <!-- EN: unknown -->
-  <UnknownLower>未知</UnknownLower>
+  <UnknownLower>身元不明</UnknownLower>
   <!-- EN: On -->
-  <On>开</On>
+  <On>On</On>
   <!-- EN: Off -->
-  <Off>关</Off>
+  <Off>Off</Off>
   <!-- EN: Power -->
-  <PowerSwitch_Power>电源</PowerSwitch_Power>
+  <PowerSwitch_Power>電源SW</PowerSwitch_Power>
   <!-- EN: Recreation type tolerances -->
-  <JoyTolerances>娱乐类型厌倦</JoyTolerances>
+  <JoyTolerances>娯楽の飽きられっぽさ</JoyTolerances>
   <!-- EN: Milk fullness -->
-  <MilkFullness>产奶进度</MilkFullness>
+  <MilkFullness>乳量</MilkFullness>
   <!-- EN: Wool growth -->
-  <WoolGrowth>毛发生长进度</WoolGrowth>
+  <WoolGrowth>毛長さ</WoolGrowth>
   <!-- EN: Egg progress -->
-  <EggProgress>产卵/孵化进度</EggProgress>
+  <EggProgress>卵成長</EggProgress>
   <!-- EN: Fertilized -->
-  <Fertilized>已受精</Fertilized>
+  <Fertilized>受精した</Fertilized>
   <!-- EN: Progress stopped until fertilized -->
-  <ProgressStoppedUntilFertilized>停止产卵（需要受精）</ProgressStoppedUntilFertilized>
+  <ProgressStoppedUntilFertilized>受精するまで成長停止</ProgressStoppedUntilFertilized>
   <!-- EN: need {0} level {2}, have {1} -->
-  <SkillTooLow>至少需要 {2} 级 {0} 技能，当前为 {1} 级</SkillTooLow>
+  <SkillTooLow>{0} には {2} 必要ですが, {1} しかありません</SkillTooLow>
   <!-- EN: Freezing -->
-  <Freezing>过冷</Freezing>
+  <Freezing>冷凍</Freezing>
   <!-- EN: Overheating -->
-  <Overheating>过热</Overheating>
+  <Overheating>オーバーヒート</Overheating>
   <!-- EN: Ruined by temperature. -->
-  <RuinedByTemperature>因极端温度受损。</RuinedByTemperature>
+  <RuinedByTemperature>温度管理に失敗してダメになった</RuinedByTemperature>
   <!-- EN: Missing body parts -->
-  <CorpsePercentMissing>身体部位缺失</CorpsePercentMissing>
+  <CorpsePercentMissing>欠損した身体</CorpsePercentMissing>
   <!-- EN: Reproduces in -->
-  <HiveReproducesIn>巢穴繁殖时间</HiveReproducesIn>
+  <HiveReproducesIn>繁殖まで残り</HiveReproducesIn>
   <!-- EN: Dormant: Not reproducing. -->
-  <DormantHiveNotReproducing>休眠: 停止繁殖。</DormantHiveNotReproducing>
+  <DormantHiveNotReproducing>休眠状態: 再生していない</DormantHiveNotReproducing>
   <!-- EN: Next {0} in -->
-  <NextSpawnedItemIn>下一{0}</NextSpawnedItemIn>
+  <NextSpawnedItemIn>次は {0}</NextSpawnedItemIn>
   <!-- EN: Next resource in -->
-  <NextSpawnedResourceIn>下一个资源</NextSpawnedResourceIn>
+  <NextSpawnedResourceIn>次の資源</NextSpawnedResourceIn>
   <!-- EN: Broken down -->
-  <BrokenDown>故障</BrokenDown>
+  <BrokenDown>故障中</BrokenDown>
   <!-- EN: (bond) -->
-  <BondBrackets>（牵绊）</BondBrackets>
+  <BondBrackets>(絆)</BondBrackets>
   <!-- EN: Fuel -->
   <Fuel>燃料</Fuel>
   <!-- EN: Fuel -->
   <FuelLevelGizmoLabel>燃料</FuelLevelGizmoLabel>
   <!-- EN: Set target fuel level to {0} -->
-  <SetTargetFuelLevel>设定目标燃料量至{0}</SetTargetFuelLevel>
+  <SetTargetFuelLevel>燃料積載量を {0}に設定</SetTargetFuelLevel>
   <!-- EN: Set target fuel level to {0}\nMax distance: {1} tiles -->
-  <SetPodLauncherTargetFuelLevel>设定目标燃料量至{0}\n最大射程: {1} 地图格</SetPodLauncherTargetFuelLevel>
+  <SetPodLauncherTargetFuelLevel>燃料積載量を {0}に設定\n航続距離: {1} タイル</SetPodLauncherTargetFuelLevel>
   <!-- EN: Target fuel level: {0} -->
-  <ConfiguredTargetFuelLevel>目标燃料量: {0}</ConfiguredTargetFuelLevel>
+  <ConfiguredTargetFuelLevel>目標の燃料積載量: {0}</ConfiguredTargetFuelLevel>
   <!-- EN: enemies -->
-  <Enemies>敌人</Enemies>
+  <Enemies>敵</Enemies>
   <!-- EN: time passed -->
-  <TimePassed>用时</TimePassed>
+  <TimePassed>経過時間</TimePassed>
   <!-- EN: current radius -->
-  <CurrentRadius>当前半径</CurrentRadius>
+  <CurrentRadius>現在の範囲</CurrentRadius>
   <!-- EN: radius expands in -->
-  <RadiusExpandsIn>扩大半径至</RadiusExpandsIn>
+  <RadiusExpandsIn>範囲 拡張中</RadiusExpandsIn>
   <!-- EN: permanent -->
   <Permanent>永久</Permanent>
   <!-- EN: Resting -->
-  <CaravanResting>休息中。</CaravanResting>
+  <CaravanResting>休息中</CaravanResting>
   <!-- EN: using 1 bedroll -->
-  <UsingBedroll>使用一个睡袋</UsingBedroll>
+  <UsingBedroll>寝袋を１つ使う</UsingBedroll>
   <!-- EN: using {0} bedrolls -->
-  <UsingBedrolls>使用{0}个睡袋</UsingBedrolls>
+  <UsingBedrolls>寝袋を{0}個使う</UsingBedrolls>
   <!-- EN: Est. time to destination: {0} days -->
-  <CaravanEstimatedTimeToDestination>预计抵达耗时：{0}</CaravanEstimatedTimeToDestination>
+  <CaravanEstimatedTimeToDestination>到着予定時刻: {0}</CaravanEstimatedTimeToDestination>
   <!-- EN: Route travel time: {0} days -->
-  <CaravanEstimatedDaysToDestination>行程时间：{0}</CaravanEstimatedDaysToDestination>
+  <CaravanEstimatedDaysToDestination>経路移動時間: {0}日</CaravanEstimatedDaysToDestination>
   <!-- EN: Immobilized: Too much weight. -->
-  <CaravanImmobilizedByMass>无法移动: 货物过重</CaravanImmobilizedByMass>
+  <CaravanImmobilizedByMass>行動不能: 過積載</CaravanImmobilizedByMass>
   <!-- EN: Out of food. -->
-  <CaravanOutOfFood>给养耗尽。</CaravanOutOfFood>
+  <CaravanOutOfFood>食料切れ</CaravanOutOfFood>
   <!-- EN: Days of food: {0} -->
-  <CaravanDaysOfFood>给养天数: {0}</CaravanDaysOfFood>
+  <CaravanDaysOfFood>食料: {0} 日分</CaravanDaysOfFood>
   <!-- EN: Days of food: {0} (rot in {1} days) -->
-  <CaravanDaysOfFoodRot>给养天数: {0}（{1}天后变质）</CaravanDaysOfFoodRot>
+  <CaravanDaysOfFoodRot>食料: {0} 日分 (腐敗まで{1}日)</CaravanDaysOfFoodRot>
   <!-- EN: Stopped because: Everyone is downed. -->
-  <AllCaravanMembersDowned>停止原因: 全员无行动能力。</AllCaravanMembersDowned>
+  <AllCaravanMembersDowned>行動不能: 全員が意識不明</AllCaravanMembersDowned>
   <!-- EN: Stopped because: Everyone is in a mental break. -->
-  <AllCaravanMembersMentalBreak>停止原因: 全员精神崩溃。</AllCaravanMembersMentalBreak>
+  <AllCaravanMembersMentalBreak>行動不能: 全員が精神崩壊</AllCaravanMembersMentalBreak>
   <!-- EN: {0} {1} -->
   <CaravanColonistsCount>{0} {1}</CaravanColonistsCount>
   <!-- EN: 1 animal -->
-  <CaravanAnimal>1 动物</CaravanAnimal>
+  <CaravanAnimal>1 匹</CaravanAnimal>
   <!-- EN: {0} animals -->
-  <CaravanAnimalsCount>{0} 动物</CaravanAnimalsCount>
+  <CaravanAnimalsCount>{0} 匹</CaravanAnimalsCount>
   <!-- EN: 1 prisoner -->
-  <CaravanPrisoner>1 囚犯</CaravanPrisoner>
+  <CaravanPrisoner>1 人</CaravanPrisoner>
   <!-- EN: {0} prisoners -->
-  <CaravanPrisonersCount>{0} 囚犯</CaravanPrisonersCount>
+  <CaravanPrisonersCount>{0} 人</CaravanPrisonersCount>
   <!-- EN: {0} in mental state -->
-  <CaravanPawnsInMentalState>{0} 已精神崩溃</CaravanPawnsInMentalState>
+  <CaravanPawnsInMentalState>{0}の精神状態</CaravanPawnsInMentalState>
   <!-- EN: {0} downed -->
-  <CaravanPawnsDowned>{0} 已倒地</CaravanPawnsDowned>
+  <CaravanPawnsDowned>{0} 意識不明</CaravanPawnsDowned>
   <!-- EN: Traveling. -->
-  <CaravanTraveling>行进中。</CaravanTraveling>
+  <CaravanTraveling>移動中</CaravanTraveling>
   <!-- EN: Waiting. -->
-  <CaravanWaiting>等待中。</CaravanWaiting>
+  <CaravanWaiting>待機中</CaravanWaiting>
   <!-- EN: Being carried due to illness -->
-  <BeingCarriedDueToIllness>因生病而被携带</BeingCarriedDueToIllness>
+  <BeingCarriedDueToIllness>病気により担架で運搬</BeingCarriedDueToIllness>
   <!-- EN: Using bedrolls due to illness -->
-  <UsingBedrollsDueToIllness>因生病而使用睡袋</UsingBedrollsDueToIllness>
+  <UsingBedrollsDueToIllness>病気により寝袋を使用</UsingBedrollsDueToIllness>
   <!-- EN: Current tile movement time -->
-  <CurrentTileMovementTime>当前地图格移动耗时</CurrentTileMovementTime>
+  <CurrentTileMovementTime>現タイルの移動時間</CurrentTileMovementTime>
   <!-- EN: Visibility -->
-  <Visibility>可见度</Visibility>
+  <Visibility>見つけられ易さ</Visibility>
   <!-- EN: Temperature -->
   <Temperature>温度</Temperature>
   <!-- EN: bad temperature -->
-  <BadTemperature>温度不适宜</BadTemperature>
+  <BadTemperature>温度が適していない</BadTemperature>
   <!-- EN: Ideal fermenting temperature -->
-  <IdealFermentingTemperature>理想发酵温度</IdealFermentingTemperature>
+  <IdealFermentingTemperature>理想的な発酵温度</IdealFermentingTemperature>
   <!-- EN: {0} effect multiplier: {1} -->
-  <DrugEffectMultiplier>{0}效果乘数: {1}</DrugEffectMultiplier>
+  <DrugEffectMultiplier>{0} 効果掛け率: {1}</DrugEffectMultiplier>
   <!-- EN: Visiting {0}. -->
-  <CaravanVisiting>正在拜访{0}。</CaravanVisiting>
+  <CaravanVisiting>訪問中 {0}</CaravanVisiting>
   <!-- EN: Entering {0}. -->
-  <CaravanEntering>正在进入{0}。</CaravanEntering>
+  <CaravanEntering>参加中 {0}</CaravanEntering>
   <!-- EN: Attacking {0}. -->
-  <CaravanAttacking>正在进攻{0}。</CaravanAttacking>
+  <CaravanAttacking>攻撃中 {0}</CaravanAttacking>
   <!-- EN: Offering gifts to {0}. -->
-  <CaravanOfferingGifts>正在对{0}赠礼。</CaravanOfferingGifts>
+  <CaravanOfferingGifts>{0}へ貢ぎ物を申し入れる</CaravanOfferingGifts>
   <!-- EN: Trading with {0} -->
-  <CaravanTrading>使用{0}进行交易</CaravanTrading>
+  <CaravanTrading>貿易中 {0}</CaravanTrading>
   <!-- EN: Tainted from being worn by a corpse. -->
-  <WasWornByCorpse>死者衣物</WasWornByCorpse>
+  <WasWornByCorpse>死体が着用して穢れた</WasWornByCorpse>
   <!-- EN: T -->
-  <WornByCorpseChar>亡</WornByCorpseChar>
+  <WornByCorpseChar>霊</WornByCorpseChar>
   <!-- EN: unroofed -->
-  <DeterioratingUnroofed>露天</DeterioratingUnroofed>
+  <DeterioratingUnroofed>屋根無し</DeterioratingUnroofed>
   <!-- EN: outdoors -->
-  <DeterioratingOutdoors>户外</DeterioratingOutdoors>
+  <DeterioratingOutdoors>屋外</DeterioratingOutdoors>
   <!-- EN: Deteriorating because of -->
-  <DeterioratingBecauseOf>老化中，由于</DeterioratingBecauseOf>
+  <DeterioratingBecauseOf>劣化中</DeterioratingBecauseOf>
   <!-- EN: Map -->
-  <Map>地图</Map>
+  <Map>地図</Map>
   <!-- EN: {0} until enemies arrive -->
-  <CaravanDetectedRaidCountdown>{0}直到敌人到达</CaravanDetectedRaidCountdown>
+  <CaravanDetectedRaidCountdown>敵が到着するまで残り{0}</CaravanDetectedRaidCountdown>
   <!-- EN: Enemy reinforcements will arrive in this area in {0}. -->
-  <CaravanDetectedRaidCountdownTip>敌军增援部队将在{0}内到达本区域</CaravanDetectedRaidCountdownTip>
+  <CaravanDetectedRaidCountdownTip>{0}後に敵の増援がこのエリアに到着します.</CaravanDetectedRaidCountdownTip>
   <!-- EN: Room -->
-  <Room>房间</Room>
+  <Room>部屋</Room>
   <!-- EN: Beauty here -->
-  <BeautyHere>此处美观度</BeautyHere>
+  <BeautyHere>美しい...</BeautyHere>
   <!-- EN: No power -->
-  <NoPower>未通电</NoPower>
+  <NoPower>電力喪失</NoPower>
   <!-- EN: Work speed penalty -->
-  <WorkSpeedPenalty>工作速度惩罚</WorkSpeedPenalty>
+  <WorkSpeedPenalty>作業速度が低下</WorkSpeedPenalty>
   <!-- EN: DISABLED -->
-  <DisabledCommand>禁用</DisabledCommand>
+  <DisabledCommand>無効</DisabledCommand>
   <!-- EN: Ready for launch. -->
-  <ReadyForLaunch>可发射</ReadyForLaunch>
+  <ReadyForLaunch>発射準備完了</ReadyForLaunch>
   <!-- EN: Not ready for launch -->
-  <NotReadyForLaunch>不可发射</NotReadyForLaunch>
+  <NotReadyForLaunch>発射準備中</NotReadyForLaunch>
   <!-- EN: no fueling port -->
-  <NotAllInGroupConnectedToFuelingPort>缺少燃料供给端</NotAllInGroupConnectedToFuelingPort>
+  <NotAllInGroupConnectedToFuelingPort>燃料が未接続</NotAllInGroupConnectedToFuelingPort>
   <!-- EN: no fuel -->
-  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>燃料不足</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
+  <NotAllFuelingPortSourcesInGroupHaveAnyFuel>燃料無し</NotAllFuelingPortSourcesInGroupHaveAnyFuel>
   <!-- EN: loading in progress -->
-  <TransportPodInGroupHasSomethingLeftToLoad>装载未完成</TransportPodInGroupHasSomethingLeftToLoad>
+  <TransportPodInGroupHasSomethingLeftToLoad>積み込み中</TransportPodInGroupHasSomethingLeftToLoad>
   <!-- EN: Beyond maximum range -->
-  <TransportPodDestinationBeyondMaximumRange>目标超出射程</TransportPodDestinationBeyondMaximumRange>
+  <TransportPodDestinationBeyondMaximumRange>最大航続距離を超えた</TransportPodDestinationBeyondMaximumRange>
   <!-- EN: Not enough fuel -->
-  <TransportPodNotEnoughFuel>燃料不足</TransportPodNotEnoughFuel>
+  <TransportPodNotEnoughFuel>燃料が不十分</TransportPodNotEnoughFuel>
   <!-- EN: {0} of {1} -->
-  <SettlementTrader>{1} 的 {0}</SettlementTrader>
+  <SettlementTrader>{1}の{0}</SettlementTrader>
   <!-- EN: Surgery success chance multiplier from room -->
-  <RoomSurgerySuccessChanceFactor>房间手术成功率系数</RoomSurgerySuccessChanceFactor>
+  <RoomSurgerySuccessChanceFactor>部屋:手術成功率への掛け率</RoomSurgerySuccessChanceFactor>
   <!-- EN: Infection chance multiplier from room -->
-  <RoomInfectionChanceFactor>房间治疗感染率系数</RoomInfectionChanceFactor>
+  <RoomInfectionChanceFactor>部屋:感染率への掛け率</RoomInfectionChanceFactor>
   <!-- EN: Closed -->
-  <VentClosed>已关闭</VentClosed>
+  <VentClosed>閉</VentClosed>
   <!-- EN: worn by {1_labelShort} -->
-  <WornBy>由{1_labelShort}穿戴</WornBy>
+  <WornBy>{1_labelShort}が着ている</WornBy>
   <!-- EN: equipped by {1_labelShort} -->
-  <EquippedBy>由{1_labelShort}装备</EquippedBy>
+  <EquippedBy>{1_labelShort}が装備している</EquippedBy>
   <!-- EN: {0} wants this destroyed.\n    Reward: {1} ({2}) -->
-  <QuestTargetDestroyInspectString>{0}想要摧毁此处。\n报酬: {1}({2})。</QuestTargetDestroyInspectString>
+  <QuestTargetDestroyInspectString>{0}は,これの破壊を求めている.\n    報償: {1} ({2})</QuestTargetDestroyInspectString>
   <!-- EN: {0} wants this destroyed. -->
-  <QuestTargetDestroyInspectStringShort>{0}希望摧毁它。</QuestTargetDestroyInspectStringShort>
+  <QuestTargetDestroyInspectStringShort>{0}は,これの破壊を求めている.</QuestTargetDestroyInspectStringShort>
   <!-- EN: Departing on shuttle in {0} -->
-  <ShuttleDelayInspectString>于{0}内搭乘穿梭机离开。</ShuttleDelayInspectString>
+  <ShuttleDelayInspectString>{0}後にシャトルで出発</ShuttleDelayInspectString>
   <!-- EN: Departing in {0} -->
-  <ShuttleLeaveDelayInspectString>{0}内离开。</ShuttleLeaveDelayInspectString>
+  <ShuttleLeaveDelayInspectString>{0}後に出発</ShuttleLeaveDelayInspectString>
   <!-- EN: Should depart on shuttle -->
-  <ShouldDepartOnShuttleInspectString>将搭乘穿梭机离开。</ShouldDepartOnShuttleInspectString>
+  <ShouldDepartOnShuttleInspectString>シャトルで出発する必要がある</ShouldDepartOnShuttleInspectString>
   <!-- EN: Time left: {0} -->
-  <WorldObjectTimeout>剩余时间: {0}</WorldObjectTimeout>
+  <WorldObjectTimeout>残り時間: {0}</WorldObjectTimeout>
   <!-- EN: Click to sort by this column. -->
-  <ClickToSortByThisColumn>点击以根据此栏排列。</ClickToSortByThisColumn>
+  <ClickToSortByThisColumn>この列でソートする</ClickToSortByThisColumn>
   <!-- EN: Shift + click: Increase priority\nShift + right click: Decrease priority -->
-  <WorkPriorityShiftClickTip>Shift + 左键点击: 提升优先级\nShift + 右键点击: 降低优先级</WorkPriorityShiftClickTip>
+  <WorkPriorityShiftClickTip>Shift + click:優先順位を上げる\nShift + right click: 優先順位を下げる</WorkPriorityShiftClickTip>
   <!-- EN: Shift + click: Enable all\nShift + right click: Disable all -->
-  <WorkPriorityShiftClickEnableDisableTip>Shift + 左键点击: 勾选全部\nShift + 右键点击: 取消全部</WorkPriorityShiftClickEnableDisableTip>
+  <WorkPriorityShiftClickEnableDisableTip>Shift + click: 全有効\nShift + right click: 全無効</WorkPriorityShiftClickEnableDisableTip>
   <!-- EN: Shift + click: Set all to home\nShift + right click: Set all to unrestricted -->
-  <AllowedAreaShiftClickTip>Shift + 左键点击: 全部设置为居住区\nShift + 右键点击: 全部设置为无限制</AllowedAreaShiftClickTip>
+  <AllowedAreaShiftClickTip>Shift + click: 全コロニー\nShift + right click: 全無制限</AllowedAreaShiftClickTip>
   <!-- EN: Shift + click: Check all\nShift + right click: Uncheck all -->
-  <CheckboxShiftClickTip>Shift + 左键点击: 勾选全部\nShift + 右键点击: 取消全部</CheckboxShiftClickTip>
+  <CheckboxShiftClickTip>Shift + click: 全選択\nShift + right click: 全無選択</CheckboxShiftClickTip>
   <!-- EN: {0} {1} -->
-  <KnownSiteThreatEnemyCountAppend> {0} {1} </KnownSiteThreatEnemyCountAppend>
+  <KnownSiteThreatEnemyCountAppend>{0} {1}</KnownSiteThreatEnemyCountAppend>
   <!-- EN: Skill Requirements -->
-  <SkillRequirements>技能要求</SkillRequirements>
+  <SkillRequirements>必要スキル</SkillRequirements>
   <!-- EN: Products -->
-  <Products>产物</Products>
+  <Products>製品</Products>
   <!-- EN: {0} of {1} -->
-  <Relationship>{1} 的 {0}</Relationship>
+  <Relationship>{1}の{0}</Relationship>
   <!-- EN: Prisoner -->
-  <Prisoner>囚犯</Prisoner>
+  <Prisoner>囚人</Prisoner>
   <!-- EN: Refugee -->
-  <Refugee>难民</Refugee>
+  <Refugee>亡命者</Refugee>
   <!-- EN: Terrain movement difficulty -->
-  <TileMovementDifficulty>地形移动难度</TileMovementDifficulty>
+  <TileMovementDifficulty>地形-移動速度</TileMovementDifficulty>
   <!-- EN: Impassable -->
-  <Impassable>不可通行</Impassable>
+  <Impassable>通行不能</Impassable>
   <!-- EN: Caravan movement speed -->
-  <CaravanMovementSpeedFull>远行队移动速度</CaravanMovementSpeedFull>
+  <CaravanMovementSpeedFull>キャラバン隊移動速度</CaravanMovementSpeedFull>
   <!-- EN: downed -->
-  <DownedLower>已倒地</DownedLower>
+  <DownedLower>意識不明</DownedLower>
   <!-- EN: resting -->
-  <Carried>休息中</Carried>
+  <Carried>担架</Carried>
   <!-- EN: Avg. person move speed -->
-  <AverageCaravanMemberMoveSpeed>人员平均移动速度</AverageCaravanMemberMoveSpeed>
+  <AverageCaravanMemberMoveSpeed>人 平均移動速度</AverageCaravanMemberMoveSpeed>
   <!-- EN: Multiplier for carried mass: {0} -->
-  <MultiplierForCarriedMass>已搬运质量乘数：{0}</MultiplierForCarriedMass>
+  <MultiplierForCarriedMass>積載重量による掛け率: {0}</MultiplierForCarriedMass>
   <!-- EN: Caravan members speed -->
-  <FinalCaravanPawnsMovementSpeed>远行队成员速度：</FinalCaravanPawnsMovementSpeed>
+  <FinalCaravanPawnsMovementSpeed>キャラバン隊メンバー速度</FinalCaravanPawnsMovementSpeed>
   <!-- EN: Final speed -->
-  <FinalCaravanMovementSpeed>最终速度：</FinalCaravanMovementSpeed>
+  <FinalCaravanMovementSpeed>最終的な速度</FinalCaravanMovementSpeed>
   <!-- EN: Winter -->
-  <Winter>冬天</Winter>
+  <Winter>冬季</Winter>
   <!-- EN: {0} in winter -->
-  <MovementDifficultyOffsetInWinter>{0} 在冬天</MovementDifficultyOffsetInWinter>
+  <MovementDifficultyOffsetInWinter>冬季間 {0}</MovementDifficultyOffsetInWinter>
   <!-- EN: to -->
-  <RangeTo>到</RangeTo>
+  <RangeTo>～</RangeTo>
   <!-- EN: No letter -->
-  <NoDietCategoryLetter>无类型</NoDietCategoryLetter>
+  <NoDietCategoryLetter>(無印)</NoDietCategoryLetter>
   <!-- EN: Expires in -->
-  <ExpiresIn>剩余时间</ExpiresIn>
+  <ExpiresIn>有効期限</ExpiresIn>
   <!-- EN: {1_labelShort}'s caravan -->
-  <CaravanLeaderCaravanName>{1_labelShort}的远行队</CaravanLeaderCaravanName>
+  <CaravanLeaderCaravanName>{1_labelShort}のキャラバン隊</CaravanLeaderCaravanName>
   <!-- EN: Reason -->
-  <Reason>原因</Reason>
+  <Reason>理由</Reason>
   <!-- EN: Relations with {0} -->
-  <RelationsWith>与{0}的关系</RelationsWith>
+  <RelationsWith>{0}との関係性</RelationsWith>
   <!-- EN: captured by {0} -->
-  <capturedBy>被{0}俘虏</capturedBy>
+  <capturedBy>{0}によって捕獲</capturedBy>
   <!-- EN: your caravan -->
-  <yourCaravan>你的远行队</yourCaravan>
+  <yourCaravan>あなたのキャラバン隊</yourCaravan>
   <!-- EN: {0} wildness -->
-  <CreatureWildness>{0} 野性</CreatureWildness>
+  <CreatureWildness>{0} 野生</CreatureWildness>
   <!-- EN: {0} trainability -->
-  <CreatureTrainability>{0} 可训练度</CreatureTrainability>
+  <CreatureTrainability>{0} 訓練しやすさ</CreatureTrainability>
   <!-- EN: Follow master while drafted -->
-  <CreatureFollowDrafted>当主人被征召时跟随</CreatureFollowDrafted>
+  <CreatureFollowDrafted>主人の徴兵時に追従する</CreatureFollowDrafted>
   <!-- EN: Follow master while doing field work -->
-  <CreatureFollowFieldwork>当主人正在进行野外工作时跟随</CreatureFollowFieldwork>
+  <CreatureFollowFieldwork>主人のフィールドワーク時に追従する</CreatureFollowFieldwork>
   <!-- EN: {0} with {1} -->
-  <ProximitySingleGoodwillChange>{0}与{1}</ProximitySingleGoodwillChange>
+  <ProximitySingleGoodwillChange>{1}との有効値 {0}</ProximitySingleGoodwillChange>
   <!-- EN: Too dangerous to re-enter for {0}. -->
-  <EnterCooldown>还有{0}天才能再次进入。</EnterCooldown>
+  <EnterCooldown>危険すぎるため,{0}経過するまで再侵入できません.</EnterCooldown>
   <!-- EN: Caravan -->
-  <Caravan>远行队</Caravan>
+  <Caravan>キャラバン隊</Caravan>
   <!-- EN: there may be danger there. -->
-  <HiddenOrNoSitePartDescription>那里可能有危险。</HiddenOrNoSitePartDescription>
+  <HiddenOrNoSitePartDescription>ここは危険な気がする</HiddenOrNoSitePartDescription>
   <!-- EN: The scanner is picking up activity around the lump. It's likely hostile. -->
-  <PreciousLumpHostileThreat>扫描仪正在探测矿区附近的活动，它可能是敌对的。</PreciousLumpHostileThreat>
+  <PreciousLumpHostileThreat>スキャナーは鉱脈の周囲に活動的な何かを検出しています.恐らくそれは敵対的でしょう.</PreciousLumpHostileThreat>
   <!-- EN: lump of {0} -->
-  <PreciousLumpLabel>{0}块</PreciousLumpLabel>
+  <PreciousLumpLabel>{0}の鉱脈</PreciousLumpLabel>
   <!-- EN: no active research project -->
-  <NoActiveResearchProjectToFinish>没有正在进行的研究项目</NoActiveResearchProjectToFinish>
+  <NoActiveResearchProjectToFinish>何も研究項目を決めてません</NoActiveResearchProjectToFinish>
   <!-- EN: turret -->
-  <Turret>炮塔</Turret>
+  <Turret>タレット</Turret>
   <!-- EN: turrets -->
-  <Turrets>炮塔群</Turrets>
+  <Turrets>タレット群</Turrets>
   <!-- EN: mortar -->
-  <Mortar>迫击炮</Mortar>
+  <Mortar>迫撃砲</Mortar>
   <!-- EN: mortars -->
-  <Mortars>迫击炮群</Mortars>
+  <Mortars>迫撃砲群</Mortars>
   <!-- EN: enemy -->
-  <Enemy>敌人</Enemy>
+  <Enemy>敵対者</Enemy>
   <!-- EN: location -->
-  <Location>位置</Location>
+  <Location>場所</Location>
   <!-- EN: animals -->
-  <AnimalsLower>动物</AnimalsLower>
+  <AnimalsLower>動物</AnimalsLower>
   <!-- EN: {0} x{1} -->
-  <FilthLabel>{0} x{1}</FilthLabel>
+  <FilthLabel>{0}x{1}</FilthLabel>
   <!-- EN: {0} of {1} x{2} -->
-  <FilthLabelWithSource>{1} 的 {0} x{2} </FilthLabelWithSource>
+  <FilthLabelWithSource>{1}の{0}x{2}</FilthLabelWithSource>
   <!-- EN: Required -->
-  <Required>必需</Required>
+  <Required>必須</Required>
   <!-- EN: Warning: You cannot complete trade requests by using transport pods.\nIf you send the goods, the settlement will accept them as gifts but they will not reward you.\n\nFor trading, approach the settlement with a caravan!\n\nAre you sure you want to gift the loaded goods to the faction? -->
-  <GiveGiftViaTransportPodsTradeRequestWarning>警告：你无法使用空投舱完成交易请求。\n如果发射这批货物，目标基地会将其作为礼物而非交易品接收\n\n如果你希望交易，请以远行队形式访问目标基地！\n\n你确定要将装好的礼物送给目标派系吗？</GiveGiftViaTransportPodsTradeRequestWarning>
+  <GiveGiftViaTransportPodsTradeRequestWarning>警告：あなたは輸送ポッドを使ったトレード要求を完了することはできません.\nたとえ,あなたが品物を送り,その集落が,それを贈り物として受け入れたとしても,彼らは,何ひとつとして,あなたに報酬を渡さないでしょう.\n\n 取引するにはキャラバン隊を送ってアプローチしてください!\n\n本当に積み込んだ荷物を,この派閥へ贈りたいのですか？</GiveGiftViaTransportPodsTradeRequestWarning>
   <!-- EN: prisoner -->
-  <PrisonerLower>囚犯</PrisonerLower>
+  <PrisonerLower>囚人</PrisonerLower>
   <!-- EN: prisoners -->
-  <PrisonersLower>囚犯</PrisonersLower>
+  <PrisonersLower>囚人</PrisonersLower>
   <!-- EN: Click to view this quest in quests tab -->
-  <ClickToViewInQuestsTab>单击以在“任务”选项卡中查看此任务</ClickToViewInQuestsTab>
+  <ClickToViewInQuestsTab>クリックでクエストタブからこのクエストを見る</ClickToViewInQuestsTab>
   <!-- EN: Mood -->
   <Mood>心情</Mood>
   <!-- EN: Quest -->
-  <Quest>任务</Quest>
+  <Quest>クエスト</Quest>
   <!-- EN: Brings raids every {0} -->
-  <BringsRaidsEvery>每{0}产生一次袭击</BringsRaidsEvery>
+  <BringsRaidsEvery>{0}毎に襲撃</BringsRaidsEvery>
   <!-- EN: Generates {0} every {1} -->
-  <GeneratesResourcesEvery>每{1}生成{0}</GeneratesResourcesEvery>
+  <GeneratesResourcesEvery>{1}毎に{0}を産出</GeneratesResourcesEvery>
   <!-- EN: Foliage kill radius -->
-  <FoliageKillRadius>植物杀死半径</FoliageKillRadius>
+  <FoliageKillRadius>枯病 殺傷範囲</FoliageKillRadius>
   <!-- EN: Radius expand rate -->
-  <RadiusExpandRate>半径扩展率</RadiusExpandRate>
+  <RadiusExpandRate>範囲拡張速度</RadiusExpandRate>
   <!-- EN: View: {0} -->
-  <ViewHyperlink>超链接：{0}</ViewHyperlink>
+  <ViewHyperlink>{0}を表示</ViewHyperlink>
   <!-- EN: Detonates in {0} days -->
-  <DetonationCountdown>在{0}天内触发</DetonationCountdown>
+  <DetonationCountdown>爆発まで{0}日</DetonationCountdown>
   <!-- EN: Large explosion if damaged -->
-  <ExplosionOnDamageWarning>若损坏会发生大爆炸</ExplosionOnDamageWarning>
+  <ExplosionOnDamageWarning>被ダメージ時に大きく爆発</ExplosionOnDamageWarning>
   <!-- EN: Mech cluster -->
-  <MechCluster>机械集群</MechCluster>
+  <MechCluster>メカクラスター</MechCluster>
   <!-- EN: Spawning in {0} -->
-  <SpawningNextPawnIn>生成{0}</SpawningNextPawnIn>
+  <SpawningNextPawnIn>{0}後にスポーン</SpawningNextPawnIn>
   <!-- EN: {0} assembly completes in {1}. -->
-  <MechAssemblyCompleteIn>{0}在{1}中装配完成。</MechAssemblyCompleteIn>
+  <MechAssemblyCompleteIn>{1}後に{0}の組み立てが完了します.</MechAssemblyCompleteIn>
   <!-- EN: Will assemble -->
-  <MechAssemblyNextType>将装配</MechAssemblyNextType>
+  <MechAssemblyNextType>組み立てる機体</MechAssemblyNextType>
   <!-- EN: produced -->
-  <ThingsProduced>产生</ThingsProduced>
+  <ThingsProduced>生産された量</ThingsProduced>
   <!-- EN: harvested -->
-  <PlantsHarvested>收获</PlantsHarvested>
+  <PlantsHarvested>収穫された量</PlantsHarvested>
   <!-- EN: {0} killed -->
-  <PawnsKilled>{0}被杀</PawnsKilled>
+  <PawnsKilled>殺した{0}の数</PawnsKilled>
   <!-- EN: Sent {0}, will return in {1} -->
-  <PawnsLent>发送{0}，将返回{1}</PawnsLent>
+  <PawnsLent>{0}を送ると,{1}後に返却されます.</PawnsLent>
   <!-- EN: Dormant -->
   <DormantCompInactive>休眠</DormantCompInactive>
   <!-- EN: Sealed -->
-  <DormantCompSealed>密封</DormantCompSealed>
+  <DormantCompSealed>密閉</DormantCompSealed>
   <!-- EN: Ready to drop mechanoids -->
-  <DormantCompBeacon>准备投放机械族</DormantCompBeacon>
+  <DormantCompBeacon>メカノイド降下準備完了</DormantCompBeacon>
   <!-- EN: Expired -->
-  <DormantCompExpired>已过期</DormantCompExpired>
+  <DormantCompExpired>満了</DormantCompExpired>
   <!-- EN: Initiates in -->
-  <InitiatesIn>初始化于</InitiatesIn>
+  <InitiatesIn>活動開始まで</InitiatesIn>
   <!-- EN: Activates in {0} -->
-  <SendSignalOnCountdownCompTime>在{0}中激活</SendSignalOnCountdownCompTime>
+  <SendSignalOnCountdownCompTime>{0}秒後に起動</SendSignalOnCountdownCompTime>
   <!-- EN: Neural heat -->
-  <PsychicEntropy>心灵熵</PsychicEntropy>
+  <PsychicEntropy>ニューラルヒート</PsychicEntropy>
   <!-- EN: Heat -->
-  <PsychicEntropyShort>心灵熵</PsychicEntropyShort>
+  <PsychicEntropyShort>ヒート</PsychicEntropyShort>
   <!-- EN: {0} pain boost -->
-  <PsychicEntropyPainFocus>{0}疼痛激励</PsychicEntropyPainFocus>
+  <PsychicEntropyPainFocus>{0}苦痛ボーナス</PsychicEntropyPainFocus>
   <!-- EN: radius {0} -->
-  <ConditionCauserRadius>半径{0}</ConditionCauserRadius>
+  <ConditionCauserRadius>半径 {0}</ConditionCauserRadius>
   <!-- EN: low psyfocus -->
-  <LowPsyfocus>低精神力</LowPsyfocus>
+  <LowPsyfocus>サイフォーカスが低い</LowPsyfocus>
   <!-- EN: {0} left -->
-  <DurationLeft>{0}剩余</DurationLeft>
+  <DurationLeft>残り{0}</DurationLeft>
   <!-- EN: Any of -->
-  <AnyOf>任意</AnyOf>
+  <AnyOf>いずれかの</AnyOf>
   <!-- EN: Goodwill -->
-  <Goodwill>好感度</Goodwill>
+  <Goodwill>友好値</Goodwill>
   <!-- EN: reducing resistance of {0_nameIndef} -->
-  <JobReport_ReduceResistance>减少{0_nameIndef}的抵抗</JobReport_ReduceResistance>
+  <JobReport_ReduceResistance>{0_nameIndef}の抵抗を減らす</JobReport_ReduceResistance>
 
   <!-- Scanning -->
   <!-- EN: User scanning speed -->
-  <UserScanAbility>扫描速度</UserScanAbility>
+  <UserScanAbility>スキャン速度</UserScanAbility>
   <!-- EN: Random find interval -->
-  <ScanAverageInterval>发现间隔</ScanAverageInterval>
+  <ScanAverageInterval>ランダムな鉱脈検出の間隔</ScanAverageInterval>
   <!-- EN: Progress to guaranteed find -->
-  <ScanningProgressToGuaranteedFind>扫描进度</ScanningProgressToGuaranteedFind>
+  <ScanningProgressToGuaranteedFind>確実な鉱脈検出までの進捗</ScanningProgressToGuaranteedFind>
   
   <!-- Meditation -->
   <!-- EN: meditating at -->
-  <MeditatingAt>冥想</MeditatingAt>
+  <MeditatingAt>瞑想場所</MeditatingAt>
 
   <!-- Fermentation barrel -->
   <!-- EN: Contains {0} / {1} wort. -->
-  <ContainsWort>装有麦芽汁: {0} / {1}</ContainsWort>
+  <ContainsWort>内容物 {0} / {1} 麦汁</ContainsWort>
   <!-- EN: Contains {0} / {1} beer. -->
-  <ContainsBeer>装有啤酒: {0} / {1}</ContainsBeer>
+  <ContainsBeer>内容物 {0} / {1} ビール</ContainsBeer>
   <!-- EN: Fermented -->
-  <Fermented>发酵完成</Fermented>
+  <Fermented>発酵した</Fermented>
   <!-- EN: Progress: {0} ({1} left) -->
-  <FermentationProgress>进度: {0}（剩余{1}）。</FermentationProgress>
+  <FermentationProgress>発酵中: {0} (残り{1})</FermentationProgress>
   <!-- EN: Non-ideal temperature. Fermentation speed: {0} -->
-  <FermentationBarrelOutOfIdealTemperature>非理想温度，发酵速度: {0}</FermentationBarrelOutOfIdealTemperature>
+  <FermentationBarrelOutOfIdealTemperature>理想的な発酵温度ではありません.発酵速度 掛け率: {0}</FermentationBarrelOutOfIdealTemperature>
 
   <!-- TextMotes -->
   <!-- EN: Headshot -->
-  <Headshot>命中头部</Headshot>
+  <Headshot>ヘッドショット</Headshot>
   <!-- EN: Treatment success!\n{0} chance -->
-  <TextMote_TreatSuccess>治疗成功！\n{0}几率</TextMote_TreatSuccess>
+  <TextMote_TreatSuccess>治療に成功!\n成功率 {0}</TextMote_TreatSuccess>
   <!-- EN: Treatment failed\n{0} chance -->
-  <TextMote_TreatFailed>治疗失败\n{0}几率</TextMote_TreatFailed>
+  <TextMote_TreatFailed>治療に失敗\n成功率 {0}</TextMote_TreatFailed>
   <!-- EN: Harvest\nbotched -->
-  <TextMote_HarvestFailed>收获\n失败</TextMote_HarvestFailed>
+  <TextMote_HarvestFailed>収穫\n失敗</TextMote_HarvestFailed>
   <!-- EN: Yield\nwasted -->
-  <TextMote_YieldWasted>产出\n浪费</TextMote_YieldWasted>
+  <TextMote_YieldWasted>利益\n無駄となる</TextMote_YieldWasted>
   <!-- EN: Product\nwasted -->
-  <TextMote_ProductWasted>产物\n浪费</TextMote_ProductWasted>
+  <TextMote_ProductWasted>生産物\n水の泡となる</TextMote_ProductWasted>
   <!-- EN: Recruit failed!\n{0} chance -->
-  <TextMote_RecruitFail>招募失败\n{0}几率</TextMote_RecruitFail>
+  <TextMote_RecruitFail>勧誘に失敗\n成功率 {0}</TextMote_RecruitFail>
   <!-- EN: Resistance\n{0} to {1} -->
-  <TextMote_ResistanceReduced>抵抗\n{0}到{1}</TextMote_ResistanceReduced>
+  <TextMote_ResistanceReduced>敵対心\n{0} から {1}</TextMote_ResistanceReduced>
   <!-- EN: Tame failed\n{0} chance -->
-  <TextMote_TameFail>驯服失败\n{0}几率</TextMote_TameFail>
+  <TextMote_TameFail>手懐けられなかった\n成功率 {0}</TextMote_TameFail>
   <!-- EN: Tamed!\n{0} chance -->
-  <TextMote_TameSuccess>驯服成功！\n{0}几率</TextMote_TameSuccess>
+  <TextMote_TameSuccess>手懐けた!\n成功率 {0}</TextMote_TameSuccess>
   <!-- EN: Failed training: {0}\n{1} chance -->
-  <TextMote_TrainFail>训练失败: {0}\n{1}几率</TextMote_TrainFail>
+  <TextMote_TrainFail>{0} 調教に失敗\n成功率 {1}</TextMote_TrainFail>
   <!-- EN: Trained: {0}\n{1} chance -->
-  <TextMote_TrainSuccess>训练成功: {0}\n{1}几率</TextMote_TrainSuccess>
+  <TextMote_TrainSuccess>{0} 調教に成功!\n成功率 {1}</TextMote_TrainSuccess>
   <!-- EN: Repair\nbotched -->
-  <TextMote_FixBrokenDownBuildingFail>修复失败</TextMote_FixBrokenDownBuildingFail>
+  <TextMote_FixBrokenDownBuildingFail>修理に失敗</TextMote_FixBrokenDownBuildingFail>
   <!-- EN: Construction\nbotched -->
-  <TextMote_ConstructionFail>建造失败</TextMote_ConstructionFail>
+  <TextMote_ConstructionFail>建築に失敗</TextMote_ConstructionFail>
   <!-- EN: Dodge -->
-  <TextMote_Dodge>闪避</TextMote_Dodge>
+  <TextMote_Dodge>回避</TextMote_Dodge>
   <!-- EN: Immune -->
-  <TextMote_Immune>免疫</TextMote_Immune>
+  <TextMote_Immune>免疫力を発揮</TextMote_Immune>
   <!-- EN: {0} tended -->
-  <TextMote_Tended>{0}已治疗</TextMote_Tended>
+  <TextMote_Tended>{0} 看病された</TextMote_Tended>
   <!-- EN: level {0} -->
-  <TextMote_SkillUp>等级{0}</TextMote_SkillUp>
+  <TextMote_SkillUp>レベル {0}</TextMote_SkillUp>
   <!-- EN: low mood -->
-  <lowMood>心情低落</lowMood>
+  <lowMood>低心情</lowMood>
   <!-- EN: low opinion -->
-  <lowOpinion>看法低下</lowOpinion>
+  <lowOpinion>低評価</lowOpinion>
 
   <!-- Areas -->
   <!-- EN: Home -->
-  <Home>居住区</Home>
+  <Home>コロニー</Home>
   <!-- EN: Build roof -->
-  <BuildRoof>屋顶区</BuildRoof>
+  <BuildRoof>屋根建築</BuildRoof>
   <!-- EN: No roof -->
-  <NoRoof>露天区</NoRoof>
+  <NoRoof>屋根無し</NoRoof>
   <!-- EN: Snow clear -->
-  <SnowClear>除雪区</SnowClear>
+  <SnowClear>除雪済み</SnowClear>
   <!-- EN: Area {0} -->
-  <AreaDefaultLabel>活动区 {0}</AreaDefaultLabel>
+  <AreaDefaultLabel>ゾーン {0}</AreaDefaultLabel>
   <!-- EN: Unrestricted -->
-  <NoAreaAllowed>无限制</NoAreaAllowed>
+  <NoAreaAllowed>無制限</NoAreaAllowed>
   <!-- EN: New area -->
-  <NewArea>新建活动区</NewArea>
+  <NewArea>新しいゾーン</NewArea>
   <!-- EN: Invert -->
-  <InvertArea>反向选择</InvertArea>
+  <InvertArea>反転</InvertArea>
 
   <!-- Control -->
   <!-- EN: Cannot order characters you do not control. -->
-  <CannotOrderNonControlled>无法命令不由你操控的角色。</CannotOrderNonControlled>
+  <CannotOrderNonControlled>操作できないキャラクターです</CannotOrderNonControlled>
   <!-- EN: {1_labelShort} is incapable of violence. -->
-  <IsIncapableOfViolence>{1_labelShort}无法进行暴力行为。</IsIncapableOfViolence>
+  <IsIncapableOfViolence>{1_labelShort} は野蛮なことはできません</IsIncapableOfViolence>
   <!-- EN: incapable of violence -->
-  <IsIncapableOfViolenceShort>无暴力能力</IsIncapableOfViolenceShort>
+  <IsIncapableOfViolenceShort>野蛮なことをしない</IsIncapableOfViolenceShort>
   <!-- EN: {1_labelShort} is not drafted. -->
-  <IsNotDrafted>{1_labelShort}尚未被征召。</IsNotDrafted>
+  <IsNotDrafted>{1_labelShort} は徴兵されていない</IsNotDrafted>
 
   <!-- Snow -->
   <!-- EN: No snow -->
-  <SnowNone>无积雪</SnowNone>
+  <SnowNone>積雪ゼロ</SnowNone>
   <!-- EN: Snow (dusting) -->
-  <SnowDusting>雪（极薄）</SnowDusting>
+  <SnowDusting>粉雪</SnowDusting>
   <!-- EN: Snow (thin) -->
-  <SnowThin>雪（薄）</SnowThin>
+  <SnowThin>積雪(薄)</SnowThin>
   <!-- EN: Snow (medium) -->
-  <SnowMedium>雪（中）</SnowMedium>
+  <SnowMedium>積雪</SnowMedium>
   <!-- EN: Snow (thick) -->
-  <SnowThick>雪（厚）</SnowThick>
+  <SnowThick>積雪(厚)</SnowThick>
 
   <!-- Turrets -->
   <!-- EN: Installed -->
-  <GunInstalled>已安装</GunInstalled>
+  <GunInstalled>武装</GunInstalled>
   <!-- EN: Minimum range -->
-  <MinimumRange>最小距离</MinimumRange>
+  <MinimumRange>砲撃可能最小半径</MinimumRange>
   <!-- EN: Can fire in -->
-  <CanFireIn>剩余冷却时间</CanFireIn>
+  <CanFireIn>射撃可能まで</CanFireIn>
   <!-- EN: Cannot fire -->
-  <CannotFire>无法开火</CannotFire>
+  <CannotFire>発砲できない</CannotFire>
   <!-- EN: roofed -->
-  <Roofed>有屋顶</Roofed>
+  <Roofed>屋根の下</Roofed>
   <!-- EN: Shell loaded: {1_label} -->
-  <ShellLoaded>炮弹已上膛: {1_label}</ShellLoaded>
+  <ShellLoaded>装填済み: {1_label}</ShellLoaded>
   <!-- EN: Not loaded -->
-  <ShellNotLoaded>炮弹未上膛</ShellNotLoaded>
+  <ShellNotLoaded>未装填</ShellNotLoaded>
 
   <!-- Job reports -->
   <!-- EN: hauling {THING_label} to {DESTINATION}. -->
-  <ReportHaulingTo>正在搬运{THING_label}至{DESTINATION}。</ReportHaulingTo>
+  <ReportHaulingTo>{THING_label}を{DESTINATION}に運搬中</ReportHaulingTo>
   <!-- EN: burying {THING_label} in {DESTINATION}. -->
-  <ReportHaulingToGrave>正在将{THING_label}埋入{DESTINATION}。</ReportHaulingToGrave>
+  <ReportHaulingToGrave>{THING_label}を{DESTINATION}に埋葬中</ReportHaulingToGrave>
   <!-- EN: hauling {1_label}. -->
-  <ReportHauling>正在搬运{1_label}。</ReportHauling>
+  <ReportHauling>{1_label}を運搬中</ReportHauling>
   <!-- EN: hauling. -->
-  <ReportHaulingUnknown>正在搬运。</ReportHaulingUnknown>
+  <ReportHaulingUnknown>運搬中</ReportHaulingUnknown>
   <!-- EN: sleeping. -->
-  <ReportSleeping>睡眠中。</ReportSleeping>
+  <ReportSleeping>睡眠中</ReportSleeping>
   <!-- EN: resting. -->
-  <ReportResting>休息中。</ReportResting>
+  <ReportResting>休憩中</ReportResting>
   <!-- EN: watching the sunrise. -->
-  <WatchingSunrise>看日出。</WatchingSunrise>
+  <WatchingSunrise>夜明けを眺めている</WatchingSunrise>
   <!-- EN: cloudwatching. -->
-  <CloudWatching>看云彩。</CloudWatching>
+  <CloudWatching>流れる雲を眺めている</CloudWatching>
   <!-- EN: watching the sunset. -->
-  <WatchingSunset>看日落。</WatchingSunset>
+  <WatchingSunset>陽が沈むのを眺めている</WatchingSunset>
   <!-- EN: stargazing. -->
-  <Stargazing>眺望星空。</Stargazing>
+  <Stargazing>星の瞬きを眺めている</Stargazing>
   <!-- EN: watching the eclipse. -->
-  <WatchingEclipse>看日食。</WatchingEclipse>
+  <WatchingEclipse>月の満ち欠けを眺めている</WatchingEclipse>
   <!-- EN: watching the aurora. -->
-  <WatchingAurora>看极光。</WatchingAurora>
+  <WatchingAurora>オーロラを眺めている</WatchingAurora>
   <!-- EN: using {0} on {1}. -->
-  <UsingVerb>对{1}使用{0}。</UsingVerb>
+  <UsingVerb>{1}に{0}を使う</UsingVerb>
   <!-- EN: using {0}. -->
-  <UsingVerbNoTarget>正在使用{0}。</UsingVerbNoTarget>
+  <UsingVerbNoTarget>{0}を使う</UsingVerbNoTarget>
   <!-- EN: area -->
-  <AreaLower>区域</AreaLower>
+  <AreaLower>ゾーン</AreaLower>
   <!-- EN: cowering. -->
-  <ReportCowering>畏缩。</ReportCowering>
+  <ReportCowering>ちじこまる</ReportCowering>
   <!-- EN: standing. -->
-  <ReportStanding>站立。</ReportStanding>
+  <ReportStanding>立っている</ReportStanding>
   <!-- EN: extinguishing fire. -->
-  <ReportExtinguishingFire>正在扑灭火焰。</ReportExtinguishingFire>
+  <ReportExtinguishingFire>火を消している</ReportExtinguishingFire>
   <!-- EN: extinguishing fire on {TARGET_label}. -->
-  <ReportExtinguishingFireOn>正在扑灭{TARGET_label}上的火焰。</ReportExtinguishingFireOn>
+  <ReportExtinguishingFireOn>{TARGET_label}に点いた火を消している</ReportExtinguishingFireOn>
   <!-- EN: digging up corpse. -->
-  <ReportDiggingUpCorpse>正在挖出尸体。</ReportDiggingUpCorpse>
+  <ReportDiggingUpCorpse>死体を掘り出している</ReportDiggingUpCorpse>
 
   <!-- Lord job reports -->
   <!-- EN: Attending marriage ceremony -->
-  <LordReportAttendingMarriageCeremony>正在参加婚礼。</LordReportAttendingMarriageCeremony>
+  <LordReportAttendingMarriageCeremony>結婚式に参列している</LordReportAttendingMarriageCeremony>
   <!-- EN: Attending party -->
-  <LordReportAttendingParty>正在参加聚会。</LordReportAttendingParty>
+  <LordReportAttendingParty>パーティに参加している</LordReportAttendingParty>
   <!-- EN: Attending concert -->
-  <LordReportAttendingConcert>正在参加音乐会。</LordReportAttendingConcert>
+  <LordReportAttendingConcert>コンサートを聴いている</LordReportAttendingConcert>
   <!-- EN: Holding a concert -->
-  <LordReportHoldingConcert>正在开音乐会。</LordReportHoldingConcert>
+  <LordReportHoldingConcert>コンサートを催している</LordReportHoldingConcert>
   <!-- EN: Giving a speech -->
-  <LordReportGivingSpeech>正在发表演讲</LordReportGivingSpeech>
+  <LordReportGivingSpeech>スピーチをしている</LordReportGivingSpeech>
   <!-- EN: Listening to {ORGANIZER_labelShort}'s speech -->
-  <LordReportListeningSpeech>正在听{ORGANIZER_labelShort}的演讲</LordReportListeningSpeech>
+  <LordReportListeningSpeech>{ORGANIZER_labelShort}にスピーチに耳を傾けている</LordReportListeningSpeech>
   <!-- EN: Forming caravan -->
-  <LordReportFormingCaravan>正在组建远行队。</LordReportFormingCaravan>
+  <LordReportFormingCaravan>キャラバン隊を編成中</LordReportFormingCaravan>
 
   <!-- Shooting report -->
   <!-- EN: Weapon miss radius -->
-  <WeaponMissRadius>武器误差半径</WeaponMissRadius>
+  <WeaponMissRadius>攻撃ミス角度</WeaponMissRadius>
   <!-- EN: Shooter -->
-  <ShootReportShooterAbility>射击者</ShootReportShooterAbility>
+  <ShootReportShooterAbility>射手命中率 -</ShootReportShooterAbility>
   <!-- EN: Weapon -->
-  <ShootReportWeapon>武器</ShootReportWeapon>
+  <ShootReportWeapon>武器修正 -</ShootReportWeapon>
   <!-- EN: Darkness -->
-  <Darkness>黑暗</Darkness>
+  <Darkness>暗がり -</Darkness>
   <!-- EN: Target lying down -->
-  <TargetProne>目标卧倒</TargetProne>
+  <TargetProne>伏せた -</TargetProne>
   <!-- EN: Target size -->
-  <TargetSize>目标大小</TargetSize>
+  <TargetSize>サイズ修正 -</TargetSize>
   <!-- EN: Weather -->
-  <Weather>天气</Weather>
+  <Weather>天候修正 -</Weather>
   <!-- EN: Cover -->
-  <ShootingCover>掩体</ShootingCover>
+  <ShootingCover>カバー -</ShootingCover>
   <!-- EN: {COVER_label} stops {1} -->
-  <CoverThingBlocksPercentOfShots>{COVER_label}阻挡{1}</CoverThingBlocksPercentOfShots>
+  <CoverThingBlocksPercentOfShots>{COVER_label}は{1}低下させる</CoverThingBlocksPercentOfShots>
   <!-- EN: no cover -->
-  <NoCoverLower>无掩体</NoCoverLower>
+  <NoCoverLower>全身が露出</NoCoverLower>
   <!-- EN: Execution -->
-  <Execution>处决</Execution>
+  <Execution>処刑</Execution>
 
   <!-- Generated recipes -->
   <!-- EN: make {0} -->
-  <RecipeMake>制作{0}</RecipeMake>
+  <RecipeMake>{0}を作る</RecipeMake>
   <!-- EN: Make {0}. -->
-  <RecipeMakeDescription>制作{0}。</RecipeMakeDescription>
+  <RecipeMakeDescription>{0}を作ります.</RecipeMakeDescription>
   <!-- EN: Making {0}. -->
-  <RecipeMakeJobString>正在制作{0}。</RecipeMakeJobString>
+  <RecipeMakeJobString>{0}を作っている</RecipeMakeJobString>
   <!-- EN: administer {0} -->
-  <RecipeAdminister>施用{0}</RecipeAdminister>
+  <RecipeAdminister>{0}を投与する</RecipeAdminister>
   <!-- EN: Administering {0}. -->
-  <RecipeAdministerJobString>正在施用{0}。</RecipeAdministerJobString>
+  <RecipeAdministerJobString>{0}を投与中</RecipeAdministerJobString>
   <!-- EN: teetotaler will be unhappy -->
-  <TeetotalerUnhappy>成瘾品厌恶者会变得不开心</TeetotalerUnhappy>
+  <TeetotalerUnhappy>禁酒主義者は不満を持つでしょう</TeetotalerUnhappy>
   <!-- EN: body purist will be unhappy -->
-  <ProsthophobeUnhappy>身体纯粹主义者会变得不开心</ProsthophobeUnhappy>
+  <ProsthophobeUnhappy>自然体主義者は不満を持つでしょう</ProsthophobeUnhappy>
 
   <!-- Thoughts -->
   <!-- EN: Expires in: {0} -->
-  <ThoughtExpiresIn>消逝时间: {0}</ThoughtExpiresIn>
+  <ThoughtExpiresIn>残り日数： {0}</ThoughtExpiresIn>
   <!-- EN: thought disabled by -->
-  <ThoughtNullifiedBy>想法禁用</ThoughtNullifiedBy>
+  <ThoughtNullifiedBy>無効理由</ThoughtNullifiedBy>
   <!-- EN: Starts expiring in: {0} -->
-  <ThoughtStartsExpiringIn>消逝开始时间: {0}</ThoughtStartsExpiringIn>
+  <ThoughtStartsExpiringIn>残り日数： {0}</ThoughtStartsExpiringIn>
   <!-- EN: Finishes expiring in: {0} -->
-  <ThoughtFinishesExpiringIn>消逝结束时间: {0}</ThoughtFinishesExpiringIn>
+  <ThoughtFinishesExpiringIn>有効日数： {0}</ThoughtFinishesExpiringIn>
   <!-- EN: Extreme break threshold -->
-  <MentalBreakThresholdExtreme>重度精神崩溃临界值</MentalBreakThresholdExtreme>
+  <MentalBreakThresholdExtreme>精神崩壊：しきい値</MentalBreakThresholdExtreme>
   <!-- EN: Major break threshold -->
-  <MentalBreakThresholdMajor>中度精神崩溃临界值</MentalBreakThresholdMajor>
+  <MentalBreakThresholdMajor>精神衰弱：しきい値</MentalBreakThresholdMajor>
   <!-- EN: Minor break threshold -->
-  <MentalBreakThresholdMinor>轻度精神崩溃临界值</MentalBreakThresholdMinor>
+  <MentalBreakThresholdMinor>精神変調：しきい値</MentalBreakThresholdMinor>
 
   <!-- Pawn info readout -->
   <!-- EN: {PAWN_gender} {1} -->
-  <PawnMainDescGendered>{PAWN_gender}{1}</PawnMainDescGendered>
+  <PawnMainDescGendered>{PAWN_gender} {1}</PawnMainDescGendered>
   <!-- EN: {0} of {1} -->
-  <PawnMainDescFactionedWrap>来自{1}的{0}</PawnMainDescFactionedWrap>
+  <PawnMainDescFactionedWrap>{1}所属の {0}</PawnMainDescFactionedWrap>
   <!-- EN: {0} in {1} -->
-  <PawnTitleDescWrap>{1}中的{0}</PawnTitleDescWrap>
+  <PawnTitleDescWrap>{1}の{0}</PawnTitleDescWrap>
   <!-- EN: {0} under {1} -->
-  <PawnMainDescUnderFactionedWrap>{1}下属的{0}</PawnMainDescUnderFactionedWrap>
+  <PawnMainDescUnderFactionedWrap>{1}の下の {0}</PawnMainDescUnderFactionedWrap>
   <!-- EN: {0} under {1}\nHome faction: {2} -->
-  <PawnMainDescTempFactionedWrap>{1}下属的{0}\n原派系：{2}</PawnMainDescTempFactionedWrap>
+  <PawnMainDescTempFactionedWrap>{1}の下の {0}\n所属派閥: {2}</PawnMainDescTempFactionedWrap>
   <!-- EN: {2_lifeStageAdjective} {0} -->
   <PawnMainDescLifestageWrap>{2_lifeStageAdjective} {0}</PawnMainDescLifestageWrap>
   <!-- EN: Faction -->
-  <Faction>派系</Faction>
+  <Faction>派閥</Faction>
   <!-- EN: The faction {PAWN_labelShort} currently belongs to. -->
-  <FactionDesc>{PAWN_labelShort}当前所属派系。</FactionDesc>
+  <FactionDesc>{PAWN_labelShort}が現在所属している派閥です.</FactionDesc>
   <!-- EN: The faction {PAWN_labelShort} originally belongs to. -->
-  <ExtraFactionDesc>{PAWN_labelShort}的原属派系。</ExtraFactionDesc>
+  <ExtraFactionDesc>{PAWN_labelShort}が所属していた元の派閥です.</ExtraFactionDesc>
   <!-- EN: Equipped -->
-  <Equipped>装备</Equipped>
+  <Equipped>装備品</Equipped>
   <!-- EN: nothing -->
-  <EquippedNothing>（无）</EquippedNothing>
+  <EquippedNothing>素手</EquippedNothing>
   <!-- EN: Dead -->
   <Dead>死亡</Dead>
   <!-- EN: Unconscious -->
-  <Unconscious>失去知觉</Unconscious>
+  <Unconscious>意識不明</Unconscious>
   <!-- EN: In shock due to pain -->
-  <PainShock>因疼痛而休克</PainShock>
+  <PainShock>痛みでショック</PainShock>
   <!-- EN: Pain shock -->
-  <PainShockShort>疼痛休克</PainShockShort>
+  <PainShockShort>激痛</PainShockShort>
   <!-- EN: Incapacitated -->
-  <Incapacitated>无法行动</Incapacitated>
+  <Incapacitated>倒れている</Incapacitated>
   <!-- EN: In restraints (slowed) -->
-  <InRestraints>关押中（速度减慢）</InRestraints>
+  <InRestraints>拘束中 (移動速度減)</InRestraints>
   <!-- EN: Carrying -->
-  <Carrying>携带</Carrying>
+  <Carrying>運搬中</Carrying>
   <!-- EN: Affected by: -->
-  <AffectedBy>受到以下影响: </AffectedBy>
+  <AffectedBy>原因:</AffectedBy>
   <!-- EN: Queued -->
-  <Queued>等待处理</Queued>
+  <Queued>待ち行列</Queued>
   <!-- EN: State -->
-  <State>状态</State>
+  <State>ステータス</State>
   <!-- EN: stun -->
-  <StunLower>击昏</StunLower>
+  <StunLower>麻痺</StunLower>
 
   <!-- Inspector general stuff -->
   <!-- EN: Select next thing in same square.\n\nShortcut key: {0}\n\nYou can also do this by slowly clicking the same square again. -->
-  <SelectNextInSquareTip>选择当前单元格内的下一件东西。\n\n快捷键: {0}\n\n你也可用鼠标左键慢速重复点击同个单元格来选择下一件物品。</SelectNextInSquareTip>
+  <SelectNextInSquareTip>同じマスにある,別のものを選択します.\n\nショートカットキー: {0}\n\nこれは,間隔を置いて同じマスを クリックした時と同じ動作です.</SelectNextInSquareTip>
   <!-- EN: View information. -->
-  <DefInfoTip>查看信息。</DefInfoTip>
+  <DefInfoTip>オブジェクトの情報を表示する.</DefInfoTip>
 
   <!-- Hostility response -->
   <!-- EN: Change how this person will react to nearby enemies when not drafted. -->
-  <HostilityReponseTip>此人未被征召时遭遇敌人后的反应。</HostilityReponseTip>
+  <HostilityReponseTip>徴兵されていないときに,近くに敵がいるときの,入植者の対応を変更します.</HostilityReponseTip>
   <!-- EN: Current mode -->
-  <HostilityResponseCurrentMode>当前模式</HostilityResponseCurrentMode>
+  <HostilityResponseCurrentMode>現在</HostilityResponseCurrentMode>
 
   <!-- like 'Blood of John' -->
   <!-- EN: of -->
-  <OfLower>来自</OfLower>
+  <OfLower>-</OfLower>
 
   <!-- Power readout -->
   <!-- EN: Not connected to power. -->
-  <PowerNotConnected>未接入电网。</PowerNotConnected>
+  <PowerNotConnected>電力断</PowerNotConnected>
   <!-- EN: Grid excess/stored: {0} W / {1} Wd -->
-  <PowerConnectedRateStored>电网功率/蓄电: {0} W / {1} Wd</PowerConnectedRateStored>
+  <PowerConnectedRateStored>余剰電力 {0} W /蓄電量 {1} Wd</PowerConnectedRateStored>
   <!-- EN: Power needed -->
-  <PowerNeeded>电力消耗</PowerNeeded>
+  <PowerNeeded>消費電力</PowerNeeded>
   <!-- EN: Power output -->
-  <PowerOutput>电力输出</PowerOutput>
+  <PowerOutput>発電量</PowerOutput>
   <!-- EN: Stored -->
-  <PowerBatteryStored>蓄电</PowerBatteryStored>
+  <PowerBatteryStored>蓄電量</PowerBatteryStored>
   <!-- EN: Efficiency -->
-  <PowerBatteryEfficiency>蓄电效率</PowerBatteryEfficiency>
+  <PowerBatteryEfficiency>蓄電効率</PowerBatteryEfficiency>
   <!-- EN: Self-discharging -->
-  <SelfDischarging>自放电</SelfDischarging>
+  <SelfDischarging>自己放電</SelfDischarging>
 
   <!-- Temperature control -->
   <!-- EN: Target temperature -->
-  <TargetTemperature>目标温度</TargetTemperature>
+  <TargetTemperature>設定温度</TargetTemperature>
   <!-- EN: Current power use -->
-  <PowerConsumptionMode>当前能耗</PowerConsumptionMode>
+  <PowerConsumptionMode>消費電力</PowerConsumptionMode>
   <!-- EN: high -->
   <PowerConsumptionHigh>高</PowerConsumptionHigh>
   <!-- EN: low -->
@@ -799,37 +799,37 @@
 
   <!-- Temperature readout -->
   <!-- EN: Indoors -->
-  <Indoors>室内</Indoors>
+  <Indoors>室内温度</Indoors>
   <!-- EN: Unroofed -->
-  <IndoorsUnroofed>室内（露天）</IndoorsUnroofed>
+  <IndoorsUnroofed>室内温度(天井開放中)</IndoorsUnroofed>
   <!-- EN: Outdoors -->
-  <Outdoors>室外</Outdoors>
+  <Outdoors>外気温</Outdoors>
 
   <!-- Rotting -->
   <!-- EN: Fresh -->
-  <RotStateFresh>新鲜</RotStateFresh>
+  <RotStateFresh>新鮮</RotStateFresh>
   <!-- EN: Rotting -->
-  <RotStateRotting>腐烂中</RotStateRotting>
+  <RotStateRotting>腐敗</RotStateRotting>
   <!-- EN: Dessicated -->
-  <RotStateDessicated>已风干</RotStateDessicated>
+  <RotStateDessicated>乾燥</RotStateDessicated>
   <!-- EN: Frozen (won't spoil) -->
-  <CurrentlyFrozen>冷冻（不会腐烂）</CurrentlyFrozen>
+  <CurrentlyFrozen>冷凍(永久保存)</CurrentlyFrozen>
   <!-- EN: Refrigerated (spoils in {0}) -->
-  <CurrentlyRefrigerated>冷藏（于{0}后腐烂）</CurrentlyRefrigerated>
+  <CurrentlyRefrigerated>冷蔵 (腐敗まで {0})</CurrentlyRefrigerated>
   <!-- EN: Not refrigerated (spoils in {0}) -->
-  <NotRefrigerated>未冷藏（于{0}后腐烂）</NotRefrigerated>
+  <NotRefrigerated>常温 (腐敗まで {0})</NotRefrigerated>
   <!-- EN: over a decade -->
-  <OverADecade>超过10年</OverADecade>
+  <OverADecade>10年間</OverADecade>
   <!-- EN: less than a day -->
-  <LessThanADay>少于1天</LessThanADay>
+  <LessThanADay>本日中</LessThanADay>
 
   <!-- Shooting tooltip -->
   <!-- EN: Shot by {1_labelShort} -->
-  <ShotBy>被{1_labelShort}击中几率</ShotBy>
+  <ShotBy>{1_labelShort}が射撃</ShotBy>
   <!-- EN: Cannot hit target. -->
-  <CannotHit>无法击中目标。</CannotHit>
+  <CannotHit>命中しません</CannotHit>
   <!-- EN: Manhunter chance per hit -->
-  <ManhunterPerHit>每击暴走率</ManhunterPerHit>
+  <ManhunterPerHit>1発あたりの暴走率</ManhunterPerHit>
 
   <!-- Meal -->
   <!-- EN: Ingredients -->
@@ -837,512 +837,519 @@
 
   <!-- Plants -->
   <!-- EN: {0} grown -->
-  <PercentGrowth>已生长{0}</PercentGrowth>
+  <PercentGrowth>成長度  {0}</PercentGrowth>
   <!-- EN: Growth rate -->
-  <GrowthRate>生长速率</GrowthRate>
+  <GrowthRate>成長速度</GrowthRate>
   <!-- EN: Fully grown in {0} of growth. -->
-  <FullyGrownIn>于{0}后成熟</FullyGrownIn>
+  <FullyGrownIn>成長 {0} で 完熟 します</FullyGrownIn>
   <!-- EN: Needs light level -->
-  <PlantNeedsLightLevel>需要光照</PlantNeedsLightLevel>
+  <PlantNeedsLightLevel>必要な日照量</PlantNeedsLightLevel>
   <!-- EN: Resting -->
-  <PlantResting>休眠中</PlantResting>
+  <PlantResting>成長していない(活動停止中)</PlantResting>
   <!-- EN: Non-ideal temperature. Temperature growth multiplier: {0}% -->
-  <OutOfIdealTemperatureRange>非理想温度（生长速度乘数: {0}%）</OutOfIdealTemperatureRange>
+  <OutOfIdealTemperatureRange>成長に適した温度範囲を超えています(通常の成長速度の{0}%)</OutOfIdealTemperatureRange>
   <!-- EN: Non-ideal temperature. Not growing. -->
-  <OutOfIdealTemperatureRangeNotGrowing>非理想温度（停止生长）</OutOfIdealTemperatureRangeNotGrowing>
+  <OutOfIdealTemperatureRangeNotGrowing>成長に適した温度範囲を超えています(活動停止)</OutOfIdealTemperatureRangeNotGrowing>
   <!-- EN: Ready to harvest. -->
-  <ReadyToHarvest>可收获</ReadyToHarvest>
+  <ReadyToHarvest>収穫できます</ReadyToHarvest>
   <!-- EN: Mature. -->
-  <Mature>成熟</Mature>
+  <Mature>十分成長しました</Mature>
   <!-- EN: Growing period -->
-  <OutdoorGrowingPeriod>生长期</OutdoorGrowingPeriod>
+  <OutdoorGrowingPeriod>成長期間</OutdoorGrowingPeriod>
   <!-- EN: Never -->
-  <NoGrowingPeriod>无</NoGrowingPeriod>
+  <NoGrowingPeriod>なし</NoGrowingPeriod>
   <!-- EN: Year-round -->
-  <GrowYearRound>全年</GrowYearRound>
+  <GrowYearRound>一年中</GrowYearRound>
   <!-- EN: Growing season here now. -->
-  <GrowSeasonHereNow>当前季节可种植。</GrowSeasonHereNow>
+  <GrowSeasonHereNow>栽培時期がやってきました</GrowSeasonHereNow>
   <!-- EN: Cannot grow (bad seasonal temperature). -->
-  <CannotGrowBadSeasonTemperature>无法种植（季节温度不适宜）。</CannotGrowBadSeasonTemperature>
+  <CannotGrowBadSeasonTemperature>生育不可 (気温不適合)</CannotGrowBadSeasonTemperature>
   <!-- EN: Blighted -->
-  <Blighted>已枯萎</Blighted>
+  <Blighted>枯病</Blighted>
   <!-- EN: Dying because exposed to light -->
-  <DyingBecauseExposedToLight>由于暴露在光照中即将死亡。</DyingBecauseExposedToLight>
+  <DyingBecauseExposedToLight>陽に晒されて死亡</DyingBecauseExposedToLight>
 
   <!-- Zones -->
   <!-- EN: Zone -->
-  <Zone>活动区</Zone>
+  <Zone>ゾーン</Zone>
   <!-- EN: Growing zone -->
-  <GrowingZone>种植区</GrowingZone>
+  <GrowingZone>農業ゾーン</GrowingZone>
   <!-- EN: Stockpile zone -->
-  <Stockpile>储存区</Stockpile>
+  <Stockpile>備蓄ゾーン</Stockpile>
   <!-- EN: Dumping stockpile zone -->
-  <DumpingStockpile>垃圾储存区</DumpingStockpile>
+  <DumpingStockpile>廃棄ゾーン</DumpingStockpile>
   <!-- EN: Priority -->
-  <Priority>优先级</Priority>
+  <Priority>優先度</Priority>
   <!-- EN: Clear all -->
-  <ClearAll>全部清除</ClearAll>
+  <ClearAll>全てクリア</ClearAll>
   <!-- EN: Allow all -->
-  <AllowAll>全部允许</AllowAll>
+  <AllowAll>全て許可</AllowAll>
 
   <!-- ThingFilter -->
   <!-- EN: {0} hit points -->
-  <HitPoints>{0}耐久度</HitPoints>
+  <HitPoints>HP : {0}</HitPoints>
   <!-- EN: any quality -->
-  <AnyQuality>任意质量</AnyQuality>
+  <AnyQuality>全ての品質</AnyQuality>
   <!-- EN: {0} only -->
-  <OnlyQuality>仅{0}</OnlyQuality>
+  <OnlyQuality>{0} のみ</OnlyQuality>
 
   <!-- Mouseover indicator -->
   <!-- EN: Undiscovered -->
-  <Undiscovered>未探索</Undiscovered>
+  <Undiscovered>未知</Undiscovered>
 
   <!-- Buttons -->
   <!-- EN: Toggle visibility of the learning helper when it is empty.\n\nThe learning helper is always visible if there is a concept activated to be learned. This toggle makes it disappear when no concept is active. -->
-  <ShowLearningHelperWhenEmptyToggleButton>开关始终显示教学助手。\n\n当没有需要学习的新教程时，教学助手会自动隐藏。开启后，将在学习完所有教程之后继续显示教学助手。</ShowLearningHelperWhenEmptyToggleButton>
+  <ShowLearningHelperWhenEmptyToggleButton>ラーニングヘルパーに表示項目がないときの可視 切り替え\n\nラーニングヘルパーは,学ぶことがあるときは,常に表示されています.何も学ぶものが無いときは非表示にできます.</ShowLearningHelperWhenEmptyToggleButton>
   <!-- EN: Toggle visiblity of zones. -->
-  <ZoneVisibilityToggleButton>开关区域显示。</ZoneVisibilityToggleButton>
+  <ZoneVisibilityToggleButton>ゾーンの可視 切り替え</ZoneVisibilityToggleButton>
   <!-- EN: Toggle the beauty display.\n\nDisplays the beauty of the world as would be perceived by a character standing where the mouse is pointing. -->
-  <ShowBeautyToggleButton>开关美观度显示。\n\n显示位于鼠标所指地点的人物将感知到的世界美观度。</ShowBeautyToggleButton>
+  <ShowBeautyToggleButton>美しさの可視 切り替え\n\nマウスポイントした場所の,美しさとして知られる値を表示します.</ShowBeautyToggleButton>
   <!-- EN: Toggle room stats display.\n\nDisplays room stats of the room where the mouse is pointing. -->
-  <ShowRoomStatsToggleButton>开关房间状态显示。\n\n显示鼠标所指地点所在房间的房间状态。</ShowRoomStatsToggleButton>
+  <ShowRoomStatsToggleButton>ステータスの可視 切り替え\n\nマウスポイントした場所の,ルームステータスを表示します.</ShowRoomStatsToggleButton>
   <!-- EN: Toggle colonist bar.\n\nDisplays icons and basic status for all colonists along the top of the screen.\n\nYou can reorder the colonists in the colonist bar by right-click and dragging them. -->
-  <ShowColonistBarToggleButton>开关殖民者头像条显示。\n\n开启后，在屏幕上方显示所有殖民者的头像和当前状态。</ShowColonistBarToggleButton>
+  <ShowColonistBarToggleButton>入植者アイコンバー 切り替え\n\n全入植者のアイコンとステータスを画面中央上部に表示します.\n\n入植者バーを右クリックしてドラッグすれば,入植者の並びを変更することができます.</ShowColonistBarToggleButton>
   <!-- EN: Toggle automatically expanding the home area around new constructions. -->
-  <AutoHomeAreaToggleButton>开关自动添加居住区\n\n开启后，将自动在新建造的建筑附近添加居住区。</AutoHomeAreaToggleButton>
+  <AutoHomeAreaToggleButton>新しい建物や建築物の周囲を自動的にコロニーゾーンに指定します.</AutoHomeAreaToggleButton>
   <!-- EN: Toggle automatic rebuild of destroyed structures in the home area. -->
-  <AutoRebuildButton>开关自动重建被毁建筑。</AutoRebuildButton>
+  <AutoRebuildButton>破壊された建物を自動的に再復興するか切り替えます.</AutoRebuildButton>
   <!-- EN: Toggle categorized mode on the resource readout. -->
-  <CategorizedResourceReadoutToggleButton>开关资源分类显示\n\n开启后，将资源显示按照其所属类型分类显示。</CategorizedResourceReadoutToggleButton>
+  <CategorizedResourceReadoutToggleButton>リソース表示をカテゴリー別の表示に切り替えます.</CategorizedResourceReadoutToggleButton>
   <!-- EN: Toggle displaying animal names for tame named animals. -->
-  <ShowAnimalNamesToggleButton>开关已驯服动物名称显示。</ShowAnimalNamesToggleButton>
+  <ShowAnimalNamesToggleButton>家畜の名前表示 切り替え</ShowAnimalNamesToggleButton>
   <!-- EN: Toggle visibility of roofs. -->
-  <ShowRoofOverlayToggleButton>开关屋顶区显示。</ShowRoofOverlayToggleButton>
+  <ShowRoofOverlayToggleButton>屋根の可視 切り替え</ShowRoofOverlayToggleButton>
   <!-- EN: Toggle fertility overlay.\n\nThis shows how fertile the ground is, which affects what kinds of plants can grow and how fast they grow. -->
-  <ShowFertilityOverlayToggleButton>开关肥沃度显示。\n\n肥沃度反映了哪些植物可以生长，以及它们生长的速度。</ShowFertilityOverlayToggleButton>
+  <ShowFertilityOverlayToggleButton>肥沃度の可視 切り替え\n\nこれは,この土地で,どの植物が良く早く育つかどうかを表示します.</ShowFertilityOverlayToggleButton>
   <!-- EN: Toggle visibility of terrain affordance.\n\nThis relates to what kinds of building can be constructed at each location.\n\nFor example, some types of ground only accept light or medium buildings, but not heavy ones. Bridges can only be built on water. -->
-  <ShowTerrainAffordanceOverlayToggleButton>开关地形支持能力显示。\n\n地形支持能力反映了每个位置适合建造什么样的建筑。\n\n例如，某些类型的地面仅支持轻型或中型建筑物，而不支持重型建筑物。桥梁只能在水上建造。</ShowTerrainAffordanceOverlayToggleButton>
+  <ShowTerrainAffordanceOverlayToggleButton>支持地盤の可視 切り替え\n\nこれは個々の場所に,どのような種類の建物を建設できるかに関係しています.\n\n例えば,ある種の地盤は,小型,中型の建物だけを建てられますが,重い建物は建てられません.橋は水上にしか建てられません.</ShowTerrainAffordanceOverlayToggleButton>
   <!-- EN: Lock the rotation of the camera so the north pole is always up. -->
-  <LockNorthUpToggleButton>锁定镜头旋转以保持北极始终处在顶部。</LockNorthUpToggleButton>
+  <LockNorthUpToggleButton>北が常に上になるように,カメラをロックします.</LockNorthUpToggleButton>
   <!-- EN: Toggle day/night lighting on the planet view. -->
-  <UsePlanetDayNightSystemToggleButton>在星球地图开关日夜光照系统。</UsePlanetDayNightSystemToggleButton>
+  <UsePlanetDayNightSystemToggleButton>日中/夜間表示 切り替え</UsePlanetDayNightSystemToggleButton>
   <!-- EN: Toggle displaying expanding icons instead of the regular icons for distant objects. -->
-  <ShowExpandingIconsToggleButton>开关显示扩展图标，代替远距离对象的常规图标。</ShowExpandingIconsToggleButton>
+  <ShowExpandingIconsToggleButton>アイコン表示 切り替え\n\n俯瞰で見たときのアイコン表示を切り替えます.</ShowExpandingIconsToggleButton>
   <!-- EN: Toggle visibility of names of landforms. -->
-  <ShowWorldFeaturesToggleButton>开关地形名称的可见性。</ShowWorldFeaturesToggleButton>
+  <ShowWorldFeaturesToggleButton>地形の名称表示 切り替え</ShowWorldFeaturesToggleButton>
 
   <!-- Fire -->
   <!-- EN: fire on {1_label} -->
-  <FireOn>{1_label}上的火焰</FireOn>
+  <FireOn>{1_label}を燃やしている炎</FireOn>
   <!-- EN: Burning -->
-  <Burning>燃烧中</Burning>
+  <Burning>炎上中</Burning>
   <!-- EN: fire size {0} -->
-  <FireSizeLower>火焰大小: {0}</FireSizeLower>
+  <FireSizeLower>炎上サイズ {0}</FireSizeLower>
 
   <!-- Game conditions -->
   <!-- EN: Special conditions affecting the area right now. -->
-  <GameConditionsTip>目前正在影响此区域的的特殊状态。</GameConditionsTip>
+  <GameConditionsTip>この地域に影響を及ぼす特殊な条件</GameConditionsTip>
   <!-- EN: time left -->
-  <TimeLeft>剩余时间</TimeLeft>
+  <TimeLeft>残り時間</TimeLeft>
   <!-- EN: impact date -->
-  <ImpactDate>撞击日期</ImpactDate>
+  <ImpactDate>衝突予測日</ImpactDate>
   <!-- EN: Source unknown. -->
-  <SourceUnknown>来源未知</SourceUnknown>
+  <SourceUnknown>発生源不明.</SourceUnknown>
   <!-- EN: Click to jump to the source. -->
-  <ClickToJumpToSource>点击以跳转至来源。</ClickToJumpToSource>
+  <ClickToJumpToSource>クリックして発生源にジャンプする</ClickToJumpToSource>
   <!-- EN: Click to jump to the flashstorm. -->
-  <ClickToJumpToFlashstorm>点击以跳转至闪电风暴。</ClickToJumpToFlashstorm>
+  <ClickToJumpToFlashstorm>クリックしてフラッシュストームの場所にジャンプする</ClickToJumpToFlashstorm>
   <!-- EN: Caused by quest: {0} -->
-  <CausedByQuest>由任务引起：{0}</CausedByQuest>
+  <CausedByQuest>クエストにより発生: {0}</CausedByQuest>
 
   <!-- Building placement -->
   <!-- EN: You have no usable materials from which to build this. -->
-  <NoStuffsToBuildWith>你缺少建造此建筑所需要的材料。</NoStuffsToBuildWith>
+  <NoStuffsToBuildWith>これを建設するために必要な資源がありません.</NoStuffsToBuildWith>
 
   <!-- Building placement restricters -->
   <!-- EN: {0} will have work speed penalty -->
-  <WillGetWorkSpeedPenalty>{0}将有工作速度惩罚</WillGetWorkSpeedPenalty>
+  <WillGetWorkSpeedPenalty>{0}の作業速度が低下</WillGetWorkSpeedPenalty>
   <!-- EN: Cannot be placed under a roof. -->
-  <MustPlaceUnroofed>无法放置于屋顶下。</MustPlaceUnroofed>
+  <MustPlaceUnroofed>屋根の下には配置できません.</MustPlaceUnroofed>
   <!-- EN: Must place with head attached to ship structural beam. -->
-  <MustPlaceHeadOnShipBeam>必须放置于飞船结构梁两端。</MustPlaceHeadOnShipBeam>
+  <MustPlaceHeadOnShipBeam>宇宙船骨格の先端に配置してください.</MustPlaceHeadOnShipBeam>
   <!-- EN: Must be placed next to something that needs a hopper. -->
-  <MustPlaceNextToHopperAccepter>必须紧挨着放置于需要进料口的设备旁边。</MustPlaceNextToHopperAccepter>
+  <MustPlaceNextToHopperAccepter>食材ホッパーはペーストディスペンサーのとなりに配置してください.</MustPlaceNextToHopperAccepter>
   <!-- EN: Must be placed directly on a steam geyser. -->
-  <MustPlaceOnSteamGeyser>必须直接放置于蒸汽间歇喷泉上。</MustPlaceOnSteamGeyser>
+  <MustPlaceOnSteamGeyser>間欠泉に直接配置してください.</MustPlaceOnSteamGeyser>
   <!-- EN: Both the hot and cold sides of the cooler must be exposed. -->
-  <MustPlaceCoolerWithFreeSpaces>制冷机的热端和冷端都不能被阻塞。</MustPlaceCoolerWithFreeSpaces>
+  <MustPlaceCoolerWithFreeSpaces>冷気側,暖気側ともに,壁から離して配置してください.</MustPlaceCoolerWithFreeSpaces>
   <!-- EN: Both the sides must be exposed for air to pass through. -->
-  <MustPlaceVentWithFreeSpaces>通风孔两端都不能被阻塞，以便空气流通。</MustPlaceVentWithFreeSpaces>
+  <MustPlaceVentWithFreeSpaces>両面共に風通しが必要です.</MustPlaceVentWithFreeSpaces>
   <!-- EN: Must be placed with standable space on all sides. -->
-  <MustPlaceAdjacentStandable>必须放置于四周空旷的位置。</MustPlaceAdjacentStandable>
+  <MustPlaceAdjacentStandable>全ての面において,人が立てるスペースが必要です.</MustPlaceAdjacentStandable>
   <!-- EN: Must be placed next to a pod launcher's fueling port. -->
-  <MustPlaceNearFuelingPort>必须紧挨着放置于运输舱发射器的燃料供给端旁边。</MustPlaceNearFuelingPort>
+  <MustPlaceNearFuelingPort>ポッドランチャーの燃料口の隣に配置してください.</MustPlaceNearFuelingPort>
   <!-- EN: Must be placed on drillable resources. -->
-  <MustPlaceOnDrillable>必须放在能钻取的资源上。</MustPlaceOnDrillable>
+  <MustPlaceOnDrillable>掘削可能な資源の上に配置してください.</MustPlaceOnDrillable>
   <!-- EN: Cannot be placed next to traps. -->
-  <CannotPlaceAdjacentTrap>不能放在陷阱周围</CannotPlaceAdjacentTrap>
+  <CannotPlaceAdjacentTrap>罠の近くには置くことができません.</CannotPlaceAdjacentTrap>
 
   <!-- Wind Turbine -->
   <!-- EN: Blocked by -->
-  <WindTurbine_WindPathIsBlockedBy>被该物品遮挡: </WindTurbine_WindPathIsBlockedBy>
+  <WindTurbine_WindPathIsBlockedBy>邪魔している物：</WindTurbine_WindPathIsBlockedBy>
   <!-- EN: Blocked by roof -->
-  <WindTurbine_WindPathIsBlockedByRoof>被屋顶遮挡</WindTurbine_WindPathIsBlockedByRoof>
+  <WindTurbine_WindPathIsBlockedByRoof>屋根が邪魔しています</WindTurbine_WindPathIsBlockedByRoof>
 
   <!-- Watermill generator -->
   <!-- EN: Flow reduced: Turbulence from other watermill -->
-  <Watermill_WaterUsedTwice>流量下降：来自其他水车的湍流</Watermill_WaterUsedTwice>
+  <Watermill_WaterUsedTwice>流量低下: 他の水車からの乱流</Watermill_WaterUsedTwice>
 
   <!-- Cryptosleep casket -->
   <!-- EN: Contains -->
-  <CasketContains>装有</CasketContains>
+  <CasketContains>収容者</CasketContains>
   <!-- EN: Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed? -->
-  <CasketWarning>警告！\n\n{PAWN_nameDef}是你的最后一名可自由行动的殖民者！如果{PAWN_objective}进入低温休眠舱，你将无法继续进行游戏。你确定要这样做吗？</CasketWarning>
+  <CasketWarning>【警告】\n\n{PAWN_nameDef}は最後の入植者です.{PAWN_objective}冬眠カプセルに入れさせるとゲームを続けることができなくなるでしょう.本当に良いですか？</CasketWarning>
 
   <!-- Ship launch report -->
   <!-- EN: Cannot launch. -->
-  <ShipReportCannotLaunch>无法发射。</ShipReportCannotLaunch>
+  <ShipReportCannotLaunch>発射できません.</ShipReportCannotLaunch>
   <!-- EN: Ready for launch. -->
-  <ShipReportCanLaunch>准备发射。</ShipReportCanLaunch>
+  <ShipReportCanLaunch>発射できます.</ShipReportCanLaunch>
   <!-- EN: Missing critical component -->
-  <ShipReportMissingPart>缺少关键组件</ShipReportMissingPart>
+  <ShipReportMissingPart>宇宙船構造物が足りません</ShipReportMissingPart>
   <!-- EN: requires -->
-  <ShipReportMissingPartRequires>需要</ShipReportMissingPartRequires>
+  <ShipReportMissingPartRequires>必要物</ShipReportMissingPartRequires>
   <!-- EN: No full cryptosleep caskets -->
-  <ShipReportNoFullPods>缺少装有乘员的低温休眠舱</ShipReportNoFullPods>
+  <ShipReportNoFullPods>冬眠カプセルに空きがあります</ShipReportNoFullPods>
   <!-- EN: Hibernating component -->
-  <ShipReportHibernating>休眠组件</ShipReportHibernating>
+  <ShipReportHibernating>休止状態の構成物</ShipReportHibernating>
   <!-- EN: Component not yet ready -->
-  <ShipReportNotReady>组件还未就绪</ShipReportNotReady>
+  <ShipReportNotReady>準備不足の構成物</ShipReportNotReady>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence.\n\nHe warns you that the process will take about 15 days, and the energy signature will be detectable from a long distance away.\n\nThis sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarning>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。\n\n他警告称启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarning>
+  <HibernateWarning>(*Name)Charlon Whitestone(/Name)は,休止反応炉の再起動シーケンスを始める準備を整えました.\n\n彼は,このプロセスは約15日程かかり,そのエネルギー波紋は,かなり遠距離からでも探知されることを警告しています.\n\nこのエネルギー波紋のような物は,恒星間航行能力があることを示し,命知らずのギャングどもや,最悪なメカノイド群を惹きつけるでしょう.\n\nあなたが今まで見たことも無いような熾烈な戦闘となるでしょう.真っ先に防衛の準備が整っているか確認してください.</HibernateWarning>
   <!-- EN: The reactor is ready to power up.\n\nThe process will take about 15 days, and the energy signature will be detectable from a long distance away. This sort of energy signature indicates interstellar flight capability, and will attract gangs of desperate raiders and swarms of deadly mechanoids.\n\nYou will be assaulted with an intensity you've never seen. Make sure your defenses are prepared first. -->
-  <HibernateWarningStandalone>反应炉已准备好启动。\n\n启动进程将会耗费大约15天，并且在很远距离外就能侦测到能量特征。这类能量特征表示具备星际飞行能力，并将吸引一群绝望的袭击者和寻宝猎人。确保第一时间做好防御。</HibernateWarningStandalone>
+  <HibernateWarningStandalone>反応炉の出力アップの準備を整えました.\n\nこのプロセスは約15日程かかり,そのエネルギー波紋は,かなり遠距離からでも探知されます.このエネルギー波紋のような物は,恒星間航行能力があることを示し,命知らずのギャングどもや,最悪なメカノイド群を惹きつけるでしょう.\n\nあなたが今まで見たことも無いような熾烈な戦闘となるでしょう.真っ先に防衛の準備が整っているか確認してください.</HibernateWarningStandalone>
   <!-- EN: (*Name)Charlon Whitestone(/Name) is ready to begin the reactor's hibernation recovery sequence. He warns you that the process will take about 15 days. -->
-  <HibernateWarningPacifist>(*Name)沙隆·白石(/Name)准备开始反应堆的休眠唤醒程序。他警告称此进程将耗费大约15天。</HibernateWarningPacifist>
+  <HibernateWarningPacifist>(*Name)Charlon Whitestone(/Name)は,休止反応炉の再起動シーケンスを始める準備を整えました.\n\n彼は,このプロセスは約15日程かかることを警告しています.</HibernateWarningPacifist>
   <!-- EN: The reactor is ready to power up. The process will take about 15 days. -->
-  <HibernateWarningStandalonePacifist>反应炉已准备好启动。此进程将耗费大约15天。</HibernateWarningStandalonePacifist>
+  <HibernateWarningStandalonePacifist>反応炉の出力アップの準備を整えました.\n\nこのプロセスは約15日程かかるでしょう.</HibernateWarningStandalonePacifist>
 
   <!-- Neurotrainer -->
   <!-- EN: skilltrainer ({0}) -->
-  <SkillNeurotrainerLabel>技能训练器 ({0}) </SkillNeurotrainerLabel>
+  <SkillNeurotrainerLabel>スキルトレイナー ({0})</SkillNeurotrainerLabel>
   <!-- EN: Use skilltrainer to learn {0} -->
-  <SkillNeurotrainerUseLabel>使用技能训练器学习{0}</SkillNeurotrainerUseLabel>
+  <SkillNeurotrainerUseLabel>{0}を身につけるためスキルトレイナーを使う</SkillNeurotrainerUseLabel>
   <!-- EN: A one-use super-dose of mechanites which trains a specific skill.\n\nThe dose is administered through the orbit of the eye. Once released into the brain, the mechanites quickly improve the subject's skills in a specific area, transmuting themselves into neural tissue as needed. -->
-  <SkillNeurotrainerDescription>为训练特定技能而准备的一次性超级药剂纳米机器人。这种药剂通过眼眶给药。一旦释放进入大脑，纳米机器人会迅速提升特定区域内的学科技能，将其自身转换为所需的神经组织。</SkillNeurotrainerDescription>
+  <SkillNeurotrainerDescription>一度だけ使用可能な,特定のスキルを身に付けられるメカナイトの超薬物です.\n\nこの薬物は眼窩から投与します.脳に散布されると,メカナイトは目的のスキルを即座に改善するために,特定の領域で必要に応じた神経組織に変形します.</SkillNeurotrainerDescription>
   <!-- EN: {USER_labelShort} used {1} neurotrainer to go from level {2} to level {3}. -->
-  <SkillNeurotrainerUsed>{USER_labelShort}使用技能训练器将{1}技能从{2}级升至{3}级。</SkillNeurotrainerUsed>
+  <SkillNeurotrainerUsed>{USER_labelShort}は,{1}スキルトレイナーを使って,スキルを{2}から{3}に上げた.</SkillNeurotrainerUsed>
 
   <!-- Minification -->
   <!-- EN: Installed -->
-  <Installed>已安装</Installed>
+  <Installed>インストール済</Installed>
   <!-- EN: Not installed -->
-  <NotInstalled>未安装</NotInstalled>
+  <NotInstalled>未インストール</NotInstalled>
 
   <!-- Art -->
   <!-- EN: Title -->
-  <Title>标题</Title>
+  <Title>タイトル</Title>
   <!-- EN: Untitled -->
-  <Untitled>无题</Untitled>
+  <Untitled>銘無し</Untitled>
 
   <!-- Unfinished thing -->
   <!-- EN: Unfinished {0} -->
-  <UnfinishedItem>{0}（未完成）</UnfinishedItem>
+  <UnfinishedItem>未完の{0}</UnfinishedItem>
   <!-- EN: Unfinished {0} {1} -->
-  <UnfinishedItemWithStuff>{0}{1}（未完成）</UnfinishedItemWithStuff>
+  <UnfinishedItemWithStuff>未完の{0}{1}</UnfinishedItemWithStuff>
 
   <!-- Quality -->
   <!-- EN: Quality -->
-  <Quality>品质</Quality>
+  <Quality>品質</Quality>
   <!-- EN: An item's quality is how well-made it is. -->
-  <QualityDescription>该物品的制作精良程度。</QualityDescription>
+  <QualityDescription>アイテムがどの位良く作られたかを示しています.</QualityDescription>
   <!-- EN: Quality: {0} -->
-  <QualityIs>品质: {0}</QualityIs>
+  <QualityIs>品質: {0}</QualityIs>
 
   <!-- Mood descriptions -->
   <!-- EN: mental state -->
-  <Mood_MentalState>精神状态</Mood_MentalState>
+  <Mood_MentalState>精神崩壊</Mood_MentalState>
   <!-- EN: about to break -->
-  <Mood_AboutToBreak>即将崩溃</Mood_AboutToBreak>
+  <Mood_AboutToBreak>崩壊寸前</Mood_AboutToBreak>
   <!-- EN: on edge -->
-  <Mood_OnEdge>烦躁</Mood_OnEdge>
+  <Mood_OnEdge>不安</Mood_OnEdge>
   <!-- EN: stressed -->
-  <Mood_Stressed>紧张</Mood_Stressed>
+  <Mood_Stressed>ストレス気味</Mood_Stressed>
   <!-- EN: neutral -->
-  <Mood_Neutral>一般</Mood_Neutral>
+  <Mood_Neutral>普通</Mood_Neutral>
   <!-- EN: content -->
-  <Mood_Content>满足</Mood_Content>
+  <Mood_Content>満足</Mood_Content>
   <!-- EN: happy -->
-  <Mood_Happy>开心</Mood_Happy>
+  <Mood_Happy>幸せ</Mood_Happy>
 
   <!-- Game over -->
   <!-- EN: Everyone is dead or gone. This story is over.\n\nPerhaps someone else will find a use for the ruins of this place. -->
-  <GameOverEveryoneDead>所有殖民者不是死亡就是离开了。这个故事结束了。\n\n这片遗迹也许在某天会帮上其他人的忙。</GameOverEveryoneDead>
+  <GameOverEveryoneDead>ある者は去りました. ある者は亡くなりました. そして全ての人が居なくなり, この物語は終わりを告げます.\n\nもしかすれば, 他の誰かが この廃墟の 使い道を 考えて くれるかもしれません.</GameOverEveryoneDead>
   <!-- EN: At near-lightspeed, the planetkiller weapon slammed into the ground with the force of a trillion hydrogen bombs. Like a water balloon shot with a rifle, this world liquified under the impact and sprayed its molten guts across the cosmos.\n\nPart of {0} is now a small asteroid belt. The rest is a molten, radioactive hellscape, constantly rippling with kilometers-high planetquakes.\n\nYou did not survive. -->
-  <GameOverPlanetkillerImpact>歼星武器以接近光速的速度猛烈地击中了大地，威力相当于一万亿颗氢弹同时引爆。整颗行星就像一颗被步枪命中的装满水的气球，在强劲冲击下液化并将大量自身融化的内核抛入太空。\n\n{0}的一部分变成了一条小行星带。剩余部分则是一片融化的、布满辐射的地狱景象，数公里高的行星震波在表面来回荡漾。\n\n你没能活下来。</GameOverPlanetkillerImpact>
+  <GameOverPlanetkillerImpact>1兆もの水素爆弾の力によって, 亜光速まで加速した対惑星兵器が, 惑星表面に激しく打ち込まれました. 水風船をライフル弾が撃ち抜いたごとく, この世界は 激しい衝撃と共に液状化し, 溶けた惑星の中心核は 宇宙空間に 吹き出しました.\n\n{0}の一部分は, 小さなアステロイドベルトとなっています. 溶岩があふれだし, 放射能にまみれ 地獄のようになった 残りの部分は, 絶えず巨大な 惑星全体の振動と共に キロメートル級の 波紋を起こしています.\n\n あなたは, 生き残ることができませんでした.</GameOverPlanetkillerImpact>
   <!-- EN: You've launched the ship! -->
-  <GameOverShipLaunchedIntro>你发射了逃生船！</GameOverShipLaunchedIntro>
+  <GameOverShipLaunchedIntro>あなたは宇宙船を発進させました!</GameOverShipLaunchedIntro>
   <!-- EN: Your machine persona will now try to guide the ship to a safe place. It might find a prosperous planet in this system. Or, it may undertake a centuries-long journey to another star. It might even decide to hide under ice on an asteroid for a few thousand years, waiting for someone to build a new glitterworld here.\n\nYou'll find out when you wake up. -->
-  <GameOverShipLaunchedEnding>现在飞船AI会自动引导飞船至安全目的地。也许它会带你到本星系内的一颗繁盛星球上。或许它会花费数世纪航行至另一星系。甚至它选择在一颗小行星的冰层下沉睡几千年，等待其他人在此建设一个闪耀世界。\n\n一切只有在你醒来后才能知道。</GameOverShipLaunchedEnding>
+  <GameOverShipLaunchedEnding>人工知能(AIコア)は 宇宙船を 安全な場所に 向けようとしています. それは, この星系の 繁栄した惑星を 見つけることかもしれませんし, 他の星系へ向けた 1世紀に渡る旅に 出発することかもしれません.また, だれかが新しいグリッターワールドを 創り上げるまで, 数千年間も小惑星帯の氷床の下に 身を隠すことを 選択するかもしれません.\n\nそれは次にあなたが目が覚ましたときに分かるでしょう.</GameOverShipLaunchedEnding>
   <!-- EN: These colonists escaped:\n\n{0} -->
-  <GameOverColonistsEscaped>以下殖民者离开了:\n\n{0}</GameOverColonistsEscaped>
+  <GameOverColonistsEscaped>脱出した入植者:\n\n{0}</GameOverColonistsEscaped>
   <!-- EN: These colonists were left behind:\n\n{0} -->
-  <GameOverColonistsLeft>以下殖民者被留下：\n\n{0}</GameOverColonistsLeft>
+  <GameOverColonistsLeft>置き去られた入植者:\n\n{0}</GameOverColonistsLeft>
   <!-- EN: In memory of:\n -->
-  <GameOverInMemoryOf>纪念：\n</GameOverInMemoryOf>
+  <GameOverInMemoryOf>追悼の念と共に:\n</GameOverInMemoryOf>
   <!-- EN: Keep playing -->
-  <GameOverKeepPlaying>继续游戏</GameOverKeepPlaying>
+  <GameOverKeepPlaying>ゲームを続ける</GameOverKeepPlaying>
   <!-- EN: Main menu -->
-  <GameOverMainMenu>返回主菜单</GameOverMainMenu>
+  <GameOverMainMenu>メニューに戻る</GameOverMainMenu>
 
   <!-- Generic lifespan -->
   <!-- EN: Expires in: -->
-  <LifespanExpiry>失效时间：</LifespanExpiry>
+  <LifespanExpiry>寿命:</LifespanExpiry>
 
   <!-- Facilities -->
   <!-- EN: inactive -->
-  <InactiveFacility>闲置</InactiveFacility>
+  <InactiveFacility>機能していない</InactiveFacility>
 
   <!-- Hediffs growth modes -->
   <!-- EN: {PAWN_labelShort}'s {1} is now growing. -->
-  <DiseaseGrowthModeChanged_Growing>{PAWN_labelShort}的{1}现在加重了。</DiseaseGrowthModeChanged_Growing>
+  <DiseaseGrowthModeChanged_Growing>{PAWN_labelShort}の {1}は 進行している.</DiseaseGrowthModeChanged_Growing>
   <!-- EN: {PAWN_labelShort}'s {1} is now stable. -->
-  <DiseaseGrowthModeChanged_Stable>{PAWN_labelShort}的{1}现在稳定了。</DiseaseGrowthModeChanged_Stable>
+  <DiseaseGrowthModeChanged_Stable>{PAWN_labelShort}の {1}は 安定している.</DiseaseGrowthModeChanged_Stable>
   <!-- EN: {PAWN_labelShort}'s {1} is now in remission. -->
-  <DiseaseGrowthModeChanged_Remission>{PAWN_labelShort}的{1}现在缓解了。</DiseaseGrowthModeChanged_Remission>
+  <DiseaseGrowthModeChanged_Remission>{PAWN_labelShort}の {1}は 寛解している.</DiseaseGrowthModeChanged_Remission>
 
   <!-- Marriage spot -->
   <!-- EN: Usable now. -->
-  <MarriageSpotUsable>当前可用。</MarriageSpotUsable>
+  <MarriageSpotUsable>使用可能</MarriageSpotUsable>
   <!-- EN: Not usable: {0}. -->
-  <MarriageSpotNotUsable>无法使用: {0}。</MarriageSpotNotUsable>
+  <MarriageSpotNotUsable>使用不可: {0}</MarriageSpotNotUsable>
   <!-- EN: blocked -->
-  <MarriageSpotNotStandable>被阻塞</MarriageSpotNotStandable>
+  <MarriageSpotNotStandable>邪魔されている</MarriageSpotNotStandable>
   <!-- EN: too dangerous for {1_labelShort} -->
-  <MarriageSpotDangerous>对{1_labelShort}太危险</MarriageSpotDangerous>
+  <MarriageSpotDangerous>{1_labelShort}のため,非常に危険</MarriageSpotDangerous>
   <!-- EN: forbidden for {1_labelShort} -->
-  <MarriageSpotForbidden>对{1_labelShort}已禁用</MarriageSpotForbidden>
+  <MarriageSpotForbidden>{1_labelShort}のため,禁止</MarriageSpotForbidden>
   <!-- EN: reserved -->
-  <MarriageSpotReserved>已被预留</MarriageSpotReserved>
+  <MarriageSpotReserved>予約済</MarriageSpotReserved>
   <!-- EN: unreachable for {1_labelShort} -->
-  <MarriageSpotUnreachable>对{1_labelShort}无法到达</MarriageSpotUnreachable>
+  <MarriageSpotUnreachable>{1_labelShort}のため,到達できない</MarriageSpotUnreachable>
   <!-- EN: in prison cell -->
-  <MarriageSpotInPrisonCell>位于监狱中</MarriageSpotInPrisonCell>
+  <MarriageSpotInPrisonCell>牢獄の中にある</MarriageSpotInPrisonCell>
   <!-- EN: uncomfortable temperature -->
-  <NotEnjoyableOutsideTemperature>温度不适宜</NotEnjoyableOutsideTemperature>
+  <NotEnjoyableOutsideTemperature>不快な温度</NotEnjoyableOutsideTemperature>
 
   <!-- Colonist bar -->
   <!-- EN: Medical rest -->
-  <ActivityIconMedicalRest>休养</ActivityIconMedicalRest>
+  <ActivityIconMedicalRest>治療中</ActivityIconMedicalRest>
   <!-- EN: Sleeping -->
-  <ActivityIconSleeping>睡眠</ActivityIconSleeping>
+  <ActivityIconSleeping>睡眠中</ActivityIconSleeping>
   <!-- EN: Fleeing -->
-  <ActivityIconFleeing>逃跑</ActivityIconFleeing>
+  <ActivityIconFleeing>逃亡中</ActivityIconFleeing>
   <!-- EN: Fighting -->
-  <ActivityIconAttacking>战斗</ActivityIconAttacking>
+  <ActivityIconAttacking>戦闘中</ActivityIconAttacking>
   <!-- EN: Idle -->
-  <ActivityIconIdle>闲逛</ActivityIconIdle>
+  <ActivityIconIdle>暇</ActivityIconIdle>
   <!-- EN: Burning -->
-  <ActivityIconBurning>着火</ActivityIconBurning>
+  <ActivityIconBurning>火だるま</ActivityIconBurning>
   <!-- EN: Forming a caravan -->
-  <ActivityIconFormingCaravan>组建远行队</ActivityIconFormingCaravan>
+  <ActivityIconFormingCaravan>キャラバン隊編成中</ActivityIconFormingCaravan>
 
   <!-- Maintainable -->
   <!-- EN: Due for maintenance. -->
-  <DueForMaintenance>需要维护。</DueForMaintenance>
+  <DueForMaintenance>メンテナンスが必要</DueForMaintenance>
   <!-- EN: Deteriorating due to lack of maintenance. -->
-  <DeterioratingDueToLackOfMaintenance>因缺乏维护而开始老化。</DeterioratingDueToLackOfMaintenance>
+  <DeterioratingDueToLackOfMaintenance>メンテナンス不足による性能低下</DeterioratingDueToLackOfMaintenance>
 
   <!-- Deep drill -->
   <!-- EN: Progress to next lump -->
-  <ProgressToNextLump>生产进度</ProgressToNextLump>
+  <ProgressToNextLump>次の鉱脈にむけて進行中</ProgressToNextLump>
   <!-- EN: Resource below -->
-  <ResourceBelow>矿脉</ResourceBelow>
+  <ResourceBelow>発見した鉱脈</ResourceBelow>
   <!-- EN: Progress to next portion -->
-  <ProgressToNextPortion>进度</ProgressToNextPortion>
+  <ProgressToNextPortion>次に向けて進行中</ProgressToNextPortion>
   <!-- EN: No resources below. -->
-  <DeepDrillNoResources>下方没有资源。</DeepDrillNoResources>
+  <DeepDrillNoResources>地下資源無し</DeepDrillNoResources>
   <!-- EN: Deep drill resources exhausted, drill automatically forbidden. Unforbid to begin mining of {0}. -->
-  <DeepDrillExhausted>深钻资源枯竭，自动钻探被禁止。未禁止则挖掘{0}。</DeepDrillExhausted>
+  <DeepDrillExhausted>深部ドリルマシンによる資源は枯渇した,自動的に取り扱い禁止となる.{0}を掘削し始めるために許可せよ.</DeepDrillExhausted>
   <!-- EN: Deep drill resources exhausted. -->
-  <DeepDrillExhaustedNoFallback>深钻资源枯竭。</DeepDrillExhaustedNoFallback>
+  <DeepDrillExhaustedNoFallback>深部ドリルマシンによる資源は枯渇した.</DeepDrillExhaustedNoFallback>
 
   <!-- reloading ammo -->
   <!-- EN: Remaining charges -->
-  <ChargesRemaining>剩余充能</ChargesRemaining>
+  <ChargesRemaining>残りの使用可能数</ChargesRemaining>
   
   <!-- Learning helper -->
   <!-- EN: Learning helper -->
-  <LearningHelper>教学助手</LearningHelper>
+  <LearningHelper>ラーニングヘルパー</LearningHelper>
   <!-- EN: Mark as learned -->
-  <MarkLearned>我学会了！</MarkLearned>
+  <MarkLearned>学習済みにする</MarkLearned>
   <!-- EN: Already learned -->
-  <AlreadyLearned>已学习</AlreadyLearned>
+  <AlreadyLearned>学習済み</AlreadyLearned>
   <!-- EN: Filter -->
-  <Filter>筛选</Filter>
+  <Filter>フィルター</Filter>
 
   <!-- Compass -->
   <!-- EN: Shows the north direction. Click to rotate the camera so the north pole is up. -->
-  <CompassTip>指示北方。点击以旋转镜头使北极处在上方。</CompassTip>
+  <CompassTip>北極を指します.カメラを動かしても,常に北極が上にきます</CompassTip>
 
   <!-- World route planner -->
   <!-- EN: Click to enter the planning mode where you can plan your journey and calculate distance between waypoints. -->
-  <RoutePlannerButtonTip>点击以进入规划模式，你可以规划你的行程和计算路径点之间的距离。</RoutePlannerButtonTip>
+  <RoutePlannerButtonTip>クリックすると,ウェイポイント間の距離が計算できるナビモードになります.</RoutePlannerButtonTip>
   <!-- EN: Add two or more waypoints. -->
-  <RoutePlannerAddTwoOrMoreWaypoints>添加两个或更多的路径点。</RoutePlannerAddTwoOrMoreWaypoints>
+  <RoutePlannerAddTwoOrMoreWaypoints>二つ以上のウェイポイントを追加</RoutePlannerAddTwoOrMoreWaypoints>
   <!-- EN: Add one or more waypoints. -->
-  <RoutePlannerAddOneOrMoreWaypoints>添加一个或更多的路径点。</RoutePlannerAddOneOrMoreWaypoints>
+  <RoutePlannerAddOneOrMoreWaypoints>一つ以上のウェイポイントを追加</RoutePlannerAddOneOrMoreWaypoints>
   <!-- EN: Total route time: {0} -->
-  <RoutePlannerEstTimeToFinalDest>总计路程耗时: {0}</RoutePlannerEstTimeToFinalDest>
+  <RoutePlannerEstTimeToFinalDest>推定所要時間: {0}</RoutePlannerEstTimeToFinalDest>
   <!-- EN: Planning mode uses the default caravan speed. Your speed may vary. -->
-  <RoutePlannerUsingAverageTicksPerMoveWarning>规划模式使用默认远行队速度。实际速度可能不同。</RoutePlannerUsingAverageTicksPerMoveWarning>
+  <RoutePlannerUsingAverageTicksPerMoveWarning>移動速度は初期値を使用します.隊によって速度が変わります</RoutePlannerUsingAverageTicksPerMoveWarning>
   <!-- EN: Calculating for: {0} -->
-  <RoutePlannerUsingTicksPerMoveOfCaravan>计算: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
+  <RoutePlannerUsingTicksPerMoveOfCaravan>計算: {0}</RoutePlannerUsingTicksPerMoveOfCaravan>
   <!-- EN: Right mouse button: Add/remove waypoints. -->
-  <RoutePlannerPressRMBToAddAndRemoveWaypoints>鼠标右键: 添加或移除路径点。</RoutePlannerPressRMBToAddAndRemoveWaypoints>
+  <RoutePlannerPressRMBToAddAndRemoveWaypoints>右クリック: 追加/削除 ウェイポイント</RoutePlannerPressRMBToAddAndRemoveWaypoints>
   <!-- EN: ESC: Exit planning mode. -->
-  <RoutePlannerPressEscapeToExit>ESC键: 退出规划模式</RoutePlannerPressEscapeToExit>
+  <RoutePlannerPressEscapeToExit>ESC: ナビモードを抜ける</RoutePlannerPressEscapeToExit>
   <!-- EN: ESC: Return to the caravan formation dialog. -->
-  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC键: 返回远行队组建对话框。</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
+  <RoutePlannerPressEscapeToReturnToCaravanFormationDialog>ESC: キャラバン隊編成ダイアログに戻る</RoutePlannerPressEscapeToReturnToCaravanFormationDialog>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToWaypoint>预计用时：{0}</EstimatedTimeToWaypoint>
+  <EstimatedTimeToWaypoint>推定所要時間: {0}</EstimatedTimeToWaypoint>
   <!-- EN: Est. travel time (from previous waypoint): {0} -->
-  <EstimatedTimeToWaypointFromPrevious>预计用时（从上个路径点计）：{0}</EstimatedTimeToWaypointFromPrevious>
+  <EstimatedTimeToWaypointFromPrevious>推定区間時間(前区間との間): {0}</EstimatedTimeToWaypointFromPrevious>
   <!-- EN: Est. travel time: {0} -->
-  <EstimatedTimeToTile>预计用时：{0}</EstimatedTimeToTile>
+  <EstimatedTimeToTile>推定所要時間: {0}</EstimatedTimeToTile>
   <!-- EN: Foraged food amount -->
-  <ForagedFoodAmount>已采集食物量</ForagedFoodAmount>
+  <ForagedFoodAmount>食料調達量</ForagedFoodAmount>
 
   <!-- Outfits -->
   <!-- EN: Anything -->
-  <OutfitAnything>任意</OutfitAnything>
+  <OutfitAnything>制限無し</OutfitAnything>
   <!-- EN: Worker -->
-  <OutfitWorker>工人</OutfitWorker>
+  <OutfitWorker>作業服</OutfitWorker>
   <!-- EN: Soldier -->
-  <OutfitSoldier>战士</OutfitSoldier>
+  <OutfitSoldier>戦闘服</OutfitSoldier>
   <!-- EN: Nudist -->
-  <OutfitNudist>裸体</OutfitNudist>
+  <OutfitNudist>ヌーディスト</OutfitNudist>
 
   <!-- Hibernatable -->
   <!-- EN: Hibernating -->
-  <HibernatableHibernating>休眠中</HibernatableHibernating>
+  <HibernatableHibernating>休止中</HibernatableHibernating>
   <!-- EN: Starting up -->
-  <HibernatableStartingUp>启动中</HibernatableStartingUp>
+  <HibernatableStartingUp>再起動中</HibernatableStartingUp>
 
   <!-- Transport pods -->
   <!-- EN: {0}: See available orders... -->
-  <ClickToSeeAvailableOrders_WorldObject>{0}：查看可用命令……</ClickToSeeAvailableOrders_WorldObject>
+  <ClickToSeeAvailableOrders_WorldObject>{0}: オーダーを見る...</ClickToSeeAvailableOrders_WorldObject>
   <!-- EN: See available orders... -->
-  <ClickToSeeAvailableOrders_Empty>查看可用命令……</ClickToSeeAvailableOrders_Empty>
+  <ClickToSeeAvailableOrders_Empty>オーダーを見る...</ClickToSeeAvailableOrders_Empty>
   
   <!-- Pawn tooltips -->
   <!-- EN: {0} ({1})\n{2}\n{3} -->
-  <PawnTooltipWithDescAndPrimaryEquip>{0}({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
+  <PawnTooltipWithDescAndPrimaryEquip>{0} ({1})\n{2}\n{3}</PawnTooltipWithDescAndPrimaryEquip>
   <!-- EN: {0} ({1})\n{2} -->
-  <PawnTooltipWithDescNoPrimaryEquip>{0}({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
+  <PawnTooltipWithDescNoPrimaryEquip>{0} ({1})\n{2}</PawnTooltipWithDescNoPrimaryEquip>
   <!-- EN: {0}\n{1}\n{2} -->
   <PawnTooltipWithPrimaryEquipNoDesc>{0}\n{1}\n{2}</PawnTooltipWithPrimaryEquipNoDesc>
   <!-- EN: {0}\n{1} -->
   <PawnTooltipNoDescNoPrimaryEquip>{0}\n{1}</PawnTooltipNoDescNoPrimaryEquip>
   <!-- EN: Neural heat: {0} / {1}\nFall rate: {2} / s ({3}s until zero) -->
-  <PawnTooltipPsychicEntropyStats>心灵熵阈值：{0} / {1}\n降低速率：{2} / 秒 （{3}秒归零）</PawnTooltipPsychicEntropyStats>
+  <PawnTooltipPsychicEntropyStats>ニューラルヒート: {0} / {1}\n減少速度: {2}/秒 (0まで残り{3}秒)</PawnTooltipPsychicEntropyStats>
   <!-- EN: Neural heat increases after using a psychic power. Surpassing the normal limit may cause a psychic breakdown lasting days.\n\nNeural heat dissipates naturally over time. This process can be accelerated by wearing eltex apparel or being in pain. -->
-  <PawnTooltipPsychicEntropyDesc>心灵熵在释放心灵能力之后会增加。超过常规限制之后可能会导致持续数天的心灵崩溃。\n\n心灵熵会随着时间自然消散。这一过程可以通过穿着灵质服装或者感受苦痛来加快。</PawnTooltipPsychicEntropyDesc>
+  <PawnTooltipPsychicEntropyDesc>超能力を使用すると,ニューラルヒートが増加します.限界を超えると,長期的な神経衰弱を引き起こす可能性があります.\n\nニューラルヒートは時間の経過と共に,自然に放熱されます.このプロセスは,エルテック系の衣服の着用,もしくは痛みを感じることで加速させることができます.</PawnTooltipPsychicEntropyDesc>
   <!-- EN: Pain boost\n\nPain focuses the mind and speeds up neural heat dissipation.\n\nPain level: {0}\nBonus to heat recovery: {1} -->
-  <PawnTooltipPsychicEntropyPainFocus>疼痛激励\n\n痛苦使思想集中；同时能够加速恢复心灵熵。\n\n疼痛等级：{0}\n心灵熵恢复倍率：{1}</PawnTooltipPsychicEntropyPainFocus>
+  <PawnTooltipPsychicEntropyPainFocus>痛みによるブースト効果\n\n痛みは精神を集中させ,ニューラルヒートの放熱力を上昇させます.\n\n痛みの強さ: {0}\nヒート回復ボーナス: {1}</PawnTooltipPsychicEntropyPainFocus>
   <!-- EN: Toggle neural heat limiter. Exceeding your heat limit may cause a psychic breakdown lasting days. It won't cause permanent damage. -->
-  <PawnTooltipPsychicEntropyLimit>切换心灵熵限制器。\n\n心灵熵超限制可能会导致长期的心灵崩溃，但并不会造成永久伤害。</PawnTooltipPsychicEntropyLimit>
+  <PawnTooltipPsychicEntropyLimit>ニューラルヒートの限界値を切り替えます.ヒートの限界を越えると,長期的な神経衰弱が起きる可能性があります.永続的なダメージは起こしません.</PawnTooltipPsychicEntropyLimit>
   <!-- EN: Psyfocus: {0} -->
-  <PawnTooltipPsyfocus>精神力：{0}}</PawnTooltipPsyfocus>
+  <PawnTooltipPsyfocus>サイフォーカス: {0}</PawnTooltipPsyfocus>
 
   <!-- Pawn tooltip description -->
   <!-- EN: {0} {1} -->
-  <PawnTooltipGenderAndKindLabel>{0}{1}</PawnTooltipGenderAndKindLabel>
+  <PawnTooltipGenderAndKindLabel>{0} {1}</PawnTooltipGenderAndKindLabel>
 
   <!-- Rewards -->
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive in a transport pod {0_relationInfoInParentheses} -->
-  <Reward_Pawn_DropPod>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将乘坐空投舱到达{0_relationInfoInParentheses}</Reward_Pawn_DropPod>
+  <Reward_Pawn_DropPod>{0_age}歳の{0_nameDef}と言う名の{0_title}が輸送ポッドで到着します. {0_relationInfoInParentheses}</Reward_Pawn_DropPod>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will arrive and join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_WalkIn>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将到达并加入{0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
+  <Reward_Pawn_WalkIn>{0_age}歳の{0_nameDef}と言う名の{0_title}がやってきて加わります. {0_relationInfoInParentheses}</Reward_Pawn_WalkIn>
   <!-- EN: a {0_age}-year-old {0_title} named {0_nameDef} will join you {0_relationInfoInParentheses} -->
-  <Reward_Pawn_Caravan>一个名为{0_nameDef}的{0_age}岁的{0_titleIndef}将加入{0_relationInfoInParentheses}</Reward_Pawn_Caravan>
+  <Reward_Pawn_Caravan>{0_age}歳の{0_nameDef}と言う名の{0_title}が加わります. {0_relationInfoInParentheses}</Reward_Pawn_Caravan>
   <!-- EN: transport pods with the following resources will arrive (total value {1}):
 \n{0} -->
-  <Reward_Items>装有以下资源的空投舱将送达（总价值 {1}）：\n\n{0}</Reward_Items>
+  <Reward_Items>次の資源を積んだ輸送ポッドが到着します(総価値 {1}):\n\n{0}</Reward_Items>
   <!-- EN: you will receive (total value {1}):
 \n{0} -->
-  <Reward_Items_Caravan>你将收到（总价值 {1}）：\n\n{0}</Reward_Items_Caravan>
+  <Reward_Items_Caravan>あなたは (総価値 {1}) を受け取るでしょう:\n\n{0}</Reward_Items_Caravan>
   <!-- EN: your faction relations with {0_name} will improve by {1} -->
-  <Reward_Goodwill>你与{0_name}的派系关系将提高{1}</Reward_Goodwill>
+  <Reward_Goodwill>あなたと {0_name} との関係は {1} 向上するでしょう</Reward_Goodwill>
   <!-- EN: you will be taken to the stars -->
-  <Reward_PassageOffworld>你将被带到星星上</Reward_PassageOffworld>
+  <Reward_PassageOffworld>星に連れ出してもらいます</Reward_PassageOffworld>
   <!-- EN: Passage offworld -->
-  <Reward_PassageOffworld_Label>前往其他世界</Reward_PassageOffworld_Label>
+  <Reward_PassageOffworld_Label>惑星外への脱出</Reward_PassageOffworld_Label>
   <!-- EN: you can loot everything from the camp -->
-  <Reward_CampLoot>你可以从这个营地劫走任何东西</Reward_CampLoot>
+  <Reward_CampLoot>あなたは野営地から全てを略奪できます</Reward_CampLoot>
   <!-- EN: Camp loot -->
-  <Reward_CampLoot_Label>营地洗劫</Reward_CampLoot_Label>
+  <Reward_CampLoot_Label>戦利品</Reward_CampLoot_Label>
   <!-- EN: the visitors will work and fight for you -->
-  <Reward_VisitorsHelp>访客们将为你而战</Reward_VisitorsHelp>
+  <Reward_VisitorsHelp>訪問者はあなたのために働き,戦います</Reward_VisitorsHelp>
   <!-- EN: Visitors' help -->
-  <Reward_VisitorsHelp_Label>访客帮助</Reward_VisitorsHelp_Label>
+  <Reward_VisitorsHelp_Label>訪問者の手助け</Reward_VisitorsHelp_Label>
   <!-- EN: New psylink level -->
-  <Reward_BestowingCeremony_Label>新的启灵等级</Reward_BestowingCeremony_Label>
+  <Reward_BestowingCeremony_Label>新しいサイリンクレベル</Reward_BestowingCeremony_Label>
   <!-- EN: {PAWNNAME} gains psylink -->
-  <Reward_BestowingCeremony>{PAWNNAME}获得启灵</Reward_BestowingCeremony>
+  <Reward_BestowingCeremony>{PAWNNAME}がサイリンクを獲得</Reward_BestowingCeremony>
   <!-- EN: Shuttle loot -->
-  <Reward_ShuttleLoot_Label>穿梭机掠夺</Reward_ShuttleLoot_Label>
+  <Reward_ShuttleLoot_Label>シャトルを略奪</Reward_ShuttleLoot_Label>
   <!-- EN: you can deconstruct and loot the shuttle -->
-  <Reward_ShuttleLoot>你可以拆除穿梭机来掠夺资源</Reward_ShuttleLoot>
+  <Reward_ShuttleLoot>シャトルを解体して略奪することができます</Reward_ShuttleLoot>
   <!-- EN: Possible future reward -->
-  <Reward_PossibleFutureReward_Label>未知报酬</Reward_PossibleFutureReward_Label>
+  <Reward_PossibleFutureReward_Label>将来的な報酬の可能性</Reward_PossibleFutureReward_Label>
   <!-- EN: a reward possibly granted in the future -->
-  <Reward_PossibleFutureReward>将来可能会给与的报酬。</Reward_PossibleFutureReward>
+  <Reward_PossibleFutureReward>後に,報酬が送られる可能性があります</Reward_PossibleFutureReward>
   <!-- EN: {TITLE} title -->
-  <Reward_Title_Label>{TITLE}头衔</Reward_Title_Label>
+  <Reward_Title_Label>{TITLE}の爵位</Reward_Title_Label>
   <!-- EN: {PAWNNAME} gains {TITLE} title from {FACTION} -->
-  <Reward_Title>{PAWNNAME}从{FACTION}获得{TITLE}头衔</Reward_Title>
+  <Reward_Title>{PAWNNAME}が{FACTION}から,{TITLE}の爵位を授かります</Reward_Title>
   <!-- EN: value {0} -->
-  <TotalValue>总价值 {0}</TotalValue>
+  <TotalValue>価値 {0}</TotalValue>
   
   <!-- Bladelink -->
   <!-- EN: Bonded to: {0} -->
-  <BondedWith>绑定至：{0}</BondedWith>
+  <BondedWith>絆で結ばれている: {0}</BondedWith>
   <!-- EN: Not yet bonded -->
-  <NotBonded>尚未绑定</NotBonded>
+  <NotBonded>誰とも絆は無い</NotBonded>
   <!-- EN: bonded to someone else -->
-  <BladelinkBondedToSomeoneElse>已绑定到其他人</BladelinkBondedToSomeoneElse>
+  <BladelinkBondedToSomeoneElse>他の誰かと絆を結んだ</BladelinkBondedToSomeoneElse>
   <!-- EN: (existing bond) -->
-  <BladelinkAlreadyBonded>（已绑定）</BladelinkAlreadyBonded>
+  <BladelinkAlreadyBonded>(絆の存在)</BladelinkAlreadyBonded>
   <!-- EN: A person can only bond with one persona weapon at a time.\n\nTo equip and bond with {WEAPON_labelShort}, {PAWN_nameDef}'s currently bonded weapon {BONDEDWEAPON_labelShort} must first be destroyed. -->
-  <BladelinkAlreadyBondedDialog>一个人只能在同一时间与一个人格武器进行绑定。\n\n若要装备并绑定{WEAPON_labelShort}，必须先销毁{PAWN_nameDef}当前绑定的武器{BONDEDWEAPON_labelShort}。</BladelinkAlreadyBondedDialog>
+  <BladelinkAlreadyBondedDialog>ペルソナ武器と絆を結べるのは一人につき1個までです.\n\n{WEAPON_labelShort}を装備して絆を結ぶには, その前に今{PAWN_nameDef}が絆を結んでいる武器である, {BONDEDWEAPON_labelShort}を破壊する必要があります.</BladelinkAlreadyBondedDialog>
   <!-- EN: {PAWN_nameDef} is already bonded to {BONDEDWEAPON_labelShort} -->
-  <BladelinkAlreadyBondedMessage>{PAWN_nameDef}已经与{BONDEDWEAPON_labelShort}绑定</BladelinkAlreadyBondedMessage>
+  <BladelinkAlreadyBondedMessage>{PAWN_nameDef}は既に{BONDEDWEAPON_labelShort}と絆で結ばれている</BladelinkAlreadyBondedMessage>
 
   <!-- Biocoded weapons -->
   <!-- EN: biocoded {0} -->
-  <Biocoded>生物编码 {0}</Biocoded>
+  <Biocoded>{0}(バイオコード)</Biocoded>
   <!-- EN: Biocoding: {0} -->
-  <CodedFor>生物编码：{0}</CodedFor>
+  <CodedFor>バイオコーディング: {0}</CodedFor>
   <!-- EN: biocoded -->
-  <BiocodedCodedForSomeoneElse>生物编码</BiocodedCodedForSomeoneElse>
+  <BiocodedCodedForSomeoneElse>バイオコード化済み</BiocodedCodedForSomeoneElse>
 
   <!-- Projectile interceptor -->
   <!-- EN: Intercepts {0} every {1} -->
-  <InterceptsProjectilesEvery>拦截{0}/{1}</InterceptsProjectilesEvery>
+  <InterceptsProjectilesEvery>迎撃: {0} {1}毎</InterceptsProjectilesEvery>
   <!-- EN: Intercepts {0} -->
-  <InterceptsProjectiles>拦截{0}</InterceptsProjectiles>
+  <InterceptsProjectiles>迎撃: {0}</InterceptsProjectiles>
   <!-- EN: ground projectiles -->
-  <InterceptsProjectiles_GroundProjectiles>近地发射物</InterceptsProjectiles_GroundProjectiles>
+  <InterceptsProjectiles_GroundProjectiles>地上からの投射物</InterceptsProjectiles_GroundProjectiles>
   <!-- EN: aerial projectiles -->
-  <InterceptsProjectiles_AerialProjectiles>空中发射物</InterceptsProjectiles_AerialProjectiles>
+  <InterceptsProjectiles_AerialProjectiles>上空からの投射物</InterceptsProjectiles_AerialProjectiles>
 
   <!-- Condition causers -->
   <!-- EN: Affected gender -->
-  <AffectedGender>受影响的性别</AffectedGender>
+  <AffectedGender>影響する性別</AffectedGender>
 
   <!-- Hediff misc -->
   <!-- EN: Caused by: {0} -->
-  <CausedByHediff>由于：{0}</CausedByHediff>
+  <CausedByHediff>原因: {0}</CausedByHediff>
   
+  <!-- UNUSED -->
+  <ForceExitAndRemoveMapCountdown>出発まであと{0}</ForceExitAndRemoveMapCountdown>
+  <ForceExitAndRemoveMapCountdownTip>入植者達は自動的にキャラバン隊を再編成して,{0}後に,ここを離れます.</ForceExitAndRemoveMapCountdownTip>
+  <CannotResearchNoBench>研究できない: 研究卓が無い</CannotResearchNoBench>
+  <Complete>完了</Complete>
+  <PawnTooltipPsychicEntropy>Psychic entropy: {0}/{1}\nFall rate: {2}/{3}s({4}s until zero)\n\nPsychic entropy increases after performing a psycast.\nGoing over the safe limit can lead to long-term health consequences.\nWhenever entropy reaches zero, it leaves a psychic hangover behind.</PawnTooltipPsychicEntropy>
+
 </LanguageData>

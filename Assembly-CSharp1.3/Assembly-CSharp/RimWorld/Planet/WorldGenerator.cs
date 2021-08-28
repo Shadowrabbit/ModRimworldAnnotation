@@ -19,7 +19,7 @@ namespace RimWorld.Planet
 				select x;
 			}
 		}
-
+		WorldGeneratorGenerateWorld
 		// Token: 0x06008B21 RID: 35617 RVA: 0x0031F8C0 File Offset: 0x0031DAC0
 		public static World GenerateWorld(float planetCoverage, string seedString, OverallRainfall overallRainfall, OverallTemperature overallTemperature, OverallPopulation population, Dictionary<FactionDef, int> factionCounts = null)
 		{

@@ -52,10 +52,13 @@
   <RenameColonist>Rename colonist</RenameColonist>
   <RenounceTitle>Renounce title</RenounceTitle>
   <Execute>Execute</Execute>
-  <ExecuteColonist>Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person.</ExecuteColonist> <!-- text_doto -->
+  <ExecuteColonist>Execute guilty colonist\n\nIf you toggle this on, a warden will proceed to execute this person.</ExecuteColonist>
+  <MessageColonistMarkedForExecution>{0_labelShort} is now marked for execution. The next available warden will go execute {0_objective}.</MessageColonistMarkedForExecution>
   <TitleOfFaction>{0} of {1}</TitleOfFaction>
   <RenounceTitleDescription>This action will make {PAWN_nameDef} lose {PAWN_possessive} {TITLE} title. You will receive no compensation for renouncing the title.\n\nThis will have the following effects:\n\n{EFFECTS}</RenounceTitleDescription>
-  <RenounceTitleWillLoosePermits>{PAWN_possessive} will lose these permissions</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLoosePermits>{PAWN_pronoun} will lose these permissions</RenounceTitleWillLoosePermits>
+  <RenounceTitleWillLosePermitPoints>{PAWN_nameDef} will lose {POINTS} unspent permit points with {FACTION_name}.</RenounceTitleWillLosePermitPoints>
+  <RenounceTitleWillKeepPsylinkLevels>{PAWN_pronoun} will keep all {PAWN_possessive} psylink levels and psycasts.</RenounceTitleWillKeepPsylinkLevels>
   <UnknownLower>unknown</UnknownLower>
   <On>On</On>
   <Off>Off</Off>
@@ -205,6 +208,7 @@
   <Enemy>enemy</Enemy>
   <Location>location</Location>
   <AnimalsLower>animals</AnimalsLower>
+  <ItemsLower>items</ItemsLower>
   <FilthLabel>{0} x{1}</FilthLabel>
   <FilthLabelWithSource>{0} of {1} x{2}</FilthLabelWithSource>
   <Required>Required</Required>
@@ -257,6 +261,8 @@
   <Nudism>Nudism</Nudism>
   <StudyProgress>Study progress</StudyProgress>
   <StudyCompleted>completed</StudyCompleted>
+  <AttackToDestroy>Attack this to destroy it.</AttackToDestroy>
+  <RemoveByAttackingTooltip>Remove this by attacking it.</RemoveByAttackingTooltip>
 
   <!-- Scanning -->
   <UserScanAbility>User scanning speed</UserScanAbility>
@@ -324,6 +330,7 @@
   <PenSizeDesc_Large>Large pen</PenSizeDesc_Large>
   <PenSizeDesc_Unenclosed>Not enclosed - build fences</PenSizeDesc_Unenclosed>
   <PenCapacityDesc>{ANIMALDEF_label} capacity</PenCapacityDesc>
+  <PenExampleAnimals>Example animals</PenExampleAnimals>
 
 
   <!-- Control -->
@@ -585,22 +592,6 @@
   <CasketContains>Contains</CasketContains>
   <CasketWarning>Warning!\n\n{PAWN_nameDef} is your last free-standing colonist! If you let {PAWN_objective} step into that casket, you may not be able to continue playing. Are you sure you want to proceed?</CasketWarning>
 
-  <!-- Bioscuplter pod -->
-  <BiosculpterPodCycleLabel>Cycle</BiosculpterPodCycleLabel>
-  <BiosculpterPodCycleLabelLoading>loading nutrition</BiosculpterPodCycleLabelLoading>
-  <BiosculpterPodCycleLabelReady>ready</BiosculpterPodCycleLabelReady>
-  <BiosculpterPodCycleCommand>Prepare {0} cycle</BiosculpterPodCycleCommand>
-  <BiosculpterCycleTimeRemaining>Ends in</BiosculpterCycleTimeRemaining>
-  <BiosculpterBiotunedTo>Biotuned to</BiosculpterBiotunedTo>
-  <BiosculpterInteruptCycle>Interrupt cycle</BiosculpterInteruptCycle>
-  <BiosculpterInteruptCycleDesc>Interrupt the current cycle. The occupant will be ejected without benefiting from the effects of the cycle, and will suffer from short-term biosculpter sickness.</BiosculpterInteruptCycleDesc>
-  <BiosculpterLoadingStartedMessage>Once the biosculpter pod is filled with {NUTRITION} nutrition, select a colonist and right-click on the biosculpter pod or a downed person to start the cycle.</BiosculpterLoadingStartedMessage>
-  <BiosculpterNoPowerEjectedMessage>{PAWN_labelShort} was ejected from a biosculpter pod due to lack of power.</BiosculpterNoPowerEjectedMessage>
-  <BiosculpterHealCompletedMessage>{PAWN_labelShort} completed healing cycle.</BiosculpterHealCompletedMessage>
-  <BiosculpterHealCompletedWithCureMessage>{PAWN_labelShort} completed healing cycle, and their {HEDIFF_label} was cured.</BiosculpterHealCompletedWithCureMessage>
-  <BiosculpterAgeReversalCompletedMessage>{PAWN_labelShort} completed {PAWN_possessive} age reversal cycle. {PAWN_pronoun} expects the next age reversal in {DEADLINE} days.</BiosculpterAgeReversalCompletedMessage>
-  <BiosculpterPleasureCompletedMessage>{PAWN_labelShort} completed pleasure cycle.</BiosculpterPleasureCompletedMessage>
-
   <!-- Ship launch report -->
   <ShipReportCannotLaunch>Cannot launch.</ShipReportCannotLaunch>
   <ShipReportCanLaunch>Ready for launch.</ShipReportCanLaunch>
@@ -623,6 +614,7 @@
   <!-- Minification -->
   <Installed>Installed</Installed>
   <NotInstalled>Not installed</NotInstalled>
+  <MinifiedTreeWillDieIn>Extracted tree will die in {time} unless replanted.</MinifiedTreeWillDieIn>
 
   <!-- Art -->
   <Title>Title</Title>
@@ -819,8 +811,9 @@
   <!-- Rituals -->
   <Ritual>ritual</Ritual>
 
+  <RitualTakesPlaceAt>Takes place at</RitualTakesPlaceAt>
   <RitualTargetThingDefsInfo>Any {0}</RitualTargetThingDefsInfo>
-  <LordReportAttending>Attending</LordReportAttending>
+  <LordReportAttending>Attending {0}</LordReportAttending>
   <RitualCalledOff>{0} has been canceled.</RitualCalledOff>
   <RitualNobodyAttended>{0} was not completed because of lack of attendance.</RitualNobodyAttended>
   <RitualFinished>{0} has been completed.</RitualFinished>
@@ -846,23 +839,8 @@
   <RitualAmbienceSound>Ritual ambience sound</RitualAmbienceSound>
   <RitualQualityLowWarning>Total {0} quality is below {1}. Proceeding will most likely negatively impact your colony.\n\nAre you sure?</RitualQualityLowWarning>
   <AbilitySpeechDisabledNoSpot>No reachable appropriate place to speak.</AbilitySpeechDisabledNoSpot>
-  <AbilitySpeechDisabledCantSpeak>{0_labelShort} is incapable of talking.</AbilitySpeechDisabledCantSpeak>
-  <RitualAttachedReward>Additional reward</RitualAttachedReward>
-  <RitualAttachedRewardChoose>Choose</RitualAttachedRewardChoose>
-  <RitualAttachedRewardCantUseWithRitual>Can't use {0} with {1}.</RitualAttachedRewardCantUseWithRitual>
-  <RitualAttachedRewardRequiredMemeAny>Requires any of memes</RitualAttachedRewardRequiredMemeAny>
-  <RitualAttachedRewardRequiredFaction>Requires {0} faction</RitualAttachedRewardRequiredFaction>
-  <RitualAttachedOutcomes_Positive>positive</RitualAttachedOutcomes_Positive>
-  <RitualAttachedOutcomes_Negative>negative</RitualAttachedOutcomes_Negative>
-  <RitualAttachedOutcomesInfo>If the {0} is {1}</RitualAttachedOutcomesInfo>
-  <RitualAttachedAllOutcomes>Any outcome</RitualAttachedAllOutcomes>
-  <RitualAttachedApplliesForOutcome>Upon any {0} outcome</RitualAttachedApplliesForOutcome>
-  <RitualAttachedApplliesForOutcomes>Upon any {0} outcome</RitualAttachedApplliesForOutcomes>
-  <RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>The commotion from the {0} has attracted some curious animals!\n\nThey seem accustomed to human contact and are joining the colony.</RitualAttachedOutcome_FarmAnimalsWanderIn_Desc>
-  <RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>The {0} has induced a Gauranlen pod to sprout nearby.</RitualAttachedOutcome_GauranlenTreePod_ExtraDesc>
-  <RitualAttachedOutcomeCantApply>Can't apply reward</RitualAttachedOutcomeCantApply>
-  <RitualAttachedOutcomeCantApply_NoValidSpot>No valid spot</RitualAttachedOutcomeCantApply_NoValidSpot>
-  <RitualAttachedOutcomeCantApply_ExtremeBiome>Extreme biome</RitualAttachedOutcomeCantApply_ExtremeBiome>
+  <AbilityDisabledNoCapacity>{0_labelShort} is incapable of {1}.</AbilityDisabledNoCapacity>
+  <RitualOutcomeExtraDesc_Mood>Everyone participating in the ritual gains {0} mood for {1} days.</RitualOutcomeExtraDesc_Mood>
   
   <ChooseParticipants>Choose who should participate in {RITUAL_labelDef}.</ChooseParticipants>
   <Begin>Begin</Begin>
@@ -893,5 +871,8 @@
   <OutcomeBonusDesc_QualitySingleOffset>{0} quality</OutcomeBonusDesc_QualitySingleOffset>
   <OutcomeLetterLabel>{OUTCOMELABEL} {RITUALLABEL}</OutcomeLetterLabel>
   <MaxValue>{0} max</MaxValue>
-  
+
+  <ThingOf>{0} of</ThingOf>
+  <ThingOfSource>{0} of {1}</ThingOfSource>
+
 </LanguageData>

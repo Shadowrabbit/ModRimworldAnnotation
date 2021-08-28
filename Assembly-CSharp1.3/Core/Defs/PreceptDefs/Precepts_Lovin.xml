@@ -59,6 +59,7 @@
     <displayOrderInIssue>0</displayOrderInIssue>
     <displayOrderInImpact>-100</displayOrderInImpact>
     <classic>true</classic>
+    <defaultSelectionWeight>1</defaultSelectionWeight>
     <associatedMemes>
       <li MayRequire="Ludeon.RimWorld.Ideology">Individualist</li>
     </associatedMemes>

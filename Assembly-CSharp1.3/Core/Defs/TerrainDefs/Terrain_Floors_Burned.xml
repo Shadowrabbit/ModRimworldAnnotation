@@ -33,4 +33,13 @@
     <edgeType>FadeRough</edgeType>
   </TerrainDef>
 
+  <TerrainDef ParentName="BurnedFloorBase">
+    <defName>BurnedStrawMatting</defName>
+    <label>burned straw matting</label>
+    <renderPrecedence>240</renderPrecedence>
+    <description>Straw matting that has been burned in a fire.</description>
+    <texturePath>Terrain/Surfaces/BurnedStrawmatting</texturePath>
+    <edgeType>FadeRough</edgeType>
+  </TerrainDef>
+
 </Defs>

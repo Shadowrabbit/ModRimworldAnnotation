@@ -7,8 +7,8 @@
     <li>qualityInfo-></li>
   -->
   <TradeRequest.questDescriptionRules.rulesStrings>
-    <li>questDescription->附近一个名叫 [settlement_label] 的聚落向我们发出了一场交易请求。 他们想采购以下物资：\n\n  [requestedThingCount]x [qualityInfo] [requestedThing_label](价值： [requestedThingMarketValue_money])\n\n如果你同意这场交易，请派出一支携带相应物资的远行队前往目标地点。 旅途预估时间约为：[estimatedTravelTime_duration]。</li>
-    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->一般品质以上</li>
+    <li>questDescription->入植地の近くにある,[settlement_label]が特別な取引を申し出てきました. 彼らは,以下の物を欲しがっています:\n\n[requestedThingCount]個の[qualityInfo][requestedThing_label] (価値 [requestedThingMarketValue_money])\n\n取引を行いたければ,要求された品物を持たせたキャラバン隊を送りましょう. おおよその旅程時間は[estimatedTravelTime_duration]です.</li>
+    <li>qualityInfo(requestedThingHasQuality==True,priority=1)->標準品以上の品質の</li>
     <li>qualityInfo-></li>
   </TradeRequest.questDescriptionRules.rulesStrings>
   <!-- EN:
@@ -26,26 +26,26 @@
     <li>trade->Offer</li>
   -->
   <TradeRequest.questNameRules.rulesStrings>
-    <li>questName->远行队前往[settlement_label]</li>
-    <li>questName->与[settlement_label]交易</li>
-    <li>questName->向[settlement_label]出售</li>
-    <li>questName->补给[settlement_label]</li>
-    <li>questName->一场[special][trade]</li>
-    <li>special->特别的</li>
-    <li>special->独一无二的</li>
-    <li>special->非传统的</li>
-    <li>trade->贸易</li>
-    <li>trade->交换</li>
-    <li>trade->交易</li>
-    <li>trade->供应</li>
+    <li>questName->[settlement_label]にキャラバン隊が行く</li>
+    <li>questName->[settlement_label]との交易</li>
+    <li>questName->[settlement_label]と商売</li>
+    <li>questName->補給品を[settlement_label]に</li>
+    <li>questName->[special][trade]</li>
+    <li>special->特別な</li>
+    <li>special->珍しい</li>
+    <li>special->斬新な</li>
+    <li>trade->売買</li>
+    <li>trade->交換</li>
+    <li>trade->取引</li>
+    <li>trade->申し出</li>
   </TradeRequest.questNameRules.rulesStrings>
   <!-- EN: Quest failed: [resolvedQuestName] -->
-  <TradeRequest.LetterLabelQuestFailed.slateRef>任务失败：[resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
+  <TradeRequest.LetterLabelQuestFailed.slateRef>クエスト失敗: [resolvedQuestName]</TradeRequest.LetterLabelQuestFailed.slateRef>
   <!-- EN: [faction_name] became hostile to you. -->
-  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name]开始与你敌对了。</TradeRequest.LetterTextQuestFailed.slateRef>
+  <TradeRequest.LetterTextQuestFailed.slateRef>[faction_name]があなたのコロニーと敵対状態になりました.</TradeRequest.LetterTextQuestFailed.slateRef>
   <!-- EN: [asker_faction_royalFavorLabel] -->
   <TradeRequest.LetterLabelFavorReceiver.slateRef>[asker_faction_royalFavorLabel]</TradeRequest.LetterLabelFavorReceiver.slateRef>
   <!-- EN: Who should be credited with [asker_faction_royalFavorLabel] for fulfilling the trade request? -->
-  <TradeRequest.LetterTextFavorReceiver.slateRef>谁应该作为[asker_faction_royalFavorLabel]以完成此次交易任务？</TradeRequest.LetterTextFavorReceiver.slateRef>
+  <TradeRequest.LetterTextFavorReceiver.slateRef>この貿易要求を満たすために,誰が[asker_faction_royalFavorLabel]を持っていると信じるべきですか？</TradeRequest.LetterTextFavorReceiver.slateRef>
   
 </LanguageData>

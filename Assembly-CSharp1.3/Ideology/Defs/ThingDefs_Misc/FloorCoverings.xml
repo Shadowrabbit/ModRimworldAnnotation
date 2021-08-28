@@ -86,6 +86,9 @@
     <label>totemic slab (medium)</label>
     <description>A wooden bas relief of totemic imagery for decorating a floor.</description>
     <dominantStyleCategory>Totemic</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.22</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/SlabTotemicMedium</texPath>
@@ -103,6 +106,9 @@
     <label>totemic slab (broad)</label>
     <description>A wooden bas relief of totemic imagery for decorating a floor.</description>
     <dominantStyleCategory>Totemic</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.22</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/SlabTotemicBroad</texPath>
@@ -154,6 +160,9 @@
     <label>rustic rug (medium)</label>
     <description>A homey rug with a rustic-style pattern, for decorating a floor.</description>
     <dominantStyleCategory>Rustic</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.32</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/RusticRugMedium</texPath>
@@ -178,6 +187,9 @@
     <label>rustic rug (broad)</label>
     <description>A homey rug with a rustic-style pattern, for decorating a floor.</description>
     <dominantStyleCategory>Rustic</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.32</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/RusticRugBroad</texPath>
@@ -202,6 +214,9 @@
     <label>animalist slab (medium)</label>
     <description>A wooden bas relief of animalist imagery for decorating a floor.</description>
     <dominantStyleCategory>Animalist</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.22</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/SlabAnimalistMedium</texPath>
@@ -219,6 +234,9 @@
     <label>animalist slab (broad)</label>
     <description>A wooden bas relief of animalist imagery for decorating a floor.</description>
     <dominantStyleCategory>Animalist</dominantStyleCategory>
+    <statBases>
+      <Flammability>0.22</Flammability>
+    </statBases>
     <graphicData>
       <graphicClass>Graphic_Random</graphicClass>
       <texPath>Things/Building/FloorCoverings/SlabAnimalistBroad</texPath>

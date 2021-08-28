@@ -174,6 +174,16 @@
       </damageData>
     </graphicData>
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+    <uiIconPathsStuff>
+      <li>
+        <appearance>Planks</appearance>
+        <iconPath>Things/Building/Linked/WallPlanks_MenuIcon</iconPath>
+      </li>
+      <li>
+        <appearance>Bricks</appearance>
+        <iconPath>Things/Building/Linked/WallBricks_MenuIcon</iconPath>
+      </li>
+    </uiIconPathsStuff>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
       <WorkToBuild>135</WorkToBuild>
@@ -240,12 +250,12 @@
   <ThingDef ParentName="BuildingBase">
     <defName>Fence</defName>
     <label>fence</label>
-    <description>A fence made of posts joined by crossbars used for building pens for certain kinds of animals. Fences only block certain kinds of animals.</description>
+    <description>A fence made of posts joined by crossbars used for building pens for certain kinds of animals. Some kinds of animals can get past fences. Predators will not hunt creatures on the other side of a fence, but may still wander inside.</description>
     <thingClass>Building</thingClass>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/Building/Linked/Fence_Atlas</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/Linked/Fence</texPath>
+      <graphicClass>Graphic_Appearances</graphicClass>
       <linkType>Asymmetric</linkType>
       <linkFlags>
         <li>Fences</li>
@@ -276,6 +286,12 @@
       </damageData>
     </graphicData>
     <uiIconPath>Things/Building/Linked/Fence_MenuIcon</uiIconPath>
+    <uiIconPathsStuff>
+      <li>
+        <appearance>Metal</appearance>
+        <iconPath>Things/Building/Linked/FenceMetal_MenuIcon</iconPath>
+      </li>
+    </uiIconPathsStuff>
     <statBases>
       <MaxHitPoints>40</MaxHitPoints>
       <WorkToBuild>70</WorkToBuild>
@@ -314,7 +330,8 @@
         <li>FenceGate</li>
       </relatedBuildCommands>
       <blueprintGraphicData>
-        <texPath>Things/Building/Linked/Fence_Blueprint_Atlas</texPath>
+        <texPath>Things/Building/Linked/Fence_Blueprint</texPath>
+        <graphicClass>Graphic_Appearances</graphicClass>
       </blueprintGraphicData>
     </building>
   </ThingDef>
@@ -324,8 +341,8 @@
     <label>fence gate</label>
     <description>A simple gate made of posts and crossbars. It blocks some animals like a fence. Handlers can lead animals in and out of the pen through these gates.</description>
     <statBases>
-      <MaxHitPoints>160</MaxHitPoints>
-      <WorkToBuild>850</WorkToBuild>
+      <MaxHitPoints>20</MaxHitPoints>
+      <WorkToBuild>500</WorkToBuild>
       <DoorOpenSpeed>1.15</DoorOpenSpeed>
     </statBases>
     <graphicData>

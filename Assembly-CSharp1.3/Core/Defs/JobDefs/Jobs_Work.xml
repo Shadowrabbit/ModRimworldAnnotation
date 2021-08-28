@@ -235,6 +235,13 @@
   </JobDef>
 
   <JobDef>
+    <defName>Replant</defName>
+    <driverClass>JobDriver_Replant</driverClass>
+    <reportString>replanting TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
     <defName>FinishFrame</defName>
     <driverClass>JobDriver_ConstructFinishFrame</driverClass>
     <reportString>building TargetA.</reportString>
@@ -252,6 +259,13 @@
     <defName>Uninstall</defName>
     <driverClass>JobDriver_Uninstall</driverClass>
     <reportString>uninstalling TargetA.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+
+  <JobDef>
+    <defName>ExtractTree</defName>
+    <driverClass>JobDriver_ExtractTree</driverClass>
+    <reportString>extracting TargetA.</reportString>
     <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
   </JobDef>
 

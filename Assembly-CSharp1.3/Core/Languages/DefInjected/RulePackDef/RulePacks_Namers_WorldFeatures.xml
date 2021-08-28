@@ -14,16 +14,16 @@
     <li>terrain_word->chain</li>
   -->
   <NamerArchipelago.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name]群岛</li>
-    <li>terrain_word(p=4)->群岛</li>
-    <li>terrain_word(p=3)->群岛</li>
-    <li>terrain_word(p=3)->列岛</li>
-    <li>terrain_word->礁群</li>
-    <li>terrain_word->环礁群</li>
-    <li>terrain_word->群岛</li>
-    <li>terrain_word->群岛</li>
-    <li>terrain_word->环礁群</li>
-    <li>terrain_word->群岛</li>
+    <li>r_name(p=0.2)->[narrative_name]小島</li>
+    <li>terrain_word(p=4)->島</li>
+    <li>terrain_word(p=3)->小島</li>
+    <li>terrain_word(p=3)->群島</li>
+    <li>terrain_word->岩礁</li>
+    <li>terrain_word->環礁</li>
+    <li>terrain_word->岩礁</li>
+    <li>terrain_word->小島</li>
+    <li>terrain_word->礁</li>
+    <li>terrain_word->諸島</li>
   </NamerArchipelago.rulePack.rulesStrings>
   
   <!-- EN:
@@ -37,14 +37,14 @@
     <li>terrain_word->barrens</li>
   -->
   <NamerAridShrubland.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->草原</li>
-    <li>terrain_word(p=4)->干旱平原</li>
-    <li>terrain_word(p=2)->大草原</li>
-    <li>terrain_word(p=2)->灌丛草原</li>
-    <li>terrain_word->灌丛平原</li>
-    <li>terrain_word->干旱灌木地</li>
-    <li>terrain_word->荆棘区</li>
-    <li>terrain_word->灌丛荒漠</li>
+    <li>terrain_word(p=4)->低木林</li>
+    <li>terrain_word(p=4)->低木地</li>
+    <li>terrain_word(p=2)->高原</li>
+    <li>terrain_word(p=2)->低木</li>
+    <li>terrain_word->砂漠</li>
+    <li>terrain_word->藪</li>
+    <li>terrain_word->雑木林</li>
+    <li>terrain_word->やせ地</li>
   </NamerAridShrubland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -57,11 +57,11 @@
   -->
   <NamerBay.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[narrative_name]湾</li>
-    <li>terrain_word(p=6)->湾</li>
+    <li>terrain_word(p=6)->入江</li>
+    <li>terrain_word->海岸</li>
     <li>terrain_word->湾</li>
-    <li>terrain_word->湾</li>
-    <li>terrain_word->锚地</li>
-    <li>terrain_word->湾</li>
+    <li>terrain_word->泊地</li>
+    <li>terrain_word->水道</li>
   </NamerBay.rulePack.rulesStrings>
   
   <!-- EN:
@@ -75,12 +75,12 @@
   -->
   <NamerBorealForest.rulePack.rulesStrings>
     <li>terrain_word(p=6)->森林</li>
-    <li>terrain_word(p=3)->林区</li>
-    <li>terrain_word->寒带林区</li>
-    <li>terrain_word->寒带林区</li>
-    <li>terrain_word->寒带森林</li>
-    <li>terrain_word->寒带平原</li>
-    <li>terrain_word->寒带平原</li>
+    <li>terrain_word(p=3)->針葉樹林</li>
+    <li>terrain_word->林</li>
+    <li>terrain_word->原始林</li>
+    <li>terrain_word->森</li>
+    <li>terrain_word->森林</li>
+    <li>terrain_word->藪</li>
   </NamerBorealForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -109,27 +109,27 @@
   -->
   <NamerDesert.rulePack.rulesStrings>
     <li>r_name(p=0.4)->[desert_adjective][narrative_name]</li>
-    <li>desert_adjective->平坦的</li>
-    <li>desert_adjective->白色的</li>
-    <li>desert_adjective->无垠的</li>
-    <li>desert_adjective->无情的</li>
-    <li>desert_adjective->焦灼的</li>
-    <li>desert_adjective->干燥的</li>
-    <li>desert_adjective->绵延的</li>
-    <li>desert_adjective->烈炎的</li>
-    <li>desert_adjective->晴空的</li>
-    <li>desert_adjective->炫目的</li>
-    <li>desert_adjective->炎热的</li>
-    <li>desert_adjective->灼热的</li>
-    <li>desert_adjective->沙质的</li>
-    <li>desert_adjective->岩质的</li>
-    <li>terrain_word(p=6)->沙漠</li>
-    <li>terrain_word->沙漠</li>
-    <li>terrain_word->荒漠</li>
-    <li>terrain_word->沙漠盆地</li>
-    <li>terrain_word->荒漠</li>
-    <li>terrain_word->戈壁</li>
-    <li>terrain_word->戈壁</li>
+    <li>desert_adjective->フラット</li>
+    <li>desert_adjective->ホワイト</li>
+    <li>desert_adjective->エンドレス</li>
+    <li>desert_adjective->ハートレス</li>
+    <li>desert_adjective->パーチ</li>
+    <li>desert_adjective->ドライ</li>
+    <li>desert_adjective->ロング</li>
+    <li>desert_adjective->サンバーン</li>
+    <li>desert_adjective->サニー</li>
+    <li>desert_adjective->ダズリング</li>
+    <li>desert_adjective->ホット</li>
+    <li>desert_adjective->スウェティ</li>
+    <li>desert_adjective->サンディ</li>
+    <li>desert_adjective->ロッキィ</li>
+    <li>terrain_word(p=6)->砂漠</li>
+    <li>terrain_word->高原</li>
+    <li>terrain_word->平地</li>
+    <li>terrain_word->盆地</li>
+    <li>terrain_word->野地</li>
+    <li>terrain_word->荒地</li>
+    <li>terrain_word->谷地</li>
   </NamerDesert.rulePack.rulesStrings>
   
   <!-- EN:
@@ -139,10 +139,10 @@
     <li>terrain_word->thicket</li>
   -->
   <NamerForest.rulePack.rulesStrings>
-    <li>terrain_word(p=6)->平原</li>
-    <li>terrain_word->温带林区</li>
-    <li>terrain_word->温带林区</li>
-    <li>terrain_word->温带平原</li>
+    <li>terrain_word(p=6)->森林</li>
+    <li>terrain_word->グロウブ</li>
+    <li>terrain_word->森林地帯</li>
+    <li>terrain_word->林</li>
   </NamerForest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -156,14 +156,14 @@
     <li>terrain_word(p=0.3)->tract</li>
   -->
   <NamerIceSheet.rulePack.rulesStrings>
-    <li>terrain_word->冰原</li>
-    <li>terrain_word->雪原</li>
-    <li>terrain_word(p=0.5)->极地</li>
-    <li>terrain_word(p=0.3)->雪原</li>
-    <li>terrain_word(p=0.3)->极地</li>
-    <li>terrain_word(p=0.3)->冰原</li>
-    <li>terrain_word(p=0.3)->大冰原</li>
-    <li>terrain_word(p=0.3)->极地</li>
+    <li>terrain_word->氷床</li>
+    <li>terrain_word->広野</li>
+    <li>terrain_word(p=0.5)->入り江</li>
+    <li>terrain_word(p=0.3)->野原</li>
+    <li>terrain_word(p=0.3)->スパン</li>
+    <li>terrain_word(p=0.3)->野原</li>
+    <li>terrain_word(p=0.3)->ストレッチ</li>
+    <li>terrain_word(p=0.3)->区域</li>
   </NamerIceSheet.rulePack.rulesStrings>
   
   <!-- EN:
@@ -177,14 +177,14 @@
     <li>terrain_word->point</li>
   -->
   <NamerIsland.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name]岛</li>
-    <li>terrain_word(p=4)->岛</li>
-    <li>terrain_word(p=2)->岛</li>
+    <li>r_name(p=0.2)->[narrative_name]小島</li>
+    <li>terrain_word(p=4)->島</li>
+    <li>terrain_word(p=2)->小島</li>
+    <li>terrain_word->環礁</li>
+    <li>terrain_word->岩礁</li>
+    <li>terrain_word->岩礁</li>
+    <li>terrain_word->小島</li>
     <li>terrain_word->礁</li>
-    <li>terrain_word->环礁</li>
-    <li>terrain_word->岛</li>
-    <li>terrain_word->屿</li>
-    <li>terrain_word->岛礁</li>
   </NamerIsland.rulePack.rulesStrings>
   
   <!-- EN:
@@ -201,12 +201,12 @@
   <NamerLake.rulePack.rulesStrings>
     <li>r_name->[narrative_name]湖</li>
     <li>terrain_word(p=6)->湖</li>
-    <li>terrain_word->内海</li>
-    <li>terrain_word->湖</li>
-    <li>terrain_word->湖</li>
-    <li>terrain_word->湖</li>
-    <li>terrain_word(p=0.3)->水洼</li>
-    <li>terrain_word(p=0.3)->潟湖</li>
+    <li>terrain_word->海</li>
+    <li>terrain_word->池</li>
+    <li>terrain_word->滝壺</li>
+    <li>terrain_word->貯水池</li>
+    <li>terrain_word(p=0.3)->沼</li>
+    <li>terrain_word(p=0.3)->礁湖</li>
     <li>terrain_word(p=0.3)->湖</li>
   </NamerLake.rulePack.rulesStrings>
   
@@ -220,11 +220,11 @@
   -->
   <NamerMountainRange.rulePack.rulesStrings>
     <li>r_name(p=0.2)->[narrative_name]山</li>
-    <li>terrain_word(p=5)->山脉</li>
-    <li>terrain_word(p=2)->山</li>
+    <li>terrain_word(p=5)->山地</li>
+    <li>terrain_word(p=2)->山脈</li>
     <li>terrain_word->峰</li>
-    <li>terrain_word->山地</li>
-    <li>terrain_word->山区</li>
+    <li>terrain_word->崖</li>
+    <li>terrain_word->嶺</li>
   </NamerMountainRange.rulePack.rulesStrings>
   
   <!-- EN:
@@ -248,22 +248,22 @@
   -->
   <NamerOcean.rulePack.rulesStrings>
     <li>r_name(p=0.4)->[ocean_adjective][narrative_name]</li>
-    <li>ocean_adjective->蓝色的</li>
-    <li>ocean_adjective->白色的</li>
-    <li>ocean_adjective->灰色的</li>
-    <li>ocean_adjective->清澈的</li>
-    <li>ocean_adjective->多风的</li>
-    <li>ocean_adjective->肆虐的</li>
-    <li>ocean_adjective->平静的</li>
-    <li>ocean_adjective->广阔的</li>
-    <li>ocean_adjective->无穷的</li>
-    <li>ocean_adjective->平静的</li>
-    <li>ocean_adjective->安静的</li>
-    <li>ocean_adjective->汹涌的</li>
-    <li>ocean_adjective->温和的</li>
+    <li>ocean_adjective->ブルー</li>
+    <li>ocean_adjective->ホワイト</li>
+    <li>ocean_adjective->グレイ</li>
+    <li>ocean_adjective->クリア</li>
+    <li>ocean_adjective->ウインディ</li>
+    <li>ocean_adjective->ストーミィ</li>
+    <li>ocean_adjective->カルム</li>
+    <li>ocean_adjective->ブロード</li>
+    <li>ocean_adjective->エンドレス</li>
+    <li>ocean_adjective->フラット</li>
+    <li>ocean_adjective->スティル</li>
+    <li>ocean_adjective->ウエイビー</li>
+    <li>ocean_adjective->ジェントル</li>
     <li>terrain_word(p=6)->洋</li>
     <li>terrain_word(p=3)->海</li>
-    <li>terrain_word->大洋</li>
+    <li>terrain_word->洋</li>
   </NamerOcean.rulePack.rulesStrings>
   
   <!-- EN:
@@ -276,13 +276,13 @@
     <li>terrain_word->horn</li>
   -->
   <NamerPeninsula.rulePack.rulesStrings>
-    <li>r_name(p=0.2)->[narrative_name]角</li>
-    <li>r_name(p=0.2)->[narrative_name]半岛</li>
-    <li>terrain_word(p=5)->半岛</li>
-    <li>terrain_word(p=2)->角</li>
-    <li>terrain_word->海角</li>
+    <li>r_name(p=0.2)->[narrative_name]半島</li>
+    <li>r_name(p=0.2)->[narrative_name]岬</li>
+    <li>terrain_word(p=5)->半島</li>
+    <li>terrain_word(p=2)->岬</li>
+    <li>terrain_word->砂嘴</li>
+    <li>terrain_word->砂州</li>
     <li>terrain_word->岬</li>
-    <li>terrain_word->角</li>
   </NamerPeninsula.rulePack.rulesStrings>
   
   <!-- EN:
@@ -293,8 +293,8 @@
   -->
   <NamerSea.rulePack.rulesStrings>
     <li>r_name(p=0.1)->[narrative_name]湖</li>
-    <li>terrain_word(p=6)->湖</li>
-    <li>terrain_word->湖</li>
+    <li>terrain_word(p=6)->海</li>
+    <li>terrain_word->大洋</li>
     <li>terrain_word->湖</li>
   </NamerSea.rulePack.rulesStrings>
   
@@ -319,24 +319,24 @@
     <li>terrain_word->fen</li>
   -->
   <NamerSwamp.rulePack.rulesStrings>
-    <li>r_name(p=0.1)->[narrative_name]沼泽</li>
+    <li>r_name(p=0.1)->[narrative_name]湿原</li>
     <li>r_name(p=0.3)->[swamp_adjective][narrative_name]</li>
-    <li>swamp_adjective->潮湿的</li>
-    <li>swamp_adjective->湿热的</li>
-    <li>swamp_adjective->窒息的</li>
-    <li>swamp_adjective->发臭的</li>
-    <li>swamp_adjective->腐烂的</li>
-    <li>swamp_adjective->杂乱的</li>
-    <li>swamp_adjective->迷宫般的</li>
-    <li>swamp_adjective->藤蔓交错的</li>
-    <li>swamp_adjective->荆棘丛生的</li>
-    <li>terrain_word(p=6)->沼泽</li>
-    <li>terrain_word->沼泽盆地</li>
+    <li>swamp_adjective->ウェット</li>
+    <li>swamp_adjective->スティーミー</li>
+    <li>swamp_adjective->チョーキング</li>
+    <li>swamp_adjective->ロッテン</li>
+    <li>swamp_adjective->ロッティング</li>
+    <li>swamp_adjective->オーバーグロウン</li>
+    <li>swamp_adjective->タングルド</li>
+    <li>swamp_adjective->ヴィニィ</li>
+    <li>swamp_adjective->ソーン</li>
+    <li>terrain_word(p=6)->沼地</li>
+    <li>terrain_word->盆地</li>
+    <li>terrain_word->湿地帯</li>
+    <li>terrain_word->沼</li>
+    <li>terrain_word->泥炭地</li>
     <li>terrain_word->湿地</li>
-    <li>terrain_word->沼泽</li>
-    <li>terrain_word->沼泽</li>
-    <li>terrain_word->湿地</li>
-    <li>terrain_word->沼泽</li>
+    <li>terrain_word->湿原</li>
   </NamerSwamp.rulePack.rulesStrings>
   
   <!-- EN:
@@ -357,19 +357,19 @@
   -->
   <NamerTropicalRainforest.rulePack.rulesStrings>
     <li>r_name(p=0.3)->[rainforest_adjective][narrative_name]</li>
-    <li>rainforest_adjective->潮湿的</li>
-    <li>rainforest_adjective->湿热的</li>
-    <li>rainforest_adjective->窒息的</li>
-    <li>rainforest_adjective->杂乱的</li>
-    <li>rainforest_adjective->迷宫般的</li>
-    <li>rainforest_adjective->藤蔓交错的</li>
-    <li>rainforest_adjective->荆棘丛生的</li>
+    <li>rainforest_adjective->ウエット</li>
+    <li>rainforest_adjective->スティーミー</li>
+    <li>rainforest_adjective->チョキング</li>
+    <li>rainforest_adjective->オーバーグロウ</li>
+    <li>rainforest_adjective->タングルド</li>
+    <li>rainforest_adjective->ビニィ</li>
+    <li>rainforest_adjective->ソーン</li>
     <li>terrain_word(p=6)->雨林</li>
-    <li>terrain_word(p=3)->密林</li>
-    <li>terrain_word->热带林区</li>
-    <li>terrain_word->雨林</li>
-    <li>terrain_word->雨林区</li>
-    <li>terrain_word->热带雨林</li>
+    <li>terrain_word(p=3)->ジャングル</li>
+    <li>terrain_word->林</li>
+    <li>terrain_word->グロウブ</li>
+    <li>terrain_word->森林</li>
+    <li>terrain_word->原始林</li>
   </NamerTropicalRainforest.rulePack.rulesStrings>
   
   <!-- EN:
@@ -387,18 +387,18 @@
     <li>terrain_word->flats</li>
   -->
   <NamerTundra.rulePack.rulesStrings>
-    <li>terrain_word(p=4)->冻原</li>
-    <li>terrain_word(p=4)->苔原</li>
-    <li>terrain_word(p=2)->冻土林地</li>
-    <li>terrain_word->灌丛苔原</li>
-    <li>terrain_word->荒原</li>
-    <li>terrain_word->低地苔原</li>
-    <li>terrain_word->灌丛苔原</li>
-    <li>terrain_word->灌丛苔原</li>
-    <li>terrain_word->荒原</li>
-    <li>terrain_word->苔原</li>
-    <li>terrain_word->苔原</li>
-    <li>terrain_word->冻原</li>
+    <li>terrain_word(p=4)->台地</li>
+    <li>terrain_word(p=4)->荒地</li>
+    <li>terrain_word(p=2)->針葉樹林</li>
+    <li>terrain_word->潅木</li>
+    <li>terrain_word->潅木地</li>
+    <li>terrain_word->低木地</li>
+    <li>terrain_word->叢林</li>
+    <li>terrain_word->茂み</li>
+    <li>terrain_word->荒地</li>
+    <li>terrain_word->広野</li>
+    <li>terrain_word->大草原</li>
+    <li>terrain_word->平野</li>
   </NamerTundra.rulePack.rulesStrings>
   
   <!-- EN:
@@ -463,65 +463,77 @@
     <li>story_result->fraud</li>
   -->
   <WorldFeatureNamerCommon.rulePack.rulesStrings>
-    <li>r_name->[narrative_name][terrain_word]</li>
+    <li>r_name->[metaprefix][standardname]</li>
     <li>r_name(p=0.05)->[storyname][terrain_word]</li>
+    <li>standardname->[narrative_name][terrain_word]</li>
+    <li>metaprefix(p=10)-></li>
+    <li>metaprefix->[Direction]</li>
+    <li>metaprefix->[basic_adjective]・</li>
+    <li>basic_adjective->グレイト</li>
+    <li>basic_adjective->グレイター</li>
+    <li>basic_adjective->レッサー</li>
+    <li>basic_adjective->グランド</li>
+    <li>basic_adjective->ニュー</li>
+    <li>basic_adjective->オールド</li>
     <li>narrative_name(p=12)->[WordTribal]</li>
     <li>narrative_name(p=12)->[PlaceOutlander]</li>
-    <li>narrative_name->[Color][NaturalObject]</li>
+    <li>narrative_name->[Color]の[NaturalObject]</li>
     <li>narrative_name->[AdjectiveNatural][BodyPart]</li>
     <li>narrative_name->[Animal]</li>
     <li>narrative_name->[Color]</li>
-    <li>narrative_name->[Color][Animal]</li>
+    <li>narrative_name->[Color]の[Animal]</li>
     <li>narrative_name->[AdjectiveNatural][Animal]</li>
     <li>narrative_name->[Animal][BodyPart]</li>
-    <li>narrative_name->[Color][Animal]</li>
-    <li>narrative_name->[AdjectiveNatural][Animal]</li>
-    <li>narrative_name->[Animal][BodyPart]</li>
-    <li>storyname(p=50)->[subject]的[story_result]</li>
-    <li>storyname(p=2)->[subject]的[BodyPart]</li>
-    <li>storyname->[subject]的[Gore]</li>
+    <li>narrative_name->[Color] [Animal]</li>
+    <li>narrative_name->[AdjectiveNatural] [Animal]</li>
+    <li>narrative_name->[Animal] [BodyPart]</li>
+    <li>storyname(p=50)->[subject]の[maybe_basic_adjective] [story_result]</li>
+    <li>storyname(p=2)->[subject]の[BodyPart]</li>
+    <li>storyname->[subject]の[Gore]</li>
+    <li>maybe_basic_adjective-></li>
+    <li>maybe_basic_adjective(p=0.1)->[basic_adjective]</li>
     <li>subject(p=5)->[NamePerson]</li>
     <li>subject->[Animal]</li>
     <li>subject->[WordTribal]</li>
     <li>subject->[PlaceOutlander]</li>
-    <li>story_result->愚蠢</li>
-    <li>story_result->堕落</li>
-    <li>story_result->疯狂</li>
-    <li>story_result->失误</li>
-    <li>story_result->故障</li>
-    <li>story_result->错误</li>
-    <li>story_result->妄想</li>
-    <li>story_result->喜悦</li>
-    <li>story_result->愉快</li>
-    <li>story_result->惊讶</li>
-    <li>story_result->骄傲</li>
-    <li>story_result->珠宝</li>
-    <li>story_result->奖赏</li>
-    <li>story_result->赏金</li>
-    <li>story_result->荣耀</li>
-    <li>story_result->头筹</li>
-    <li>story_result->奖杯</li>
-    <li>story_result->自负</li>
-    <li>story_result->傲慢</li>
-    <li>story_result->忍受</li>
-    <li>story_result->丧失</li>
-    <li>story_result->恩情</li>
-    <li>story_result->崩溃</li>
-    <li>story_result->毁灭</li>
-    <li>story_result->动乱</li>
-    <li>story_result->废墟</li>
-    <li>story_result->毁坏</li>
-    <li>story_result->祸根</li>
-    <li>story_result->衰败</li>
-    <li>story_result->尽头</li>
-    <li>story_result->退休</li>
-    <li>story_result->功绩</li>
-    <li>story_result->结局</li>
-    <li>story_result->吹嘘</li>
-    <li>story_result->诡计</li>
-    <li>story_result->欺骗</li>
-    <li>story_result->外观</li>
-    <li>story_result->欺诈</li>
+    <li>story_result->フォリー</li>
+    <li>story_result->ヴァイス</li>
+    <li>story_result->ルナシー</li>
+    <li>story_result->ミステイク</li>
+    <li>story_result->フォウルト</li>
+    <li>story_result->ミスステップ</li>
+    <li>story_result->デルージョン</li>
+    <li>story_result->ジョイ</li>
+    <li>story_result->デライト</li>
+    <li>story_result->ワンダー</li>
+    <li>story_result->プライド</li>
+    <li>story_result->ジュエル</li>
+    <li>story_result->プライズ</li>
+    <li>story_result->バウンティ</li>
+    <li>story_result->オーナー</li>
+    <li>story_result->ジャックポット</li>
+    <li>story_result->トロフィ</li>
+    <li>story_result->コンセイト</li>
+    <li>story_result->アロガンス</li>
+    <li>story_result->スタンド</li>
+    <li>story_result->ロス</li>
+    <li>story_result->デビュ</li>
+    <li>story_result->コラプス</li>
+    <li>story_result->デストラクション</li>
+    <li>story_result->カタクリズム</li>
+    <li>story_result->ルイン</li>
+    <li>story_result->ルイネィション</li>
+    <li>story_result->アンドゥイング</li>
+    <li>story_result->ダウンフォール</li>
+    <li>story_result->エンド</li>
+    <li>story_result->リタイアメント</li>
+    <li>story_result->アチーブメント</li>
+    <li>story_result->フィナーレ</li>
+    <li>story_result->ブラフ</li>
+    <li>story_result->ルース</li>
+    <li>story_result->デセプション</li>
+    <li>story_result->ファセード</li>
+    <li>story_result->フラウド</li>
   </WorldFeatureNamerCommon.rulePack.rulesStrings>
   
 </LanguageData>

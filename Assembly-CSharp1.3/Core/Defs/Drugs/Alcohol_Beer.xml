@@ -94,6 +94,7 @@
         <cooldownTime>2</cooldownTime>
       </li>
     </tools>
+    <allowedArchonexusCount>50</allowedArchonexusCount>
   </ThingDef>
 
   <RecipeDef>

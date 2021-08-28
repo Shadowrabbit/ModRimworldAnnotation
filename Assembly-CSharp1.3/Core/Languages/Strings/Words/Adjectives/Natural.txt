@@ -1,22 +1,22 @@
-// Things that natural objects could conceivably be (with some flex for poetry)
+﻿// Things that natural objects could conceivably be (with some flex for poetry)
 // Animals, body parts
 
-大
-粗糙
-粗糙
-高
-锋利
-崎岖
-自由
-主要
-小
-老
-圆形
-奇异
-睿智
-冰冷
-坏
-好
-遥远
-死亡
-坚韧
+大きな
+粗雑な
+ザラザラした
+背の高い
+鋭い
+ゴツゴツとした
+フサフサした
+用がない
+最上の
+小さな
+古い
+円形の
+奇妙な
+賢そうな
+氷のような
+悪い
+良い
+遠い
+活気のない

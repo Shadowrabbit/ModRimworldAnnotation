@@ -7,6 +7,12 @@
     <defName>Dryad</defName>
     <thinkRoot Class="ThinkNode_Priority">
       <subNodes>
+        <li Class="ThinkNode_ConditionalMustKeepLyingDown">
+          <subNodes>
+            <li Class="JobGiver_KeepLyingDown" />
+          </subNodes>
+        </li>
+
         <li Class="ThinkNode_Subtree">
           <treeDef>Downed</treeDef>
         </li>
@@ -15,13 +21,17 @@
           <treeDef>BurningResponse</treeDef>
         </li>
 
+        <li Class="ThinkNode_Subtree">
+          <treeDef>MentalStateCritical</treeDef>
+        </li>
+
+        <li Class="ThinkNode_Subtree">
+          <treeDef>MentalStateNonCritical</treeDef>
+        </li>
+
         <li Class="JobGiver_FightFiresNearConnectedTree" />
         <li Class="JobGiver_ReactToCloseMeleeThreat" />
         <li Class="ThinkNode_QueuedJob" />
-
-        <li Class="ThinkNode_Subtree">
-          <treeDef>LordDuty</treeDef>
-        </li>
 
         <!-- If no Gauranlen tree, leave the map -->
         <li Class="ThinkNode_ConditionalNoConnectedThings">
@@ -41,22 +51,19 @@
           <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
         </li>
 
-        <li Class="ThinkNode_Tagger">
-          <tagToGive>RestingForMedicalReasons</tagToGive>
-          <subNodes>
-            <li Class="JobGiver_PatientGoToBed" />
-          </subNodes>
-        </li>
-
-        <!-- Satisfy basic needs -->
         <li Class="ThinkNode_Subtree">
-          <treeDef>SatisfyBasicNeeds</treeDef>
+          <treeDef>LordDuty</treeDef>
         </li>
 
+        <!-- Primary faction actions -->
         <li Class="ThinkNode_ConditionalOfPlayerFaction">
           <subNodes>
             <!-- Dryad mode changed, return to cocoon and change type. -->
             <li Class="JobGiver_CreateAndEnterCocoon">
+              <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
+            </li>
+            <!-- Ordered to return to a healing pod to tend wounds. -->
+            <li Class="JobGiver_CreateAndEnterHealingPod">
               <leaveJoinableLordIfIssuesJob>true</leaveJoinableLordIfIssuesJob>
             </li>
             <!-- Create gauranlen pod -->
@@ -89,6 +96,32 @@
                 </li>
               </subNodes>
             </li>
+          </subNodes>
+        </li>
+
+        <!-- Needs -->
+        <li Class="ThinkNode_Subtree">
+          <treeDef>SatisfyBasicNeeds</treeDef>
+        </li>
+
+        <!-- Secondary faction actions -->
+        <li Class="ThinkNode_ConditionalOfPlayerFaction">
+          <subNodes>
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>RestingForMedicalReasons</tagToGive>
+              <subNodes>
+                <li Class="JobGiver_PatientGoToBed" />
+              </subNodes>
+            </li>
+            <li Class="JobGiver_SeekAllowedArea" />
+            <li Class="JobGiver_SeekSafeTemperature" />
+
+            <li Class="ThinkNode_Tagger">
+              <tagToGive>RestingForMedicalReasons</tagToGive>
+              <subNodes>
+                <li Class="JobGiver_PatientGoToBed" />
+              </subNodes>
+            </li>
 
             <li Class="ThinkNode_ChancePerHour_Constant">
               <mtbHours>1</mtbHours>
@@ -114,16 +147,10 @@
                 </li>
               </subNodes>
             </li>
-
-            <li Class="JobGiver_SeekSafeTemperature" />
-
           </subNodes>
         </li>
 
-        <li Class="ThinkNode_Subtree">
-          <treeDef>SatisfyBasicNeeds</treeDef>
-        </li>
-
+        <!-- Idle -->
         <li Class="ThinkNode_Tagger">
           <tagToGive>Idle</tagToGive>
           <subNodes>

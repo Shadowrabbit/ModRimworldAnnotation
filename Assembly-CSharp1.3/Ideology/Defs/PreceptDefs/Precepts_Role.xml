@@ -32,6 +32,7 @@
     <impact>Medium</impact>
     <activationBelieverCount>3</activationBelieverCount>
     <deactivationBelieverCount>1</deactivationBelieverCount>
+    <classicExtra>true</classicExtra>
   </PreceptDef> 
 
   <PreceptDef ParentName="PreceptRoleSingleBase">
@@ -152,7 +153,6 @@
         </requirement>
       </li>
       <li>
-        <disallowedFactionCategoryTags><li>Tribal</li></disallowedFactionCategoryTags>
         <requirement>
           <bodyPartGroupsMatchAny>
             <li>FullHead</li>
@@ -240,7 +240,6 @@
         </requirement>
       </li>
       <li>
-        <disallowedFactionCategoryTags><li>Tribal</li></disallowedFactionCategoryTags>
         <requirement>
           <bodyPartGroupsMatchAny>
             <li>FullHead</li>
@@ -421,7 +420,7 @@
   <PreceptDef ParentName="PreceptRoleMultiBase">
     <defName>IdeoRole_ShootingSpecialist</defName>
     <label>shooting specialist</label>
-    <description>A special ideoligious status focusing on ranged combat to the exclusion of all else. This specialized role gives increased accuracy and the ability to boost the shooting abilites of nearby allies. Holders of this role will refuse to do many kinds of non-shooting-related work.</description>
+    <description>A special ideoligious status focusing on ranged combat to the exclusion of all else. This specialized role gives increased accuracy and the ability to boost the shooting abilities of nearby allies. Holders of this role will refuse to do many kinds of non-shooting-related work.</description>
     <iconPath>UI/Roles/SpecialistShooting</iconPath>
     <nameMaker>NamerRoleShooter</nameMaker>
     <roleRequirements>
@@ -644,11 +643,11 @@
     <roleEffects>
       <li Class="RoleEffect_PawnStatOffset">
         <statDef>ConstructionSpeed</statDef>
-        <modifier>0.7</modifier>
+        <modifier>0.5</modifier>
       </li>
       <li Class="RoleEffect_PawnStatOffset">
         <statDef>GeneralLaborSpeed</statDef>
-        <modifier>0.7</modifier>
+        <modifier>0.5</modifier>
       </li>
       <li Class="RoleEffect_ProductionQualityOffset">
         <offset>1</offset>
@@ -757,7 +756,7 @@
   <PreceptDef ParentName="PreceptRoleMultiBase">
     <defName>IdeoRole_MedicalSpecialist</defName>
     <label>medical specialist</label>
-    <description>A special ideoligious status focusing on medicine to the exclusion of all else. This specialized role gives improved surgery and tending efficiency, and the ability to boost the medical abilities of nearby allies. Believers who receive care from one of this role will be happy about it. Holders of this role will refuse to perform some non-medical tasks.</description>
+    <description>A special ideoligious status focusing on medicine to the exclusion of all else. This specialized role gives improved surgery and tending efficiency, and the ability to boost the medical abilities of nearby allies. Believers who receive care from one of this role will be happy about it. Holders of this role will refuse to do any kind of violence, and won't perform some non-medical tasks.</description>
     <iconPath>UI/Roles/SpecialistMedical</iconPath>
     <nameMaker>NamerRoleMedicalSpecialist</nameMaker>
     <roleRequirements>

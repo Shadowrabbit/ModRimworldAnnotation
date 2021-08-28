@@ -234,7 +234,7 @@
   <ThoughtDef>
     <defName>HasNoProsthetic_Disapproved</defName>
     <workerClass>ThoughtWorker_Precept_HasNoProsthetic</workerClass>
-    <minExpectationForNegativeThought>Moderate</minExpectationForNegativeThought>
+    <minExpectation>Moderate</minExpectation>
     <stages>
       <li>
         <label>no artificial part</label>
@@ -251,7 +251,7 @@
     <defName>HasNoProsthetic_Disapproved_Social</defName>
     <thoughtClass>Thought_SituationalSocial</thoughtClass>
     <workerClass>ThoughtWorker_Precept_HasNoProsthetic_Social</workerClass>
-    <minExpectationForNegativeThought>Moderate</minExpectationForNegativeThought>
+    <minExpectation>Moderate</minExpectation>
     <stages>
       <li>
         <label>no artificial part</label>

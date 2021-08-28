@@ -2,23 +2,23 @@
 <LanguageData>
 
   <!-- EN: Time -->
-  <ClockTime>时间</ClockTime>
+  <ClockTime>時刻</ClockTime>
   <!-- EN: Date -->
-  <ClockDate>日期</ClockDate>
+  <ClockDate>日付</ClockDate>
   <!-- EN: Year -->
-  <ClockYear>年</ClockYear>
+  <ClockYear>星歴</ClockYear>
   <!-- EN: Days passed since your arrival: {0}\nCurrent quadrum: {4}\nLocal season: {2}\n\nThe year is divided into 4 quadrums of {3} days each. Quadrums are the same everywhere, while seasons are different in different places.\n\nLocal seasons for each quadrum:\n{5} -->
-  <DateReadoutTip>自到达以来过去的天数: {0}\n当前象: {4}\n当地季节: {2}\n\n一年被分为四个象，每个象有{3}天。各地的象都是相同的，但不同的地方的季节会有所不同。\n\n每个象所对应的当地季节:\n{5}</DateReadoutTip>
+  <DateReadoutTip>惑星での生存日数: {0}\n現在の節: {4}\n季節: {2}\n一年はそれぞれが,{3}日の4節に分けられます.1節はどこでも同じですが,季節は場所によって違います.\n\n節における季節:\n{5}</DateReadoutTip>
 
   <!-- EN: {0} of {1}, {2} -->
-  <FullDate>{2}年{1}第{0}天</FullDate>
+  <FullDate>{2}年 {1}節 {0}日</FullDate>
   <!-- EN: {0} {1} {2} -->
-  <ShortDate>{0} {1} {2}</ShortDate>
+  <ShortDate>{2}年 {1}節 {0}日</ShortDate>
   <!-- EN: {0} of {1}, {2} -->
-  <DateReadout>{2}年 {1} 第{0}天</DateReadout>
+  <DateReadout>{2}年 {1}節 {0}日</DateReadout>
   <!-- EN: {0} of {1} -->
-  <SeasonFullDate>{1}第{0}天</SeasonFullDate>
+  <SeasonFullDate>{1}節 {0}日</SeasonFullDate>
   <!-- EN: Whole year -->
-  <WholeYear>全年</WholeYear>
+  <WholeYear>一年中</WholeYear>
   
 </LanguageData>

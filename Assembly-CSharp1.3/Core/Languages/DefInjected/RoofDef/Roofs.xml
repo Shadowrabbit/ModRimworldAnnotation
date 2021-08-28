@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: constructed roof -->
-  <RoofConstructed.label>建筑屋顶</RoofConstructed.label>
+  <RoofConstructed.label>屋根</RoofConstructed.label>
   
   <!-- EN: overhead mountain -->
-  <RoofRockThick.label>山岩顶（厚）</RoofRockThick.label>
+  <RoofRockThick.label>岩天井(岩盤)</RoofRockThick.label>
   
   <!-- EN: rock roof (thin) -->
-  <RoofRockThin.label>山岩顶（薄）</RoofRockThin.label>
+  <RoofRockThin.label>岩天井(薄)</RoofRockThin.label>
   
 </LanguageData>

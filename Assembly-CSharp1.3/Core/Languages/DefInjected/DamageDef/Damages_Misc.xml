@@ -2,38 +2,38 @@
 <LanguageData>
   
   <!-- EN: bomb -->
-  <Bomb.label>炸伤</Bomb.label>
+  <Bomb.label>爆発</Bomb.label>
   <!-- EN: {0} has died in an explosion. -->
-  <Bomb.deathMessage>{0}被炸死了。</Bomb.deathMessage>
+  <Bomb.deathMessage>{0}は爆発に巻き込まれて死んだ</Bomb.deathMessage>
   
   <!-- EN: bomb -->
-  <BombSuper.label>炸伤</BombSuper.label>
+  <BombSuper.label>爆発</BombSuper.label>
   <!-- EN: {0} has died in an explosion. -->
-  <BombSuper.deathMessage>{0}被炸死了。</BombSuper.deathMessage>
+  <BombSuper.deathMessage>{0}は爆発に巻き込まれて死んだ</BombSuper.deathMessage>
   
   <!-- EN: deterioration -->
-  <Deterioration.label>老化</Deterioration.label>
+  <Deterioration.label>劣化</Deterioration.label>
   <!-- EN: {0} has been killed. -->
-  <Deterioration.deathMessage>{0}被杀死了。</Deterioration.deathMessage>
+  <Deterioration.deathMessage>{0}は劣化した</Deterioration.deathMessage>
   
   <!-- EN: extinguish -->
-  <Extinguish.label>熄灭</Extinguish.label>
+  <Extinguish.label>消火</Extinguish.label>
   <!-- EN: {0} has been killed. -->
-  <Extinguish.deathMessage>{0}被杀死了。</Extinguish.deathMessage>
+  <Extinguish.deathMessage>{0}は殺された</Extinguish.deathMessage>
   
   <!-- EN: mining -->
-  <Mining.label>开采</Mining.label>
+  <Mining.label>採掘</Mining.label>
   <!-- EN: {0} has been killed. -->
-  <Mining.deathMessage>{0}被杀死了。</Mining.deathMessage>
+  <Mining.deathMessage>{0}は殺された</Mining.deathMessage>
   
   <!-- EN: rotting -->
-  <Rotting.label>腐烂</Rotting.label>
+  <Rotting.label>腐敗</Rotting.label>
   <!-- EN: {0} has been killed. -->
-  <Rotting.deathMessage>{0}被杀死了。</Rotting.deathMessage>
+  <Rotting.deathMessage>{0}は殺された</Rotting.deathMessage>
   
   <!-- EN: smoke -->
-  <Smoke.label>烟</Smoke.label>
+  <Smoke.label>煙幕</Smoke.label>
   <!-- EN: {0} has been killed. -->
-  <Smoke.deathMessage>{0}被杀死了。</Smoke.deathMessage>
+  <Smoke.deathMessage>{0}は殺された</Smoke.deathMessage>
   
 </LanguageData>

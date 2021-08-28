@@ -2,61 +2,61 @@
 <LanguageData>
   
   <!-- EN: bionic arm -->
-  <BionicArm.label>仿生臂</BionicArm.label>
+  <BionicArm.label>強化上肢</BionicArm.label>
   <!-- EN: An installed bionic arm. -->
-  <BionicArm.description>一条已安装的仿生臂</BionicArm.description>
+  <BionicArm.description>移植された強化上肢</BionicArm.description>
   <!-- EN: fist -->
-  <BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>拳头</BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>
+  <BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>拳</BionicArm.comps.HediffComp_VerbGiver.tools.fist.label>
   <!-- EN: a bionic arm -->
-  <BionicArm.labelNoun>仿生臂</BionicArm.labelNoun>
+  <BionicArm.labelNoun>強化上肢</BionicArm.labelNoun>
   
   <!-- EN: bionic ear -->
-  <BionicEar.label>仿生耳</BionicEar.label>
+  <BionicEar.label>強化耳</BionicEar.label>
   <!-- EN: An installed bionic ear. -->
-  <BionicEar.description>一只已安装的仿生耳</BionicEar.description>
+  <BionicEar.description>移植された強化耳</BionicEar.description>
   <!-- EN: a bionic ear -->
-  <BionicEar.labelNoun>仿生耳</BionicEar.labelNoun>
+  <BionicEar.labelNoun>強化耳</BionicEar.labelNoun>
   
   <!-- EN: bionic eye -->
-  <BionicEye.label>仿生眼</BionicEye.label>
+  <BionicEye.label>強化視覚センサー</BionicEye.label>
   <!-- EN: An installed bionic eye. -->
-  <BionicEye.description>一个已安装的仿生眼</BionicEye.description>
+  <BionicEye.description>移植された強化視覚センサー</BionicEye.description>
   <!-- EN: a bionic eye -->
-  <BionicEye.labelNoun>仿生眼</BionicEye.labelNoun>
+  <BionicEye.labelNoun>強化視覚センサー</BionicEye.labelNoun>
   
   <!-- EN: bionic heart -->
-  <BionicHeart.label>仿生心脏</BionicHeart.label>
+  <BionicHeart.label>強化心臓</BionicHeart.label>
   <!-- EN: An installed bionic heart. -->
-  <BionicHeart.description>一个已安装的仿生心脏</BionicHeart.description>
+  <BionicHeart.description>移植された強化心臓</BionicHeart.description>
   <!-- EN: a bionic heart -->
-  <BionicHeart.labelNoun>仿生心脏</BionicHeart.labelNoun>
+  <BionicHeart.labelNoun>強化心臓</BionicHeart.labelNoun>
   
   <!-- EN: bionic leg -->
-  <BionicLeg.label>仿生腿</BionicLeg.label>
+  <BionicLeg.label>強化下肢</BionicLeg.label>
   <!-- EN: An installed bionic leg. -->
-  <BionicLeg.description>一条已安装的仿生腿</BionicLeg.description>
+  <BionicLeg.description>移植された強化下肢</BionicLeg.description>
   <!-- EN: a bionic leg -->
-  <BionicLeg.labelNoun>仿生腿</BionicLeg.labelNoun>
+  <BionicLeg.labelNoun>強化下肢</BionicLeg.labelNoun>
   
   <!-- EN: bionic spine -->
-  <BionicSpine.label>仿生脊椎</BionicSpine.label>
+  <BionicSpine.label>強化脊椎</BionicSpine.label>
   <!-- EN: An installed bionic spine. -->
-  <BionicSpine.description>一条已安装的仿生脊椎</BionicSpine.description>
+  <BionicSpine.description>移植された強化脊椎</BionicSpine.description>
   <!-- EN: a bionic spine -->
-  <BionicSpine.labelNoun>仿生脊椎</BionicSpine.labelNoun>
+  <BionicSpine.labelNoun>強化脊椎</BionicSpine.labelNoun>
   
   <!-- EN: bionic stomach -->
-  <BionicStomach.label>仿生胃</BionicStomach.label>
+  <BionicStomach.label>強化胃</BionicStomach.label>
   <!-- EN: An installed bionic stomach. -->
-  <BionicStomach.description>一个已安装的仿生胃</BionicStomach.description>
+  <BionicStomach.description>移植された強化胃</BionicStomach.description>
   <!-- EN: a bionic stomach -->
-  <BionicStomach.labelNoun>仿生胃</BionicStomach.labelNoun>
+  <BionicStomach.labelNoun>強化胃</BionicStomach.labelNoun>
   
   <!-- EN: death acidifier -->
-  <DeathAcidifier.label>质溶器</DeathAcidifier.label>
+  <DeathAcidifier.label>亡者の酸</DeathAcidifier.label>
   <!-- EN: An installed death acidifier. -->
-  <DeathAcidifier.description>一个已安装的质溶器</DeathAcidifier.description>
+  <DeathAcidifier.description>移植された亡者の酸</DeathAcidifier.description>
   <!-- EN: a death acidifier -->
-  <DeathAcidifier.labelNoun>质溶器</DeathAcidifier.labelNoun>
+  <DeathAcidifier.labelNoun>亡者の酸</DeathAcidifier.labelNoun>
   
 </LanguageData>

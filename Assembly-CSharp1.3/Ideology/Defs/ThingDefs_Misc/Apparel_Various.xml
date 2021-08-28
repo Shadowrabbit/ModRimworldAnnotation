@@ -78,14 +78,17 @@
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
-        <li>Torso</li>
         <li>FullHead</li>
         <li>UpperHead</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Torso</li>
         <li>Legs</li>
         <li>Arms</li>
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Burka/Burka</wornGraphicPath>
       <shellCoversHead>true</shellCoversHead>
+      <blocksAddedPartWoundGraphics>true</blocksAddedPartWoundGraphics>
       <layers>
         <li>Shell</li>
       </layers>
@@ -246,7 +249,7 @@
       </bodyPartGroups>
       <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Blindfold/Blindfold</wornGraphicPath>
       <layers>
-        <li>Overhead</li>
+        <li>EyeCover</li>
       </layers>
       <blocksVision>true</blocksVision>
       <canBeGeneratedToSatisfyWarmth>false</canBeGeneratedToSatisfyWarmth>

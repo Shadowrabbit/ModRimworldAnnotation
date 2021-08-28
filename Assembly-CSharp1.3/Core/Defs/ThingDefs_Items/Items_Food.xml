@@ -29,6 +29,7 @@
       <li Class="CompProperties_FoodPoisonable" />
     </comps>
     <pathCost>14</pathCost>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
     <uiIconForStackCount>1</uiIconForStackCount>
@@ -61,6 +62,7 @@
       <ingestEffect>EatVegetarian</ingestEffect>
       <ingestSound>Meal_Eat</ingestSound>
     </ingestible>
+    <allowedArchonexusCount>40</allowedArchonexusCount>
   </ThingDef>
 
   <ThingDef ParentName="MealBase">

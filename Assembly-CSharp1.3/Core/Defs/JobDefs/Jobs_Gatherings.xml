@@ -12,12 +12,14 @@
     <defName>SpectateCeremony</defName>
     <driverClass>JobDriver_Spectate</driverClass>
     <reportString>spectating.</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
   </JobDef>
   
   <JobDef>
     <defName>StandAndBeSociallyActive</defName>
     <driverClass>JobDriver_StandAndBeSociallyActive</driverClass>
     <reportString>relaxing socially.</reportString>
+    <neverShowWeapon>true</neverShowWeapon>
   </JobDef>
 
   <JobDef>

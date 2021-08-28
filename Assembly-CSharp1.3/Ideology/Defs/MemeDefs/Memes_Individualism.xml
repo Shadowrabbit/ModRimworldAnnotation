@@ -12,7 +12,7 @@
   <MemeDef>
     <defName>Individualist</defName>
     <label>individualist</label>
-    <description>A community's role is to serve each individual.</description>
+    <description>Each person is a free individual with the right to their own ideas and decisions. Nobody should be made to conform.</description>
     <iconPath>UI/Memes/Individualist</iconPath>
     <allowDuringTutorial>true</allowDuringTutorial>
     <groupDef>Individualism</groupDef>
@@ -100,7 +100,7 @@
   <MemeDef>
     <defName>Collectivist</defName>
     <label>collectivist</label>
-    <description>A person's role is to serve the community.</description>
+    <description>Each person is part of a greater whole. People should work to play their part and help the group.</description>
     <iconPath>UI/Memes/Collectivist</iconPath>
     <allowDuringTutorial>true</allowDuringTutorial>
     <groupDef>Individualism</groupDef>

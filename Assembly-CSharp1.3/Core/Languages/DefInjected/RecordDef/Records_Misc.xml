@@ -2,218 +2,218 @@
 <LanguageData>
   
   <!-- EN: animals slaughtered -->
-  <AnimalsSlaughtered.label>宰杀动物数</AnimalsSlaughtered.label>
+  <AnimalsSlaughtered.label>屠殺した動物数</AnimalsSlaughtered.label>
   <!-- EN: The number of animals I have slaughtered. -->
-  <AnimalsSlaughtered.description>我所宰杀的动物数量。</AnimalsSlaughtered.description>
+  <AnimalsSlaughtered.description>屠殺した動物の数</AnimalsSlaughtered.description>
   
   <!-- EN: animals tamed -->
-  <AnimalsTamed.label>驯服动物数</AnimalsTamed.label>
+  <AnimalsTamed.label>手懐けた動物数</AnimalsTamed.label>
   <!-- EN: The number of animals I have tamed. -->
-  <AnimalsTamed.description>我所驯服的动物数量。</AnimalsTamed.description>
+  <AnimalsTamed.description>手懐けた動物の数</AnimalsTamed.description>
   
   <!-- EN: artifacts activated -->
-  <ArtifactsActivated.label>激活神器数</ArtifactsActivated.label>
+  <ArtifactsActivated.label>有効にしたアーティファクト数</ArtifactsActivated.label>
   <!-- EN: The number of artifacts I have activated. -->
-  <ArtifactsActivated.description>我激活的神器数量。</ArtifactsActivated.description>
+  <ArtifactsActivated.description>有効にしたアーティファクト数</ArtifactsActivated.description>
   
   <!-- EN: bodies stripped -->
-  <BodiesStripped.label>剥光数</BodiesStripped.label>
+  <BodiesStripped.label>追い剥ぎした人数</BodiesStripped.label>
   <!-- EN: The number of bodies I have stripped. -->
-  <BodiesStripped.description>我剥光的尸体和伤员的数量。</BodiesStripped.description>
+  <BodiesStripped.description>追い剥ぎした人数</BodiesStripped.description>
   
   <!-- EN: cells mined -->
-  <CellsMined.label>采矿数</CellsMined.label>
+  <CellsMined.label>採掘した鉱石数</CellsMined.label>
   <!-- EN: The number of cells I have mined out. -->
-  <CellsMined.description>我开采矿石的单元格数。</CellsMined.description>
+  <CellsMined.description>採掘した鉱石の数</CellsMined.description>
   
   <!-- EN: containers opened -->
-  <ContainersOpened.label>开启容器数</ContainersOpened.label>
+  <ContainersOpened.label>開けたコンテナ数</ContainersOpened.label>
   <!-- EN: The number of containers I have opened. -->
-  <ContainersOpened.description>我开启的容器数量。</ContainersOpened.description>
+  <ContainersOpened.description>開けたコンテナ数</ContainersOpened.description>
   
   <!-- EN: corpses buried -->
-  <CorpsesBuried.label>埋葬尸体数</CorpsesBuried.label>
+  <CorpsesBuried.label>埋葬した回数</CorpsesBuried.label>
   <!-- EN: The number of corpses I have buried. -->
-  <CorpsesBuried.description>我埋葬的尸体数量。</CorpsesBuried.description>
+  <CorpsesBuried.description>埋葬した回数</CorpsesBuried.description>
   
   <!-- EN: damage dealt -->
-  <DamageDealt.label>伤害输出</DamageDealt.label>
+  <DamageDealt.label>与えたダメージ</DamageDealt.label>
   <!-- EN: The amount of damage I have dealt. -->
-  <DamageDealt.description>我所输出的伤害量。</DamageDealt.description>
+  <DamageDealt.description>与えたダメージ量</DamageDealt.description>
   
   <!-- EN: damage taken -->
-  <DamageTaken.label>伤害承受</DamageTaken.label>
+  <DamageTaken.label>受けたダメージ</DamageTaken.label>
   <!-- EN: The amount of damage I have taken. -->
-  <DamageTaken.description>我所承受的伤害量。</DamageTaken.description>
+  <DamageTaken.description>受けたダメージ量</DamageTaken.description>
   
   <!-- EN: fires extinguished -->
-  <FiresExtinguished.label>火灾扑灭次数</FiresExtinguished.label>
+  <FiresExtinguished.label>消火した回数</FiresExtinguished.label>
   <!-- EN: The number of fires I have extinguished. -->
-  <FiresExtinguished.description>我所扑灭的火灾数量。</FiresExtinguished.description>
+  <FiresExtinguished.description>火事を消火した回数</FiresExtinguished.description>
   
   <!-- EN: headshots -->
-  <Headshots.label>爆头次数</Headshots.label>
+  <Headshots.label>ヘッドショット回数</Headshots.label>
   <!-- EN: The number of headshots I have made. -->
-  <Headshots.description>我所造成的爆头次数。</Headshots.description>
+  <Headshots.description>ヘッドショットを決めた回数</Headshots.description>
   
   <!-- EN: kills -->
-  <Kills.label>击杀</Kills.label>
+  <Kills.label>殺害数</Kills.label>
   <!-- EN: The number of creatures I have killed. -->
-  <Kills.description>我所杀死的生物数量。</Kills.description>
+  <Kills.description>殺したクリーチャーの数</Kills.description>
   
   <!-- EN: kills (animals) -->
-  <KillsAnimals.label>击杀（动物）</KillsAnimals.label>
+  <KillsAnimals.label>殺害数 (動物)</KillsAnimals.label>
   <!-- EN: The number of animals I have killed. -->
-  <KillsAnimals.description>我所杀死的动物数量。</KillsAnimals.description>
+  <KillsAnimals.description>戦闘や狩りで殺害したクリーチャー(動物)の数</KillsAnimals.description>
   
   <!-- EN: kills (humanlikes) -->
-  <KillsHumanlikes.label>击杀（人类）</KillsHumanlikes.label>
+  <KillsHumanlikes.label>殺害数 (人)</KillsHumanlikes.label>
   <!-- EN: The number of humanlike characters I have killed. -->
-  <KillsHumanlikes.description>我所杀死的人类数量。</KillsHumanlikes.description>
+  <KillsHumanlikes.description>殺害したクリーチャー(人)の数</KillsHumanlikes.description>
   
   <!-- EN: kills (mechanoids) -->
-  <KillsMechanoids.label>击杀（机械体）</KillsMechanoids.label>
+  <KillsMechanoids.label>殺害数 (メカノイド)</KillsMechanoids.label>
   <!-- EN: The number of mechanoids I have killed. -->
-  <KillsMechanoids.description>我所杀死的机械体数量。</KillsMechanoids.description>
+  <KillsMechanoids.description>殺害したクリーチャー(メカノイド)の数</KillsMechanoids.description>
   
   <!-- EN: meals cooked -->
-  <MealsCooked.label>烹饪食物数</MealsCooked.label>
+  <MealsCooked.label>調理した食事数</MealsCooked.label>
   <!-- EN: The number of meals I have cooked. -->
-  <MealsCooked.description>我所烹饪的食物数量。</MealsCooked.description>
+  <MealsCooked.description>調理した食事の数</MealsCooked.description>
   
   <!-- EN: messes cleaned -->
-  <MessesCleaned.label>清洁数</MessesCleaned.label>
+  <MessesCleaned.label>掃除した回数</MessesCleaned.label>
   <!-- EN: The number of messes I have cleaned up. -->
-  <MessesCleaned.description>我清理的污渍数量。</MessesCleaned.description>
+  <MessesCleaned.description>掃除した回数</MessesCleaned.description>
   
   <!-- EN: nutrition eaten -->
-  <NutritionEaten.label>吃营养膏数</NutritionEaten.label>
+  <NutritionEaten.label>栄養物を食べた回数</NutritionEaten.label>
   <!-- EN: The amount of nutrition I have eaten. -->
-  <NutritionEaten.description>我吃掉的营养膏食品数量。</NutritionEaten.description>
+  <NutritionEaten.description>栄養物を食べた回数</NutritionEaten.description>
   
   <!-- EN: operations performed -->
-  <OperationsPerformed.label>执行手术次数</OperationsPerformed.label>
+  <OperationsPerformed.label>手術した回数</OperationsPerformed.label>
   <!-- EN: How many medical operations I have performed. -->
-  <OperationsPerformed.description>我执行手术的次数。</OperationsPerformed.description>
+  <OperationsPerformed.description>外科手術を行った回数</OperationsPerformed.description>
   
   <!-- EN: operations received -->
-  <OperationsReceived.label>接受手术次数</OperationsReceived.label>
+  <OperationsReceived.label>手術を受けた回数</OperationsReceived.label>
   <!-- EN: How many times I have been medically operated on. -->
-  <OperationsReceived.description>我接受手术的次数。</OperationsReceived.description>
+  <OperationsReceived.description>外科手術を受けた回数</OperationsReceived.description>
   
   <!-- EN: enemies downed -->
-  <PawnsDowned.label>击倒</PawnsDowned.label>
+  <PawnsDowned.label>行動不能にした敵数</PawnsDowned.label>
   <!-- EN: The number of creatures I have downed. -->
-  <PawnsDowned.description>我所击倒的生物数量。</PawnsDowned.description>
+  <PawnsDowned.description>行動不能にしたクリーチャーの数</PawnsDowned.description>
   
   <!-- EN: enemies downed (animals) -->
-  <PawnsDownedAnimals.label>击倒（动物）</PawnsDownedAnimals.label>
+  <PawnsDownedAnimals.label>行動不能にした敵数 (動物)</PawnsDownedAnimals.label>
   <!-- EN: The number of animals I have downed, whether hunting or in combat. -->
-  <PawnsDownedAnimals.description>我所击倒的动物数量。</PawnsDownedAnimals.description>
+  <PawnsDownedAnimals.description>行動不能にしたクリーチャーの数(動物)</PawnsDownedAnimals.description>
   
   <!-- EN: enemies downed (humanlikes) -->
-  <PawnsDownedHumanlikes.label>击倒（人类）</PawnsDownedHumanlikes.label>
+  <PawnsDownedHumanlikes.label>行動不能にした敵数 (人)</PawnsDownedHumanlikes.label>
   <!-- EN: The number of humanlike creatures I have downed. -->
-  <PawnsDownedHumanlikes.description>我所击倒的人类数量。</PawnsDownedHumanlikes.description>
+  <PawnsDownedHumanlikes.description>行動不能にしたクリーチャー(人)の数</PawnsDownedHumanlikes.description>
   
   <!-- EN: enemies downed (mechanoids) -->
-  <PawnsDownedMechanoids.label>击倒（机械体）</PawnsDownedMechanoids.label>
+  <PawnsDownedMechanoids.label>行動不能にした敵数 (メカノイド)</PawnsDownedMechanoids.label>
   <!-- EN: The number of mechanoids I have downed. -->
-  <PawnsDownedMechanoids.description>我所击倒的机械体数量。</PawnsDownedMechanoids.description>
+  <PawnsDownedMechanoids.description>行動不能にしたクリーチャー(メカノイド)の数</PawnsDownedMechanoids.description>
   
   <!-- EN: people captured -->
-  <PeopleCaptured.label>俘虏人数</PeopleCaptured.label>
+  <PeopleCaptured.label>捕獲した人数</PeopleCaptured.label>
   <!-- EN: The number of people I have captured. -->
-  <PeopleCaptured.description>我所俘虏的人数。</PeopleCaptured.description>
+  <PeopleCaptured.description>捕獲した人数</PeopleCaptured.description>
   
   <!-- EN: plants harvested -->
-  <PlantsHarvested.label>收获数</PlantsHarvested.label>
+  <PlantsHarvested.label>収穫した植物数</PlantsHarvested.label>
   <!-- EN: The number of plants I have harvested. -->
-  <PlantsHarvested.description>我所收获的植物数量。</PlantsHarvested.description>
+  <PlantsHarvested.description>収穫した植物の数</PlantsHarvested.description>
   
   <!-- EN: plants sown -->
-  <PlantsSown.label>播种数</PlantsSown.label>
+  <PlantsSown.label>種を蒔いた植物数</PlantsSown.label>
   <!-- EN: The number of plants I have sown. -->
-  <PlantsSown.description>我所播种的植物数量。</PlantsSown.description>
+  <PlantsSown.description>種を蒔いた植物の数</PlantsSown.description>
   
   <!-- EN: prisoners chatted -->
-  <PrisonersChatted.label>囚犯交流次数</PrisonersChatted.label>
+  <PrisonersChatted.label>囚人とした雑談回数</PrisonersChatted.label>
   <!-- EN: How many times I have chatted with prisoners. -->
-  <PrisonersChatted.description>我和囚犯聊天的次数。</PrisonersChatted.description>
+  <PrisonersChatted.description>囚人とした雑談回数</PrisonersChatted.description>
   
   <!-- EN: prisoners recruited -->
-  <PrisonersRecruited.label>招募囚犯数</PrisonersRecruited.label>
+  <PrisonersRecruited.label>勧誘した人数</PrisonersRecruited.label>
   <!-- EN: The number of prisoners I have recruited. -->
-  <PrisonersRecruited.description>我所招募的囚犯人数。</PrisonersRecruited.description>
+  <PrisonersRecruited.description>勧誘に成功した人数</PrisonersRecruited.description>
   
   <!-- EN: research points researched -->
-  <ResearchPointsResearched.label>研究点数</ResearchPointsResearched.label>
+  <ResearchPointsResearched.label>研究したリサーチポイント数</ResearchPointsResearched.label>
   <!-- EN: The number of research points I have researched. -->
-  <ResearchPointsResearched.description>我所完成的研究点数。</ResearchPointsResearched.description>
+  <ResearchPointsResearched.description>研究したリサーチポイント数</ResearchPointsResearched.description>
   
   <!-- EN: shots fired -->
-  <ShotsFired.label>开火射击次数</ShotsFired.label>
+  <ShotsFired.label>発砲回数</ShotsFired.label>
   <!-- EN: The number of shots I have fired. -->
-  <ShotsFired.description>我开火射击的次数。</ShotsFired.description>
+  <ShotsFired.description>発砲した回数</ShotsFired.description>
   
   <!-- EN: switches flicked -->
-  <SwitchesFlicked.label>按下开关数</SwitchesFlicked.label>
+  <SwitchesFlicked.label>スイッチの操作回数</SwitchesFlicked.label>
   <!-- EN: The number of switches I have flicked. -->
-  <SwitchesFlicked.description>我按下的开关数量。</SwitchesFlicked.description>
+  <SwitchesFlicked.description>スイッチを操作した回数</SwitchesFlicked.description>
   
   <!-- EN: things constructed -->
-  <ThingsConstructed.label>建造物品数</ThingsConstructed.label>
+  <ThingsConstructed.label>建築した構造物数</ThingsConstructed.label>
   <!-- EN: The number of things I have constructed. -->
-  <ThingsConstructed.description>我所建造的物品数量。</ThingsConstructed.description>
+  <ThingsConstructed.description>建築した構造物の数</ThingsConstructed.description>
   
   <!-- EN: things crafted -->
-  <ThingsCrafted.label>制作物品数</ThingsCrafted.label>
+  <ThingsCrafted.label>加工した物数</ThingsCrafted.label>
   <!-- EN: The number of things I have crafted. -->
-  <ThingsCrafted.description>我所制作的物品数量。</ThingsCrafted.description>
+  <ThingsCrafted.description>加工した物の数</ThingsCrafted.description>
   
   <!-- EN: things deconstructed -->
-  <ThingsDeconstructed.label>拆除物品数</ThingsDeconstructed.label>
+  <ThingsDeconstructed.label>解体した構造物数</ThingsDeconstructed.label>
   <!-- EN: The number of things I have deconstructed. -->
-  <ThingsDeconstructed.description>我拆除的物品数量。</ThingsDeconstructed.description>
+  <ThingsDeconstructed.description>解体した構造物の数</ThingsDeconstructed.description>
   
   <!-- EN: things hauled -->
-  <ThingsHauled.label>搬运物品数</ThingsHauled.label>
+  <ThingsHauled.label>運んだ物数</ThingsHauled.label>
   <!-- EN: The number of things I have hauled. -->
-  <ThingsHauled.description>我所搬运的物品数量。</ThingsHauled.description>
+  <ThingsHauled.description>運んだ物の数</ThingsHauled.description>
   
   <!-- EN: things installed -->
-  <ThingsInstalled.label>安装物品数</ThingsInstalled.label>
+  <ThingsInstalled.label>配置した物数</ThingsInstalled.label>
   <!-- EN: The number of things I have installed. -->
-  <ThingsInstalled.description>我所安装的物品数量。</ThingsInstalled.description>
+  <ThingsInstalled.description>配置した物の数</ThingsInstalled.description>
   
   <!-- EN: things repaired -->
-  <ThingsRepaired.label>修理物品数</ThingsRepaired.label>
+  <ThingsRepaired.label>修理した物数</ThingsRepaired.label>
   <!-- EN: The number of things I have repaired. -->
-  <ThingsRepaired.description>我所修理的物品数量。</ThingsRepaired.description>
+  <ThingsRepaired.description>修理した物の数</ThingsRepaired.description>
   
   <!-- EN: things uninstalled -->
-  <ThingsUninstalled.label>卸载物品数</ThingsUninstalled.label>
+  <ThingsUninstalled.label>保管した物数</ThingsUninstalled.label>
   <!-- EN: The number of things I have uninstalled. -->
-  <ThingsUninstalled.description>我卸载的物品数量。</ThingsUninstalled.description>
+  <ThingsUninstalled.description>解体保管した物の数</ThingsUninstalled.description>
   
   <!-- EN: times in mental state -->
-  <TimesInMentalState.label>精神崩溃次数</TimesInMentalState.label>
+  <TimesInMentalState.label>心を病んだ回数</TimesInMentalState.label>
   <!-- EN: How many times I have suffered a mental break. -->
-  <TimesInMentalState.description>我精神崩溃的次数。</TimesInMentalState.description>
+  <TimesInMentalState.description>心を病んで錯乱した回数</TimesInMentalState.description>
   
   <!-- EN: times on fire -->
-  <TimesOnFire.label>着火次数</TimesOnFire.label>
+  <TimesOnFire.label>火事になった回数</TimesOnFire.label>
   <!-- EN: How many times I have been on fire. -->
-  <TimesOnFire.description>我身上起火的次数。</TimesOnFire.description>
+  <TimesOnFire.description>火事になった回数</TimesOnFire.description>
   
   <!-- EN: tends given -->
-  <TimesTendedOther.label>给予治疗次数</TimesTendedOther.label>
+  <TimesTendedOther.label>治療した回数</TimesTendedOther.label>
   <!-- EN: How many times I have tended to others' medical conditions. -->
-  <TimesTendedOther.description>我治疗他人的次数。</TimesTendedOther.description>
+  <TimesTendedOther.description>治療した回数</TimesTendedOther.description>
   
   <!-- EN: tends received -->
-  <TimesTendedTo.label>接受治疗次数</TimesTendedTo.label>
+  <TimesTendedTo.label>治療を受けた回数</TimesTendedTo.label>
   <!-- EN: How many times I have had my medical conditions tended. -->
-  <TimesTendedTo.description>我接收治疗的次数。</TimesTendedTo.description>
+  <TimesTendedTo.description>治療を受けた回数</TimesTendedTo.description>
   
 </LanguageData>

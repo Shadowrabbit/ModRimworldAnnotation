@@ -243,6 +243,7 @@
             <hediff>HeartAttack</hediff>
             <allowOnLodgers>false</allowOnLodgers>
             <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+            <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
             <allowOnBeggars>false</allowOnBeggars>
             <mtbDays>300</mtbDays>
             <partsToAffect>
@@ -260,6 +261,7 @@
             <hediff>HeartAttack</hediff>
             <allowOnLodgers>false</allowOnLodgers>
             <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+            <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
             <allowOnBeggars>false</allowOnBeggars>
             <mtbDays>200</mtbDays>
             <partsToAffect>
@@ -277,6 +279,7 @@
             <hediff>HeartAttack</hediff>
             <allowOnLodgers>false</allowOnLodgers>
             <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+            <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
             <allowOnBeggars>false</allowOnBeggars>
             <mtbDays>100</mtbDays>
             <partsToAffect>
@@ -294,6 +297,7 @@
             <hediff>HeartAttack</hediff>
             <allowOnLodgers>false</allowOnLodgers>
             <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+            <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
             <allowOnBeggars>false</allowOnBeggars>
             <mtbDays>60</mtbDays>
             <partsToAffect>
@@ -312,6 +316,7 @@
             <hediff>HeartAttack</hediff>
             <allowOnLodgers>false</allowOnLodgers>
             <allowOnQuestRewardPawns>false</allowOnQuestRewardPawns>
+            <allowOnQuestReservedPawns>false</allowOnQuestReservedPawns>
             <allowOnBeggars>false</allowOnBeggars>
             <mtbDays>30</mtbDays>
             <partsToAffect>

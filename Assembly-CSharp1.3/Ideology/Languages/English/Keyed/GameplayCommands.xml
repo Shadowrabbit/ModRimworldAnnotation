@@ -15,4 +15,6 @@
   <CommandNeuralSuperchargerAllowGuestsDescription>Allow this neural supercharger to be used by temporary faction members.</CommandNeuralSuperchargerAllowGuestsDescription>
 
   <CommandSelectConnectedTree>Select connected tree</CommandSelectConnectedTree>
+  <CommandHealInHealingPod>Create healing pod</CommandHealInHealingPod>
+  <CommandHealInHealingPodDesc>If this creature is injured, it will return to its connected Gauranlen tree and enter a woody healing pod. After {DAYS} days, the dryad will emerge with its wounds healed.</CommandHealInHealingPodDesc>
 </LanguageData>

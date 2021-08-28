@@ -2,10 +2,10 @@
 <LanguageData>
   
   <!-- EN: administer healer mech serum -->
-  <AdministerMechSerumHealer.label>施用治愈机械液</AdministerMechSerumHealer.label>
+  <AdministerMechSerumHealer.label>ニューロヒーラーを投与する</AdministerMechSerumHealer.label>
   <!-- EN: Administer a healer mech serum. -->
-  <AdministerMechSerumHealer.description>施用治愈机械液。</AdministerMechSerumHealer.description>
+  <AdministerMechSerumHealer.description>ニューロヒーラーを投与します.</AdministerMechSerumHealer.description>
   <!-- EN: Administering healer mech serum. -->
-  <AdministerMechSerumHealer.jobString>正在施用治愈机械液。</AdministerMechSerumHealer.jobString>
+  <AdministerMechSerumHealer.jobString>ニューロヒーラーを投与中</AdministerMechSerumHealer.jobString>
   
 </LanguageData>

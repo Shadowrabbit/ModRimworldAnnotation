@@ -76,7 +76,7 @@
       </li>
       <!-- Endgame - archonexus victory quest -->
       <li Class="StorytellerCompProperties_RefiringUniqueQuest">
-        <minColonyWealth>300000</minColonyWealth>
+        <minColonyWealth>150000</minColonyWealth>
         <minDaysPassed>0</minDaysPassed>
         <incident MayRequire="Ludeon.RimWorld.Ideology">GiveQuest_EndGame_ArchonexusVictory</incident>
         <allowedTargetTags>
@@ -161,9 +161,11 @@
       </li>
       <li Class="StorytellerCompProperties_OnOffCycle">
         <incident MayRequire="Ludeon.RimWorld.Ideology">GauranlenPodSpawn</incident>
-        <onDays>30</onDays>
-        <offDays>0</offDays>
-        <minSpacingDays>25</minSpacingDays>
+        <minDaysPassed>4</minDaysPassed>
+        <onDays>4</onDays>
+        <offDays>26</offDays>
+        <onDaysNoTreeConnectors>55</onDaysNoTreeConnectors>
+        <offDaysNoTreeConnectors>5</offDaysNoTreeConnectors>
         <numIncidentsRange>1</numIncidentsRange>
         <allowedTargetTags>
           <li>Map_PlayerHome</li>

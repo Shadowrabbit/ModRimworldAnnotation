@@ -5,7 +5,8 @@ using RimWorld;
 namespace Verse.AI.Group
 {
 	// Token: 0x02000667 RID: 1639
-	public static class LordMaker
+	public static class 
+	LordMaker
 	{
 		// Token: 0x06002E84 RID: 11908 RVA: 0x001164B4 File Offset: 0x001146B4
 		public static Lord MakeNewLord(Faction faction, LordJob lordJob, Map map, IEnumerable<Pawn> startingPawns = null)

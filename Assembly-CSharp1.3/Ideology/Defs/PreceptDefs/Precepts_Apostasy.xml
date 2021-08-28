@@ -38,6 +38,7 @@
         <eventDef>ChangedIdeo</eventDef>
         <thought>ChangedIdeo_Know_Abhorrent</thought>
         <description>Changed ideoligion</description>
+        <doerMustBeMyIdeo>true</doerMustBeMyIdeo>
       </li>
       <li Class="PreceptComp_SituationalThought">
         <thought>IsApostate_Abhorrent_Social</thought>
@@ -67,6 +68,7 @@
         <eventDef>ChangedIdeo</eventDef>
         <thought>ChangedIdeo_Know_Horrible</thought>
         <description>Changed ideoligion</description>
+        <doerMustBeMyIdeo>true</doerMustBeMyIdeo>
       </li>
       <li Class="PreceptComp_SituationalThought">
         <thought>IsApostate_Horrible_Social</thought>
@@ -96,6 +98,7 @@
         <eventDef>ChangedIdeo</eventDef>
         <thought>ChangedIdeo_Know_Disapproved</thought>
         <description>Changed ideoligion</description>
+        <doerMustBeMyIdeo>true</doerMustBeMyIdeo>
       </li>
       <li Class="PreceptComp_SituationalThought">
         <thought>IsApostate_Disapproved_Social</thought>
@@ -113,8 +116,8 @@
     <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>apostate</label>
-        <baseOpinionOffset>-80</baseOpinionOffset>
+        <label>recent apostasy</label>
+        <baseOpinionOffset>-30</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>
@@ -127,8 +130,8 @@
     <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>apostate</label>
-        <baseOpinionOffset>-40</baseOpinionOffset>
+        <label>recent apostasy</label>
+        <baseOpinionOffset>-15</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>
@@ -141,8 +144,8 @@
     <stackLimitForSameOtherPawn>3</stackLimitForSameOtherPawn>
     <stages>
       <li>
-        <label>apostate</label>
-        <baseOpinionOffset>-20</baseOpinionOffset>
+        <label>recent apostasy</label>
+        <baseOpinionOffset>-8</baseOpinionOffset>
       </li>
     </stages>
   </ThoughtDef>

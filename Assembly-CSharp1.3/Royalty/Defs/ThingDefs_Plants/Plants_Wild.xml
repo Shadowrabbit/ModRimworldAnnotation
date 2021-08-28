@@ -14,6 +14,7 @@
       </shadowData>
     </graphicData>
     <drawGUIOverlay>True</drawGUIOverlay>
+    <minifiedDef IsNull="True" />
     <statBases>
       <Beauty>5</Beauty>
       <MeditationFocusStrength>0.28</MeditationFocusStrength>
@@ -88,7 +89,7 @@
         <requiredFocus>Natural</requiredFocus>
         <linkSound>AnimaTreeLink</linkSound>
         <enoughPlantsLetterLabel>About: Anima tree linking</enoughPlantsLetterLabel>
-        <enoughPlantsLetterText>The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires more grass at each level.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button.</enoughPlantsLetterText>
+        <enoughPlantsLetterText>The anima tree now has {0} anima grass around it. This is enough for a tribal person to begin their first linking ritual!\n\nThe linking ritual gives a level of psylink and the ability to use psychic powers. Upgrading to a higher level requires 20 grass.\n\nThe anima grass requirements for linking rituals to upgrade psycasters are:\n\n{1}\n\nNote: Only those with the nature focus type can meditate to or link with anima trees. You can see a person's focus types by looking at their info card with the 'i' button.</enoughPlantsLetterText>
       </li>
       <li Class="CompProperties_GiveThoughtToAllMapPawnsOnDestroy">
         <thought>AnimaScream</thought>

@@ -594,6 +594,19 @@
       <li>Manipulation</li>
     </requiredCapacities>
   </WorkGiverDef>
+
+   <WorkGiverDef>
+    <defName>ExtractTree</defName>
+    <label>extract trees</label>
+    <giverClass>WorkGiver_ExtractTree</giverClass>
+    <workType>PlantCutting</workType>
+    <priorityInType>110</priorityInType>
+    <verb>extract</verb>
+    <gerund>extracting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
   
   <WorkGiverDef>
     <defName>BuildRoofs</defName>
@@ -671,6 +684,20 @@
     <nonColonistsCanDo>true</nonColonistsCanDo>
     <prioritizeSustains>true</prioritizeSustains>
     <equivalenceGroup>AssistInConstruction</equivalenceGroup>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>Replant</defName>
+    <label>replant tree</label>
+    <giverClass>WorkGiver_Replant</giverClass>
+    <workType>Growing</workType>
+    <priorityInType>60</priorityInType>
+    <verb>replant</verb>
+    <gerund>replanting</gerund>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+    <nonColonistsCanDo>true</nonColonistsCanDo>
   </WorkGiverDef>
   
   <WorkGiverDef>

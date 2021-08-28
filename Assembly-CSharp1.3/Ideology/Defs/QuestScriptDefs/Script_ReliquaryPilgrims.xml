@@ -8,6 +8,7 @@
     <hideInvolvedFactionsInfo>true</hideInvolvedFactionsInfo>
     <sendAvailableLetter>false</sendAvailableLetter>
     <affectedByPoints>false</affectedByPoints>
+    <successHistoryEvent>ReliquaryPilgrimsSuccess</successHistoryEvent>
     <questDescriptionAndNameRules>
       <rulesStrings>
         

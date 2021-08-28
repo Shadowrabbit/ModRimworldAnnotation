@@ -2,31 +2,31 @@
 <LanguageData>
   
   <!-- EN: burn apparel -->
-  <BurnApparel.label>销毁衣物</BurnApparel.label>
+  <BurnApparel.label>衣服を焼却する</BurnApparel.label>
   <!-- EN: Burn unwanted apparel to completely destroy it. -->
-  <BurnApparel.description>将衣物完全烧毁。</BurnApparel.description>
+  <BurnApparel.description>不要な衣服を完全に焼却します.</BurnApparel.description>
   <!-- EN: Burning apparel. -->
-  <BurnApparel.jobString>正在销毁衣物。</BurnApparel.jobString>
+  <BurnApparel.jobString>衣服を焼却中</BurnApparel.jobString>
   
   <!-- EN: burn drugs -->
-  <BurnDrugs.label>销毁成瘾品</BurnDrugs.label>
+  <BurnDrugs.label>ドラッグを焼却する</BurnDrugs.label>
   <!-- EN: Burn unwanted drugs to completely destroy them. -->
-  <BurnDrugs.description>彻底销毁成瘾品。</BurnDrugs.description>
+  <BurnDrugs.description>不要なドラッグを完全に焼却します.</BurnDrugs.description>
   <!-- EN: Burning drugs. -->
-  <BurnDrugs.jobString>正在销毁成瘾品。</BurnDrugs.jobString>
+  <BurnDrugs.jobString>ドラッグを焼却中</BurnDrugs.jobString>
   
   <!-- EN: burn weapon -->
-  <BurnWeapon.label>销毁武器</BurnWeapon.label>
+  <BurnWeapon.label>武器を焼却する</BurnWeapon.label>
   <!-- EN: Burn unwanted weapon to completely destroy it. -->
-  <BurnWeapon.description>彻底销毁不想要了的武器。</BurnWeapon.description>
+  <BurnWeapon.description>必要のない武器を完全に焼却します.</BurnWeapon.description>
   <!-- EN: Burning weapon. -->
-  <BurnWeapon.jobString>正在销毁武器。</BurnWeapon.jobString>
+  <BurnWeapon.jobString>武器を焼却中</BurnWeapon.jobString>
   
   <!-- EN: cremate corpse -->
-  <CremateCorpse.label>火化尸体</CremateCorpse.label>
+  <CremateCorpse.label>火葬にする</CremateCorpse.label>
   <!-- EN: Cremate a corpse to completely destroy it. -->
-  <CremateCorpse.description>把尸体火化以将其摧毁。</CremateCorpse.description>
+  <CremateCorpse.description>遺体を荼毘に付します.</CremateCorpse.description>
   <!-- EN: Cremating. -->
-  <CremateCorpse.jobString>正在火化。</CremateCorpse.jobString>
+  <CremateCorpse.jobString>火葬中</CremateCorpse.jobString>
   
 </LanguageData>

@@ -2,12 +2,12 @@
 <LanguageData>
   
   <!-- EN: cure scaria -->
-  <CureScaria.label>治疗狂暴症</CureScaria.label>
+  <CureScaria.label>スカリア病を治療する</CureScaria.label>
   <!-- EN: This special medical operation cures scaria. -->
-  <CureScaria.description>这项特殊的医疗手术可以治疗狂暴症。</CureScaria.description>
+  <CureScaria.description>この最先端医療手術はスカリア病を治療します.</CureScaria.description>
   <!-- EN: Curing scaria. -->
-  <CureScaria.jobString>正在治疗狂暴症。</CureScaria.jobString>
+  <CureScaria.jobString>スカリア病を治療している</CureScaria.jobString>
   <!-- EN: {0} has successfully cured {1}'s scaria. -->
-  <CureScaria.successfullyRemovedHediffMessage>{0}成功治愈了{1}的狂暴症。</CureScaria.successfullyRemovedHediffMessage>
+  <CureScaria.successfullyRemovedHediffMessage>{0}は{1}のスカリア病を治療することに成功した.</CureScaria.successfullyRemovedHediffMessage>
   
 </LanguageData>

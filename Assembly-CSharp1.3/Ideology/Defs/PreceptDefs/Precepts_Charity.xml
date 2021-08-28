@@ -58,7 +58,7 @@
 
   <HistoryEventDef>
     <defName>CharityFulfilled_WandererJoins</defName>
-    <label>wanderer accepted</label>
+    <label>wanderer helped</label>
   </HistoryEventDef>
   
   <HistoryEventDef>
@@ -87,8 +87,40 @@
   </HistoryEventDef>
 
   <!-- Precepts -->
+  <PreceptDef Abstract="True" Name="CharityPositiveBase">
+    <comps>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_Beggars</eventDef>
+        <points>2</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_WandererJoins</eventDef>
+        <points>1</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_HospitalityRefugees</eventDef>
+        <points>2</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_ShuttleCrashRescue</eventDef>
+        <points>3</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_RefugeePodCrash</eventDef>
+        <points>1</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_IntroWimp</eventDef>
+        <points>1</points>
+      </li>
+      <li Class="PreceptComp_DevelopmentPoints">
+        <eventDef>CharityFulfilled_ThreatReward_Joiner</eventDef>
+        <points>2</points>
+      </li>
+    </comps>
+  </PreceptDef>
 
-  <PreceptDef>
+  <PreceptDef ParentName="CharityPositiveBase">
     <defName>Charity_Essential</defName>
     <issue>Charity</issue>
     <label>essential</label>
@@ -169,7 +201,7 @@
     </comps>
   </PreceptDef>
 
-  <PreceptDef>
+  <PreceptDef ParentName="CharityPositiveBase">
     <defName>Charity_Important</defName>
     <issue>Charity</issue>
     <label>important</label>
@@ -250,7 +282,7 @@
     </comps>
   </PreceptDef>
 
-  <PreceptDef>
+  <PreceptDef ParentName="CharityPositiveBase">
     <defName>Charity_Worthwhile</defName>
     <issue>Charity</issue>
     <label>worthwhile</label>

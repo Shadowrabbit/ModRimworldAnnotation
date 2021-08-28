@@ -217,7 +217,7 @@
     <label>sterilize</label>
     <description>Sterilize a creature so it can no longer reproduce.</description>
     <workerClass>Recipe_AddHediff</workerClass>
-    <jobString>sterilizing targetA.</jobString>
+    <jobString>sterilizing TargetA.</jobString>
     <workAmount>500</workAmount>
     <hideBodyPartNames>true</hideBodyPartNames>
     <isViolation>true</isViolation>

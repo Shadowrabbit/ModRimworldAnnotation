@@ -16,6 +16,7 @@
     <alwaysHaulable>true</alwaysHaulable>
     <isTechHediff>true</isTechHediff>
     <pathCost>14</pathCost>
+    <allowedArchonexusCount>1</allowedArchonexusCount>
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>0.7</Flammability>

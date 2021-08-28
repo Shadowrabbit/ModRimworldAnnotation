@@ -163,4 +163,17 @@
     </tags>
   </BodyPartDef>
 
+  <BodyPartDef>
+    <defName>Tongue</defName>
+    <label>tongue</label>
+    <skinCovered>false</skinCovered>
+    <bleedRate>0</bleedRate>
+    <beautyRelated>true</beautyRelated>
+    <forceAlwaysRemovable>true</forceAlwaysRemovable>
+    <removeRecipeLabelOverride>remove</removeRecipeLabelOverride>
+    <tags>
+      <li>Tongue</li>
+    </tags>
+  </BodyPartDef>
+
 </Defs>

@@ -1127,7 +1127,7 @@
     </comps>
   </AbilityDef>
 
-  <AbilityDef ParentName="SpeechBase">
+  <AbilityDef ParentName="SpeechBase"> <!-- [Obsolete] -->
     <defName>AnimaTreeLinking</defName>
     <label>anima tree linking</label>
     <description>Start the anima tree linking ceremony. The linking person will meditate near the tree to gain a psylink level. Other psychically-sensitive colonists can also  help enhance the psychic link. More participants will accelerate the ceremony and cause some of the anima grass to re-grow as the ritual completes.</description>

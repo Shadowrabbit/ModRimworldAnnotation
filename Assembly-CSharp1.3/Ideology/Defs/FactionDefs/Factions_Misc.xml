@@ -30,8 +30,8 @@
     <techLevel>Neolithic</techLevel>
     <basicMemberKind>Beggar</basicMemberKind>
     <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li>Raider</li>
+      <li>Blindsight</li>
     </disallowedMemes>
     <backstoryFilters>
       <li>
@@ -68,8 +68,9 @@
       <li>Cannibal</li>
     </requiredMemes>
     <disallowedMemes>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
-      <li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+      <li>Nudism</li>
+      <li>Blindsight</li>
+      <li>AnimalPersonhood</li>
     </disallowedMemes>
     <maxConfigurableAtWorldCreation>9999</maxConfigurableAtWorldCreation>
     <configurationListOrderPriority>61</configurationListOrderPriority>

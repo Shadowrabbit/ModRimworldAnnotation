@@ -2,64 +2,64 @@
 <LanguageData>
   
   <!-- EN: Crashlanded -->
-  <Crashlanded.label>迫降</Crashlanded.label>
+  <Crashlanded.label>不時着</Crashlanded.label>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. -->
-  <Crashlanded.description>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。随后不久，你们降落到了这个充满未知的边缘世界上。</Crashlanded.description>
+  <Crashlanded.description>冬眠カプセルの中の,あなた達三人は,警報と船体が引き裂かれる音に起こされました.宇宙船がバラバラに四散する前に,なんとか脱出ポッドに乗ることができました.少しの時間を経て,あなた達は,この未確認のRimworldに着陸しました.</Crashlanded.description>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. -->
-  <Crashlanded.scenario.description>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。随后不久，你们降落到了这个充满未知的边缘世界上。</Crashlanded.scenario.description>
+  <Crashlanded.scenario.description>冬眠カプセルの中の,あなた達三人は,警報と船体が引き裂かれる音に起こされました.宇宙船がバラバラに四散する前に,なんとか脱出ポッドに乗ることができました.少しの時間を経てあなた達はこの未確認のRimworldに着陸しました.</Crashlanded.scenario.description>
   <!-- EN: Crashlanded -->
-  <Crashlanded.scenario.name>迫降</Crashlanded.scenario.name>
+  <Crashlanded.scenario.name>不時着</Crashlanded.scenario.name>
   <!-- EN: Three crashlanded survivors - the classic RimWorld experience. -->
-  <Crashlanded.scenario.summary>三名迫降生还者 - RimWorld经典的开局模式。</Crashlanded.scenario.summary>
+  <Crashlanded.scenario.summary>不時着した三人の生存者−標準的なRimworldの世界を堪能してください.</Crashlanded.scenario.summary>
   
   <!-- EN: Lost Tribe -->
-  <LostTribe.label>失落的部落</LostTribe.label>
+  <LostTribe.label>ロスト トライブ</LostTribe.label>
   <!-- EN: Your tribe was destroyed by the great blood machines sent by the gods. Five of you managed to escape. Now, it's time to build up a new home.\n\nNote: Since you'll start poor and lack technology, this is a difficult scenario. -->
-  <LostTribe.description>神明派出大量极度残暴的机械体毁灭了你的部落。你们五人死里逃生。现在是时候建造一个新的家园了。\n\n注意：你的开局会很穷并且研究很慢，这是个高难度的剧本。</LostTribe.description>
+  <LostTribe.description>あなたの部族は,破壊神によって滅ぼされましたが,5人だけが生き残りました.今まさに,新しい家を立て直すときなのです.\n\n注意：開始時の資源と技術が乏しいため,難しいシナリオです.</LostTribe.description>
   <!-- EN: Your tribe was destroyed by the great blood machines sent by the gods. Five of you managed to escape. Now, it's time to build up a new home.\n\nNote: Since you'll start poor and lack technology, this is a difficult scenario. -->
-  <LostTribe.scenario.description>神明派出大量极度残暴的机械体毁灭了你的部落。你们五人死里逃生。现在是时候建造一个新的家园了。\n\n注意：你的开局会很穷并且研究很慢，这是个高难度的剧本。</LostTribe.scenario.description>
+  <LostTribe.scenario.description>あなたの部族は,破壊神によって滅ぼされましたが,5人だけが生き残りました.今まさに,新しい家を立て直すときなのです.\n\n注意：開始時の資源と技術が乏しいため,難しいシナリオです.</LostTribe.scenario.description>
   <!-- EN: Lost Tribe -->
-  <LostTribe.scenario.name>失落的部落</LostTribe.scenario.name>
+  <LostTribe.scenario.name>ロスト トライブ</LostTribe.scenario.name>
   <!-- EN: The gods were very angry. The blood machines came at night. They swept through your village, cutting and burning your people with their blades and devil-fire.\n\nOnly a few of you escaped.\n\nNow, after a harrowing journey, with no friends to turn to, you must build a new home in the wilderness - like your ancestors did. -->
-  <LostTribe.scenario.parts.GameStartDialog.text>神，非常愤怒。血腥的机械体在漆黑的夜晚降临。他们席卷了你的村庄，用他们的镰刃收割着生命，用他们的魔焰焚烧着大地。\n\n你们中只有少数几人逃了出来。\n\n现在，经过了悲痛的旅程后，无依无靠，你们必须像你的祖先那样，在荒野中建设你们的家园。</LostTribe.scenario.parts.GameStartDialog.text>
+  <LostTribe.scenario.parts.GameStartDialog.text>神々は非常に怒っていた.血まみれの殺戮マシーンは夜にやってきた.\n彼らは,あなたの村を襲い,地獄の業火と刃で,住民を切り刻んで焼き払った.\n\nあなたを含めた数人だけが脱出した.\n\nその後,悲惨な徒歩での旅をし,親友を頼みにもできずに,今,あなたは荒野に新しい住処を作らねばならない,祖先も,そうやって来たように.</LostTribe.scenario.parts.GameStartDialog.text>
   <!-- EN: Five lost tribespeople attempt to rebuild. Difficult. -->
-  <LostTribe.scenario.summary>五个幸存的部落人顽强重建家园。高难度。</LostTribe.scenario.summary>
+  <LostTribe.scenario.summary>5人の原住民で復活を試みます.</LostTribe.scenario.summary>
   
   <!-- EN: Naked Brutality -->
-  <NakedBrutality.label>赤裸的暴行</NakedBrutality.label>
+  <NakedBrutality.label>ネイキッド</NakedBrutality.label>
   <!-- EN: You went under anesthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason. -->
-  <NakedBrutality.description>你被迫接受了一次麻醉手术。 现在你已经在迫降舱里醒来，并坠落在一颗遥远的星球上。赤身裸体，孤身一人，毫无准备。你能生存下去吗?\n\n警告: 这是一个极其困难的剧本。</NakedBrutality.description>
+  <NakedBrutality.description>あなたは簡単な手術をするために,麻酔によって深い眠りに落ちました.今,あなたは遠く離れた惑星大気圏に突入する,脱出ポッドの中で目を覚ましました.あなたは全裸で,単身で,所持品は全く持っていません.生き残ることができますか？\n\n警告：このシナリオには,全く見込みがありません-極めて非常に難しく,どんなことでも死に直結します.</NakedBrutality.description>
   <!-- EN: You went under anesthetic for a minor surgery. Now you've awoken in a drop pod crashing into a distant planet. You're naked, alone, and totally unprepared. Can you survive?\n\nWarning: There is nothing fair about this scenario - it is extremely difficult and death can happen for any reason. -->
-  <NakedBrutality.scenario.description>你被迫接受了一次麻醉手术。 现在你已经在迫降舱里醒来，并坠落在一颗遥远的星球上。赤身裸体，孤身一人，毫无准备。你能生存下去吗?\n\n警告: 这是一个极其困难的剧本。</NakedBrutality.scenario.description>
+  <NakedBrutality.scenario.description>あなたは簡単な手術をするため,麻酔によって深い眠りへと落ちていました.あなたは今,遠く離れた惑星の,大気圏に突入している脱出ポッドの中で目を覚ましました.あなたは全裸で,単身,何も所持品を持っていません.生き残ることができますか？\n\n警告：このシナリオには,全く見込みがありません-極めて非常に難しく,どんな些細なことでも死に直結します.</NakedBrutality.scenario.description>
   <!-- EN: Naked Brutality -->
-  <NakedBrutality.scenario.name>赤裸的暴行</NakedBrutality.scenario.name>
+  <NakedBrutality.scenario.name>ネイキッド</NakedBrutality.scenario.name>
   <!-- EN: It was supposed to be a minor surgery. Just an hour under anesthetic. You felt totally safe.\n\nNow you've awoken inside a drop pod punching through the atmosphere of a distant rimworld.\n\nAside from a slick of mysterious goo all over your body, you are totally naked. With no preparation, no supplies, and no tools, can you survive? -->
-  <NakedBrutality.scenario.parts.GameStartDialog.text>这应该是一个小手术。仅有一个小时的麻醉时间。你觉得很安全。但当你醒来时已经在一个迫降舱里，穿过一个遥远的边缘世界的大气层。你全身都是奇怪的黏液，赤身裸体空无一物。没有装备，没有补给，没有工具，你能生存下去吗?</NakedBrutality.scenario.parts.GameStartDialog.text>
+  <NakedBrutality.scenario.parts.GameStartDialog.text>簡単な手術だと思っていた.たった１時間の麻酔だと思っていた,絶対に安全な筈だった.\n\nまさに今,あなたは辺境の星Rimworldの大気圏に突入する脱出ポッドの中で目を覚ましました.\n\n全身を覆う不可思議なツルツルした物のことはさておき,あなたは全裸です,何の準備もなく,補給品もなし,道具もありません.生き残ることができるでしょうか？</NakedBrutality.scenario.parts.GameStartDialog.text>
   <!-- EN: Naked, alone, and utterly unprepared. Can you survive? Extremely difficult and unfair. -->
-  <NakedBrutality.scenario.summary>赤身裸体，孤身一人，毫无准备。你能生存下去吗？这是极其困难而且不公平的难度。</NakedBrutality.scenario.summary>
+  <NakedBrutality.scenario.summary>全裸,単身,徹底的に下準備無し.あなたは生き残ることができますか？極めて非常に難しく,不公平です.</NakedBrutality.scenario.summary>
   
   <!-- EN: The Rich Explorer -->
-  <TheRichExplorer.label>富有的探险家</TheRichExplorer.label>
+  <TheRichExplorer.label>リッチ エクスプローラー</TheRichExplorer.label>
   <!-- EN: People called you crazy for leaving your glitterworld home, but you always yearned to explore the stars - outside the neurosimulator. Now you're at the end of your long journey in cryptosleep, landing on an unknown rimworld to see what it's like.\n\nNote: Since your starting character will lack some skills, this is an especially difficult scenario in the early game. -->
-  <TheRichExplorer.description>离开了你在闪耀世界的家，大家都说你疯了，但你一直渴望丢掉虚拟头盔，而在真正的星际间探险。现在你从漫长的低温休眠旅程中苏醒过来，降落在一个未知的边缘世界上，那就看看到底如何吧。\n\n注意：你的初始角色会缺少部分技能，这是个在游戏早期特别高难度的剧本。</TheRichExplorer.description>
+  <TheRichExplorer.description>人々は,きらびやかな生活を捨てたあなたのことを'クレイジー'と呼ぶでしょうけど,あなたは,いつも星々を探検することに憧れていました.シミュレーターでの探検はもう終わりです.今,冷凍冬眠カプセルでの長い旅も終わりました.未知のRimWorldに降り立ち,その眼で確かめるときが来たのです.\n\n注意：始めたばかりのキャラクターはスキルが不足しているため,ゲームの初期段階が特に難しいシナリオです.</TheRichExplorer.description>
   <!-- EN: People called you crazy for leaving your glitterworld home, but you always yearned to explore the stars - outside the neurosimulator. Now you're at the end of your long journey in cryptosleep, landing on an unknown rimworld to see what it's like.\n\nNote: Since your starting character will lack some skills, this is an especially difficult scenario in the early game. -->
-  <TheRichExplorer.scenario.description>离开了你在闪耀世界的家，大家都说你疯了，但你一直渴望丢掉虚拟头盔，而在真正的星际间探险。现在你从漫长的低温休眠旅程中苏醒过来，降落在一个未知的边缘世界上，那就看看到底如何吧。\n\n注意：你的初始角色会缺少部分技能，这是个在游戏早期特别高难度的剧本。</TheRichExplorer.scenario.description>
+  <TheRichExplorer.scenario.description>人々は,きらびやかな生活を捨てたあなたのことを'クレイジー'と呼ぶでしょうけど,あなたは,いつも星々を探検することに憧れていました.シミュレーターでの探検はもう終わりです.今,冷凍冬眠カプセルでの長い旅も終わりました.未知のRimWorldに降り立ち,その眼で確かめるときが来たのです.\n\n注意：始めたばかりのキャラクターはスキルが不足しているため,ゲームの初期段階が特に難しいシナリオです.</TheRichExplorer.scenario.description>
   <!-- EN: The Rich Explorer -->
-  <TheRichExplorer.scenario.name>富有的探险家</TheRichExplorer.scenario.name>
+  <TheRichExplorer.scenario.name>リッチ エクスプローラー</TheRichExplorer.scenario.name>
   <!-- EN: The neurosimulations, holo-games, and free-orgies were never enough for you. You wanted more - the grit and consequence of real life, like they talk about in the history books. You wanted to know what real challenge and consequence feel like.\n\nNow, after a journey of decades in cryptosleep, you're landing on this unknown rimworld. Real consequences await you. -->
-  <TheRichExplorer.scenario.parts.GameStartDialog.text>无论是神经模拟器、全息游戏，还是放纵的酒会都无法满足你，你想要的更多，你想感受人生的坎坷和因果机缘，就像历史书里描述的那样。你希望了解真正的挑战与后果是什么。\n\n而此刻，经过了数十年的低温休眠，你降落在了这片未知的边缘世界上。真实的挑战正等待着你。</TheRichExplorer.scenario.parts.GameStartDialog.text>
+  <TheRichExplorer.scenario.parts.GameStartDialog.text>ニューロシミュレーション,ホロ・ゲーム,などでは,あなたを満足させません.あなたはもっと,勇気や人生の帰結点,歴史書で語られているようなものを求めています.\n\n今,10年にも渡る冷凍冬眠の旅が終わり,この良く分からないRimworldに降り立ちました.本当の歴史が貴方を待っているのです.</TheRichExplorer.scenario.parts.GameStartDialog.text>
   <!-- EN: One rich explorer out to experience the universe. Extra difficult. -->
-  <TheRichExplorer.scenario.summary>一个富有的探险家在宇宙中前所未有的经历。特别高难度。</TheRichExplorer.scenario.summary>
+  <TheRichExplorer.scenario.summary>装備に恵まれたひとりの冒険者が,この世界に降り立ちます.</TheRichExplorer.scenario.summary>
   
   <!-- EN: tutorial -->
-  <Tutorial.label>教程</Tutorial.label>
+  <Tutorial.label>tutorial</Tutorial.label>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. -->
-  <Tutorial.description>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。随后不久，你们降落到了这个充满未知的边缘世界上。</Tutorial.description>
+  <Tutorial.description>The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld.</Tutorial.description>
   <!-- EN: The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld. -->
-  <Tutorial.scenario.description>你们三人在刺耳的警报声与金属碎裂声中从低温休眠舱内醒来，然后勉强在飞船四分五裂前钻进了逃生舱内。随后不久，你们降落到了这个充满未知的边缘世界上。</Tutorial.scenario.description>
+  <Tutorial.scenario.description>The three of you awake in your cryptosleep sarcophagi to the sound of sirens and ripping metal. You barely get to the escape pods before the ship is torn apart. Some time later, you land on this unknown rimworld.</Tutorial.scenario.description>
   <!-- EN: tutorial -->
-  <Tutorial.scenario.name>教程</Tutorial.scenario.name>
+  <Tutorial.scenario.name>tutorial</Tutorial.scenario.name>
   <!-- EN: Three crashlanded survivors - the classic RimWorld experience. -->
-  <Tutorial.scenario.summary>三名迫降生还者 - RimWorld经典的开局模式。</Tutorial.scenario.summary>
+  <Tutorial.scenario.summary>Three crashlanded survivors - the classic RimWorld experience.</Tutorial.scenario.summary>
   
 </LanguageData>

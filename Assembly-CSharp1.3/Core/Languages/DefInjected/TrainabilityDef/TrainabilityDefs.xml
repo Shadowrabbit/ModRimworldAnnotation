@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: advanced -->
-  <Advanced.label>高级</Advanced.label>
+  <Advanced.label>上級</Advanced.label>
   
   <!-- EN: intermediate -->
-  <Intermediate.label>中级</Intermediate.label>
+  <Intermediate.label>中級</Intermediate.label>
   
   <!-- EN: none -->
-  <None.label>无</None.label>
+  <None.label>無し</None.label>
   
   <!-- EN: simple -->
-  <Simple.label>简单</Simple.label>
+  <Simple.label>単純</Simple.label>
   
 </LanguageData>

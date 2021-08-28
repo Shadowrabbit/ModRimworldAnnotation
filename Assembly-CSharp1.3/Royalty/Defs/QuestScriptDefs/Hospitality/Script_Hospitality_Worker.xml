@@ -884,6 +884,7 @@
                 <parms>
                   <leaveDelayTicks>$shuttleLeaveDelayTicks</leaveDelayTicks>
                   <requiredPawns>$lodgers</requiredPawns>
+                  <sendAwayIfAllDespawned>$lodgers</sendAwayIfAllDespawned>
                 </parms>
               </li>
 
@@ -1277,7 +1278,8 @@
               <li Class="QuestNode_GiveRewards">
                 <parms>
                   <allowGoodwill>true</allowGoodwill>
-                  <allowRoyalFavor>true</allowRoyalFavor>               
+                  <allowRoyalFavor>true</allowRoyalFavor>  
+                  <allowDevelopmentPoints MayRequire="Ludeon.RimWorld.Ideology">true</allowDevelopmentPoints>             
                 </parms>
               </li>
               <li Class="QuestNode_End">

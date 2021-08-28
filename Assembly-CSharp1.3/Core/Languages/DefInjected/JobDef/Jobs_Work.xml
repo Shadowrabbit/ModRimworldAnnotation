@@ -2,144 +2,144 @@
 <LanguageData>
   
   <!-- EN: arresting TargetA. -->
-  <Arrest.reportString>正在逮捕TargetA。</Arrest.reportString>
+  <Arrest.reportString>TargetAを逮捕中</Arrest.reportString>
   
   <!-- EN: building roof. -->
-  <BuildRoof.reportString>正在建造屋顶。</BuildRoof.reportString>
+  <BuildRoof.reportString>屋根を取り付けている</BuildRoof.reportString>
   
   <!-- EN: capturing TargetA. -->
-  <Capture.reportString>正在俘虏TargetA。</Capture.reportString>
+  <Capture.reportString>TargetAを捕獲中</Capture.reportString>
   
   <!-- EN: carrying TargetA. -->
-  <CarryDownedPawnToExit.reportString>正在抬走TargetA。</CarryDownedPawnToExit.reportString>
+  <CarryDownedPawnToExit.reportString>TargetAを担ぎ中</CarryDownedPawnToExit.reportString>
   
   <!-- EN: carrying TargetA to cryptosleep casket. -->
-  <CarryToCryptosleepCasket.reportString>正在将TargetA送入低温休眠舱。</CarryToCryptosleepCasket.reportString>
+  <CarryToCryptosleepCasket.reportString>TargetAを冬眠カプセルに搬送中</CarryToCryptosleepCasket.reportString>
   
   <!-- EN: cleaning TargetA. -->
-  <Clean.reportString>正在清理TargetA。</Clean.reportString>
+  <Clean.reportString>TargetAを掃除中</Clean.reportString>
   
   <!-- EN: cutting TargetA. -->
-  <CutPlant.reportString>正在割除TargetA。</CutPlant.reportString>
+  <CutPlant.reportString>TargetAを伐採・刈り取り中</CutPlant.reportString>
   
   <!-- EN: cutting TargetA. -->
-  <CutPlantDesignated.reportString>正在割除TargetA。</CutPlantDesignated.reportString>
+  <CutPlantDesignated.reportString>TargetAを伐採・刈り取り中</CutPlantDesignated.reportString>
   
   <!-- EN: deconstructing TargetA. -->
-  <Deconstruct.reportString>正在拆除TargetA。</Deconstruct.reportString>
+  <Deconstruct.reportString>TargetAを解体中</Deconstruct.reportString>
   
   <!-- EN: feeding TargetA to TargetB. -->
-  <DeliverFood.reportString>正在将TargetA带给TargetB吃。</DeliverFood.reportString>
+  <DeliverFood.reportString>TargetBにTargetAを給仕中</DeliverFood.reportString>
   
   <!-- EN: doing bill at TargetA. -->
-  <DoBill.reportString>正在完成TargetA清单。</DoBill.reportString>
+  <DoBill.reportString>TargetAで作業中</DoBill.reportString>
   
   <!-- EN: escorting prisoner TargetA. -->
-  <EscortPrisonerToBed.reportString>正在押送TargetA。</EscortPrisonerToBed.reportString>
+  <EscortPrisonerToBed.reportString>TargetAを護送中</EscortPrisonerToBed.reportString>
   
   <!-- EN: feeding TargetA to TargetB. -->
-  <FeedPatient.reportString>正在将TargetA喂给TargetB吃。</FeedPatient.reportString>
+  <FeedPatient.reportString>TargetAをTargetBに給仕中</FeedPatient.reportString>
   
   <!-- EN: building TargetA. -->
-  <FinishFrame.reportString>正在建造TargetA。</FinishFrame.reportString>
+  <FinishFrame.reportString>TargetAを仕上げ中</FinishFrame.reportString>
   
   <!-- EN: replacing broken components in TargetA. -->
-  <FixBrokenDownBuilding.reportString>正在给TargetA更换零部件。</FixBrokenDownBuilding.reportString>
+  <FixBrokenDownBuilding.reportString>TargetAの壊れたコンポーネントを交換中</FixBrokenDownBuilding.reportString>
   
   <!-- EN: harvesting TargetA. -->
-  <Harvest.reportString>正在收获TargetA。</Harvest.reportString>
+  <Harvest.reportString>TargetAを収穫中</Harvest.reportString>
   
   <!-- EN: harvesting TargetA. -->
-  <HarvestDesignated.reportString>正在收获TargetA。</HarvestDesignated.reportString>
+  <HarvestDesignated.reportString>TargetAを伐採・採取中</HarvestDesignated.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulToCell.reportString>正在搬运TargetA。</HaulToCell.reportString>
+  <HaulToCell.reportString>TargetAを運搬中</HaulToCell.reportString>
   
   <!-- EN: hauling TargetA. -->
-  <HaulToContainer.reportString>正在搬运TargetA。</HaulToContainer.reportString>
+  <HaulToContainer.reportString>TargetAを運搬中</HaulToContainer.reportString>
   
   <!-- EN: hunting TargetA. -->
-  <Hunt.reportString>正在狩猎TargetA。</Hunt.reportString>
+  <Hunt.reportString>TargetAを狩っている</Hunt.reportString>
   
   <!-- EN: kidnapping TargetA. -->
-  <Kidnap.reportString>正在绑架TargetA。</Kidnap.reportString>
+  <Kidnap.reportString>TargetAを誘拐中</Kidnap.reportString>
   
   <!-- EN: milking TargetA. -->
-  <Milk.reportString>正在给TargetA挤奶。</Milk.reportString>
+  <Milk.reportString>TargetAを搾乳中</Milk.reportString>
   
   <!-- EN: digging at TargetA. -->
-  <Mine.reportString>正在开采TargetA。</Mine.reportString>
+  <Mine.reportString>TargetAを掘削中</Mine.reportString>
   
   <!-- EN: drilling at TargetA. -->
-  <OperateDeepDrill.reportString>正在操作TargetA。</OperateDeepDrill.reportString>
+  <OperateDeepDrill.reportString>TargetAでボーリング中</OperateDeepDrill.reportString>
   
   <!-- EN: scanning at TargetA. -->
-  <OperateScanner.reportString>正在用TargetA扫描。</OperateScanner.reportString>
+  <OperateScanner.reportString>TargetAでスキャン中</OperateScanner.reportString>
   
   <!-- EN: building TargetA. -->
-  <PlaceNoCostFrame.reportString>正在建造TargetA。</PlaceNoCostFrame.reportString>
+  <PlaceNoCostFrame.reportString>TargetAを建設中</PlaceNoCostFrame.reportString>
   
   <!-- EN: attempting to recruit TargetA. -->
-  <PrisonerAttemptRecruit.reportString>正在尝试招募TargetA。</PrisonerAttemptRecruit.reportString>
+  <PrisonerAttemptRecruit.reportString>TargetAを勧誘中</PrisonerAttemptRecruit.reportString>
   
   <!-- EN: executing TargetA. -->
-  <PrisonerExecution.reportString>正在处决TargetA。</PrisonerExecution.reportString>
+  <PrisonerExecution.reportString>TargetAを処刑中</PrisonerExecution.reportString>
   
   <!-- EN: releasing TargetA. -->
-  <ReleasePrisoner.reportString>正在释放TargetA。</ReleasePrisoner.reportString>
+  <ReleasePrisoner.reportString>TargetAを釈放中</ReleasePrisoner.reportString>
   
   <!-- EN: removing floor. -->
-  <RemoveFloor.reportString>正在拆除地板。</RemoveFloor.reportString>
+  <RemoveFloor.reportString>床を剥がしている</RemoveFloor.reportString>
   
   <!-- EN: removing roof. -->
-  <RemoveRoof.reportString>正在拆除屋顶。</RemoveRoof.reportString>
+  <RemoveRoof.reportString>屋根を取り外している</RemoveRoof.reportString>
   
   <!-- EN: repairing TargetA. -->
-  <Repair.reportString>正在修理TargetA。</Repair.reportString>
+  <Repair.reportString>TargetAを修理中</Repair.reportString>
   
   <!-- EN: rescuing TargetA. -->
-  <Rescue.reportString>正在救援TargetA。</Rescue.reportString>
+  <Rescue.reportString>TargetAを救助中</Rescue.reportString>
   
   <!-- EN: researching. -->
-  <Research.reportString>正在研究中。</Research.reportString>
+  <Research.reportString>研究中</Research.reportString>
   
   <!-- EN: shearing TargetA. -->
-  <Shear.reportString>正在给TargetA剪毛。</Shear.reportString>
+  <Shear.reportString>TargetAを毛刈り中</Shear.reportString>
   
   <!-- EN: slaughtering TargetA. -->
-  <Slaughter.reportString>正在屠宰TargetA。</Slaughter.reportString>
+  <Slaughter.reportString>TargetAを屠殺中</Slaughter.reportString>
   
   <!-- EN: smoothing floor. -->
-  <SmoothFloor.reportString>正在打磨地面。</SmoothFloor.reportString>
+  <SmoothFloor.reportString>床をならしている</SmoothFloor.reportString>
   
   <!-- EN: smoothing wall. -->
-  <SmoothWall.reportString>正在打磨墙壁。</SmoothWall.reportString>
+  <SmoothWall.reportString>壁を磨いている</SmoothWall.reportString>
   
   <!-- EN: sowing TargetA. -->
-  <Sow.reportString>正在种植TargetA。</Sow.reportString>
+  <Sow.reportString>TargetAの種まき中</Sow.reportString>
   
   <!-- EN: stealing TargetA. -->
-  <Steal.reportString>正在掠夺TargetA。</Steal.reportString>
+  <Steal.reportString>TargetAを略奪中</Steal.reportString>
   
   <!-- EN: taking TargetA to bed. -->
-  <TakeToBedToOperate.reportString>正在将TargetA送到床上。</TakeToBedToOperate.reportString>
+  <TakeToBedToOperate.reportString>TargetAを診察台に搬送中</TakeToBedToOperate.reportString>
   
   <!-- EN: taking wounded prisoner TargetA. -->
-  <TakeWoundedPrisonerToBed.reportString>正在将受伤的囚犯TargetA送到床上。</TakeWoundedPrisonerToBed.reportString>
+  <TakeWoundedPrisonerToBed.reportString>TargetAを救護中</TakeWoundedPrisonerToBed.reportString>
   
   <!-- EN: taming TargetA. -->
-  <Tame.reportString>正在尝试驯服TargetA。</Tame.reportString>
+  <Tame.reportString>TargetAを手懐け中</Tame.reportString>
   
   <!-- EN: tending to TargetA. -->
-  <TendPatient.reportString>正在治疗TargetA。</TendPatient.reportString>
+  <TendPatient.reportString>TargetAの看病中</TendPatient.reportString>
   
   <!-- EN: training TargetA. -->
-  <Train.reportString>正在训练TargetA。</Train.reportString>
+  <Train.reportString>TargetAを調教中</Train.reportString>
   
   <!-- EN: uninstalling TargetA. -->
-  <Uninstall.reportString>正在卸载TargetA。</Uninstall.reportString>
+  <Uninstall.reportString>TargetAを撤去中</Uninstall.reportString>
   
   <!-- EN: using comms console. -->
-  <UseCommsConsole.reportString>正在使用通讯台。</UseCommsConsole.reportString>
+  <UseCommsConsole.reportString>通信中</UseCommsConsole.reportString>
   
 </LanguageData>

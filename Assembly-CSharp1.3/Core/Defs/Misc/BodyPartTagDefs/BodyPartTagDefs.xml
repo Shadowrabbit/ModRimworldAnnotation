@@ -48,6 +48,10 @@
   </BodyPartTagDef>
 
   <BodyPartTagDef>
+    <defName>Tongue</defName>
+  </BodyPartTagDef>
+
+  <BodyPartTagDef>
     <defName>HearingSource</defName>
   </BodyPartTagDef>
 

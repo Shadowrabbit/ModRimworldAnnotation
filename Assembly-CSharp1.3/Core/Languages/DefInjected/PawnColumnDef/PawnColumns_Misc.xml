@@ -2,30 +2,30 @@
 <LanguageData>
   
   <!-- EN: age -->
-  <Age.label>年龄</Age.label>
+  <Age.label>年齢</Age.label>
   
   <!-- EN: allowed area -->
-  <AllowedArea.label>允许活动区域</AllowedArea.label>
+  <AllowedArea.label>制限ゾーン</AllowedArea.label>
   
   <!-- EN: allowed area -->
-  <AllowedAreaWide.label>允许活动区域</AllowedAreaWide.label>
+  <AllowedAreaWide.label>制限ゾーン</AllowedAreaWide.label>
   
   <!-- EN: drug policy -->
-  <DrugPolicy.label>用药方针</DrugPolicy.label>
+  <DrugPolicy.label>薬物適用方針</DrugPolicy.label>
   
   <!-- EN: food restriction -->
-  <FoodRestriction.label>食物限制</FoodRestriction.label>
+  <FoodRestriction.label>食事制限</FoodRestriction.label>
   
   <!-- EN: Hostility response -->
-  <HostilityResponse.headerTip>遇敌反应</HostilityResponse.headerTip>
+  <HostilityResponse.headerTip>敵愾心</HostilityResponse.headerTip>
   
   <!-- EN: master -->
   <Master.label>主人</Master.label>
   
   <!-- EN: Medical care -->
-  <MedicalCare.headerTip>医疗方针</MedicalCare.headerTip>
+  <MedicalCare.headerTip>治療</MedicalCare.headerTip>
   
   <!-- EN: current outfit -->
-  <Outfit.label>当前着装方案</Outfit.label>
+  <Outfit.label>服装</Outfit.label>
   
 </LanguageData>

@@ -2,15 +2,15 @@
 <LanguageData>
   
   <!-- EN: anything -->
-  <Anything.label>任意</Anything.label>
+  <Anything.label>なんでも</Anything.label>
   
   <!-- EN: recreation -->
-  <Joy.label>娱乐</Joy.label>
+  <Joy.label>娯楽の時間</Joy.label>
   
   <!-- EN: sleep -->
-  <Sleep.label>休息</Sleep.label>
+  <Sleep.label>睡眠の時間</Sleep.label>
   
   <!-- EN: work -->
-  <Work.label>工作</Work.label>
+  <Work.label>仕事の時間</Work.label>
   
 </LanguageData>

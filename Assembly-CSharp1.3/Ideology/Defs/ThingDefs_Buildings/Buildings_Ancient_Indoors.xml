@@ -151,7 +151,7 @@
     </statBases>
     <size>(1,2)</size>
     <building>
-      <bed_showSleeperBody>False</bed_showSleeperBody>
+      <bed_showSleeperBody>True</bed_showSleeperBody>
       <bed_healPerDay>1</bed_healPerDay>
     </building>
     <comps>
@@ -232,6 +232,57 @@
     <size>(1, 1)</size>
     <fillPercent>0.30</fillPercent>
     <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>AncientMilitaryCrate</defName>
+    <label>ancient military crate</label>
+    <description>An ancient, military-looking crate. It was broken long ago and any valuables it once contained were looted.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientMilitaryCrate</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(1, 0.5, 1)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1, 1)</size>
+    <fillPercent>0.30</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>300</WorkToBuild>
+      <Flammability>0.5</Flammability>
+    </statBases>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+  </ThingDef>
+
+  <ThingDef ParentName="BuildingBase">
+    <defName>AncientSpacerCrate</defName>
+    <label>ancient spacer crate</label>
+    <description>An ancient, broken crate. Any valuables it once contained were taken long ago.</description>
+    <rotatable>false</rotatable>
+    <graphicData>
+      <texPath>Things/Building/Ruins/AncientSpacerCrate</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+      <shadowData>
+        <volume>(1, 0.5, 1)</volume>
+      </shadowData>
+    </graphicData>
+    <size>(1, 1)</size>
+    <fillPercent>0.30</fillPercent>
+    <altitudeLayer>Building</altitudeLayer>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>300</WorkToBuild>
@@ -245,18 +296,18 @@
     <defName>AncientBarrel</defName>
     <label>ancient barrel</label>
     <description>An ancient, broken barrel that looks like it once contained waste of some sort. The only thing it contains now is a smear of dried sludge.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientBarrel</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <drawSize>(1,1)</drawSize>
       <shadowData>
-        <volume>(1, 0.5, 1)</volume>
+        <volume>(0.7, 0.5, 0.7)</volume>
       </shadowData>
     </graphicData>
     <size>(1, 1)</size>
     <fillPercent>0.30</fillPercent>
     <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <WorkToBuild>200</WorkToBuild>
@@ -270,6 +321,7 @@
     <defName>AncientGenerator</defName>
     <label>ancient generator</label>
     <description>An ancient electrical generator. Its usable parts were smashed or looted long ago, and the rest has rusted into uselessness.</description>
+    <rotatable>false</rotatable>
     <graphicData>
       <texPath>Things/Building/Ruins/AncientGenerator</texPath>
       <graphicClass>Graphic_Random</graphicClass>

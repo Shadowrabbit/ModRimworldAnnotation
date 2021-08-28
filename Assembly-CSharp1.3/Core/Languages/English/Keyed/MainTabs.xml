@@ -12,7 +12,6 @@
   <IncapableOfWorkTypeBecauseOfCapacities>This colonist is not able to do any work of this type because of his health condition.</IncapableOfWorkTypeBecauseOfCapacities>
   <EmergencyWorkMarker>E</EmergencyWorkMarker>
   <SelectedWorkTypeWithVeryBadSkill >Warning: The average of relevant skills is very low.</SelectedWorkTypeWithVeryBadSkill>
-  <SelectedWorkTypeOpposedByIdeo>Warning: This kind of work is opposed by {0_possessive} ideologion, so it may make this person unhappy.</SelectedWorkTypeOpposedByIdeo>
   <PriorityOneDoneFirst>Priority 1 is done first. Priority 4 is done last.</PriorityOneDoneFirst>
   <Priority0>Will not do</Priority0>
   <Priority1>Top priority</Priority1>
@@ -104,7 +103,7 @@
 
   <!-- Research tab -->
   <Research>Research</Research>
-  <Researched>Researched</Researched>
+  <Study>Study</Study>
   <Unresearched>Unresearched</Unresearched>
   <Finished>Finished</Finished>
   <InProgress>In Progress</InProgress>
@@ -119,12 +118,10 @@
   <ResearchTechprintsFromFactions>Techprints are available from these factions via trade and quests:</ResearchTechprintsFromFactions>
   <TechLevelTooLow>Your faction tech level is {0}, but this project's tech level is {1}. Research speed will be multiplied by {2}.</TechLevelTooLow>
   <UnlockedWith>Unlocked with</UnlockedWith>
-  <ResearchProjectHasDefsWithMissingMemes>{0} unlocks things which you cannot build because they require memes that none of your people believe</ResearchProjectHasDefsWithMissingMemes>
 
   <!-- Factions tab -->
   <FactionsTab>Factions</FactionsTab>
   <NoFactions>No known factions</NoFactions>
-  <IdeoligionsTab>Ideoligions</IdeoligionsTab>
 
   <!-- Quests tab -->
   <AvailableQuests>Available</AvailableQuests>
@@ -181,12 +178,11 @@
   <QuestBetrayalOffer>Betrayal offer: {0} targets remain</QuestBetrayalOffer>
   <QuestBetrayalOfferTip>{0} will grant you a reward for killing all members of the {1}.</QuestBetrayalOfferTip>
   <QuestRequiredPlayerWealth>a colony wealth of at least {0}</QuestRequiredPlayerWealth>
-  <QuestAlliedTo>allied to {0}</QuestAlliedTo>
+  <QuestAlliedTo>alliance with {0}</QuestAlliedTo>
   <QuestHostileTo>hostile to {0}</QuestHostileTo>
   <QuestNeutralTo>neutral to {0}</QuestNeutralTo>
   <QuestRequiredThingStudied>studied {0_labelShort}</QuestRequiredThingStudied>
 
-  
   <!-- Health tab -->
   <CreatesNeed>Creates need</CreatesNeed>
 

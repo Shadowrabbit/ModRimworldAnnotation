@@ -16,6 +16,7 @@
     <displayOrderInImpact>100</displayOrderInImpact>
     <ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
     <receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
+    <classicExtra>true</classicExtra>
   </PreceptDef>
 
   <PreceptDef ParentName="FuneralBase">
@@ -74,8 +75,13 @@
     <label>leader speech</label>
     <description>A rousing speech intended to improve morale. Colonists will gather, and the leader will speak for a few hours. If all goes well, listeners will feel inspired, and gain respect for the leader. If it goes poorly, the speech will do social damage.</description>
     <ritualPatternBase>LeaderSpeech</ritualPatternBase>
-    <iconPath>UI/Icons/Rituals/LeaderSpeech</iconPath>
+    <iconPath>UI/Abilities/LeaderSpeech</iconPath>
     <ignoreNameUniqueness>true</ignoreNameUniqueness>
+    <useCooldownFromAbilityGroupDef>Leader</useCooldownFromAbilityGroupDef>
+    <iconIgnoresIdeoColor>true</iconIgnoresIdeoColor>
+    <sourcePawnRoleDef>IdeoRole_Leader</sourcePawnRoleDef>
+    <sourceAbilityDef>LeaderSpeech</sourceAbilityDef>
+    <classicExtra>true</classicExtra>
   </PreceptDef>
 
   <PreceptDef ParentName="SpeechPreceptBase" Name="TrialBase">
@@ -85,6 +91,8 @@
     <ritualPatternBase>Trial</ritualPatternBase>
     <ignoreNameUniqueness>true</ignoreNameUniqueness>
     <iconPath>UI/Icons/Rituals/Trial</iconPath>
+    <useCooldownFromAbilityGroupDef>Leader</useCooldownFromAbilityGroupDef>
+    <classicExtra>true</classicExtra>
   </PreceptDef>
   
   <PreceptDef ParentName="TrialBase">
@@ -104,6 +112,10 @@
     <selectionWeight>1.0</selectionWeight>
     <ritualPatternBase>Conversion</ritualPatternBase>
     <iconPath>UI/Abilities/ConversionRitual</iconPath>
+    <useCooldownFromAbilityGroupDef>Moralist</useCooldownFromAbilityGroupDef>
+    <sourcePawnRoleDef>IdeoRole_Moralist</sourcePawnRoleDef>
+    <sourceAbilityDef>ConversionRitual</sourceAbilityDef>
+    <classicExtra>true</classicExtra>
   </PreceptDef>
 
   <PreceptDef>
@@ -122,6 +134,7 @@
     <ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
     <receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
     <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+    <allowStackingRitualObligationAlerts>true</allowStackingRitualObligationAlerts>
     <exclusionTags>
       <li>ScarificationBad</li>
     </exclusionTags>
@@ -147,6 +160,7 @@
     <ignoreLimitsInEditMode>false</ignoreLimitsInEditMode>
     <receivesExpectationsQualityOffset>true</receivesExpectationsQualityOffset>
     <canGenerateAsSpecialPrecept>false</canGenerateAsSpecialPrecept>
+    <allowStackingRitualObligationAlerts>true</allowStackingRitualObligationAlerts>
     <associatedMemes>
       <li>Blindsight</li>
     </associatedMemes>

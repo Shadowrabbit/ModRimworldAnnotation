@@ -30,6 +30,7 @@
     <burnableByRecipe>true</burnableByRecipe>
     <resourceReadoutPriority>Last</resourceReadoutPriority>
     <drawGUIOverlay>true</drawGUIOverlay>
+    <allowedArchonexusCount>-1</allowedArchonexusCount>
     <ingestible>
       <preferability>NeverForNutrition</preferability>
       <maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>

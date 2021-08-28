@@ -2,18 +2,18 @@
 <LanguageData>
   
   <!-- EN: ancient asphalt highway -->
-  <AncientAsphaltHighway.label>古老的沥青高速公路</AncientAsphaltHighway.label>
+  <AncientAsphaltHighway.label>舗装路(古高速道)</AncientAsphaltHighway.label>
   
   <!-- EN: ancient asphalt road -->
-  <AncientAsphaltRoad.label>古老的沥青路</AncientAsphaltRoad.label>
+  <AncientAsphaltRoad.label>舗装路(古道)</AncientAsphaltRoad.label>
   
   <!-- EN: dirt path -->
-  <DirtPath.label>泥土小径</DirtPath.label>
+  <DirtPath.label>悪路(小径)</DirtPath.label>
   
   <!-- EN: dirt road -->
-  <DirtRoad.label>土路</DirtRoad.label>
+  <DirtRoad.label>悪路(道)</DirtRoad.label>
   
   <!-- EN: stone road -->
-  <StoneRoad.label>石路</StoneRoad.label>
+  <StoneRoad.label>石畳(道)</StoneRoad.label>
   
 </LanguageData>
